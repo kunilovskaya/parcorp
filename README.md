@@ -1,6 +1,6 @@
 ## handling parallel data
 
-This repository has the code I uased to create a register-balanced EN>RU parallel corpus, complete with comparable non-translations for each register for translationese studies.
+This repository has the code I used to create a register-balanced EN>RU parallel corpus, complete with comparable non-translations for each register for translationese studies.
 
 We source data from the following corpora (some of which have been transformed to a collection of plain-text files from an xml/tmx or single-file corpora before):
 
@@ -8,18 +8,23 @@ We source data from the following corpora (some of which have been transformed t
 (1) fiction
 - parallel: (Russian National Corpus, RNC)[http://www.ruscorpora.ru/new/] available upon request
 - comparable: RNC
+
 (2) media
 - parallel: self-compiled corpus (mostly text-pairs from BBC and InoSMI) + RNC
 - comparable: RNC (main)
+
 (3) official
 - parallel: (UN documents)[https://conferences.unite.un.org/UNCORPUS/en/DownloadOverview#download]
 - comparable: UN Russian sources
+
 (4) popsci
 - parallel: self-compile corpus of 10 popular-scientific books
 - comparable: self-compiled corpus of comparable 14 Russian books
+
 (5) ted
 - parallel: 100 talks from (TedTalks category science)[https://www.ted.com/talks?sort=newest&topics%5B%5D=Science] for 2016-2018
 - comparable: 100 talks on academic topics from Russian (PostNauka lectorium)[https://postnauka.ru/] recorded 2016-2018
+
 (6) web corpus
 - parallel: (Yandex 1M-token parallel corpus)[https://translate.yandex.ru/corpus]
 - reference: a 4.9K-texts random subset of (Araneum Minimum)[http://unesco.uniba.sk/aranea_about/index.html] provided by the author
