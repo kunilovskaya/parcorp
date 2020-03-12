@@ -6,7 +6,7 @@ We source data from the following corpora (some of which have been transformed t
 
 ### Registers and the sources of data
 (1) fiction
-- parallel: (Russian National Corpus, RNC)[http://www.ruscorpora.ru/new/] available upon request
+- parallel: [Russian National Corpus, RNC](http://www.ruscorpora.ru/new/) available upon request
 - comparable: RNC
 
 (2) media
@@ -14,7 +14,7 @@ We source data from the following corpora (some of which have been transformed t
 - comparable: RNC (main)
 
 (3) official
-- parallel: (UN documents)[https://conferences.unite.un.org/UNCORPUS/en/DownloadOverview#download]
+- parallel: [UN documents](https://conferences.unite.un.org/UNCORPUS/en/DownloadOverview#download)
 - comparable: UN Russian sources
 
 (4) popsci
@@ -22,12 +22,12 @@ We source data from the following corpora (some of which have been transformed t
 - comparable: self-compiled corpus of comparable 14 Russian books
 
 (5) ted
-- parallel: 100 talks from (TedTalks category science)[https://www.ted.com/talks?sort=newest&topics%5B%5D=Science] for 2016-2018
-- comparable: 100 talks on academic topics from Russian (PostNauka lectorium)[https://postnauka.ru/] recorded 2016-2018
+- parallel: 100 talks from [TedTalks category science](https://www.ted.com/talks?sort=newest&topics%5B%5D=Science) for 2016-2018
+- comparable: 100 talks on academic topics from Russian [PostNauka lectorium](https://postnauka.ru/) recorded 2016-2018
 
 (6) web corpus
-- parallel: (Yandex 1M-token parallel corpus)[https://translate.yandex.ru/corpus]
-- reference: a 4.9K-texts random subset of (Araneum Minimum)[http://unesco.uniba.sk/aranea_about/index.html] provided by the author
+- parallel: [Yandex 1M-token parallel corpus](https://translate.yandex.ru/corpus)
+- reference: a 4.9K-texts random subset of [Araneum Minimum](http://unesco.uniba.sk/aranea_about/index.html) provided by the author
 
 The repository includes scripts
 - to produce separate text files from pre-existing single-file or few-big-files corpora
@@ -35,10 +35,10 @@ The repository includes scripts
 - to extract text-level frequencies of 45 translationese indicators into a single tsv file with folder-names informed metadata
 
 ### Other available parallel resources that remained outside this project for various reasons
-- EuroParl adapted for translationese studies (no Russian): see (Alina Karakanta's post)[https://medium.com/machine-translation-fbk/weve-told-you-before-re-discovering-translationese-in-machine-translation-research-6159ed45c085]
-- mozilla transvision (lacalization corpus)[https://transvision.mozfr.org/downloads/] (no Russian reference; includes 17.5 K sentence pairs longer that 2 tokens)
-- (Parallel Corpora for European Languages)[https://paracrawl.eu/]: Russian component exists on the side of the main framework, but I have one web corpus already
+- EuroParl adapted for translationese studies (no Russian): see [Alina Karakanta's post](https://medium.com/machine-translation-fbk/weve-told-you-before-re-discovering-translationese-in-machine-translation-research-6159ed45c085)
+- mozilla transvision [localization corpus](https://transvision.mozfr.org/downloads/) (no Russian reference; includes 17.5 K sentence pairs longer that 2 tokens)
+- [Parallel Corpora for European Languages](https://paracrawl.eu/): Russian component exists on the side of the main framework, but I have one web corpus already
 - source-less translations identified in RNC
-- subtitle and other minor and specific genres from (OPUS)[http://opus.nlpl.eu/]
-- multiple student translations from (Russian Learner Translation Corpus, RusLTC)[https://www.rus-ltc.org/search]
+- subtitle and other minor and specific genres from [OPUS](http://opus.nlpl.eu/)
+- multiple student translations from [Russian Learner Translation Corpus, RusLTC](https://www.rus-ltc.org/search)
  
