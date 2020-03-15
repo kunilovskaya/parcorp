@@ -17,6 +17,13 @@ GENERAL
 CERD/C/263/Add.4
 '''
 
+'''
+TODO
+8 ноября 1986 года Армения 13 сентября 1993 года а/ 13 декабря 1993 года Афганистан
+10 January 1992 a/
+13 September 1993 a/
+'''
+
 import os
 import re
 

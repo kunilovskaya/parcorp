@@ -11,7 +11,7 @@ the script expects:
 (4) the preprocess_imports.py module with the functions to be imported
 (5) use conllu_only = True switch to reduce the output to conllu only
 
-USAGE: python3 raw2txt2conllu2lempos.py --raw data/raw/ --outto data/parsed/ --lang en
+USAGE: python3 raw2txt2conllu2lempos.py --texts data/raw/ --outto data/parsed/ --lang en
 '''
 import sys
 import argparse
@@ -20,10 +20,10 @@ from preprocess_imports import * #tokeniseall, unify_sym, postprocess_ud, do_job
 from smart_open import open
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--raw', help="Path to a folder (or a tree of folders) of raw txt files", required=True)
+parser.add_argument('--texts', help="Path to a folder (or a tree of folders) of prepared txt files", required=True)
 # processed makes sense as a dirname
 parser.add_argument('--outto', help="Path to the root folder to hold the resulting tree ending with sent_tok/, conllu/ and lempos/ subs", required=True)
-# parser.add_argument('--lang', type=str, required=True, help='Choose language: en, ru')
+
 
 args = parser.parse_args()
 
@@ -50,7 +50,7 @@ en_pipeline = Pipeline(en_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT,
 
 # # functional = set('ADP AUX CCONJ DET PART PRON SCONJ PUNCT'.split())
 counter = 0
-for subdir, dirs, files in os.walk(args.raw):
+for subdir, dirs, files in os.walk(args.texts):
     for id, f in enumerate(files):
         last_folder = subdir + os.sep
         lang_folder = len(os.path.abspath(last_folder).split('/')) - 1
@@ -75,7 +75,7 @@ for subdir, dirs, files in os.walk(args.raw):
                     do_conllu_only(ru_pipeline, text, lang, ud_outf)
     
                 ### Monitor processing:
-                if counter % 2 == 0:
+                if counter % 50 == 0:
                     print('%s files processed' % counter, file=sys.stderr)
         else:
             out = rootout + '/'.join(last_folder.split('/')[-4:-1])
@@ -109,9 +109,9 @@ for subdir, dirs, files in os.walk(args.raw):
                     do_job(ru_pipeline, text, lang, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True)
                     
                 ### Monitor processing:
-                if counter % 2 == 0:
+                if counter % 50 == 0:
                     print('%s files processed' % counter, file=sys.stderr)
 
 end = time.time()
 processing_time = int(end - start)
-print('Processing %s (%s files) took %.2f minites' % (args.raw, counter, processing_time / 60), file=sys.stderr) #.split('/')[-2]
+print('Processing %s (%s files) took %.2f minites' % (args.texts, counter, processing_time / 60), file=sys.stderr) #.split('/')[-2]

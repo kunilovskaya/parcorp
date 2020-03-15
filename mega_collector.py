@@ -13,8 +13,8 @@ USAGE: python3 mega_collector.py
 import csv, os
 from extractors import *
 
-rootdir = "/home/u2/proj/parRiga/data/"
-input_dir = rootdir + 'parsed/'
+rootdir = "/home/u2/proj/parRiga/"
+input_dir = rootdir + 'par6registers_parsed/'
 print('======', input_dir)
 outname = rootdir + 'parRiga.tsv'
 
