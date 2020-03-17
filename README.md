@@ -41,6 +41,8 @@ The texts passed to UDpipe were filtered for:
 At feature extraction stage, we further filter out:
 - sentences consisting of punctuation marks only (ex. '.)') and of numeral and a punctuation (ex. '3.', 'II.')
 
+NB! all parallel components are not strictly aligned!
+
 The repository includes scripts
 - to produce separate text files from pre-existing single-file or few-big-files corpora
 - to preprocess and parse the raw multi-lingual data structured as a tree of folders
