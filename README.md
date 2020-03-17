@@ -29,6 +29,18 @@ We source data from the following corpora (some of which have been transformed t
 - parallel: [Yandex 1M-token parallel corpus](https://translate.yandex.ru/corpus)
 - reference: a 4.9K-texts random subset of [Araneum Minimum](http://unesco.uniba.sk/aranea_about/index.html) provided by the author
 
+### Preprocessing
+
+The texts passed to UDpipe were filtered for:
+- sentences/lines shorter that 4 words;
+- texts shorter than 400 words;
+- UNcorpus: all lines in CAPS, in non-uft8 encoding, starting with Статья and ЧАСТЬ;
+- some unmotivated linebreaks were fixed (with re.sub(r'([а-я,;-])\n([а-яА-Я])', r'\1 \2', text));
+- lines starting with lowercase alphabet character or not ending in end-of-sentence punctuation
+
+At feature extraction stage, we further filter out:
+- sentences consisting of punctuation marks only (ex. '.)') and of numeral and a punctuation (ex. '3.', 'II.')
+
 The repository includes scripts
 - to produce separate text files from pre-existing single-file or few-big-files corpora
 - to preprocess and parse the raw multi-lingual data structured as a tree of folders
