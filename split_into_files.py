@@ -10,6 +10,7 @@ lines_per_file = 494 # for ru ref popsci
 smallfile = None
 with open('onebig_ref_popsci.txt') as bigfile:
     for lineno, line in enumerate(bigfile):
+        # add filtering for lowercase sentence starts and no sentence-end punctuation sentences
         if lineno % lines_per_file == 0:
             if smallfile:
                 smallfile.close()
