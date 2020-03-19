@@ -8,7 +8,7 @@ from xml.dom import minidom
 
 ol_file = '/home/u2/resources/corpora/aranea_ru_ar1520z.x0_26M' # aranea_ru_ar1520z.x0_26M, aranea_en_ar1400z.x0_16M
 # lang = 'en'
-res_to = 'aranea/ref/ru/' % lang
+res_to = 'aranea/ref/ru/'
 os.makedirs(res_to, exist_ok=True)
 
 big = open(ol_file, 'r').read()
@@ -71,12 +71,12 @@ for doc in big0:
                 continue
         else:
                 count_long += 1
-                out = open(res_to + lang + '_' + id + '.txt', 'w')
+                out = open(res_to + 'ref_' + id + '.txt', 'w')
                 out.write(sent + '\n')
                 out.close()
 print(count, count_long)
 # print(lengths)
 print('Average text length %s' % np.average(lengths))
 print('Corpus size: %s texts, %s tokens' % (count_long, np.sum(lengths)))
-print('Bad ending lines skipped:', count)
+print('Bad ending lines skipped:', badend)
 print('Lowercase starts filtered out:', low)

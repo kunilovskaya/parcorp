@@ -1,6 +1,3 @@
-#! /usr/bin/python3
-# coding: utf-8
-
 # TASK:
 # (3) find two consequtive lines where the first ends, and the other starts with lowercase
 # (\n before or between lowcase char with no punctuation

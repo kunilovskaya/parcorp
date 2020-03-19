@@ -55,6 +55,7 @@ parser.add_argument( '--dropout', type=float, default=0.2)
 parser.add_argument( '--valsplit', type=float, default=0.1)
 parser.add_argument('-s', '--seed', type=int, default=42)
 parser.add_argument('-k', '--topk', type=int, default=10, help='number of predicted labels to output')
+parser.add_argument('--device', type=str, default='gpu', help='Choose the device. Options: cpu, gpu')
 
 class AttentionWeightedAverage(Layer):
 	"""
@@ -172,6 +173,28 @@ if __name__ == '__main__':
 	outname=re.sub('/','@',outname)
 	
 	args = parser.parse_args()
+	
+	if args.device == 'cpu':
+		## select the number of CPU workers=threads to be used
+		config = tf.compat.v1.ConfigProto(intra_op_parallelism_threads=4,
+										  inter_op_parallelism_threads=4,
+										  allow_soft_placement=True)  # ,device_count = {'CPU' : 2, 'GPU' : 1}
+		os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+	if args.device == 'gpu':
+		config = tf.compat.v1.ConfigProto()
+		# os.environ["CUDA_VISIBLE_DEVICES"]="0,1"
+		print('=== DEFAULT availability', K.tensorflow_backend._get_available_gpus())
+		# sess = tf.Session(config=config)
+		## select what you want to run it on
+		# config = tf.ConfigProto(device_count={'GPU': 0, 'CPU': 4})
+		# config.gpu_options.visible_device_list = '1'  # only see the gpu 1
+		config.gpu_options.visible_device_list = '0,1'  # see the gpu 0, 1, 2
+		
+		## replace: tf.ConfigProto by tf.compat.v1.ConfigProto
+		print("====== Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
+		
+		tf.compat.v1.logging.set_verbosity(tf.logging.INFO)
+	
 	np.random.seed(args.seed)
 	print('Parameter list: %s' % outname, file=sys.stderr)
 	

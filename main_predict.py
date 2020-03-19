@@ -1,4 +1,5 @@
 # coding: utf-8
+# get predictions for 10 functional text categories from a model pre-trained on CC-vector representations of raw text tokens
 ## specify language
 ## assumes that input is a folder of raw texts to predict
 
@@ -16,7 +17,8 @@ import smallutils as ut
 from keras.models import load_model as load_keras_model
 
 from keras.preprocessing import sequence
-from keras import backend
+import tensorflow as tf
+from keras import backend as K
 from keras.preprocessing.text import Tokenizer, text_to_word_sequence
 from nn_train_cv import AttentionWeightedAverage
 
@@ -51,8 +53,32 @@ def textf_predict(infile, dic, i=0):
 ##############################
 ## load model to use for prediction
 ##############################
+device = 'gpu' # cpu
+
+if device == 'cpu':
+    ## select the number of CPU workers=threads to be used
+    config = tf.compat.v1.ConfigProto(intra_op_parallelism_threads=4,
+                                      inter_op_parallelism_threads=4,
+                                      allow_soft_placement=True)  # ,device_count = {'CPU' : 2, 'GPU' : 1}
+    os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+if device == 'gpu':
+    config = tf.compat.v1.ConfigProto()
+    # os.environ["CUDA_VISIBLE_DEVICES"]="0,1"
+    print('=== DEFAULT availability', K.tensorflow_backend._get_available_gpus())
+    # sess = tf.Session(config=config)
+    ## select what you want to run it on
+    # config = tf.ConfigProto(device_count={'GPU': 0, 'CPU': 4})
+    # config.gpu_options.visible_device_list = '1'  # only see the gpu 1
+    config.gpu_options.visible_device_list = '0,1'  # see the gpu 0, 1, 2
+    
+    ## replace: tf.ConfigProto by tf.compat.v1.ConfigProto
+    print("====== Num GPUs Available: ", len(tf.config.experimental.list_physical_devices('GPU')))
+    
+    tf.compat.v1.logging.set_verbosity(tf.logging.INFO)
+
+
 lang = 'en'
-repository = lang + '_h5_main/'
+repository = 'models/'
 
 fh_m = [f for f in os.listdir(repository)]
 for f in fh_m:
@@ -64,10 +90,6 @@ for f in fh_m:
 maxlen = 1000
 batch_size = 64
 topk = 10
-
-# Настраиваем логирование:
-# logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
-# logger = logging.getLogger(__name__)
 
 # logger.info('Load a pre-trained Keras model...')
 model = load_keras_model(repository + model_file, custom_objects={"AttentionWeightedAverage": AttentionWeightedAverage})
@@ -86,51 +108,39 @@ print('what are we predicting', ann_order, file=sys.stderr)
 ### input folder (two-level tree of folders) or file
 ###########################
 
-rootdir = "/home/masha/gpuTF/metry/new_anns/part1-6_70/"
-# rootdir = '/home/masha/test/'
+rootdir = "data/yandex/"
 folder = rootdir.split('/')[-2]
 print(folder)
 counter = 0
 fns = []
 # preds_nested = []
-res_to = lang + '_nn_res_main/'
-os.makedirs(res_to, exist_ok=True)
-with open(res_to + '%s_%s_main.pred' % (lang, folder), "w") as outf:
-    preds_nested = []
-    for subdir, dirs, files in os.walk(rootdir):
-        for i, file in enumerate(files):
-            filepath = subdir + os.sep + file
-            my_cat = (subdir + os.sep).split('/')[-3:-1]
-            my_cat = '_'.join(my_cat)
-            counter += 1
-            fns.append(file)
-            text = open(filepath, 'r').read()
-            # t = Tokenizer(10000, lower=True)
-            input = ['[#]' if w.isdigit() or any(char.isdigit() for char in w) else w for w in
-                     text_to_word_sequence(text)]
-            
-            predicted = textf_predict(input, w2i, i)
-            for preds in predicted:
-                outstr = ['__label__%s %.3f' % (ann_order[i], preds[i]) for i in np.argsort(-preds)[:topk]]
-                print('\t'.join(outstr), file=outf)
-                ### lets produce a ML comparable output
-                preds_nested.append(predicted[0].tolist())
-        if counter % 100 == 0:
-            print('I have predicted functional vectors for %s texts' % counter)
-            # print('\t'.join(outstr), file=sys.stderr)
-        print('%s predictions (in the unstacked weird format kept for historic reasons, see above) are written to %s_%s_main.pred' % (counter, lang, folder), file=sys.stderr)
 
-    print(preds_nested)
-    # set defaulf format to float This is NOT rounding!!!
-    # pd.options.display.float_format = '{:.3f}'.format
+preds_nested = []
+files = [f for f in os.listdir(rootdir) if f.endswith('.txt')]
+for i, file in enumerate(files):
+    counter += 1
+    fns.append(file)
+    text = open(rootdir + file, 'r').read()
+    input = ['[#]' if w.isdigit() or any(char.isdigit() for char in w) else w for w in
+             text_to_word_sequence(text)]
     
-    ## and also produce res for the above preds!!!
-    df = pd.DataFrame(preds_nested).round(6)
-    df.columns = [mapping[ann_order[x]] + ann_order[x] for x in range(len(ann_order))]
-    df.insert(0, 'ID', fns)
-    print(df.head(), file=sys.stderr)
+    predicted = textf_predict(input, w2i, i)
+    preds_nested.append(predicted[0].tolist())
+if counter % 100 == 0:
+    print('I have predicted functional vectors for %s texts' % counter)
+    # print('\t'.join(outstr), file=sys.stderr)
 
-    df.to_csv(res_to + '%s_%s_predicted_main.res' % (lang,folder), index=False, sep='\t')  # make sure to rename the file and move it tot the analysis script folder!!
+print(preds_nested)
+# set defaulf format to float This is NOT rounding!!!
+# pd.options.display.float_format = '{:.3f}'.format
 
-    print('%s predictions are written to a table %s_predicted_main.res' % (counter, folder), file=sys.stderr)
+## and also produce res for the above preds!!!
+df = pd.DataFrame(preds_nested).round(6)
+df.columns = [mapping[ann_order[x]] + ann_order[x] for x in range(len(ann_order))]
+df.insert(0, 'ID', fns)
+print(df.head(), file=sys.stderr)
+
+df.to_csv(repository + '%s_%s_predicted_main.res' % (lang,folder), index=False, sep='\t')
+
+print('%s predictions are written to a table %s_predicted_main.res' % (counter, folder), file=sys.stderr)
   
