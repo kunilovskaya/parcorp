@@ -1,16 +1,15 @@
-# creating a number of files from the yandex parallel corpus (corpus.en_ru.1m.en and aligned corpus.en_ru.1m.ru)
+# creating a number of files from a reference corpus
+# for parallel corpus see a dedicated splitting option that processes sent pairs in parallel
 import os
 OUT = 'ref/ru/'
 os.makedirs(OUT, exist_ok=True)
 
-# lines_per_file = 2000 # for yandex parcorp
-# lines_per_file = 350 # for mozilla parcorp
 lines_per_file = 494 # for ru ref popsci
 
 smallfile = None
 with open('onebig_ref_popsci.txt') as bigfile:
     for lineno, line in enumerate(bigfile):
-        # add filtering for lowercase sentence starts and no sentence-end punctuation sentences
+
         if lineno % lines_per_file == 0:
             if smallfile:
                 smallfile.close()
