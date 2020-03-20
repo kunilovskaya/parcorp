@@ -103,7 +103,7 @@ def clustering_matrix(algo, array, fns, damping=0.9, preference=-5, plotting=0, 
         pass
     
     fn_df = fn_df.sort_values(by=['size'], ascending=False)
-    #     print(fn_df.head())
+    # print(fn_df.head())
     
     # this plotting does not make sense for my data! it is only for 2-dim make_blobs toy_data!!!!
     # if I want any visualisation I need to reduce dimentionality
@@ -171,7 +171,7 @@ def get_most_similar_texts(method='euclidian', centroid=None, mat1=None, mat2=No
     ordered_sim_fns = list(sorted_dict_sims.keys())
     sim_vals = list(sorted_dict_sims.values())
     
-    print('Based on functional representations the input corpora have the similarity score of %0.4f (calculated as the averaged pair-wise %s similarity)' % (average_sim, method))
+    # print('Based on functional representations the input corpora have the similarity score of %0.4f (calculated as the averaged pair-wise %s similarity)' % (average_sim, method))
     return ordered_sim_fns, sim_vals
 
 def get_top_filenames(similar=None, values=None, thres=0.7):

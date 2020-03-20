@@ -10,6 +10,7 @@ __pycache__/
 par6registers_parsed/
 
 # Distribution / packaging
+misc/
 data/
 models/
 dev/

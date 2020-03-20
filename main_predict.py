@@ -77,15 +77,16 @@ if device == 'gpu':
     tf.compat.v1.logging.set_verbosity(tf.logging.INFO)
 
 
-lang = 'en'
+lang = 'ru'
 repository = 'models/'
 
 fh_m = [f for f in os.listdir(repository)]
 for f in fh_m:
-    if f.endswith('.h5'):
+    if f.startswith(lang) and f.endswith('.h5'):
         model_file = f
-    elif f.endswith('.map'):
+    if f.startswith(lang) and f.endswith('.map'):
         w2i = pickle.load(open(repository + f, 'rb'))
+print('Loading %s and map ...' % model_file)
 
 maxlen = 1000
 batch_size = 64
@@ -107,9 +108,10 @@ print('what are we predicting', ann_order, file=sys.stderr)
 ###########################
 ### input folder (two-level tree of folders) or file
 ###########################
-
-rootdir = "data/yandex/"
-folder = rootdir.split('/')[-2]
+rootdir = "/home/u2/resources/corpora/aranea/ref/ru/"
+folder = rootdir.split('/')[-4] #yandex
+# rootdir = "yandex/source/en/"
+# folder = rootdir.split('/')[-4] #yandex
 print(folder)
 counter = 0
 fns = []
