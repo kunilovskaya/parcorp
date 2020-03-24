@@ -151,7 +151,7 @@ for subdir, dirs, files in os.walk(input_dir):
 		but_res = but_counts(sents, language)
 		
 		## counts for degrees of comparison normalized internally for num of adj+adv
-		comp_res, sup_res = comparison_degrees(sents, language)
+		comp_res, sup_res = comparison_degrees(sents, language, fn=file)
 		
 		neg_res = polarity(sents, language)
 		
