@@ -9,7 +9,7 @@ The six parallel subcorpora are complemented with register-comparable non-transl
 - make them more comparable and balanced
 - filter noise
 
-(2) produce corpus stats for structured and cleaned plain text collection
+(2) produce corpus stats for structured and cleaned plain text collection (or parsed texts)
 
 (3) parse the raw multi-lingual data structured as a tree of folders
 

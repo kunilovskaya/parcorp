@@ -27,13 +27,14 @@ def get_meta(input):
 	return lang0,register0,status0
 
 def get_trees(data): # data is one object: a text or all of corpus as one file
-	sentences = []
+	sentences0 = []
+	badsents = 0
 	only_punct = []
 	current_sentence = []
 	for line in data:
 		if line.strip() == '':
 			if current_sentence:
-				sentences.append(current_sentence)
+				sentences0.append(current_sentence)
 
 			current_sentence = []
 			only_punct = []
@@ -49,18 +50,21 @@ def get_trees(data): # data is one object: a text or all of corpus as one file
 		for i in res:
 			only_punct.append(res[3])
 		var = list(set(only_punct))
-		# throw away sentences that consist of just PUNCT, particularly rare 4+ PUNCT
+		# throw away sentences consisting of punctuation marks only (ex. '.)') and of numeral and a punctuation (ex. '3.', 'II.')
 		if len(var) == 1 and var[0] == 'PUNCT':
 			continue
+		if len(var) == 2 and 'PUNCT' in var and 'NUM' in var:
+			badsents += 1
 		else:
 			current_sentence.append((int(identifier), token, lemma, upos, xpos, feats, int(head), rel))
 
 	if current_sentence:
-		sentences.append(current_sentence)
+		sentences0.append(current_sentence)
 		
-	sentences = [s for s in sentences if len(s) >= 4]
-
-	return sentences
+	sentences = [s for s in sentences0 if len(s) >= 4]
+	shorts = len(sentences0)-len(sentences)
+	
+	return sentences, shorts, badsents
 
 ## functions to traverse the trees
 def get_headwd(node, sentence): # when calling, test whether head exists --- if head:

@@ -9,7 +9,7 @@ __pycache__/
 # data
 
 # Distribution / packaging
-
+temp/
 lists-of-files/
 data/
 dev/

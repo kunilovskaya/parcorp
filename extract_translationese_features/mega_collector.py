@@ -9,14 +9,13 @@ expected structure of folders: we store names of the last three folders as level
 USAGE: python3 mega_collector.py
 '''
 
-
-import csv, os
+import csv
 from extractors import *
 
-rootdir = "/home/u2/proj/parRiga/"
-input_dir = rootdir + 'par6registers_parsed/'
+rootdir = "./"
+input_dir = rootdir + 'data_parsed/'
 print('======', input_dir)
-outname = rootdir + 'parRiga.tsv'
+outname = rootdir + 'parcorp.tsv'
 
 # here, for each file we collect counts averaged over number of words or number of sentences
 ## muted features: passives interrog andor wdlength mark nn
@@ -30,6 +29,7 @@ master_dict = {k: [] for k in keys}
 
 basic_stats = {}
 languages = ['en', 'ru'] #'de',
+
 adv_support = {}
 mpred_support = {}
 pseudo_deverbs = {}
@@ -71,6 +71,8 @@ for l in languages:
 	print('==%s DM of epistemic stance' % len(epistem[l]), file=sys.stderr)
 	
 for subdir, dirs, files in os.walk(input_dir):
+	tot_bads = 0
+	tot_shorts = 0
 	for i, file in enumerate(files):
 		filepath = subdir + os.sep + file
 		last_folder = subdir + os.sep
@@ -84,16 +86,18 @@ for subdir, dirs, files in os.walk(input_dir):
 		lang, register, status = get_meta(last_folder)
 		meta_str = '_'.join(get_meta(last_folder)) # lang, register, status
 		
-		if i % 2 == 0:
+		if i % 50 == 0:
 			print('I have processed %s files from %s' % (i, meta_str.upper()), file=sys.stderr)
-		
+			print('So far I have ignored %d all-punct-num sentences and %d less-than-4-words sents' % (tot_bads,tot_shorts))
 		# don't forget the filename
 		doc = os.path.splitext(os.path.basename(last_folder + filepath))[0]  # without extention
 
 		data = open(filepath).readlines()
 		
 		corp_id = lang + '_' + status + '_' + register
-		sents = get_trees(data)
+		sents, bads, shorts = get_trees(data)
+		tot_bads += bads
+		tot_shorts += shorts
 		if corp_id in basic_stats.keys():
 			basic_stats[corp_id] += len(sents)
 		else:
