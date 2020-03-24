@@ -62,8 +62,8 @@ NB! all parallel components are document-aligned only!
   registers   |    source   |  target    |    ref      |
   :---------- |------------:|-----------:|------------:| 
  media        |             |            |             |
-   - texts    |    549      |   549      |   1,562     |
-   - words    |   642,137   |  595,780   |  268,7215   |
+   * texts    |    549      |   549      |   1,562     |
+   * words    |   642,137   |  595,780   |  268,7215   |
  official (UN)|             |            |             |
    - texts    |    186      |   186      |   274       |
    - words    | 1,098,950   | 1,048,423  | 1,076,034   |
