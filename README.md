@@ -3,6 +3,16 @@
 This repository has the python3 code used to create a register-balanced EN>RU parallel corpus for translationese research. 
 The six parallel subcorpora are complemented with register-comparable non-translations.
 
+## The repository includes scripts
+(1) to pre-process the downloaded or pre-existing corpora: 
+- make them more comparable and balanced
+- filter noise
+(2) produce corpus stats for structured and cleaned plain text collection
+(3) parse the raw multi-lingual data structured as a tree of folders
+(4) to extract text-level frequencies of 45 translationese indicators into a single tsv file with folder-names informed metadata
+
+NB! most scripts expect to have all inputs (data, imported modules, support lists) in the same folder and need to be started from this folder.
+
 The raw text data is sources from the following corpora:
 
 ### Registers and the sources of data
@@ -47,7 +57,7 @@ At feature extraction stage, we further filter out:
 NB! to ensure some sample-size balance (and where document segmentation was absent: ex. Yandex), we split texts into agreeable chunks of up to 500 sentences.
 NB! all parallel components are document-aligned only!
 
-Basic statistical parameters (based on pre-processed text before annotation)
+**Basic statistical parameters of the register-balanced translationese corpus** (based on pre-processed text before annotation)
 
   registers   |    source   |  target    |    ref      |
   :---------- |------------:|-----------:|------------:| 
@@ -70,15 +80,6 @@ Basic statistical parameters (based on pre-processed text before annotation)
    - texts    |  170        |  170       |   100       |
    - words    | 9,619,912   |  8,272,870 |  94,066    |
  
-## The repository includes scripts
-(1) to pre-process the downloaded or pre-existing corpora: 
-- make them more comparable and balanced
-- filter noise
-(2) produce corpus stats for structured and cleaned plain text collection
-(3) parse the raw multi-lingual data structured as a tree of folders
-(4) to extract text-level frequencies of 45 translationese indicators into a single tsv file with folder-names informed metadata
-
-NB! most scripts expect to have all inputs (data, imported modules, support lists) in the same folder and need to be started from this folder.
 
 ### Other available parallel resources that remained outside this project for various reasons
 - EuroParl adapted for translationese studies (no Russian): see [Alina Karakanta's post](https://medium.com/machine-translation-fbk/weve-told-you-before-re-discovering-translationese-in-machine-translation-research-6159ed45c085)
