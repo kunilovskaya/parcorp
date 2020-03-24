@@ -5,10 +5,14 @@ The six parallel subcorpora are complemented with register-comparable non-transl
 
 ## The repository includes scripts
 (1) to pre-process the downloaded or pre-existing corpora: 
+
 - make them more comparable and balanced
 - filter noise
+
 (2) produce corpus stats for structured and cleaned plain text collection
+
 (3) parse the raw multi-lingual data structured as a tree of folders
+
 (4) to extract text-level frequencies of 45 translationese indicators into a single tsv file with folder-names informed metadata
 
 NB! most scripts expect to have all inputs (data, imported modules, support lists) in the same folder and need to be started from this folder.
