@@ -59,6 +59,7 @@ NB! all parallel components are document-aligned only!
 
 **Basic statistical parameters of the register-balanced translationese corpus** (based on pre-processed text before annotation)
 
+
   registers   |    source   |  target    |    ref      |
   :---------- |------------:|-----------:|------------:| 
  media        |             |            |             |
@@ -78,7 +79,7 @@ NB! all parallel components are document-aligned only!
    - words    | 826,018     | 735,724    |  854,270    |
  fiction      |             |            |             |
    - texts    |  170        |  170       |   100       |
-   - words    | 9,619,912   |  8,272,870 |  94,066    |
+   - words    | 9,619,912   |  8,272,870 |  94,066     |
  
 
 ### Other available parallel resources that remained outside this project for various reasons
