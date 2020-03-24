@@ -61,24 +61,24 @@ NB! all parallel components are document-aligned only!
 
   registers   |    source   |  target    |    ref      |
   :---------- |------------:|-----------:|------------:| 
- media        |             |            |             |
-   - texts    |    549      |   549      |   1,562     |
-   - words    |   642,137   |  595,780   |  268,7215   |
- official (UN)|             |            |             |
-   - texts    |    186      |   186      |   274       |
-   - words    | 1,098,950   | 1,048,423  | 1,076,034   |
- tedtalks     |             |            |             |
-   - texts    |    100      |   100      |   100       |
-   - words    |   259,103   | 207,779    | 188,528     |
- yandexweb    |             |            |             |
-   - texts    |  1,574      |   1,574    |   1,224     |
-   - words    | 16,631,680  | 14,548,943 | 1,189,420   |
- popsci       |             |            |             |
-   - texts    |  100        |  100       |   100       |
-   - words    | 826,018     | 735,724    |  854,270    |
- fiction      |             |            |             |
-   - texts    |  170        |  170       |   100       |
-   - words    | 9,619,912   |  8,272,870 |  94,066     |
+ **media**        |             |            |             |
+ texts    |    549      |   549      |   1,562     |
+ words    |   642,137   |  595,780   |  268,7215   |
+ **official(UN)**|             |            |             |
+ texts    |    186      |   186      |   274       |
+ words    | 1,098,950   | 1,048,423  | 1,076,034   |
+ **tedtalks**    |             |            |             |
+ texts    |    100      |   100      |   100       |
+ words    |   259,103   | 207,779    | 188,528     |
+ **yandexweb**    |             |            |             |
+ texts    |  1,574      |   1,574    |   1,224     |
+ words    | 16,631,680  | 14,548,943 | 1,189,420   |
+ **popsci**       |             |            |             |
+ texts    |  100        |  100       |   100       |
+ words    | 826,018     | 735,724    |  854,270    |
+ **fiction**      |             |            |             |
+ texts    |  170        |  170       |   100       |
+ words    | 9,619,912   |  8,272,870 |  94,066     |
  
 
 ### Other available parallel resources that remained outside this project for various reasons
