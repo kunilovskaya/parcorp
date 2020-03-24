@@ -10,7 +10,7 @@ __pycache__/
 rawdata/
 
 # Distribution / packaging
-preprocess_available/building_comparable_reference/models/
+
 lists-of-files/
 
 models/
