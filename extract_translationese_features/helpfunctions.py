@@ -11,7 +11,7 @@ from operator import itemgetter
 import warnings
 warnings.simplefilter("ignore")
 
-lists_path = '/home/u2/proj/parRiga/searchlists/'
+lists_path = 'searchlists/'
 
 def get_meta(input):
 	# prepare for writing metadata
@@ -64,7 +64,7 @@ def get_trees(data): # data is one object: a text or all of corpus as one file
 	sentences = [s for s in sentences0 if len(s) >= 4]
 	shorts = len(sentences0)-len(sentences)
 	
-	return sentences, shorts, badsents
+	return sentences, badsents, shorts
 
 ## functions to traverse the trees
 def get_headwd(node, sentence): # when calling, test whether head exists --- if head:
