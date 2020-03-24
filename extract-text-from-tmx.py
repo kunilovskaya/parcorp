@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # coding: utf-8
-# извлекаю из TMX текстовые фрагменты (seg) в простые текстовые файлы (en and ru) из корпуса для локализаторов приложений Мозилла
+# extract text segments <seg>text text</seg> from TMX into plaintext files for each language (en and ru) from
 # https://transvision.mozfr.org/downloads/
 
 
@@ -11,8 +11,7 @@ import os
 OUT = 'mozilla_localise/'
 os.makedirs(OUT, exist_ok=True)
 
-argument = '/home/u2/resources/corpora/parallel/mozilla_en-US_ru_b1c0d54dec67ae189865fa6c33b9aad7_normal.tmx' # sys.argv[1] #sample_rusltc.tmx
-#argument = '/home/masha/sample_rusltc.tmx'
+argument = '/home/u2/resources/corpora/parallel/mozilla_en-US_ru_b1c0d54dec67ae189865fa6c33b9aad7_normal.tmx'
 
 doc = minidom.parse(argument)
 node = doc.documentElement
