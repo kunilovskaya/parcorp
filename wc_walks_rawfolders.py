@@ -7,7 +7,7 @@ from collections import defaultdict
 import numpy as np
 import csv
 
-rootdir = "data/"
+rootdir = "rawdata/"
 
 tot_wc = defaultdict(list)
 fns = defaultdict(list)
