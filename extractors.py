@@ -47,9 +47,15 @@ def av_s_length(trees, lang):
 			if i < len(texts):
 				lastwd = tree[-1]
 				if lastwd[1] in [':', ';', 'Дж.']:
-					nextsent = texts[i + 1]
-					sent_lengths.append(len(tree) + len(nextsent))
-					texts.remove(texts[i + 1])
+					try:
+						nextsent = texts[i + 1]
+						sent_lengths.append(len(tree) + len(nextsent))
+						texts.remove(texts[i + 1])
+					except IndexError:
+						sent_lengths.append(len(tree))
+						print('Despite filtering I still have texts that finish in no end-of-sent punct!')
+						print(' '.join(w[1] for w in tree))
+						continue
 				else:
 					sent_lengths.append(len(tree))
 	else:
@@ -1309,15 +1315,20 @@ def passives(tree, lang):
 					
 					if obl_kids_ids:
 						for i in obl_kids_ids:
-							by_grandchild = choose_kid_by_lempos(tree[i], tree, 'by', 'ADP')
-							if by_grandchild:  ### Animacy is not a gr feature in English
-								by_pass += 1
-							#                           print(w[1].upper(), head[1].upper(), tree[by_grandchild][1], tree[obl_kid_id][1])
-							#                             print(' '.join(w[1] for w in tree))
-							else:
-								'''
-								i cannot count agentless here because it is possible to count one passive twice
-								'''
+							try:
+								by_grandchild = choose_kid_by_lempos(tree[i], tree, 'by', 'ADP')
+								if by_grandchild:  ### Animacy is not a gr feature in English
+									by_pass += 1
+								#                           print(w[1].upper(), head[1].upper(), tree[by_grandchild][1], tree[obl_kid_id][1])
+								#                             print(' '.join(w[1] for w in tree))
+								else:
+									'''
+									i cannot count agentless here because it is possible to count one passive twice
+									'''
+									continue
+							except IndexError:
+								print(i)
+								print(print(' '.join(w[1] for w in tree)))
 								continue
 					else:
 						continue
@@ -1504,39 +1515,42 @@ def passives(tree, lang):
 						во Владикавказе ему готовят радушную встречу
 						Демографический кризис в Кузбассе преодолевают не словом , а делом .
 						'''
-						
-						nsubj_kids_pos = get_kids_pos(tree[sg_nsubj_id], tree)
-						nsubj_kids_rel = get_kids_rel(tree[sg_nsubj_id], tree)
-						if tree[sg_nsubj_id][2] in ['все', 'большинство', 'часть', 'парочка', 'ряд', 'количество',
-						                            'половина', 'треть', 'четверть', 'группа']:
-							'''
-							filter out 60 cases of
-								в России сегодня работают достаточное количество банков
-								Однако большинство проектов являются
-								Почти половина считают , что
-							'''
+						try:
+							nsubj_kids_pos = get_kids_pos(tree[sg_nsubj_id], tree)
+							nsubj_kids_rel = get_kids_rel(tree[sg_nsubj_id], tree)
+							if tree[sg_nsubj_id][2] in ['все', 'большинство', 'часть', 'парочка', 'ряд', 'количество',
+														'половина', 'треть', 'четверть', 'группа']:
+								'''
+								filter out 60 cases of
+									в России сегодня работают достаточное количество банков
+									Однако большинство проектов являются
+									Почти половина считают , что
+								'''
+								continue
+							elif 'conj' in nsubj_kids_rel:
+								'''
+								get rid of coordinated sg nsubj which require plural predicate (364 cases)
+									Далее идут Лондон , Мадрид и Нью-Йорк .
+									Об этом сообщают РИА " Новости " и ИТАР-ТАСС .
+									Этого не примут ни общество , ни ученики , ни учителя .
+								'''
+								continue
+							elif 'NUM' in nsubj_kids_pos:
+								'''
+								discard phrases with паукальные NUM which require N in grammatic sg
+									И обе дороги (sg) ведут в бездну бесчеловечности .
+									В городе работают три съемочные группы
+									Две стороны (sg) Атлантики снова демонстрируют заинтересованность друг в друге .
+									Что касается демократов , то три политика (sg) сейчас являются фаворитами .
+								'''
+								continue
+							else:
+
+								counter_sem += 1
+						except IndexError:
+							print(sg_nsubj_id)
+							print(' '.join(w[1] for w in tree))
 							continue
-						elif 'conj' in nsubj_kids_rel:
-							'''
-							get rid of coordinated sg nsubj which require plural predicate (364 cases)
-								Далее идут Лондон , Мадрид и Нью-Йорк .
-								Об этом сообщают РИА " Новости " и ИТАР-ТАСС .
-								Этого не примут ни общество , ни ученики , ни учителя .
-							'''
-							continue
-						elif 'NUM' in nsubj_kids_pos:
-							'''
-							discard phrases with паукальные NUM which require N in grammatic sg
-								И обе дороги (sg) ведут в бездну бесчеловечности .
-								В городе работают три съемочные группы
-								Две стороны (sg) Атлантики снова демонстрируют заинтересованность друг в друге .
-								Что касается демократов , то три политика (sg) сейчас являются фаворитами .
-							'''
-							continue
-						else:
-							
-							counter_sem += 1
-				
 				elif 'nsubj' not in kids_rel:
 					'''
 					2398
@@ -1713,7 +1727,7 @@ def but_counts(trees, lang):
 
 
 ## unlike other function this one normalized to the number of adj+adv internally and returns the ratio already!
-def comparison_degrees(trees, lang):
+def comparison_degrees(trees, lang, fn=None):
 	all_ad = 0
 	compar = 0
 	superl = 0
@@ -1796,9 +1810,14 @@ def comparison_degrees(trees, lang):
 					'''
 					А самым серьезным доказательством победы искусства СССР стала
 					'''
-	compar = compar / all_ad
-	superl = superl / all_ad
-	
+	try:
+		compar = compar / all_ad
+		superl = superl / all_ad
+	except ZeroDivisionError:
+		compar = 0
+		superl = 0
+		print('The whole text has no ADJ or ADV? It is a zero-length file!', fn)
+
 	return compar, superl
 
 
