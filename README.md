@@ -59,7 +59,6 @@ NB! all parallel components are document-aligned only!
 
 **Basic statistical parameters of the register-balanced translationese corpus** (based on pre-processed text before annotation)
 
-
   registers   |    source   |  target    |    ref      |
   :---------- |------------:|-----------:|------------:| 
  media        |             |            |             |
