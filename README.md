@@ -47,6 +47,15 @@ At feature extraction stage, we further filter out:
 NB! to ensure some sample-size balance (and where document segmentation was absent: ex. Yandex), we split texts into agreeable chunks of up to 500 sentences.
 NB! all parallel components are document-aligned only!
 
+Basic statistical parameters (based on pre-processed text before annotation)
+
+                    |    source   |  target    |    ref      |
+  :---------------- |------------:|-----------:|------------:| 
+      media         |             |            |             |
+         - texts    |    549      |   549      |   1,562     |
+         - words    |    642137   |   595780   |   2687215   |
+  ------------------|-------------|------------|-------------|
+ 
 ## The repository includes scripts
 (1) to pre-process the downloaded or pre-existing corpora: 
 - make them more comparable and balanced

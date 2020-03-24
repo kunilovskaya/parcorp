@@ -16,7 +16,7 @@ for subdir, dirs, files in os.walk(rootdir):
     for i, file in enumerate(files):
 
         filepath = subdir + os.sep + file
-        my_cat = (subdir + os.sep).split('/')[-3:-1]
+        my_cat = (subdir + os.sep).split('/')[-4:-1]
         my_cat = '_'.join(my_cat)
 
         text = open(filepath).read()
