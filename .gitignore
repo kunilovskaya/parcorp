@@ -12,8 +12,6 @@ rawdata/
 # Distribution / packaging
 
 lists-of-files/
-
-models/
 data/
 dev/
 output/
