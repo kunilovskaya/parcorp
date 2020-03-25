@@ -13,7 +13,7 @@ import csv
 from extractors import *
 
 rootdir = "./"
-input_dir = rootdir + 'parsed_data/mock_data/'
+input_dir = rootdir + 'mock_parse/'
 print('======', input_dir)
 outname = rootdir + 'mock_parcorp.tsv'
 

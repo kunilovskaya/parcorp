@@ -14,7 +14,7 @@ for subdir, dirs, files in os.walk(source_root):
         outto = target_root + '/' + my_relative_path + '/'
         os.makedirs(outto, exist_ok=True)
         # print(my_relative_path)
-        if counter <= 10:
+        if counter <= 5:
             shutil.copy(filepath, outto)
             counter += 1
         else:
