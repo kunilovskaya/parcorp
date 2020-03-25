@@ -9,14 +9,17 @@ the script expects:
 (2) a path where to store the output; you don't have to create it, just say where to create it
 (3) the UD models for en, ru in the working folder (from which this script is run)
 (4) the preprocess_imports.py module with the functions to be imported
-(5) use conllu_only = True switch to reduce the output to conllu only
+(5) use conllu_only = True: switch to reduce the output to conllu only
 
-USAGE: python3 raw2txt2conllu2lempos.py --texts data/raw/ --outto data/parsed/ --lang en
+USAGE:
+-- go to parsing folder
+-- run: python3 raw_multi-ling-tree2txt2conllu2lempos.py --texts ../rawdata/mock_data/ --outto ../mock_parse/
 '''
-import sys
+import os, sys
+from ufal.udpipe import Model, Pipeline
+import time
 import argparse
-import zipfile, io, sys
-from preprocess_imports import * #tokeniseall, unify_sym, postprocess_ud, do_job
+from preprocess_functions import do_conllu_only, do_job
 from smart_open import open
 
 parser = argparse.ArgumentParser()
@@ -36,19 +39,24 @@ os.makedirs(rootout, exist_ok=True)
 conllu_only = True
 
 # specify models for your languages (and stoplists, if required)
-# # STOPWORDS_FILE = 'stopwords_ru'
-# # stopwords = set([w.strip().lower() for w in smart_open(STOPWORDS_FILE,'r').readlines()])
-ru_udpipe_filename = 'udpipe_syntagrus.model'  ## I am getting permission denied on this model
+# to use these lists, activate keyworded parameters in check_word function in preprocess_function module
+# STOPWORDS_FILE1 = '/path/to/ru_stopwords.txt'
+# stopwords = set([w.strip().lower() for w in smart_open(STOPWORDS_FILE1,'r').readlines()])
+# STOPWORDS_FILE2 = '/path/to/en_stopwords.txt'
+# stopwords = set([w.strip().lower() for w in smart_open(STOPWORDS_FILE2,'r').readlines()])
+# functional = set('ADP AUX CCONJ DET PART PRON SCONJ PUNCT'.split())
+
+ru_udpipe_filename = 'udpipe_syntagrus.model'
 ru_model = Model.load(ru_udpipe_filename)
 ru_pipeline = Pipeline(ru_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
 
-# # STOPWORDS_FILE = 'stopwords_ru'
-# # stopwords = set([w.strip().lower() for w in smart_open(STOPWORDS_FILE,'r').readlines()])
 en_udpipe_filename = 'english-ewt-ud-2.3-181115.udpipe'
 en_model = Model.load(en_udpipe_filename)
 en_pipeline = Pipeline(en_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
 
-# # functional = set('ADP AUX CCONJ DET PART PRON SCONJ PUNCT'.split())
+print('UD models loaded')
+print('If you get no output and no errors, check the path to the rawdata')
+
 counter = 0
 for subdir, dirs, files in os.walk(args.texts):
     for id, f in enumerate(files):
@@ -103,10 +111,11 @@ for subdir, dirs, files in os.walk(args.texts):
                 except UnicodeDecodeError:
                     print(f)
                     continue
+                # select txt_sents=False if you don't want one-sentence-per-line format!
                 if lang == 'en':
-                    do_job(en_pipeline, text, lang, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True)
+                    do_job(en_pipeline, text, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True, lang=lang)
                 elif lang == 'ru':
-                    do_job(ru_pipeline, text, lang, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True)
+                    do_job(ru_pipeline, text, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True, lang=lang)
                     
                 ### Monitor processing:
                 if counter % 50 == 0:
@@ -114,4 +123,4 @@ for subdir, dirs, files in os.walk(args.texts):
 
 end = time.time()
 processing_time = int(end - start)
-print('Processing %s (%s files) took %.2f minites' % (args.texts, counter, processing_time / 60), file=sys.stderr) #.split('/')[-2]
+print('Processing %s (%s files) took %.2f minites' % (args.texts, counter, processing_time / 60), file=sys.stderr)

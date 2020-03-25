@@ -13,50 +13,53 @@ import gzip
 
 
 def tokeniseall(s, lang=None):
-    # print('==IN (to tokenize)==', s)
+    # sibstitute 58,000 with 58000 for it to be treated as ONE number, not TWO with a comma'
     res0 = re.sub(r'(\d+),\s?(\d+)', r'\1\2', s)
-    # print('==(0)==Sibstituted 58,000 with 58000 for it to be treated as ONE number, not TWO with a comma')
+    
+    # properly separate punctuation
     punct = r'([\[\]\(\),\.-/":<>”?“!»«‒‖–‗—‘―’‚‛„†‡‰‱′″‴‵‶‷‸‹›¡¿+|’;%‘*=&°@ ~>§©$])'
     res = re.sub(punct, r' \1 ', res0)
-    # print('\n==(1)==I have taken care of contracted forms both in frequency dictionary and in mixed transformations\n')
-    # print('\n==(2)==I properly separate punctuation now, and keep only really important end-of-clause marks\n')
-    if lang == 'ru':
+    
+    # take care of contracted forms
+    if lang == 'en':
         contract = ["'m", "'d", "'ll", "'re", "'s", "'ve"]
         search_for = re.compile("|".join(contract))
         res = search_for.sub(lambda x: ' ' + x.group(0), res)
-    
-    # print('==OUT (of tokenize)==', res2)
-    return res  # this inserts a space before punctuation
+
+    return res
 
 def cleanhtml(raw_html):
+    # get rid of fragmets of xml code
     cleanr = re.compile('<.*?>')
     cleantext = re.sub(cleanr, '', raw_html)
     return cleantext
 
-
 def num_replace(word):
+    # if selected, replaces 2019 with xxxx
     newtoken = 'x' * len(word)
     return newtoken
 
-
-def clean_token(token, misc):
+def clean_token(token, misc, lang=None):
     """
-    :param token:  токен (строка)
-    :param misc:  содержимое поля "MISC" в CONLLU (строка)
-    :return: очищенный токен (строка)
+    :param token: the contents of the token field from each conllu line
+    :param misc:  contents of "MISC" field in CONLLU
+    :return: only valid tokens stripped of leading/trailing spaces
     """
     out_token = token.strip().replace(' ', '')
-    
-    if token == 'Файл' and 'SpaceAfter=No' in misc:
-        return None
+    if lang == 'ru':
+        if token == 'Файл' and 'SpaceAfter=No' in misc:
+            return None
+    if lang == 'en':
+        if token == 'File' and 'SpaceAfter=No' in misc:
+            return None
     return out_token
 
 
 def clean_lemma(lemma, pos):
     """
-    :param lemma: лемма (строка)
-    :param pos: часть речи (строка)
-    :return: очищенная лемма (строка)
+    :param lemma: the contents of the lemma field from each valid conllu line
+    :param pos: the contents of the PoS field from each valid conllu line
+    :return: filtered lemmas
     """
     out_lemma = lemma.strip().replace(' ', '').replace('_', '').lower()
     if '|' in out_lemma or out_lemma.endswith('.jpg') or out_lemma.endswith('.png'):
@@ -137,8 +140,9 @@ def unify_sym(text):  # принимает строку в юникоде
     
     return cleaned_text
 
-# filter out some lempos cats
-def check_word(token, pos, nofunc=None, nopunct=None, noshort=True, stopwords=None, lose_NUM=True):
+##### MOST FILTERING HAPPENS HERE #############
+# filter out selected token categories: punctuation, fuction words or stop words, etc
+def check_word(token, pos, nofunc=None, nopunct=None, noshort=True, stopwords=None, lose_NUM=False):
     if lose_NUM:
         if pos == 'NUM' and token.isdigit():  # Replacing numbers with xxxxx of the same length
             token = num_replace(token)
@@ -158,14 +162,8 @@ def check_word(token, pos, nofunc=None, nopunct=None, noshort=True, stopwords=No
     
     return token
 
-def postprocess_ud(ud_annotated, outfile, txt_sents_out, sentencebreaks=True, entities=None):
-    """
-    :param source_file:
-    :param outfile:
-    :param sentencebreaks:
-    :param entities:
-    :return:
-    """
+def postprocess_ud(ud_annotated, outfile, sentencebreaks=True, entities=None, lang=None):
+  
     if entities is None:
         entities = {'PROPN'}
     tempfile0 = open(outfile, 'w')
@@ -193,21 +191,20 @@ def postprocess_ud(ud_annotated, outfile, txt_sents_out, sentencebreaks=True, en
             continue
         (word_id, token, lemma, pos, xpos, feats, head, deprel, deps, misc) = res
         nr_lines += 1
-        token = clean_token(token, misc)
+        token = clean_token(token, misc, lang=lang)
         cleaned_lemma = clean_lemma(lemma, pos)
-        lemma = check_word(cleaned_lemma, pos)
+        lemma = check_word(cleaned_lemma, pos, nofunc=None, lose_NUM=True) # if you want filtering pass keyworded params here: add lists or select True/False
         
         if not lemma and not token:
             continue
         if pos in entities:
             if '|' not in feats:
-                ## we are tagging unigram PROPN
-                tempfile0.write('%s_%s ' % (lemma, pos))  # Lemmas and POS tags
-                # print('Print2 (unigram PROPN):\t' + past_lemma + '_PROPN ', file=sys.stderr)
+                # tagging unigram PROPN
+                tempfile0.write('%s_%s ' % (lemma, pos))
                 continue
             morph = {el.split('=')[0]: el.split('=')[1] for el in feats.split('|')}
             if 'Case' not in morph or 'Number' not in morph:
-                tempfile0.write('%s_%s ' % (lemma, pos))  # Lemmas and POS tags
+                tempfile0.write('%s_%s ' % (lemma, pos))
                 continue
             if not named:
                 named = True
@@ -219,29 +216,25 @@ def postprocess_ud(ud_annotated, outfile, txt_sents_out, sentencebreaks=True, en
                     named = False
                     past_lemma = '::'.join(memory)
                     memory = []
-                    tempfile0.write(past_lemma + '_PROPN ')  # Lemmas and POS tags
-                    # print('Print3 (guessed from grammatical coordination and default PROPN):\t' + past_lemma + '_PROPN ', file=sys.stderr)
+                    tempfile0.write(past_lemma + '_PROPN ')
                     tempfile0.write('\n')
             else:
                 named = False
                 past_lemma = '::'.join(memory)
                 memory = []
-                tempfile0.write(past_lemma + '_PROPN ')  # Lemmas and POS tags
-                tempfile0.write('%s_%s ' % (lemma, pos))  # Lemmas and POS tags
+                tempfile0.write(past_lemma + '_PROPN ')
+                tempfile0.write('%s_%s ' % (lemma, pos))
         else:
             if not named:
-                tempfile0.write('%s_%s ' % (lemma, pos))  # Lemmas and POS tags
+                tempfile0.write('%s_%s ' % (lemma, pos))
             else:
                 named = False
-                ## I get the error on ruscorporawiki: TypeError: sequence item 0: expected str instance, NoneType found
-                ### SOLVED see def clean_lemma(lemma, pos):
                 past_lemma = '::'.join(memory)
                 memory = []
-                tempfile0.write(past_lemma + '_PROPN ')  # Lemmas and POS tags
-                # print('Print4 (last print):\t' + past_lemma + '_PROPN ', file=sys.stderr)
+                tempfile0.write(past_lemma + '_PROPN ')
                 
-                tempfile0.write('%s_%s ' % (lemma, pos))  # Lemmas and POS tags
-        ## this produced empty lines between paragraphs in lempos, not it conllu, see EN_1_3 Credit out of control
+                tempfile0.write('%s_%s ' % (lemma, pos))
+                
         if 'SpacesAfter=\\n' in misc or 'SpacesAfter=\s\\n' in misc:
             tempfile0.write('\n')
     
@@ -253,11 +246,10 @@ def do_conllu_only(pipeline, text, lang, ud_outf):
     text = cleanhtml(text)
     ## take care of inverted commas, bad symbols, currencies, emptylines, indents
     res = unify_sym(text.strip())
-    ## adding the tokenization routine to the good sentence
-    ## this does not tokenise sentences!!
-    res = tokeniseall(res, lang=lang)
+    ## adding the tokenization routine to the good input
+    res = tokeniseall(res, lang=lang) # this does not tokenise sentences!!
     ## get the default conllu annotation
-    ud_tagged = pipeline.process(text)
+    ud_tagged = pipeline.process(res)
     
     ## the default settings for postprocessing in the internal check_word function:
     # nofunc=None, nopunct=None, noshort=True, stopwords=None
@@ -266,16 +258,16 @@ def do_conllu_only(pipeline, text, lang, ud_outf):
     with open(ud_outf, 'w') as udout:
         udout.write(ud_tagged)
 
-def do_job(pipeline, text, lang, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True):
+def do_job(pipeline, text, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True, lang=None):
     
     ## lose xml
     text = cleanhtml(text)
     ## take care of inverted commas, bad symbols, currencies, emptylines, indents
     res = unify_sym(text.strip())
     ## adding the tokenization routine to the good sentence
-    ## this does not tokenise sentences!!
+    
     res = tokeniseall(res, lang=lang)
-    if txt_sents == False:
+    if txt_sents == False: # select false if you don't want one-sentence-per-line format!
         with open(txt_outf, 'w') as out:
             out.write(res)
     
@@ -284,12 +276,10 @@ def do_job(pipeline, text, lang, txt_outf, ud_outf, temp_outf, lempos_outf, txt_
     
     ## the default settings for postprocessing in the internal check_word function:
     # nofunc=None, nopunct=None, noshort=True, stopwords=None
-    ## tagging NER, replacing NUM, considering sentence-paragraphs breaks in the raw text
-    ## skip short sentences
     with open(ud_outf, 'w') as udout:
         udout.write(ud_tagged)
     
-    postprocess_ud(ud_tagged, temp_outf, txt_outf, sentencebreaks=txt_sents, entities=None)
+    postprocess_ud(ud_tagged, temp_outf, sentencebreaks=txt_sents, entities=None, lang=lang)
     
     ## you want to skip short short and long sentences
     text = open(temp_outf, 'r')
@@ -297,8 +287,7 @@ def do_job(pipeline, text, lang, txt_outf, ud_outf, temp_outf, lempos_outf, txt_
         ### trying to delete empty lines
         for line in text:
             res = line.strip().split()
-            if 4 <= len(
-                    res) < 40:  ## see suggestions for data preprocessing http://www.statmt.org/wmt07/baseline.html referenced by FastText.py
+            if 4 <= len(res) < 40:  ## see suggestions for data preprocessing http://www.statmt.org/wmt07/baseline.html referenced by FastText.py
                 line = line.strip()
                 lempos_ed.write(line)
                 lempos_ed.write('\n')
@@ -309,11 +298,10 @@ def do_job(pipeline, text, lang, txt_outf, ud_outf, temp_outf, lempos_outf, txt_
         conllu = open(ud_outf, 'r').readlines()
         with open(txt_outf, 'w') as out:
             sentences = []
-            current_sentence = []  # определяем пустой список
-            for line in conllu:  # итерируем строки из обрабатываемого файла
-                if line.strip() == '':  # что делать есть строка пустая:
-                    if current_sentence:  # и при этом в списке уже что-то записано
-                        # то добавляем в другой список sentences содержимое списка current_sentences
+            current_sentence = []
+            for line in conllu:
+                if line.strip() == '':
+                    if current_sentence:
                         sentences.append(current_sentence)
                         ## voila! get your fully tokenized output!
                         ## this is where all words in the sentence are finally collected
@@ -321,10 +309,9 @@ def do_job(pipeline, text, lang, txt_outf, ud_outf, temp_outf, lempos_outf, txt_
                         # print(tokenized, file=sys.stderr)
                         out.write(tokenized + '\n')
                         
-                    current_sentence = []  # обнуляем список
+                    current_sentence = []
             
                     # if the number of sents can by divided by 1K without a remainder.
-                    # В этом случае, т.е. после каждого 1000-ного предложения печатай месседж. Удобно!
                     if len(sentences) % 1000 == 0:
                         print('I have already read %s sentences' % len(sentences), file=sys.stderr)
                     continue
@@ -334,7 +321,7 @@ def do_job(pipeline, text, lang, txt_outf, ud_outf, temp_outf, lempos_outf, txt_
                 (identifier, token, lemma, upos, xpos, feats, head, rel, misc1, misc2) = res
                 if '.' in identifier:  # ignore empty nodes possible in the enhanced representations
                     continue
-                # во всех остальных случаях имеем дело со строкой по отдельному слову
+                    
                 current_sentence.append((int(identifier), int(head), token, rel))
  
 
