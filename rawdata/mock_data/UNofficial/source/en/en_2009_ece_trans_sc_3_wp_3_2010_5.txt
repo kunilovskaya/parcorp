@@ -1,0 +1,207 @@
+Economic and Social Council Distr.
+Inland Transport Committee Working Party on Inland Water Transport Working Party on the Standardization of Technical and Safety Requirements in Inland Navigation Thirty-sixth session Geneva, 10-12 February 2010
+Item 7 (d) of the provisional agenda Resolution No. 61, "Recommendations on Harmonized Europe-Wide Technical Requirements for Inland Navigation Vessels"
+Requirements concerning lights and the colour of signal lights on vessels, intensity and range of signal lights on vessels and radar equipment Note by the secretariat introduction It is recalled that in Resolution No. 66 on "Additions and amendments to resolution No. 24 on CEVNI: European Code for Inland Waterways" the Working Party on Inland Water Transport decided to move the requirements on lights and the colour of signal lights on vessels (annex 4 to CEVNI), intensity and range of signal lights on vessels (annex 5 to CEVNI) and general technical specifications applicable to radar equipment (annex 10 to CEVNI) to Resolution No. 61, "Recommendations on Harmonized Europe-Wide Technical Requirements for Inland Navigation Vessels" (ECE/TRANS/SC.3/115/Rev.3/Amend.1).
+At the present time, Resolution No. 61 does not include technical requirements for lights, their intensity, range and color.
+The issue of radar equipment is addressed in article 7-4 of the resolution, "Radar Equipment and Rate-Of-Turn Control", which refers to Resolution No. 48, "Recommendation on electronic chart display and information system for inland navigation (Inland ECDIS)"(ECE/TRANS/SC.3/156/Rev.1).
+The Working Party may wish to discuss how to integrate the provisions of former CEVNI annexes 4, 5 and 10 in Resolution No. 61, based on the information, presented below, on how these requirements are addressed and integrated in the relevant regulations of the European Union (EU) and the Central Commission for the navigation of the Rhine (CCNR).
+CURRENT EU and CCNR Requirements on colour, intensity and range of signal lights on vessels and radar equipment The requirements related to colour, intensity and range of signal lights on vessels The requirements related to lights and the colour of signal lights on vessels, intensity and range of signal lights on vessels are described in Annex IX to EU Directive 2006/87/EC laying down technical requirements for inland waterway vessels (hereafter, Directive 2006/87/EC).
+They are based on the CCNR Regulations concerning the color and intensity of lights and the approval of signal lanterns for inland waterway vessels (CCNR Resolution 1990-I-16).
+Just as former annexes 4 and 5 of CEVNI, the definitions of signal laterns, signal lights, light sources, optic, filters and luminous intensity and the requirements for signal lights, set in Part I of Annex IX to Directive 2006/87/EC, are based on the recommendations of the International Commission on Illumination, "Colours of Signal Lights", IEC Publication No. 2.2 (TC-1.6) 1975.
+Therefore, the provisions in Part I of Annex IX are equivalent to the relevant provisions in Annexes 4 and 5 of CEVNI, as amended by the fifty-first session of the Working Party on Inland Water Transport (ECE/TRANS/SC.3/178, paragraphs 21-24).
+Unlike former annexes of CEVNI, annex IX to the directive also includes detailed requirements concerning the conditions for testing and approval of signal lanterns for inland waterway vessels (Part II). The table of content of Part I and II of Annex IX with references to the relevant articles of former annexes IV and V of CEVNI, where available, are presented in Annex I.
+The requirements related to radar equipment Annex IX to Directive 2006/87/EC in its Part III also sets out minimum requirements and test conditions for radar installations used for navigation in inland waterway vessels.
+The provisions of Part III are based on the CCNR Regulations on minimum requirements and test conditions for radar installations used for navigation on the Rhine (Resolution 1989-II-33).
+Part III of the annex offers a detailed description of the parameters, listed in former CEVNI annex 10, namely: minimum and maximum range of defection, distance resolution, angular resolution, accuracy of measurement, heading line, effective diameter of screen indicator, range scales, off-centring, bearing facilities, transmission frequency, warm-up time and minimum antenna speed.
+The relevant chapters of Part III are presented in Annex II.
+future CURRENT EU and CCNR Requirements on colour, intensity and range of signal lights on vessels and radar equipment Currently, the entire Annex IX to Directive 2006/87/EC is under revision by the Joint Working Group (JWG) of experts from the member States of the EU and the CCNR on technical requirements for inland waterway vessels.
+The amendments to Annex IX will entail the corresponding modifications to the relevant CCNR regulations.
+Annex IX to Directive 2006/87/EC, "Requirements applicable to signal lights, radar installations and rate-of-turn indicators"
+European Code for Inland Waterways (CEVNI), former annexes 4 and 5
+The content of the former Annex 4 and 5 of CEVNI are published as, respectively, documents ECE/TRANS/SC.3/115/Rev.3 and ECE/TRANS/SC.3/WP.3/2009/1.
+Signal lanterns Article I.1 of former CEVNI Annex 4
+Signal lights Article I.2 of former Annex 4, article I.1 of former Annex 5 and article 3.01 of CEVNI
+Light sources Article I.3 of former Annex 4
+Optic No equivalent article in CEVNI
+Relation between IO, IB and t Article I.2 of former Annex 5
+Colour of signal lights Article II of former Annex 4
+Luminous intensity and range of signal lights Article II.1 of former Annex 5 differs from Article 2.02, as CEVNI had been brought in line with standard EN 14744:2005 on navigation lights for inland navigation and sea-going vessels Article 2.03.
+Signal light dispersion Article II.2 of former Annex 5 differs from Article 2.02, as CEVNI had been brought in line with standard EN 14744.
+Technical requirements Article I.1 of former Annex 4
+Type tests Article 4.02.
+Test procedure Article 4.03.
+Approval certificate Article 4.04.
+Spot checks Article 4.05.
+Markings Appendix: Model approval certificate for signal lanterns for inland waterway vessels PART II: Requirements Concerning the Conditions for Testing and Approval of Signal Lanterns for Inland Waterway Vessels No equivalent chapter in CEVNI
+Chapter 1 General provisions Article 1.01 Standard voltages Article 1.02 Operating requirements Article 1.03 Mounting Article 1.04 Photometric requirements Article 1.05 Components Article 1.06 Maintenance Article 1.07 Safety requirements Article 1.08 Accessories Article 1.09 Non-electric signal lanterns Article 1.10 Double lanterns Chapter 2 Photometric and colorimetric requirements Article 2.01 Photometric requirements Article 2.02 Colorimetric requirements Chapter 3 Manufacturing requirements Article 3.01 Electric lanterns Article 3.02 Filters and optical glasses Article 3.03 Electric light sources Chapter 4 Test and approval procedure Article 4.01 General rules of procedure Article 4.02 Application Article 4.03 Test Article 4.04 Approval Article 4.05 Cessation of validity of the approval Appendix Environment tests Annex II
+1. Radar equipment shall be suitable for operation on board inland waterway vessels.
+2. The construction and design of the equipment shall be in accordance with the state of the art, both mechanically and electrically.
+3. In the absence of any specific provision in Annex II to this Directive or in these provisions, the requirements and test methods contained in IEC publication 945 "Marine Navigational Equipment General Requirements" shall apply to power supply, safety, mutual interference of shipborne equipment, compass safe distance, resistance to climatic influences, mechanical strength, environmental influences, audible noise emission and equipment markings.
+Additionally, the requirements of the ITU Radio Regulations shall apply.
+The equipment shall satisfy all requirements of these provisions for radar display ambient temperatures between 0 and 40 °C.
+Spurious emissions and electromagnetic compatibility
+1. In the frequency range of 30 to 2 000 MHz, the field strength of spurious emissions shall not exceed 500 μV/m.
+In the frequency ranges of 156 to 165 MHz, 450 to 470 MHz and 1,53 to 1,544 GHz the field strength shall not exceed a value of 15 μV/m.
+These field strengths shall apply at a test distance of 3 metres from the equipment under test.
+2. The equipment shall satisfy the minimum requirements at electromagnetic field strengths of up to 15 V/m in the immediate vicinity of the equipment under test in the frequency range of 30 to 2 000 MHz.
+1. The equipment shall not have more controls than are necessary for its correct operation.
+The design, markings and manipulation of the controls shall be such as to permit their simple, unambiguous and fast operation.
+Their arrangement shall be such as to prevent operating mistakes as far as possible.
+Controls not necessary for normal operation shall not be immediately accessible.
+2. All controls and indicators shall be provided with symbols and/or markings in English.
+Symbols shall meet the requirements of IMO Recommendation No A.278 (VIII) "Symbols for controls on marine navigational radar equipment" or the requirements contained in IEC publication No 417; all numerals and letters shall be at least 4 mm high.
+If it can be demonstrated that, for technical reasons, numerals and letters 4 mm high are not possible and if for the purposes of operation smaller numerals and letters are acceptable, a reduction to 3 mm shall be allowed.
+3. The equipment shall be designed in such a way that operating mistakes cannot cause its failure.
+4. Any functions over and above the minimum requirements, such as facilities for connection to other equipment, shall be provided in such a way that the equipment meets the minimum requirements under all conditions.
+1. A detailed operator's manual shall be supplied with each unit.
+It shall be available in Dutch, English, French and German and shall contain at least the following information:
+(a) activation and operation;
+(b) maintenance and servicing;
+(c) general safety instructions (health hazards, e.g. the influencing of pacemakers, etc. by electromagnetic radiation);
+(d) instructions for correct technical installation.
+2. A summarised operator's manual in a durable form shall be supplied with each unit.
+It shall be available in Dutch, English, French and German.
+Installation and operating tests Installation, replacement and operating tests shall be in accordance with the requirements of Part V.
+Operational readiness of radar equipment
+1. From a cold start, radar equipment shall be fully operational within four minutes.
+After this period, it shall be possible to interrupt and activate transmission instantaneously.
+2. It shall be possible for a single person to operate the radar equipment and watch the display simultaneously.
+If the control panel is a separate unit, it shall contain all controls used directly for radar navigation.
+Cordless remote controls shall not be permitted.
+3. It shall be possible to read the display also when there is considerable ambient brightness.
+When necessary, appropriate vision aids shall be available and shall be attachable and removable simply and easily.
+Vision aids shall be usable by wearers of spectacles.
+1. Angular resolution Angular resolution is related to range scale and distance.
+The required minimum resolution for shorter ranges up to and including 1 200 m is shown in Appendix 1.
+Minimum resolution is understood to be the minimum azimuthal distance between two standard reflectors (see Article 5.03(2)) at which they are shown clearly separated on the radar picture.
+2. Minimum range and range resolution At all distances between 15 and 1 200 m in range scales up to and including 1 200 m, standard reflectors located 15 m apart on the same bearing shall be shown clearly separated on the radar screen.
+3. Functions that can cause a deterioration of resolution shall not be switchable in range scales up to 2 000 m.
+1. The radar equipment shall be provided with the following sequentially switchable range scales and circles: Range scale 1 500 m one circle every 100 m Range scale 2 800 m one circle every 200 m Range scale 3 1 200 m one circle every 200 m Range scale 4 1 600 m one circle every 400 m Range scale 5 2 000 m one circle every 400 m
+2. Further sequentially-switchable range scales shall be permitted.
+3. The selected range scale, the distance between range circles and the distance of the variable range marker shall be indicated in metres or kilometres.
+4. The width of the range circles and the variable range marker shall, at the normal brightness setting, not exceed 2 mm.
+5. Subsector display and enlargements shall not be permitted.
+1. The radar equipment shall have a variable range marker.
+2. Within eight seconds, it shall be possible to set the range marker to any distance.
+3. The distance at which the variable range marker is set shall not change even after switchover to other range scales.
+4. The range shall be displayed as a three- or four-digit number.
+The accuracy for ranges up to 2 000 m shall be within 10 metres.
+The radius of the range marker shall correspond to the digital display.
+1. A lubber line shall extend from the position on the radar display that corresponds to the antenna position up to the edge of the radar screen.
+2. The width of the lubber line at the edge of the screen shall not be more than 0,5°.
+3. The radar unit shall have an adjusting device for correcting any azimuthal angular error in the antenna mounting.
+4. Following correction of the angular error and activation of the radar unit, the deviation of the lubber line from the keel line shall not exceed 0,5°.
+1. To permit an extended forward view, off-centring of the radar picture shall be possible at all the range scales specified in Article 3.03(1).
+Off-centring shall result exclusively in an extension of the forward view and shall be adjustable to at least 0,25, and at most 0,33, of the effective screen diameter.
+2. In the range with extended forward view, the range circles shall be extended and the variable range marker shall be adjustable and readable up to the maximum of the displayed range.
+3. A fixed forward extension of the range displayed in accordance with paragraph 1 is permitted provided that, for the central part of the picture, the effective diameter is not less than that specified in Article 4.03(1), and that the bearing scale is designed in such a way that a bearing can be taken in accordance with Article 3.08.
+In that case the off-centring facility referred to in paragraph 1 shall not be required.
+1. The radar equipment shall have a bearing scale at the edge of the screen.
+2. The bearing scale shall be divided into at least 72 parts each representing 5 degrees.
+The graduation marks representing 10 degrees must be clearly longer than those representing 5 degrees.
+The 000 mark on the bearing scale shall be positioned in the middle of the upper edge of the screen.
+3. The bearing scale shall be marked in three-figure numbers from 000 to 360 degrees in a clockwise direction.
+Numbering shall be in Arabic numerals every 10 or every 30 degrees.
+The figure 000 may be replaced by a clearly visible arrow.
+1. Facilities for taking bearings of targets shall be allowed.
+2. If such facilities are provided, they shall be capable of taking a bearing of any target within approximately 5 seconds, with a maximum error of +- 1 degree.
+3. If an electronic bearing line is used, it shall:
+(a) be clearly distinguishable from the lubber line;
+(b) be displayed quasi-continuously;
+(c) be freely rotatable through 360 degrees left and right;
+(d) be at most 0,5 degrees wide at the edge of the screen;
+(e) extend from origin up to the bearing scale;
+(f) and complete a three- or four-figure decimal degree reading.
+4. If a mechanical bearing line is used, it shall:
+(a) be freely rotatable through 360 degrees left and right;
+(b) extend from the marked origin to the bearing scale;
+(c) bear no further markings; and
+(d) be designed in such a way that echo readings are not obscured unnecessarily.
+Facilities for reducing sea and rain clutter
+1. The radar equipment shall have facilities with manual controls for reducing clutter from sea and rain.
+2. The sea-clutter control (sensitivity time control -- STC) shall, at its maximum setting, be effective up to a distance of approximately 1 200 m.
+3. The radar equipment shall not be provided with automatic facilities for reducing sea and rain clutter.
+Reduction of interference from other radar equipment
+1. There shall be a switchable facility for the reduction of interference caused by other radar equipment.
+2. The operation of this facility shall not suppress the display of useful targets.
+Compatibility with radar beacons Signals from radar beacons in accordance with IMO resolution A.423 (XI) shall be displayed clearly with the rain clutter suppression (fast time constant -- FTC) switched off.
+Gain control The range of the gain control shall be such that, at minimum sea-clutter suppression setting, surface movement of the water is clearly visible and that powerful radar echoes with an echo area equivalent to 10 000 m2 may be cut out at any distance.
+Frequency tuning The display unit shall be provided with a tuning indicator.
+The tuning scale shall have a length of at least 30 mm.
+The indicator shall function in all ranges, even without radar echoes.
+The indicator shall function equally well when the gain or suppression of close proximity echoes is activated.
+A manual control to correct the tuning shall be available.
+Nautical orientation lines and information on the screen
+1. Only the lubber line, bearing lines and range circles may be superimposed on the radar screen.
+2. Apart from the radar picture and in addition to information on the operation of the radar equipment, only nautical information such as that listed below may be displayed:
+(a) rate of turn;
+(b) speed of the vessel;
+3. All screen information besides the radar picture shall be displayed quasistatically and the refreshing rate shall satisfy the operational requirements.
+4. The requirements regarding the display and accuracy of nautical information shall be the same as those applicable to the main equipment.
+System sensitivity The system sensitivity shall be such that a standard reflector at a distance of 1 200 m appears clearly on the radar picture on every revolution of the antenna.
+In the case of a 1 m2 reflector at the same distance, the quotient of the number of antenna revolutions with radar echo during a specific period and the total number of antenna revolutions in that same period based on 100 revolutions (blip-scan rate) shall not be less than 0,8.
+Target trail Previous positions of targets shall be shown by means of a trail.
+The representation of the target trail shall be quasi-continuous and the brightness shall be less than that of the associated target; the target trail and the radar picture shall have the same colour.
+The persistence of the trail shall be adjustable to operational requirements, but shall not last longer than 2 antenna revolutions.
+The target trail shall not impair the radar picture.
+Slave indicators Slave indicators shall comply with all requirements applicable to navigational radar equipment.
+Chapter 4: Minimum Technical Requirements for Radar Equipment Article 4.01
+1. All controls shall be so arranged that during their operation no information is concealed from view and radar navigation remains unimpaired.
+2. Controls which can be used to switch off the equipment or, if activated, could lead to a malfunction must be protected against accidental operation.
+3. All controls and indicators shall be provided with a dazzle-free source of lighting appropriate for all ambient lighting conditions and adjustable down to zero by means of an independent control.
+4. The following functions must have their own controls with direct access:
+(g) Variable range marker (VRM);
+(h) Cursor or electronic bearing line (EBL) (if fitted);
+(i) Ship's heading marker suppression (SHM).
+If rotary controls are used for the abovementioned functions, concentric arrangement of the controls one above the other shall be prohibited.
+5. At least the controls for gain, sea clutter and rain clutter must be adjustable by means of a rotary control with an effect proportional to the angle of rotation.
+6. Adjustment of controls shall be such that movements to the right or upwards have a positive effect on the variable and movements to the left or downwards a negative effect.
+7. If push-buttons are used, it shall be possible to locate and operate them by touch.
+They shall also have clearly perceptible contact release.
+8. It must be possible to adjust the brightness of the following variables separately from zero to the value required for operational purposes:
+(b) fixed range circles;
+(c) variable range circles;
+(f) nautical information as specified in Article 3.14(2).
+9. Provided that the difference in brightness of some of the displayed values is only slight and the fixed range circle, the variable range circle and the bearing line can be switched off independently of each other, there may be four brightness controls, one for each of the following groups of values:
+(a) radar picture and lubber line;
+(d) bearing line and bearing scale and nautical information as specified in Article 3.14(2).
+10. The brightness of the lubber line shall be adjustable but shall not be reducible to zero.
+11. To switch off the lubber line, there shall be a control with automatic reset.
+12. From zero, the anti-clutter devices shall be continuously adjustable.
+1. "Radar picture" means the scaled representation of radar echoes of the surroundings and their motion relative to the vessel on the display unit's screen from one antenna revolution with the vessel's keel line and the lubber line coinciding at all times.
+2. "Display unit" means that part of the equipment that contains the screen.
+3. "Screen" means the low-reflection part of the display unit on which either the radar picture alone, or the radar picture together with additional nautical information, is shown.
+4. "Effective diameter of the radar picture" means the diameter of the largest completely circular radar picture which can be shown within the bearing scale.
+5. "Raster scan representation" means the quasi-static representation of the radar picture from a complete revolution of the antenna, in the form of a television picture.
+1. The effective diameter of the radar picture shall be not less than 270 mm.
+2. The diameter of the outer range circle in the range scales specified in Article 3.03 shall be at least 90 % of the effective radar picture diameter.
+3. For all range scales, the antenna position shall be visible in the radar picture.
+Colour of the display The display colour shall be chosen on the basis of physiological factors.
+If various colours can be reproduced on the screen, the actual radar picture shall be monochrome.
+The reproduction of different colours shall not result in mixed colours, by superimposition, on any part of the screen.
+Picture refreshment rate and persistence
+1. The radar picture shown by the display shall be replaced by the up-to-date radar picture within 2,5 seconds.
+2. Each echo on the screen shall persist for at least the duration of one antenna revolution, but not longer than two antenna revolutions.
+The persistence of the radar picture may be achieved in two fashions: either by a continuous display or by periodical picture refreshment.
+This periodical picture refreshment shall be effected at not less than 50 Hz.
+3. The difference in brightness between the writing of an echo and its afterglow during one antenna revolution shall be as small as possible.
+1. The linearity error of the radar picture shall not exceed 5 %.
+2. In all ranges up to 2 000 m a fixed straight shore line at a distance of 30 m from the radar antenna shall be displayed as a straight continuous echo structure without observable distortions.
+Accuracy of range and azimuthal measurements
+1. The determination of the distance to a target by means of variable or fixed range circles shall be accurate to +- 10 m or +- 1,5 %, whichever is the larger.
+2. The angular value of the bearing of an object shall not differ by more than 1 degree from the real value.
+Antenna characteristics and emission spectrum
+1. The antenna drive system and the antenna shall be such as to allow correct operation at wind speeds of up to 100 km per hour.
+2. The antenna drive system shall have a safety switch by means of which the transmitter and the rotator drive can be switched off.
+3. The horizontal radiation pattern of the antenna, measured in one direction, shall meet the following requirements:
+(a) - 3 dB, width of the main lobe: maximum 1,2 degrees;
+(b) - 20 dB, width of the main lobe: maximum 3,0 degrees;
+(c) side-lobe attenuation within +- 10 degrees around the main lobe: at least -- 25 dB;
+(d) side-lobe attenuation outside +- 10 degrees around the main lobe: at least -- 32 dB.
+4. The vertical radiation pattern of the antenna, measured in one direction, shall meet the following requirements:
+(a) - 3 dB, width of the main lobe: maximum 30 degrees;
+(b) the maximum of the main lobe shall be in the horizontal axis;
+(c) side-lobe attenuation: at least -- 25 dB.
+5. The radiated high-frequency energy shall be horizontally polarised.
+6. The operating frequency of the equipment shall be in a range above 9 GHz which is allocated under prevailing ITU Radio Regulations to navigational radar equipment.
+7. The frequency spectrum of the high-frequency energy radiated by the antenna shall be in conformity with ITU Radio Regulations.
