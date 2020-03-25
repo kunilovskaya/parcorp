@@ -17,6 +17,8 @@ The six parallel subcorpora are complemented with register-comparable non-transl
 
 NB! most scripts expect to have all inputs (data, imported modules, support lists) in the same folder and need to be started from this folder.
 
+**see [code](https://github.com/kunilovskaya/scrape) and instructions for scraping parallel texts from a website (with multilingual BBC as example)**
+
 The raw text data is sources from the following corpora:
 
 ### Registers and the sources of data
