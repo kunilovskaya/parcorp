@@ -1,5 +1,8 @@
 # coding: utf-8
 '''
+updated March 25, 2020
+based on https://github.com/akutuzov/webvectors/blob/master/preprocessing/rus_preprocessing_udpipe.py
+
 pre-process multiling tree of folders with raw texts (not necessarily one-sent per line)
 into one-sent-per-line punct-tokenized txt, conllu corpus and a lempos corpus
 
