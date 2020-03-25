@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # data
-
+mock_parse/
 # Distribution / packaging
 temp/
 lists-of-files/
