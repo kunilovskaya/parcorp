@@ -7,12 +7,11 @@ __pycache__/
 *.so
 
 # data
-par6registers_parsed/
-
+mock_parse/
 # Distribution / packaging
-misc/
+temp/
+lists-of-files/
 data/
-models/
 dev/
 output/
 .idea
