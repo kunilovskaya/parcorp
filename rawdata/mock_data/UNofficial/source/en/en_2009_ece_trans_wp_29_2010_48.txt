@@ -1,0 +1,57 @@
+Economic and Social Council Distr.
+World Forum for Harmonization of Vehicle Regulations One-hundred-and-fiftieth session Geneva, 9-12 March 2010
+Item 17.4 of the provisional agenda PROGRESS IN THE DEVELOPMENT OF NEW GLOBAL TECHNICAL REGULATIONS OR AMENDMENTS TO ESTABLISHED GLOBAL TECHNICAL REGULATIONS
+(Worldwide harmonized Heavy Duty Certification (WHDC))
+Proposal for Amendment 2 to global technical regulation No. 4
+Submitted by the secretary of the informal group WHDC /
+This document was prepared to correct editorial errors in ECE/TRANS/WP.29/2009/121.
+The modifications to the text are marked in bold characters or strikethrough.
+In addition, the amendments to paragraph 7.6.3 (hot soak period) and to paragraph 8.6.3 (calculation of specific emissions) reflect the proposal of the United States of America in document ECE/TRANS/WP.29/2010/49 for solving the options on hot soak period and cold start weighting factor in this global technical regulation.
+The Executive Committee (AC.3) of the 1998 Agreement agreed to prepare the corresponding documents to be submitted to a vote at the June 2010 session of AC.3, after consideration by the Working Party on Pollution and Energy (GRPE) at its January 2010 session and by AC.3 at its March 2010 session (ECE/TRANS/WP.29/1079, para. 94).
+Paragraph 3.2., insert new symbols and correct the following symbols, to read:
+"Symbol Unit Term a1
+Slope of the regression a0
+y intercept of the regression cgas ppm/Vol per cent Concentration on the gaseous components er ep g/kWh Specific emission during regeneration kr Regeneration factor kr,u Upward regeneration adjustment factor kr,d Downward regeneration adjustment factor mb mf,d mg Particulate sample mass of the dilution air collected mf Particulate sampling filter mass mp mf Particulate sample mass collected Md g/mol Molar mass of the dilution air Mf Nm Torque absorbed by auxiliaries/equipment to be fitted Mr Torque absorbed by auxiliaries/equipment to be removed nr Number of measurements with during regeneration Pf kW
+Power absorbed by auxiliaries/equipment to be fitted Pr Power absorbed by auxiliaries/equipment to be removed r2
+Coefficient of determination s
+Paragraph 6.3.5., amend to read:
+Engine cycle work The calculation of reference and actual cycle work (see paragraphs 7.4.8. and 7.8.6.) shall be based upon engine power according to paragraph 6.3.1.
+In this case, Pf Pa and Pr Pb of equation 4 are zero, and P equals Pm.
+If auxiliaries/equipment are installed according to paragraphs 6.3.2. and/or 6.3.3., the power absorbed by them shall be used to correct each instantaneous cycle power value Pm,i, as follows: where: Pm,i is the measured engine power, kW
+Pf,i is the power absorbed by auxiliaries/equipment to be fitted, kW
+Pr,i is the power absorbed by auxiliaries/equipment to be removed, kW"
+Paragraph 6.6.2., amend to read:
+Periodic regeneration With reference to the specific emission calculations in paragraph 8.6.3., the regeneration adjustment factors shall be applied, as follows:
+(e) for a test without regeneration, kr,u shall be multiplied with or be added to, respectively, the specific emission e in equations 69, 70a or 70b,
+(f) for a test with regeneration, kr,d shall be multiplied with or be added to be subtracted from, respectively, the specific emission e in equations 69 70a or 70b.
+At the request of the manufacturer ..."
+Paragraph 7.3., the flowchart, the last box, amend the line "Data collection and evaluation" to read:
+"Data collection and evaluation paragraph 7.6.6./7.7.4."
+Paragraph 7.4.7., amend to read:
+Denormalization of engine torque
+... shall be denormalized, using the mapping curve determined according to paragraph 7.4.3., as follows: Mnorm,i is the normalized torque, per cent Mmax,i is the maximum torque from the mapping curve, Nm Mf,i is the torque absorbed by auxiliaries/equipment to be fitted, Nm Mr,i is the torque absorbed by auxiliaries/equipment to be removed, Nm If auxiliaries/equipment are fitted in accordance with paragraph 6.3.1. and Annex 7, Mf Ma and Mr Mb are zero.
+Paragraph 7.6.3., amend to read:
+Hot soak period Immediately upon completion of the cold start test, the engine shall be conditioned for the hot start test using a 10 +- 1 minutes hot soak period. by using one of the following options:
+(a) 5 1 minutes hot soak period
+(b) 20 1 minutes hot soak period The option shall be selected by the Contracting Parties."
+Paragraph 7.8.4., amend to read:
+Drift verification The following provisions apply for analyzer drift:
+(a) The pre-test zero and span and post-test zero and span responses may be directly inserted into equation 66 applied to the drift calculation provisions of paragraph 8.6.1. without determining the drift;
+(b) If the drift difference between the pre-test and post-test results is less than 1 per cent of full scale, the measured concentrations may be used uncorrected or may be corrected for drift according to paragraph 8.6.1.;
+(c) If the drift difference between the pre-test and post-test results is equal to or greater than 1 per cent of full scale, the test shall be voided or the measured concentrations shall be corrected for drift according to paragraph 8.6.1."
+Paragraph 7.8.7., amend to read:
+Validation statistics of the test cycle Linear regressions of the actual values (nact, Mact, Pact) on the reference values (nref, Mref, Pref) shall be performed for speed, torque and power for both the WHTC and the WHSC.
+To minimize the biasing effect of the time lag between the actual and reference cycle values, the entire engine speed and torque actual signal sequence may be advanced or delayed in time with respect to the reference speed and torque sequence.
+If the actual signals are shifted, both speed and torque shall be shifted by the same amount in the same direction.
+The method of least squares shall be used, with the best-fit equation having the form: y = a1x + a0 (11)
+y is the actual value of speed (min-1), torque (Nm), or power (kW)
+a1 is the slope of the regression line x is the reference value of speed (min-1), torque (Nm), or power (kW)
+a0 is the y intercept of the regression line The standard error ..."
+Paragraph 8.4.2.1., amend to read:
+Introduction Two calculation procedures are described in paragraphs 8.4.2.3. and 8.4.2.4., which are equivalent for the reference fuels of Annex 2.
+Paragraph 8.6.3., amend to read:
+Calculation of the specific emissions The specific emissions egas or ePM (g/kWh) shall be calculated for each individual component in the following ways depending on the type of test cycle.
+For the WHSC, hot WHTC, or cold WHTC, the following equation formula shall be applied: m is the mass emission of the component, g/test Wact is the actual cycle work as determined according to paragraph 7.8.6., kWh For the WHTC, the final test result shall be a weighted average from cold start test and hot start test according to the following equation by using either of the following options:
+The option shall be selected by the Contracting Parties.
+mcold is the mass emission of the component on the cold start test, g/test mhot is the mass emission of the component on the hot start test, g/test Wact,cold is the actual cycle work on the cold start test, kWh Wact,hot is the actual cycle work on the hot start test, kWh If periodic regeneration in accordance with paragraph 6.6.2 applies, the regeneration adjustment factors kr,u or kr,d shall be multiplied with or be added to, respectively, the specific emissions result e as determined in equations 69 and 70."
+Paragraphs 3.1.10., 3.1.20., 3.2., 7.5.6., 7.6.6., 7.7.4, 8.1.2., 8.1.3., 8.4.3.1., 8.4.3.2.2., 8.5.2.3.1., 8.5.2.3.2., 8.5.2.3.3., 8.5.3.1., 9.2. table 7, 9.3.11., 9.4.6.3., A.3.1.3., A.3.2.1., A.3.2.2., A.3.2.3., A.3.2.4., A.3.2.5., replace: dilution air by diluent.

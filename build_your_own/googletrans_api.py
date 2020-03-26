@@ -1,4 +1,4 @@
-# installed googletrans-2.4.0
+# install googletrans-2.4.0
 
 from googletrans import Translator
 import os
