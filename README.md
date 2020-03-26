@@ -63,29 +63,35 @@ At feature extraction stage, we further filter out:
 NB! to ensure some sample-size balance (and where document segmentation was absent: ex. Yandex), we split texts into agreeable chunks of up to 500 sentences.
 NB! all parallel components are document-aligned only!
 
-**Basic statistical parameters of the register-balanced translationese corpus** (based on pre-processed text before annotation)
+**Basic statistical parameters for the register-balanced translationese corpus** (after pre-processing and parsing)
 
-  registers   |    source   |  target    |    ref      |
-  :---------- |------------:|-----------:|------------:| 
- **media**        |             |            |             |
- texts    |    549      |   549      |   1,562     |
- words    |   642,137   |  595,780   |  268,7215   |
- **official(UN)**|             |            |             |
- texts    |    186      |   186      |   274       |
- words    | 1,098,950   | 1,048,423  | 1,076,034   |
- **tedtalks**    |             |            |             |
- texts    |    100      |   100      |   100       |
- words    |   259,103   | 207,779    | 188,528     |
- **yandexweb**    |             |            |             |
- texts    |  1,574      |   1,574    |   1,224     |
- words    | 16,631,680  | 14,548,943 | 1,189,420   |
- **popsci**       |             |            |             |
- texts    |  100        |  100       |   100       |
- words    | 826,018     | 735,724    |  854,270    |
- **fiction**      |             |            |             |
- texts    |  170        |  170       |   100       |
- words    | 9,619,912   |  8,272,870 |  94,066     |
- 
+ registers   |    source   |    target    |    ref         |
+ :----------     |----------------:|----------------:|---------------:| 
+ **media**        |                  |                  |                 |
+ texts      |      549      |     549       |   1,562     |
+ sents     |    29,667    |    24,408  |   11,6297   |
+ words    |   762,824  |   713,737  | 3,328,511 |
+ **official(UN)**|                |                  |                 |
+ texts      |      186      |     186       |   274        |
+ sents     |   44,266    |    23,513   |   28,285   |
+ words    | 1,295,250 | 1,266,078 |1,276,498 |
+ **tedtalks**     |                  |                  |                 |
+ texts      |      100      |      100      |    100       |
+ sents     |   14,992     |   12,848   |    8,922  |
+ words    |   303,622  |   253,317  | 230,642   |
+ **yandexweb**|                  |                  |                 |
+ texts      |  1,574       |     1,574    |   1,224     |
+ sents     |   823,732   |    583,445  |   54,703 |
+ words    |19,167,787|17,409,308| 1,434,119|
+ **popsci**       |                 |                    |                 |
+ texts      |  100         |      100       |    100       |
+ sents     |   40,247   |   30,910      |   35,873   |
+ words    | 953,671   |   889,645   |  1,037,183  |
+ **fiction**        |                  |                   |                  |
+ texts      |  170          |     170        |      100       |
+ sents     |   522,746   |     47,860   |       6,354   |
+ words    | 11,682,599 | 10,143,594 |  118,390  |
+
 
 ### Other available parallel resources that remained outside this project for various reasons
 - EuroParl adapted for translationese studies (no Russian): see [Alina Karakanta's post](https://medium.com/machine-translation-fbk/weve-told-you-before-re-discovering-translationese-in-machine-translation-research-6159ed45c085)
