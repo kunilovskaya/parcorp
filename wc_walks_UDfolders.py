@@ -3,7 +3,7 @@
 import os, sys
 from collections import defaultdict
 
-rootdir = "/home/u2/resources/corpora/parcorp_register-balanced_parsed/"
+rootdir = "extract_translationese_features/parsed_data/"
 
 
 def wordcount(trees):
@@ -115,7 +115,7 @@ for k, v in tot_wc.items():
     print(k, v)
 
 print()
-print("Number of dentences:")
+print("Number of sentences:")
 for k, v in tot_sents.items():
     print(k, v)
     

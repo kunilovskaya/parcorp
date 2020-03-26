@@ -13,9 +13,9 @@ import csv
 from extractors import *
 
 rootdir = "./"
-input_dir = rootdir + 'mock_parse/'
+input_dir = rootdir + 'extract_translationese_features/parsed_data/'
 print('======', input_dir)
-outname = rootdir + 'mock_parcorp.tsv'
+outname = rootdir + 'text_parcorp.tsv'
 
 # here, for each file we collect counts averaged over number of words or number of sentences
 ## muted features: passives interrog andor wdlength mark nn
