@@ -1,0 +1,6 @@
+_PART
+_CCONJ
+_SCONJ
+_PART
+_PUNCT
+_DET

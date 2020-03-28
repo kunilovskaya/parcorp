@@ -1,10 +1,11 @@
 # TASK: copy first five files in each folder of a folder structure to a mock-data folder structure
+# USAGE: python3 create_corpus.py /path/to/corpus/tree/of/folders/
 
-import os
+import os, sys
 import shutil
 
-source_root = '/home/u2/resources/corpora/parcorp_register-balanced_cleantext/'
-target_root = 'rawdata/mock_data/'
+source_root = sys.argv[1] # you can hard-code your path and call the script as python3 create_corpus.py
+target_root = 'formats/mock_tq_corpus_lempos/'
 
 for subdir, dirs, files in os.walk(source_root):
     counter = 0
