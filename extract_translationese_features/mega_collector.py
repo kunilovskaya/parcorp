@@ -12,8 +12,8 @@ USAGE: python3 mega_collector.py
 import csv
 from extractors import *
 
-rootdir = "./"
-input_dir = rootdir + 'extract_translationese_features/parsed_data/'
+rootdir = "./extract_translationese_features/"
+input_dir = rootdir + 'parsed_data/mock_parse/'
 print('======', input_dir)
 outname = rootdir + 'text_parcorp.tsv'
 

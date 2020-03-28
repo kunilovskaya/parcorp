@@ -1,4 +1,5 @@
-# TASK copy first five files in each folder of a folder structure to a mock-data folder structure
+# TASK: copy first five files in each folder of a folder structure to a mock-data folder structure
+
 import os
 import shutil
 
