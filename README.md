@@ -9,11 +9,17 @@ The six parallel subcorpora are complemented with register-comparable non-transl
 - make them more comparable and balanced
 - filter noise
 
-(2) produce corpus stats for structured and cleaned plain text collection (or parsed texts)
+(2) ideas for scaping own parallel data from the web and bulding a corpus from them, inc. automating google-translator
 
-(3) parse the raw multi-lingual data structured as a tree of folders
+(3) produce corpus stats for structured and cleaned plain text collection (or parsed texts)
 
-(4) to extract text-level frequencies of 45 translationese indicators into a single tsv file with folder-names informed metadata
+(4) parse the raw multi-lingual data structured as a tree of folders
+
+(5) *stats* folder contains scripts that demonstrate approaches for statistics extraction from various formats and for verious types of linguistic items
+
+(6) (advanced) to extract text-level frequencies of 45 translationese indicators into a single tsv file with folder-names informed metadata
+
+Besides, the repository includes two data folders (*rawdata* and *formats*) that contain toy corpora for practice, and the *stats/tables* folder with the output of stats-extractrs that are used as input to stats-analysers
 
 NB! most scripts expect to have all inputs (data, imported modules, support lists) in the same folder and need to be started from this folder.
 
