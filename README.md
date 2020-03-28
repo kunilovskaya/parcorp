@@ -13,7 +13,7 @@ The six parallel subcorpora are complemented with register-comparable non-transl
 
 (3) produce corpus stats for structured and cleaned plain text collection (or parsed texts)
 
-(4) parse the raw multi-lingual data structured as a tree of folders
+(4) parse the raw multi-lingual data structured as a tree of folders (including a toy-corpus)
 
 (5) *stats* folder contains scripts that demonstrate approaches for statistics extraction from various formats and for verious types of linguistic items
 
