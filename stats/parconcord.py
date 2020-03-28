@@ -8,7 +8,7 @@ NB! to avoid noise, it makes sense to annotate the corpus to get something like 
 USAGE: python3 stats_extraction/parconcord.py formats/media-prof.tmx "by the way"
 
 NB! if you want to save the concordance to a tab-delimited spreadsheet, use:
-python3 stats_extraction/parconcord.py formats/media-prof.tmx "by the way" > stats_extraction/bytheway_concord.tsv
+python3 stats_extraction/parconcord.py formats/media-prof.tmx "by the way" > stats/tables/bytheway_concord.tsv
 '''
 
 

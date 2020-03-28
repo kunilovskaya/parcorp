@@ -28,7 +28,7 @@ corp_size = 0
 count = 0
 allsents = 0
 
-with open('corpus_stats.tsv', 'w') as corpus_stats:
+with open('stats/tables/corpus_stats.tsv', 'w') as corpus_stats:
     corpus_stats.write('file\t all hits\t sent-normed\t unseen-items\n')
     for f in files:
         unseen = []
@@ -55,7 +55,7 @@ with open('corpus_stats.tsv', 'w') as corpus_stats:
         row = '%s\t%d\t%d\t%d' % (f, local_hits, normed, len(unseen))
         corpus_stats.write(row + '\n')
         
-with open('items_stats.tsv', 'w') as items_stats:
+with open('stats/tables/items_stats.tsv', 'w') as items_stats:
     items_stats.write('item\t corpus-hits\t sents-normed \t range(%)\n')
     allhits = 0
     
