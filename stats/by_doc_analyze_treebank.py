@@ -1,4 +1,5 @@
 """
+adapted from the code used to produce results reported in (Kunilovskaya, Kutuzov, 2017) http://www.aclweb.org/anthology/W17-7606
 this script produces stats for a select number of Universal dependencies from a folder of *.conllu files
 adjust the dependencies you want to extract
 
