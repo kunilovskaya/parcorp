@@ -1,16 +1,13 @@
 ## Parallel Corpora: processing, building and using in research
-### Building a register-balanced parallel corpus for translationese research
 
-This repository has the python3 code used to create a register-balanced EN>RU parallel corpus for translationese research. 
-The six parallel subcorpora are complemented with register-comparable non-translations.
-
-## The repository includes scripts
+## The repository has scripts
 (1) to pre-process the downloaded or pre-existing corpora: 
 
 - make them more comparable and balanced
 - filter noise
 
-(2) ideas for scaping own parallel data from the web (based on BBC as example) and bulding a corpus from them, inc. automating google-translator
+(2) bulding a corpus from them, inc. automating google-translator
+**see [code](https://github.com/kunilovskaya/scrape) and instructions for scraping parallel texts from a website (with multilingual BBC as example)**
 
 (3) produce corpus stats for structured and cleaned plain text collection (or parsed texts)
 
@@ -26,6 +23,9 @@ NB! most scripts expect all inputs (data, imported modules, support lists) in th
 
 
 ## Case-study: A register-balanced corpus for translationese research)
+
+Inter alia, the repository includes the python3 code used to create a register-balanced EN>RU parallel corpus for translationese research. 
+The six parallel subcorpora are complemented with register-comparable non-translations.
 The raw text data is sources from the following corpora:
 
 ### Registers and the sources of data
