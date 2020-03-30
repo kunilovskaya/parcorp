@@ -1,4 +1,5 @@
-## Building a register-balanced parallel corpus for translationese research
+## Parallel Corpora: processing, building and using in research
+### Building a register-balanced parallel corpus for translationese research
 
 This repository has the python3 code used to create a register-balanced EN>RU parallel corpus for translationese research. 
 The six parallel subcorpora are complemented with register-comparable non-translations.
@@ -9,22 +10,22 @@ The six parallel subcorpora are complemented with register-comparable non-transl
 - make them more comparable and balanced
 - filter noise
 
-(2) ideas for scaping own parallel data from the web and bulding a corpus from them, inc. automating google-translator
+(2) ideas for scaping own parallel data from the web (based on BBC as example) and bulding a corpus from them, inc. automating google-translator
 
 (3) produce corpus stats for structured and cleaned plain text collection (or parsed texts)
 
 (4) parse the raw multi-lingual data structured as a tree of folders (including a toy-corpus)
 
-(5) *stats* folder contains scripts that demonstrate approaches for statistics extraction from various formats and for verious types of linguistic items
+(5) *stats* folder contains scripts that demonstrate approaches for statistics extraction from various formats and for various types of linguistic items
 
-(6) (advanced) to extract text-level frequencies of 45 translationese indicators into a single tsv file with folder-names informed metadata
+(6) (advanced) to extract text-level frequencies of 45 translationese indicators into a single tsv file with metadata from folder names 
 
-Besides, the repository includes two data folders (*rawdata* and *formats*) that contain toy corpora for practice, and the *stats/tables* folder with the output of stats-extractrs that are used as input to stats-analysers
+Besides, the repository includes two data folders (*cleandata* and *formats*) that contain toy corpora for practice, and the *stats/tables* folder with the output of stats-extractrs that are used as input to stats-analysers
 
-NB! most scripts expect to have all inputs (data, imported modules, support lists) in the same folder and need to be started from this folder.
+NB! most scripts expect all inputs (data, imported modules, support lists) in the same folder and need to be started from this folder.
 
-**see [code](https://github.com/kunilovskaya/scrape) and instructions for scraping parallel texts from a website (with multilingual BBC as example)**
 
+## Case-study: A register-balanced corpus for translationese research)
 The raw text data is sources from the following corpora:
 
 ### Registers and the sources of data
