@@ -1,0 +1,413 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Больше нефти - больше проблем 23 мая, 2008 Стоимость нефти вскоре может превысить 200 долларов за баррель— во всяком случае, так считает министр нефтяной промышленности Ливии Шокри Ганем.
+1	Больше	больше	ADV	_	Degree=Cmp	2	nummod:gov	_	_
+2	нефти	нефть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+3	-	-	PUNCT	_	_	2	punct	_	_
+4	больше	больше	NUM	_	_	0	root	_	_
+5	проблем	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nsubj	_	SpacesAfter=\n
+6	23	23	NUM	_	_	13	nummod	_	_
+7	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	2008	2008	NUM	_	_	10	nummod	_	SpacesAfter=\n
+10	Стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+11	нефти	нефть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	вскоре	вскоре	ADV	_	Degree=Pos	13	advmod	_	_
+13	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+14	превысить	превышать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	200	200	NUM	_	_	16	nummod	_	_
+16	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+17	за	за	ADP	_	_	18	case	_	_
+18	баррель	баррель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	—	—	PUNCT	_	_	18	punct	_	_
+20	во	в	ADP	_	_	22	case	_	_
+21	всяком	всякий	DET	_	Case=Loc|Gender=Masc|Number=Sing	22	det	_	_
+22	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	так	так	ADV	_	Degree=Pos	25	advmod	_	_
+25	считает	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+26	министр	министр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+27	нефтяной	нефтяной	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	промышленности	промышленность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+29	Ливии	ливия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+30	Шокри	Шокри	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	26	appos	_	_
+31	Ганем	оГано	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	30	flat:name	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 2
+# text = В прошлом году цены удвоились, а в этом - выросли уже на 40 процентов.
+1	В	в	ADP	_	_	3	case	_	_
+2	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+4	цены	цена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	удвоились	удвоиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	а	а	CCONJ	_	_	11	cc	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+10	-	-	PUNCT	_	_	9	punct	_	_
+11	выросли	вырастать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	уже	уже	ADV	_	Degree=Pos	15	obl	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	40	40	NUM	_	_	15	nummod	_	_
+15	процентов	процент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 3
+# text = В четверг, 22 мая был установлен новый рекорд, превысивший 135 долларов за баррель.
+1	В	в	ADP	_	_	2	case	_	_
+2	четверг	четверг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	22	22	NUM	_	_	7	nummod	_	_
+5	мая	май	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	flat	_	_
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	установлен	устанавливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	рекорд	рекорд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	превысивший	превысить	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	9	acl	_	_
+12	135	135	NUM	_	_	13	nummod	_	_
+13	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+14	за	за	ADP	_	_	15	case	_	_
+15	баррель	баррель	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Причиной резкого скачка, видимо, стало неожиданное падение уровня запасов нефти в Америке.
+1	Причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+2	резкого	резкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	скачка	скачка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	видимо	видимо	ADV	_	Degree=Pos	7	parataxis	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	неожиданное	неожиданный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	падение	падение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+10	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	запасов	запас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	нефти	нефть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	Америке	америка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 5
+# text = Хотя объем запасов и уменьшается, его нельзя назвать низким: в Америке он незначительно ниже среднего уровня за последние пять лет.
+1	Хотя	хотя	SCONJ	_	_	5	mark	_	_
+2	объем	объем	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	запасов	запас	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	уменьшается	уменьшаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	advcl	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	9	obj	_	_
+8	нельзя	нельзя	ADV	_	Degree=Pos	0	root	_	_
+9	назвать	называть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	_	_
+10	низким	низкий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
+11	:	:	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	Америке	америка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+15	незначительно	незначительно	ADV	_	Degree=Pos	16	obl	_	_
+16	ниже	низкий	ADJ	_	Degree=Cmp	8	parataxis	_	_
+17	среднего	средний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	уровня	уровень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	obl	_	_
+19	за	за	ADP	_	_	22	case	_	_
+20	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	21	amod	_	_
+21	пять	пять	NUM	_	Case=Acc	22	nummod:gov	_	_
+22	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 6
+# text = Уровень поставок бензина, а также других видов очищенного топлива на самом деле несколько выше среднего.
+1	Уровень	уровень	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+2	поставок	поставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	nmod	_	_
+3	бензина	бензин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	а	а	CCONJ	_	_	8	cc	_	_
+6	также	также	ADV	_	Degree=Pos	7	obl	_	_
+7	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	conj	_	_
+9	очищенного	очистить	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	топлива	топливо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	на	на	ADP	_	_	13	case	_	_
+12	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+14	несколько	несколько	ADV	_	Degree=Pos	15	advmod	_	_
+15	выше	высокий	ADJ	_	Degree=Cmp	0	root	_	_
+16	среднего	средний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Господин Ганем объяснил, что в таком положении дел виноваты перекупщики, начавшие вкладывать в нефтяные фьючерсы гораздо больше прежнего.
+1	Господин	господин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	Ганем	оГано	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	объяснил	объяснять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	xcomp	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	10	mark	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	таком	такой	DET	_	Case=Loc|Gender=Neut|Number=Sing	8	det	_	_
+8	положении	положение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+9	дел	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+10	виноваты	виноватый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	ccomp	_	_
+11	перекупщики	перекупщик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	начавшие	начинать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	11	acl	_	_
+14	вкладывать	вкладывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	нефтяные	нефтяной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	17	amod	_	_
+17	фьючерсы	фьючерс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+18	гораздо	гораздо	ADV	_	Degree=Pos	19	advmod	_	_
+19	больше	больше	ADV	_	Degree=Cmp	20	obl	_	_
+20	прежнего	прежний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 8
+# text = Многие люди разделяют его точку зрения.
+1	Многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	разделяют	разделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	5	nmod	_	_
+5	точку	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	compound	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 9
+# text = Американский сенатор Джо Либерман заметил, что стоимость активов инвестиционных фондов, отслеживающих цены на нефть и другое сырье, выросла с 13 до 260 миллиардов за последние пять лет.
+1	Американский	американский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	сенатор	сенатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	Джо	джо	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	Либерман	либерман	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	заметил	замечать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	что	что	SCONJ	_	_	21	mark	_	_
+8	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+9	активов	актив	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	инвестиционных	инвестиционный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	фондов	фонд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	отслеживающих	отслеживать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	acl	_	_
+14	цены	цена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	нефть	нефть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	и	и	CCONJ	_	_	19	cc	_	_
+18	другое	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	сырье	сырье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	conj	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	выросла	вырастать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	ccomp	_	_
+22	с	с	ADP	_	_	23	case	_	_
+23	13	13	NUM	_	_	21	nummod	_	_
+24	до	до	ADP	_	_	26	case	_	_
+25	260	260	NUM	_	_	26	nummod	_	_
+26	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	_
+27	за	за	ADP	_	_	30	case	_	_
+28	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	29	amod	_	_
+29	пять	пять	NUM	_	Case=Acc	30	nummod:gov	_	_
+30	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	_
+
+# sent_id = 10
+# text = Он обвиняет в росте цен на сырьевые товары, главным образом, именно этих "индекс-спекулянтов".
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	обвиняет	обвинять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	росте	рост	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+5	цен	цена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nmod	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	сырьевые	сырьевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	8	amod	_	_
+8	товары	товар	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	главным	главный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	именно	именно	PART	_	_	14	discourse	_	_
+14	этих	этот	DET	_	Case=Gen|Number=Plur	16	det	_	_
+15	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+16	индекс-спекулянтов	индекс-спекулянтовый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Тем не менее, лишь некоторые банкиры соглашаются с тем, что рост цен может быть связан с перекупкой.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	discourse	_	_
+2	не	не	PART	_	Polarity=Neg	1	fixed	_	_
+3	менее	менее	ADV	_	Degree=Cmp	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	лишь	лишь	PART	_	_	6	discourse	_	_
+6	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	7	det	_	_
+7	банкиры	банкир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	соглашаются	соглашаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	15	mark	_	_
+13	рост	рост	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+14	цен	цена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl	_	_
+16	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	aux:pass	_	_
+17	связан	связывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+18	с	с	ADP	_	_	19	case	_	_
+19	перекупкой	перекупка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	17	obl	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 12
+# text = Индексированные фонды приобретают не саму нефть, так как хранить такие объемы сложно и затратно.
+1	Индексированные	Индексировать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	2	amod	_	_
+2	фонды	фонд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	приобретают	приобретать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	саму	сам	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	нефть	нефть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	так	так	ADV	_	Degree=Pos	13	mark	_	_
+9	как	как	SCONJ	_	_	8	fixed	_	_
+10	хранить	хранить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	csubj	_	_
+11	такие	такой	DET	_	Case=Acc|Number=Plur	12	det	_	_
+12	объемы	объем	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+13	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	advcl	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	затратно	затратный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	13	conj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	_
+
+# sent_id = 13
+# text = Вместо этого, они покупают контракт на будущие поставки нефти за несколько месяцев.
+1	Вместо	вместо	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+5	покупают	покупать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	контракт	контракт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	на	на	ADP	_	_	9	case	_	_
+8	будущие	будущий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	поставки	поставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obl	_	_
+10	нефти	нефть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	за	за	ADP	_	_	13	case	_	_
+12	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	13	nummod:gov	_	_
+13	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 14
+# text = Когда наступает день поставки, они продают контракт человеку, который готов немедленно приобрести нефть, а затем вкладывают свои доходы в большее количество фьючерсов.
+1	Когда	когда	SCONJ	_	_	2	mark	_	_
+2	наступает	наступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+3	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	поставки	поставка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+7	продают	продавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	контракт	контракт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	человеку	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	7	iobj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	который	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	готов	готовый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	9	acl:relcl	_	_
+13	немедленно	немедленно	ADV	_	Degree=Pos	14	advmod	_	_
+14	приобрести	приобретать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+15	нефть	нефть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	19	cc	_	_
+18	затем	затем	ADV	_	Degree=Pos	19	advmod	_	_
+19	вкладывают	вкладывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+20	свои	свой	DET	_	Case=Acc|Number=Plur	21	det	_	_
+21	доходы	доход	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	obj	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	большее	больший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obl	_	_
+25	фьючерсов	фьючерс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = Уровень мировой добычи нефти растет очень медленно.
+1	Уровень	уровень	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	мировой	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	добычи	добыча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	нефти	нефть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	растет	расти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	очень	очень	ADV	_	Degree=Pos	7	advmod	_	_
+7	медленно	медленно	ADV	_	Degree=Pos	5	advmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 16
+# text = Тем не менее, благодаря таким быстроразвивающимся странам как Китай и Индия, мировой спрос на нефть продолжает расти.
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	discourse	_	_
+2	не	не	PART	_	Polarity=Neg	1	fixed	_	_
+3	менее	менее	ADV	_	Degree=Cmp	1	fixed	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	благодаря	благодаря	ADP	_	_	15	case	_	_
+6	таким	такой	DET	_	Case=Dat|Number=Plur	15	det	_	_
+7	быстроразвивающимся	быстроразвивающийся	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	15	acl	_	_
+8	странам	страна	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	iobj	_	_
+9	как	как	SCONJ	_	_	10	mark	_	_
+10	Китай	китай	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	advcl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	Индия	индия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	мировой	мировой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	спрос	спрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+16	на	на	ADP	_	_	17	case	_	_
+17	нефть	нефть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	продолжает	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+19	расти	расти	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 17
+# text = Другими словами, инвесторы, которых господа Либерман и Ганем обвинили в спекуляции, видимо, решили, что вскоре в мире наступит нехватка нефти.
+1	Другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	2	amod	_	_
+2	словами	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	17	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	инвесторы	инвестор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	которых	который	PRON	_	Case=Acc	11	obj	_	_
+7	господа	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+8	Либерман	либерман	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	Ганем	оГано	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	conj	_	_
+11	обвинили	обвинять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	спекуляции	спекуляция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	видимо	видимо	ADV	_	Degree=Pos	17	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	что	что	SCONJ	_	_	23	mark	_	_
+20	вскоре	вскоре	ADV	_	Degree=Pos	23	advmod	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+23	наступит	наступать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	17	ccomp	_	_
+24	нехватка	нехватка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	_
+25	нефти	нефть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 18
+# text = Вместо того, чтобы стращать перекупщиков, господину Либерману следовало бы охотиться за господином Ганемом и лидерами других нефтеносных стран, чтобы нефтяные компании смогли получить доступ к их сырью.
+1	Вместо	вместо	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	_
+5	стращать	стращать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	advcl	_	_
+6	перекупщиков	перекупщик	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	господину	господин	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	10	iobj	_	_
+9	Либерману	Либерман	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	appos	_	_
+10	следовало	следовать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	бы	бы	PART	_	Mood=Cnd	10	aux	_	_
+12	охотиться	охотиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	csubj	_	_
+13	за	за	ADP	_	_	14	case	_	_
+14	господином	господин	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+15	Ганемом	Ганем	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	14	appos	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	лидерами	лидер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	15	conj	_	_
+18	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+19	нефтеносных	нефтеносный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	чтобы	что	SCONJ	_	Mood=Cnd	25	mark	_	_
+23	нефтяные	нефтяной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	24	amod	_	_
+24	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	25	nsubj	_	_
+25	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
+26	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+27	доступ	доступ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+28	к	к	ADP	_	_	30	case	_	_
+29	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	30	nmod	_	_
+30	сырью	сырье	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\n
+

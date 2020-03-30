@@ -1,0 +1,1134 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Trumponomics is working extremely well and it can for a long time if we don't screw it up .
+1	Trumponomics	Trumponomics	NOUN	NNS	Number=Plur	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	extremely	extremely	ADV	RB	_	5	advmod	_	_
+5	well	well	ADV	RB	Degree=Pos	3	advmod	_	_
+6	and	and	CCONJ	CC	_	12	cc	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+8	can	can	AUX	MD	VerbForm=Fin	12	aux	_	_
+9	for	for	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	long	long	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	time	time	NOUN	NN	Number=Sing	3	conj	_	_
+13	if	if	SCONJ	IN	_	17	mark	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+15	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
+16	n't	not	PART	RB	_	17	advmod	_	_
+17	screw	scrow	VERB	VB	VerbForm=Inf	12	advcl	_	_
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	obj	_	_
+19	up	up	ADP	RP	_	17	compound:prt	_	_
+20	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = I saw a headline in the Washington Post telling us that Trumponomics is not working , and I wondered what the heck these people must be smoking because obviously the economy is humming on almost all fronts .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	saw	see	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	headline	headline	NOUN	NN	Number=Sing	2	obj	_	_
+5	in	in	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	Washington	Washington	PROPN	NNP	Number=Sing	8	compound	_	_
+8	Post	Post	PROPN	NNP	Number=Sing	4	nmod	_	_
+9	telling	tell	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	obj	_	_
+11	that	that	SCONJ	IN	_	15	mark	_	_
+12	Trumponomics	Trumponomics	PROPN	NNP	Number=Sing	15	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	9	ccomp	_	_
+16	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+19	wondered	wonder	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+20	what	what	PRON	WP	PronType=Int	27	obj	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	heck	heck	NOUN	NN	Number=Sing	27	nsubj	_	_
+23	these	these	DET	DT	Number=Plur|PronType=Dem	24	det	_	_
+24	people	people	NOUN	NNS	Number=Plur	27	nsubj	_	_
+25	must	must	AUX	MD	VerbForm=Fin	27	aux	_	_
+26	be	be	AUX	VB	VerbForm=Inf	27	aux	_	_
+27	smoking	smoke	VERB	VBG	Tense=Pres|VerbForm=Part	19	ccomp	_	_
+28	because	because	SCONJ	IN	_	33	mark	_	_
+29	obviously	obviously	ADV	RB	_	33	advmod	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	economy	economy	NOUN	NN	Number=Sing	33	nsubj	_	_
+32	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	aux	_	_
+33	humming	hum	VERB	VBG	Tense=Pres|VerbForm=Part	27	advcl	_	_
+34	on	on	ADP	IN	_	37	case	_	_
+35	almost	almost	ADV	RB	_	37	advmod	_	_
+36	all	all	DET	DT	_	37	det	_	_
+37	fronts	front	NOUN	NNS	Number=Plur	33	obl	_	_
+38	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Trumponomics is actually a very simple concept .
+1	Trumponomics	Trumponomics	NOUN	NN	Number=Sing	7	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	actually	actually	ADV	RB	_	7	advmod	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	simple	simple	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	concept	concept	NOUN	NN	Number=Sing	0	root	_	_
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Get rid of unnecessary regulations and let people and businesses keep more of the money they earn , which will allow great compounding throughout the private sector .
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	rid	rid	ADJ	JJ	Degree=Pos	1	obj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	unnecessary	unnecessary	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	regulations	regulation	NOUN	NNS	Number=Plur	2	obl	_	_
+6	and	and	CCONJ	CC	_	7	cc	_	_
+7	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	_
+8	people	people	NOUN	NNS	Number=Plur	7	obj	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	businesses	business	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	keep	keep	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
+12	more	more	ADJ	JJR	Degree=Cmp	11	xcomp	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	money	money	NOUN	NN	Number=Sing	12	obl	_	_
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+17	earn	earn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+18	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s
+19	which	which	PRON	WDT	PronType=Rel	21	nsubj	_	_
+20	will	will	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	allow	allow	VERB	VB	VerbForm=Inf	11	acl:relcl	_	_
+22	great	great	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	compounding	compounding	NOUN	NN	Number=Sing	21	obj	_	_
+24	throughout	throughout	ADP	IN	_	27	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	private	private	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	sector	sector	NOUN	NN	Number=Sing	21	obl	_	_
+28	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = We should all remember that a lot of economists predicted doom and gloom by now , and since they were way off they will just predict doom and gloom down the road a little .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+2	should	should	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	all	all	ADV	RB	_	4	advmod	_	_
+4	remember	remember	VERB	VB	VerbForm=Inf	0	root	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	lot	lot	NOUN	NN	Number=Sing	10	obl:npmod	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	economists	economist	NOUN	NNS	Number=Plur	7	nmod	_	_
+10	predicted	predict	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	_	_
+11	doom	doom	NOUN	NN	Number=Sing	10	obj	_	_
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	gloom	gloom	NOUN	NN	Number=Sing	11	conj	_	_
+14	by	by	ADP	IN	_	15	case	_	_
+15	now	now	ADV	RB	_	10	obl	_	_
+16	,	,	PUNCT	,	_	26	punct	_	SpacesAfter=\s\s
+17	and	and	CCONJ	CC	_	26	cc	_	_
+18	since	since	SCONJ	IN	_	26	mark	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
+20	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux	_	_
+21	way	way	ADV	RB	_	26	advmod	_	_
+22	off	off	ADV	RB	_	26	advmod	_	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj	_	_
+24	will	will	AUX	MD	VerbForm=Fin	26	aux	_	_
+25	just	just	ADV	RB	_	26	advmod	_	_
+26	predict	predict	VERB	VB	VerbForm=Inf	10	conj	_	_
+27	doom	doom	NOUN	NN	Number=Sing	26	obj	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	gloom	gloom	NOUN	NN	Number=Sing	27	conj	_	_
+30	down	down	ADP	IN	_	32	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	road	road	NOUN	NN	Number=Sing	26	obl	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+34	little	little	NOUN	NN	Number=Sing	32	obl:npmod	_	_
+35	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Few predicted the growth that we are having now so why would we believe their predictions for the future .
+1	Few	few	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	predicted	predict	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	growth	growth	NOUN	NN	Number=Sing	2	obj	_	_
+5	that	that	PRON	WDT	PronType=Rel	8	obj	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux	_	_
+8	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	4	acl:relcl	_	_
+9	now	now	ADV	RB	_	8	advmod	_	_
+10	so	so	ADV	RB	_	14	advmod	_	_
+11	why	why	ADV	WRB	PronType=Int	14	advmod	_	_
+12	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+14	believe	believe	VERB	VB	VerbForm=Inf	2	advcl	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	predictions	prediction	NOUN	NNS	Number=Plur	14	obj	_	_
+17	for	for	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	future	future	NOUN	NN	Number=Sing	14	obl	_	_
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Let " s look at the current economic statistics to see how Trumponomics is working today : Economic growth of 42 % , consumer and business confidence near record highs , Unemployment for all ages , education levels , sexes and races near record lows , unemployment claims at 50 year low , part time jobs for economic reasons are down more than one million , stock prices have hit record high over 100 times since Trump took office , capital spending for businesses up substantially , business and retail sales up , imports and exports up , oil production near record highs , median family income rising faster than at any time in over a decade , corporate profits are high , bonuses have gone up , wage levels are rising , take home pay is up more because of tax cuts , dividend income , interest income and capital gains income up .
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	"	"	PUNCT	``	_	1	punct	_	_
+3	s	s	PART	POS	_	1	compound:prt	_	_
+4	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	1	parataxis	_	_
+5	at	at	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	current	current	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	economic	economic	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	statistics	statistic	NOUN	NNS	Number=Plur	4	obl	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	see	see	VERB	VB	VerbForm=Inf	4	advcl	_	_
+12	how	how	ADV	WRB	PronType=Int	15	advmod	_	_
+13	Trumponomics	Trumponomics	NOUN	NNS	Number=Plur	15	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	11	ccomp	_	_
+16	today	today	NOUN	NN	Number=Sing	15	obl:tmod	_	_
+17	:	:	PUNCT	:	_	19	punct	_	SpacesAfter=\s\s
+18	Economic	economic	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	growth	growth	NOUN	NN	Number=Sing	1	obj	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	42	42	NUM	CD	NumType=Card	22	nummod	_	_
+22	%	%	SYM	NN	Number=Sing	62	obl	_	SpacesAfter=\s\s
+23	,	,	PUNCT	,	_	62	punct	_	SpacesAfter=\s\s
+24	consumer	consumer	NOUN	NN	Number=Sing	62	nsubj	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	business	business	NOUN	NN	Number=Sing	27	compound	_	_
+27	confidence	confidence	NOUN	NN	Number=Sing	24	conj	_	_
+28	near	near	ADP	IN	_	30	case	_	_
+29	record	record	NOUN	NN	Number=Sing	30	compound	_	_
+30	highs	high	NOUN	NNS	Number=Plur	24	nmod	_	_
+31	,	,	PUNCT	,	_	32	punct	_	SpacesAfter=\s\s
+32	Unemployment	Unemployment	NOUN	NN	Number=Sing	24	conj	_	_
+33	for	for	ADP	IN	_	35	case	_	_
+34	all	all	DET	DT	_	35	det	_	_
+35	ages	age	NOUN	NNS	Number=Plur	32	nmod	_	_
+36	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\s\s
+37	education	education	NOUN	NN	Number=Sing	38	compound	_	_
+38	levels	level	NOUN	NNS	Number=Plur	24	conj	_	_
+39	,	,	PUNCT	,	_	40	punct	_	SpacesAfter=\s\s
+40	sexes	sexe	NOUN	NNS	Number=Plur	24	conj	_	_
+41	and	and	CCONJ	CC	_	42	cc	_	_
+42	races	races	NOUN	NNS	Number=Plur	24	conj	_	_
+43	near	near	ADP	IN	_	45	case	_	_
+44	record	record	NOUN	NN	Number=Sing	45	compound	_	_
+45	lows	low	NOUN	NNS	Number=Plur	42	nmod	_	_
+46	,	,	PUNCT	,	_	48	punct	_	SpacesAfter=\s\s
+47	unemployment	unemployment	ADJ	JJ	Degree=Pos	48	amod	_	_
+48	claims	claim	NOUN	NNS	Number=Plur	24	conj	_	_
+49	at	at	ADP	IN	_	56	case	_	_
+50	50	50	NUM	CD	NumType=Card	51	nummod	_	_
+51	year	year	NOUN	NN	Number=Sing	52	obl:npmod	_	_
+52	low	low	ADJ	JJ	Degree=Pos	56	amod	_	_
+53	,	,	PUNCT	,	_	56	punct	_	SpacesAfter=\s\s
+54	part	part	ADJ	JJ	Degree=Pos	55	amod	_	_
+55	time	time	NOUN	NN	Number=Sing	56	compound	_	_
+56	jobs	job	NOUN	NNS	Number=Plur	48	nmod	_	_
+57	for	for	ADP	IN	_	59	case	_	_
+58	economic	economic	ADJ	JJ	Degree=Pos	59	amod	_	_
+59	reasons	reason	NOUN	NNS	Number=Plur	48	nmod	_	_
+60	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	62	cop	_	_
+61	down	down	ADV	RB	_	62	advmod	_	_
+62	more	more	ADJ	JJR	Degree=Cmp	19	amod	_	_
+63	than	than	ADP	IN	_	65	case	_	_
+64	one	one	NUM	CD	NumType=Card	65	compound	_	_
+65	million	million	NUM	CD	NumType=Card	62	obl	_	_
+66	,	,	PUNCT	,	_	70	punct	_	SpacesAfter=\s\s
+67	stock	stock	NOUN	NN	Number=Sing	68	compound	_	_
+68	prices	price	NOUN	NNS	Number=Plur	70	nsubj	_	_
+69	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	70	aux	_	_
+70	hit	hit	VERB	VBN	Tense=Past|VerbForm=Part	19	acl	_	_
+71	record	record	ADJ	JJ	Degree=Pos	72	amod	_	_
+72	high	high	NOUN	NN	Number=Sing	70	obj	_	_
+73	over	over	ADP	IN	_	75	case	_	_
+74	100	100	NUM	CD	NumType=Card	75	nummod	_	_
+75	times	time	NOUN	NNS	Number=Plur	70	obl	_	_
+76	since	since	ADP	IN	_	78	mark	_	_
+77	Trump	Trump	PROPN	NNP	Number=Sing	78	nsubj	_	_
+78	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	70	advcl	_	_
+79	office	office	NOUN	NN	Number=Sing	78	obj	_	_
+80	,	,	PUNCT	,	_	82	punct	_	SpacesAfter=\s\s
+81	capital	capital	NOUN	NN	Number=Sing	82	compound	_	_
+82	spending	spending	NOUN	NN	Number=Sing	78	obj	_	_
+83	for	for	ADP	IN	_	84	case	_	_
+84	businesses	business	NOUN	NNS	Number=Plur	82	nmod	_	_
+85	up	up	ADP	RP	_	91	case	_	_
+86	substantially	substantially	ADV	RB	_	85	advmod	_	_
+87	,	,	PUNCT	,	_	88	punct	_	SpacesAfter=\s\s
+88	business	business	NOUN	NN	Number=Sing	85	conj	_	_
+89	and	and	CCONJ	CC	_	90	cc	_	_
+90	retail	retail	NOUN	NN	Number=Sing	85	conj	_	_
+91	sales	sale	NOUN	NNS	Number=Plur	126	obl	_	_
+92	up	up	ADV	RB	_	91	advmod	_	_
+93	,	,	PUNCT	,	_	94	punct	_	SpacesAfter=\s\s
+94	imports	import	NOUN	NNS	Number=Plur	91	conj	_	_
+95	and	and	CCONJ	CC	_	96	cc	_	_
+96	exports	export	NOUN	NNS	Number=Plur	91	conj	_	_
+97	up	up	ADV	RB	_	96	advmod	_	_
+98	,	,	PUNCT	,	_	103	punct	_	SpacesAfter=\s\s
+99	oil	oil	NOUN	NN	Number=Sing	100	compound	_	_
+100	production	production	NOUN	NN	Number=Sing	103	compound	_	_
+101	near	near	ADP	IN	_	103	case	_	_
+102	record	record	NOUN	NN	Number=Sing	103	compound	_	_
+103	highs	high	NOUN	NNS	Number=Plur	91	conj	_	_
+104	,	,	PUNCT	,	_	107	punct	_	SpacesAfter=\s\s
+105	median	median	ADJ	JJ	Degree=Pos	107	amod	_	_
+106	family	family	NOUN	NN	Number=Sing	107	compound	_	_
+107	income	income	NOUN	NN	Number=Sing	91	conj	_	_
+108	rising	rise	VERB	VBG	VerbForm=Ger	107	acl	_	_
+109	faster	faster	ADJ	JJR	Degree=Cmp	108	xcomp	_	_
+110	than	than	ADP	IN	_	113	case	_	_
+111	at	at	ADP	IN	_	113	case	_	_
+112	any	any	DET	DT	_	113	det	_	_
+113	time	time	NOUN	NN	Number=Sing	109	obl	_	_
+114	in	in	ADV	RB	_	117	advmod	_	_
+115	over	over	ADP	IN	_	117	case	_	_
+116	a	a	DET	DT	Definite=Ind|PronType=Art	117	det	_	_
+117	decade	decade	NOUN	NN	Number=Sing	113	nmod	_	_
+118	,	,	PUNCT	,	_	120	punct	_	SpacesAfter=\s\s
+119	corporate	corporate	ADJ	JJ	Degree=Pos	120	amod	_	_
+120	profits	profit	NOUN	NNS	Number=Plur	122	nsubj	_	_
+121	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	122	cop	_	_
+122	high	high	ADJ	JJ	Degree=Pos	91	conj	_	_
+123	,	,	PUNCT	,	_	126	punct	_	SpacesAfter=\s\s
+124	bonuses	bonus	NOUN	NNS	Number=Plur	126	nsubj	_	_
+125	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	126	aux	_	_
+126	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	82	acl	_	_
+127	up	up	ADP	RP	_	126	compound:prt	_	_
+128	,	,	PUNCT	,	_	126	punct	_	SpacesAfter=\s\s
+129	wage	wage	NOUN	NN	Number=Sing	130	compound	_	_
+130	levels	level	NOUN	NNS	Number=Plur	132	nsubj	_	_
+131	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	132	aux	_	_
+132	rising	rise	VERB	VBG	Tense=Pres|VerbForm=Part	126	parataxis	_	_
+133	,	,	PUNCT	,	_	132	punct	_	SpacesAfter=\s\s
+134	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	132	parataxis	_	_
+135	home	home	ADV	RB	_	134	advmod	_	_
+136	pay	pay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	134	advcl	_	_
+137	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	139	cop	_	SpacesAfter=\s\s
+138	up	up	ADV	RB	_	139	advmod	_	_
+139	more	more	ADJ	JJR	Degree=Cmp	136	obj	_	_
+140	because	because	ADP	IN	_	143	case	_	_
+141	of	of	ADP	IN	_	140	fixed	_	_
+142	tax	tax	NOUN	NN	Number=Sing	143	compound	_	_
+143	cuts	cut	NOUN	NNS	Number=Plur	136	obl	_	_
+144	,	,	PUNCT	,	_	145	punct	_	SpacesAfter=\s\s
+145	dividend	dividend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	136	conj	_	SpacesAfter=\s\s
+146	income	income	NOUN	NN	Number=Sing	145	obj	_	_
+147	,	,	PUNCT	,	_	149	punct	_	SpacesAfter=\s\s
+148	interest	interest	NOUN	NN	Number=Sing	149	compound	_	_
+149	income	income	NOUN	NN	Number=Sing	146	conj	_	_
+150	and	and	CCONJ	CC	_	153	cc	_	_
+151	capital	capital	NOUN	NN	Number=Sing	152	compound	_	_
+152	gains	gain	NOUN	NNS	Number=Plur	153	compound	_	_
+153	income	income	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	146	conj	_	_
+154	up	up	ADP	RP	_	153	compound:prt	_	_
+155	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Oil prices are actually below 2008 and 2012-2015 , when incomes and economic growth were lower .
+1	Oil	oil	NOUN	NN	Number=Sing	2	compound	_	_
+2	prices	price	NOUN	NNS	Number=Plur	6	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	actually	actually	ADV	RB	_	5	advmod	_	_
+5	below	below	ADV	RB	_	6	advmod	_	_
+6	2008	2008	NUM	CD	NumType=Card	0	root	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	2012-	2012-	SYM	SYM	_	6	conj	_	SpaceAfter=No
+9	2015	2015	NUM	CD	NumType=Card	8	nummod	_	_
+10	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\s\s
+11	when	when	ADV	WRB	PronType=Int	17	mark	_	_
+12	incomes	income	NOUN	NNS	Number=Plur	17	nsubj	_	_
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	economic	economic	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	growth	growth	NOUN	NN	Number=Sing	12	conj	_	_
+16	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	cop	_	_
+17	lower	lower	ADJ	JJR	Degree=Cmp	6	advcl	_	_
+18	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Isn " t it amazing how more drilling and production works .
+1	Isn	Isn	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	"	"	PUNCT	``	_	1	punct	_	_
+3	t	t	VERB	VB	Mood=Imp|VerbForm=Fin	11	amod	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	amazing	amazing	ADJ	JJ	Degree=Pos	11	amod	_	_
+6	how	how	ADV	WRB	PronType=Int	7	advmod	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	11	amod	_	_
+8	drilling	drilling	NOUN	NN	Number=Sing	11	compound	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	production	production	NOUN	NN	Number=Sing	11	compound	_	_
+11	works	work	NOUN	NNS	Number=Plur	1	obj	_	_
+12	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Government entities throughout the country are seeing extra revenue come in because of the surging growth .
+1	Government	government	NOUN	NN	Number=Sing	2	compound	_	_
+2	entities	entity	NOUN	NNS	Number=Plur	7	nsubj	_	_
+3	throughout	throughout	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	country	country	NOUN	NN	Number=Sing	2	nmod	_	_
+6	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	seeing	see	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+8	extra	extra	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	revenue	revenue	NOUN	NN	Number=Sing	7	obj	_	_
+10	come	come	VERB	VB	VerbForm=Inf	9	acl	_	_
+11	in	in	ADV	RB	_	10	advmod	_	_
+12	because	because	ADP	IN	_	16	case	_	_
+13	of	of	ADP	IN	_	12	fixed	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	surging	surge	NOUN	NN	Number=Sing	16	compound	_	_
+16	growth	growth	NOUN	NN	Number=Sing	10	obl	_	_
+17	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Higher stock prices , interest rates , dividends and capital gains are helping their ( and everyone " s ) pension funds .
+1	Higher	Higher	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	stock	stock	NOUN	NN	Number=Sing	3	compound	_	_
+3	prices	price	NOUN	NNS	Number=Plur	13	nsubj	_	_
+4	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\s\s
+5	interest	interest	NOUN	NN	Number=Sing	6	compound	_	_
+6	rates	rate	NOUN	NNS	Number=Plur	3	conj	_	_
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+8	dividends	dividend	NOUN	NNS	Number=Plur	3	conj	_	_
+9	and	and	CCONJ	CC	_	11	cc	_	_
+10	capital	capital	NOUN	NN	Number=Sing	11	compound	_	_
+11	gains	gain	NOUN	NNS	Number=Plur	3	conj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	helping	help	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	SpacesAfter=\s\s
+15	(	(	PUNCT	-LRB-	_	17	punct	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	everyone	everyone	PRON	NN	Number=Sing	22	compound	_	_
+18	"	"	PUNCT	''	_	17	punct	_	_
+19	s	's	X	AFX	_	17	advmod	_	_
+20	)	)	PUNCT	-RRB-	_	17	punct	_	SpacesAfter=\s\s
+21	pension	pension	NOUN	NN	Number=Sing	22	compound	_	_
+22	funds	fund	NOUN	NNS	Number=Plur	13	obj	_	_
+23	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Food stamp usage and disability claims are down , helping the budget .
+1	Food	food	NOUN	NN	Number=Sing	3	compound	_	_
+2	stamp	stamp	NOUN	NN	Number=Sing	3	compound	_	_
+3	usage	usage	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	and	and	CCONJ	CC	_	6	cc	_	_
+5	disability	disability	NOUN	NN	Number=Sing	6	compound	_	_
+6	claims	claim	NOUN	NNS	Number=Plur	3	conj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	down	down	ADJ	JJ	Degree=Pos	0	root	_	_
+9	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+10	helping	help	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	budget	budget	NOUN	NN	Number=Sing	10	obj	_	_
+13	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Health care costs and premiums look to stabilize in 2019 for the first time in a long time .
+1	Health	health	PROPN	NNP	Number=Sing	2	compound	_	_
+2	care	care	NOUN	NN	Number=Sing	3	compound	_	_
+3	costs	cost	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	and	and	CCONJ	CC	_	5	cc	_	_
+5	premiums	premium	NOUN	NNS	Number=Plur	3	conj	_	_
+6	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	to	to	PART	TO	_	8	mark	_	_
+8	stabilize	stabilize	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	2019	2019	NUM	CD	NumType=Card	8	obl	_	_
+11	for	for	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	14	amod	_	_
+14	time	time	NOUN	NN	Number=Sing	8	obl	_	_
+15	in	in	ADP	IN	_	18	case	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	long	long	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	time	time	NOUN	NN	Number=Sing	6	obl	_	_
+19	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = Isn " t it amazing what more competition , freedom of choice and getting rid of the individual mandate will do I am truly having trouble finding anything that indicates that Trumponomics isn " t working .
+1	Isn	Isn	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	"	"	PUNCT	``	_	1	punct	_	_
+3	t	t	VERB	VB	Mood=Imp|VerbForm=Fin	1	conj	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
+5	amazing	amazing	ADJ	JJ	Degree=Pos	3	ccomp	_	_
+6	what	what	PRON	WP	PronType=Int	5	obl	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	8	amod	_	_
+8	competition	competition	NOUN	NN	Number=Sing	6	nsubj	_	_
+9	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+10	freedom	freedom	NOUN	NN	Number=Sing	8	conj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	choice	choice	NOUN	NN	Number=Sing	10	nmod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	getting	get	VERB	VBG	VerbForm=Ger	5	conj	_	_
+15	rid	rid	ADJ	JJ	Degree=Pos	14	xcomp	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	individual	individual	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	mandate	mandate	NOUN	NN	Number=Sing	15	obl	_	_
+20	will	will	AUX	MD	VerbForm=Fin	21	aux	_	_
+21	do	do	VERB	VB	VerbForm=Inf	1	parataxis	_	SpacesAfter=\n
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	_
+23	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	_
+24	truly	truly	ADV	RB	_	25	advmod	_	_
+25	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	21	ccomp	_	_
+26	trouble	trouble	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	finding	find	NOUN	NN	Number=Sing	25	obj	_	_
+28	anything	anything	PRON	NN	Number=Sing	27	obj	_	_
+29	that	that	PRON	WDT	PronType=Rel	30	nsubj	_	_
+30	indicates	indicate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	acl:relcl	_	_
+31	that	that	DET	DT	Number=Sing|PronType=Dem	33	det	_	_
+32	Trumponomics	Trumponomics	NOUN	NN	Number=Sing	33	compound	_	_
+33	isn	isn	NOUN	NN	Number=Sing	35	compound	_	_
+34	"	"	PUNCT	''	_	35	punct	_	_
+35	t	t	NOUN	NN	Number=Sing	30	obj	_	_
+36	working	work	VERB	VBG	VerbForm=Ger	28	acl	_	_
+37	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 15
+# text = But since journalists support Democrats and more government , the WaPo puts out this .
+1	But	but	CCONJ	CC	_	12	cc	_	_
+2	since	since	SCONJ	IN	_	4	mark	_	_
+3	journalists	journalist	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	support	support	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+5	Democrats	Democrats	PROPN	NNPS	Number=Plur	4	obj	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	more	more	ADJ	JJR	Degree=Cmp	8	amod	_	_
+8	government	government	NOUN	NN	Number=Sing	5	conj	_	_
+9	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	WaPo	WaPo	PROPN	NNP	Number=Sing	12	nsubj	_	_
+12	puts	put	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	out	out	ADP	IN	_	12	compound:prt	_	_
+14	this	this	PRON	DT	Number=Sing|PronType=Dem	12	obj	_	_
+15	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 16
+# text = So is Trumponomics working
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	Trumponomics	Trumponomics	PROPN	NNPS	Number=Plur	4	nsubj	_	_
+4	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	SpacesAfter=\n
+
+# sent_id = 17
+# text = With one significant caveat , the answer is no .
+1	With	with	ADP	IN	_	4	case	_	_
+2	one	one	NUM	CD	NumType=Card	4	nummod	_	_
+3	significant	significant	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	caveat	caveat	NOUN	NN	Number=Sing	9	obl	_	_
+5	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	answer	answer	NOUN	NN	Number=Sing	9	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	no	no	DET	DT	_	0	root	_	_
+10	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 18
+# text = For one thing , Trump " s trade policy is turning out to be worse than expected .
+1	For	for	ADP	IN	_	3	case	_	_
+2	one	one	NUM	CD	NumType=Card	3	nummod	_	_
+3	thing	thing	NOUN	NN	Number=Sing	5	obl	_	_
+4	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+5	Trump	Trump	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+6	"	"	PUNCT	``	_	5	punct	_	_
+7	s	's	PART	POS	_	5	case	_	_
+8	trade	trade	NOUN	NN	Number=Sing	9	compound	_	_
+9	policy	policy	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	turning	turn	VERB	VBG	Tense=Pres|VerbForm=Part	5	ccomp	_	_
+12	out	out	ADP	RP	_	11	compound:prt	_	_
+13	to	to	PART	TO	_	15	mark	_	_
+14	be	be	AUX	VB	VerbForm=Inf	15	cop	_	_
+15	worse	worse	ADJ	JJR	Degree=Cmp	11	xcomp	_	_
+16	than	than	ADP	IN	_	17	mark	_	_
+17	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part	15	advcl	_	_
+18	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 19
+# text = For another , the growth surge mostly reflects a temporary sugar high from last December " s tax cut .
+1	For	for	ADP	IN	_	2	case	_	_
+2	another	another	DET	DT	_	8	obl	_	_
+3	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	growth	growth	NOUN	NN	Number=Sing	6	compound	_	_
+6	surge	surge	NOUN	NN	Number=Sing	8	nsubj	_	_
+7	mostly	mostly	ADV	RB	_	8	advmod	_	_
+8	reflects	reflect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	temporary	temporary	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	sugar	sugar	NOUN	NN	Number=Sing	19	nmod:poss	_	_
+12	high	high	ADJ	JJ	Degree=Pos	11	amod	_	_
+13	from	from	ADP	IN	_	15	case	_	_
+14	last	last	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	December	December	PROPN	NNP	Number=Sing	12	obl	_	_
+16	"	"	PUNCT	''	_	11	punct	_	_
+17	s	's	PART	POS	_	11	case	_	_
+18	tax	tax	NOUN	NN	Number=Sing	19	compound	_	_
+19	cut	cut	NOUN	NN	Number=Sing	8	obj	_	_
+20	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 20
+# text = Economists are already penciling in a recession for 2020 .
+1	Economists	economist	NOUN	NNS	Number=Plur	4	nsubj	_	_
+2	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	already	already	ADV	RB	_	4	advmod	_	_
+4	penciling	pencil	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	recession	recession	NOUN	NN	Number=Sing	4	obl	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	2020	2020	NUM	CD	NumType=Card	7	nmod	_	_
+10	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 21
+# text = Here 's the link predicting recession .
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	link	link	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	predicting	predicting	VERB	VBG	VerbForm=Ger	4	acl	_	_
+6	recession	recession	NOUN	NN	Number=Sing	5	obj	_	_
+7	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 22
+# text = Fortune :
+1	Fortune	Fortune	PROPN	NNP	Number=Sing	0	root	_	_
+2	:	:	PUNCT	:	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 23
+# text = The panelists forecasted that the nation " s GDP would grow by 27 % in 2019 .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	panelists	panelist	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	forecasted	forecast	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	11	mark	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	nation	nation	NOUN	NN	Number=Sing	9	nmod:poss	_	_
+7	"	"	PUNCT	``	_	6	punct	_	_
+8	s	's	PART	POS	_	6	case	_	_
+9	GDP	gdp	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	grow	grow	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+12	by	by	ADP	IN	_	13	case	_	_
+13	27	27	NUM	CD	NumType=Card	11	obl	_	_
+14	%	%	SYM	NN	Number=Sing	11	obl:npmod	_	SpacesAfter=\s\s
+15	in	in	ADP	IN	_	16	case	_	_
+16	2019	2019	NUM	CD	NumType=Card	11	obl	_	_
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 24
+# text = However , the NABE [ National Association of Business Economists ] panel also stated that the growth could be cut short by an upcoming recession , with two-thirds of the economists predicting that a recession will start by the end of 2020 and 18 % believing that a decline could begin as soon as the end of 2019 .
+1	However	however	ADV	RB	_	14	advmod	_	_
+2	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+3	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+4	NABE	NABE	PROPN	NNP	Number=Sing	7	compound	_	SpacesAfter=\s\s
+5	[	[	PUNCT	-LRB-	_	7	punct	_	_
+6	National	National	PROPN	NNP	Number=Sing	7	compound	_	_
+7	Association	Association	PROPN	NNP	Number=Sing	12	compound	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	Business	Business	PROPN	NNP	Number=Sing	7	nmod	_	_
+10	Economists	economists	PROPN	NNP	Number=Sing	7	flat	_	_
+11	]	]	PUNCT	-RRB-	_	7	punct	_	SpacesAfter=\s\s
+12	panel	panel	NOUN	NN	Number=Sing	14	nsubj	_	_
+13	also	also	ADV	RB	_	14	advmod	_	_
+14	stated	state	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+15	that	that	SCONJ	IN	_	20	mark	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	growth	growth	NOUN	NN	Number=Sing	20	nsubj:pass	_	_
+18	could	could	AUX	MD	VerbForm=Fin	20	aux	_	_
+19	be	be	AUX	VB	VerbForm=Inf	20	aux:pass	_	_
+20	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	ccomp	_	_
+21	short	short	ADJ	JJ	Degree=Pos	20	xcomp	_	_
+22	by	by	ADP	IN	_	25	case	_	_
+23	an	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+24	upcoming	upcoming	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	recession	recession	NOUN	NN	Number=Sing	20	obl	_	_
+26	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\s\s
+27	with	with	ADP	IN	_	30	case	_	_
+28	two	two	NUM	CD	NumType=Card	30	nummod	_	SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	30	punct	_	SpaceAfter=No
+30	thirds	third	NOUN	NNS	Number=Plur	20	obl	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+33	economists	economist	NOUN	NNS	Number=Plur	30	nmod	_	_
+34	predicting	predict	VERB	VBG	VerbForm=Ger	20	advcl	_	_
+35	that	that	SCONJ	IN	_	39	mark	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+37	recession	recession	NOUN	NN	Number=Sing	39	nsubj	_	_
+38	will	will	AUX	MD	VerbForm=Fin	39	aux	_	_
+39	start	start	VERB	VB	VerbForm=Inf	34	ccomp	_	_
+40	by	by	ADP	IN	_	42	case	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	end	end	NOUN	NN	Number=Sing	39	obl	_	_
+43	of	of	ADP	IN	_	47	case	_	_
+44	2020	2020	NUM	CD	NumType=Card	47	nummod	_	_
+45	and	and	CCONJ	CC	_	47	cc	_	_
+46	18	18	NUM	CD	NumType=Card	47	nummod	_	_
+47	%	%	SYM	NN	Number=Sing	42	nmod	_	SpacesAfter=\s\s
+48	believing	believe	VERB	VBG	VerbForm=Ger	39	advcl	_	_
+49	that	that	SCONJ	IN	_	53	mark	_	_
+50	a	a	DET	DT	Definite=Ind|PronType=Art	51	det	_	_
+51	decline	decline	NOUN	NN	Number=Sing	53	nsubj	_	_
+52	could	could	AUX	MD	VerbForm=Fin	53	aux	_	_
+53	begin	begin	VERB	VB	VerbForm=Inf	48	ccomp	_	_
+54	as	as	ADV	RB	_	55	advmod	_	_
+55	soon	soon	ADV	RB	Degree=Pos	53	advmod	_	_
+56	as	as	SCONJ	IN	_	58	case	_	_
+57	the	the	DET	DT	Definite=Def|PronType=Art	58	det	_	_
+58	end	end	NOUN	NN	Number=Sing	53	obl	_	_
+59	of	of	ADP	IN	_	60	case	_	_
+60	2019	2019	NUM	CD	NumType=Card	58	nmod	_	_
+61	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 25
+# text = One of the biggest causes for the decline according to the economists are Trump " s current trade policies ; three-fourths of the panelists predict that Trump " s imposed tariffs on steel and aluminum imports from the Canada , Mexico , and the European Union , as well as tariffs on Chinese imports , will trigger a global trade war as the nations look to retaliate .
+1	One	one	NUM	CD	NumType=Card	14	nsubj	_	_
+2	of	of	ADP	IN	_	5	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	biggest	biggest	ADJ	JJS	Degree=Sup	5	amod	_	_
+5	causes	cause	NOUN	NNS	Number=Plur	1	nmod	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	decline	decline	NOUN	NN	Number=Sing	5	nmod	_	_
+9	according	accord	VERB	VBG	VerbForm=Ger	12	case	_	_
+10	to	to	ADP	IN	_	9	fixed	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	economists	economist	NOUN	NNS	Number=Plur	5	obl	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	cop	_	_
+14	Trump	Trump	PROPN	NNP	Number=Sing	19	nmod:poss	_	_
+15	"	"	PUNCT	''	_	14	punct	_	_
+16	s	's	PART	POS	_	14	case	_	_
+17	current	current	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	trade	trade	NOUN	NN	Number=Sing	19	compound	_	_
+19	policies	policy	NOUN	NNS	Number=Plur	27	nsubj	_	_
+20	;	;	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s
+21	three	three	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
+22	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+23	fourths	fourth	NOUN	NNS	Number=Plur	19	appos	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	panelists	panelist	NOUN	NNS	Number=Plur	23	nmod	_	_
+27	predict	predict	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	that	that	SCONJ	IN	_	59	mark	_	_
+29	Trump	Trump	PROPN	NNP	Number=Sing	33	nmod:poss	_	_
+30	"	"	PUNCT	''	_	29	punct	_	_
+31	s	's	PART	POS	_	29	case	_	_
+32	imposed	impose	VERB	VBN	Tense=Past|VerbForm=Part	33	amod	_	_
+33	tariffs	tariff	NOUN	NNS	Number=Plur	59	nsubj	_	_
+34	on	on	ADP	IN	_	35	case	_	_
+35	steel	steel	NOUN	NN	Number=Sing	33	nmod	_	_
+36	and	and	CCONJ	CC	_	38	cc	_	_
+37	aluminum	aluminum	NOUN	NN	Number=Sing	38	compound	_	_
+38	imports	import	NOUN	NNS	Number=Plur	35	conj	_	_
+39	from	from	ADP	IN	_	41	case	_	_
+40	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+41	Canada	Canada	PROPN	NNP	Number=Sing	33	nmod	_	_
+42	,	,	PUNCT	,	_	43	punct	_	SpacesAfter=\s\s
+43	Mexico	Mexico	PROPN	NNP	Number=Sing	41	conj	_	_
+44	,	,	PUNCT	,	_	48	punct	_	SpacesAfter=\s\s
+45	and	and	CCONJ	CC	_	48	cc	_	_
+46	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+47	European	european	PROPN	NNP	Number=Sing	48	compound	_	_
+48	Union	Union	PROPN	NNP	Number=Sing	41	conj	_	_
+49	,	,	PUNCT	,	_	53	punct	_	SpacesAfter=\s\s
+50	as	as	ADV	RB	_	53	cc	_	_
+51	well	well	ADV	RB	Degree=Pos	50	fixed	_	_
+52	as	as	ADP	IN	_	50	fixed	_	_
+53	tariffs	tariff	NOUN	NNS	Number=Plur	33	conj	_	_
+54	on	on	ADP	IN	_	56	case	_	_
+55	Chinese	chinese	ADJ	JJ	Degree=Pos	56	amod	_	_
+56	imports	import	NOUN	NNS	Number=Plur	53	nmod	_	_
+57	,	,	PUNCT	,	_	59	punct	_	SpacesAfter=\s\s
+58	will	will	AUX	MD	VerbForm=Fin	59	aux	_	_
+59	trigger	trigger	VERB	VB	VerbForm=Inf	27	ccomp	_	_
+60	a	a	DET	DT	Definite=Ind|PronType=Art	63	det	_	_
+61	global	global	ADJ	JJ	Degree=Pos	63	amod	_	_
+62	trade	trade	NOUN	NN	Number=Sing	63	compound	_	_
+63	war	war	NOUN	NN	Number=Sing	59	obj	_	_
+64	as	as	ADP	IN	_	66	case	_	_
+65	the	the	DET	DT	Definite=Def|PronType=Art	66	det	_	_
+66	nations	nation	NOUN	NNS	Number=Plur	59	obl	_	_
+67	look	look	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	59	advcl	_	_
+68	to	to	PART	TO	_	69	mark	_	_
+69	retaliate	retaliate	VERB	VB	VerbForm=Inf	67	xcomp	_	_
+70	.	.	PUNCT	.	_	27	punct	_	SpacesAfter=\s\n
+
+# sent_id = 26
+# text = As for trade , it seems that most economists didn " t mind the theory that manufacturing jobs were gone for good and that there was no harm in letting them to continue to flow overseas .
+1	As	as	ADP	IN	_	3	case	_	_
+2	for	for	ADP	IN	_	1	fixed	_	_
+3	trade	trade	NOUN	NN	Number=Sing	6	obl	_	_
+4	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\s\s
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+6	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	IN	_	20	mark	_	_
+8	most	most	ADJ	JJS	Degree=Sup	10	amod	_	_
+9	economists	economist	NOUN	NNS	Number=Plur	10	compound	_	_
+10	didn	didn	NOUN	NN	Number=Sing	12	compound	_	_
+11	"	"	PUNCT	''	_	12	punct	_	_
+12	t	t	NOUN	NN	Number=Sing	20	nsubj	_	_
+13	mind	mind	VERB	VB	VerbForm=Inf	12	acl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	theory	theory	NOUN	NN	Number=Sing	13	obj	_	_
+16	that	that	SCONJ	IN	_	17	mark	_	_
+17	manufacturing	manufacture	VERB	VBG	VerbForm=Ger	15	acl	_	_
+18	jobs	job	NOUN	NNS	Number=Plur	17	obj	_	_
+19	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	cop	_	_
+20	gone	gone	ADJ	JJ	Degree=Pos	6	ccomp	_	_
+21	for	for	ADP	IN	_	22	case	_	_
+22	good	good	ADJ	JJ	Degree=Pos	20	obl	_	_
+23	and	and	CCONJ	CC	_	26	cc	_	_
+24	that	that	SCONJ	IN	_	26	mark	_	_
+25	there	there	PRON	EX	_	26	expl	_	_
+26	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	conj	_	_
+27	no	no	DET	DT	_	28	det	_	_
+28	harm	harm	NOUN	NN	Number=Sing	26	nsubj	_	_
+29	in	in	SCONJ	IN	_	30	mark	_	_
+30	letting	let	VERB	VBG	VerbForm=Ger	28	acl	_	_
+31	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	obj	_	_
+32	to	to	PART	TO	_	33	mark	_	_
+33	continue	continue	VERB	VB	VerbForm=Inf	30	xcomp	_	_
+34	to	to	PART	TO	_	35	mark	_	_
+35	flow	flow	VERB	VB	VerbForm=Inf	33	xcomp	_	_
+36	overseas	overseas	ADV	RB	_	35	advmod	_	_
+37	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 27
+# text = Trumponomics is about more than simple growth .
+1	Trumponomics	Trumponomics	NOUN	NN	Number=Sing	4	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	about	about	ADV	RB	_	4	advmod	_	_
+4	more	more	ADJ	JJR	Degree=Cmp	0	root	_	_
+5	than	than	ADP	IN	_	7	case	_	_
+6	simple	simple	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	growth	growth	NOUN	NN	Number=Sing	4	obl	_	_
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 28
+# text = I believe it is very short sighted to not understand the long term risk if a dangerous country like China controls so many of the goods we need in our economy .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	believe	believe	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	expl	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	short	short	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+7	sighted	sighted	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	parataxis	_	_
+8	to	to	PART	TO	_	10	mark	_	_
+9	not	not	PART	RB	_	10	advmod	_	_
+10	understand	understand	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+12	long	long	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	term	term	NOUN	NN	Number=Sing	14	compound	_	_
+14	risk	risk	NOUN	NN	Number=Sing	10	obj	_	_
+15	if	if	SCONJ	IN	_	23	mark	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	dangerous	dangerous	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	country	country	NOUN	NN	Number=Sing	23	nsubj	_	_
+19	like	like	ADP	IN	_	21	case	_	_
+20	China	China	PROPN	NNP	Number=Sing	21	compound	_	_
+21	controls	control	NOUN	NNS	Number=Plur	18	nmod	_	_
+22	so	so	ADV	RB	_	23	advmod	_	_
+23	many	many	ADJ	JJ	Degree=Pos	10	advcl	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	goods	goods	NOUN	NNS	Number=Plur	23	obl	_	_
+27	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	nsubj	_	_
+28	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	acl:relcl	_	_
+29	in	in	ADP	IN	_	31	case	_	_
+30	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	economy	economy	NOUN	NN	Number=Sing	28	obl	_	_
+32	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 29
+# text = Do any of these economist understand that China could cut off supplies any time they want Do economists think that if China gets control of most of our manufacturing that they wouldn " t also go after services
+1	Do	do	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	any	any	DET	DT	_	1	obj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	these	these	DET	DT	Number=Plur|PronType=Dem	5	det	_	_
+5	economist	economist	NOUN	NN	Number=Sing	2	nmod	_	_
+6	understand	understand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+7	that	that	SCONJ	IN	_	10	mark	_	_
+8	China	China	PROPN	NNP	Number=Sing	10	nsubj	_	_
+9	could	could	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	cut	cut	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+11	off	off	ADP	RP	_	10	compound:prt	_	_
+12	supplies	supplies	NOUN	NNS	Number=Plur	10	obj	_	_
+13	any	any	DET	DT	_	14	det	_	_
+14	time	time	NOUN	NN	Number=Sing	10	obj	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	nsubj	_	_
+16	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	acl:relcl	_	SpacesAfter=\n
+17	Do	do	PROPN	NNP	Number=Sing	18	compound	_	_
+18	economists	economist	NOUN	NNS	Number=Plur	16	obj	_	_
+19	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	parataxis	_	_
+20	that	that	SCONJ	IN	_	32	mark	_	_
+21	if	if	SCONJ	IN	_	23	mark	_	_
+22	China	China	PROPN	NNP	Number=Sing	23	nsubj	_	_
+23	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+24	control	control	NOUN	NN	Number=Sing	23	obj	_	_
+25	of	of	ADP	IN	_	26	case	_	_
+26	most	most	ADJ	JJS	Degree=Sup	24	nmod	_	_
+27	of	of	ADP	IN	_	29	case	_	_
+28	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	29	nmod:poss	_	_
+29	manufacturing	manufacturing	NOUN	NN	Number=Sing	26	nmod	_	_
+30	that	that	SCONJ	IN	_	32	mark	_	_
+31	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	nsubj	_	_
+32	wouldn	wouldn	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	ccomp	_	_
+33	"	"	PUNCT	``	_	32	punct	_	_
+34	t	t	NOUN	NN	Number=Sing	32	obj	_	_
+35	also	also	ADV	RB	_	36	advmod	_	_
+36	go	go	VERB	VB	VerbForm=Inf	32	parataxis	_	_
+37	after	after	ADP	IN	_	38	case	_	_
+38	services	service	NOUN	NNS	Number=Plur	36	obl	_	SpacesAfter=\n
+
+# sent_id = 30
+# text = Have these economists not noticed that Europe , South Korea , Mexico and Canada are clearly willing to deal Do they think China will let their economy completely tank by not giving in somewhat to Trump
+1	Have	have	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+3	economists	economist	NOUN	NNS	Number=Plur	1	obj	_	_
+4	not	not	ADV	RB	_	5	advmod	_	_
+5	noticed	notice	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	parataxis	_	_
+6	that	that	SCONJ	IN	_	17	mark	_	_
+7	Europe	Europe	PROPN	NNP	Number=Sing	17	nsubj	_	_
+8	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+9	South	South	PROPN	NNP	Number=Sing	10	compound	_	_
+10	Korea	Korea	PROPN	NNP	Number=Sing	7	conj	_	_
+11	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+12	Mexico	Mexico	PROPN	NNP	Number=Sing	7	conj	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	Canada	Canada	PROPN	NNP	Number=Sing	7	conj	_	_
+15	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	cop	_	_
+16	clearly	clearly	ADV	RB	_	17	advmod	_	_
+17	willing	willing	ADJ	JJ	Degree=Pos	22	ccomp	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	deal	deal	VERB	VB	VerbForm=Inf	22	xcomp	_	SpacesAfter=\n
+20	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	nsubj	_	_
+22	think	think	VERB	VB	VerbForm=Inf	5	advcl	_	_
+23	China	China	PROPN	NNP	Number=Sing	25	nsubj	_	_
+24	will	will	AUX	MD	VerbForm=Fin	25	aux	_	_
+25	let	let	VERB	VB	VerbForm=Inf	22	ccomp	_	_
+26	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+27	economy	economy	NOUN	NN	Number=Sing	25	obj	_	_
+28	completely	completely	ADV	RB	_	29	advmod	_	_
+29	tank	tank	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+30	by	by	SCONJ	IN	_	32	mark	_	_
+31	not	not	ADV	RB	_	32	advmod	_	_
+32	giving	give	VERB	VBG	VerbForm=Ger	29	advcl	_	_
+33	in	in	ADV	RB	_	32	advmod	_	_
+34	somewhat	somewhat	ADV	RB	_	36	advmod	_	_
+35	to	to	ADP	IN	_	36	case	_	_
+36	Trump	Trump	PROPN	NNP	Number=Sing	32	obl	_	SpacesAfter=\n
+
+# sent_id = 31
+# text = We were told that if Trump pulled out of the TPP that countries would stop trading with us .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj:pass	_	_
+2	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux:pass	_	_
+3	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	that	that	SCONJ	IN	_	15	mark	_	_
+5	if	if	SCONJ	IN	_	7	mark	_	_
+6	Trump	Trump	PROPN	NNP	Number=Sing	7	nsubj	_	_
+7	pulled	pull	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	15	advcl	_	_
+8	out	out	ADP	IN	_	11	case	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	TPP	Tpp	NOUN	NN	Number=Sing	7	obl	_	_
+12	that	that	SCONJ	IN	_	15	mark	_	_
+13	countries	country	NOUN	NNS	Number=Plur	15	nsubj	_	_
+14	would	would	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	stop	stop	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+16	trading	trade	VERB	VBG	VerbForm=Ger	15	xcomp	_	_
+17	with	with	ADP	IN	_	18	case	_	_
+18	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	16	obl	_	_
+19	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 32
+# text = That shows a complete lack of thought .
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	complete	complete	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	lack	lack	NOUN	NN	Number=Sing	2	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	thought	thought	NOUN	NN	Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 33
+# text = These countries need the U .
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	countries	country	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	U	u	PROPN	NNP	Number=Sing	3	obj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 34
+# text = S . because we are the biggest economy in the world .
+1	S	s	NOUN	NN	Number=Sing	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\s
+3	because	because	SCONJ	IN	_	8	mark	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	cop	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	biggest	biggest	ADJ	JJS	Degree=Sup	8	amod	_	_
+8	economy	economy	NOUN	NN	Number=Sing	1	advcl	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	world	world	NOUN	NN	Number=Sing	8	nmod	_	_
+12	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 35
+# text = We also hear how the tariffs will raise prices and then we are told that the tariffs are lowering grain prices .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	also	also	ADV	RB	_	3	advmod	_	_
+3	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	how	how	ADV	WRB	PronType=Int	8	advmod	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	tariffs	tariff	NOUN	NNS	Number=Plur	8	nsubj	_	_
+7	will	will	AUX	MD	VerbForm=Fin	8	aux	_	_
+8	raise	raise	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+9	prices	price	NOUN	NNS	Number=Plur	8	obj	_	_
+10	and	and	CCONJ	CC	_	14	cc	_	_
+11	then	then	ADV	RB	PronType=Dem	14	advmod	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj:pass	_	_
+13	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	conj	_	_
+15	that	that	SCONJ	IN	_	19	mark	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	tariffs	tariff	NOUN	NNS	Number=Plur	19	nsubj	_	_
+18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	lowering	lower	VERB	VBG	Tense=Pres|VerbForm=Part	14	ccomp	_	_
+20	grain	grain	NOUN	NN	Number=Sing	21	compound	_	_
+21	prices	price	NOUN	NNS	Number=Plur	19	obj	_	_
+22	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 36
+# text = Why don " t we hear about the benefit to 100 % of consumers from the lower grain prices Doesn " t that reduce the sting of the minor tariffs on China
+1	Why	why	ADV	WRB	PronType=Int	6	advmod	_	_
+2	don	don	ADP	IN	_	4	case	_	_
+3	"	"	PUNCT	``	_	4	punct	_	_
+4	t	t	NOUN	NN	Number=Sing	6	obl	_	_
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+6	hear	hear	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	about	about	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	benefit	benefit	NOUN	NN	Number=Sing	6	obl	_	_
+10	to	to	ADP	IN	_	12	case	_	_
+11	100	100	NUM	CD	NumType=Card	12	nummod	_	_
+12	%	%	SYM	NN	Number=Sing	9	nmod	_	SpacesAfter=\s\s
+13	of	of	ADP	IN	_	14	case	_	_
+14	consumers	consumer	NOUN	NNS	Number=Plur	12	nmod	_	_
+15	from	from	ADP	IN	_	22	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+17	lower	lower	ADJ	JJR	Degree=Cmp	19	amod	_	_
+18	grain	grain	NOUN	NN	Number=Sing	19	compound	_	_
+19	prices	price	NOUN	NNS	Number=Plur	22	compound	_	SpacesAfter=\n
+20	Doesn	Doesn	PROPN	NNP	Number=Sing	22	compound	_	_
+21	"	"	PUNCT	''	_	22	punct	_	_
+22	t	t	NOUN	NN	Number=Sing	12	nmod	_	_
+23	that	that	PRON	WDT	PronType=Rel	24	nsubj	_	_
+24	reduce	reduce	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	sting	sting	NOUN	NN	Number=Sing	24	obj	_	_
+27	of	of	ADP	IN	_	30	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	minor	minor	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	tariffs	tariff	NOUN	NNS	Number=Plur	26	nmod	_	_
+31	on	on	ADP	IN	_	32	case	_	_
+32	China	China	PROPN	NNP	Number=Sing	24	obl	_	SpacesAfter=\n
+
+# sent_id = 37
+# text = There is absolutely no reason the economy won " t continue to grow substantially if we stick to Trumponomics .
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	absolutely	absolutely	ADV	RB	_	2	advmod	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	reason	reason	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	economy	economy	NOUN	NN	Number=Sing	8	compound	_	_
+8	won	win	NOUN	NN	Number=Sing	10	compound	_	_
+9	"	"	PUNCT	''	_	10	punct	_	_
+10	t	t	NOUN	NN	Number=Sing	5	appos	_	_
+11	continue	continue	VERB	VB	VerbForm=Inf	5	acl	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	grow	grow	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+14	substantially	substantially	ADV	RB	_	13	advmod	_	_
+15	if	if	SCONJ	IN	_	17	mark	_	_
+16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+17	stick	stick	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	advcl	_	_
+18	to	to	ADP	IN	_	19	case	_	_
+19	Trumponomics	Trumponomics	PROPN	NNPS	Number=Plur	17	obl	_	_
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 38
+# text = There is a great risk of recession if we move to the socialist policies the WP writers and others support .
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	great	great	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	risk	risk	NOUN	NN	Number=Sing	2	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	recession	recession	NOUN	NN	Number=Sing	5	nmod	_	_
+8	if	if	SCONJ	IN	_	10	mark	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	move	move	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+11	to	to	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	socialist	socialist	NOUN	NN	Number=Sing	10	obl	_	_
+14	policies	policy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	WP	Wp	NOUN	NN	Number=Sing	17	compound	_	_
+17	writers	writer	NOUN	NNS	Number=Plur	14	obj	_	_
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	others	other	NOUN	NNS	Number=Plur	20	nsubj	_	_
+20	support	support	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+21	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 39
+# text = We can make growth collapse by reversing the corporate and individual tax cuts , going to single payer health care and adding back regulations .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	make	make	VERB	VB	VerbForm=Inf	0	root	_	_
+4	growth	growth	NOUN	NN	Number=Sing	5	compound	_	_
+5	collapse	collapse	NOUN	NN	Number=Sing	3	obj	_	_
+6	by	by	SCONJ	IN	_	7	mark	_	_
+7	reversing	reverse	VERB	VBG	VerbForm=Ger	3	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+9	corporate	corporate	ADJ	JJ	Degree=Pos	13	amod	_	_
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	individual	individual	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	tax	tax	NOUN	NN	Number=Sing	13	compound	_	_
+13	cuts	cut	NOUN	NNS	Number=Plur	7	obj	_	_
+14	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+15	going	go	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+16	to	to	ADP	IN	_	20	case	_	_
+17	single	single	ADJ	JJ	Degree=Pos	20	amod	_	_
+18	payer	payer	NOUN	NN	Number=Sing	19	compound	_	_
+19	health	health	NOUN	NN	Number=Sing	20	compound	_	_
+20	care	care	NOUN	NN	Number=Sing	15	obl	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	adding	add	VERB	VBG	VerbForm=Ger	15	conj	_	_
+23	back	back	ADV	RB	_	24	advmod	_	_
+24	regulations	regulation	NOUN	NNS	Number=Plur	22	obj	_	_
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 40
+# text = We can go back to the slowest economic recovery in seventy years which we got because of Obamanomics .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	go	go	VERB	VB	VerbForm=Inf	0	root	_	_
+4	back	back	ADV	RB	_	3	advmod	_	_
+5	to	to	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	slowest	slowest	ADJ	JJS	Degree=Sup	9	amod	_	_
+8	economic	economic	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	recovery	recovery	NOUN	NN	Number=Sing	3	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	seventy	seventy	NUM	CD	NumType=Card	12	nummod	_	_
+12	years	year	NOUN	NNS	Number=Plur	3	obl	_	_
+13	which	which	PRON	WDT	PronType=Rel	15	obj	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+15	got	get	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	acl:relcl	_	_
+16	because	because	ADP	IN	_	18	case	_	_
+17	of	of	ADP	IN	_	16	fixed	_	_
+18	Obamanomics	Obamanomics	PROPN	NNPS	Number=Plur	15	obl	_	_
+19	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+

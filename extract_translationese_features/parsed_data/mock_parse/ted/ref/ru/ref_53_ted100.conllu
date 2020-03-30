@@ -1,0 +1,1971 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Аутизм Психолог развития Ута Фрит о теории ума , генетических предпосылках аутизма и симптомах болезни Аутизм - это расстройство развития нервной системы , то есть расстройство головного мозга .
+1	Аутизм	Аутизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	SpacesAfter=\n
+2	Психолог	психолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+3	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	Ута	Ут	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	Фрит	Фрить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+6	о	о	ADP	_	_	7	case	_	_
+7	теории	теория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+8	ума	ум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	генетических	генетический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	предпосылках	предпосылка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	conj	_	_
+12	аутизма	аутизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	симптомах	симптома	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	conj	_	_
+15	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpacesAfter=\n
+16	Аутизм	Аутизм	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+17	-	-	PUNCT	_	_	16	punct	_	_
+18	это	это	PRON	_	_	19	cop	_	_
+19	расстройство	расстройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+20	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	нервной	нервный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	mark	_	_
+25	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	fixed	_	_
+26	расстройство	расстройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	parataxis	_	_
+27	головного	головной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 2
+# text = У аутизма есть генетические предпосылки , которые пока плохо известны , но появляются в раннем детстве и затрагивают мозг и разум .
+1	У	в	ADP	_	_	2	case	_	_
+2	аутизма	аутизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+3	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	генетические	генетический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	предпосылки	предпосылка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	которые	который	PRON	_	Case=Nom	10	nsubj	_	_
+8	пока	пока	ADV	_	Degree=Pos	9	advmod	_	_
+9	плохо	плохой	ADV	_	Degree=Pos	10	advmod	_	_
+10	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	acl:relcl	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	но	но	CCONJ	_	_	13	cc	_	_
+13	появляются	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	conj	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	раннем	ранний	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	детстве	детство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	затрагивают	затрагивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
+19	мозг	мозг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	разум	разум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	conj	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 3
+# text = И затрагивают их очень серьезно . Состояние здоровья , известное как аутизм , - это состояние , при котором человек практически не может вести нормальную жизнь и сильно нуждается в помощи .
+1	И	и	CCONJ	_	_	2	cc	_	_
+2	затрагивают	затрагивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	obj	_	_
+4	очень	очень	ADV	_	Degree=Pos	5	advmod	_	_
+5	серьезно	серьезно	ADV	_	Degree=Pos	2	advmod	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	Состояние	состояние	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+8	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	известное	известный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+11	как	как	SCONJ	_	_	12	mark	_	_
+12	аутизм	аутизй	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	это	это	PRON	_	_	16	cop	_	_
+16	состояние	состояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	parataxis	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	при	при	ADP	_	_	19	case	_	_
+19	котором	который	PRON	_	Case=Loc	23	obl	_	_
+20	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+21	практически	практически	ADV	_	Degree=Pos	22	advmod	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+24	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	нормальную	нормальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+27	и	и	CCONJ	_	_	29	cc	_	_
+28	сильно	сильно	ADV	_	Degree=Pos	29	advmod	_	_
+29	нуждается	нуждаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	23	conj	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	obl	_	_
+32	.	.	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Аутизм существует давно , но термин появился только в 1940-х годах .
+1	Аутизм	Аутизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	давно	давно	ADV	_	Degree=Pos	2	advmod	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	но	но	CCONJ	_	_	7	cc	_	_
+6	термин	термин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	появился	появляться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+8	только	только	PART	_	_	11	advmod	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	1940-х	1940-й	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = Его одновременно открыли сразу два ученых независимо друг от друга .
+1	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	3	obj	_	_
+2	одновременно	одновременно	ADV	_	Degree=Pos	3	advmod	_	_
+3	открыли	открывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	сразу	сразу	ADV	_	Degree=Pos	3	advmod	_	_
+5	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	6	nummod:gov	_	_
+6	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+7	независимо	независимо	ADV	_	Degree=Pos	3	advmod	_	_
+8	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
+9	от	от	ADP	_	_	8	fixed	_	_
+10	друга	друг	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	fixed	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = Один их них - австриец Ганс Аспергер , который описал серию случаев из своей практики .
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	3	nummod:gov	_	_
+2	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	nmod	_	_
+3	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	0	root	_	_
+4	-	-	PUNCT	_	_	3	punct	_	_
+5	австриец	австриец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	parataxis	_	_
+6	Ганс	ганс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+7	Аспергер	Аспергер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	который	который	PRON	_	Case=Nom	10	nsubj	_	_
+10	описал	описывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+11	серию	серия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	из	из	ADP	_	_	15	case	_	_
+14	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	15	det	_	_
+15	практики	практика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Он нашел у разных больных схожие черты , которые , по его мнению , указывали на определенный вид психопатии .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	нашел	находить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	у	в	ADP	_	_	5	case	_	_
+4	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	больных	больной	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+6	схожие	схожий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	черты	черта	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	по	по	ADP	_	_	13	case	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	parataxis	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	указывали	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+16	на	на	ADP	_	_	18	case	_	_
+17	определенный	определенный	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	18	amod	_	_
+18	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obl	_	_
+19	психопатии	психопатия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Психопатия , о которой писал Аспергер , - это не та психопатия , которую мы знаем сейчас .
+1	Психопатия	Психопатия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	о	о	ADP	_	_	4	case	_	_
+4	которой	который	PRON	_	Case=Loc	5	obl	_	_
+5	писал	писать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+6	Аспергер	Аспергер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	-	-	PUNCT	_	_	6	punct	_	_
+9	это	это	PRON	_	_	12	cop	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	та	тот	DET	_	Case=Nom|Gender=Fem|Number=Sing	12	det	_	_
+12	психопатия	психопатия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	которую	который	PRON	_	Case=Acc	16	obj	_	_
+15	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	16	nsubj	_	_
+16	знаем	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+17	сейчас	сейчас	ADV	_	Degree=Pos	16	advmod	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = Он считал , что это не истощающая болезнь , а что-то вроде свойства личности .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	считал	считать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	что	что	SCONJ	_	_	8	mark	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	истощающая	истощать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	acl	_	_
+8	болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	ccomp	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	а	а	CCONJ	_	_	11	cc	_	_
+11	что-то	что-то	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	conj	_	_
+12	вроде	вроде	ADP	_	_	13	case	_	_
+13	свойства	свойство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	11	nmod	_	_
+14	личности	личность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Это люди , которые не могли находиться в группах , были одиночками , странными и иногда обладали особыми талантами .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	которые	который	PRON	_	Case=Nom	6	nsubj	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+7	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	группах	группа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	7	obl	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
+12	одиночками	одиночка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	0	root	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	странными	странный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	иногда	иногда	ADV	_	Degree=Pos	17	advmod	_	_
+17	обладали	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+18	особыми	особый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	талантами	талант	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	17	obl	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 11
+# text = Он описал эти первые случаи так , что мы можем видеть : каждая личность была особенной .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	описал	описывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	эти	этот	DET	_	Case=Acc|Number=Plur	5	det	_	_
+4	первые	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	случаи	случай	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+6	так	так	ADV	_	Degree=Pos	2	advmod	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	что	что	SCONJ	_	_	10	mark	_	_
+9	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	10	nsubj	_	_
+10	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
+11	видеть	видеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	:	:	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	личность	личность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+15	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	_
+16	особенной	особенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	parataxis	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 12
+# text = Так что речь шла о целом спектре индивидуальных различий .
+1	Так	так	ADV	_	Degree=Pos	4	mark	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	_
+3	речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	шла	идти	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	о	о	ADP	_	_	7	case	_	_
+6	целом	целый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	спектре	спектр	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+8	индивидуальных	индивидуальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	различий	различие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = В то же время в Америке психиатр Лео Каннер также стал изучать детей , которые , как он считал , имели что-то общее .
+1	В	в	ADP	_	_	4	case	_	_
+2	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	det	_	_
+3	же	же	PART	_	_	2	discourse	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obl	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	Америке	америка	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+7	психиатр	психиатр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+8	Лео	лео	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+9	Каннер	Каннер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	_
+10	также	также	ADV	_	Degree=Pos	11	advmod	_	_
+11	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	изучать	изучать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	детей	ребенок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	которые	который	PRON	_	Case=Nom	21	nsubj	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	как	как	SCONJ	_	_	19	mark	_	_
+18	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
+19	считал	считать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	parataxis	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	имели	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+22	что-то	что-то	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	_
+23	общее	общий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+
+# sent_id = 14
+# text = И это было то же самое , что обнаружил Ганс Аспергер .
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+5	же	же	PART	_	_	4	discourse	_	_
+6	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	что	что	PRON	_	Case=Acc	9	obj	_	_
+9	обнаружил	обнаруживать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+10	Ганс	ганс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+11	Аспергер	Аспергер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	flat:name	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = Дети не могли взаимодействовать с другими людьми .
+1	Дети	ребенок	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	взаимодействовать	взаимодействовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = У них была хорошая способность взаимодействовать с предметами .
+1	У	у	ADP	_	_	2	case	_	_
+2	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	obl	_	_
+3	была	быть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	способность	способность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+6	взаимодействовать	взаимодействовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	obl	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	предметами	предмет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 17
+# text = Но предметы - это не то же самое , что люди . Каннер очень живо описал ребенка , который сидел в его кабинете и обращал больше внимания на его шкаф , чем на него самого .
+1	Но	но	CCONJ	_	_	6	cc	_	_
+2	предметы	предмет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+3	-	-	PUNCT	_	_	2	punct	_	_
+4	это	это	PRON	_	_	6	cop	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+7	же	же	PART	_	_	6	discourse	_	_
+8	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	что	что	SCONJ	_	_	16	mark	_	_
+11	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	Каннер	Каннер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+14	очень	очень	ADV	_	Degree=Pos	15	advmod	_	_
+15	живо	живо	ADV	_	Degree=Pos	16	advmod	_	_
+16	описал	описывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl	_	_
+17	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	который	который	PRON	_	Case=Nom	20	nsubj	_	_
+20	сидел	сидеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	23	nmod	_	_
+23	кабинете	кабинет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	обращал	обращать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	conj	_	_
+26	больше	много	NUM	_	_	27	nummod:gov	_	_
+27	внимания	внимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+28	на	на	ADP	_	_	30	case	_	_
+29	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	30	nmod	_	_
+30	шкаф	шкаф	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	25	obl	_	_
+31	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+32	чем	чем	SCONJ	_	_	34	mark	_	_
+33	на	на	ADP	_	_	34	case	_	_
+34	него	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	30	obl	_	_
+35	самого	сам	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+36	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = Эти дети не поддавались нормальному взаимодействию и коммуникации с людьми . Каннер также отметил , что в случаях из его практики он часто сталкивался с тем , что он называл " островками разума " . Например , ребенок , который с трудом разговаривал и не мог быть полноценным участником беседы , в то же время мог иметь фантастическую память и воспроизводить наизусть такие вещи , которые другим людям не под силу было бы выучить .
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	поддавались	поддаваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	нормальному	нормальный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	взаимодействию	взаимодействие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	коммуникации	коммуникация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	conj	_	_
+9	с	с	ADP	_	_	10	case	_	_
+10	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	Каннер	Каннер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+13	также	также	ADV	_	Degree=Pos	14	advmod	_	_
+14	отметил	отмечать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	что	что	SCONJ	_	_	24	mark	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	случаях	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	24	obl	_	_
+19	из	из	ADP	_	_	21	case	_	_
+20	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	21	nmod	_	_
+21	практики	практика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+22	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+23	часто	часто	ADV	_	Degree=Pos	24	advmod	_	_
+24	сталкивался	сталкиваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	ccomp	_	_
+25	с	с	ADP	_	_	26	case	_	_
+26	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	24	obl	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	что	что	SCONJ	_	_	30	mark	_	_
+29	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	30	nsubj	_	_
+30	называл	называть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	acl	_	SpacesAfter=\s\s
+31	"	"	PUNCT	_	_	32	punct	_	_
+32	островками	островок	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	30	obl	_	_
+33	разума	разум	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	"	"	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+35	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+36	Например	например	ADV	_	Degree=Pos	38	parataxis	_	_
+37	,	,	PUNCT	_	_	36	punct	_	SpacesAfter=\s\s
+38	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	56	nsubj	_	_
+39	,	,	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+40	который	который	PRON	_	Case=Nom	43	nsubj	_	_
+41	с	с	ADP	_	_	42	case	_	_
+42	трудом	труд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	43	obl	_	_
+43	разговаривал	разговаривать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	38	acl:relcl	_	_
+44	и	и	CCONJ	_	_	46	cc	_	_
+45	не	не	PART	_	_	46	advmod	_	_
+46	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	43	conj	_	_
+47	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	49	cop	_	_
+48	полноценным	полноценный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	49	amod	_	_
+49	участником	участник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	46	obl	_	_
+50	беседы	беседа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	49	nmod	_	_
+51	,	,	PUNCT	_	_	50	punct	_	SpacesAfter=\s\s
+52	в	в	ADP	_	_	55	case	_	_
+53	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	55	det	_	_
+54	же	же	PART	_	_	53	discourse	_	_
+55	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	56	obl	_	_
+56	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	30	conj	_	_
+57	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	56	xcomp	_	_
+58	фантастическую	фантастический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	59	amod	_	_
+59	память	память	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	57	obj	_	_
+60	и	и	CCONJ	_	_	61	cc	_	_
+61	воспроизводить	воспроизводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	57	conj	_	_
+62	наизусть	наизусть	ADV	_	Degree=Pos	61	advmod	_	_
+63	такие	такой	DET	_	Case=Acc|Number=Plur	64	det	_	_
+64	вещи	вещь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	61	obj	_	_
+65	,	,	PUNCT	_	_	64	punct	_	SpacesAfter=\s\s
+66	которые	который	PRON	_	Case=Nom	71	nsubj	_	_
+67	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	68	amod	_	_
+68	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	71	iobj	_	_
+69	не	не	PART	_	_	71	advmod	_	_
+70	под	под	ADP	_	_	71	case	_	_
+71	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	64	acl:relcl	_	_
+72	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	71	cop	_	_
+73	бы	бы	PART	_	Mood=Cnd	71	aux	_	_
+74	выучить	выучивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	71	csubj	_	_
+75	.	.	PUNCT	_	_	74	punct	_	SpacesAfter=\s\n
+
+# sent_id = 19
+# text = Таким образом , у нас есть эти описания болезни из 1940-х годов .
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	det	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	у	у	ADP	_	_	5	case	_	_
+5	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	6	obl	_	_
+6	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	эти	этот	DET	_	Case=Nom|Number=Plur	8	det	_	_
+8	описания	описание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	nsubj	_	_
+9	болезни	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nmod	_	_
+10	из	из	ADP	_	_	12	case	_	_
+11	1940-х	1940-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	годов	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 20
+# text = Разумеется , это все было во время Второй мировой войны .
+1	Разумеется	разумеется	ADV	_	Degree=Pos	5	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	3	det	_	_
+5	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	во	во	ADP	_	_	10	case	_	_
+7	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	fixed	_	_
+8	Второй	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	мировой	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 21
+# text = Поэтому первое время этим случаям не уделили должного внимания .
+1	Поэтому	поэтому	ADV	_	Degree=Pos	7	advmod	_	_
+2	первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	этим	этот	DET	_	Case=Dat|Number=Plur	5	det	_	_
+5	случаям	случай	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	7	iobj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	уделили	уделять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	должного	должный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	внимания	внимание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 22
+# text = Но очень скоро люди стали замечать такие случаи повсеместно .
+1	Но	но	CCONJ	_	_	5	cc	_	_
+2	очень	очень	ADV	_	Degree=Pos	3	advmod	_	_
+3	скоро	скоро	ADV	_	Degree=Pos	5	advmod	_	_
+4	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	замечать	замечать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	такие	такой	DET	_	Case=Acc|Number=Plur	8	det	_	_
+8	случаи	случай	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+9	повсеместно	повсеместно	ADV	_	Degree=Pos	6	advmod	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = Сначала их было не очень много , и они считались довольно редкими .
+1	Сначала	сначала	ADV	_	Degree=Pos	6	advmod	_	_
+2	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	6	nsubj	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	очень	очень	ADV	_	Degree=Pos	6	advmod	_	_
+6	много	много	ADV	_	Degree=Pos	0	root	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	10	nsubj:pass	_	_
+10	считались	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	6	conj	_	_
+11	довольно	довольно	ADV	_	Degree=Pos	12	obl	_	_
+12	редкими	редкий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	obl	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = Их наблюдали у людей , которые содержались в больницах и считались умственно неполноценными , но не получили определенного диагноза .
+1	Их	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	obj	_	_
+2	наблюдали	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	у	у	ADP	_	_	4	case	_	_
+4	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	которые	который	PRON	_	Case=Nom	7	nsubj:pass	_	_
+7	содержались	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	4	acl:relcl	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	больницах	больница	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	считались	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	7	conj	_	_
+12	умственно	умственно	ADV	_	Degree=Pos	13	obl	_	_
+13	неполноценными	неполноценный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	obl	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	но	но	CCONJ	_	_	17	cc	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	получили	получать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	определенного	определенный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	диагноза	диагноз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 25
+# text = Однако было ясно , что многим из них впоследствии мог быть поставлен диагноз " аутизм " . Прошло очень много времени , прежде чем люди осознали , что аутизмом страдают не только дети .
+1	Однако	однако	ADV	_	Degree=Pos	3	obl	_	_
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	ясно	ясный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	10	mark	_	_
+6	многим	многие	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	12	iobj	_	_
+7	из	из	ADP	_	_	8	case	_	_
+8	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	6	nmod	_	_
+9	впоследствии	впоследствии	ADV	_	Degree=Pos	10	advmod	_	_
+10	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+11	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	aux:pass	_	_
+12	поставлен	ставить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	10	xcomp	_	_
+13	диагноз	диагноз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	SpacesAfter=\s\s
+14	"	"	PUNCT	_	_	15	punct	_	_
+15	аутизм	аутизй	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	appos	_	_
+16	"	"	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+18	Прошло	проходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+19	очень	очень	ADV	_	Degree=Pos	20	advmod	_	_
+20	много	много	ADV	_	Degree=Pos	21	nummod:gov	_	_
+21	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	прежде	прежде	ADV	_	Degree=Pos	26	mark	_	_
+24	чем	чем	SCONJ	_	_	23	fixed	_	_
+25	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+26	осознали	осознавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	что	что	SCONJ	_	_	30	mark	_	_
+29	аутизмом	аутизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	obl	_	_
+30	страдают	страдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	ccomp	_	_
+31	не	не	PART	_	_	32	advmod	_	_
+32	только	только	PART	_	_	33	advmod	_	_
+33	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	30	nsubj	_	_
+34	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+
+# sent_id = 26
+# text = Дети вырастают и остаются аутистами .
+1	Дети	ребенок	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	вырастают	вырастать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	остаются	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+5	аутистами	аутист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 27
+# text = Такое расстройство развития нервной системы , как аутизм , остается с человеком на всю жизнь . Однако поведенческие симптомы аутизма с возрастом меняются .
+1	Такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	det	_	_
+2	расстройство	расстройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+3	развития	развитие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	nmod	_	_
+4	нервной	нервный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	как	как	SCONJ	_	_	8	mark	_	_
+8	аутизм	аутизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	acl	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	остается	оставаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	человеком	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing	15	det	_	_
+15	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	Однако	однако	ADV	_	Degree=Pos	23	advmod	_	_
+18	поведенческие	поведенческий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	симптомы	симптом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+20	аутизма	аутизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	с	с	ADP	_	_	22	case	_	_
+22	возрастом	возраст	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	20	nmod	_	_
+23	меняются	меняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	conj	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+
+# sent_id = 28
+# text = Поведение нельзя категоризировать и в качестве критерия написать : " У вас должна быть хорошая память и трудности с тем , чтобы отличить человека от мебели " . Сделать это невозможно , так как поведение отличается в зависимости от возраста человека , его способностей и множества других факторов .
+1	Поведение	поведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+2	нельзя	нельзя	ADV	_	Degree=Pos	0	root	_	_
+3	категоризировать	категоризировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	csubj	_	_
+4	и	и	CCONJ	_	_	8	cc	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	качестве	качество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	fixed	_	_
+7	критерия	критерий	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+8	написать	писать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	conj	_	_
+9	:	:	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s\s
+10	"	"	PUNCT	_	_	11	punct	_	_
+11	У	у	ADP	_	_	12	case	_	_
+12	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	13	obl	_	_
+13	должна	должен	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	8	parataxis	_	_
+14	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+15	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	память	память	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+17	и	и	CCONJ	_	_	31	cc	_	_
+18	трудности	трудность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	31	nsubj	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	31	obl	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	чтобы	что	SCONJ	_	Mood=Cnd	23	mark	_	_
+23	отличить	отличать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	31	advcl	_	_
+24	человека	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+25	от	от	ADP	_	_	26	case	_	_
+26	мебели	мебель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	obl	_	_
+27	"	"	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+29	Сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	31	csubj	_	_
+30	это	этот	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	obj	_	_
+31	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	13	conj	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	так	так	ADV	_	Degree=Pos	36	mark	_	_
+34	как	как	SCONJ	_	_	33	fixed	_	_
+35	поведение	поведение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	36	nsubj	_	_
+36	отличается	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	31	advcl	_	_
+37	в	в	ADP	_	_	38	case	_	_
+38	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	36	obl	_	_
+39	от	от	ADP	_	_	40	case	_	_
+40	возраста	возраст	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+41	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	40	nmod	_	_
+42	,	,	PUNCT	_	_	41	punct	_	SpacesAfter=\s\s
+43	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	44	nmod	_	_
+44	способностей	способность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	38	nmod	_	_
+45	и	и	CCONJ	_	_	46	cc	_	_
+46	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	44	conj	_	_
+47	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	48	amod	_	_
+48	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	46	nmod	_	_
+49	.	.	PUNCT	_	_	48	punct	_	SpacesAfter=\s\s
+
+# sent_id = 29
+# text = Однако такой метод диагностики единственно возможный .
+1	Однако	однако	ADV	_	Degree=Pos	6	obl	_	_
+2	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+3	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	диагностики	диагностика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	единственно	единственно	PART	_	_	6	advmod	_	_
+6	возможный	возможный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 30
+# text = На данный момент для этого нет никаких биологических анализов .
+1	На	на	ADP	_	_	3	case	_	_
+2	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+4	для	для	ADP	_	_	5	case	_	_
+5	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+6	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	никаких	никакой	DET	_	Case=Gen|Number=Plur	9	det	_	_
+8	биологических	биологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	анализов	анализ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = Мы знаем , что у этого расстройства биологические причины , но мы не знаем , как их выявить .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	знаем	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	что	что	SCONJ	_	_	9	mark	_	_
+5	у	у	ADP	_	_	7	case	_	_
+6	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	7	det	_	_
+7	расстройства	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+8	биологические	биологический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	9	amod	_	_
+9	причины	причина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	ccomp	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	но	но	CCONJ	_	_	14	cc	_	_
+12	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	14	nsubj	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	знаем	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	как	как	ADV	_	Degree=Pos	18	advmod	_	_
+17	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	18	obj	_	_
+18	выявить	выявлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 32
+# text = Мы надеемся , что когда-нибудь сможем найти какой-нибудь биомаркер в мозге человека .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	надеемся	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	что	что	SCONJ	_	_	7	mark	_	_
+5	когда	когда	SCONJ	_	_	7	mark	_	SpaceAfter=No
+6	-нибудь	-нибудь	ADV	_	Degree=Pos	7	advmod	_	_
+7	сможем	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+8	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	какой-нибудь	какой-нибудь	DET	_	Case=Acc|Gender=Masc|Number=Sing	10	det	_	_
+10	биомаркер	биомаркер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	мозге	мозг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 33
+# text = Возможно , ответ лежит не в строении мозга , а в его работе , в том , как различные области мозга связаны между собой .
+1	Возможно	возможно	ADV	_	Degree=Pos	4	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	ответ	ответ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	лежит	лежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	не	не	PART	_	_	7	advmod	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	строении	строение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+8	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	а	а	CCONJ	_	_	13	cc	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	13	nmod	_	_
+13	работе	работа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	conj	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	в	в	ADP	_	_	16	case	_	_
+16	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	conj	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	как	как	ADV	_	Degree=Pos	22	advmod	_	_
+19	различные	различный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	области	область	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	22	nsubj:pass	_	_
+21	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	связаны	связывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	acl	_	_
+23	между	между	ADP	_	_	24	case	_	_
+24	собой	себя	PRON	_	Case=Ins	22	obl	_	_
+25	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+
+# sent_id = 34
+# text = Именно там мы , наверное , сможем найти первый биомаркер .
+1	Именно	именно	PART	_	_	2	discourse	_	_
+2	там	там	ADV	_	Degree=Pos	7	advmod	_	_
+3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	наверное	наверное	ADV	_	Degree=Pos	7	parataxis	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	сможем	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+8	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	биомаркер	биомаркер	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 35
+# text = Но в настоящий момент все , что у нас есть , - это наука о поведении и суждения и интуиция врачей .
+1	Но	но	CCONJ	_	_	14	cc	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	настоящий	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	nmod	_	_
+5	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	что	что	PRON	_	Case=Nom	10	nsubj	_	_
+8	у	у	ADP	_	_	9	case	_	_
+9	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	10	obl	_	_
+10	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	-	-	PUNCT	_	_	10	punct	_	_
+13	это	это	PRON	_	_	14	cop	_	_
+14	наука	наука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+15	о	о	ADP	_	_	16	case	_	_
+16	поведении	поведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	суждения	суждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	16	conj	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	интуиция	интуиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	conj	_	_
+21	врачей	врач	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 36
+# text = И вот что интересно : опытный врач идентифицирует аутизм очень быстро , а его мнение не будет расходиться с мнениями других специалистов .
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	вот	вот	PART	_	_	3	discourse	_	_
+3	что	что	PRON	_	Case=Nom	4	nsubj	_	_
+4	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	:	:	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	опытный	опытный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	врач	врач	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	идентифицирует	идентифицировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+9	аутизм	аутизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+10	очень	очень	ADV	_	Degree=Pos	11	advmod	_	_
+11	быстро	быстро	ADV	_	Degree=Pos	8	advmod	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	а	а	CCONJ	_	_	18	cc	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	мнение	мнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+16	не	не	PART	_	_	18	advmod	_	_
+17	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	aux	_	_
+18	расходиться	расходиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	8	conj	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	мнениями	мнение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	18	obl	_	_
+21	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	специалистов	специалист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 37
+# text = И очень интересно , почему так получается , так как это очень неоднородное расстройство , у разных людей протекающее по-разному .
+1	И	и	CCONJ	_	_	3	cc	_	_
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	_
+3	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	почему	почему	ADV	_	Degree=Pos	7	advmod	_	_
+6	так	так	ADV	_	Degree=Pos	7	advmod	_	_
+7	получается	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	csubj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	так	так	ADV	_	Degree=Pos	14	mark	_	_
+10	как	как	SCONJ	_	_	9	fixed	_	_
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	nsubj	_	_
+12	очень	очень	ADV	_	Degree=Pos	13	obl	_	_
+13	неоднородное	неоднородный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	расстройство	расстройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	advcl	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	у	у	ADP	_	_	18	case	_	_
+17	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	obl	_	_
+19	протекающее	протекать	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	acl	_	_
+20	по-разному	по-разному	ADV	_	Degree=Pos	19	advmod	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 38
+# text = Я думаю , что это ключ к объяснению того , чем аутисты отличаются от остальных .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	что	что	SCONJ	_	_	6	mark	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	ключ	ключ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	ccomp	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	объяснению	объяснение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+9	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	чем	что	SCONJ	_	_	13	mark	_	_
+12	аутисты	аутисвать	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+13	отличаются	отличаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	acl	_	_
+14	от	от	ADP	_	_	15	case	_	_
+15	остальных	остальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	obl	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\n
+
+# sent_id = 39
+# text = Здесь очень важно то , что мы можем назвать взаимной коммуникацией .
+1	Здесь	здесь	ADV	_	Degree=Pos	3	advmod	_	_
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	_
+3	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+4	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	что	что	SCONJ	_	_	8	mark	_	_
+7	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	8	nsubj	_	_
+8	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
+9	назвать	называть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	взаимной	взаимный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	коммуникацией	коммуникация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	9	obl	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 40
+# text = Когда мы общаемся друг с другом ( в основном посредством языка , но это могут быть не только слова , но и жестовые знаки , прикосновения и многое другое ) , происходит бессознательная смена коммуникативных ролей .
+1	Когда	когда	SCONJ	_	_	3	mark	_	_
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	общаемся	общаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	32	advcl	_	_
+4	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	obl	_	_
+5	с	с	ADP	_	_	4	fixed	_	_
+6	другом	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	fixed	_	SpacesAfter=\s\s
+7	(	(	PUNCT	_	_	8	punct	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	основном	основное	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	obl	_	_
+10	посредством	посредством	ADP	_	_	11	case	_	_
+11	языка	язык	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	но	но	CCONJ	_	_	15	cc	_	_
+14	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+15	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+16	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	cop	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	только	только	PART	_	_	19	advmod	_	_
+19	слова	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	15	obl	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	но	но	CCONJ	_	_	24	cc	_	_
+22	и	и	PART	_	_	21	discourse	_	_
+23	жестовые	жестовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+24	знаки	знак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	19	conj	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	прикосновения	прикосновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	conj	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	многое	многое	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	conj	_	_
+29	другое	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+30	)	)	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+32	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+33	бессознательная	бессознательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	смена	смена	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	_
+35	коммуникативных	коммуникативный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	ролей	роль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	34	nmod	_	_
+37	.	.	PUNCT	_	_	36	punct	_	SpacesAfter=\s\s
+
+# sent_id = 41
+# text = Мы учитываем то , что другие люди уже знают или не знают , нам нравится говорить что-то новое и интересное и не повторять скучные вещи все время .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	учитываем	учитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	9	mark	_	_
+6	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	уже	уже	ADV	_	Degree=Pos	9	advmod	_	_
+9	знают	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	_
+10	или	или	CCONJ	_	_	12	cc	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	знают	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	15	iobj	_	_
+15	нравится	нравиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	ccomp	_	_
+16	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	csubj	_	_
+17	что-то	что-то	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	новое	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	интересное	интересный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	conj	_	_
+21	и	и	CCONJ	_	_	23	cc	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	повторять	повторять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	conj	_	_
+24	скучные	скучный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+25	вещи	вещь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	23	obj	_	_
+26	все	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing	27	det	_	_
+27	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obl	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+
+# sent_id = 42
+# text = В случае с аутистами этого не происходит . Когда вы пытаетесь вступить с ними в беседу , взаимодействия и смены коммуникативных ролей не случается .
+1	В	в	ADP	_	_	2	case	_	_
+2	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	аутистами	аутист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+5	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	Когда	когда	SCONJ	_	_	11	mark	_	_
+10	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	11	nsubj	_	_
+11	пытаетесь	пытаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	7	advcl	_	_
+12	вступить	вступать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	ними	они	PRON	_	Case=Ins|Number=Plur|Person=3	12	obl	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	беседу	беседа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	взаимодействия	взаимодействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	conj	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	смены	смена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	conj	_	_
+21	коммуникативных	коммуникативный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	ролей	роль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	случается	случаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	conj	_	_
+25	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+
+# sent_id = 43
+# text = Часто случается так , что аутист просто много раз повторяет одно и то же и говорит вещи , которые вы уже знаете и которые связаны с их особым интересом .
+1	Часто	часто	ADV	_	Degree=Pos	2	advmod	_	_
+2	случается	случаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	так	так	ADV	_	Degree=Pos	2	advmod	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	чтобы	SCONJ	_	_	10	mark	_	_
+6	аутист	аутивать	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+7	просто	просто	PART	_	_	8	advmod	_	_
+8	много	много	ADV	_	Degree=Pos	9	nummod:gov	_	_
+9	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+10	повторяет	повторять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+11	одно	один	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	obj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	11	det	_	_
+14	же	же	PART	_	_	13	discourse	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+17	вещи	вещь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	которые	который	PRON	_	Case=Acc	22	obj	_	_
+20	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	22	nsubj	_	_
+21	уже	уже	ADV	_	Degree=Pos	22	advmod	_	_
+22	знаете	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+23	и	и	CCONJ	_	_	25	cc	_	_
+24	которые	который	PRON	_	Case=Nom	25	nsubj:pass	_	_
+25	связаны	связывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	22	conj	_	_
+26	с	с	ADP	_	_	29	case	_	_
+27	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	29	nmod	_	_
+28	особым	особый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	интересом	интерес	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	_
+30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+
+# sent_id = 44
+# text = Им трудно понять , когда другой человек хочет сменить тему или спрашивает что-то новое .
+1	Им	они	PRON	_	Case=Dat|Number=Plur|Person=3	2	iobj	_	_
+2	трудно	трудный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	когда	когда	SCONJ	_	_	8	mark	_	_
+6	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+8	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+9	сменить	сменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	тему	тема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	спрашивает	спрашивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+13	что-то	что-то	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	новое	новый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 45
+# text = Это очень хороший пример того , какие нарушения в социальных взаимодействиях вызваны аутизмом , и это ключевой момент .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	_
+3	хороший	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	пример	пример	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	какие	какой	DET	_	Case=Nom|Number=Plur	8	det	_	_
+8	нарушения	нарушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj:pass	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	социальных	социальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	взаимодействиях	взаимодействие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	8	nmod	_	_
+12	вызваны	вызывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	acl	_	_
+13	аутизмом	аутизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	и	и	CCONJ	_	_	18	cc	_	_
+16	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+17	ключевой	ключевой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\n
+
+# sent_id = 46
+# text = Можно подумать , что это не так серьезно , но это невероятно серьезно , потому что , учитывая , что аутизм появляется в раннем детстве , можно представить , что без взаимных связей с другими людьми детям очень тяжело научиться чему-либо через преподавание .
+1	Можно	можно	ADV	_	Degree=Pos	0	root	_	_
+2	подумать	подумать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	csubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	что	что	SCONJ	_	_	8	mark	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	так	так	ADV	_	Degree=Pos	8	obl	_	_
+8	серьезно	серьезный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	ccomp	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	но	но	CCONJ	_	_	13	cc	_	_
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+12	невероятно	невероятно	ADV	_	Degree=Pos	13	obl	_	_
+13	серьезно	серьезный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	8	conj	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	потому	потому	ADV	_	Degree=Pos	27	mark	_	_
+16	что	что	SCONJ	_	_	15	fixed	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	учитывая	учитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	27	advcl	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	что	что	SCONJ	_	_	22	mark	_	_
+21	аутизм	аутизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+22	появляется	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	ccomp	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	раннем	ранний	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	детстве	детство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+26	,	,	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+27	можно	можно	ADV	_	Degree=Pos	8	conj	_	_
+28	представить	представлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	csubj	_	_
+29	,	,	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	что	что	SCONJ	_	_	39	mark	_	_
+31	без	без	ADP	_	_	33	case	_	_
+32	взаимных	взаимный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	связей	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	39	obl	_	_
+34	с	с	ADP	_	_	36	case	_	_
+35	другими	другой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	36	amod	_	_
+36	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	33	nmod	_	_
+37	детям	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	40	iobj	_	_
+38	очень	очень	ADV	_	Degree=Pos	39	obl	_	_
+39	тяжело	тяжело	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	28	ccomp	_	_
+40	научиться	научаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	39	csubj	_	_
+41	чему-либо	что-либо	ADV	_	Degree=Pos	43	obl	_	_
+42	через	через	ADP	_	_	43	case	_	_
+43	преподавание	преподавание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	40	obl	_	_
+44	.	.	PUNCT	_	_	43	punct	_	SpacesAfter=\s\s
+
+# sent_id = 47
+# text = Они просто не могут уловить то , что важно и интересно .
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+2	просто	просто	PART	_	_	4	advmod	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	уловить	улавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	что	что	PRON	_	Case=Nom	9	nsubj	_	_
+9	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	6	acl:relcl	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	9	conj	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 48
+# text = Они следуют их собственному пути и ведут себя так , будто они одни во всем мире .
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	следуют	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	obj	_	_
+4	собственному	собственный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	пути	путь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	ведут	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	себя	себя	PRON	_	Case=Acc	7	obj	_	_
+9	так	так	ADV	_	Degree=Pos	7	advmod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	будто	будто	SCONJ	_	_	13	mark	_	_
+12	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	13	nsubj	_	_
+13	одни	один	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	advcl	_	_
+14	во	в	ADP	_	_	16	case	_	_
+15	всем	весь	DET	_	Case=Loc|Gender=Masc|Number=Sing	16	det	_	_
+16	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 49
+# text = Отсюда и происходит название " аутизм " .
+1	Отсюда	отсюда	ADV	_	Degree=Pos	3	advmod	_	_
+2	и	и	PART	_	_	3	discourse	_	_
+3	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	название	название	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	SpacesAfter=\s\s
+5	"	"	PUNCT	_	_	6	punct	_	_
+6	аутизм	аутизй	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+7	"	"	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 50
+# text = Термин " аутизм " произошел от греческого auts ( ) , что значит 'я' .
+1	Термин	термин	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	SpacesAfter=\s\s
+2	"	"	PUNCT	_	_	3	punct	_	_
+3	аутизм	аутизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+4	"	"	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	произошел	происходить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	от	от	ADP	_	_	8	case	_	_
+7	греческого	греческий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	auts	auts	X	_	Foreign=Yes	5	flat:foreign	_	SpacesAfter=\s\s
+9	(	(	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	)	)	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+11	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+12	что	что	PRON	_	Case=Nom	13	nsubj	_	_
+13	значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+14	'я'	'я'	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 51
+# text = Есть я , и больше ничего .
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	1	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	больше	больше	ADV	_	Degree=Cmp	6	obl	_	_
+6	ничего	ничто	PRON	_	Case=Gen	1	conj	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 52
+# text = Это очень серьезно .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	очень	очень	ADV	_	Degree=Pos	3	obl	_	_
+3	серьезно	серьезный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 53
+# text = Однако на протяжении жизни и по мере взросления дети все же чему-то учатся , но делают это медленно и с трудом .
+1	Однако	однако	ADV	_	Degree=Pos	13	advmod	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+4	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	и	и	CCONJ	_	_	8	cc	_	_
+6	по	по	ADP	_	_	8	case	_	_
+7	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	fixed	_	_
+8	взросления	взросление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	conj	_	_
+9	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+10	все	все	PART	_	_	13	advmod	_	_
+11	же	же	PART	_	_	10	fixed	_	_
+12	чему-то	что-то	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	13	iobj	_	_
+13	учатся	учиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	но	но	CCONJ	_	_	16	cc	_	_
+16	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	_
+17	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	медленно	медленно	ADV	_	Degree=Pos	16	advmod	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	с	с	ADP	_	_	21	case	_	_
+21	трудом	труд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	conj	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 54
+# text = Со временем некоторые из них могут приспособиться к обществу .
+1	Со	с	ADP	_	_	2	case	_	_
+2	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+3	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	6	det	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	nmod	_	_
+6	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	приспособиться	приспосабливаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	6	xcomp	_	_
+8	к	к	ADP	_	_	9	case	_	_
+9	обществу	общество	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 55
+# text = Они не могут мгновенно улавливать мысли и чувства других людей , как делаем это мы , когда взаимодействуем друг с другом , но делают это более медленно .
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	мгновенно	мгновенно	ADV	_	Degree=Pos	5	advmod	_	_
+5	улавливать	улавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+6	мысли	мысль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	чувства	чувство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	conj	_	_
+9	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	как	как	SCONJ	_	_	13	mark	_	_
+13	делаем	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl	_	_
+14	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	13	nsubj	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	когда	когда	SCONJ	_	_	18	mark	_	_
+18	взаимодействуем	взаимодействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	15	acl	_	_
+19	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	obl	_	_
+20	с	с	ADP	_	_	19	fixed	_	_
+21	другом	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	fixed	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	но	но	CCONJ	_	_	24	cc	_	_
+24	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
+25	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obj	_	_
+26	более	более	ADV	_	Degree=Cmp	27	advmod	_	_
+27	медленно	медленно	ADV	_	Degree=Pos	24	advmod	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+
+# sent_id = 56
+# text = Они неплохо могут общаться на расстоянии , например по электронной почте , потому что тогда они могут подумать об ответе и изучить то , что вы сказали .
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+2	неплохо	неплохо	ADV	_	Degree=Pos	3	advmod	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	общаться	общаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	расстоянии	расстояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	conj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	например	например	ADV	_	Degree=Pos	11	obl	_	_
+9	по	по	ADP	_	_	11	case	_	_
+10	электронной	электронный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	почте	почта	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	потому	потому	ADV	_	Degree=Pos	17	mark	_	_
+14	что	что	SCONJ	_	_	13	fixed	_	_
+15	тогда	тогда	ADV	_	Degree=Pos	17	advmod	_	_
+16	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	17	nsubj	_	_
+17	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
+18	подумать	подумать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	об	о	ADP	_	_	20	case	_	_
+20	ответе	ответ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	изучить	изучать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	conj	_	_
+23	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+25	что	что	PRON	_	Case=Acc	27	obj	_	_
+26	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	27	nsubj	_	_
+27	сказали	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	23	acl	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\n
+
+# sent_id = 57
+# text = Это , конечно , совсем другая форма коммуникации , они могут обучиться ей .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	конечно	конечно	ADV	_	Degree=Pos	7	parataxis	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	совсем	совсем	ADV	_	Degree=Pos	6	obl	_	_
+6	другая	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	форма	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+8	коммуникации	коммуникация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
+11	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+12	обучиться	обучаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	11	xcomp	_	_
+13	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	12	iobj	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 58
+# text = Это получается не у всех , так как у большого количества людей с аутизмом ( примерно у половины ) наблюдаются дополнительные неврологические проблемы , которые очень часто включают в себя задержки в умственном развитии и затруднения при обучении .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	получается	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	не	не	PART	_	_	5	advmod	_	_
+4	у	у	ADP	_	_	5	case	_	_
+5	всех	все	PRON	_	Animacy=Anim|Case=Gen|Number=Plur	2	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	так	так	ADV	_	Degree=Pos	20	mark	_	_
+8	как	как	SCONJ	_	_	7	fixed	_	_
+9	у	у	ADP	_	_	11	case	_	_
+10	большого	большой	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	количества	количество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	obl	_	_
+12	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	аутизмом	аутизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	nmod	_	SpacesAfter=\s\s
+15	(	(	PUNCT	_	_	16	punct	_	_
+16	примерно	примерно	ADV	_	Degree=Pos	18	obl	_	_
+17	у	в	ADP	_	_	18	case	_	_
+18	половины	половина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	parataxis	_	_
+19	)	)	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	наблюдаются	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	advcl	_	_
+21	дополнительные	дополнительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+22	неврологические	неврологический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+23	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	20	nsubj:pass	_	_
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+25	которые	который	PRON	_	Case=Nom	28	nsubj	_	_
+26	очень	очень	ADV	_	Degree=Pos	27	advmod	_	_
+27	часто	часто	ADV	_	Degree=Pos	28	advmod	_	_
+28	включают	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	себя	себя	PRON	_	Case=Acc	28	obl	_	_
+31	задержки	задержка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	obl	_	_
+32	в	в	ADP	_	_	34	case	_	_
+33	умственном	умственный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	развитии	развитие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	31	nmod	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	затруднения	затруднение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	28	conj	_	_
+37	при	при	ADP	_	_	38	case	_	_
+38	обучении	обучение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	36	nmod	_	_
+39	.	.	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+
+# sent_id = 59
+# text = Это проявляется в том , что аутисты не могут сдавать IQ-тесты или выполнять задачи , которые вы им даете .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	проявляется	проявляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	что	что	SCONJ	_	_	9	mark	_	_
+7	аутисты	аутисвать	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	nsubj	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
+10	сдавать	сдавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	IQ-тесты	IQ-тесты	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+12	или	или	CCONJ	_	_	13	cc	_	_
+13	выполнять	выполнять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	conj	_	_
+14	задачи	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	obj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	которые	который	PRON	_	Case=Acc	19	obj	_	_
+17	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	19	nsubj	_	_
+18	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	19	iobj	_	_
+19	даете	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 60
+# text = Это также может означать , что их речь достаточно бедна и не такая беглая , какой она может быть у остальных людей .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	также	также	ADV	_	Degree=Pos	3	advmod	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	означать	означать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	что	что	SCONJ	_	_	10	mark	_	_
+7	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	8	nmod	_	_
+8	речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+9	достаточно	достаточно	ADV	_	Degree=Pos	10	obl	_	_
+10	бедна	бедный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	4	ccomp	_	_
+11	и	и	CCONJ	_	_	14	cc	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	14	det	_	_
+14	беглая	беглый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	conj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	какой	какой	DET	_	Case=Ins|Gender=Fem|Number=Sing	18	det	_	_
+17	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	18	nsubj	_	_
+18	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+19	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	cop	_	_
+20	у	в	ADP	_	_	22	case	_	_
+21	остальных	остальной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 61
+# text = Довольно часто у них бывает эпилепсия - состояние , которое само по себе нуждается в лечении и может вызвать трудности .
+1	Довольно	довольно	ADV	_	Degree=Pos	5	advmod	_	_
+2	часто	часто	ADV	_	Degree=Pos	5	advmod	_	_
+3	у	у	ADP	_	_	4	case	_	_
+4	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	5	obl	_	_
+5	бывает	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	эпилепсия	эпилепсия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+7	-	-	PUNCT	_	_	6	punct	_	_
+8	состояние	состояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	parataxis	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	которое	который	PRON	_	Case=Nom	14	nsubj	_	_
+11	само	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	obl	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	себе	себя	PRON	_	Case=Dat	11	nmod	_	_
+14	нуждается	нуждаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	лечении	лечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
+19	вызвать	вызывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	трудности	трудность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\n
+
+# sent_id = 62
+# text = Поскольку у людей с аутизмом присутствуют сложности с пониманием коммуникативных ролей и состояний других людей , они часто плохо себя ведут - плохо в нашем понимании .
+1	Поскольку	поскольку	SCONJ	_	_	6	mark	_	_
+2	у	у	ADP	_	_	3	case	_	_
+3	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+4	с	с	ADP	_	_	5	case	_	_
+5	аутизмом	аутизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	nmod	_	_
+6	присутствуют	присутствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl	_	_
+7	сложности	сложность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	пониманием	понимание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	7	nmod	_	_
+10	коммуникативных	коммуникативный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	ролей	роль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	состояний	состояние	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	conj	_	_
+14	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	21	nsubj	_	_
+18	часто	часто	ADV	_	Degree=Pos	19	advmod	_	_
+19	плохо	плохо	ADV	_	Degree=Pos	21	advmod	_	_
+20	себя	себя	PRON	_	Case=Acc	21	obj	_	_
+21	ведут	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+22	-	-	PUNCT	_	_	21	punct	_	_
+23	плохо	плохой	ADV	_	Degree=Pos	26	obl	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	нашем	наш	DET	_	Case=Loc|Gender=Neut|Number=Sing	26	det	_	_
+26	понимании	понимание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	parataxis	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 63
+# text = Они не вписываются в рамки . Кажется , что они часто ведут себя плохо .
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	вписываются	вписываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	рамки	рамка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obl	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	Кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	parataxis	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	что	что	SCONJ	_	_	12	mark	_	_
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	12	nsubj	_	_
+11	часто	часто	ADV	_	Degree=Pos	12	advmod	_	_
+12	ведут	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_
+13	себя	себя	PRON	_	Case=Acc	12	obj	_	_
+14	плохо	плохо	ADV	_	Degree=Pos	12	advmod	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 64
+# text = Они делают вещи , которые мы бы не стали делать в силу социального давления , которое говорит нам : " Нет , не делай этого сейчас " . Иногда они могут вести себя оскорбительно по отношению к другим людям , потому они не рассматривают их как . . . Знаете , мы до сих пор считаем , что наблюдение Кеннера , касающееся того , что они не могут так просто понять разницу между тем , как стоит относиться к людям , и тем , как стоит относиться к вещам , было верно .
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	вещи	вещь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	которые	который	PRON	_	Case=Acc	10	obj	_	_
+6	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	9	nsubj	_	_
+7	бы	бы	PART	_	Mood=Cnd	9	aux	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+10	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	силу	сила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obl	_	_
+13	социального	социальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	давления	давление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	которое	который	PRON	_	Case=Nom	17	nsubj	_	_
+17	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+18	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	17	iobj	_	_
+19	:	:	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s\s
+20	"	"	PUNCT	_	_	21	punct	_	_
+21	Нет	нет	PART	_	_	24	parataxis	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	не	не	PART	_	_	24	advmod	_	_
+24	делай	делать	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+25	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	obl	_	_
+26	сейчас	сейчас	ADV	_	Degree=Pos	24	advmod	_	_
+27	"	"	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+29	Иногда	иногда	ADV	_	Degree=Pos	31	advmod	_	_
+30	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	31	nsubj	_	_
+31	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	ccomp	_	_
+32	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	31	xcomp	_	_
+33	себя	себя	PRON	_	Case=Acc	32	obj	_	_
+34	оскорбительно	оскорбительно	ADV	_	Degree=Pos	39	obl	_	_
+35	по	по	ADP	_	_	39	case	_	_
+36	отношению	отношение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	35	fixed	_	_
+37	к	к	ADP	_	_	35	fixed	_	_
+38	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	39	amod	_	_
+39	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	32	obl	_	_
+40	,	,	PUNCT	_	_	39	punct	_	SpacesAfter=\s\s
+41	потому	потому	ADV	_	Degree=Pos	44	advmod	_	_
+42	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	44	nsubj	_	_
+43	не	не	PART	_	_	44	advmod	_	_
+44	рассматривают	рассматривать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	conj	_	_
+45	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	44	obj	_	_
+46	как	как	ADV	_	Degree=Pos	56	advmod	_	_
+47	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\s\s
+48	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\s\s
+49	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\s\s
+50	Знаете	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	56	parataxis	_	_
+51	,	,	PUNCT	_	_	50	punct	_	SpacesAfter=\s\s
+52	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	56	nsubj	_	_
+53	до	до	ADP	_	_	56	advmod	_	_
+54	сих	сей	DET	_	Case=Gen|Number=Plur	53	fixed	_	_
+55	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	53	fixed	_	_
+56	считаем	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	44	xcomp	_	_
+57	,	,	PUNCT	_	_	56	punct	_	SpacesAfter=\s\s
+58	что	что	SCONJ	_	_	59	mark	_	_
+59	наблюдение	наблюдение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	56	ccomp	_	_
+60	Кеннера	Кеннер	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	59	nmod	_	_
+61	,	,	PUNCT	_	_	60	punct	_	SpacesAfter=\s\s
+62	касающееся	касаться	VERB	_	Aspect=Imp|Case=Acc|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	59	acl	_	_
+63	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	62	obl	_	_
+64	,	,	PUNCT	_	_	63	punct	_	SpacesAfter=\s\s
+65	что	что	SCONJ	_	_	68	mark	_	_
+66	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	68	nsubj	_	_
+67	не	не	PART	_	_	68	advmod	_	_
+68	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	63	acl	_	_
+69	так	так	ADV	_	Degree=Pos	71	advmod	_	_
+70	просто	просто	PART	_	_	71	advmod	_	_
+71	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	68	xcomp	_	_
+72	разницу	разница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	71	obj	_	_
+73	между	между	ADP	_	_	74	case	_	_
+74	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	72	nmod	_	_
+75	,	,	PUNCT	_	_	74	punct	_	SpacesAfter=\s\s
+76	как	как	SCONJ	_	_	77	mark	_	_
+77	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	74	acl	_	_
+78	относиться	относиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	77	csubj	_	_
+79	к	к	ADP	_	_	80	case	_	_
+80	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	78	obl	_	_
+81	,	,	PUNCT	_	_	80	punct	_	SpacesAfter=\s\s
+82	и	и	CCONJ	_	_	92	cc	_	_
+83	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	92	obl	_	_
+84	,	,	PUNCT	_	_	83	punct	_	SpacesAfter=\s\s
+85	как	как	SCONJ	_	_	86	mark	_	_
+86	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	83	acl	_	_
+87	относиться	относиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	86	csubj	_	_
+88	к	к	ADP	_	_	89	case	_	_
+89	вещам	вещь	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	87	obl	_	_
+90	,	,	PUNCT	_	_	89	punct	_	SpacesAfter=\s\s
+91	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	92	cop	_	_
+92	верно	верный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	77	conj	_	_
+93	.	.	PUNCT	_	_	92	punct	_	SpacesAfter=\s\n
+
+# sent_id = 65
+# text = Сейчас мы считаем , что существует " спектр аутизма " , который означает , что есть удивительные различия между разными индивидуумами .
+1	Сейчас	сейчас	ADV	_	Degree=Pos	3	advmod	_	_
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	считаем	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	6	mark	_	_
+6	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	SpacesAfter=\s\s
+7	"	"	PUNCT	_	_	8	punct	_	_
+8	спектр	спектр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+9	аутизма	аутизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	"	"	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+12	который	который	PRON	_	Case=Nom	13	nsubj	_	_
+13	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	что	что	SCONJ	_	_	16	mark	_	_
+16	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	_
+17	удивительные	удивительный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	18	amod	_	_
+18	различия	различие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	_
+19	между	между	ADP	_	_	21	case	_	_
+20	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	amod	_	_
+21	индивидуумами	индивидуум	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	18	nmod	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 66
+# text = Один ребенок может не говорить совсем , иметь серьезные проблемы с обучением и быть очень одиноким .
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	2	nummod:gov	_	_
+2	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+6	совсем	совсем	ADV	_	Degree=Pos	5	advmod	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	иметь	иметь	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	conj	_	_
+9	серьезные	серьезный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	обучением	обучение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	10	nmod	_	_
+13	и	и	CCONJ	_	_	16	cc	_	_
+14	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	cop	_	_
+15	очень	очень	ADV	_	Degree=Pos	16	obl	_	_
+16	одиноким	одинокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 67
+# text = С другой стороны , вы можете рассматривать ребенка , который довольно умен , талантлив и имеет специальные интересы - например , может быть отличным игроком в шахматы , но его мало что интересует , помимо этого , и он все же не является полноценной частью общества .
+1	С	с	ADP	_	_	3	case	_	_
+2	другой	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	parataxis	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	6	nsubj	_	_
+6	можете	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	рассматривать	рассматривать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	ребенка	ребенок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	который	который	PRON	_	Case=Nom	12	nsubj	_	_
+11	довольно	довольно	ADV	_	Degree=Pos	12	obl	_	_
+12	умен	умный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	acl:relcl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	талантлив	талантливый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	conj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+17	специальные	специальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	интересы	интерес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	_
+19	-	-	PUNCT	_	_	18	punct	_	_
+20	например	например	ADV	_	Degree=Pos	22	parataxis	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+23	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	cop	_	_
+24	отличным	отличный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	игроком	игрок	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	шахматы	шахматы	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	25	nmod	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	но	но	CCONJ	_	_	33	cc	_	_
+30	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	33	obj	_	_
+31	мало	мало	ADV	_	Degree=Pos	33	obj	_	_
+32	что	что	PRON	_	Case=Acc	31	fixed	_	_
+33	интересует	интересовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+34	,	,	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+35	помимо	помимо	ADP	_	_	36	case	_	_
+36	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	parataxis	_	_
+37	,	,	PUNCT	_	_	36	punct	_	SpacesAfter=\s\s
+38	и	и	CCONJ	_	_	43	cc	_	_
+39	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	43	nsubj	_	_
+40	все	все	PART	_	_	43	advmod	_	_
+41	же	же	PART	_	_	40	fixed	_	_
+42	не	не	PART	_	_	43	advmod	_	_
+43	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	36	conj	_	_
+44	полноценной	полноценный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	45	amod	_	_
+45	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	43	obl	_	_
+46	общества	общество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	45	nmod	_	_
+47	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\s\s
+
+# sent_id = 68
+# text = И между этими крайними проявлениями существует множество различных оттенков этого расстройства среди людей .
+1	И	и	CCONJ	_	_	6	cc	_	_
+2	между	между	ADP	_	_	5	case	_	_
+3	этими	этот	DET	_	Case=Ins|Number=Plur	5	det	_	_
+4	крайними	крайний	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	amod	_	_
+5	проявлениями	проявление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	6	obl	_	_
+6	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+8	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	оттенков	оттенок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	11	det	_	_
+11	расстройства	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	среди	среди	ADP	_	_	13	case	_	_
+13	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 69
+# text = Кто-то из них может с чьей-либо помощью вести относительно нормальную жизнь , если им помогают , а другим может быть нужен постоянный уход . Главный вопрос на данный момент - что является причиной аутизма Мы пришли к выводу , что очень большую роль играют генетические факторы .
+1	Кто-то	кто-то	PRON	_	Case=Nom	4	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	1	nmod	_	_
+4	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	с	с	ADP	_	_	8	case	_	_
+6	чьей-либо	чей-либо	ADV	_	Degree=Pos	8	advmod	_	_
+7	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	fixed	_	_
+8	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+9	относительно	относительно	ADP	_	_	11	case	_	_
+10	нормальную	нормальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	если	если	SCONJ	_	_	15	mark	_	_
+14	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	15	iobj	_	_
+15	помогают	помогать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	а	а	CCONJ	_	_	19	cc	_	_
+18	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	21	iobj	_	_
+19	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+20	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	cop	_	_
+21	нужен	нужный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	19	xcomp	_	_
+22	постоянный	постоянный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	уход	уход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\n
+25	Главный	главный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+27	на	на	ADP	_	_	29	case	_	_
+28	данный	данный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	nmod	_	_
+30	-	-	PUNCT	_	_	29	punct	_	_
+31	что	что	PRON	_	Case=Nom	32	nsubj	_	_
+32	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	26	parataxis	_	_
+33	причиной	причина	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	32	obl	_	_
+34	аутизма	аутизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+35	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	36	nsubj	_	_
+36	пришли	приходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	32	conj	_	_
+37	к	к	ADP	_	_	38	case	_	_
+38	выводу	вывод	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	36	obl	_	_
+39	,	,	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+40	что	что	SCONJ	_	_	44	mark	_	_
+41	очень	очень	ADV	_	Degree=Pos	42	obl	_	_
+42	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	_
+43	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	44	obj	_	_
+44	играют	играть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	acl	_	_
+45	генетические	генетический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	46	amod	_	_
+46	факторы	фактор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	44	nsubj	_	_
+47	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\s\s
+
+# sent_id = 70
+# text = Это не один , не два и не три гена .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	один	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	не	не	PART	_	_	6	advmod	_	_
+6	два	два	NUM	_	Case=Nom|Gender=Masc	3	conj	_	_
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	три	три	NUM	_	Animacy=Inan|Case=Acc	10	nummod:gov	_	_
+10	гена	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	conj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 71
+# text = Вовлечены сотни генов , которые взаимодействуют друг с другом и ведут к разным формам аутизма .
+1	Вовлечены	вовлекать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+2	сотни	сотня	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj:pass	_	_
+3	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	которые	который	PRON	_	Case=Nom	6	nsubj	_	_
+6	взаимодействуют	взаимодействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+7	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	obl	_	_
+8	с	с	ADP	_	_	7	fixed	_	_
+9	другом	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	7	fixed	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	ведут	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+12	к	к	ADP	_	_	14	case	_	_
+13	разным	разный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+14	формам	форма	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	11	obl	_	_
+15	аутизма	аутизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 72
+# text = В конце концов они имеют эффект бутылочного горлышка : мозг затронут в большом масштабе , и есть определенные отделы мозга , которые плохо связаны друг с другом , какими бы ни были первоначальные причины .
+1	В	в	ADP	_	_	5	advmod	_	_
+2	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	fixed	_	_
+3	концов	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	fixed	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+5	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+7	бутылочного	бутылочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	горлышка	горлышко	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+9	:	:	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	мозг	мозг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj:pass	_	_
+11	затронут	затрагивать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	parataxis	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	большом	большой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	масштабе	масштаб	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+18	определенные	определять	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	отделы	отдел	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+20	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	которые	который	PRON	_	Case=Nom	24	nsubj:pass	_	_
+23	плохо	плохо	ADV	_	Degree=Pos	24	advmod	_	_
+24	связаны	связывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	19	acl:relcl	_	_
+25	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	obl	_	_
+26	с	с	ADP	_	_	25	fixed	_	_
+27	другом	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	fixed	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	какими	какой	DET	_	Case=Ins|Number=Plur	34	det	_	_
+30	бы	бы	PART	_	Mood=Cnd	29	discourse	_	_
+31	ни	ни	PART	_	_	34	advmod	_	_
+32	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	34	cop	_	_
+33	первоначальные	первоначальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	34	amod	_	_
+34	причины	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	24	obl	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+
+# sent_id = 73
+# text = И это очень интересно .
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	очень	очень	ADV	_	Degree=Pos	4	obl	_	_
+4	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 74
+# text = Скорее всего , есть множество разных генетических предпосылок , но их проявлений в мозге меньше .
+1	Скорее	скорее	ADV	_	Degree=Pos	4	parataxis	_	_
+2	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+7	генетических	генетический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	предпосылок	предпосылка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	но	но	CCONJ	_	_	15	cc	_	_
+11	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	12	nmod	_	_
+12	проявлений	проявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	15	nsubj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	мозге	мозг	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	obl	_	_
+15	меньше	мало	NUM	_	_	4	conj	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 75
+# text = При этом есть много проявлений в поведении .
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	много	много	ADV	_	Degree=Pos	3	nsubj	_	_
+5	проявлений	проявление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	поведении	поведение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 76
+# text = Вот почему аутизм - это очень интересное расстройство для изучения .
+1	Вот	вот	PART	_	_	2	discourse	_	_
+2	почему	почему	ADV	_	Degree=Pos	8	advmod	_	_
+3	аутизм	аутизй	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+4	-	-	PUNCT	_	_	3	punct	_	_
+5	это	это	PRON	_	_	8	cop	_	_
+6	очень	очень	ADV	_	Degree=Pos	7	obl	_	_
+7	интересное	интересный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	расстройство	расстройство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	изучения	изучение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 77
+# text = В будущем нам предстоит узнать , что же происходит внутри мозга , что связывает друг с другом различные поведенческие признаки и различные биологические причины появления аутизма .
+1	В	в	ADP	_	_	2	case	_	_
+2	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	4	iobj	_	_
+4	предстоит	предстоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	узнать	узнавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	csubj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	что	что	PRON	_	Case=Nom	9	nsubj	_	_
+8	же	же	PART	_	_	7	discourse	_	_
+9	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	_
+10	внутри	внутри	ADV	_	Degree=Pos	11	advmod	_	_
+11	мозга	мозг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	что	чтобы	PRON	_	Case=Acc	14	obj	_	_
+14	связывает	связывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+15	друг	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
+16	с	с	ADP	_	_	15	fixed	_	_
+17	другом	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	15	fixed	_	_
+18	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+19	поведенческие	поведенческий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	признаки	признак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+21	и	и	CCONJ	_	_	24	cc	_	_
+22	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+23	биологические	биологический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	24	amod	_	_
+24	причины	причина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	conj	_	_
+25	появления	появление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+26	аутизма	аутизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 78
+# text = Есть разные идеи , в которых мы пока не уверены . Конечно , мы хотим знать , каковы генетические факторы риска .
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	идеи	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	1	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	в	у	ADP	_	_	6	case	_	_
+6	которых	который	PRON	_	Case=Loc	10	obl	_	_
+7	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	10	nsubj	_	_
+8	пока	пока	ADV	_	Degree=Pos	10	obl	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	уверены	уверенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	3	acl:relcl	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	Конечно	конечно	ADV	_	Degree=Pos	15	parataxis	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	15	nsubj	_	_
+15	хотим	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+16	знать	знать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	каковы	каков	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	16	obl	_	_
+19	генетические	генетический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	факторы	фактор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+21	риска	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 79
+# text = Ученые собирают различные клинические случаи , чтобы изучить определенные генетические причины расстройства .
+1	Ученые	ученый	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	собирают	собирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+4	клинические	клинический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	5	amod	_	_
+5	случаи	случай	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	чтобы	чтобы	SCONJ	_	Mood=Cnd	8	mark	_	_
+8	изучить	изучать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	_
+9	определенные	определенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+10	генетические	генетический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	причины	причина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	obj	_	_
+12	расстройства	расстройство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 80
+# text = Но почти каждый отдельный случай по-разному генетически обусловлен .
+1	Но	но	CCONJ	_	_	8	cc	_	_
+2	почти	почти	ADV	_	Degree=Pos	3	obl	_	_
+3	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	отдельный	отдельный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	случай	случай	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj:pass	_	_
+6	по-разному	по-разному	ADV	_	Degree=Pos	8	advmod	_	_
+7	генетически	генетически	ADV	_	Degree=Pos	8	advmod	_	_
+8	обусловлен	обусловливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 81
+# text = Так что все это складывается постоянно .
+1	Так	так	ADV	_	Degree=Pos	5	mark	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	_
+3	все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	4	det	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	складывается	складываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	постоянно	постоянно	ADV	_	Degree=Pos	5	advmod	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 82
+# text = Я думаю , мы можем объяснить около 20 % биологических причин аутизма через генетические факторы , которые нам известны , хотя они все разные .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+5	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+6	объяснить	объяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	около	около	ADP	_	_	9	case	_	_
+8	20	20	NUM	_	_	9	nummod	_	_
+9	%	%	SYM	_	_	6	obl	_	SpacesAfter=\s\s
+10	биологических	биологический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	причин	причина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+12	аутизма	аутизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	через	через	ADP	_	_	15	case	_	_
+14	генетические	генетический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	15	amod	_	_
+15	факторы	фактор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	nmod	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	которые	который	PRON	_	Case=Nom	19	nsubj	_	_
+18	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	19	iobj	_	_
+19	известны	известный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	15	acl:relcl	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	хотя	хотя	SCONJ	_	_	24	mark	_	_
+22	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	24	nsubj	_	_
+23	все	весь	DET	_	Case=Nom|Number=Plur	24	det	_	_
+24	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	advcl	_	_
+25	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+
+# sent_id = 83
+# text = И мы надеемся , что узнаем все остальное в будущем .
+1	И	и	CCONJ	_	_	3	cc	_	_
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	надеемся	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	6	mark	_	_
+6	узнаем	узнавать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+7	все	весь	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	остальное	остальной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\n
+

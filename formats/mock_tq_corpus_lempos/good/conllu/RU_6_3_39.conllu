@@ -1,0 +1,725 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Знакомство с Организацией Объединенных Наций Питер Лайон Тех, кто зависит от прессы, от телевизионных программ "новостей", желая знать, что происходит в мире, можно простить за то, что они верят, что в Организации Объединенных Наций (ООН) ничего нет, кроме Совета Безопасности и Генеральной ассамблеи; что все происходящее там сводится к бесконечным, безрезультатным дискуссиям, иногда прерываемым язвительными замечаниями Совету Безопасности со стороны Советского Союза, налагающего вето; что нет никаких достижений, никакого прогресса, никакого положительного результата, предложенного, планируемого или действительно возможного.
+1	Знакомство	знакомство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	Организацией	организация	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	1	nmod	_	_
+4	Объединенных	объединять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	5	amod	_	_
+5	Наций	нация	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpacesAfter=\n
+6	Питер	питер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+7	Лайон	Лайон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	flat:name	_	SpacesAfter=\n
+8	Тех	тот	DET	_	Case=Acc|Number=Plur	31	det	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	кто	кто	PRON	_	Case=Nom	11	nsubj	_	_
+11	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	прессы	пресса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	от	от	ADP	_	_	17	case	_	_
+16	телевизионных	телевизионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	amod	_	_
+17	программ	программа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	conj	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	новостей	новость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	nmod	_	SpaceAfter=No
+20	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	19	punct	_	_
+22	желая	желать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	_
+23	знать	знать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	xcomp	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	что	что	PRON	_	Case=Nom	26	nsubj	_	_
+26	происходит	происходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	23	ccomp	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	можно	можно	ADV	_	Degree=Pos	1	acl:relcl	_	_
+31	простить	прощать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	30	csubj	_	_
+32	за	за	ADP	_	_	33	case	_	_
+33	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	31	obl	_	SpaceAfter=No
+34	,	,	PUNCT	_	_	33	punct	_	_
+35	что	что	SCONJ	_	_	37	mark	_	_
+36	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	37	nsubj	_	_
+37	верят	верить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	acl	_	SpaceAfter=No
+38	,	,	PUNCT	_	_	37	punct	_	_
+39	что	что	SCONJ	_	_	48	mark	_	_
+40	в	в	ADP	_	_	41	case	_	_
+41	Организации	организация	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	48	obl	_	_
+42	Объединенных	объединять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	43	amod	_	_
+43	Наций	нация	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	41	nmod	_	_
+44	(	(	PUNCT	_	_	45	punct	_	SpaceAfter=No
+45	ООН	оон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	43	parataxis	_	SpaceAfter=No
+46	)	)	PUNCT	_	_	45	punct	_	_
+47	ничего	ничто	PRON	_	Case=Gen	48	nsubj	_	_
+48	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	37	ccomp	_	SpaceAfter=No
+49	,	,	PUNCT	_	_	48	punct	_	_
+50	кроме	кроме	ADP	_	_	51	case	_	_
+51	Совета	совет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	48	obl	_	_
+52	Безопасности	безопасность	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	51	nmod	_	_
+53	и	и	CCONJ	_	_	55	cc	_	_
+54	Генеральной	генеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	55	amod	_	_
+55	ассамблеи	ассамблея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	51	conj	_	SpaceAfter=No
+56	;	;	PUNCT	_	_	55	punct	_	_
+57	что	чтобы	SCONJ	_	_	61	mark	_	_
+58	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	61	nsubj	_	_
+59	происходящее	происходить	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	58	amod	_	_
+60	там	там	ADV	_	Degree=Pos	61	advmod	_	_
+61	сводится	сводиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	48	conj	_	_
+62	к	к	ADP	_	_	66	case	_	_
+63	бесконечным	бесконечный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	66	amod	_	SpaceAfter=No
+64	,	,	PUNCT	_	_	63	punct	_	_
+65	безрезультатным	безрезультатный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	63	conj	_	_
+66	дискуссиям	дискуссия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	61	obl	_	SpaceAfter=No
+67	,	,	PUNCT	_	_	66	punct	_	_
+68	иногда	иногда	ADV	_	Degree=Pos	69	advmod	_	_
+69	прерываемым	прерывать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	71	acl	_	_
+70	язвительными	язвительный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	71	amod	_	_
+71	замечаниями	замечание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	66	conj	_	_
+72	Совету	совет	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	71	appos	_	_
+73	Безопасности	безопасность	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	72	nmod	_	_
+74	со	со	ADP	_	_	77	case	_	_
+75	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	74	fixed	_	_
+76	Советского	советский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	77	amod	_	_
+77	Союза	союз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	72	nmod	_	SpaceAfter=No
+78	,	,	PUNCT	_	_	77	punct	_	_
+79	налагающего	налагать	VERB	_	Aspect=Imp|Case=Gen|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	80	amod	_	_
+80	вето	вето	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	66	conj	_	SpaceAfter=No
+81	;	;	PUNCT	_	_	80	punct	_	_
+82	что	чтобы	PRON	_	Case=Nom	83	nsubj	_	_
+83	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	61	parataxis	_	_
+84	никаких	никакой	DET	_	Case=Gen|Number=Plur	85	det	_	_
+85	достижений	достижение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	83	obl	_	SpaceAfter=No
+86	,	,	PUNCT	_	_	85	punct	_	_
+87	никакого	никакой	DET	_	Case=Gen|Gender=Masc|Number=Sing	88	det	_	_
+88	прогресса	прогресс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	85	conj	_	SpaceAfter=No
+89	,	,	PUNCT	_	_	88	punct	_	_
+90	никакого	никакой	DET	_	Case=Gen|Gender=Masc|Number=Sing	92	det	_	_
+91	положительного	положительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	92	amod	_	_
+92	результата	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	85	conj	_	SpaceAfter=No
+93	,	,	PUNCT	_	_	92	punct	_	_
+94	предложенного	предлагать	VERB	_	Animacy=Anim|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	85	conj	_	SpaceAfter=No
+95	,	,	PUNCT	_	_	94	punct	_	_
+96	планируемого	планировать	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	85	conj	_	_
+97	или	или	CCONJ	_	_	99	cc	_	_
+98	действительно	действительно	ADV	_	Degree=Pos	99	obl	_	_
+99	возможного	возможный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	85	conj	_	SpaceAfter=No
+100	.	.	PUNCT	_	_	99	punct	_	SpacesAfter=\n
+
+# sent_id = 2
+# text = Однако взгляд на структуру ООН порождает совершенно иное и более позитивное представление о нашем настоящем и будущем.
+1	Однако	однако	ADV	_	Degree=Pos	6	advmod	_	_
+2	взгляд	взгляд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	ООН	оон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	порождает	порождать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	совершенно	совершенно	ADV	_	Degree=Pos	8	obl	_	_
+8	иное	иной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	более	более	ADV	_	Degree=Cmp	11	obl	_	_
+11	позитивное	позитивный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	conj	_	_
+12	представление	представление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+13	о	о	ADP	_	_	15	case	_	_
+14	нашем	наш	DET	_	Case=Loc|Gender=Masc|Number=Sing	15	det	_	_
+15	настоящем	настоящее	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	obl	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	будущем	будущее	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	17	punct	_	_
+
+# sent_id = 3
+# text = А также, оно ставит Совет Безопасности на свое положенное место.
+1	А	а	CCONJ	_	_	5	cc	_	_
+2	также	также	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	5	nsubj	_	_
+5	ставит	ставить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	Совет	совет	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	obj	_	_
+7	Безопасности	безопасность	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	на	на	ADP	_	_	11	case	_	_
+9	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	11	det	_	_
+10	положенное	положенный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	место	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Генеральная ассамблея является ядром ООН, где страны, большие или маленькие, имеют равные права, и каждая из них обладает правом голоса.
+1	Генеральная	генеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	ассамблея	ассамблея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	ядром	ядро	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+5	ООН	оон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	где	где	ADV	_	Degree=Pos	14	advmod	_	_
+8	страны	страна	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	14	nsubj	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	большие	большой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	маленькие	маленький	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	conj	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+15	равные	равный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	права	право	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	14	obj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	и	и	CCONJ	_	_	22	cc	_	_
+19	каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	nsubj	_	_
+20	из	из	ADP	_	_	21	case	_	_
+21	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	19	nmod	_	_
+22	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
+23	правом	право	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	22	obl	_	_
+24	голоса	голос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 5
+# text = Вокруг Генеральной ассамблеи вращаются 5 организаций, как планеты вокруг Солнца: секретариат, Международный Суд, Совет Безопасности, Совет по опеке, Экономический и Социальный Совет.
+1	Вокруг	вокруг	ADP	_	_	3	case	_	_
+2	Генеральной	генеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	ассамблеи	ассамблея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+4	вращаются	вращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	5	5	NUM	_	_	6	nummod	_	_
+6	организаций	организация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	как	как	SCONJ	_	_	9	mark	_	_
+9	планеты	планета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	advcl	_	_
+10	вокруг	вокруг	ADP	_	_	11	case	_	_
+11	Солнца	солнце	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	SpaceAfter=No
+12	:	:	PUNCT	_	_	11	punct	_	_
+13	секретариат	секретариат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	parataxis	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	Международный	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	Суд	суд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	Совет	совет	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
+19	Безопасности	безопасность	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	Совет	совет	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	_
+22	по	по	ADP	_	_	23	case	_	_
+23	опеке	опека	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	Экономический	экономический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	conj	_	_
+26	и	и	CCONJ	_	_	28	cc	_	_
+27	Социальный	социальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	Совет	совет	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 6
+# text = Каждая из них обладает определенной властью в соответствии со своими полномочиями.
+1	Каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	1	nmod	_	_
+4	обладает	обладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	определенной	определенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	властью	власть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	соответствии	соответствие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+9	со	с	ADP	_	_	11	case	_	_
+10	своими	свой	DET	_	Case=Ins|Number=Plur	11	det	_	_
+11	полномочиями	полномочие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	8	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\n
+
+# sent_id = 7
+# text = Влияние и власть секретариата зависят в определенной степени (хотя не в такой сильной, как предполагается) от личных качеств одного человека – генерального секретаря.
+1	Влияние	влияние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	власть	власть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+4	секретариата	секретариат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	зависят	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	определенной	определенный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	степени	степень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	хотя	хотя	SCONJ	_	_	21	mark	_	_
+11	не	не	PART	_	_	21	advmod	_	_
+12	в	в	ADP	_	_	21	case	_	_
+13	такой	такой	DET	_	Case=Loc|Gender=Fem|Number=Sing	21	det	_	_
+14	сильной	сильный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	как	как	SCONJ	_	_	17	mark	_	_
+17	предполагается	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	13	advcl	_	SpaceAfter=No
+18	)	)	PUNCT	_	_	17	punct	_	_
+19	от	от	ADP	_	_	21	case	_	_
+20	личных	личный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	качеств	качество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	parataxis	_	_
+22	одного	один	NUM	_	Case=Gen|Gender=Masc	23	nummod	_	_
+23	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+24	–	–	PUNCT	_	_	23	punct	_	_
+25	генерального	генеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	секретаря	секретарь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	23	appos	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 8
+# text = Эта работа – довольно своеобразна.
+1	Эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+2	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	–	–	PUNCT	_	_	2	punct	_	_
+4	довольно	довольно	ADV	_	Degree=Pos	5	obl	_	_
+5	своеобразна	своеобразный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = 9
+# text = Некоторые из тех, кто разработал Устав ООН, предполагали, что генеральный секретарь будет простым клерком на высокой должности, беспрекословно выполняющим приказы великих держав; другие думали, что он станет руководителем, который будет делать все, что захочет, даже иногда обязывая великие державы подчиниться его воле.
+1	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	10	det	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	тех	тот	DET	_	Case=Gen|Number=Plur	1	det	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	кто	кто	PRON	_	Case=Nom	6	nsubj	_	_
+6	разработал	разрабатывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+7	Устав	устав	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	ООН	оон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	предполагали	предполагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	17	mark	_	_
+13	генеральный	генеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	секретарь	секретарь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+15	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	cop	_	_
+16	простым	простой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	клерком	клерк	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	10	ccomp	_	_
+18	на	на	ADP	_	_	20	case	_	_
+19	высокой	высокий	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	должности	должность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	беспрекословно	беспрекословно	ADV	_	Degree=Pos	23	advmod	_	_
+23	выполняющим	выполнять	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	24	acl	_	_
+24	приказы	приказ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+25	великих	великий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	держав	держава	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	24	nmod	_	SpaceAfter=No
+27	;	;	PUNCT	_	_	26	punct	_	_
+28	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	29	nsubj	_	_
+29	думали	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	что	что	SCONJ	_	_	33	mark	_	_
+32	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	33	nsubj	_	_
+33	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	29	ccomp	_	_
+34	руководителем	руководитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
+35	,	,	PUNCT	_	_	34	punct	_	_
+36	который	который	PRON	_	Case=Nom	38	nsubj	_	_
+37	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	aux	_	_
+38	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	34	acl:relcl	_	_
+39	все	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	38	obj	_	SpaceAfter=No
+40	,	,	PUNCT	_	_	39	punct	_	_
+41	что	что	PRON	_	Case=Nom	42	nsubj	_	_
+42	захочет	захотеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	39	acl:relcl	_	SpaceAfter=No
+43	,	,	PUNCT	_	_	42	punct	_	_
+44	даже	даже	PART	_	_	45	discourse	_	_
+45	иногда	иногда	ADV	_	Degree=Pos	46	advmod	_	_
+46	обязывая	обязывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	38	advcl	_	_
+47	великие	великий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	48	amod	_	_
+48	державы	держава	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	46	obj	_	_
+49	подчиниться	подчиняться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	48	obl	_	_
+50	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	51	nmod	_	_
+51	воле	воля	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	49	iobj	_	SpaceAfter=No
+52	.	.	PUNCT	_	_	51	punct	_	_
+
+# sent_id = 10
+# text = В конечном итоге, власть генерального секретаря зависит от его личных качеств.
+1	В	в	ADP	_	_	3	case	_	_
+2	конечном	конечный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	итоге	итог	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	власть	власть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+6	генерального	генеральный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	секретаря	секретарь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	зависит	зависеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	от	от	ADP	_	_	12	case	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	12	nmod	_	_
+11	личных	личный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	качеств	качество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Международный Суд, который заседает во Дворце мира в Гааге, является юридическим подразделением ООН, разрешающим международные "склоки" особого рода.
+1	Международный	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	Суд	суд	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	который	который	PRON	_	Case=Nom	5	nsubj	_	_
+5	заседает	заседать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+6	во	в	ADP	_	_	7	case	_	_
+7	Дворце	дворец	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	Гааге	гаага	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+13	юридическим	юридический	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	подразделением	подразделение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+15	ООН	оон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	разрешающим	разрешать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	acl	_	_
+18	международные	международный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+19	"	"	PUNCT	_	_	20	punct	_	SpaceAfter=No
+20	склоки	склока	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
+21	"	"	PUNCT	_	_	20	punct	_	_
+22	особого	особый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 12
+# text = Юридическая власть Международного Суда является значимой, поскольку он имеет дело со "священной" неприкосновенностью национального суверенитета.
+1	Юридическая	юридический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	власть	власть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Международного	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	Суда	суд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	значимой	значимый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	поскольку	поскольку	SCONJ	_	_	10	mark	_	_
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+11	дело	дело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	со	с	ADP	_	_	16	case	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	священной	священный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	неприкосновенностью	неприкосновенность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+17	национального	национальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	суверенитета	суверенитет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 13
+# text = Очевидно, существуют моменты, когда какая-либо великая держава не хочет, чтобы в состав Международного Суда входило пятнадцать беспристрастных судей, граждан из пятнадцати, возможно, иностранных стран, определяющих ее права.
+1	Очевидно	очевидно	ADV	_	Degree=Pos	3	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	существуют	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	моменты	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	когда	когда	SCONJ	_	_	11	mark	_	_
+7	какая-либо	какой-либо	DET	_	Case=Nom|Gender=Fem|Number=Sing	9	det	_	_
+8	великая	великий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	держава	держава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	18	mark	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	состав	состав	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+16	Международного	международный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	Суда	суд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	входило	входить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	ccomp	_	_
+19	пятнадцать	пятнадцать	NUM	_	Case=Nom	21	nummod:gov	_	_
+20	беспристрастных	беспристрастный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	судей	судья	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nsubj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	граждан	гражданин	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	conj	_	_
+24	из	из	ADP	_	_	25	case	_	_
+25	пятнадцати	пятнадцать	NUM	_	Case=Gen	23	nummod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	возможно	возможно	ADV	_	Degree=Pos	30	parataxis	_	SpaceAfter=No
+28	,	,	PUNCT	_	_	27	punct	_	_
+29	иностранных	иностранный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	определяющих	определять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	34	amod	_	_
+33	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	34	nmod	_	_
+34	права	право	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	conj	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 14
+# text = Эти права могут быть настолько важными, что эта держава может принять решение бороться за них.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	права	право	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	cop	_	_
+5	настолько	настолько	ADV	_	Degree=Pos	6	obl	_	_
+6	важными	важный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	11	mark	_	_
+9	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	10	det	_	_
+10	держава	держава	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
+12	принять	принимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+13	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+14	бороться	бороться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	13	obl	_	_
+15	за	за	ADP	_	_	16	case	_	_
+16	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	14	obl	_	SpaceAfter=No
+17	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 15
+# text = Поскольку все обстоит именно так, ни один вопрос не доходит до суда, пока спорящие стороны не согласятся соблюдать решение суда, каким бы оно ни было.
+1	Поскольку	поскольку	SCONJ	_	_	3	mark	_	_
+2	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	обстоит	обстоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+4	именно	именно	PART	_	_	5	discourse	_	_
+5	так	так	ADV	_	Degree=Pos	3	advmod	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	ни	ни	PART	_	_	8	advmod	_	_
+8	один	один	NUM	_	Case=Nom|Gender=Masc	9	nummod:gov	_	_
+9	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	доходит	доходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	до	до	ADP	_	_	13	case	_	_
+13	суда	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	пока	пока	SCONJ	_	_	19	mark	_	_
+16	спорящие	спорить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	amod	_	_
+17	стороны	сторона	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	19	nsubj	_	_
+18	не	не	PART	_	_	19	advmod	_	_
+19	согласятся	соглашаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	advcl	_	_
+20	соблюдать	соблюдать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+22	суда	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	28	det	_	_
+25	бы	бы	PART	_	Mood=Cnd	24	discourse	_	_
+26	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	28	nsubj	_	_
+27	ни	ни	PART	_	_	28	advmod	_	_
+28	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 16
+# text = (Во многих договорах и международных конвенциях содержатся положения, обязывающие спорящие стороны признавать юрисдикцию Суда).
+1	(	(	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Во	в	ADP	_	_	4	case	_	_
+3	многих	многие	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	_
+4	договорах	договор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	8	obl	_	_
+5	и	и	CCONJ	_	_	7	cc	_	_
+6	международных	международный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	amod	_	_
+7	конвенциях	конвенция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	4	conj	_	_
+8	содержатся	содержаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	положения	положение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	обязывающие	обязывать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	acl	_	_
+12	спорящие	спорить	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	стороны	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+14	признавать	признавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+15	юрисдикцию	юрисдикция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	Суда	суд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	)	)	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	_
+
+# sent_id = 17
+# text = Несмотря на такое ограничение юрисдикции Суда, ему удается сглаживать значительное количество мелких трений и удерживать страны от серьезных столкновений.
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	4	case	_	_
+2	на	на	ADP	_	_	1	fixed	_	_
+3	такое	такой	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	det	_	_
+4	ограничение	ограничение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+5	юрисдикции	юрисдикция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	Суда	суд	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	9	iobj	_	_
+9	удается	удаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+10	сглаживать	сглаживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	csubj	_	_
+11	значительное	значительный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	мелких	мелкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	трений	трение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	удерживать	удерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	conj	_	_
+17	страны	страна	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+18	от	от	ADP	_	_	20	case	_	_
+19	серьезных	серьезный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	20	amod	_	_
+20	столкновений	столкновение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	obl	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+
+# sent_id = 18
+# text = Совет Безопасности, как мы все с болью в сердце осознаем, несет ответственность за сохранение всеобщего мира.
+1	Совет	совет	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+2	Безопасности	безопасность	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	11	mark	_	_
+5	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	11	nsubj	_	_
+6	все	весь	DET	_	Case=Nom|Number=Plur	5	det	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	болью	боль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	сердце	сердце	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+11	осознаем	осознавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	несет	нести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+14	ответственность	ответственность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	за	за	ADP	_	_	16	case	_	_
+16	сохранение	сохранение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	_
+17	всеобщего	всеобщий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	_
+
+# sent_id = 19
+# text = Поскольку война, как отметил один из ее сторонников канцлер Германии Бисмарк, является всего лишь продолжением политики иными средствами, Совет Безопасности решает самые сложные политические проблемы современности.
+1	Поскольку	поскольку	SCONJ	_	_	14	mark	_	_
+2	война	война	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	как	как	SCONJ	_	_	5	mark	_	_
+5	отметил	отмечать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	parataxis	_	_
+6	один	один	NUM	_	Case=Nom|Gender=Masc	5	nsubj	_	_
+7	из	из	ADP	_	_	9	case	_	_
+8	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	9	nmod	_	_
+9	сторонников	сторонник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+10	канцлер	канцлер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+11	Германии	германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	Бисмарк	бисмарк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	всего	всего	PART	_	_	16	advmod	_	_
+16	лишь	лишь	PART	_	_	17	discourse	_	_
+17	продолжением	продолжение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	_
+18	политики	политика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+19	иными	иной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	20	amod	_	_
+20	средствами	средства	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	18	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	Совет	совет	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+23	Безопасности	безопасность	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	решает	решать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	parataxis	_	_
+25	самые	самый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	26	amod	_	_
+26	сложные	сложный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	28	amod	_	_
+27	политические	политический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	28	amod	_	_
+28	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
+29	современности	современность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	SpaceAfter=No
+30	.	.	PUNCT	_	_	29	punct	_	_
+
+# sent_id = 20
+# text = Если эти проблемы не поддаются решению, они преобразовываются в различные бюрократические "придатки" Совета Безопасности такие, как Комиссия по разоружению, Операции Организации Объединенных Наций в Конго, Международное агентство по атомной энергии и так далее.
+1	Если	если	SCONJ	_	_	5	mark	_	_
+2	эти	этот	DET	_	Case=Nom|Number=Plur	3	det	_	_
+3	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	поддаются	поддаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	advcl	_	_
+6	решению	решение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	iobj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	9	nsubj:pass	_	_
+9	преобразовываются	преобразовываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+10	в	в	ADP	_	_	14	case	_	_
+11	различные	различный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+12	бюрократические	бюрократический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	придатки	придатка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	9	obl	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	Совета	совет	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	Безопасности	безопасность	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	такие	такой	DET	_	Case=Nom|Number=Plur	14	det	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	как	как	SCONJ	_	_	21	mark	_	_
+21	Комиссия	комиссия	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	obl	_	_
+22	по	по	ADP	_	_	23	case	_	_
+23	разоружению	разоружение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	21	nmod	_	SpaceAfter=No
+24	,	,	PUNCT	_	_	23	punct	_	_
+25	Операции	операция	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	conj	_	_
+26	Организации	организация	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	Объединенных	объединять	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+28	Наций	нация	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	Конго	конго	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	25	nmod	_	SpaceAfter=No
+31	,	,	PUNCT	_	_	30	punct	_	_
+32	Международное	международный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	33	amod	_	_
+33	агентство	агентство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	conj	_	_
+34	по	по	ADP	_	_	36	case	_	_
+35	атомной	атомный	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	энергии	энергия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	33	nmod	_	_
+37	и	и	CCONJ	_	_	21	conj	_	_
+38	так	так	ADV	_	Degree=Pos	37	fixed	_	_
+39	далее	далее	ADV	_	Degree=Pos	37	fixed	_	SpaceAfter=No
+40	.	.	PUNCT	_	_	39	punct	_	_
+
+# sent_id = 21
+# text = Совету Безопасности также были переданы полномочия по принятию решения касательно того, соответствует то или иное государство требованиям, предъявленным к странам – членам ООН.
+1	Совету	совет	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	_
+2	Безопасности	безопасность	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	также	также	ADV	_	Degree=Pos	5	advmod	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	переданы	передавать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	полномочия	полномочие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	принятию	принятие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	nmod	_	_
+9	решения	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	касательно	касательно	ADV	_	Degree=Pos	11	nummod:gov	_	_
+11	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	соответствует	соответствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+14	то	тот	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+15	или	или	CCONJ	_	_	17	cc	_	_
+16	иное	иной	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	государство	государство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	14	conj	_	_
+18	требованиям	требование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	14	orphan	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	предъявленным	предъявить	VERB	_	Aspect=Perf|Case=Dat|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	18	acl	_	_
+21	к	к	ADP	_	_	22	case	_	_
+22	странам	страна	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	20	obl	_	_
+23	–	–	PUNCT	_	_	22	punct	_	_
+24	членам	член	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	18	conj	_	_
+25	ООН	оон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	SpaceAfter=No
+26	.	.	PUNCT	_	_	25	punct	_	_
+
+# sent_id = 22
+# text = На протяжении многих лет это право порождало "грандиозные склоки" и провоцировало многократное использования права вето (не всегда по инициативе СССР).
+1	На	на	ADP	_	_	2	case	_	_
+2	протяжении	протяжение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+3	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	6	det	_	_
+6	право	право	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	порождало	порождать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	грандиозные	грандиозный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	склоки	склока	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	SpaceAfter=No
+11	"	"	PUNCT	_	_	10	punct	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	провоцировало	воцировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+14	многократное	многократный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	использования	использование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	obl	_	_
+16	права	право	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	вето	вето	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	не	не	PART	_	_	20	advmod	_	_
+20	всегда	всегда	ADV	_	Degree=Pos	22	obl	_	_
+21	по	по	ADP	_	_	22	case	_	_
+22	инициативе	инициатива	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	_
+23	СССР	ссср	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	)	)	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 23
+# text = Кроме того, какими бы ни были обсуждения в Совете Безопасности, спокойными или агрессивными, они находятся под пристальным вниманием общественности, и, следовательно, дипломаты вынуждены заниматься пропагандой в пользу своей страны.
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	какими	какой	DET	_	Case=Ins|Number=Plur	7	det	_	_
+5	бы	бы	PART	_	Mood=Cnd	4	discourse	_	_
+6	ни	ни	PART	_	_	7	advmod	_	_
+7	были	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl	_	_
+8	обсуждения	обсуждение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	Совете	совет	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	nmod	_	_
+11	Безопасности	безопасность	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	спокойными	спокойный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+14	или	или	CCONJ	_	_	15	cc	_	_
+15	агрессивными	агрессивный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	18	nsubj	_	_
+18	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+19	под	под	ADP	_	_	21	case	_	_
+20	пристальным	пристальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	вниманием	внимание	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	18	obl	_	_
+22	общественности	общественность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	и	и	CCONJ	_	_	29	cc	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	следовательно	следовательно	ADV	_	Degree=Pos	29	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	дипломаты	дипломат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	29	nsubj	_	_
+29	вынуждены	вынужденный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	18	conj	_	_
+30	заниматься	заниматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	29	xcomp	_	_
+31	пропагандой	пропаганда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	30	obl	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	пользу	польза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obl	_	_
+34	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	35	det	_	_
+35	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+36	.	.	PUNCT	_	_	35	punct	_	_
+
+# sent_id = 24
+# text = В процессе этих обсуждений дипломаты не столько служат делу мира, сколько устраивают "детский сад".
+1	В	в	ADP	_	_	2	case	_	_
+2	процессе	процесс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+3	этих	этот	DET	_	Case=Gen|Number=Plur	4	det	_	_
+4	обсуждений	обсуждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	nmod	_	_
+5	дипломаты	дипломат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	столько	столько	ADV	_	Degree=Pos	8	advmod	_	_
+8	служат	служить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	делу	дело	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	iobj	_	_
+10	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	сколько	сколько	ADV	_	Degree=Pos	13	advmod	_	_
+13	устраивают	устраивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+14	"	"	PUNCT	_	_	15	punct	_	SpaceAfter=No
+15	детский	детский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	сад	сад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+17	"	"	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\n
+

@@ -1,0 +1,887 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Проанализировав 20 наиболее популярных статей на тему раковых заболеваний за прошлый год , журналисты британской газеты Independent выяснили , что более половины из них содержали информацию , опровергнутую органами здравоохранения или врачами .
+1	Проанализировав	анализировать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	18	advcl	_	_
+2	20	20	NUM	_	_	5	nummod	_	_
+3	наиболее	наиболее	ADV	_	Degree=Pos	4	obl	_	_
+4	популярных	популярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	статей	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	тему	тема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	раковых	раковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	заболеваний	заболевание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	nmod	_	_
+10	за	за	ADP	_	_	12	case	_	_
+11	прошлый	прошлый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	nmod	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	журналисты	журналист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+15	британской	британский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	газеты	газета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	Independent	independent	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	выяснили	выяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	что	что	SCONJ	_	_	25	mark	_	_
+21	более	более	ADV	_	Degree=Cmp	25	nsubj	_	_
+22	половины	половина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+23	из	из	ADP	_	_	24	case	_	_
+24	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	22	nmod	_	_
+25	содержали	содержать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	ccomp	_	_
+26	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	опровергнутую	опроверггивать	VERB	_	Aspect=Perf|Case=Acc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	26	acl	_	_
+29	органами	орган	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	28	obl	_	_
+30	здравоохранения	здравоохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	29	nmod	_	_
+31	или	или	CCONJ	_	_	32	cc	_	_
+32	врачами	врач	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	29	conj	_	_
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Тем не менее миллионы людей сочли эти статьи достаточно интересными для того , чтобы поделиться ими с друзьями в социальных сетях .
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	discourse	_	_
+2	не	не	PART	_	Polarity=Neg	1	fixed	_	_
+3	менее	менее	ADV	_	Degree=Cmp	1	fixed	_	_
+4	миллионы	миллион	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+5	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	сочли	считать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	эти	этот	DET	_	Case=Acc|Number=Plur	8	det	_	_
+8	статьи	статья	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+9	достаточно	достаточно	ADV	_	Degree=Pos	10	obl	_	_
+10	интересными	интересный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	obl	_	_
+11	для	для	ADP	_	_	12	case	_	_
+12	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	чтобы	чтобы	SCONJ	_	Mood=Cnd	15	mark	_	_
+15	поделиться	делиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	advcl	_	_
+16	ими	они	PRON	_	Case=Ins|Number=Plur|Person=3	15	obl	_	_
+17	с	с	ADP	_	_	18	case	_	_
+18	друзьями	друг	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	15	obl	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	социальных	социальный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	21	amod	_	_
+21	сетях	сеть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	15	obl	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = Если недостоверные новости о политике могут повлиять на выбор избирателей , то на что влияют истории о способах лечения , эффективность которых не доказана Могут ли они побудить человека отказаться от текущей терапии в пользу последних рекомендаций , о которых он просто прочитал в статье Некоторые считают , что подобные статьи могут быть опасны .
+1	Если	если	SCONJ	_	_	6	mark	_	_
+2	недостоверные	недостоверный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	новости	новость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	политике	политика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
+7	повлиять	влиять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	выбор	выбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obl	_	_
+10	избирателей	избиратель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	то	то	SCONJ	_	_	15	mark	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	что	что	PRON	_	Case=Acc	15	obl	_	_
+15	влияют	влиять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	истории	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+17	о	о	ADP	_	_	18	case	_	_
+18	способах	способ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	nmod	_	_
+19	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj:pass	_	_
+22	которых	который	PRON	_	Case=Gen	21	nmod	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	доказана	доказывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	19	acl:relcl	_	_
+25	Могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	conj	_	_
+26	ли	ли	PART	_	_	25	discourse	_	_
+27	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	25	nsubj	_	_
+28	побудить	побуждать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+29	человека	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
+30	отказаться	отказываться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	28	xcomp	_	_
+31	от	от	ADP	_	_	33	case	_	_
+32	текущей	текущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	терапии	терапия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	obl	_	_
+34	в	в	ADP	_	_	35	case	_	_
+35	пользу	польза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obl	_	_
+36	последних	последний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	37	amod	_	_
+37	рекомендаций	рекомендация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	35	nmod	_	_
+38	,	,	PUNCT	_	_	37	punct	_	SpacesAfter=\s\s
+39	о	о	ADP	_	_	40	case	_	_
+40	которых	который	PRON	_	Case=Loc	43	obl	_	_
+41	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	43	nsubj	_	_
+42	просто	просто	PART	_	_	43	advmod	_	_
+43	прочитал	прочитывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	37	acl:relcl	_	_
+44	в	в	ADP	_	_	45	case	_	_
+45	статье	статья	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	43	obl	_	SpacesAfter=\n
+46	Некоторые	некоторый	DET	_	Case=Nom|Number=Plur	45	det	_	_
+47	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+48	,	,	PUNCT	_	_	47	punct	_	SpacesAfter=\s\s
+49	что	что	SCONJ	_	_	52	mark	_	_
+50	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	51	amod	_	_
+51	статьи	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	52	nsubj	_	_
+52	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	47	ccomp	_	_
+53	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	54	cop	_	_
+54	опасны	опасный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	52	obl	_	_
+55	.	.	PUNCT	_	_	54	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Разумеется , стоит критически относиться к тому , что пишут в газетах , но как узнать , действительно ли статья , которой кто-то поделился в " Фейсбуке " или " Твиттере " , имеет научное обоснование Каждый день я получаю десятки электронных писем от PR-компаний - некоторые из них посвящены очень хорошим исследованиям , в то время как другие рассказывают о полной ерунде .
+1	Разумеется	разумеется	ADV	_	Degree=Pos	3	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	критически	критически	ADV	_	Degree=Pos	5	advmod	_	_
+5	относиться	относиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	3	csubj	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	что	что	SCONJ	_	_	10	mark	_	_
+10	пишут	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	газетах	газета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	но	но	CCONJ	_	_	16	cc	_	_
+15	как	как	ADV	_	Degree=Pos	16	advmod	_	_
+16	узнать	узнавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	действительно	действительно	ADV	_	Degree=Pos	20	obl	_	_
+19	ли	ли	PART	_	_	18	discourse	_	_
+20	статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	34	nsubj	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	которой	который	PRON	_	Case=Ins	24	obl	_	_
+23	кто-то	кто-то	PRON	_	Case=Nom	24	nsubj	_	_
+24	поделился	делиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	20	acl:relcl	_	_
+25	в	в	ADP	_	_	27	case	_	SpacesAfter=\s\s
+26	"	"	PUNCT	_	_	27	punct	_	_
+27	Фейсбуке	фейсбук	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	24	obl	_	_
+28	"	"	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	или	или	CCONJ	_	_	31	cc	_	SpacesAfter=\s\s
+30	"	"	PUNCT	_	_	31	punct	_	_
+31	Твиттере	твиттер	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	conj	_	_
+32	"	"	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+34	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	ccomp	_	_
+35	научное	научный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	36	amod	_	_
+36	обоснование	обоснование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	obj	_	SpacesAfter=\n
+37	Каждый	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	obl	_	_
+39	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	40	nsubj	_	_
+40	получаю	получать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	36	parataxis	_	_
+41	десятки	десяток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	40	obj	_	_
+42	электронных	электронный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	43	amod	_	_
+43	писем	письмо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	41	nmod	_	_
+44	от	от	ADP	_	_	45	case	_	_
+45	PR	пиар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	41	nmod	_	SpaceAfter=No
+46	-компаний	-компаний	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	45	nmod	_	_
+47	-	-	PUNCT	_	_	46	punct	_	_
+48	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	51	det	_	_
+49	из	из	ADP	_	_	50	case	_	_
+50	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	48	nmod	_	_
+51	посвящены	посвящать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	40	conj	_	_
+52	очень	очень	ADV	_	Degree=Pos	53	obl	_	_
+53	хорошим	хороший	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	54	amod	_	_
+54	исследованиям	исследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	51	iobj	_	_
+55	,	,	PUNCT	_	_	54	punct	_	SpacesAfter=\s\s
+56	в	в	ADP	_	_	61	cc	_	_
+57	то	тот	DET	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	56	fixed	_	_
+58	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	56	fixed	_	_
+59	как	как	SCONJ	_	_	56	fixed	_	_
+60	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	61	nsubj	_	_
+61	рассказывают	рассказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	advcl	_	_
+62	о	о	ADP	_	_	64	case	_	_
+63	полной	полный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	64	amod	_	_
+64	ерунде	ерунда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	61	obl	_	_
+65	.	.	PUNCT	_	_	64	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Как и другие журналисты , пишущие на тему здоровья , я прилагаю немало усилий для того , чтобы отличить первое от второго .
+1	Как	как	SCONJ	_	_	4	mark	_	_
+2	и	и	PART	_	_	4	discourse	_	_
+3	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	журналисты	журналист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	advcl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	пишущие	писать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	тему	тема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+9	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	12	nsubj	_	_
+12	прилагаю	прилагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	немало	немало	ADV	_	Degree=Pos	14	nummod:gov	_	_
+14	усилий	усилие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	obl	_	_
+15	для	для	ADP	_	_	16	case	_	_
+16	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	чтобы	чтобы	SCONJ	_	Mood=Cnd	19	mark	_	_
+19	отличить	отличать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	_
+20	первое	первый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	obj	_	_
+21	от	от	ADP	_	_	22	case	_	_
+22	второго	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	19	obl	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Мне стало интересно , является ли моя тактика единственным способом определить достоверность публикуемых сегодня статей .
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	3	iobj	_	_
+2	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	интересно	интересный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	advmod	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	csubj	_	_
+6	ли	ли	PART	_	_	5	discourse	_	_
+7	моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing	8	det	_	_
+8	тактика	тактика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+9	единственным	единственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	способом	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+11	определить	определять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	obl	_	_
+12	достоверность	достоверность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	публикуемых	публиковать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	15	acl	_	_
+14	сегодня	сегодня	ADV	_	Degree=Pos	13	advmod	_	_
+15	статей	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = Поэтому , готовясь к радиопрограмме Би-би-си Health Check ( " Медосмотр " ) , я обратилась за советом к трем журналистам , имеющим большой опыт подготовки статей на темы медицины и здоровья .
+1	Поэтому	поэтому	ADV	_	Degree=Pos	16	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	готовясь	готовиться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	16	advcl	_	_
+4	к	к	ADP	_	_	5	case	_	_
+5	радиопрограмме	радиопрограмма	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+6	Би-би-си	би-би-си	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	iobj	_	_
+7	Health	Health	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	Check	Check	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpacesAfter=\s\s
+9	(	(	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+10	"	"	PUNCT	_	_	11	punct	_	_
+11	Медосмотр	медосмотр	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	appos	_	_
+12	"	"	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	)	)	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+14	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+15	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	16	nsubj	_	_
+16	обратилась	обращаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+17	за	за	ADP	_	_	18	case	_	_
+18	советом	совет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+19	к	к	ADP	_	_	20	case	_	_
+20	трем	три	NUM	_	Case=Dat	18	nummod	_	_
+21	журналистам	журналист	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	20	iobj	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	имеющим	иметь	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	21	acl	_	_
+24	большой	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	опыт	опыт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+26	подготовки	подготовка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	статей	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	темы	тема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	27	nmod	_	_
+30	медицины	медицина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	29	nmod	_	_
+31	и	и	CCONJ	_	_	32	cc	_	_
+32	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	conj	_	_
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = Это Сара Босли , редактор по вопросам медицины в газете Guardian , Джеймс Галлахер , репортер BBC Science и Health , и Иван Орански , автор колонки Watchdog в Stat News , выдающийся журналист и преподаватель литературы в Нью-Йоркском университете .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	Сара	Сара	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	Босли	Босли	X	_	Foreign=Yes	2	flat:foreign	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	редактор	редактор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	вопросам	вопрос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	nmod	_	_
+8	медицины	медицина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	газете	газета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+11	Guardian	guardian	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	Джеймс	джеймс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+14	Галлахер	Галлахер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	flat:name	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	репортер	репортирать	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+17	BBC	bbc	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+18	Science	science	PROPN	_	Foreign=Yes	17	flat:foreign	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	Health	Health	PROPN	_	Foreign=Yes	16	flat:foreign	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	Иван	иван	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+24	Орански	Оранска	ADV	_	Degree=Pos	23	flat:name	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	автор	автор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	appos	_	_
+27	колонки	колонка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	_
+28	Watchdog	Watchdog	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	Stat	Stat	PROPN	_	Foreign=Yes	27	flat:foreign	_	_
+31	News	news	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	выдающийся	выдающийся	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+34	журналист	журналист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	преподаватель	преподаватель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+37	литературы	литература	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+38	в	в	ADP	_	_	40	case	_	_
+39	Нью-Йоркском	нью-йоркский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	университете	университет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	36	nmod	_	_
+41	.	.	PUNCT	_	_	40	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Кроме того , я добавила несколько собственных рекомендаций , и вот что получилось в результате .
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
+5	добавила	добавлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	8	nummod:gov	_	_
+7	собственных	собственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	рекомендаций	рекомендация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	и	и	CCONJ	_	_	13	cc	_	_
+11	вот	вот	PART	_	_	12	discourse	_	_
+12	что	что	PRON	_	Case=Nom	13	nsubj	_	_
+13	получилось	получаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = Во-первых , всегда обращайте внимание на источник статьи .
+1	Во-первых	во-первых	ADV	_	Degree=Pos	4	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	всегда	всегда	ADV	_	Degree=Pos	4	advmod	_	_
+4	обращайте	обращать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+5	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	источник	источник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Проверьте , была ли она опубликована газетой , веб-сайтом или вещательной компанией , которые пользуются хорошей репутацией . Спросите себя , насколько убедительны выводы , сделанные в статье .
+1	Проверьте	проверить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+4	ли	ли	PART	_	_	6	discourse	_	_
+5	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	6	nsubj:pass	_	_
+6	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	ccomp	_	_
+7	газетой	газета	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	obl	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	веб-сайтом	веб-сайтый	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	7	conj	_	_
+10	или	или	CCONJ	_	_	12	cc	_	_
+11	вещательной	вещательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	компанией	компания	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	conj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	пользуются	пользоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	12	acl:relcl	_	_
+16	хорошей	хороший	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	репутацией	репутация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	15	obl	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\n
+19	Спросите	спрашивать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	_
+20	себя	себя	PRON	_	Case=Acc	19	obj	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	насколько	насколько	ADV	_	Degree=Pos	23	obl	_	_
+23	убедительны	убедительный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	1	parataxis	_	_
+24	выводы	вывод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	сделанные	делать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	24	acl	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	статье	статья	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Если они кажутся вам слишком обнадеживающими , чтобы быть правдой , скорее всего , так и есть : это неправда .
+1	Если	если	SCONJ	_	_	3	mark	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+3	кажутся	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	3	iobj	_	_
+5	слишком	слишком	ADV	_	Degree=Pos	6	advmod	_	_
+6	обнадеживающими	обнадеживающий	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	xcomp	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	_
+9	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	cop	_	_
+10	правдой	правда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	advcl	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	скорее	скорее	ADV	_	Degree=Pos	3	parataxis	_	_
+13	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	так	так	ADV	_	Degree=Pos	20	advmod	_	_
+16	и	и	PART	_	_	15	fixed	_	_
+17	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	cop	_	_
+18	:	:	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+20	неправда	неправда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Если в статье встречаются слова " секрет , о котором вам не расскажут врачи " или нечто подобное , это должно вас насторожить . Вряд ли врачам выгодно держать в тайне эффективные способы лечения .
+1	Если	если	SCONJ	_	_	4	mark	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	статье	статья	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	встречаются	встречаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	21	advcl	_	_
+5	слова	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+6	"	"	PUNCT	_	_	7	punct	_	_
+7	секрет	секрет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	о	о	ADP	_	_	10	case	_	_
+10	котором	который	PRON	_	Case=Loc	13	obl	_	_
+11	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	13	iobj	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	расскажут	рассказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+14	врачи	врач	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+15	"	"	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	или	или	CCONJ	_	_	17	cc	_	_
+17	нечто	нечто	PRON	_	Case=Nom	14	conj	_	_
+18	подобное	подобный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+21	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+22	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	23	obj	_	_
+23	насторожить	насторожить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	csubj	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\n
+25	Вряд	вряд	ADV	_	Degree=Pos	28	advmod	_	_
+26	ли	ли	PART	_	_	25	fixed	_	_
+27	врачам	врач	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	28	iobj	_	_
+28	выгодно	выгодный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	21	parataxis	_	_
+29	держать	держать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	csubj	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	тайне	тайна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	29	obl	_	_
+32	эффективные	эффективный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	33	amod	_	_
+33	способы	способ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	29	obj	_	_
+34	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	nmod	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = Их цель - лечить людей , и именно этим они и занимаются .
+1	Их	они	PRON	_	Case=Gen|Number=Plur|Person=3	2	nmod	_	_
+2	цель	цель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+3	-	-	PUNCT	_	_	2	punct	_	_
+4	лечить	лечить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	csubj	_	_
+5	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	и	и	CCONJ	_	_	12	cc	_	_
+8	именно	именно	PART	_	_	9	discourse	_	_
+9	этим	это	DET	_	Case=Dat|Number=Plur	10	det	_	_
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	12	nsubj	_	_
+11	и	и	PART	_	_	12	discourse	_	_
+12	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	conj	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 15
+# text = Чем громче заявление , тем больше у него должно быть доказательств .
+1	Чем	чем	SCONJ	_	_	2	mark	_	_
+2	громче	громкий	ADJ	_	Degree=Cmp	0	root	_	_
+3	заявление	заявление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	тем	тем	SCONJ	_	_	9	mark	_	_
+6	больше	большой	NUM	_	_	9	nsubj	_	_
+7	у	у	ADP	_	_	8	case	_	_
+8	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
+9	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	advcl	_	_
+10	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	cop	_	_
+11	доказательств	доказательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	9	obl	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 16
+# text = Если это открытие - действительно серьезный прорыв ( которые иногда случаются ) , оно должно быть протестировано на тысячах пациентов и результаты опубликованы в медицинских журналах .
+1	Если	если	SCONJ	_	_	7	mark	_	_
+2	это	этот	DET	_	Case=Nom|Gender=Neut|Number=Sing	3	det	_	_
+3	открытие	открытие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	-	-	PUNCT	_	_	3	punct	_	_
+5	действительно	действительно	ADV	_	Degree=Pos	6	obl	_	_
+6	серьезный	серьезный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	прорыв	прорыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	advcl	_	SpacesAfter=\s\s
+8	(	(	PUNCT	_	_	9	punct	_	_
+9	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+10	иногда	иногда	ADV	_	Degree=Pos	11	advmod	_	_
+11	случаются	случаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	parataxis	_	_
+12	)	)	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+14	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	15	nsubj	_	_
+15	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+16	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	aux:pass	_	_
+17	протестировано	тестировать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	xcomp	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	тысячах	тысяча	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	17	obl	_	_
+20	пациентов	пациент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	19	nmod	_	_
+21	и	и	CCONJ	_	_	23	cc	_	_
+22	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	23	nsubj:pass	_	_
+23	опубликованы	опубликовывать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	15	conj	_	_
+24	в	в	ADP	_	_	26	case	_	_
+25	медицинских	медицинский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	26	amod	_	_
+26	журналах	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	23	obl	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 17
+# text = Кроме того , оно должно освещаться крупнейшими в мире СМИ .
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	5	nsubj	_	_
+5	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+6	освещаться	освещать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	5	xcomp	_	_
+7	крупнейшими	крупнейший	ADJ	_	Case=Ins|Degree=Sup|Number=Plur	10	amod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	СМИ	сми	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	obl	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 18
+# text = Если это какой-либо новый способ лечения , рекомендуемый пока лишь одним врачом , лучше не прибегать к нему сразу же , а подождать появления дополнительных доказательств его эффективности .
+1	Если	если	SCONJ	_	_	5	mark	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	какой-либо	какой-либо	DET	_	Case=Nom|Gender=Masc|Number=Sing	5	det	_	_
+4	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	advcl	_	_
+6	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	рекомендуемый	рекомендовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	6	acl	_	_
+9	пока	пока	ADV	_	Degree=Pos	8	advmod	_	_
+10	лишь	лишь	PART	_	_	12	discourse	_	_
+11	одним	один	NUM	_	Case=Ins|Gender=Masc	12	nummod	_	_
+12	врачом	врач	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	лучше	хороший	ADJ	_	Degree=Cmp	0	root	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	прибегать	прибегать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	csubj	_	_
+17	к	к	ADP	_	_	18	case	_	_
+18	нему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	16	obl	_	_
+19	сразу	сразу	ADV	_	Degree=Pos	16	advmod	_	_
+20	же	же	PART	_	_	19	discourse	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	а	а	CCONJ	_	_	23	cc	_	_
+23	подождать	подождать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	conj	_	_
+24	появления	появление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
+25	дополнительных	дополнительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+26	доказательств	доказательство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	nmod	_	_
+27	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	28	nmod	_	_
+28	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\n
+
+# sent_id = 19
+# text = Если в статье написано , что исследование было опубликовано в определенном журнале , проверьте в интернете , является ли этот научный журнал рецензируемым .
+1	Если	если	SCONJ	_	_	4	mark	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	статье	статья	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	написано	писать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	advcl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	что	что	SCONJ	_	_	9	mark	_	_
+7	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+8	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	aux:pass	_	_
+9	опубликовано	опубликовывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	ccomp	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	определенном	определять	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	12	amod	_	_
+12	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	проверьте	проверить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	интернете	интернет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	ccomp	_	_
+19	ли	ли	PART	_	_	18	discourse	_	_
+20	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	22	det	_	_
+21	научный	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	журнал	журнал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+23	рецензируемым	рецензируть	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	18	xcomp	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\n
+
+# sent_id = 20
+# text = Это означает , что перед публикацией статьи направляются на проверку и оценку ученым , работающим в той же сфере . Случается , что даже на прошедшие рецензирование работы публикуются опровержения , если их результаты впоследствии признают ошибочными , однако подавляющему большинству таких работ все же можно доверять .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	означает	означать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	что	что	SCONJ	_	_	8	mark	_	_
+5	перед	перед	ADP	_	_	6	case	_	_
+6	публикацией	публикация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+7	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	направляются	направлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	ccomp	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	проверку	проверка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	оценку	оценка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	conj	_	_
+13	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	iobj	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	работающим	работать	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	13	acl	_	_
+16	в	в	ADP	_	_	19	case	_	_
+17	той	тот	DET	_	Case=Loc|Gender=Fem|Number=Sing	19	det	_	_
+18	же	же	PART	_	_	17	discourse	_	_
+19	сфере	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\n
+21	Случается	случаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	что	что	SCONJ	_	_	29	mark	_	_
+24	даже	даже	PART	_	_	27	discourse	_	_
+25	на	на	ADP	_	_	27	case	_	_
+26	прошедшие	проходить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	27	amod	_	_
+27	рецензирование	рецензирование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	29	obl	_	_
+28	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	публикуются	публиковать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	ccomp	_	_
+30	опровержения	опровержение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	29	nsubj:pass	_	_
+31	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+32	если	если	SCONJ	_	_	36	mark	_	_
+33	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	34	nmod	_	_
+34	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	36	nsubj	_	_
+35	впоследствии	впоследствии	ADV	_	Degree=Pos	36	advmod	_	_
+36	признают	признавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	46	advcl	_	_
+37	ошибочными	ошибочный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	36	obl	_	_
+38	,	,	PUNCT	_	_	37	punct	_	SpacesAfter=\s\s
+39	однако	однако	ADV	_	Degree=Pos	46	advmod	_	_
+40	подавляющему	подавляющий	VERB	_	Aspect=Imp|Case=Dat|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	46	advcl	_	_
+41	большинству	большинство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	40	iobj	_	_
+42	таких	такой	DET	_	Case=Gen|Number=Plur	43	det	_	_
+43	работ	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	41	nmod	_	_
+44	все	все	PART	_	_	46	advmod	_	_
+45	же	же	PART	_	_	44	fixed	_	_
+46	можно	можно	ADV	_	Degree=Pos	30	parataxis	_	_
+47	доверять	доверять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	46	csubj	_	_
+48	.	.	PUNCT	_	_	47	punct	_	SpacesAfter=\s\n
+
+# sent_id = 21
+# text = Если исследование не было опубликовано в рецензируемом журнале , к нему следует отнестись скептически .
+1	Если	если	SCONJ	_	_	5	mark	_	_
+2	исследование	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	не	не	PART	_	_	5	advmod	_	_
+4	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux:pass	_	_
+5	опубликовано	опубликовывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	12	advcl	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	рецензируемом	рецензировать	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	к	к	ADP	_	_	11	case	_	_
+11	нему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	13	obl	_	_
+12	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	отнестись	относиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	csubj	_	_
+14	скептически	скептически	ADV	_	Degree=Pos	13	advmod	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 22
+# text = Был ли этот чудесный способ лечения опробован на людях Или только в пробирке или на мышах Если испытания на людях не проводились , этот метод может быть интересным с научной точки зрения и перспективным , но пока слишком рано говорить о его эффективности при лечении людей . Интернет поможет вам сэкономить кучу времени .
+1	Был	быть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	_
+2	ли	ли	PART	_	_	1	discourse	_	_
+3	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	5	det	_	_
+4	чудесный	чудесный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+6	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	опробован	опробовать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	на	на	ADP	_	_	9	case	_	_
+9	людях	человек	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	SpacesAfter=\n
+10	Или	или	CCONJ	_	_	13	cc	_	_
+11	только	только	PART	_	_	13	advmod	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	пробирке	пробирка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	conj	_	_
+14	или	или	CCONJ	_	_	16	cc	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	мышах	мышь	NOUN	_	Animacy=Anim|Case=Loc|Gender=Fem|Number=Plur	9	conj	_	SpacesAfter=\n
+17	Если	если	SCONJ	_	_	22	mark	_	_
+18	испытания	испытание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	obl	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	людях	человек	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	18	nmod	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	проводились	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	26	advcl	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	25	det	_	_
+25	метод	метод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+26	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+27	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	cop	_	_
+28	интересным	интересный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	26	obl	_	_
+29	с	с	ADP	_	_	31	case	_	_
+30	научной	научный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	31	amod	_	_
+31	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
+32	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	compound	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	перспективным	перспективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	conj	_	_
+35	,	,	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+36	но	но	CCONJ	_	_	40	cc	_	_
+37	пока	пока	ADV	_	Degree=Pos	38	advmod	_	_
+38	слишком	слишком	ADV	_	Degree=Pos	39	advmod	_	_
+39	рано	рано	ADV	_	Degree=Pos	40	advmod	_	_
+40	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	conj	_	_
+41	о	о	ADP	_	_	43	case	_	_
+42	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	43	nmod	_	_
+43	эффективности	эффективность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	40	obl	_	_
+44	при	при	ADP	_	_	45	case	_	_
+45	лечении	лечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	40	obl	_	_
+46	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	45	nmod	_	_
+47	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\s\n
+48	Интернет	интернет	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	49	nsubj	_	_
+49	поможет	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	26	conj	_	_
+50	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	49	iobj	_	_
+51	сэкономить	экономить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	49	xcomp	_	_
+52	кучу	куча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	51	obj	_	_
+53	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	52	nmod	_	_
+54	.	.	PUNCT	_	_	53	punct	_	SpacesAfter=\s\n
+
+# sent_id = 23
+# text = Зайдите на веб-сайт , публикующий обзоры новостей в медицинской сфере , например , Health News Review , и вы обнаружите , что вся работа уже была сделана за вас .
+1	Зайдите	заходить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	веб-сайт	веб-сайт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	публикующий	публиковать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	3	acl	_	_
+6	обзоры	обзор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	5	obj	_	_
+7	новостей	новость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	в	в	ADP	_	_	10	case	_	_
+9	медицинской	медицинский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	сфере	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	nmod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	например	например	ADV	_	Degree=Pos	14	parataxis	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	Health	Health	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+15	News	news	PROPN	_	Foreign=Yes	14	flat:foreign	_	_
+16	Review	review	PROPN	_	Foreign=Yes	15	flat:foreign	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	и	и	CCONJ	_	_	20	cc	_	_
+19	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	20	nsubj	_	_
+20	обнаружите	обнаружить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	что	что	SCONJ	_	_	27	mark	_	_
+23	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	24	det	_	_
+24	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+25	уже	уже	ADV	_	Degree=Pos	27	advmod	_	_
+26	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	aux:pass	_	_
+27	сделана	делать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	20	ccomp	_	_
+28	за	за	ADP	_	_	29	case	_	_
+29	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	27	obl	_	_
+30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\s\n
+
+# sent_id = 24
+# text = Если нет , то при помощи поиска по имени и фамилии журналиста найдите его статьи .
+1	Если	если	SCONJ	_	_	2	mark	_	_
+2	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	то	то	SCONJ	_	_	13	mark	_	_
+5	при	при	ADP	_	_	7	case	_	_
+6	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	fixed	_	_
+7	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+8	по	по	ADP	_	_	9	case	_	_
+9	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	фамилии	фамилия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	conj	_	_
+12	журналиста	журналист	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	найдите	найти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+14	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+15	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nsubj	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\n
+
+# sent_id = 25
+# text = Если он регулярно пишет о науке или здоровье , то наверняка знает , какие вопросы о новом способе лечения следует задать .
+1	Если	если	SCONJ	_	_	4	mark	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+3	регулярно	регулярно	ADV	_	Degree=Pos	4	advmod	_	_
+4	пишет	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	advcl	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	науке	наука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	или	или	CCONJ	_	_	8	cc	_	_
+8	здоровье	здоровье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	conj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	то	то	SCONJ	_	_	12	mark	_	_
+11	наверняка	наверняка	ADV	_	Degree=Pos	12	advmod	_	_
+12	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	какие	какой	DET	_	Case=Acc|Number=Plur	15	det	_	_
+15	вопросы	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+16	о	о	ADP	_	_	18	case	_	_
+17	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	способе	способ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	15	nmod	_	_
+19	лечения	лечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	_
+21	задать	задавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	csubj	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\n
+
+# sent_id = 26
+# text = В строку поиска введите некоторыефакты из статьи и добавьте слово " миф " или " обман " . Возможно , эту статью уже раскритиковали , и вы сможете легко обнаружить это .
+1	В	в	ADP	_	_	2	case	_	_
+2	строку	строка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+3	поиска	поиск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	введите	ввести	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	некоторыефакты	некоторыефаквать	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	из	из	ADP	_	_	7	case	_	_
+7	статьи	статья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	добавьте	добавить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	4	conj	_	_
+10	слово	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	SpacesAfter=\s\s
+11	"	"	PUNCT	_	_	12	punct	_	_
+12	миф	миф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	obl	_	_
+13	"	"	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	или	или	CCONJ	_	_	16	cc	_	SpacesAfter=\s\s
+15	"	"	PUNCT	_	_	16	punct	_	_
+16	обман	обман	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+17	"	"	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\n
+19	Возможно	возможно	ADV	_	Degree=Pos	24	parataxis	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	22	det	_	_
+22	статью	статья	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+23	уже	уже	ADV	_	Degree=Pos	24	advmod	_	_
+24	раскритиковали	раскритиковывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	и	и	CCONJ	_	_	28	cc	_	_
+27	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	28	nsubj	_	_
+28	сможете	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
+29	легко	легко	ADV	_	Degree=Pos	30	advmod	_	_
+30	обнаружить	обнаруживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+31	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	30	obj	_	_
+32	.	.	PUNCT	_	_	31	punct	_	SpacesAfter=\s\n
+
+# sent_id = 27
+# text = И , наконец , если вы выясните , что статья не является " уткой " и была опубликована в авторитетном журнале , все же стоит проверить методологию исследования .
+1	И	и	CCONJ	_	_	25	cc	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	наконец	наконец	ADV	_	Degree=Pos	25	parataxis	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	если	если	SCONJ	_	_	7	mark	_	_
+6	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	7	nsubj	_	_
+7	выясните	выяснить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	25	advcl	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	что	что	SCONJ	_	_	12	mark	_	_
+10	статья	статья	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	ccomp	_	SpacesAfter=\s\s
+13	"	"	PUNCT	_	_	14	punct	_	_
+14	уткой	утка	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+15	"	"	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	aux:pass	_	_
+18	опубликована	опубликовывать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	conj	_	_
+19	в	в	ADP	_	_	21	case	_	_
+20	авторитетном	авторитетный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	журнале	журнал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	все	все	PART	_	_	25	advmod	_	_
+24	же	же	PART	_	_	23	fixed	_	_
+25	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+26	проверить	проверять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	25	csubj	_	_
+27	методологию	методология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+28	исследования	исследование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	nmod	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\n
+
+# sent_id = 28
+# text = На портале Национальной службы здравоохранения Великобритании в разделе Behind the Headlines исследования подвергаются тщательному анализу .
+1	На	на	ADP	_	_	2	case	_	_
+2	портале	портал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+3	Национальной	национальный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	службы	служба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	здравоохранения	здравоохранение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	Великобритании	великобритания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	разделе	раздел	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+9	Behind	Behind	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	the	the	X	_	Foreign=Yes	9	flat:foreign	_	_
+11	Headlines	Headlines	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+12	исследования	исследование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	_
+13	подвергаются	подвергаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	тщательному	тщательный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	анализу	анализ	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	13	iobj	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 29
+# text = Здесь можно прочитать о том , как они проводились , и были ли отчеты о них в СМИ правильными и точными .
+1	Здесь	здесь	ADV	_	Degree=Pos	2	advmod	_	_
+2	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+3	прочитать	прочитывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	как	как	SCONJ	_	_	9	mark	_	_
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	9	nsubj	_	_
+9	проводились	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	и	и	CCONJ	_	_	14	cc	_	_
+12	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+13	ли	ли	PART	_	_	14	discourse	_	_
+14	отчеты	отчет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
+15	о	о	ADP	_	_	16	case	_	_
+16	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	14	nmod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	СМИ	сми	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	14	nmod	_	_
+19	правильными	правильный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	obl	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	точными	точный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	conj	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\n
+

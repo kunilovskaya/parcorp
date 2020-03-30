@@ -1,0 +1,513 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Всевидящее око Традиционная перепись населения уходит в небытие На основании Библии можно сделать вывод, что Бог всегда относился двойственно к вопросам переписи населения.
+1	Всевидящее	Всевидящий	VERB	_	Aspect=Imp|Case=Nom|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	_	_
+2	око	око	ADV	_	Degree=Pos	1	advmod	_	SpacesAfter=\n
+3	Традиционная	традиционный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	перепись	перепись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+5	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+6	уходит	уходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	небытие	небытие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	SpacesAfter=\n
+9	На	на	ADP	_	_	10	case	_	_
+10	основании	основание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+11	Библии	библия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	можно	можно	ADV	_	Degree=Pos	6	parataxis	_	_
+13	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	csubj	_	_
+14	вывод	вывод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	SCONJ	_	_	19	mark	_	_
+17	Бог	бог	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+18	всегда	всегда	ADV	_	Degree=Pos	19	advmod	_	_
+19	относился	относиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	acl	_	_
+20	двойственно	двойственный	ADV	_	Degree=Pos	19	advmod	_	_
+21	к	к	ADP	_	_	22	case	_	_
+22	вопросам	вопрос	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	20	obl	_	_
+23	переписи	перепись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	SpaceAfter=No
+25	.	.	PUNCT	_	_	24	punct	_	_
+
+# sent_id = 2
+# text = Ветхозаветная Книга Чисел получила свое название из-за того, что по велению Господа пророк Моисей пересчитал народ Израилев накануне войны.
+1	Ветхозаветная	ветхозаветный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	Книга	книга	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	Чисел	число	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	получила	получать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	xcomp	_	_
+5	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	6	det	_	_
+6	название	название	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+7	из-за	из-за	ADP	_	_	8	case	_	_
+8	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	16	mark	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	велению	веление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	16	obl	_	_
+13	Господа	господин	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	пророк	пророк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	Моисей	Моисей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+16	пересчитал	пересчитать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	acl	_	_
+17	народ	народ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+18	Израилев	Израилев	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+19	накануне	накануне	ADP	_	_	20	case	_	_
+20	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 3
+# text = Однако, когда иудейский царь Давид сделал то же самое, Всевышний немедленно покарал его.
+1	Однако	однако	ADV	_	Degree=Pos	14	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	когда	когда	SCONJ	_	_	7	mark	_	_
+4	иудейский	иудейский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	царь	царь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+6	Давид	давид	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+7	сделал	делать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+8	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	же	же	PART	_	_	8	discourse	_	_
+10	самое	самый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	Всевышний	всевышний	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+13	немедленно	немедленно	ADV	_	Degree=Pos	14	advmod	_	_
+14	покарал	покарать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	14	obj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Возможно, Божественные действия кажутся нам противоречивыми лишь потому, что мы не можем понять, чью же сторону занимает Создатель.
+1	Возможно	возможно	ADV	_	Degree=Pos	5	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	Божественные	божественный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	действия	действие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+5	кажутся	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	5	iobj	_	_
+7	противоречивыми	противоречивый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	5	obl	_	_
+8	лишь	лишь	PART	_	_	9	discourse	_	_
+9	потому	потому	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	14	mark	_	_
+12	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	14	nsubj	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
+15	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	xcomp	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	чью	чей	DET	_	Case=Acc|Gender=Fem|Number=Sing	19	det	_	_
+18	же	же	PART	_	_	17	discourse	_	_
+19	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+20	занимает	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp	_	_
+21	Создатель	создатель	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	nsubj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 5
+# text = В прошлом правители любили проводить подсчет своих подданных, потому что это облегчало им призыв рекрутов на воинскую службу и сбор налогов.
+1	В	в	ADP	_	_	2	case	_	_
+2	прошлом	прошлый	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+3	правители	правитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+4	любили	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	подсчет	подсчет	ADP	_	_	8	case	_	_
+7	своих	свой	DET	_	Case=Gen|Number=Plur	8	det	_	_
+8	подданных	подданный	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	потому	потому	ADV	_	Degree=Pos	13	mark	_	_
+11	что	что	SCONJ	_	_	10	fixed	_	_
+12	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+13	облегчало	облегчать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
+14	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	13	iobj	_	_
+15	призыв	призыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+16	рекрутов	рекрут	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	воинскую	воинский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	службу	служба	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	сбор	сбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	conj	_	_
+22	налогов	налог	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 6
+# text = Простой народ недолюбливал переписи по тем же причинам.
+1	Простой	простой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	народ	народ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	недолюбливал	недолюбливать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	переписи	перепись	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	по	по	ADP	_	_	8	case	_	_
+6	тем	тот	DET	_	Case=Dat|Number=Plur	8	det	_	_
+7	же	же	PART	_	_	6	discourse	_	_
+8	причинам	причина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	4	nmod	_	SpaceAfter=No
+9	.	.	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 7
+# text = Но времена менялись, правительство становилось все менее жестоким, и данная процедура, прежде существовавшая для извлечения прибыли из населения, стала служить иной цели.
+1	Но	но	CCONJ	_	_	3	cc	_	_
+2	времена	время	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj	_	_
+3	менялись	меняться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	правительство	правительство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	становилось	становиться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	conj	_	_
+7	все	все	PART	_	_	8	discourse	_	_
+8	менее	менее	ADV	_	Degree=Cmp	9	obl	_	_
+9	жестоким	жестокий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	и	и	CCONJ	_	_	23	cc	_	_
+12	данная	данный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	процедура	процедура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	прежде	прежде	ADV	_	Degree=Pos	16	advmod	_	_
+16	существовавшая	существовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	13	acl	_	_
+17	для	для	ADP	_	_	18	case	_	_
+18	извлечения	извлечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	obl	_	_
+19	прибыли	прибыль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	из	из	ADP	_	_	21	case	_	_
+21	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	стала	стать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+24	служить	служить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	xcomp	_	_
+25	иной	иной	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	цели	цель	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	24	iobj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 8
+# text = Теперь она помогала улучшать систему управления.
+1	Теперь	теперь	ADV	_	Degree=Pos	3	advmod	_	_
+2	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
+3	помогала	помогать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	улучшать	улучшать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	управления	управление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Сегодня эти многовековые традиции переписи постепенно угасают.
+1	Сегодня	сегодня	ADV	_	Degree=Pos	7	advmod	_	_
+2	эти	этот	DET	_	Case=Nom|Number=Plur	4	det	_	_
+3	многовековые	многовековый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	традиции	традиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+5	переписи	перепись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	постепенно	постепенно	ADV	_	Degree=Pos	7	advmod	_	_
+7	угасают	угасать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 10
+# text = Так, если британские специалисты по статистике настоят на своем, то запланированная в следующем году перепись станет последней в истории Великобритании.
+1	Так	так	ADV	_	Degree=Pos	18	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	если	если	SCONJ	_	_	8	mark	_	_
+4	британские	британский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	статистике	статистика	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	obl	_	_
+8	настоят	настаивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	advcl	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	своем	свой	DET	_	Case=Loc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	то	то	SCONJ	_	_	18	mark	_	_
+13	запланированная	запланировать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	следующем	следующий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	obl	_	_
+17	перепись	перепись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+18	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+19	последней	последний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	18	obl	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	истории	история	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	19	nmod	_	_
+22	Великобритании	великобритания	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 11
+# text = Вместо этого предполагается собирать информацию из обширных государственных баз данных.
+1	Вместо	вместо	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+3	предполагается	предполагаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	собирать	собирать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	csubj:pass	_	_
+5	информацию	информация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	из	из	ADP	_	_	9	case	_	_
+7	обширных	обширный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+8	государственных	государственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	баз	база	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+10	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	9	nmod	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 12
+# text = К их числу относятся налоговые отчеты, страховые пособия, списки избирателей и школьные ведомости, а так же результаты статистических методов подсчета.
+1	К	к	ADP	_	_	3	case	_	_
+2	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	nmod	_	_
+3	числу	число	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	obl	_	_
+4	относятся	относиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	налоговые	налоговый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	отчеты	отчет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	страховые	страховой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	пособия	пособие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	6	conj	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	списки	список	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
+12	избирателей	избиратель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	школьные	школьный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	ведомости	ведомость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	а	а	CCONJ	_	_	20	cc	_	_
+18	так	так	ADV	_	Degree=Pos	20	obl	_	_
+19	же	же	PART	_	_	18	discourse	_	_
+20	результаты	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	_
+21	статистических	статистический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	20	nmod	_	_
+23	подсчета	подсчет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 13
+# text = Начало мировой тенденции отказа от переписи положили государства Скандинавии.
+1	Начало	начало	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+2	мировой	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	тенденции	тенденция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+4	отказа	отказ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+5	от	от	ADP	_	_	6	case	_	_
+6	переписи	перепись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	положили	класть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	государства	государство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+9	Скандинавии	Скандинавия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	.	.	PUNCT	_	_	9	punct	_	_
+
+# sent_id = 14
+# text = Так, в Дании перепись населения уже десятки лет проводится инновационным способом.
+1	Так	так	ADV	_	Degree=Pos	10	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	Дании	дания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+5	перепись	перепись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+6	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	уже	уже	ADV	_	Degree=Pos	8	obl	_	_
+8	десятки	десяток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+11	инновационным	инновационный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	способом	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 15
+# text = Похожая система введена и в ряде других стран, например, в Швеции, Норвегии, Финляндии и Словении.
+1	Похожая	похожий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj:pass	_	_
+3	введена	вводить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	и	и	PART	_	_	6	discourse	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	ряде	ряд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+7	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	amod	_	_
+8	стран	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	например	например	ADV	_	Degree=Pos	13	parataxis	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	Швеции	швеция	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	Норвегии	норвегия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	Финляндии	финляндия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	conj	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	Словении	словения	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	conj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 16
+# text = Правительство Германии тоже собирается позаимствовать их опыт во время следующего переписи, которая, как и в Великобритании, пройдет в 2011 году.
+1	Правительство	правительство	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	Германии	германия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+3	тоже	тоже	PART	_	_	4	discourse	_	_
+4	собирается	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	позаимствовать	заимствовать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	7	nmod	_	_
+7	опыт	опыт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+8	во	во	ADP	_	_	11	case	_	_
+9	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	fixed	_	_
+10	следующего	следующий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	переписи	перепись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	SpaceAfter=No
+12	,	,	PUNCT	_	_	11	punct	_	_
+13	которая	который	PRON	_	Case=Nom	20	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	как	как	SCONJ	_	_	18	mark	_	_
+16	и	и	PART	_	_	18	discourse	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	Великобритании	великобритания	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	advcl	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	пройдет	проходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	2011	2011	NUM	_	_	23	nummod	_	_
+23	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = Для таких нововведений существуют две причины.
+1	Для	для	ADP	_	_	3	case	_	_
+2	таких	такой	DET	_	Case=Gen|Number=Plur	3	det	_	_
+3	нововведений	нововведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	obl	_	_
+4	существуют	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	две	два	NUM	_	Case=Nom|Gender=Fem	6	nummod:gov	_	_
+6	причины	причина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = 18
+# text = Первая состоит в том, что всеобщая компьютеризация позволяет специалистам исследовать базы данных так, как это было невозможно при использовании бумажных картотек.
+1	Первая	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	что	что	SCONJ	_	_	9	mark	_	_
+7	всеобщая	всеобщий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	компьютеризация	компьютеризация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+9	позволяет	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
+10	специалистам	специалист	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	iobj	_	_
+11	исследовать	исследовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+12	базы	база	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+13	данных	данные	NOUN	_	Animacy=Inan|Case=Gen|Number=Plur	12	nmod	_	_
+14	так	так	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	как	как	SCONJ	_	_	19	mark	_	_
+17	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+18	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	cop	_	_
+19	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	advcl	_	_
+20	при	при	ADP	_	_	21	case	_	_
+21	использовании	использование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	obl	_	_
+22	бумажных	бумажный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	amod	_	_
+23	картотек	картотека	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	21	nmod	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 19
+# text = Вторая же причина заключается в том, что подсчет населения при помощи прежних методов становится все более сложным и неэффективным, а заполнение привычных анкет весьма обременительным процессом.
+1	Вторая	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	же	же	PART	_	_	1	discourse	_	_
+3	причина	причина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	заключается	заключаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	15	mark	_	_
+9	подсчет	подсчет	ADP	_	_	10	case	_	_
+10	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	obl	_	_
+11	при	при	ADP	_	_	14	case	_	_
+12	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	fixed	_	_
+13	прежних	прежний	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	методов	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+15	становится	становиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl	_	_
+16	все	все	PART	_	_	17	discourse	_	_
+17	более	более	ADV	_	Degree=Cmp	18	obl	_	_
+18	сложным	сложный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	неэффективным	неэффективный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	а	а	CCONJ	_	_	28	cc	_	_
+23	заполнение	заполнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	_
+24	привычных	привычный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	25	amod	_	_
+25	анкет	анкета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	23	nmod	_	_
+26	весьма	весьма	ADV	_	Degree=Pos	27	obl	_	_
+27	обременительным	обременительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	процессом	процесс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	15	conj	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 20
+# text = Если изначально бумажные формы включали в себя лишь краткий опрос о месте жительства, то со временем они превратились в настоящие инструкции, касающиеся всего: начиная с пользования туалетом и личным автомобилем и заканчивая религией.
+1	Если	если	SCONJ	_	_	5	mark	_	_
+2	изначально	изначально	ADV	_	Degree=Pos	5	advmod	_	_
+3	бумажные	бумажный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	формы	форма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+5	включали	включать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	себя	себя	PRON	_	Case=Acc	5	obl	_	_
+8	лишь	лишь	PART	_	_	9	discourse	_	_
+9	краткий	краткий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	опрос	опрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obj	_	_
+11	о	о	ADP	_	_	12	case	_	_
+12	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
+13	жительства	жительство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	то	то	SCONJ	_	_	19	mark	_	_
+16	со	с	ADP	_	_	17	case	_	_
+17	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	obl	_	_
+18	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	19	nsubj	_	_
+19	превратились	превращаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	настоящие	настоящий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	22	amod	_	_
+22	инструкции	инструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obl	_	SpaceAfter=No
+23	,	,	PUNCT	_	_	22	punct	_	_
+24	касающиеся	касаться	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	22	acl	_	_
+25	всего	все	ADV	_	Degree=Pos	27	advmod	_	SpaceAfter=No
+26	:	:	PUNCT	_	_	25	punct	_	_
+27	начиная	начинать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	24	advcl	_	_
+28	с	с	ADP	_	_	29	case	_	_
+29	пользования	пользование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	27	obl	_	_
+30	туалетом	туалет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	nmod	_	_
+31	и	и	CCONJ	_	_	33	cc	_	_
+32	личным	личный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	автомобилем	автомобиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	conj	_	_
+34	и	и	CCONJ	_	_	35	cc	_	_
+35	заканчивая	заканчивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	27	conj	_	_
+36	религией	религия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	35	obl	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	36	punct	_	_
+
+# sent_id = 21
+# text = Как следствие, снизилась эффективность таких анкет.
+1	Как	как	SCONJ	_	_	2	mark	_	_
+2	следствие	следствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	parataxis	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	снизилась	снижаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	эффективность	эффективность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+6	таких	такой	DET	_	Case=Gen|Number=Plur	7	det	_	_
+7	анкет	анкета	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+8	.	.	PUNCT	_	_	7	punct	_	_
+
+# sent_id = 22
+# text = Дело в том, что население стало все чаще подходить к процедуре опроса легкомысленно, и это негативно сказывается на результатах.
+1	Дело	дело	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	7	mark	_	_
+6	население	население	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	стало	становиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	acl	_	_
+8	все	все	PART	_	_	9	discourse	_	_
+9	чаще	часто	ADV	_	Degree=Cmp	10	advmod	_	_
+10	подходить	подходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+11	к	к	ADP	_	_	12	case	_	_
+12	процедуре	процедура	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	10	obl	_	_
+13	опроса	опрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	легкомысленно	легкомысленно	ADV	_	Degree=Pos	10	advmod	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	и	и	CCONJ	_	_	19	cc	_	_
+17	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	19	nsubj	_	_
+18	негативно	негативно	ADV	_	Degree=Pos	19	advmod	_	_
+19	сказывается	сказываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	conj	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	результатах	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 23
+# text = Так, во время предыдущей переписи, 0,7% британцев в графе "религия" указали: "рыцарь-джедай".
+1	Так	так	ADV	_	Degree=Pos	16	parataxis	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	во	во	ADP	_	_	6	case	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	fixed	_	_
+5	предыдущей	предыдущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	переписи	перепись	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	0,7	0,7	NUM	_	_	9	nummod	_	SpaceAfter=No
+9	%	%	SYM	_	_	16	nsubj	_	_
+10	британцев	британец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	графе	граф	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	"	"	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	религия	религия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	appos	_	SpaceAfter=No
+15	"	"	PUNCT	_	_	14	punct	_	_
+16	указали	указывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	16	punct	_	_
+18	"	"	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	рыцарь	рыцарь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	parataxis	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+21	джедай	джедай	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	19	appos	_	SpaceAfter=No
+22	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\n
+
+# sent_id = 24
+# text = Экономист, 17 июля 2010 года
+1	Экономист	экономист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	17	17	NUM	_	_	1	nummod	_	_
+4	июля	июль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	flat	_	_
+5	2010	2010	NUM	_	_	6	nummod	_	_
+6	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\n
+

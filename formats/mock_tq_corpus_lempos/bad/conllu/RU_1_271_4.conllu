@@ -1,0 +1,594 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Не посещайте 'Дом странных детей Мисс Перегрин' "Дом странных детей Мисс Перегрин" несомненно, возвращает чувство молодости.
+1	Не	не	PART	_	_	2	advmod	_	_
+2	посещайте	посещать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+3	'Дом	'Д	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	obl	_	_
+4	странных	странный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	Мисс	мисс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	Перегрин'	Перегрин'	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	SpacesAfter=\n
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	Дом	дом	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+10	странных	странный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	Мисс	мисс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	appos	_	_
+13	Перегрин	Перегрин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	flat:name	_	SpaceAfter=No
+14	"	"	PUNCT	_	_	13	punct	_	_
+15	несомненно	несомненно	ADV	_	Degree=Pos	17	parataxis	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	возвращает	возвращать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	чувство	чувство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	молодости	молодость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 2
+# text = Чудо открытия!
+1	Чудо	чудо	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	открытия	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 3
+# text = Пьянящие возможности!
+1	Пьянящие	Пьянить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	amod	_	_
+2	возможности	возможность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = 4
+# text = Легкая головная боль от экзаменов по тригонометрии!
+1	Легкая	легкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	головная	головной	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	боль	боль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	от	от	ADP	_	_	5	case	_	_
+5	экзаменов	экзамен	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	тригонометрии	тригонометрия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
+8	!	!	PUNCT	_	_	7	punct	_	SpacesAfter=\n
+
+# sent_id = 5
+# text = Фильм Тима Бертона, снятый по мотивам романа для подростков, представляет собой особенное, мрачно-таинственное путешествие сквозь пространство и время, и за пределом фантазии.
+1	Фильм	фильм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+2	Тима	Тим	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	Бертона	Бертон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	снятый	снимать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	1	acl	_	_
+6	по	по	ADP	_	_	7	case	_	_
+7	мотивам	мотив	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	5	obl	_	_
+8	романа	роман	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	подростков	подросток	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	представляет	представлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	собой	себя	PRON	_	Case=Ins	12	fixed	_	_
+14	особенное	особенный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	мрачно-таинственное	мрачно-таинственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	путешествие	путешествие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	conj	_	_
+18	сквозь	сквозь	ADP	_	_	19	case	_	_
+19	пространство	пространство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	и	и	CCONJ	_	_	26	cc	_	_
+24	за	за	ADP	_	_	26	case	_	_
+25	пределом	предел	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	фантазии	фантазия	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	conj	_	SpaceAfter=No
+27	.	.	PUNCT	_	_	26	punct	_	_
+
+# sent_id = 6
+# text = Просто невозможно избежать сходства с неограниченным материалом, большая часть которого имеет знакомое содержание: "Люди Икс" перекликаются с "Алисой в стране чудес" перекликается с "День Сурка, " плюс есть своего рода семейка Адамс в тяжелой безвыходной ситуации.
+1	Просто	просто	PART	_	_	2	advmod	_	_
+2	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	избежать	избегать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	_
+4	сходства	сходство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	неограниченным	неограниченный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	материалом	материал	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+8	,	,	PUNCT	_	_	7	punct	_	_
+9	большая	большой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	часть	часть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	которого	который	PRON	_	Case=Gen	10	nmod	_	_
+12	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+13	знакомое	знакомый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	SpaceAfter=No
+15	:	:	PUNCT	_	_	14	punct	_	_
+16	"	"	PUNCT	_	_	17	punct	_	SpaceAfter=No
+17	Люди	человек	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	20	nsubj	_	_
+18	Икс	Икс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	appos	_	SpaceAfter=No
+19	"	"	PUNCT	_	_	18	punct	_	_
+20	перекликаются	перекликаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	parataxis	_	_
+21	с	с	ADP	_	_	23	case	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	Алисой	Алиса	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	28	obl	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	стране	страна	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	obl	_	_
+26	чудес	чудо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	28	nsubj	_	SpaceAfter=No
+27	"	"	PUNCT	_	_	28	punct	_	_
+28	перекликается	перекликаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	20	parataxis	_	_
+29	с	с	ADP	_	_	31	case	_	_
+30	"	"	PUNCT	_	_	31	punct	_	SpaceAfter=No
+31	День	день	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	28	obl	_	_
+32	Сурка	Сурк	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	"	"	PUNCT	_	_	35	punct	_	_
+35	плюс	плюс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	36	nsubj	_	_
+36	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	conj	_	_
+37	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	38	det	_	_
+38	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	_
+39	семейка	семейка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	36	obl	_	_
+40	Адамс	Адамс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	39	appos	_	_
+41	в	в	ADP	_	_	44	case	_	_
+42	тяжелой	тяжелый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	_
+43	безвыходной	безвыходный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	44	amod	_	_
+44	ситуации	ситуация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	40	nmod	_	SpaceAfter=No
+45	.	.	PUNCT	_	_	44	punct	_	_
+
+# sent_id = 7
+# text = "Они жуткие, они пугающие, они абсолютный Третий Рейх" (Призрачные плохие ребята, которых называют Странники).
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	3	nsubj	_	_
+3	жуткие	жуткий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	6	nsubj	_	_
+6	пугающие	пугать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	3	conj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	11	nsubj	_	_
+9	абсолютный	абсолютный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+10	Третий	третий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	Рейх	рейх	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	_
+13	(	(	PUNCT	_	_	14	punct	_	SpaceAfter=No
+14	Призрачные	призрачный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+15	плохие	плохой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	ребята	ребята	NOUN	_	Animacy=Anim|Case=Nom|Gender=Neut|Number=Plur	11	parataxis	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	которых	который	PRON	_	Case=Acc	19	obj	_	_
+19	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+20	Странники	странник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\n
+
+# sent_id = 8
+# text = "Мисс Перегрин и т.д." это не просто взрыв воображения.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Мисс	мисс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+3	Перегрин	Перегрин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	т.д.	так	ADV	_	Degree=Pos	2	conj	_	SpaceAfter=No
+6	"	"	PUNCT	_	_	5	punct	_	_
+7	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	просто	просто	PART	_	_	10	advmod	_	_
+10	взрыв	взрыв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+11	воображения	воображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	SpaceAfter=No
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 9
+# text = Это бескрайний горизонт идей, это пламенное крушение установки, которая извергает так много творчества во всех направлениях, что я прячусь в поисках укрытия, забираясь к аварийному люку.
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	бескрайний	бескрайний	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	горизонт	горизонт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	идей	идея	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	пламенное	пламенный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	крушение	крушение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	conj	_	_
+9	установки	установка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	которая	который	PRON	_	Case=Nom	12	nsubj	_	_
+12	извергает	извергать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+13	так	так	ADV	_	Degree=Pos	14	advmod	_	_
+14	много	много	ADV	_	Degree=Pos	12	advmod	_	_
+15	творчества	творчество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	obl	_	_
+16	во	в	ADP	_	_	18	case	_	_
+17	всех	весь	DET	_	Case=Loc|Number=Plur	18	det	_	_
+18	направлениях	направление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	15	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	что	что	SCONJ	_	_	22	mark	_	_
+21	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	22	nsubj	_	_
+22	прячусь	прятаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	18	acl	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	поисках	поиск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	22	obl	_	_
+25	укрытия	укрытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	забираясь	забираться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	22	advcl	_	_
+28	к	к	ADP	_	_	30	case	_	_
+29	аварийному	аварийный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	люку	люк	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	27	obl	_	SpaceAfter=No
+31	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\n
+
+# sent_id = 10
+# text = Мы переносимся во Флориду, где подросток Джейк (Эйса Баттерфилд) находит своего любимого дедушку Эйб (Теренс Стэмп) убитого гигантским монстром, который общается с ужасным белоглазым психом (Самуэль эль Джексон).
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	переносимся	переноситься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	во	в	ADP	_	_	4	case	_	_
+4	Флориду	флорида	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	где	где	ADV	_	Degree=Pos	13	advmod	_	_
+7	подросток	подросток	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+8	Джейк	Джейк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+9	(	(	PUNCT	_	_	10	punct	_	SpaceAfter=No
+10	Эйса	Эйс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	8	parataxis	_	_
+11	Баттерфилд	Баттерфилд	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	10	flat:name	_	SpaceAfter=No
+12	)	)	PUNCT	_	_	11	punct	_	_
+13	находит	находить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+14	своего	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	16	det	_	_
+15	любимого	любимый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	дедушку	дедушка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+17	Эйб	Эйб	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
+18	(	(	PUNCT	_	_	19	punct	_	SpaceAfter=No
+19	Теренс	Теренс	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	parataxis	_	_
+20	Стэмп	Стэмп	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	)	)	PUNCT	_	_	20	punct	_	_
+22	убитого	убить	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	17	acl	_	_
+23	гигантским	гигантский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	монстром	монстр	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	SpaceAfter=No
+25	,	,	PUNCT	_	_	24	punct	_	_
+26	который	который	PRON	_	Case=Nom	27	nsubj	_	_
+27	общается	общаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	24	acl:relcl	_	_
+28	с	с	ADP	_	_	31	case	_	_
+29	ужасным	ужасный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+30	белоглазым	белоглазый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	психом	псих	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	27	obl	_	_
+32	(	(	PUNCT	_	_	33	punct	_	SpaceAfter=No
+33	Самуэль	Самуэль	PART	_	_	34	discourse	_	_
+34	эль	эль	PART	_	_	31	parataxis	_	_
+35	Джексон	джексон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	34	flat:name	_	SpaceAfter=No
+36	)	)	PUNCT	_	_	35	punct	_	SpaceAfter=No
+37	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\n
+
+# sent_id = 11
+# text = Последнее желание старика заключалось в том, чтобы мальчик вернулся на остров, на побережье Уэльса, где Эйб рос в 1940-х годах.
+1	Последнее	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	желание	желание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	старика	старик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	заключалось	заключаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	чтобы	что	SCONJ	_	Mood=Cnd	10	mark	_	_
+9	мальчик	мальчик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+10	вернулся	вернуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	acl	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	остров	остров	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obl	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	побережье	побережье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	conj	_	_
+16	Уэльса	Уэльс	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	где	где	ADV	_	Degree=Pos	20	advmod	_	_
+19	Эйб	Эйб	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	20	nsubj	_	_
+20	рос	расти	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	acl:relcl	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	1940-х	1940-й	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	23	amod	_	_
+23	годах	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	obl	_	SpaceAfter=No
+24	.	.	PUNCT	_	_	23	punct	_	_
+
+# sent_id = 12
+# text = Благодаря временной трансформации, Джейк находит дом точно таким, каким он был в 1943, до того, как он был разрушен немецкой бомбой, со странными детьми, какими они были тогда.
+1	Благодаря	благодаря	ADP	_	_	3	case	_	_
+2	временной	временный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	трансформации	трансформация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	Джейк	Джейк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	находит	находить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	дом	дом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	точно	точно	ADV	_	Degree=Pos	9	obl	_	_
+9	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	6	det	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	9	det	_	_
+12	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+13	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	1943	1943	NUM	_	_	34	obl	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	до	до	ADP	_	_	18	case	_	_
+18	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	conj	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	как	как	SCONJ	_	_	23	mark	_	_
+21	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+22	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	aux:pass	_	_
+23	разрушен	разрушить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	acl	_	_
+24	немецкой	немецкий	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	бомбой	бомба	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl	_	SpaceAfter=No
+26	,	,	PUNCT	_	_	25	punct	_	_
+27	со	с	ADP	_	_	29	case	_	_
+28	странными	странный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	29	amod	_	_
+29	детьми	ребенок	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	25	conj	_	SpaceAfter=No
+30	,	,	PUNCT	_	_	29	punct	_	_
+31	какими	какой	DET	_	Case=Ins|Number=Plur	32	det	_	_
+32	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	34	nsubj	_	_
+33	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	34	cop	_	_
+34	тогда	тогда	ADV	_	Degree=Pos	11	advmod	_	SpaceAfter=No
+35	.	.	PUNCT	_	_	34	punct	_	_
+
+# sent_id = 13
+# text = Один ребенок выращивает пчел в своем теле; у другого рот на задней части черепа; один наполнен воздухом и улетает, если его не привязать; другой способен оживлять предметы; сама Мисс Пи (Ева Грин) может становиться птицей.
+1	Один	один	NUM	_	Case=Nom|Gender=Masc	2	nummod:gov	_	_
+2	ребенок	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	выращивает	выращивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	пчел	пчитывать	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	своем	свой	DET	_	Case=Loc|Gender=Neut|Number=Sing	7	det	_	_
+7	теле	тело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	SpaceAfter=No
+8	;	;	PUNCT	_	_	7	punct	_	_
+9	у	у	ADP	_	_	11	case	_	_
+10	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	рот	рот	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	задней	задний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+15	черепа	череп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+16	;	;	PUNCT	_	_	15	punct	_	_
+17	один	один	NUM	_	Case=Nom|Gender=Masc	18	nsubj:pass	_	_
+18	наполнен	наполнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+19	воздухом	воздух	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	obl	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	улетает	улетать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	SpaceAfter=No
+22	,	,	PUNCT	_	_	21	punct	_	_
+23	если	если	SCONJ	_	_	26	mark	_	_
+24	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	26	obj	_	_
+25	не	не	PART	_	_	26	advmod	_	_
+26	привязать	привязывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	advcl	_	SpaceAfter=No
+27	;	;	PUNCT	_	_	26	punct	_	_
+28	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	29	nsubj	_	_
+29	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	3	conj	_	_
+30	оживлять	оживлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	29	xcomp	_	_
+31	предметы	предмет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	30	obj	_	SpaceAfter=No
+32	;	;	PUNCT	_	_	31	punct	_	_
+33	сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	34	amod	_	_
+34	Мисс	мисс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	_
+35	Пи	пи	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	34	flat:name	_	_
+36	(	(	PUNCT	_	_	37	punct	_	SpaceAfter=No
+37	Ева	ева	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	34	parataxis	_	_
+38	Грин	Грин	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	37	flat:name	_	SpaceAfter=No
+39	)	)	PUNCT	_	_	38	punct	_	_
+40	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+41	становиться	становиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	40	xcomp	_	_
+42	птицей	птица	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	41	obl	_	SpaceAfter=No
+43	.	.	PUNCT	_	_	42	punct	_	SpacesAfter=\n
+
+# sent_id = 14
+# text = Устраивайтесь поудобнее: Дядя Тим должен объяснить - кто каждый из них, какая у них суперсила, каким образом "петля времени" увлекла их, кто те два злодея, и какие у них способности.
+1	Устраивайтесь	устраиваться	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	поудобнее	удобно	ADV	_	Degree=Cmp	1	advmod	_	SpaceAfter=No
+3	:	:	PUNCT	_	_	2	punct	_	_
+4	Дядя	дядя	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	6	advcl	_	_
+5	Тим	Тим	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	parataxis	_	_
+7	объяснить	объяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	-	-	PUNCT	_	_	7	punct	_	_
+9	кто	кто	PRON	_	Case=Nom	17	nsubj	_	_
+10	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	nsubj	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	10	nmod	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	какая	какой	DET	_	Case=Nom|Gender=Fem|Number=Sing	17	det	_	_
+15	у	у	ADP	_	_	16	case	_	_
+16	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	17	obl	_	_
+17	суперсила	суперсила	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	ccomp	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	20	det	_	_
+20	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	_
+21	"	"	PUNCT	_	_	22	punct	_	SpaceAfter=No
+22	петля	петля	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+23	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	_
+25	увлекла	увлечь	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	ccomp	_	_
+26	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	28	nmod	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	кто	кто	PRON	_	Case=Nom	25	obj	_	_
+29	те	тот	DET	_	Case=Acc|Number=Plur	31	det	_	_
+30	два	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	31	nummod:gov	_	_
+31	злодея	злодей	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nsubj	_	SpaceAfter=No
+32	,	,	PUNCT	_	_	31	punct	_	_
+33	и	и	CCONJ	_	_	36	cc	_	_
+34	какие	какой	DET	_	Case=Nom|Number=Plur	37	det	_	_
+35	у	у	ADP	_	_	36	case	_	_
+36	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	28	conj	_	_
+37	способности	способность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+38	.	.	PUNCT	_	_	37	punct	_	SpacesAfter=\n
+
+# sent_id = 15
+# text = В нефантастических фильмах, данный элемент называется "вступление" или акт 1. Обычно оно занимает 20 минут, но в этом фильме оно длится 1 час и 20 минут.
+1	В	в	ADP	_	_	3	case	_	_
+2	нефантастических	нефантастический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	3	amod	_	_
+3	фильмах	фильм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	данный	данный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	элемент	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	"	"	PUNCT	_	_	9	punct	_	SpaceAfter=No
+9	вступление	вступление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+10	"	"	PUNCT	_	_	9	punct	_	_
+11	или	или	CCONJ	_	_	12	cc	_	_
+12	акт	акт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+13	1	2	NUM	_	_	12	nummod	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+15	Обычно	обычно	ADV	_	Degree=Pos	17	advmod	_	_
+16	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	17	nsubj	_	_
+17	занимает	занимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+18	20	20	NUM	_	_	19	nummod	_	_
+19	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	но	но	CCONJ	_	_	26	cc	_	_
+22	в	в	ADP	_	_	24	case	_	_
+23	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	24	det	_	_
+24	фильме	фильм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	_
+25	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	26	nsubj	_	_
+26	длится	длиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	conj	_	_
+27	1	2	NUM	_	_	28	nummod	_	_
+28	час	час	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	26	obl	_	_
+29	и	и	CCONJ	_	_	31	cc	_	_
+30	20	20	NUM	_	_	31	nummod	_	_
+31	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	28	conj	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	_
+
+# sent_id = 16
+# text = Затем, и только затем события начинают развиваться со сцены "О, Господи!
+1	Затем	затем	ADV	_	Degree=Pos	0	root	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	и	и	CCONJ	_	_	7	cc	_	_
+4	только	только	PART	_	_	5	advmod	_	_
+5	затем	затем	ADV	_	Degree=Pos	7	advmod	_	_
+6	события	событие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+7	начинают	начинать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
+8	развиваться	развиваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	7	xcomp	_	_
+9	со	с	ADP	_	_	10	case	_	_
+10	сцены	сцена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+11	"	"	PUNCT	_	_	12	punct	_	SpaceAfter=No
+12	О	о	INTJ	_	_	14	parataxis	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	Господи	господь	PROPN	_	Animacy=Anim|Case=Voc|Gender=Masc|Number=Sing	10	appos	_	SpaceAfter=No
+15	!	!	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 17
+# text = Джейк единственный, кто может спасти нас", но после есть только одно, что может спасти фильм - Стивен Хокинг.
+1	Джейк	Джейк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	единственный	единственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	кто	кто	PRON	_	Case=Nom	5	nsubj	_	_
+5	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+6	спасти	спасать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	6	obj	_	SpaceAfter=No
+8	"	"	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	7	punct	_	_
+10	но	но	CCONJ	_	_	12	cc	_	_
+11	после	после	ADP	_	_	12	case	_	_
+12	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	только	только	PART	_	_	14	advmod	_	_
+14	одно	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	12	nsubj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	что	что	PRON	_	Case=Nom	17	nsubj	_	_
+17	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+18	спасти	спасать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	фильм	фильм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	obj	_	_
+20	-	-	PUNCT	_	_	19	punct	_	_
+21	Стивен	стивен	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	parataxis	_	_
+22	Хокинг	хокинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	21	flat:name	_	SpaceAfter=No
+23	.	.	PUNCT	_	_	22	punct	_	_
+
+# sent_id = 18
+# text = Даже в последние 30 секунд фильма, Джейк все еще продолжает объяснять, как работают прыжки во времени, после чего даже он сам устает и сдается.
+1	Даже	даже	PART	_	_	5	discourse	_	_
+2	в	в	ADP	_	_	5	case	_	_
+3	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
+4	30	30	NUM	_	_	5	nummod	_	_
+5	секунд	секунда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	obl	_	_
+6	фильма	фильм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	Джейк	Джейк	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+9	все	все	PART	_	_	10	discourse	_	_
+10	еще	еще	ADV	_	Degree=Pos	11	advmod	_	_
+11	продолжает	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	объяснять	объяснять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	xcomp	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	как	как	ADV	_	Degree=Pos	15	advmod	_	_
+15	работают	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+16	прыжки	прыжок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	15	obj	_	_
+17	во	в	ADP	_	_	18	case	_	_
+18	времени	время	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	nmod	_	SpaceAfter=No
+19	,	,	PUNCT	_	_	18	punct	_	_
+20	после	после	ADP	_	_	21	case	_	_
+21	чего	что	PRON	_	Case=Gen	25	obl	_	_
+22	даже	даже	PART	_	_	23	discourse	_	_
+23	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	25	nsubj	_	_
+24	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	obl	_	_
+25	устает	уставать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	conj	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	сдается	сдаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	15	conj	_	SpaceAfter=No
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n
+
+# sent_id = 19
+# text = Может быть мягко сказано, но это великолепно!
+1	Может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	aux:pass	_	_
+3	мягко	мягко	ADV	_	Degree=Pos	4	advmod	_	_
+4	сказано	сказать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	1	xcomp	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	но	но	CCONJ	_	_	8	cc	_	_
+7	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+8	великолепно	великолепный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	1	conj	_	SpaceAfter=No
+9	!	!	PUNCT	_	_	8	punct	_	_
+
+# sent_id = 20
+# text = Картина выглядит, будто ее стоимость составляет около миллиарда долларов, при этом абсолютно каждая деталь дает Бертону повод взять свою печальную красочную книгу-воображение и позволить раствориться, как растворилась Эмма, девушка полная воздуха и поправшая Земные законы.
+1	Картина	картина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	выглядит	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	будто	будто	SCONJ	_	_	7	mark	_	_
+5	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	6	nmod	_	_
+6	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+7	составляет	составлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	17	advcl	_	_
+8	около	около	ADP	_	_	9	case	_	_
+9	миллиарда	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+10	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	при	при	ADP	_	_	13	case	_	_
+13	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+14	абсолютно	абсолютно	ADV	_	Degree=Pos	15	obl	_	_
+15	каждая	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	деталь	деталь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+17	дает	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	Бертону	Бертон	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	iobj	_	_
+19	повод	повод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+20	взять	брать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	obl	_	_
+21	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	24	det	_	_
+22	печальную	печальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+23	красочную	красочный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	24	amod	_	_
+24	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	SpaceAfter=No
+25	-воображение	-воображений	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	позволить	позволять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	20	conj	_	_
+28	раствориться	растворяться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	27	xcomp	_	SpaceAfter=No
+29	,	,	PUNCT	_	_	28	punct	_	_
+30	как	как	SCONJ	_	_	31	mark	_	_
+31	растворилась	растворяться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	27	advcl	_	_
+32	Эмма	Эмма	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	31	nsubj	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	девушка	девушка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+35	полная	полный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
+37	и	и	CCONJ	_	_	40	cc	_	_
+38	поправшая	прать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	40	amod	_	_
+39	Земные	земной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	40	amod	_	_
+40	законы	закон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	34	conj	_	SpaceAfter=No
+41	.	.	PUNCT	_	_	40	punct	_	_
+
+# sent_id = 21
+# text = Бертон способен дать нам положительного героя, хрупкую историю любви и запутанный сюжет, подождите, в конце концов, он создал и армию скелетов сражающихся с гигантскими циклопами в парке развлечений.
+1	Бертон	Бертон	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	способен	способный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	дать	давать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	3	iobj	_	_
+5	положительного	положительный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	героя	герой	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	хрупкую	хрупкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+10	любви	любовь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	и	и	CCONJ	_	_	13	cc	_	_
+12	запутанный	запутанный	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	13	amod	_	_
+13	сюжет	сюжет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	подождите	подождать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	13	conj	_	SpaceAfter=No
+16	,	,	PUNCT	_	_	15	punct	_	_
+17	в	в	ADP	_	_	15	advmod	_	_
+18	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	fixed	_	_
+19	концов	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	fixed	_	SpaceAfter=No
+20	,	,	PUNCT	_	_	19	punct	_	_
+21	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
+22	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	conj	_	_
+23	и	и	PART	_	_	24	discourse	_	_
+24	армию	армия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+25	скелетов	скелет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	сражающихся	сражаться	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	25	acl	_	_
+27	с	с	ADP	_	_	29	case	_	_
+28	гигантскими	гигантский	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	29	amod	_	_
+29	циклопами	циклоп	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	26	obl	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	парке	парк	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	obl	_	_
+32	развлечений	развлечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	31	nmod	_	SpaceAfter=No
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\n
+

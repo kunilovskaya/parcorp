@@ -1,0 +1,3609 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I want to talk to you about the future of medicine .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	talk	talk	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	obl	_	_
+7	about	about	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	future	future	NOUN	NN	Number=Sing	4	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	medicine	medicine	NOUN	NN	Number=Sing	9	nmod	_	_
+12	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 2
+# text = But before I do that , I want to talk a little bit about the past .
+1	But	but	CCONJ	CC	_	8	cc	_	_
+2	before	before	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	do	do	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	obj	_	_
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	_
+8	want	want	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	to	to	PART	TO	_	10	mark	_	_
+10	talk	talk	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	little	little	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	bit	bit	NOUN	NN	Number=Sing	10	obj	_	_
+14	about	about	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	past	past	NOUN	NN	Number=Sing	10	obl	_	_
+17	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 3
+# text = Now , throughout much of the recent history of medicine , we 've thought about illness and treatmentin terms of a profoundly simple model .
+1	Now	now	ADV	RB	_	15	advmod	_	_
+2	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s
+3	throughout	throughout	ADP	IN	_	4	case	_	_
+4	much	much	ADJ	JJ	Degree=Pos	15	obl	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	recent	recent	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	history	history	NOUN	NN	Number=Sing	4	obl	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	medicine	medicine	NOUN	NN	Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s \s
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+13	'	'	PUNCT	``	_	12	punct	_	SpaceAfter=No
+14	ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+16	about	about	ADP	IN	_	20	case	_	_
+17	illness	illness	NOUN	NN	Number=Sing	20	compound	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	treatmentin	treatmentin	NOUN	NN	Number=Sing	17	conj	_	_
+20	terms	term	NOUN	NNS	Number=Plur	15	obl	_	_
+21	of	of	ADP	IN	_	25	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+23	profoundly	profoundly	ADV	RB	_	24	advmod	_	_
+24	simple	simple	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	model	model	NOUN	NN	Number=Sing	20	nmod	_	_
+26	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 4
+# text = In fact , the model is so simple that you could summarize it in six words : have disease , take pill , kill something .
+1	In	in	ADP	IN	_	2	case	_	_
+2	fact	fact	NOUN	NN	Number=Sing	8	obl	_	_
+3	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	model	model	NOUN	NN	Number=Sing	8	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	simple	simple	ADJ	JJ	Degree=Pos	0	root	_	SpacesAfter=\s \s
+9	that	that	SCONJ	IN	_	12	mark	_	_
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	nsubj	_	_
+11	could	could	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	summarize	summarize	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	obj	_	_
+14	in	in	ADP	IN	_	16	case	_	_
+15	six	six	NUM	CD	NumType=Card	16	nummod	_	_
+16	words	word	NOUN	NNS	Number=Plur	12	obl	_	_
+17	:	:	PUNCT	:	_	12	punct	_	SpacesAfter=\s\s \s
+18	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	parataxis	_	_
+19	disease	disease	NOUN	NN	Number=Sing	18	obj	_	_
+20	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\s\s
+21	take	take	NOUN	NN	Number=Sing	22	compound	_	_
+22	pill	pill	NOUN	NN	Number=Sing	19	conj	_	_
+23	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\s\s
+24	kill	kill	VERB	VB	Mood=Imp|VerbForm=Fin	12	conj	_	_
+25	something	something	PRON	NN	Number=Sing	24	obj	_	_
+26	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Now , the reason for the dominance of this model is of course the antibiotic revolution .
+1	Now	now	ADV	RB	_	16	advmod	_	_
+2	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	reason	reason	NOUN	NN	Number=Sing	16	nsubj	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	dominance	dominance	NOUN	NN	Number=Sing	4	nmod	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	model	model	NOUN	NN	Number=Sing	7	nmod	_	SpacesAfter=\s \s
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+12	of	of	ADV	RB	_	16	advmod	_	_
+13	course	course	ADV	RB	_	12	fixed	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	antibiotic	antibiotic	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	revolution	revolution	NOUN	NN	Number=Sing	0	root	_	_
+17	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 6
+# text = Many of you might not know this , but we happen to be celebrating the hundredth year of the introduction of antibiotics into the United States .
+1	Many	many	ADJ	JJ	Degree=Pos	6	nsubj	_	_
+2	of	of	ADP	IN	_	3	case	_	_
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	nmod	_	_
+4	might	might	AUX	MD	VerbForm=Fin	6	aux	_	_
+5	not	not	PART	RB	_	6	advmod	_	_
+6	know	know	VERB	VB	VerbForm=Inf	0	root	_	_
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	obj	_	_
+8	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s
+9	but	but	CCONJ	CC	_	11	cc	_	_
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+11	happen	happen	VERB	VB	VerbForm=Inf	6	conj	_	_
+12	to	to	PART	TO	_	14	mark	_	_
+13	be	be	AUX	VB	VerbForm=Inf	14	aux	_	_
+14	celebrating	celebrat	VERB	VBG	Tense=Pres|VerbForm=Part	11	xcomp	_	SpacesAfter=\s \s
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	hundredth	hundredth	ADJ	JJ	Degree=Pos|NumType=Ord	17	amod	_	_
+17	year	year	NOUN	NN	Number=Sing	14	obl:tmod	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	introduction	introduction	NOUN	NN	Number=Sing	17	nmod	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	antibiotics	antibiotic	NOUN	NNS	Number=Plur	20	nmod	_	_
+23	into	into	ADP	IN	_	26	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+25	United	United	PROPN	NNP	Number=Sing	26	compound	_	_
+26	States	States	PROPN	NNP	Number=Sing	22	nmod	_	_
+27	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 7
+# text = But what you do know is that that introduction was nothing short of transformative .
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	what	what	PRON	WP	PronType=Int	6	nsubj	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	_
+4	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	know	know	VERB	VB	VerbForm=Inf	2	acl:relcl	_	SpacesAfter=\s \s
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	IN	_	11	mark	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	introduction	introduction	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	cop	_	_
+11	nothing	nothing	PRON	NN	Number=Sing	6	ccomp	_	_
+12	short	short	ADJ	JJ	Degree=Pos	11	amod	_	_
+13	of	of	ADP	IN	_	14	case	_	_
+14	transformative	transformative	NOUN	NN	Number=Sing	12	obl	_	_
+15	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = Here you had a chemical , either from the natural world or artificially synthesized in the laboratory , and it would course through your body , it would find its target , lock into its target -- a microbe or some part of a microbe -- and then turn off a lock and a key with exquisite deftness , exquisite specificity .
+1	Here	here	ADV	RB	PronType=Dem	3	advmod	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	chemical	chemical	ADJ	JJ	Degree=Pos	3	obj	_	_
+6	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s
+7	either	either	CCONJ	CC	_	11	cc:preconj	_	_
+8	from	from	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	natural	natural	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	world	world	NOUN	NN	Number=Sing	3	obl	_	SpacesAfter=\s \s
+12	or	or	CCONJ	CC	_	14	cc	_	_
+13	artificially	artificially	ADV	RB	_	14	advmod	_	_
+14	synthesized	synthesize	VERB	VBN	Tense=Past|VerbForm=Part	11	conj	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	laboratory	laboratory	NOUN	NN	Number=Sing	14	obl	_	_
+18	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\s\s \s
+19	and	and	CCONJ	CC	_	22	cc	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	would	would	AUX	MD	VerbForm=Fin	22	aux	_	_
+22	course	course	VERB	VB	VerbForm=Inf	3	conj	_	_
+23	through	through	ADP	IN	_	25	case	_	_
+24	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	25	nmod:poss	_	_
+25	body	body	NOUN	NN	Number=Sing	22	obl	_	_
+26	,	,	PUNCT	,	_	29	punct	_	SpacesAfter=\s\s \s
+27	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+28	would	would	AUX	MD	VerbForm=Fin	29	aux	_	_
+29	find	find	VERB	VB	VerbForm=Inf	3	conj	_	_
+30	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	target	target	NOUN	NN	Number=Sing	29	obj	_	_
+32	,	,	PUNCT	,	_	33	punct	_	SpacesAfter=\s\s \s
+33	lock	lock	NOUN	NN	Number=Sing	31	conj	_	_
+34	into	into	ADP	IN	_	36	case	_	_
+35	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	36	nmod:poss	_	_
+36	target	target	NOUN	NN	Number=Sing	33	nmod	_	_
+37	--	--	PUNCT	,	_	3	punct	_	SpacesAfter=\s \s
+38	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+39	microbe	microbe	NOUN	NN	Number=Sing	3	obj	_	_
+40	or	or	CCONJ	CC	_	42	cc	_	_
+41	some	some	DET	DT	_	42	det	_	_
+42	part	part	NOUN	NN	Number=Sing	39	conj	_	_
+43	of	of	ADP	IN	_	45	case	_	_
+44	a	a	DET	DT	Definite=Ind|PronType=Art	45	det	_	_
+45	microbe	microbe	NOUN	NN	Number=Sing	42	nmod	_	_
+46	--	--	PUNCT	,	_	3	punct	_	SpacesAfter=\s \s
+47	and	and	CCONJ	CC	_	49	cc	_	_
+48	then	then	ADV	RB	PronType=Dem	49	advmod	_	_
+49	turn	turn	VERB	VB	VerbForm=Inf	3	conj	_	_
+50	off	off	ADP	RP	_	49	compound:prt	_	_
+51	a	a	DET	DT	Definite=Ind|PronType=Art	52	det	_	_
+52	lock	lock	NOUN	NN	Number=Sing	49	obj	_	_
+53	and	and	CCONJ	CC	_	55	cc	_	_
+54	a	a	DET	DT	Definite=Ind|PronType=Art	55	det	_	_
+55	key	key	NOUN	NN	Number=Sing	3	conj	_	SpacesAfter=\s \s
+56	with	with	ADP	IN	_	58	case	_	_
+57	exquisite	exquisite	ADJ	JJ	Degree=Pos	58	amod	_	_
+58	deftness	deftness	NOUN	NNS	Number=Plur	55	nmod	_	_
+59	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s
+60	exquisite	exquisite	ADJ	JJ	Degree=Pos	61	amod	_	_
+61	specificity	specificity	NOUN	NN	Number=Sing	3	obj	_	_
+62	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 9
+# text = And you would end up taking a previously fatal , lethal disease -- a pneumonia , syphilis , tuberculosis -- and transforming that into a curable , or treatable illness .
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	end	end	VERB	VB	VerbForm=Inf	0	root	_	_
+5	up	up	ADP	RP	_	4	compound:prt	_	_
+6	taking	take	VERB	VBG	VerbForm=Ger	4	advcl	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+8	previously	previously	ADV	RB	_	9	advmod	_	_
+9	fatal	fatal	ADJ	JJ	Degree=Pos	12	amod	_	_
+10	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+11	lethal	lethal	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	disease	disease	NOUN	NN	Number=Sing	6	obj	_	_
+13	--	--	PUNCT	,	_	4	punct	_	SpacesAfter=\s \s
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	pneumonia	pneumonia	NOUN	NN	Number=Sing	4	obj	_	_
+16	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s
+17	syphilis	syphilis	NOUN	NNS	Number=Plur	15	conj	_	_
+18	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s
+19	tuberculosis	tuberculosis	NOUN	NN	Number=Sing	15	conj	_	_
+20	--	--	PUNCT	,	_	15	punct	_	SpacesAfter=\s \s
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	transforming	transform	VERB	VBG	VerbForm=Ger	4	conj	_	_
+23	that	that	SCONJ	IN	_	30	mark	_	_
+24	into	into	ADP	IN	_	30	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+26	curable	curable	ADJ	JJ	Degree=Pos	30	amod	_	_
+27	,	,	PUNCT	,	_	29	punct	_	SpacesAfter=\s\s
+28	or	or	CCONJ	CC	_	29	cc	_	_
+29	treatable	treatable	ADJ	JJ	Degree=Pos	26	conj	_	_
+30	illness	illness	NOUN	NN	Number=Sing	22	obl	_	_
+31	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 10
+# text = You have a pneumonia , you take penicillin , you kill the microbeand you cure the disease .
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	pneumonia	pneumonia	NOUN	NN	Number=Sing	2	obj	_	_
+5	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s \s
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+8	penicillin	penicillin	NOUN	NN	Number=Sing	7	obj	_	_
+9	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s \s
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+11	kill	kill	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	microbeand	microbeand	NOUN	NN	Number=Sing	11	obj	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	cure	cure	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	disease	disease	NOUN	NN	Number=Sing	15	obj	_	_
+18	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = So seductive was this idea , so potent the metaphor of lock and key and killing something , that it really swept through biology .
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	seductive	seductive	ADJ	JJ	Degree=Pos	5	nsubj	_	_
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	idea	idea	NOUN	NN	Number=Sing	0	root	_	_
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s \s
+7	so	so	ADV	RB	_	8	advmod	_	_
+8	potent	potent	VERB	VB	Mood=Imp|VerbForm=Fin	5	parataxis	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	metaphor	metaphor	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	lock	lock	NOUN	NN	Number=Sing	10	nmod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	key	key	ADJ	JJ	Degree=Pos	12	conj	_	SpacesAfter=\s \s
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	killing	kill	VERB	VBG	VerbForm=Ger	8	conj	_	_
+17	something	something	PRON	NN	Number=Sing	16	obj	_	_
+18	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s \s
+19	that	that	SCONJ	IN	_	22	mark	_	_
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
+21	really	really	ADV	RB	_	22	advmod	_	_
+22	swept	sweep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	advcl	_	_
+23	through	through	ADP	IN	_	24	case	_	_
+24	biology	biology	NOUN	NN	Number=Sing	22	obl	_	_
+25	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 12
+# text = It was a transformation like no other .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	transformation	transformation	NOUN	NN	Number=Sing	0	root	_	_
+5	like	like	ADP	IN	_	7	case	_	_
+6	no	no	DET	DT	_	7	det	_	_
+7	other	other	ADJ	JJ	Degree=Pos	4	nmod	_	_
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 13
+# text = And we 've really spent the last 100 yearstrying to replicate that model over and over again in noninfectious diseases , in chronic diseases like diabetes and hypertension and heart disease .
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	_
+3	'	'	PART	POS	_	2	case	_	SpaceAfter=No
+4	ve	have	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	really	really	ADV	RB	_	6	advmod	_	_
+6	spent	spend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	last	last	ADJ	JJ	Degree=Pos	6	obj	_	_
+9	100	100	NUM	CD	NumType=Card	10	nummod	_	_
+10	yearstrying	yearstry	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	replicate	replicate	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	model	model	NOUN	NN	Number=Sing	12	obj	_	_
+15	over	over	ADV	RB	_	12	advmod	_	_
+16	and	and	CCONJ	CC	_	21	cc	_	_
+17	over	over	ADV	RB	_	18	advmod	_	_
+18	again	again	ADV	RB	_	21	advmod	_	SpacesAfter=\s \s
+19	in	in	ADP	IN	_	21	case	_	_
+20	noninfectious	noninfectious	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	diseases	disease	NOUN	NNS	Number=Plur	6	conj	_	_
+22	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\s\s \s
+23	in	in	ADP	IN	_	25	case	_	_
+24	chronic	chronic	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	diseases	diseasis	NOUN	NNS	Number=Plur	6	obl	_	_
+26	like	like	ADP	IN	_	27	case	_	_
+27	diabetes	diabete	NOUN	NNS	Number=Plur	25	nmod	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	hypertension	hypertension	NOUN	NN	Number=Sing	27	conj	_	_
+30	and	and	CCONJ	CC	_	32	cc	_	_
+31	heart	heart	NOUN	NN	Number=Sing	32	compound	_	_
+32	disease	disease	NOUN	NN	Number=Sing	27	conj	_	_
+33	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 14
+# text = And it 's worked , but it 's only worked partly .
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj:pass	_	_
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	worked	work	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+6	but	but	CCONJ	CC	_	10	cc	_	_
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj:pass	_	_
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+9	only	only	ADV	RB	_	10	advmod	_	_
+10	worked	work	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+11	partly	partly	ADV	RB	_	10	advmod	_	_
+12	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 15
+# text = Let me show you .
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	obj	_	_
+3	show	show	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	obj	_	_
+5	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 16
+# text = You know , if you take the entire universe of all chemical reactions in the human body , every chemical reaction that your body is capable of , most people think that that number is on the order of a million .
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	advcl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	entire	entire	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	universe	universe	NOUN	NN	Number=Sing	6	obj	_	SpacesAfter=\s \s
+10	of	of	ADP	IN	_	13	case	_	_
+11	all	all	DET	DT	_	13	det	_	_
+12	chemical	chemical	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	reactions	reaction	NOUN	NNS	Number=Plur	9	nmod	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	human	human	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	body	body	NOUN	NN	Number=Sing	13	nmod	_	_
+18	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s \s
+19	every	every	DET	DT	_	21	det	_	_
+20	chemical	chemical	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	reaction	reaction	NOUN	NN	Number=Sing	2	parataxis	_	_
+22	that	that	SCONJ	IN	_	26	mark	_	_
+23	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	body	body	NOUN	NN	Number=Sing	26	nsubj	_	_
+25	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	capable	capable	ADJ	JJ	Degree=Pos	21	acl	_	_
+27	of	of	ADP	IN	_	26	obl	_	_
+28	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s \s
+29	most	most	ADJ	JJS	Degree=Sup	30	amod	_	_
+30	people	people	NOUN	NNS	Number=Plur	31	nsubj	_	_
+31	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+32	that	that	SCONJ	IN	_	38	mark	_	_
+33	that	that	DET	DT	Number=Sing|PronType=Dem	34	det	_	_
+34	number	number	NOUN	NN	Number=Sing	38	nsubj	_	_
+35	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	cop	_	_
+36	on	on	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	order	order	NOUN	NN	Number=Sing	31	ccomp	_	_
+39	of	of	ADP	IN	_	41	case	_	_
+40	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	_	_
+41	million	million	NUM	CD	NumType=Card	38	nmod	_	_
+42	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 17
+# text = Let 's call it a million .
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	's	's	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	obj	_	_
+3	call	call	VERB	VB	VerbForm=Inf	1	xcomp	_	_
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	iobj	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	million	million	NOUN	NN	Number=Sing	3	obj	_	_
+7	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 18
+# text = And now you ask the question , what number or fraction of reactions can actually be targeted by the entire pharmacopoeia , all of medicinal chemistry
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	now	now	ADV	RB	_	4	advmod	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	ask	ask	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	question	question	NOUN	NN	Number=Sing	4	obj	_	_
+7	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s \s
+8	what	what	DET	WDT	PronType=Int	9	det	_	_
+9	number	number	NOUN	NN	Number=Sing	17	nsubj:pass	_	_
+10	or	or	CCONJ	CC	_	11	cc	_	_
+11	fraction	fraction	NOUN	NN	Number=Sing	9	conj	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	reactions	reaction	NOUN	NNS	Number=Plur	9	nmod	_	SpacesAfter=\s \s
+14	can	can	AUX	MD	VerbForm=Fin	17	aux	_	_
+15	actually	actually	ADV	RB	_	17	advmod	_	_
+16	be	be	AUX	VB	VerbForm=Inf	17	aux:pass	_	_
+17	targeted	target	VERB	VBN	Tense=Past|VerbForm=Part	6	acl	_	SpacesAfter=\s \s
+18	by	by	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	entire	entire	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	pharmacopoeia	pharmacopoeia	NOUN	NN	Number=Sing	17	obl	_	_
+22	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\s\s
+23	all	all	DET	DT	_	4	conj	_	_
+24	of	of	ADP	IN	_	26	case	_	_
+25	medicinal	medicinal	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	chemistry	chemistry	NOUN	NN	Number=Sing	23	nmod	_	SpacesAfter=\s \s
+
+# sent_id = 19
+# text = That number is 250 .
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	number	number	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	250	250	NUM	CD	NumType=Card	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 20
+# text = The rest is chemical darkness .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	rest	rest	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	chemical	chemical	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	darkness	darkness	NOUN	NN	Number=Sing	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 21
+# text = In other words , 0 . 025 percent of all chemical reactions in your body are actually targetable by this lock and key mechanism .
+1	In	in	ADP	IN	_	3	case	_	_
+2	other	other	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	words	word	NOUN	NNS	Number=Plur	18	obl	_	_
+4	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+5	0	0	NUM	CD	NumType=Card	3	nummod	_	_
+6	.	.	PUNCT	.	_	18	punct	_	_
+7	025	025	NUM	CD	NumType=Card	8	nummod	_	_
+8	percent	percent	NOUN	NN	Number=Sing	18	nsubj	_	_
+9	of	of	ADP	IN	_	12	case	_	_
+10	all	all	DET	DT	_	12	det	_	_
+11	chemical	chemical	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	reactions	reaction	NOUN	NNS	Number=Plur	8	nmod	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	body	body	NOUN	NN	Number=Sing	12	nmod	_	SpacesAfter=\s \s
+16	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+17	actually	actually	ADV	RB	_	18	advmod	_	_
+18	targetable	targetable	ADJ	JJ	Degree=Pos	24	amod	_	_
+19	by	by	ADP	IN	_	21	case	_	_
+20	this	this	DET	DT	Number=Sing|PronType=Dem	21	det	_	_
+21	lock	lock	NOUN	NN	Number=Sing	18	obl	_	_
+22	and	and	CCONJ	CC	_	23	cc	_	_
+23	key	key	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	mechanism	mechanism	NOUN	NN	Number=Sing	0	root	_	_
+25	.	.	PUNCT	.	_	24	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 22
+# text = You know , if you think about human physiology as a vast global telephone network with interacting nodes and interacting pieces , then all of our medicinal chemistry is operating on one tiny corner at the edge , the outer edge , of that network .
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+4	if	if	SCONJ	IN	_	6	mark	_	_
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	advcl	_	_
+7	about	about	ADP	IN	_	9	case	_	_
+8	human	human	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	physiology	physiology	NOUN	NN	Number=Sing	6	obl	_	SpacesAfter=\s \s
+10	as	as	ADP	IN	_	15	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+12	vast	vast	ADJ	JJ	Degree=Pos	15	amod	_	_
+13	global	global	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	telephone	telephone	NOUN	NN	Number=Sing	15	compound	_	_
+15	network	network	NOUN	NN	Number=Sing	6	obl	_	SpacesAfter=\s \s
+16	with	with	SCONJ	IN	_	17	mark	_	_
+17	interacting	interact	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+18	nodes	node	NOUN	NNS	Number=Plur	17	obj	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	interacting	interact	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	pieces	piece	NOUN	NNS	Number=Plur	18	conj	_	_
+22	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s \s
+23	then	then	ADV	RB	PronType=Dem	30	advmod	_	_
+24	all	all	DET	DT	_	30	nsubj	_	_
+25	of	of	ADP	IN	_	28	case	_	_
+26	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	28	nmod:poss	_	_
+27	medicinal	medicinal	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	chemistry	chemistry	NOUN	NN	Number=Sing	24	nmod	_	SpacesAfter=\s \s
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	_
+30	operating	operate	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	_
+31	on	on	ADP	IN	_	34	case	_	_
+32	one	one	NUM	CD	NumType=Card	34	nummod	_	_
+33	tiny	tiny	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	corner	corner	NOUN	NN	Number=Sing	30	obl	_	SpacesAfter=\s \s
+35	at	at	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	edge	edge	NOUN	NN	Number=Sing	34	nmod	_	_
+38	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+39	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+40	outer	outer	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	edge	edge	NOUN	NN	Number=Sing	2	obj	_	_
+42	,	,	PUNCT	,	_	41	punct	_	SpacesAfter=\s\s
+43	of	of	ADP	IN	_	45	case	_	_
+44	that	that	DET	DT	Number=Sing|PronType=Dem	45	det	_	_
+45	network	network	NOUN	NN	Number=Sing	41	nmod	_	_
+46	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 23
+# text = It 's like all of our pharmaceutical chemistry is a pole operator in Wichita , Kansas who is tinkering with about 10 or 15 telephone lines .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+3	like	like	ADP	IN	_	12	mark	_	_
+4	all	all	DET	DT	_	12	nsubj	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+7	pharmaceutical	pharmaceutical	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	chemistry	chemistry	NOUN	NN	Number=Sing	4	nmod	_	SpacesAfter=\s \s
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	pole	pole	NOUN	NN	Number=Sing	12	compound	_	_
+12	operator	operator	NOUN	NN	Number=Sing	0	root	_	_
+13	in	in	ADP	IN	_	14	case	_	_
+14	Wichita	Wichita	PROPN	NNP	Number=Sing	12	nmod	_	_
+15	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+16	Kansas	Kansas	PROPN	NNP	Number=Sing	14	appos	_	SpacesAfter=\s \s
+17	who	who	PRON	WP	PronType=Rel	19	nsubj	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	tinkering	tinker	VERB	VBG	Tense=Pres|VerbForm=Part	16	acl:relcl	_	_
+20	with	with	ADP	IN	_	26	case	_	_
+21	about	about	ADP	IN	_	26	case	_	_
+22	10	10	NUM	CD	NumType=Card	25	nummod	_	_
+23	or	or	CCONJ	CC	_	24	cc	_	_
+24	15	15	NUM	CD	NumType=Card	22	conj	_	_
+25	telephone	telephone	NOUN	NN	Number=Sing	26	compound	_	_
+26	lines	line	NOUN	NNS	Number=Plur	19	obl	_	_
+27	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 24
+# text = So what do we do about this idea
+1	So	so	ADV	RB	_	5	advmod	_	_
+2	what	what	PRON	WP	PronType=Int	5	obj	_	_
+3	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+6	about	about	ADP	IN	_	8	case	_	_
+7	this	this	DET	DT	Number=Sing|PronType=Dem	8	det	_	_
+8	idea	idea	NOUN	NN	Number=Sing	5	obl	_	SpacesAfter=\s \s
+
+# sent_id = 25
+# text = What if we reorganized this approach
+1	What	what	PRON	WP	PronType=Int	0	root	_	_
+2	if	if	SCONJ	IN	_	4	mark	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	reorganized	reorganize	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	advcl	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	approach	approach	NOUN	NN	Number=Sing	4	obj	_	SpacesAfter=\s \s
+
+# sent_id = 26
+# text = In fact , it turns out that the natural world gives us a sense of how one might think about illness in a radically different way , rather than disease , medicine , target .
+1	In	in	ADP	IN	_	2	case	_	_
+2	fact	fact	NOUN	NN	Number=Sing	5	obl	_	_
+3	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+5	turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	out	out	ADP	RP	_	5	compound:prt	_	_
+7	that	that	SCONJ	IN	_	11	mark	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	natural	natural	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	world	world	NOUN	NN	Number=Sing	11	nsubj	_	SpacesAfter=\s \s
+11	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+12	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	iobj	_	_
+13	a	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	sense	sense	NOUN	NN	Number=Sing	11	obj	_	_
+15	of	of	ADP	IN	_	19	case	_	_
+16	how	how	ADV	WRB	PronType=Int	19	advmod	_	_
+17	one	one	NUM	CD	NumType=Card	19	nsubj	_	_
+18	might	might	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	think	think	VERB	VB	VerbForm=Inf	14	acl	_	_
+20	about	about	ADP	IN	_	21	case	_	_
+21	illness	illness	NOUN	NN	Number=Sing	19	obl	_	SpacesAfter=\s \s
+22	in	in	ADP	IN	_	26	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+24	radically	radically	ADV	RB	_	25	advmod	_	_
+25	different	different	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	way	way	NOUN	NN	Number=Sing	19	obl	_	_
+27	,	,	PUNCT	,	_	30	punct	_	SpacesAfter=\s\s \s
+28	rather	rather	ADV	RB	_	30	cc	_	_
+29	than	than	ADP	IN	_	28	fixed	_	_
+30	disease	disease	NOUN	NN	Number=Sing	19	conj	_	_
+31	,	,	PUNCT	,	_	32	punct	_	SpacesAfter=\s\s
+32	medicine	medicine	NOUN	NN	Number=Sing	19	conj	_	_
+33	,	,	PUNCT	,	_	34	punct	_	SpacesAfter=\s\s
+34	target	target	NOUN	NN	Number=Sing	19	conj	_	_
+35	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 27
+# text = In fact , the natural world is organized hierarchically upwards , not downwards , but upwards , and we begin with a self-regulating , semi-autonomous unit called a cell .
+1	In	in	ADP	IN	_	2	case	_	_
+2	fact	fact	NOUN	NN	Number=Sing	8	obl	_	_
+3	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	natural	natural	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	world	world	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	organized	organize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	hierarchically	hierarchically	ADV	RB	_	10	advmod	_	_
+10	upwards	upwards	ADV	RB	_	8	advmod	_	_
+11	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s \s
+12	not	not	ADV	RB	_	13	advmod	_	_
+13	downwards	downwards	ADV	RB	_	8	advmod	_	_
+14	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+15	but	but	CCONJ	CC	_	16	cc	_	_
+16	upwards	upward	NOUN	NNS	Number=Plur	8	conj	_	_
+17	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\s\s \s
+18	and	and	CCONJ	CC	_	20	cc	_	_
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+20	begin	begin	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
+21	with	with	ADP	IN	_	25	mark	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	self	self	NOUN	NN	Number=Sing	25	nsubj	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	23	punct	_	SpaceAfter=No
+25	regulating	regulate	VERB	VBG	VerbForm=Ger	29	advcl	_	_
+26	,	,	PUNCT	,	_	29	punct	_	SpacesAfter=\s\s
+27	semi-autonomous	semi-autonomous	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	unit	unit	NOUN	NN	Number=Sing	29	nsubj	_	_
+29	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	conj	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	cell	cell	NOUN	NN	Number=Sing	29	obj	_	_
+32	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 28
+# text = These self-regulating , semi-autonomous units give rise to self-regulating , semi-autonomous units called organs , and these organs coalesce to form things called humans , and these organisms ultimately live in environments , which are partly self-regulating and partly semi-autonomous .
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	self	self	NOUN	NN	Number=Sing	4	nsubj	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	punct	_	SpaceAfter=No
+4	regulating	regulating	VERB	VBG	VerbForm=Ger	8	advcl	_	_
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+6	semi-autonomous	semi-autonomous	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	units	unit	NOUN	NNS	Number=Plur	8	nsubj	_	SpacesAfter=\s \s
+8	give	give	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	rise	rise	NOUN	NN	Number=Sing	8	obj	_	_
+10	to	to	ADP	IN	_	11	case	_	_
+11	self	self	NOUN	NN	Number=Sing	9	nmod	_	SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+13	regulating	regulating	VERB	VBG	VerbForm=Ger	8	conj	_	_
+14	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+15	semi-autonomous	semi-autonomous	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	units	unit	NOUN	NNS	Number=Plur	13	obj	_	_
+17	called	call	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	_	_
+18	organs	organ	NOUN	NNS	Number=Plur	17	xcomp	_	_
+19	,	,	PUNCT	,	_	23	punct	_	_
+20	and	and	CCONJ	CC	_	23	cc	_	_
+21	these	these	DET	DT	Number=Plur|PronType=Dem	23	det	_	_
+22	organs	organ	NOUN	NNS	Number=Plur	23	compound	_	_
+23	coalesce	coalesce	NOUN	NN	Number=Sing	8	conj	_	_
+24	to	to	PART	TO	_	25	mark	_	_
+25	form	form	VERB	VB	VerbForm=Inf	23	acl	_	_
+26	things	thing	NOUN	NNS	Number=Plur	25	obj	_	_
+27	called	call	VERB	VBN	Tense=Past|VerbForm=Part	26	acl	_	_
+28	humans	human	NOUN	NNS	Number=Plur	27	xcomp	_	_
+29	,	,	PUNCT	,	_	34	punct	_	SpacesAfter=\s\s \s
+30	and	and	CCONJ	CC	_	34	cc	_	_
+31	these	these	DET	DT	Number=Plur|PronType=Dem	32	det	_	_
+32	organisms	organism	NOUN	NNS	Number=Plur	34	nsubj	_	_
+33	ultimately	ultimately	ADV	RB	_	34	advmod	_	_
+34	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
+35	in	in	ADP	IN	_	36	case	_	_
+36	environments	environment	NOUN	NNS	Number=Plur	34	obl	_	_
+37	,	,	PUNCT	,	_	36	punct	_	SpacesAfter=\s\s \s
+38	which	which	PRON	WDT	PronType=Rel	43	nsubj	_	_
+39	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	43	cop	_	_
+40	partly	partly	ADV	RB	_	41	advmod	_	_
+41	self	self	NOUN	NN	Number=Sing	43	compound	_	SpaceAfter=No
+42	-	-	PUNCT	HYPH	_	41	punct	_	SpaceAfter=No
+43	regulating	regulate	VERB	VBG	VerbForm=Ger	36	acl:relcl	_	_
+44	and	and	CCONJ	CC	_	46	cc	_	_
+45	partly	partly	ADV	RB	_	46	advmod	_	_
+46	semi-autonomous	semi-autonomous	ADJ	JJ	Degree=Pos	43	conj	_	_
+47	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 29
+# text = What 's nice about this scheme , this hierarchical scheme building upwards rather than downwards , is that it allows us to think about illness as well in a somewhat different way .
+1	What	what	PRON	WP	PronType=Int	3	nsubj	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	nice	nice	ADJ	JJ	Degree=Pos	0	root	_	_
+4	about	about	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	scheme	scheme	NOUN	NN	Number=Sing	3	obl	_	_
+7	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+8	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+9	hierarchical	hierarchical	ADJ	JJ	Degree=Pos	12	amod	_	_
+10	scheme	scheme	NOUN	NN	Number=Sing	11	compound	_	SpacesAfter=\s \s
+11	building	building	NOUN	NN	Number=Sing	12	compound	_	_
+12	upwards	upward	NOUN	NNS	Number=Plur	3	conj	_	_
+13	rather	rather	ADV	RB	_	15	cc	_	_
+14	than	than	ADP	IN	_	13	fixed	_	_
+15	downwards	downward	NOUN	NNS	Number=Plur	12	conj	_	_
+16	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s \s
+17	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+18	that	that	SCONJ	IN	_	20	mark	_	_
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	_
+20	allows	allow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	_	_
+21	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	20	obj	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	think	think	VERB	VB	VerbForm=Inf	20	xcomp	_	_
+24	about	about	ADP	IN	_	25	case	_	_
+25	illness	illness	NOUN	NN	Number=Sing	23	obl	_	_
+26	as	as	ADV	RB	_	32	advmod	_	_
+27	well	well	ADV	RB	Degree=Pos	26	fixed	_	SpacesAfter=\s \s
+28	in	in	ADP	IN	_	32	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	32	det	_	_
+30	somewhat	somewhat	ADV	RB	_	31	advmod	_	_
+31	different	different	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	way	way	NOUN	NN	Number=Sing	23	obl	_	_
+33	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 30
+# text = Take a disease like cancer .
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	disease	disease	NOUN	NN	Number=Sing	1	obj	_	_
+4	like	like	ADP	IN	_	5	case	_	_
+5	cancer	cancer	NOUN	NN	Number=Sing	3	nmod	_	_
+6	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 31
+# text = Since the 1950s , we 've tried rather desperately to apply this lock and key model to cancer .
+1	Since	since	SCONJ	IN	_	3	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	1950s	1950	NOUN	NNS	Number=Plur	8	advcl	_	_
+4	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s \s
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj:pass	_	_
+6	'	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+7	ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	aux:pass	_	_
+8	tried	try	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+9	rather	rather	ADV	RB	_	12	advmod	_	_
+10	desperately	desperately	ADV	RB	_	9	fixed	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	apply	apply	VERB	VB	VerbForm=Inf	8	xcomp	_	_
+13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	lock	lock	NOUN	NN	Number=Sing	12	obj	_	_
+15	and	and	CCONJ	CC	_	17	cc	_	_
+16	key	key	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	model	model	NOUN	NN	Number=Sing	14	conj	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	cancer	cancer	VERB	VB	VerbForm=Inf	12	xcomp	_	_
+20	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 32
+# text = We 've tried to kill cells using a variety of chemotherapies or targeted therapies , and as most of us know , that 's worked .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj:pass	_	_
+2	'	'	PUNCT	``	_	1	punct	_	SpaceAfter=No
+3	ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	tried	try	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	kill	kill	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	cells	cell	NOUN	NNS	Number=Plur	6	obj	_	SpacesAfter=\s \s
+8	using	use	VERB	VBG	VerbForm=Ger	7	acl	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	variety	variety	NOUN	NN	Number=Sing	8	obj	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	chemotherapies	chemotherapy	NOUN	NNS	Number=Plur	10	nmod	_	_
+13	or	or	CCONJ	CC	_	15	cc	_	_
+14	targeted	target	VERB	VBN	Tense=Past|VerbForm=Part	15	amod	_	_
+15	therapies	therapy	NOUN	NNS	Number=Plur	12	conj	_	_
+16	,	,	PUNCT	,	_	26	punct	_	SpacesAfter=\s\s \s
+17	and	and	CCONJ	CC	_	26	cc	_	_
+18	as	as	SCONJ	IN	_	22	mark	_	_
+19	most	most	ADJ	JJS	Degree=Sup	22	nsubj	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	19	nmod	_	_
+22	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+23	,	,	PUNCT	,	_	26	punct	_	SpacesAfter=\s\s
+24	that	that	PRON	DT	Number=Sing|PronType=Dem	26	nsubj:pass	_	_
+25	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	aux:pass	_	_
+26	worked	work	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+27	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 33
+# text = It 's worked for diseases like leukemia .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	worked	work	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	for	for	ADP	IN	_	5	case	_	_
+5	diseases	diseasis	NOUN	NNS	Number=Plur	3	obl	_	_
+6	like	like	ADP	IN	_	7	case	_	_
+7	leukemia	leukemia	NOUN	NN	Number=Sing	5	nmod	_	_
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 34
+# text = It 's worked for some forms of breast cancer , but eventually you run to the ceiling of that approach .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	worked	work	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	for	for	ADP	IN	_	6	case	_	_
+5	some	some	DET	DT	_	6	det	_	_
+6	forms	form	NOUN	NNS	Number=Plur	3	obl	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	breast	breast	NOUN	NN	Number=Sing	9	compound	_	_
+9	cancer	cancer	NOUN	NN	Number=Sing	6	nmod	_	_
+10	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s \s
+11	but	but	CCONJ	CC	_	14	cc	_	_
+12	eventually	eventually	ADV	RB	_	14	advmod	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	run	run	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	ceiling	ceiling	NOUN	NN	Number=Sing	14	obl	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	that	that	DET	DT	Number=Sing|PronType=Dem	20	det	_	_
+20	approach	approach	NOUN	NN	Number=Sing	17	nmod	_	_
+21	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 35
+# text = And it 's only in the last 10 years or so that we 've begun to think about using the immune system , remembering that in fact the cancer cell doesn't grow in a vacuum .
+1	And	and	CCONJ	CC	_	9	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+4	only	only	ADV	RB	_	9	advmod	_	_
+5	in	in	ADP	IN	_	9	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+7	last	last	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	10	10	NUM	CD	NumType=Card	9	nummod	_	_
+9	years	year	NOUN	NNS	Number=Plur	0	root	_	_
+10	or	or	CCONJ	CC	_	16	cc	_	_
+11	so	so	ADV	RB	_	16	advmod	_	SpacesAfter=\s \s
+12	that	that	SCONJ	IN	_	16	mark	_	_
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+14	'	'	PUNCT	``	_	13	punct	_	SpaceAfter=No
+15	ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	aux	_	_
+16	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	9	conj	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	think	think	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	about	about	SCONJ	IN	_	20	mark	_	_
+20	using	use	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	immune	immune	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	system	system	NOUN	NN	Number=Sing	20	obj	_	_
+24	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\s\s \s
+25	remembering	remember	VERB	VBG	VerbForm=Ger	18	ccomp	_	_
+26	that	that	PRON	DT	Number=Sing|PronType=Dem	25	obj	_	_
+27	in	in	ADP	IN	_	28	case	_	_
+28	fact	fact	NOUN	NN	Number=Sing	34	obl	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+30	cancer	cancer	NOUN	NN	Number=Sing	31	compound	_	_
+31	cell	cell	NOUN	NN	Number=Sing	34	nsubj	_	_
+32	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	aux	_	SpaceAfter=No
+33	n't	not	PART	RB	_	34	advmod	_	_
+34	grow	grow	VERB	VB	VerbForm=Inf	25	ccomp	_	_
+35	in	in	ADP	IN	_	37	case	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+37	vacuum	vacuum	NOUN	NN	Number=Sing	34	obl	_	_
+38	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 36
+# text = It actually grows in a human organism .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	actually	actually	ADV	RB	_	3	advmod	_	_
+3	grows	grow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	7	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	human	human	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	organism	organism	NOUN	NN	Number=Sing	3	obl	_	_
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 37
+# text = And could you use the organismal capacity , the fact that human beings have an immune system , to attack cancer
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	use	use	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	organismal	organismal	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	capacity	capacity	NOUN	NN	Number=Sing	4	obj	_	_
+8	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\s\s \s
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	fact	fact	NOUN	NN	Number=Sing	4	obj	_	_
+11	that	that	SCONJ	IN	_	14	mark	_	_
+12	human	human	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	beings	being	NOUN	NNS	Number=Plur	14	nsubj	_	_
+14	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	20	ccomp	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	immune	immune	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	system	system	NOUN	NN	Number=Sing	14	obj	_	_
+18	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+19	to	to	PART	TO	_	20	mark	_	_
+20	attack	attack	VERB	VB	VerbForm=Inf	10	acl	_	_
+21	cancer	cancer	NOUN	NN	Number=Sing	20	obj	_	SpacesAfter=\s \s
+
+# sent_id = 38
+# text = In fact , it 's led to the some of the most spectacular new medicines in cancer .
+1	In	in	ADP	IN	_	2	case	_	_
+2	fact	fact	NOUN	NN	Number=Sing	6	obl	_	_
+3	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\s\s
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+6	led	lead	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	to	to	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	some	some	DET	DT	_	6	obl	_	_
+10	of	of	ADP	IN	_	15	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+12	most	most	ADV	RBS	_	13	advmod	_	_
+13	spectacular	spectacular	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	new	new	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	medicines	medicine	NOUN	NNS	Number=Plur	9	nmod	_	_
+16	in	in	ADP	IN	_	17	case	_	_
+17	cancer	cancer	NOUN	NN	Number=Sing	15	nmod	_	_
+18	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 39
+# text = And finally there 's the level of the environment , isn't there
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	finally	finally	ADV	RB	_	4	advmod	_	_
+3	there	there	PRON	EX	_	4	expl	_	_
+4	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	level	level	NOUN	NN	Number=Sing	4	nsubj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	environment	environment	NOUN	NN	Number=Sing	6	nmod	_	_
+10	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	SpaceAfter=No
+12	n't	not	PART	RB	_	13	advmod	_	_
+13	there	there	ADV	RB	PronType=Dem	4	advmod	_	SpacesAfter=\s \s
+
+# sent_id = 40
+# text = You know , we don't think of cancer as altering the environment .
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	SpaceAfter=No
+6	n't	not	PART	RB	_	7	advmod	_	_
+7	think	think	VERB	VB	VerbForm=Inf	2	parataxis	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	cancer	cancer	NOUN	NN	Number=Sing	7	obl	_	_
+10	as	as	SCONJ	IN	_	11	mark	_	_
+11	altering	alter	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	environment	environment	NOUN	NN	Number=Sing	11	obj	_	_
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 41
+# text = But let me give you an example of a profoundly carcinogenic environment .
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	give	give	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	iobj	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	example	example	NOUN	NN	Number=Sing	4	obj	_	_
+8	of	of	ADP	IN	_	12	case	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+10	profoundly	profoundly	ADJ	JJ	Degree=Pos	12	amod	_	_
+11	carcinogenic	carcinogenic	NOUN	NN	Number=Sing	12	compound	_	_
+12	environment	environment	NOUN	NN	Number=Sing	7	nmod	_	_
+13	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 42
+# text = It 's called a prison .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj:pass	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	_	_
+3	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	prison	prison	NOUN	NN	Number=Sing	3	xcomp	_	_
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 43
+# text = You take loneliness , you take depression , you take confinement , and you add to that , rolled up in a little white sheet of paper , one of the most potent neurostimulants that we know , called nicotine , and you add to that one of the most potent addictive substances that you know , and you have a pro-carcinogenic environment .
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	loneliness	loneliness	NOUN	NNS	Number=Plur	2	obj	_	_
+4	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+6	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+7	depression	depression	NOUN	NN	Number=Sing	6	obj	_	_
+8	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	take	take	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+11	confinement	confinement	NOUN	NN	Number=Sing	10	obj	_	_
+12	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s \s
+13	and	and	CCONJ	CC	_	15	cc	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+15	add	add	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	that	that	PRON	DT	Number=Sing|PronType=Dem	15	obl	_	_
+18	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s \s
+19	rolled	roll	VERB	VBN	Tense=Past|VerbForm=Part	15	xcomp	_	_
+20	up	up	ADP	RP	_	19	compound:prt	_	_
+21	in	in	ADP	IN	_	25	case	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+23	little	little	ADJ	JJ	Degree=Pos	25	amod	_	_
+24	white	white	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	sheet	sheet	NOUN	NN	Number=Sing	19	obl	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	paper	paper	NOUN	NN	Number=Sing	25	nmod	_	_
+28	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s \s
+29	one	one	NUM	CD	NumType=Card	2	obj	_	_
+30	of	of	ADP	IN	_	34	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+32	most	most	ADV	RBS	_	33	advmod	_	_
+33	potent	potent	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	neurostimulants	neurostimulant	NOUN	NNS	Number=Plur	29	nmod	_	_
+35	that	that	PRON	WDT	PronType=Rel	37	obj	_	_
+36	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	37	nsubj	_	_
+37	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	_
+38	,	,	PUNCT	,	_	39	punct	_	SpacesAfter=\s\s
+39	called	call	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+40	nicotine	nicotine	NUM	CD	NumType=Card	39	obj	_	_
+41	,	,	PUNCT	,	_	44	punct	_	SpacesAfter=\s\s \s
+42	and	and	CCONJ	CC	_	44	cc	_	_
+43	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	44	nsubj	_	_
+44	add	add	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+45	to	to	ADP	IN	_	47	case	_	_
+46	that	that	DET	DT	Number=Sing|PronType=Dem	47	det	_	_
+47	one	one	NOUN	NN	Number=Sing	44	obl	_	_
+48	of	of	ADP	IN	_	53	case	_	_
+49	the	the	DET	DT	Definite=Def|PronType=Art	53	det	_	_
+50	most	most	ADV	RBS	_	51	advmod	_	_
+51	potent	potent	ADJ	JJ	Degree=Pos	53	amod	_	_
+52	addictive	addictive	ADJ	JJ	Degree=Pos	53	amod	_	_
+53	substances	substance	NOUN	NNS	Number=Plur	47	nmod	_	_
+54	that	that	PRON	WDT	PronType=Rel	56	obj	_	_
+55	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	56	nsubj	_	_
+56	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	53	acl:relcl	_	_
+57	,	,	PUNCT	,	_	60	punct	_	SpacesAfter=\s\s \s
+58	and	and	CCONJ	CC	_	60	cc	_	_
+59	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	60	nsubj	_	_
+60	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+61	a	a	DET	DT	Definite=Ind|PronType=Art	63	det	_	_
+62	pro-carcinogenic	pro-carcinogenic	ADJ	JJ	Degree=Pos	63	amod	_	_
+63	environment	environment	NOUN	NN	Number=Sing	60	obj	_	_
+64	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 44
+# text = But you can have anti-carcinogenic environments too .
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	anti-carcinogenic	anti-carcinogenic	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	environments	environment	NOUN	NNS	Number=Plur	4	obj	_	_
+7	too	too	ADV	RB	_	4	advmod	_	_
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 45
+# text = There are attempts to create milieus , change the hormonal milieu for breast cancer , for instance .
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	attempts	attempt	NOUN	NNS	Number=Plur	2	nsubj	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	create	create	VERB	VB	VerbForm=Inf	3	acl	_	_
+6	milieus	milieus	NOUN	NN	Number=Sing	5	obj	_	_
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s \s
+8	change	change	VERB	VB	VerbForm=Inf	2	conj	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	hormonal	hormonal	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	milieu	milieu	NOUN	NN	Number=Sing	8	obj	_	_
+12	for	for	ADP	IN	_	14	case	_	_
+13	breast	breast	NOUN	NN	Number=Sing	14	compound	_	_
+14	cancer	cancer	NOUN	NN	Number=Sing	11	nmod	_	_
+15	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+16	for	for	ADP	IN	_	17	case	_	_
+17	instance	instance	NOUN	NN	Number=Sing	2	obl	_	_
+18	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 46
+# text = We 're trying to change the metabolic milieu for other forms of cancer .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	change	change	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	metabolic	metabolic	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	milieu	milieu	NOUN	NN	Number=Sing	5	obj	_	_
+9	for	for	ADP	IN	_	11	case	_	_
+10	other	other	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	forms	form	NOUN	NNS	Number=Plur	5	obl	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	cancer	cancer	NOUN	NN	Number=Sing	11	nmod	_	_
+14	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 47
+# text = Or take another disease , like depression .
+1	Or	or	CCONJ	CC	_	2	cc	_	_
+2	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	another	another	DET	DT	_	4	det	_	_
+4	disease	disease	NOUN	NN	Number=Sing	2	obj	_	_
+5	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+6	like	like	ADP	IN	_	7	case	_	_
+7	depression	depression	NOUN	NN	Number=Sing	2	obl	_	_
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 48
+# text = Again , working upwards , since the 1960s and 1970s , we 've tried , again , desperately to turn off molecules that operate between nerve cells -- serotonin , dopamine --and tried to cure depression that way , and that 's worked , but then that reached the limit .
+1	Again	again	ADV	RB	_	4	advmod	_	_
+2	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\s\s
+3	working	work	VERB	VBG	VerbForm=Ger	4	amod	_	_
+4	upwards	upward	NOUN	NNS	Number=Plur	0	root	_	_
+5	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\s\s \s
+6	since	since	SCONJ	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	1960s	1960	NOUN	NNS	Number=Plur	4	advcl	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	1970s	1970	NOUN	NNS	Number=Plur	8	conj	_	_
+11	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj:pass	_	_
+13	'	'	PUNCT	``	_	15	punct	_	SpaceAfter=No
+14	ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux:pass	_	_
+15	tried	try	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	parataxis	_	_
+16	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+17	again	again	ADV	RB	_	21	advmod	_	_
+18	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+19	desperately	desperately	ADV	RB	_	21	advmod	_	SpacesAfter=\s \s
+20	to	to	PART	TO	_	21	mark	_	_
+21	turn	turn	VERB	VB	VerbForm=Inf	15	conj	_	_
+22	off	off	ADP	RP	_	21	compound:prt	_	_
+23	molecules	molecule	NOUN	NNS	Number=Plur	21	obj	_	_
+24	that	that	PRON	WDT	PronType=Rel	25	nsubj	_	_
+25	operate	operate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl:relcl	_	_
+26	between	between	ADP	IN	_	28	case	_	_
+27	nerve	nerve	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	cells	cell	NOUN	NNS	Number=Plur	25	obl	_	_
+29	--	--	PUNCT	,	_	28	punct	_	SpacesAfter=\s \s
+30	serotonin	serotonin	NOUN	NN	Number=Sing	28	appos	_	_
+31	,	,	PUNCT	,	_	32	punct	_	SpacesAfter=\s\s
+32	dopamine	dopamine	NOUN	NN	Number=Sing	30	conj	_	_
+33	--	--	PUNCT	,	_	15	punct	_	SpaceAfter=No
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+36	to	to	PART	TO	_	37	mark	_	_
+37	cure	cure	VERB	VB	VerbForm=Inf	35	xcomp	_	_
+38	depression	depression	NOUN	NN	Number=Sing	37	obj	_	_
+39	that	that	DET	DT	Number=Sing|PronType=Dem	40	det	_	_
+40	way	way	NOUN	NN	Number=Sing	37	obl:npmod	_	_
+41	,	,	PUNCT	,	_	45	punct	_	SpacesAfter=\s\s \s
+42	and	and	CCONJ	CC	_	45	cc	_	_
+43	that	that	PRON	DT	Number=Sing|PronType=Dem	45	nsubj:pass	_	_
+44	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	aux:pass	_	_
+45	worked	worked	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+46	,	,	PUNCT	,	_	50	punct	_	SpacesAfter=\s\s
+47	but	but	CCONJ	CC	_	50	cc	_	_
+48	then	then	ADV	RB	PronType=Dem	50	advmod	_	_
+49	that	that	PRON	WDT	PronType=Rel	50	nsubj	_	_
+50	reached	reach	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	conj	_	_
+51	the	the	DET	DT	Definite=Def|PronType=Art	52	det	_	_
+52	limit	limit	NOUN	NN	Number=Sing	50	obj	_	_
+53	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 49
+# text = And we now know that what you really probably need to do is to change the physiology of the organ , the brain , rewire it , remodel it , and that , of course , we know study upon study has shown that talk therapy does exactly that , and study upon study has shown that talk therapy combined with medicines , pills , really is much more effective than either one alone .
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+3	now	now	ADV	RB	_	4	advmod	_	_
+4	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	that	that	SCONJ	IN	_	10	mark	_	_
+6	what	what	PRON	WP	PronType=Int	10	obj	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+8	really	really	ADV	RB	_	10	advmod	_	_
+9	probably	probably	ADV	RB	_	10	advmod	_	_
+10	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	ccomp	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	do	do	VERB	VB	VerbForm=Inf	10	xcomp	_	SpacesAfter=\s \s
+13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	change	change	VERB	VB	VerbForm=Inf	28	advcl	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	physiology	physiology	NOUN	NN	Number=Sing	15	obj	_	_
+18	of	of	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	organ	organ	ADJ	JJ	Degree=Pos	17	nmod	_	_
+21	,	,	PUNCT	,	_	28	punct	_	SpacesAfter=\s\s
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	brain	brain	NOUN	NN	Number=Sing	28	nsubj	_	_
+24	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\s\s \s
+25	rewire	rewire	VERB	VB	VerbForm=Inf	23	conj	_	_
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	obj	_	_
+27	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\s\s
+28	remodel	remodel	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+29	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	obj	_	_
+30	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\s\s \s
+31	and	and	CCONJ	CC	_	38	cc	_	_
+32	that	that	PRON	DT	Number=Sing|PronType=Dem	38	nsubj	_	_
+33	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\s\s
+34	of	of	ADV	RB	_	38	advmod	_	_
+35	course	course	ADV	RB	_	34	fixed	_	_
+36	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\s\s
+37	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	38	nsubj	_	_
+38	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	conj	_	_
+39	study	study	PRON	NN	Number=Sing	43	nsubj	_	_
+40	upon	upon	ADP	IN	_	41	case	_	_
+41	study	study	NOUN	NN	Number=Sing	39	nmod	_	_
+42	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	43	aux	_	_
+43	shown	show	VERB	VBN	Tense=Past|VerbForm=Part	38	ccomp	_	SpacesAfter=\s \s
+44	that	that	SCONJ	IN	_	49	mark	_	_
+45	talk	talk	NOUN	NN	Number=Sing	46	compound	_	_
+46	therapy	therapy	NOUN	NN	Number=Sing	49	nsubj	_	_
+47	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	aux	_	_
+48	exactly	exactly	ADV	RB	_	49	advmod	_	_
+49	that	that	DET	DT	Number=Sing|PronType=Dem	43	ccomp	_	_
+50	,	,	PUNCT	,	_	56	punct	_	SpacesAfter=\s\s \s
+51	and	and	CCONJ	CC	_	56	cc	_	_
+52	study	study	NOUN	NN	Number=Sing	56	nsubj	_	_
+53	upon	upon	ADP	IN	_	54	case	_	_
+54	study	study	NOUN	NN	Number=Sing	52	nmod	_	_
+55	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	_	_
+56	shown	show	VERB	VBN	Tense=Past|VerbForm=Part	49	conj	_	_
+57	that	that	SCONJ	IN	_	70	mark	_	_
+58	talk	talk	NOUN	NN	Number=Sing	59	compound	_	_
+59	therapy	therapy	NOUN	NN	Number=Sing	70	nsubj	_	SpacesAfter=\s \s
+60	combined	combine	VERB	VBN	Tense=Past|VerbForm=Part	59	acl	_	_
+61	with	with	ADP	IN	_	62	case	_	_
+62	medicines	medicine	NOUN	NNS	Number=Plur	60	obl	_	_
+63	,	,	PUNCT	,	_	64	punct	_	SpacesAfter=\s\s
+64	pills	pill	NOUN	NNS	Number=Plur	62	conj	_	_
+65	,	,	PUNCT	,	_	59	punct	_	SpacesAfter=\s\s \s
+66	really	really	ADV	RB	_	70	advmod	_	_
+67	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	70	cop	_	_
+68	much	much	ADV	RB	_	69	advmod	_	_
+69	more	more	ADV	RBR	_	70	advmod	_	_
+70	effective	effective	ADJ	JJ	Degree=Pos	56	ccomp	_	_
+71	than	than	ADP	IN	_	73	case	_	_
+72	either	either	CCONJ	CC	_	73	cc:preconj	_	_
+73	one	one	NUM	CD	NumType=Card	74	nummod	_	_
+74	alone	alone	ADJ	JJ	Degree=Pos	70	obl	_	_
+75	.	.	PUNCT	.	_	49	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 50
+# text = Can we imagine a more immersive environment that will change depression Can you lock out the signals that elicit depression Again , moving upwards along this hierarchical chain of organization .
+1	Can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	imagine	imagine	VERB	VB	VerbForm=Inf	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	more	more	ADV	RBR	_	6	advmod	_	_
+6	immersive	immersive	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	environment	environment	NOUN	NN	Number=Sing	3	obj	_	_
+8	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
+9	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	change	change	VERB	VB	VerbForm=Inf	7	acl:relcl	_	_
+11	depression	depression	NOUN	NN	Number=Sing|Typo=Yes	10	obj	_	SpacesAfter=\s \s
+12	Can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	lock	lock	VERB	VB	VerbForm=Inf	3	advcl	_	_
+15	out	out	ADP	RP	_	14	compound:prt	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	signals	signal	NOUN	NNS	Number=Plur	14	obj	_	_
+18	that	that	PRON	WDT	PronType=Rel	19	nsubj	_	_
+19	elicit	elicit	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+20	depression	depression	NOUN	NN	Number=Sing	19	obj	_	SpacesAfter=\s \s
+21	Again	again	ADV	RB	_	19	advmod	_	_
+22	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+23	moving	move	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+24	upwards	upward	NOUN	NNS	Number=Plur	23	obj	_	_
+25	along	along	ADP	IN	_	28	case	_	_
+26	this	this	DET	DT	Number=Sing|PronType=Dem	28	det	_	_
+27	hierarchical	hierarchical	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	chain	chain	NOUN	NN	Number=Sing	23	obl	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	organization	organization	NOUN	NN	Number=Sing	28	nmod	_	_
+31	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 51
+# text = What 's really at stake perhaps here is not the medicine itself but a metaphor .
+1	What	what	PRON	WP	PronType=Int	0	root	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	really	really	ADV	RB	_	5	advmod	_	_
+4	at	at	ADP	IN	_	5	case	_	_
+5	stake	stake	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	perhaps	perhaps	ADV	RB	_	7	advmod	_	_
+7	here	here	ADV	RB	PronType=Dem	5	advmod	_	SpacesAfter=\s \s
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+9	not	not	PART	RB	_	11	advmod	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	medicine	medicine	NOUN	NN	Number=Sing	1	nsubj	_	_
+12	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	nmod:npmod	_	_
+13	but	but	CCONJ	CC	_	15	cc	_	_
+14	a	a	DET	DT	Definite=Ind|PronType=Art	15	det	_	_
+15	metaphor	metaphor	NOUN	NN	Number=Sing	1	conj	_	_
+16	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 52
+# text = Rather than killing something , in the case of the great chronic degenerative diseases -- kidney failure , diabetes , hypertension , osteoarthritis -- maybe what we really need to do is change the metaphor to growing something .
+1	Rather	rather	ADP	IN	_	17	case	_	_
+2	than	than	SCONJ	IN	_	3	mark	_	_
+3	killing	kill	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+4	something	something	PRON	NN	Number=Sing	3	obj	_	_
+5	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s \s
+6	in	in	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	case	case	NOUN	NN	Number=Sing	17	compound	_	_
+9	of	of	ADP	IN	_	14	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+11	great	great	ADJ	JJ	Degree=Pos	14	amod	_	_
+12	chronic	chronic	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	degenerative	degenerative	NOUN	NN	Number=Sing	14	compound	_	_
+14	diseases	disease	NOUN	NNS	Number=Plur	8	nmod	_	_
+15	--	--	PUNCT	,	_	8	punct	_	SpacesAfter=\s \s
+16	kidney	kidney	NOUN	NN	Number=Sing	17	compound	_	_
+17	failure	failure	NOUN	NN	Number=Sing	32	obl	_	_
+18	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s
+19	diabetes	diabete	NOUN	NNS	Number=Plur	17	conj	_	_
+20	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+21	hypertension	hypertension	NOUN	NN	Number=Sing	17	conj	_	_
+22	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\s\s
+23	osteoarthritis	osteoarthritis	NOUN	NNS	Number=Plur	17	conj	_	_
+24	--	--	PUNCT	,	_	17	punct	_	SpacesAfter=\s \s
+25	maybe	maybe	ADV	RB	_	26	advmod	_	_
+26	what	what	PRON	WP	PronType=Int	29	obj	_	_
+27	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	29	nsubj	_	_
+28	really	really	ADV	RB	_	29	advmod	_	_
+29	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	acl:relcl	_	_
+30	to	to	PART	TO	_	31	mark	_	_
+31	do	do	VERB	VB	VerbForm=Inf	29	xcomp	_	_
+32	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+33	change	change	VERB	VB	VerbForm=Inf	32	ccomp	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	metaphor	metaphor	NOUN	NN	Number=Sing	33	obj	_	_
+36	to	to	SCONJ	IN	_	37	mark	_	_
+37	growing	grow	VERB	VBG	VerbForm=Ger	33	advcl	_	_
+38	something	something	PRON	NN	Number=Sing	37	obj	_	_
+39	.	.	PUNCT	.	_	32	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 53
+# text = And that 's the key , perhaps , to reframing our thinking about medicine .
+1	And	and	CCONJ	CC	_	5	cc	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	key	key	NOUN	NN	Number=Sing	0	root	_	_
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+7	perhaps	perhaps	ADV	RB	_	5	advmod	_	_
+8	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s \s
+9	to	to	SCONJ	IN	_	10	mark	_	_
+10	reframing	refram	VERB	VBG	VerbForm=Ger	5	advcl	_	_
+11	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	nsubj	_	_
+12	thinking	think	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+13	about	about	ADP	IN	_	14	case	_	_
+14	medicine	medicine	NOUN	NN	Number=Sing	12	obl	_	_
+15	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 54
+# text = Now , this idea of changing , of creating a perceptual shift , as it were , came home to me to roost in a very personal manner about 10 years ago .
+1	Now	now	ADV	RB	_	18	advmod	_	_
+2	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\s\s
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	idea	idea	NOUN	NN	Number=Sing	18	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	changing	changing	NOUN	NN	Number=Sing	4	nmod	_	_
+7	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\s\s \s
+8	of	of	SCONJ	IN	_	9	mark	_	_
+9	creating	create	VERB	VBG	VerbForm=Ger	4	acl	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	perceptual	perceptual	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	shift	shift	NOUN	NN	Number=Sing	9	obj	_	_
+13	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+14	as	as	SCONJ	IN	_	16	mark	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+17	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\s\s \s
+18	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+19	home	home	ADV	RB	_	18	advmod	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	19	obl	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	roost	roost	VERB	VB	VerbForm=Inf	18	advcl	_	_
+24	in	in	ADP	IN	_	28	case	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+26	very	very	ADV	RB	_	27	advmod	_	_
+27	personal	personal	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	manner	manner	NOUN	NN	Number=Sing	23	obl	_	_
+29	about	about	ADP	IN	_	31	advmod	_	_
+30	10	10	NUM	CD	NumType=Card	31	nummod	_	_
+31	years	year	NOUN	NNS	Number=Plur	32	obl:npmod	_	_
+32	ago	ago	ADV	RB	_	23	advmod	_	_
+33	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 55
+# text = About 10 years ago -- I 've been a runner most of my life -- I went for a run , a Saturday morning run , I came back and woke up and I basically couldn't move .
+1	About	about	ADV	RB	_	2	advmod	_	_
+2	10	10	NUM	CD	NumType=Card	3	nummod	_	_
+3	years	year	NOUN	NNS	Number=Plur	4	obl:npmod	_	_
+4	ago	ago	ADV	RB	_	10	advmod	_	_
+5	--	--	PUNCT	,	_	10	punct	_	_
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+7	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	cop	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	runner	runner	NOUN	NN	Number=Sing	15	nmod	_	_
+11	most	most	ADJ	JJS	Degree=Sup	10	nmod	_	_
+12	of	of	ADP	IN	_	14	case	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+14	life	life	NOUN	NN	Number=Sing	11	nmod	_	_
+15	--	--	PUNCT	,	_	17	punct	_	SpacesAfter=\s \s
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	_
+17	went	go	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	for	for	ADP	IN	_	20	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	run	run	NOUN	NN	Number=Sing	17	obl	_	_
+21	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s
+22	a	a	DET	DT	Definite=Ind|PronType=Art	25	det	_	_
+23	Saturday	Saturday	PROPN	NNP	Number=Sing	25	compound	_	_
+24	morning	morning	NOUN	NN	Number=Sing	25	compound	_	_
+25	run	run	NOUN	NN	Number=Sing	17	obl:tmod	_	_
+26	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s \s
+27	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	_
+28	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	17	parataxis	_	_
+29	back	back	ADV	RB	_	28	advmod	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	woke	wake	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	conj	_	_
+32	up	up	ADP	RP	_	31	compound:prt	_	_
+33	and	and	CCONJ	CC	_	38	cc	_	_
+34	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	38	nsubj	_	_
+35	basically	basically	ADV	RB	_	38	advmod	_	_
+36	could	could	AUX	MD	VerbForm=Fin	38	aux	_	SpaceAfter=No
+37	n't	not	PART	RB	_	38	advmod	_	_
+38	move	move	VERB	VB	VerbForm=Inf	28	conj	_	_
+39	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 56
+# text = My right knee was swollen up , and you could hear that ominous crunch of bone against bone .
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	right	right	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	knee	knee	NOUN	NN	Number=Sing	5	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	swollen	swoll	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+6	up	up	ADP	RP	_	5	compound:prt	_	_
+7	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s \s
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	nsubj	_	_
+10	could	could	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	hear	hear	VERB	VB	VerbForm=Inf	5	conj	_	_
+12	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+13	ominous	ominous	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	crunch	crunch	NOUN	NN	Number=Sing	11	obj	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	bone	bone	NOUN	NN	Number=Sing	14	nmod	_	_
+17	against	against	ADP	IN	_	18	case	_	_
+18	bone	bone	NOUN	NN	Number=Sing	14	nmod	_	_
+19	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 57
+# text = And one of the perks of being a physician is that you get to order your own MRIs .
+1	And	and	CCONJ	CC	_	10	cc	_	_
+2	one	one	NUM	CD	NumType=Card	10	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	perks	perk	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	of	of	SCONJ	IN	_	9	mark	_	_
+7	being	be	AUX	VBG	VerbForm=Ger	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	physician	physician	NOUN	NN	Number=Sing	5	acl	_	_
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	that	that	SCONJ	IN	_	13	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	get	get	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	order	order	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	18	nmod:poss	_	_
+17	own	own	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	MRIs	MRI	NOUN	NNS	Number=Plur	15	obj	_	_
+19	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 58
+# text = And I had an MRI the next week , and it looked like that .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	MRI	MRI	PROPN	NNP	Number=Sing	3	obj	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	next	next	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	week	week	NOUN	NN	Number=Sing	3	obl:tmod	_	_
+9	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+12	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+13	like	like	ADP	IN	_	14	case	_	_
+14	that	that	PRON	DT	Number=Sing|PronType=Dem	12	obl	_	_
+15	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 59
+# text = Essentially , the meniscus of cartilage that is between bone had been completely torn and the bone itself had been shattered .
+1	Essentially	essentially	ADV	RB	_	14	advmod	_	_
+2	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	meniscus	meniscus	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	cartilage	cartilage	NOUN	NN	Number=Sing	4	nmod	_	_
+7	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	between	between	ADP	IN	_	10	case	_	_
+10	bone	bone	NOUN	NN	Number=Sing	4	acl:relcl	_	SpacesAfter=\s \s
+11	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	aux	_	_
+12	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	aux:pass	_	_
+13	completely	completely	ADV	RB	_	14	advmod	_	_
+14	torn	torn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+15	and	and	CCONJ	CC	_	21	cc	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	bone	bone	NOUN	NN	Number=Sing	21	nsubj:pass	_	_
+18	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nmod:npmod	_	_
+19	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	21	aux	_	_
+20	been	be	AUX	VBN	Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	shattered	shatter	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	conj	_	_
+22	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 60
+# text = Now , if you 're looking at me and feeling sorry , let me tell you a few facts .
+1	Now	now	ADV	RB	_	13	advmod	_	_
+2	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+3	if	if	SCONJ	IN	_	6	mark	_	_
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	nsubj	_	_
+5	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	13	advcl	_	_
+7	at	at	ADP	IN	_	8	case	_	_
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obl	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	feeling	feel	VERB	VBG	Tense=Pres|VerbForm=Part	6	conj	_	_
+11	sorry	sorry	INTJ	UH	_	6	discourse	_	_
+12	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s \s
+13	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	obj	_	_
+15	tell	tell	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	iobj	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+18	few	few	ADJ	JJ	Degree=Pos	19	amod	_	_
+19	facts	fact	NOUN	NNS	Number=Plur	15	obj	_	_
+20	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 61
+# text = If I was to take an MRI of every person in this audience , 60 percent of you would show signs of bone degeneration and cartilage degeneration like this .
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	advcl	_	_
+4	to	to	PART	TO	_	5	mark	_	_
+5	take	take	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	MRI	Mri	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	every	every	DET	DT	_	10	det	_	_
+10	person	person	NOUN	NN	Number=Sing	7	nmod	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	this	this	DET	DT	Number=Sing|PronType=Dem	13	det	_	_
+13	audience	audience	NOUN	NN	Number=Sing	5	obl	_	_
+14	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\s\s \s
+15	60	60	NUM	CD	NumType=Card	16	nummod	_	_
+16	percent	percent	NOUN	NN	Number=Sing	20	nsubj	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	nmod	_	_
+19	would	would	AUX	MD	VerbForm=Fin	20	aux	_	_
+20	show	show	VERB	VB	VerbForm=Inf	0	root	_	_
+21	signs	sign	NOUN	NNS	Number=Plur	20	obj	_	SpacesAfter=\s \s
+22	of	of	ADP	IN	_	24	case	_	_
+23	bone	bone	NOUN	NN	Number=Sing	24	compound	_	_
+24	degeneration	degeneration	NOUN	NN	Number=Sing	21	nmod	_	_
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	cartilage	cartilage	NOUN	NN	Number=Sing	27	compound	_	_
+27	degeneration	degeneration	NOUN	NN	Number=Sing	24	conj	_	_
+28	like	like	ADP	IN	_	29	case	_	_
+29	this	this	PRON	DT	Number=Sing|PronType=Dem	20	obl	_	_
+30	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 62
+# text = 85 percent of all women by the age of 70 would show moderate to severe cartilage degeneration .
+1	85	85	NUM	CD	NumType=Card	2	nummod	_	_
+2	percent	percent	NOUN	NN	Number=Sing	12	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	all	all	DET	DT	_	5	det	_	_
+5	women	woman	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	by	by	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	age	age	NOUN	NN	Number=Sing	2	nmod	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	70	70	NUM	CD	NumType=Card	8	nmod	_	SpacesAfter=\s \s
+11	would	would	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	show	show	VERB	VB	VerbForm=Inf	0	root	_	_
+13	moderate	moderate	ADJ	JJ	Degree=Pos	12	obj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	severe	severe	VERB	VB	VerbForm=Inf	13	advcl	_	_
+16	cartilage	cartilage	NOUN	NN	Number=Sing	17	compound	_	_
+17	degeneration	degeneration	NOUN	NN	Number=Sing	15	obj	_	_
+18	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 63
+# text = 50 to 60 percent of the men in this audience would also have such signs .
+1	50	50	NUM	CD	NumType=Card	4	nummod	_	_
+2	to	to	ADP	IN	_	3	case	_	_
+3	60	60	NUM	CD	NumType=Card	1	nmod	_	_
+4	percent	percent	NOUN	NN	Number=Sing	13	nsubj	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	men	man	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+10	audience	audience	NOUN	NN	Number=Sing	7	nmod	_	SpacesAfter=\s \s
+11	would	would	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	also	also	ADV	RB	_	13	advmod	_	_
+13	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+14	such	such	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	signs	sign	NOUN	NNS	Number=Plur	13	obj	_	_
+16	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 64
+# text = So this is a very common disease .
+1	So	so	ADV	RB	_	7	advmod	_	_
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	very	very	ADV	RB	_	6	advmod	_	_
+6	common	common	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	disease	disease	NOUN	NN	Number=Sing	0	root	_	_
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 65
+# text = Well , the second perk of being a physician is that you can get to experiment on your own ailments .
+1	Well	well	INTJ	UH	_	10	discourse	_	_
+2	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	5	amod	_	_
+5	perk	perk	NOUN	NN	Number=Sing	10	nsubj	_	_
+6	of	of	SCONJ	IN	_	9	mark	_	_
+7	being	be	AUX	VBG	VerbForm=Ger	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	physician	physician	NOUN	NN	Number=Sing	5	acl	_	SpacesAfter=\s \s
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+11	that	that	SCONJ	IN	_	14	mark	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+13	can	can	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	get	get	VERB	VB	VerbForm=Inf	10	ccomp	_	_
+15	to	to	ADP	IN	_	16	case	_	_
+16	experiment	experiment	NOUN	NN	Number=Sing	14	obl	_	_
+17	on	on	ADP	IN	_	20	case	_	_
+18	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	20	nmod:poss	_	_
+19	own	own	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	ailments	ailment	NOUN	NNS	Number=Plur	14	obl	_	_
+21	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 66
+# text = So about 10 years ago we began , we brought this process into the laboratory , and we began to do simple experiments , mechanically trying to fix this degeneration .
+1	So	so	ADV	RB	_	7	advmod	_	_
+2	about	about	ADP	IN	_	4	advmod	_	_
+3	10	10	NUM	CD	NumType=Card	4	nummod	_	_
+4	years	year	NOUN	NNS	Number=Plur	5	obl:npmod	_	_
+5	ago	ago	ADV	RB	_	7	advmod	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+7	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s \s
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	brought	bring	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	process	process	NOUN	NN	Number=Sing	10	obj	_	_
+13	into	into	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	laboratory	laboratory	NOUN	NN	Number=Sing	10	obl	_	_
+16	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s \s
+17	and	and	CCONJ	CC	_	19	cc	_	_
+18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+19	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	do	do	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	simple	simple	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	experiments	experiment	NOUN	NNS	Number=Plur	21	obj	_	_
+24	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s \s
+25	mechanically	mechanically	ADV	RB	_	26	advmod	_	_
+26	trying	try	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	fix	fix	VERB	VB	VerbForm=Inf	26	xcomp	_	_
+29	this	this	DET	DT	Number=Sing|PronType=Dem	30	det	_	_
+30	degeneration	degeneration	NOUN	NN	Number=Sing	28	obj	_	_
+31	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 67
+# text = We tried to inject chemicals into the knee spaces of animals to try to reverse cartilage degeneration , and to put a short summary on a very long and painful process , essentially it came to naught .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	tried	try	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	inject	inject	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	chemicals	chemical	NOUN	NNS	Number=Plur	4	obj	_	_
+6	into	into	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	knee	knee	NOUN	NN	Number=Sing	9	compound	_	_
+9	spaces	space	NOUN	NNS	Number=Plur	4	obl	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	animals	animal	NOUN	NNS	Number=Plur	9	nmod	_	SpacesAfter=\s \s
+12	to	to	PART	TO	_	13	mark	_	_
+13	try	try	VERB	VB	VerbForm=Inf	2	advcl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	reverse	reverse	VERB	VB	VerbForm=Inf	13	xcomp	_	_
+16	cartilage	cartilage	NOUN	NN	Number=Sing	17	compound	_	_
+17	degeneration	degeneration	NOUN	NN	Number=Sing	15	obj	_	_
+18	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s \s
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	put	put	VERB	VB	VerbForm=Inf	2	conj	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	short	short	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	summary	summary	NOUN	NN	Number=Sing	21	obj	_	_
+25	on	on	ADP	IN	_	31	case	_	_
+26	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+27	very	very	ADV	RB	_	28	advmod	_	_
+28	long	long	ADJ	JJ	Degree=Pos	31	amod	_	_
+29	and	and	CCONJ	CC	_	30	cc	_	_
+30	painful	painful	ADJ	JJ	Degree=Pos	28	conj	_	_
+31	process	process	NOUN	NN	Number=Sing	21	obl	_	_
+32	,	,	PUNCT	,	_	35	punct	_	SpacesAfter=\s\s \s
+33	essentially	essentially	ADV	RB	_	35	advmod	_	_
+34	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	nsubj	_	_
+35	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	conj	_	_
+36	to	to	PART	TO	_	37	mark	_	_
+37	naught	naught	VERB	VB	VerbForm=Inf	35	xcomp	_	_
+38	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 68
+# text = Nothing happened .
+1	Nothing	nothing	PRON	NN	Number=Sing	2	nsubj	_	_
+2	happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 69
+# text = And then about seven years ago , we had a research student from Australia .
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	6	advmod	_	_
+3	about	about	ADP	IN	_	5	advmod	_	_
+4	seven	seven	NUM	CD	NumType=Card	5	nummod	_	_
+5	years	year	NOUN	NNS	Number=Plur	6	obl:npmod	_	_
+6	ago	ago	ADV	RB	_	9	advmod	_	_
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	research	research	NOUN	NN	Number=Sing	12	compound	_	_
+12	student	student	NOUN	NN	Number=Sing	9	obj	_	_
+13	from	from	ADP	IN	_	14	case	_	_
+14	Australia	Australia	PROPN	NNP	Number=Sing	12	nmod	_	_
+15	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 70
+# text = The nice thing about Australians is that they 're habitually used to looking at the world upside down .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	nice	nice	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	thing	thing	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	about	about	ADP	IN	_	5	case	_	_
+5	Australians	Australians	PROPN	NNP	Number=Sing	3	nmod	_	SpacesAfter=\s \s
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	that	that	SCONJ	IN	_	11	mark	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	nsubj	_	_
+9	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	habitually	habitually	ADV	RB	_	11	advmod	_	_
+11	used	use	VERB	VBN	Tense=Past|VerbForm=Part	6	ccomp	_	_
+12	to	to	SCONJ	IN	_	13	mark	_	_
+13	looking	look	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	world	world	NOUN	NN	Number=Sing	13	obl	_	_
+17	upside	upside	ADP	IN	_	18	case	_	_
+18	down	down	NOUN	NN	Number=Sing	16	nmod	_	_
+19	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 71
+# text = And so Dan suggested to me , " You know , maybe it isn't a mechanical problem .
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	so	so	ADV	RB	_	4	advmod	_	_
+3	Dan	Dan	PROPN	NNP	Number=Sing	4	nsubj	_	_
+4	suggested	suggest	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	to	to	ADP	IN	_	6	case	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	obl	_	_
+7	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\s\s\s
+8	"	"	PUNCT	``	_	4	punct	_	_
+9	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+10	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	parataxis	_	_
+11	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+12	maybe	maybe	ADV	RB	_	18	advmod	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	SpaceAfter=No
+15	n't	not	PART	RB	_	18	advmod	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	mechanical	mechanical	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	problem	problem	NOUN	NN	Number=Sing	4	parataxis	_	_
+19	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 72
+# text = Maybe it isn't a chemical problem .
+1	Maybe	maybe	ADV	RB	_	7	advmod	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	SpaceAfter=No
+4	n't	not	PART	RB	_	7	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	chemical	chemical	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	problem	problem	NOUN	NN	Number=Sing	0	root	_	_
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 73
+# text = Maybe it 's a stem cell problem . " In other words , he had two hypotheses .
+1	Maybe	maybe	ADV	RB	_	7	advmod	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	nsubj	_	_
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+5	stem	stem	NOUN	NN	Number=Sing	7	compound	_	_
+6	cell	cell	NOUN	NN	Number=Sing	7	compound	_	_
+7	problem	problem	NOUN	NN	Number=Sing	0	root	_	_
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\s
+9	"	"	PUNCT	''	_	7	punct	_	SpacesAfter=\s\s \s
+10	In	in	ADP	IN	_	12	case	_	_
+11	other	other	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	words	word	NOUN	NNS	Number=Plur	15	obl	_	_
+13	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+16	two	two	NUM	CD	NumType=Card	17	nummod	_	_
+17	hypotheses	hypothese	NOUN	NNS	Number=Plur	15	obj	_	_
+18	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 74
+# text = Number one , there is such a thing as a skeletal stem cell -- a skeletal stem cell that builds up the entire vertebrate skeleton , bone , cartilage and the fibrous elements of skeleton , just like there 's a stem cell in blood , just like there 's a stem cell in the nervous system .
+1	Number	number	PROPN	NNP	Number=Sing	40	nsubj	_	_
+2	one	one	NUM	CD	NumType=Card	40	nsubj	_	_
+3	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+4	there	there	PRON	EX	_	5	expl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	_
+6	such	such	DET	PDT	_	8	det:predet	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	thing	thing	NOUN	NN	Number=Sing	5	nsubj	_	_
+9	as	as	ADP	IN	_	13	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	skeletal	skeletal	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	stem	stem	NOUN	NN	Number=Sing	13	compound	_	_
+13	cell	cell	NOUN	NN	Number=Sing	8	nmod	_	_
+14	--	--	PUNCT	:	_	2	punct	_	SpacesAfter=\s \s
+15	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+16	skeletal	skeletal	ADJ	JJ	Degree=Pos	18	amod	_	_
+17	stem	stem	NOUN	NN	Number=Sing	18	compound	_	_
+18	cell	cell	NOUN	NN	Number=Sing	2	appos	_	_
+19	that	that	PRON	WDT	PronType=Rel	20	nsubj	_	_
+20	builds	build	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	up	up	ADP	RP	_	20	compound:prt	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+23	entire	entire	ADJ	JJ	Degree=Pos	25	amod	_	_
+24	vertebrate	vertebrate	NOUN	NN	Number=Sing	25	compound	_	_
+25	skeleton	skeleton	NOUN	NN	Number=Sing	20	obj	_	_
+26	,	,	PUNCT	,	_	27	punct	_	_
+27	bone	bone	NOUN	NN	Number=Sing	25	conj	_	_
+28	,	,	PUNCT	,	_	29	punct	_	SpacesAfter=\s\s
+29	cartilage	cartilage	NOUN	NN	Number=Sing	25	conj	_	_
+30	and	and	CCONJ	CC	_	33	cc	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+32	fibrous	fibrous	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	elements	element	NOUN	NNS	Number=Plur	25	conj	_	_
+34	of	of	ADP	IN	_	35	case	_	_
+35	skeleton	skeleton	NOUN	NN	Number=Sing	33	nmod	_	_
+36	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s \s
+37	just	just	ADV	RB	_	40	advmod	_	_
+38	like	like	SCONJ	IN	_	40	mark	_	_
+39	there	there	PRON	EX	_	40	expl	_	_
+40	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+41	a	a	DET	DT	Definite=Ind|PronType=Art	43	det	_	_
+42	stem	stem	NOUN	NN	Number=Sing	43	compound	_	_
+43	cell	cell	NOUN	NN	Number=Sing	40	nsubj	_	_
+44	in	in	ADP	IN	_	45	case	_	_
+45	blood	blood	NOUN	NN	Number=Sing	43	nmod	_	_
+46	,	,	PUNCT	,	_	40	punct	_	SpacesAfter=\s\s \s
+47	just	just	ADV	RB	_	50	advmod	_	_
+48	like	like	SCONJ	IN	_	50	mark	_	_
+49	there	there	PRON	EX	_	50	expl	_	_
+50	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	40	advcl	_	_
+51	a	a	DET	DT	Definite=Ind|PronType=Art	53	det	_	_
+52	stem	stem	NOUN	NN	Number=Sing	53	compound	_	_
+53	cell	cell	NOUN	NN	Number=Sing	50	nsubj	_	_
+54	in	in	ADP	IN	_	57	case	_	_
+55	the	the	DET	DT	Definite=Def|PronType=Art	57	det	_	_
+56	nervous	nervous	ADJ	JJ	Degree=Pos	57	amod	_	_
+57	system	system	NOUN	NN	Number=Sing	53	nmod	_	_
+58	.	.	PUNCT	.	_	40	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 75
+# text = And two , that maybe that , the degeneration or dysfunction of this stem cell is what 's causing osteochondral arthritis , a very common ailment .
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	two	two	NUM	CD	NumType=Card	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+4	that	that	SCONJ	IN	_	19	mark	_	_
+5	maybe	maybe	ADV	RB	_	6	advmod	_	_
+6	that	that	DET	DT	Number=Sing|PronType=Dem	17	det	_	_
+7	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	degeneration	degeneration	NOUN	NN	Number=Sing	17	nsubj	_	_
+10	or	or	CCONJ	CC	_	11	cc	_	_
+11	dysfunction	dysfunction	NOUN	NN	Number=Sing	9	conj	_	_
+12	of	of	ADP	IN	_	15	case	_	_
+13	this	this	DET	DT	Number=Sing|PronType=Dem	15	det	_	_
+14	stem	stem	NOUN	NN	Number=Sing	15	compound	_	_
+15	cell	cell	NOUN	NN	Number=Sing	9	nmod	_	SpacesAfter=\s \s
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	what	what	PRON	WP	PronType=Int	19	nsubj	_	_
+18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	causing	cause	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+20	osteochondral	osteochondral	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	arthritis	arthritis	NOUN	NN	Number=Sing	19	obj	_	_
+22	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s
+23	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	_
+24	very	very	ADV	RB	_	25	advmod	_	_
+25	common	common	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	ailment	ailment	NOUN	NN	Number=Sing	19	obj	_	_
+27	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 76
+# text = So really the question was , were we looking for a pill when we should have really been looking for a cell .
+1	So	so	ADV	RB	_	9	advmod	_	_
+2	really	really	ADV	RB	_	9	advmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	question	question	NOUN	NN	Number=Sing	9	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	aux	_	_
+6	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+7	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	aux	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+10	for	for	ADP	IN	_	12	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+12	pill	pill	NOUN	NN	Number=Sing	9	obl	_	SpacesAfter=\s \s
+13	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+15	should	should	AUX	MD	VerbForm=Fin	19	aux	_	_
+16	have	have	AUX	VB	VerbForm=Inf	19	aux	_	_
+17	really	really	ADV	RB	_	19	advmod	_	_
+18	been	be	AUX	VBN	Tense=Past|VerbForm=Part	19	aux	_	_
+19	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	9	advcl	_	_
+20	for	for	ADP	IN	_	22	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	cell	cell	NOUN	NN	Number=Sing	19	obl	_	_
+23	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 77
+# text = So we switched our models , and now we began to look for skeletal stem cells .
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	switched	switch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+5	models	model	NOUN	NNS	Number=Plur	3	obj	_	_
+6	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s \s
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	now	now	ADV	RB	_	10	advmod	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	look	look	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	for	for	ADP	IN	_	16	case	_	_
+14	skeletal	skeletal	ADJ	JJ	Degree=Pos	16	amod	_	_
+15	stem	stem	NOUN	NN	Number=Sing	16	compound	_	_
+16	cells	cell	NOUN	NNS	Number=Plur	12	obl	_	_
+17	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 78
+# text = And to cut again a long story short , about five years ago , we found these cells .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	cut	cut	VERB	VB	VerbForm=Inf	16	advcl	_	_
+4	again	again	ADV	RB	_	3	advmod	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	long	long	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	story	story	NOUN	NN	Number=Sing	3	obj	_	_
+8	short	short	ADJ	JJ	Degree=Pos	7	amod	_	_
+9	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s \s
+10	about	about	ADV	RB	_	11	advmod	_	_
+11	five	five	NUM	CD	NumType=Card	12	nummod	_	_
+12	years	year	NOUN	NNS	Number=Plur	13	obl:npmod	_	_
+13	ago	ago	ADV	RB	_	3	advmod	_	_
+14	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+16	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	these	these	DET	DT	Number=Plur|PronType=Dem	18	det	_	_
+18	cells	cell	NOUN	NNS	Number=Plur	16	obj	_	_
+19	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 79
+# text = They live inside the skeleton .
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	inside	inside	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	skeleton	skeleton	NOUN	NN	Number=Sing	2	obl	_	_
+6	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 80
+# text = Here 's a schematic and then a real photograph of one of them .
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	schematic	schematic	NOUN	NN	Number=Sing	1	nsubj	_	_
+5	and	and	CCONJ	CC	_	9	cc	_	_
+6	then	then	ADV	RB	PronType=Dem	9	advmod	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	real	real	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	photograph	photograph	NOUN	NN	Number=Sing	1	conj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	one	one	NUM	CD	NumType=Card	9	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	nmod	_	_
+14	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 81
+# text = The white stuff is bone , and these red columns that you see and the yellow cells are cells that have arisen from one single skeletal stem cell -- columns of cartilage , columns of bone coming out of a single cell .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	white	white	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	stuff	stuff	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+5	bone	bone	NOUN	NN	Number=Sing	0	root	_	_
+6	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s \s
+7	and	and	CCONJ	CC	_	19	cc	_	_
+8	these	these	DET	DT	Number=Plur|PronType=Dem	10	det	_	_
+9	red	red	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	columns	column	NOUN	NNS	Number=Plur	19	conj	_	_
+11	that	that	PRON	WDT	PronType=Rel	13	obj	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	and	and	CCONJ	CC	_	19	cc	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	yellow	yellow	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	cells	cell	NOUN	NNS	Number=Plur	19	nsubj	_	SpacesAfter=\s \s
+18	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	cop	_	_
+19	cells	cell	NOUN	NNS	Number=Plur	5	conj	_	_
+20	that	that	PRON	WDT	PronType=Rel	22	nsubj	_	_
+21	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	22	aux	_	_
+22	arisen	arisen	VERB	VBN	Tense=Past|VerbForm=Part	19	acl:relcl	_	_
+23	from	from	ADP	IN	_	28	case	_	_
+24	one	one	NUM	CD	NumType=Card	28	nummod	_	_
+25	single	single	ADJ	JJ	Degree=Pos	28	amod	_	_
+26	skeletal	skeletal	ADJ	JJ	Degree=Pos	28	amod	_	_
+27	stem	stem	NOUN	NN	Number=Sing	28	compound	_	_
+28	cell	cell	NOUN	NN	Number=Sing	22	obl	_	_
+29	--	--	PUNCT	,	_	5	punct	_	SpacesAfter=\s \s
+30	columns	column	NOUN	NNS	Number=Plur	5	appos	_	_
+31	of	of	ADP	IN	_	32	case	_	_
+32	cartilage	cartilage	NOUN	NN	Number=Sing	30	nmod	_	_
+33	,	,	PUNCT	,	_	30	punct	_	SpacesAfter=\s\s
+34	columns	column	NOUN	NNS	Number=Plur	30	appos	_	_
+35	of	of	ADP	IN	_	36	case	_	_
+36	bone	bone	NOUN	NN	Number=Sing	34	nmod	_	_
+37	coming	come	VERB	VBG	VerbForm=Ger	34	acl	_	_
+38	out	out	ADV	RB	_	37	advmod	_	_
+39	of	of	ADP	IN	_	42	case	_	_
+40	a	a	DET	DT	Definite=Ind|PronType=Art	42	det	_	_
+41	single	single	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	cell	cell	NOUN	NN	Number=Sing	37	obl	_	_
+43	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 82
+# text = These cells are fascinating .
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	cells	cell	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	cop	_	_
+4	fascinating	fascinating	ADJ	JJ	Degree=Pos	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 83
+# text = They have four properties .
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	four	four	NUM	CD	NumType=Card	4	nummod	_	_
+4	properties	property	NOUN	NNS	Number=Plur	2	obj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 84
+# text = Number one is that they live where they 're expected to live .
+1	Number	number	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	one	one	NUM	CD	NumType=Card	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	that	that	SCONJ	IN	_	6	mark	_	_
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+6	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+7	where	where	ADV	WRB	PronType=Int	10	mark	_	_
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	nsubj:pass	_	_
+9	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux:pass	_	_
+10	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	advcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	live	live	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 85
+# text = They live just underneath the surface of the bone , underneath cartilage .
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	just	just	ADV	RB	_	6	advmod	_	_
+4	underneath	underneath	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	surface	surface	NOUN	NN	Number=Sing	2	obl	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	bone	bone	NOUN	NN	Number=Sing	6	nmod	_	_
+10	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\s\s \s
+11	underneath	underneath	ADV	RB	_	12	advmod	_	_
+12	cartilage	cartilage	NOUN	NN	Number=Sing	6	appos	_	_
+13	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 86
+# text = You know , in biology , it 's location , location , location .
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+4	in	in	ADP	IN	_	5	case	_	_
+5	biology	biology	NOUN	NN	Number=Sing	2	obl	_	_
+6	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+9	location	location	NOUN	NN	Number=Sing	2	parataxis	_	_
+10	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s
+11	location	location	NOUN	NN	Number=Sing	9	conj	_	_
+12	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+13	location	location	NOUN	NN	Number=Sing	9	conj	_	_
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 87
+# text = And they move into the appropriate areas and form bone and cartilage .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+3	move	move	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	into	into	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	appropriate	appropriate	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	areas	area	NOUN	NNS	Number=Plur	3	obl	_	_
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	form	form	NOUN	NN	Number=Sing	7	conj	_	_
+10	bone	bone	NOUN	NN	Number=Sing	7	conj	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	cartilage	cartilage	NOUN	NN	Number=Sing	10	conj	_	_
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 88
+# text = That 's one .
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	one	one	NUM	CD	NumType=Card	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 89
+# text = Here 's an interesting property .
+1	Here	here	ADV	RB	PronType=Dem	0	root	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	cop	_	_
+3	an	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	interesting	interesting	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	property	property	NOUN	NN	Number=Sing	1	nsubj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 90
+# text = You can take them out of the vertebrate skeleton , you can culture them in petri dishes in the laboratory , and they are dying to form cartilage .
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+2	can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	take	take	VERB	VB	VerbForm=Inf	0	root	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	out	out	ADP	IN	_	9	case	_	_
+6	of	of	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	vertebrate	vertebrate	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	skeleton	skeleton	NOUN	NN	Number=Sing	3	obl	_	_
+10	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s \s
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+12	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+13	culture	culture	VERB	VB	VerbForm=Inf	3	parataxis	_	_
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	obj	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	petri	petri	NOUN	NN	Number=Sing	17	compound	_	_
+17	dishes	dish	NOUN	NNS	Number=Plur	13	obl	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	laboratory	laboratory	NOUN	NN	Number=Sing	17	nmod	_	_
+21	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\s\s \s
+22	and	and	CCONJ	CC	_	25	cc	_	_
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	nsubj	_	_
+24	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	aux	_	_
+25	dying	die	VERB	VBG	Tense=Pres|VerbForm=Part	3	conj	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	form	form	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+28	cartilage	cartilage	NOUN	NN	Number=Sing	27	obj	_	_
+29	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 91
+# text = Remember how we couldn't form cartilage for love or money
+1	Remember	remember	VERB	VB	VerbForm=Inf	0	root	_	_
+2	how	how	ADV	WRB	PronType=Int	6	advmod	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+4	could	could	AUX	MD	VerbForm=Fin	6	aux	_	SpaceAfter=No
+5	n't	not	PART	RB	_	6	advmod	_	_
+6	form	form	VERB	VB	VerbForm=Inf	1	ccomp	_	_
+7	cartilage	cartilage	NOUN	NN	Number=Sing	6	obj	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	love	love	NOUN	NN	Number=Sing	7	nmod	_	_
+10	or	or	CCONJ	CC	_	11	cc	_	_
+11	money	money	NOUN	NN	Number=Sing	9	conj	_	SpacesAfter=\s \s
+
+# sent_id = 92
+# text = These cells are dying to form cartilage .
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	cells	cell	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	dying	die	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	form	form	VERB	VB	VerbForm=Inf	4	xcomp	_	_
+7	cartilage	cartilage	NOUN	NN	Number=Sing	6	obj	_	_
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 93
+# text = They form their own furls of cartilage around themselves .
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	form	form	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	nmod:poss	_	_
+4	own	own	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	furls	furl	NOUN	NNS	Number=Plur	2	obj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	cartilage	cartilage	NOUN	NN	Number=Sing	5	nmod	_	_
+8	around	around	ADP	IN	_	9	case	_	_
+9	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	7	nmod	_	_
+10	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 94
+# text = They 're also , number three , the most efficient repairers of fractures that we 've ever encountered .
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	_
+2	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	also	also	ADV	RB	_	5	advmod	_	_
+4	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+5	number	number	NOUN	NN	Number=Sing	0	root	_	_
+6	three	three	NUM	CD	NumType=Card	5	nummod	_	_
+7	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s \s
+8	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+9	most	most	ADV	RBS	_	10	advmod	_	_
+10	efficient	efficient	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	repairers	repairer	NOUN	NNS	Number=Plur	5	appos	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	fractures	fracture	NOUN	NNS	Number=Plur	11	nmod	_	_
+14	that	that	PRON	WDT	PronType=Rel	19	obj	_	_
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	nsubj	_	_
+16	'	'	PUNCT	``	_	19	punct	_	SpaceAfter=No
+17	ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux	_	_
+18	ever	ever	ADV	RB	_	19	advmod	_	_
+19	encountered	encounter	VERB	VBN	Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+20	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 95
+# text = This is a little bone , a mouse bone that we fracturedand then let it heal by itself .
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+4	little	little	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	bone	bone	NOUN	NN	Number=Sing	0	root	_	_
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	mouse	mouse	NOUN	NN	Number=Sing	9	compound	_	_
+9	bone	bone	NOUN	NN	Number=Sing	5	appos	_	_
+10	that	that	PRON	WDT	PronType=Rel	12	obj	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+12	fracturedand	fracturedand	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	acl:relcl	_	_
+13	then	then	ADV	RB	PronType=Dem	14	advmod	_	_
+14	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	5	parataxis	_	_
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	obj	_	_
+16	heal	heal	ADJ	JJ	Degree=Pos	14	xcomp	_	_
+17	by	by	ADP	IN	_	18	case	_	_
+18	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	obl	_	_
+19	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 96
+# text = These stem cells have come in and repaired , in yellow , the bone , in white , the cartilage , almost completely .
+1	These	these	DET	DT	Number=Plur|PronType=Dem	3	det	_	_
+2	stem	stem	NOUN	NN	Number=Sing	3	compound	_	_
+3	cells	cell	NOUN	NNS	Number=Plur	5	nsubj	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	come	come	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	in	in	ADV	RB	_	5	advmod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	repaired	repaire	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	conj	_	_
+9	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+10	in	in	ADP	IN	_	11	case	_	_
+11	yellow	yellow	ADJ	JJ	Degree=Pos	5	obl	_	_
+12	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	bone	bone	NOUN	NN	Number=Sing	5	appos	_	_
+15	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s \s
+16	in	in	ADP	IN	_	17	case	_	_
+17	white	white	ADJ	JJ	Degree=Pos	5	obl	_	_
+18	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	cartilage	cartilage	NOUN	NN	Number=Sing	5	appos	_	_
+21	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+22	almost	almost	ADV	RB	_	23	advmod	_	_
+23	completely	completely	ADV	RB	_	5	advmod	_	_
+24	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 97
+# text = So much so that if you label them with a fluorescent dye you can see them like some kind of peculiar cellular glue coming into the area of a fracture , fixing it locally and then stopping their work .
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	much	much	ADV	RB	_	3	advmod	_	_
+3	so	so	ADV	RB	_	15	advmod	_	_
+4	that	that	SCONJ	IN	_	15	mark	_	_
+5	if	if	SCONJ	IN	_	7	mark	_	_
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	nsubj	_	_
+7	label	label	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	obj	_	_
+9	with	with	ADP	IN	_	12	case	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	12	det	_	_
+11	fluorescent	fluorescent	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	dye	dye	NOUN	NN	Number=Sing	7	obl	_	SpacesAfter=\s \s
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	nsubj	_	_
+14	can	can	AUX	MD	VerbForm=Fin	15	aux	_	_
+15	see	see	VERB	VB	VerbForm=Inf	0	root	_	_
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	obj	_	_
+17	like	like	ADP	IN	_	19	case	_	_
+18	some	some	DET	DT	_	19	det	_	_
+19	kind	kind	NOUN	NN	Number=Sing	15	obl	_	_
+20	of	of	ADP	IN	_	23	case	_	_
+21	peculiar	peculiar	ADJ	JJ	Degree=Pos	23	amod	_	_
+22	cellular	cellular	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	glue	glue	NOUN	NN	Number=Sing	19	nmod	_	SpacesAfter=\s \s
+24	coming	come	VERB	VBG	VerbForm=Ger	19	acl	_	_
+25	into	into	ADP	IN	_	27	case	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	area	area	NOUN	NN	Number=Sing	24	obl	_	_
+28	of	of	ADP	IN	_	30	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	fracture	fracture	NOUN	NN	Number=Sing	27	nmod	_	_
+31	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s \s
+32	fixing	fix	VERB	VBG	VerbForm=Ger	15	advcl	_	_
+33	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	32	obj	_	_
+34	locally	locally	ADV	RB	_	32	advmod	_	_
+35	and	and	CCONJ	CC	_	37	cc	_	_
+36	then	then	ADV	RB	PronType=Dem	37	advmod	_	_
+37	stopping	stop	VERB	VBG	VerbForm=Ger	15	conj	_	_
+38	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	39	nmod:poss	_	_
+39	work	work	NOUN	NN	Number=Sing	37	obj	_	_
+40	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 98
+# text = Now , the fourth one is the most ominous , and that is that their numbers decline precipitously , precipitously , tenfold , fiftyfold , as you age .
+1	Now	now	ADV	RB	_	9	advmod	_	_
+2	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	fourth	fourth	ADJ	JJ	Degree=Pos|NumType=Ord	5	amod	_	_
+5	one	one	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	most	most	ADV	RBS	_	9	advmod	_	_
+9	ominous	ominous	ADJ	JJ	Degree=Pos	0	root	_	_
+10	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s \s
+11	and	and	CCONJ	CC	_	13	cc	_	_
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	13	nsubj	_	_
+13	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	_
+14	that	that	SCONJ	IN	_	17	mark	_	_
+15	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	numbers	number	NOUN	NNS	Number=Plur	17	nsubj	_	_
+17	decline	decline	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	ccomp	_	_
+18	precipitously	precipitously	ADV	RB	_	28	advmod	_	_
+19	,	,	PUNCT	,	_	28	punct	_	SpacesAfter=\s\s \s
+20	precipitously	precipitously	ADV	RB	_	28	advmod	_	_
+21	,	,	PUNCT	,	_	28	punct	_	SpacesAfter=\s\s
+22	tenfold	tenfold	INTJ	UH	_	28	discourse	_	_
+23	,	,	PUNCT	,	_	28	punct	_	SpacesAfter=\s\s
+24	fiftyfold	fiftyfold	INTJ	UH	_	28	discourse	_	_
+25	,	,	PUNCT	,	_	28	punct	_	SpacesAfter=\s\s
+26	as	as	SCONJ	IN	_	28	mark	_	_
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	nsubj	_	_
+28	age	age	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	conj	_	_
+29	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 99
+# text = And so what had happened , really , is that we found ourselves in a perceptual shift .
+1	And	and	CCONJ	CC	_	2	cc	_	_
+2	so	so	ADV	RB	_	5	advmod	_	_
+3	what	what	PRON	WP	PronType=Int	5	nsubj	_	_
+4	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	_
+5	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	9	advcl	_	_
+6	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+7	really	really	ADV	RB	_	5	advmod	_	_
+8	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s \s
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	that	that	SCONJ	IN	_	12	mark	_	_
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	nsubj	_	_
+12	found	find	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	ccomp	_	_
+13	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	12	obj	_	_
+14	in	in	ADP	IN	_	17	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	17	det	_	_
+16	perceptual	perceptual	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	shift	shift	NOUN	NN	Number=Sing	12	obl	_	_
+18	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 100
+# text = We had gone hunting for pills but we ended up finding theories .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	aux	_	_
+3	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	hunting	hunt	VERB	VBG	VerbForm=Ger	3	xcomp	_	_
+5	for	for	ADP	IN	_	6	case	_	_
+6	pills	pill	NOUN	NNS	Number=Plur	4	obl	_	SpacesAfter=\s \s
+7	but	but	CCONJ	CC	_	9	cc	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+9	ended	end	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+10	up	up	ADP	RP	_	9	compound:prt	_	_
+11	finding	find	VERB	VBG	VerbForm=Ger	9	xcomp	_	_
+12	theories	theory	NOUN	NNS	Number=Plur	11	obj	_	_
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 101
+# text = And in some ways we had hooked ourselves back onto this idea : cells , organisms , environments , because we were now thinking about bone stem cells , we were thinking about arthritis in terms of a cellular disease .
+1	And	and	CCONJ	CC	_	24	cc	_	_
+2	in	in	ADP	IN	_	4	case	_	_
+3	some	some	DET	DT	_	4	det	_	_
+4	ways	way	NOUN	NNS	Number=Plur	24	obl	_	SpacesAfter=\s \s
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+6	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	aux	_	_
+7	hooked	hook	VERB	VBN	Tense=Past|VerbForm=Part	4	acl:relcl	_	_
+8	ourselves	ourselves	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs|Reflex=Yes	7	obj	_	_
+9	back	back	ADV	RB	_	7	advmod	_	_
+10	onto	onto	ADP	IN	_	12	case	_	_
+11	this	this	DET	DT	Number=Sing|PronType=Dem	12	det	_	_
+12	idea	idea	NOUN	NN	Number=Sing	7	obl	_	_
+13	:	:	PUNCT	:	_	12	punct	_	SpacesAfter=\s\s \s
+14	cells	cell	NOUN	NNS	Number=Plur	12	appos	_	_
+15	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+16	organisms	organism	NOUN	NNS	Number=Plur	14	conj	_	_
+17	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\s\s
+18	environments	environment	NOUN	NNS	Number=Plur	14	conj	_	_
+19	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\s\s \s
+20	because	because	SCONJ	IN	_	24	mark	_	_
+21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	24	nsubj	_	_
+22	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	24	aux	_	_
+23	now	now	ADV	RB	_	24	advmod	_	_
+24	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+25	about	about	ADP	IN	_	28	case	_	_
+26	bone	bone	NUM	CD	NumType=Card	28	nummod	_	_
+27	stem	stem	NOUN	NN	Number=Sing	28	compound	_	_
+28	cells	cell	NOUN	NNS	Number=Plur	32	obl	_	_
+29	,	,	PUNCT	,	_	32	punct	_	SpacesAfter=\s\s \s
+30	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	32	nsubj	_	_
+31	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	32	aux	_	_
+32	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	24	xcomp	_	_
+33	about	about	ADP	IN	_	34	case	_	_
+34	arthritis	arthritis	NOUN	NN	Number=Sing	32	obl	_	_
+35	in	in	ADP	IN	_	36	case	_	_
+36	terms	term	NOUN	NNS	Number=Plur	32	obl	_	_
+37	of	of	ADP	IN	_	40	case	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	40	det	_	_
+39	cellular	cellular	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	disease	disease	NOUN	NN	Number=Sing	36	nmod	_	_
+41	.	.	PUNCT	.	_	24	punct	_	SpacesAfter=\s\n
+
+# sent_id = 102
+# text = And then the next question was , are there organs
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	then	then	ADV	RB	PronType=Dem	6	advmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	next	next	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	question	question	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	_	_
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+8	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	parataxis	_	_
+9	there	there	PRON	EX	_	10	expl	_	_
+10	organs	organ	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	parataxis	_	SpacesAfter=\s \s
+
+# sent_id = 103
+# text = Can you build this as an organ outside the body Can you implant cartilage into areas of trauma
+1	Can	can	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	build	build	VERB	VB	VerbForm=Inf	0	root	_	_
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	obj	_	_
+5	as	as	ADP	IN	_	7	case	_	_
+6	an	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+7	organ	organ	NOUN	NN	Number=Sing	3	obl	_	_
+8	outside	outside	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	body	body	NOUN	NN	Number=Sing	7	nmod	_	SpacesAfter=\s \s
+11	Can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	nsubj	_	_
+13	implant	implant	VERB	VB	VerbForm=Inf	3	advcl	_	_
+14	cartilage	cartilage	NOUN	NN	Number=Sing	13	obj	_	_
+15	into	into	ADP	IN	_	16	case	_	_
+16	areas	area	NOUN	NNS	Number=Plur	13	obl	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	trauma	trauma	NOUN	NN	Number=Sing	16	nmod	_	SpacesAfter=\s \s
+
+# sent_id = 104
+# text = And perhaps most interestingly , can you ascend right up and create environments
+1	And	and	CCONJ	CC	_	8	cc	_	_
+2	perhaps	perhaps	ADV	RB	_	4	advmod	_	_
+3	most	most	ADV	RBS	_	4	advmod	_	_
+4	interestingly	interestingly	ADV	RB	_	8	advmod	_	_
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s \s
+6	can	can	AUX	MD	VerbForm=Fin	8	aux	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	nsubj	_	_
+8	ascend	ascend	VERB	VB	VerbForm=Inf	0	root	_	_
+9	right	right	ADV	RB	_	10	advmod	_	_
+10	up	up	ADV	RB	_	8	advmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	create	create	VERB	VB	VerbForm=Inf	8	conj	_	_
+13	environments	environment	NOUN	NNS	Number=Plur	8	obj	_	SpacesAfter=\s \s
+
+# sent_id = 105
+# text = You know , we know that exercise remodels bone , but come on , none of us is going to exercise .
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
+6	that	that	SCONJ	IN	_	9	mark	_	_
+7	exercise	exercise	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	remodels	remodel	NOUN	NNS	Number=Plur	9	compound	_	_
+9	bone	bone	NOUN	NN	Number=Sing	5	ccomp	_	_
+10	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s \s
+11	but	but	CCONJ	CC	_	12	cc	_	_
+12	come	come	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+13	on	on	ADV	RB	_	12	advmod	_	_
+14	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+15	none	none	NOUN	NN	Number=Sing	19	nsubj	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	nmod	_	_
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	_
+20	to	to	PART	TO	_	21	mark	_	_
+21	exercise	exercise	VERB	VB	VerbForm=Inf	19	xcomp	_	_
+22	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 106
+# text = So could you imagine ways of passively loading and unloading bone so that you can recreate or regenerate degenerating cartilage
+1	So	so	ADV	RB	_	4	advmod	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	imagine	imagine	VERB	VB	VerbForm=Inf	0	root	_	_
+5	ways	way	NOUN	NNS	Number=Plur	11	compound	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	passively	passively	NOUN	NN	Number=Sing	8	compound	_	_
+8	loading	loading	NOUN	NN	Number=Sing	5	nmod	_	_
+9	and	and	CCONJ	CC	_	10	cc	_	_
+10	unloading	unloading	NOUN	NN	Number=Sing	8	conj	_	_
+11	bone	bone	NOUN	NN	Number=Sing	4	obj	_	SpacesAfter=\s \s
+12	so	so	SCONJ	IN	_	16	mark	_	_
+13	that	that	SCONJ	IN	_	12	fixed	_	_
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+15	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+16	recreate	recreate	VERB	VB	VerbForm=Inf	4	advcl	_	_
+17	or	or	CCONJ	CC	_	18	cc	_	_
+18	regenerate	regenerate	VERB	VB	VerbForm=Inf	16	conj	_	_
+19	degenerating	degenerat	NOUN	NN	Number=Sing	20	compound	_	_
+20	cartilage	cartilage	NOUN	NN	Number=Sing	16	obj	_	SpacesAfter=\n
+
+# sent_id = 107
+# text = And perhaps more interesting , and more importantly , the question is , can you apply this model more globally outside medicine What 's at stake , as I said before , is not killing something , but growing something .
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	perhaps	perhaps	ADV	RB	_	4	advmod	_	_
+3	more	more	ADV	RBR	_	4	advmod	_	_
+4	interesting	interesting	ADJ	JJ	Degree=Pos	0	root	_	_
+5	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+6	and	and	CCONJ	CC	_	12	cc	_	_
+7	more	more	ADV	RBR	_	8	advmod	_	_
+8	importantly	importantly	ADV	RB	_	12	advmod	_	_
+9	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s \s
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	question	question	NOUN	NN	Number=Sing	12	nsubj	_	_
+12	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+13	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+14	can	can	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	nsubj	_	_
+16	apply	apply	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+17	this	this	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+18	model	model	NOUN	NN	Number=Sing	16	obj	_	_
+19	more	more	ADV	RBR	_	20	advmod	_	_
+20	globally	globally	ADV	RB	_	16	advmod	_	_
+21	outside	outside	ADV	RB	_	22	advmod	_	_
+22	medicine	medicine	VERB	VB	VerbForm=Inf	16	conj	_	SpacesAfter=\s \s
+23	What	what	PRON	WP	PronType=Int	26	nsubj	_	_
+24	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	at	at	ADP	IN	_	26	case	_	_
+26	stake	stake	NOUN	NN	Number=Sing	22	ccomp	_	_
+27	,	,	PUNCT	,	_	35	punct	_	SpacesAfter=\s\s
+28	as	as	SCONJ	IN	_	30	mark	_	_
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	nsubj	_	_
+30	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	35	advcl	_	_
+31	before	before	ADV	RB	_	30	advmod	_	_
+32	,	,	PUNCT	,	_	35	punct	_	SpacesAfter=\s\s
+33	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	_
+34	not	not	PART	RB	_	35	advmod	_	_
+35	killing	kill	VERB	VBG	Tense=Pres|VerbForm=Part	4	parataxis	_	_
+36	something	something	PRON	NN	Number=Sing	35	obj	_	_
+37	,	,	PUNCT	,	_	39	punct	_	SpacesAfter=\s\s \s
+38	but	but	CCONJ	CC	_	39	cc	_	_
+39	growing	grow	VERB	VBG	VerbForm=Ger	35	conj	_	_
+40	something	something	PRON	NN	Number=Sing	39	obj	_	_
+41	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 108
+# text = And it raises a series of , I think , some of the most interesting questions about how we think about medicine in the future .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+3	raises	raise	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	5	det	_	_
+5	series	series	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	of	of	ADV	RB	_	9	advmod	_	_
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+10	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+11	some	some	DET	DT	_	9	obj	_	_
+12	of	of	ADP	IN	_	16	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+14	most	most	ADV	RBS	_	15	advmod	_	_
+15	interesting	interesting	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	questions	question	NOUN	NNS	Number=Plur	11	nmod	_	SpacesAfter=\s \s
+17	about	about	SCONJ	IN	_	20	mark	_	_
+18	how	how	ADV	WRB	PronType=Int	20	advmod	_	_
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	nsubj	_	_
+20	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	16	acl:relcl	_	_
+21	about	about	ADP	IN	_	22	case	_	_
+22	medicine	medicine	NOUN	NN	Number=Sing	20	obl	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	future	future	NOUN	NN	Number=Sing	22	nmod	_	_
+26	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 109
+# text = Could your medicine be a cell and not a pill
+1	Could	could	AUX	MD	VerbForm=Fin	6	aux	_	_
+2	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	medicine	medicine	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	be	be	AUX	VB	VerbForm=Inf	6	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	cell	cell	NOUN	NN	Number=Sing	0	root	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	not	not	PART	RB	_	10	advmod	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+10	pill	pill	NOUN	NN	Number=Sing	6	conj	_	SpacesAfter=\s \s
+
+# sent_id = 110
+# text = How would we grow these cells
+1	How	how	ADV	WRB	PronType=Int	4	advmod	_	_
+2	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	grow	grow	VERB	VB	VerbForm=Inf	0	root	_	_
+5	these	these	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	cells	cell	NOUN	NNS	Number=Plur	4	obj	_	SpacesAfter=\s \s
+
+# sent_id = 111
+# text = What we would we do to stop the malignant growth of these cells
+1	What	what	PRON	WP	PronType=Int	5	obj	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	5	aux	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	do	do	VERB	VB	VerbForm=Inf	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	stop	stop	VERB	VB	VerbForm=Inf	5	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+9	malignant	malignant	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	growth	growth	NOUN	NN	Number=Sing	7	obj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	these	these	DET	DT	Number=Plur|PronType=Dem	13	det	_	_
+13	cells	cell	NOUN	NNS	Number=Plur	10	nmod	_	SpacesAfter=\s \s
+
+# sent_id = 112
+# text = We heard about the problems of unleashing growth .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	heard	hear	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	about	about	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	problems	problem	NOUN	NNS	Number=Plur	2	obl	_	_
+6	of	of	ADP	IN	_	8	case	_	_
+7	unleashing	unleashing	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	growth	growth	NOUN	NN	Number=Sing	5	nmod	_	_
+9	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 113
+# text = Could we implant suicide genes into these cells to stop them from growing Could your medicine be an organ that 's created outside the body and then implanted into the body Could that stop some of the degeneration
+1	Could	could	AUX	MD	VerbForm=Fin	5	aux	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	_
+3	implant	implant	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	suicide	suicide	NOUN	NN	Number=Sing	5	nsubj	_	_
+5	genes	gene	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	into	into	ADP	IN	_	8	case	_	_
+7	these	these	DET	DT	Number=Plur|PronType=Dem	8	det	_	_
+8	cells	cell	NOUN	NNS	Number=Plur	5	obl	_	SpacesAfter=\s \s
+9	to	to	PART	TO	_	10	mark	_	_
+10	stop	stop	VERB	VB	VerbForm=Inf	5	advcl	_	_
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	obj	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	growing	grow	VERB	VBG	VerbForm=Ger	14	amod	_	SpacesAfter=\s \s
+14	Could	could	PROPN	NNP	Number=Sing	10	obl	_	_
+15	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	_
+16	medicine	medicine	NOUN	NN	Number=Sing	19	nsubj	_	_
+17	be	be	AUX	VB	VerbForm=Inf	19	cop	_	_
+18	an	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+19	organ	organ	NOUN	NN	Number=Sing	10	parataxis	_	_
+20	that	that	PRON	WDT	PronType=Rel	22	nsubj:pass	_	_
+21	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	aux:pass	_	_
+22	created	create	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl:relcl	_	_
+23	outside	outside	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	body	body	NOUN	NN	Number=Sing	22	obl	_	SpacesAfter=\s \s
+26	and	and	CCONJ	CC	_	28	cc	_	_
+27	then	then	ADV	RB	PronType=Dem	28	advmod	_	_
+28	implanted	implant	VERB	VBN	Tense=Past|VerbForm=Part	25	conj	_	_
+29	into	into	ADP	IN	_	32	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+31	body	body	NOUN	NN	Number=Sing	32	compound	_	SpacesAfter=\s \s
+32	Could	could	NOUN	NN	Number=Sing	28	obl	_	_
+33	that	that	PRON	WDT	PronType=Rel	34	nsubj	_	_
+34	stop	stop	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	acl:relcl	_	_
+35	some	some	DET	DT	_	34	obj	_	_
+36	of	of	ADP	IN	_	38	case	_	_
+37	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+38	degeneration	degeneration	NOUN	NN	Number=Sing	35	nmod	_	SpacesAfter=\s \s
+
+# sent_id = 114
+# text = What if the organ needed to have memory
+1	What	what	PRON	WP	PronType=Int	0	root	_	_
+2	if	if	SCONJ	IN	_	5	mark	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	organ	organ	ADJ	JJ	Degree=Pos	5	nsubj	_	_
+5	needed	need	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	advcl	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	have	have	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	memory	memory	NOUN	NN	Number=Sing	7	obj	_	SpacesAfter=\s \s
+
+# sent_id = 115
+# text = In cases of diseases of the nervous system some of those organs had memory .
+1	In	in	ADP	IN	_	2	case	_	_
+2	cases	case	NOUN	NNS	Number=Plur	13	obl	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	diseases	diseasis	NOUN	NNS	Number=Plur	2	nmod	_	_
+5	of	of	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	nervous	nervous	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	system	system	NOUN	NN	Number=Sing	4	nmod	_	_
+9	some	some	DET	DT	_	13	nsubj	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	those	those	DET	DT	Number=Plur|PronType=Dem	12	det	_	_
+12	organs	organ	NOUN	NNS	Number=Plur	9	nmod	_	_
+13	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+14	memory	memory	NOUN	NN	Number=Sing	13	obj	_	_
+15	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 116
+# text = How could we implant those memories back inCould we store these organs
+1	How	how	ADV	WRB	PronType=Int	4	advmod	_	_
+2	could	could	AUX	MD	VerbForm=Fin	4	aux	_	_
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	_	_
+4	implant	implant	VERB	VB	VerbForm=Inf	0	root	_	_
+5	those	those	DET	DT	Number=Plur|PronType=Dem	6	det	_	_
+6	memories	memory	NOUN	NNS	Number=Plur	4	obj	_	_
+7	back	back	ADV	RB	_	4	advmod	_	_
+8	inCould	inCould	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	store	store	VERB	VB	VerbForm=Inf	4	advcl	_	_
+11	these	these	DET	DT	Number=Plur|PronType=Dem	12	det	_	_
+12	organs	organ	NOUN	NNS	Number=Plur	10	obj	_	SpacesAfter=\s \s
+
+# sent_id = 117
+# text = Would each organ have to be developed for an individual human beingand put back
+1	Would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+2	each	each	DET	DT	_	4	nsubj	_	_
+3	organ	organ	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	have	have	VERB	VB	VerbForm=Inf	0	root	_	_
+5	to	to	PART	TO	_	7	mark	_	_
+6	be	be	AUX	VB	VerbForm=Inf	7	aux:pass	_	_
+7	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	xcomp	_	_
+8	for	for	ADP	IN	_	11	case	_	_
+9	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	individual	individual	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	human	human	NOUN	NN	Number=Sing	7	obl	_	_
+12	beingand	beingand	CCONJ	CC	_	13	cc	_	_
+13	put	put	VERB	VB	Mood=Imp|VerbForm=Fin	4	conj	_	_
+14	back	back	ADV	RB	_	13	advmod	_	SpacesAfter=\s \s
+
+# sent_id = 118
+# text = And perhaps most puzzlingly , could your medicine be an environment Could you patent an environment
+1	And	and	CCONJ	CC	_	11	cc	_	_
+2	perhaps	perhaps	ADV	RB	_	4	advmod	_	_
+3	most	most	ADV	RBS	_	4	advmod	_	_
+4	puzzlingly	puzzlingly	ADV	RB	_	11	advmod	_	_
+5	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s \s
+6	could	could	AUX	MD	VerbForm=Fin	11	aux	_	_
+7	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	medicine	medicine	NOUN	NN	Number=Sing	11	nsubj	_	_
+9	be	be	AUX	VB	VerbForm=Inf	11	cop	_	_
+10	an	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+11	environment	environment	NOUN	NN	Number=Sing	14	obl	_	SpacesAfter=\s \s
+12	Could	could	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	nsubj	_	_
+14	patent	patent	VERB	VB	VerbForm=Inf	0	root	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	environment	environment	NOUN	NN	Number=Sing	14	obj	_	SpacesAfter=\s \s
+
+# sent_id = 119
+# text = You know , in every culture , shamans have been using environments as medicines .
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+4	in	in	ADP	IN	_	6	case	_	_
+5	every	every	DET	DT	_	6	det	_	_
+6	culture	culture	NOUN	NN	Number=Sing	2	obl	_	_
+7	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s \s
+8	shamans	shaman	NOUN	NNS	Number=Plur	11	nsubj	_	_
+9	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	11	aux	_	_
+11	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	_
+12	environments	environment	NOUN	NNS	Number=Plur	11	obj	_	_
+13	as	as	ADP	IN	_	14	case	_	_
+14	medicines	medicine	NOUN	NNS	Number=Plur	11	obl	_	_
+15	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 120
+# text = Could we imagine that for our future I 've talked a lot about models .
+1	Could	could	AUX	MD	VerbForm=Fin	3	aux	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	imagine	imagine	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	11	mark	_	_
+5	for	for	ADP	IN	_	7	case	_	_
+6	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	future	future	NOUN	NN	Number=Sing	11	obl	_	SpacesAfter=\s \s
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	_
+9	'	'	PUNCT	``	_	8	punct	_	SpaceAfter=No
+10	ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	talked	talk	VERB	VBN	Tense=Past|VerbForm=Part	3	ccomp	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	lot	lot	NOUN	NN	Number=Sing	11	obj	_	_
+14	about	about	ADP	IN	_	15	case	_	_
+15	models	model	NOUN	NNS	Number=Plur	13	nmod	_	_
+16	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 121
+# text = I began this talk with models .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	began	begin	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	this	this	DET	DT	Number=Sing|PronType=Dem	4	det	_	_
+4	talk	talk	NOUN	NN	Number=Sing	2	obj	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	models	model	NOUN	NNS	Number=Plur	2	obl	_	_
+7	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 122
+# text = So let me end with some thoughts about model building .
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	root	_	_
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	obj	_	_
+4	end	end	VERB	VB	VerbForm=Inf	2	xcomp	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	some	some	DET	DT	_	7	det	_	_
+7	thoughts	thought	NOUN	NNS	Number=Plur	4	obl	_	_
+8	about	about	ADP	IN	_	10	case	_	_
+9	model	model	NOUN	NN	Number=Sing	10	compound	_	_
+10	building	building	NOUN	NN	Number=Sing	7	nmod	_	_
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 123
+# text = That 's what we do as scientists .
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
+5	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	_
+6	as	as	ADP	IN	_	7	case	_	_
+7	scientists	scientist	NOUN	NNS	Number=Plur	5	obl	_	_
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 124
+# text = You know , when an architect builds a model , he or she is trying to show you a world in miniature .
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+4	when	when	ADV	WRB	PronType=Int	7	mark	_	_
+5	an	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	architect	architect	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	builds	build	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	model	model	NOUN	NN	Number=Sing	7	obj	_	_
+10	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s \s
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+12	or	or	CCONJ	CC	_	15	cc	_	_
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	_
+15	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	2	ccomp	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	show	show	VERB	VB	VerbForm=Inf	15	xcomp	_	_
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	iobj	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+20	world	world	NOUN	NN	Number=Sing	17	obj	_	_
+21	in	in	ADP	IN	_	22	case	_	_
+22	miniature	miniature	NOUN	NN	Number=Sing	17	obl	_	_
+23	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 125
+# text = But when a scientist is building a model , he or she is trying to show you the world in metaphor .
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	when	when	ADV	WRB	PronType=Int	6	mark	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	scientist	scientist	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	building	build	VERB	VBG	Tense=Pres|VerbForm=Part	14	advcl	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+8	model	model	NOUN	NN	Number=Sing	6	obj	_	_
+9	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s \s
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+11	or	or	CCONJ	CC	_	14	cc	_	_
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	_
+14	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	show	show	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	iobj	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	world	world	NOUN	NN	Number=Sing	16	obj	_	_
+20	in	in	ADP	IN	_	21	case	_	_
+21	metaphor	metaphor	NOUN	NN	Number=Sing	16	obl	_	_
+22	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 126
+# text = He or she is trying to create a new way of seeing .
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+2	or	or	CCONJ	CC	_	5	cc	_	_
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	create	create	VERB	VB	VerbForm=Inf	5	xcomp	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	new	new	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	way	way	NOUN	NN	Number=Sing	7	obj	_	_
+11	of	of	SCONJ	IN	_	12	mark	_	_
+12	seeing	see	VERB	VBG	VerbForm=Ger	10	acl	_	_
+13	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 127
+# text = The former is a scale shift .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	former	former	ADJ	JJ	Degree=Pos	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	scale	scale	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	shift	shift	NOUN	NN	Number=Sing	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 128
+# text = The latter is a perceptual shift .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	latter	latter	ADJ	JJ	Degree=Pos	6	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	perceptual	perceptual	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	shift	shift	NOUN	NN	Number=Sing	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 129
+# text = Now , antibiotics created such a perceptual shift in our way of thinking about medicine that it really colored , distorted , very successfully , the way we 've thought about medicine for the last hundred years .
+1	Now	now	ADV	RB	_	4	advmod	_	_
+2	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\s\s
+3	antibiotics	antibiotic	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	created	create	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+5	such	such	DET	PDT	_	8	det:predet	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	perceptual	perceptual	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	shift	shift	NOUN	NN	Number=Sing	4	obj	_	SpacesAfter=\s \s
+9	in	in	ADP	IN	_	11	case	_	_
+10	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	way	way	NOUN	NN	Number=Sing	4	obl	_	_
+12	of	of	SCONJ	IN	_	13	mark	_	_
+13	thinking	think	VERB	VBG	VerbForm=Ger	11	acl	_	_
+14	about	about	ADP	IN	_	15	case	_	_
+15	medicine	medicine	NOUN	NN	Number=Sing	13	obl	_	_
+16	that	that	SCONJ	IN	_	19	mark	_	_
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+18	really	really	ADV	RB	_	19	advmod	_	_
+19	colored	color	VERB	VBN	Tense=Past|VerbForm=Part	4	advcl	_	_
+20	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+21	distorted	distort	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	19	conj	_	_
+22	,	,	PUNCT	,	_	27	punct	_	SpacesAfter=\s\s \s
+23	very	very	ADV	RB	_	24	advmod	_	_
+24	successfully	successfully	ADV	RB	_	27	advmod	_	_
+25	,	,	PUNCT	,	_	27	punct	_	SpacesAfter=\s\s
+26	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+27	way	way	NOUN	NN	Number=Sing	19	conj	_	_
+28	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	30	nmod:poss	_	_
+29	'	'	PART	POS	_	28	case	_	SpaceAfter=No
+30	ve	have	NOUN	NN	Number=Sing	31	nsubj	_	_
+31	thought	think	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	acl:relcl	_	_
+32	about	about	ADP	IN	_	33	case	_	_
+33	medicine	medicine	NOUN	NN	Number=Sing	31	obl	_	_
+34	for	for	ADP	IN	_	38	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+36	last	last	ADJ	JJ	Degree=Pos	38	amod	_	_
+37	hundred	hundred	NUM	CD	NumType=Card	38	nummod	_	_
+38	years	year	NOUN	NNS	Number=Plur	31	obl	_	_
+39	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 130
+# text = But we need new models to think about medicine in the future .
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+3	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	new	new	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	models	model	NOUN	NNS	Number=Plur	3	obj	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	think	think	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+8	about	about	ADP	IN	_	9	case	_	_
+9	medicine	medicine	NOUN	NN	Number=Sing	7	obl	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	future	future	NOUN	NN	Number=Sing	7	obl	_	_
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 131
+# text = That 's what 's at stake .
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	at	at	ADP	IN	_	6	case	_	_
+6	stake	stake	NOUN	NN	Number=Sing	3	acl:relcl	_	_
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 132
+# text = You know , there 's a popular trope out there that the reason we haven't had the transformative impact on the treatment of illness is because we don't have powerful-enough drugs , and that 's partly true .
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	nsubj	_	_
+2	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+4	there	there	PRON	EX	_	5	expl	_	_
+5	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	popular	popular	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	trope	trope	NOUN	NN	Number=Sing	5	nsubj	_	_
+9	out	out	ADV	RB	_	5	advmod	_	_
+10	there	there	ADV	RB	PronType=Dem	5	advmod	_	SpacesAfter=\s \s
+11	that	that	SCONJ	IN	_	26	mark	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	reason	reason	NOUN	NN	Number=Sing	26	nsubj	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+15	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	SpaceAfter=No
+16	n't	not	PART	RB	_	17	advmod	_	_
+17	had	have	VERB	VBN	Tense=Past|VerbForm=Part	13	acl:relcl	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+19	transformative	transformative	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	impact	impact	NOUN	NN	Number=Sing	17	obj	_	SpacesAfter=\s \s
+21	on	on	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	treatment	treatment	NOUN	NN	Number=Sing	20	nmod	_	_
+24	of	of	ADP	IN	_	25	case	_	_
+25	illness	illness	NOUN	NN	Number=Sing	23	nmod	_	SpacesAfter=\s \s
+26	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	nsubj	_	_
+27	because	because	SCONJ	IN	_	31	mark	_	_
+28	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	31	nsubj	_	_
+29	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	aux	_	SpaceAfter=No
+30	n't	not	PART	RB	_	31	advmod	_	_
+31	have	have	VERB	VB	VerbForm=Inf	2	advcl	_	_
+32	powerful	powerful	ADJ	JJ	Degree=Pos	34	amod	_	SpaceAfter=No
+33	-	-	PUNCT	HYPH	_	34	punct	_	SpaceAfter=No
+34	enough	enough	ADJ	JJ	Degree=Pos	35	amod	_	_
+35	drugs	drug	NOUN	NNS	Number=Plur	31	obj	_	_
+36	,	,	PUNCT	,	_	41	punct	_	SpacesAfter=\s\s \s
+37	and	and	CCONJ	CC	_	41	cc	_	_
+38	that	that	PRON	DT	Number=Sing|PronType=Dem	41	nsubj	_	_
+39	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+40	partly	partly	ADV	RB	_	41	advmod	_	_
+41	true	true	ADJ	JJ	Degree=Pos	31	conj	_	_
+42	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 133
+# text = But perhaps the real reason is that we don't have powerful-enough ways of thinking about medicines .
+1	But	but	CCONJ	CC	_	6	cc	_	_
+2	perhaps	perhaps	ADV	RB	_	6	advmod	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	real	real	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	reason	reason	NOUN	NN	Number=Sing	6	nsubj	_	_
+6	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	SpacesAfter=\s \s
+7	that	that	SCONJ	IN	_	11	mark	_	_
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	nsubj	_	_
+9	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	SpaceAfter=No
+10	n't	not	PART	RB	_	11	advmod	_	_
+11	have	have	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+12	powerful	powerful	ADJ	JJ	Degree=Pos	14	amod	_	SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	14	punct	_	SpaceAfter=No
+14	enough	enough	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	ways	way	NOUN	NNS	Number=Plur	11	obj	_	_
+16	of	of	SCONJ	IN	_	17	mark	_	_
+17	thinking	think	VERB	VBG	VerbForm=Ger	15	acl	_	_
+18	about	about	ADP	IN	_	19	case	_	_
+19	medicines	medicine	NOUN	NNS	Number=Plur	17	obl	_	_
+20	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 134
+# text = It 's certainly true that it would be lovely to have new medicines .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	certainly	certainly	ADV	RB	_	4	advmod	_	_
+4	true	true	ADJ	JJ	Degree=Pos	0	root	_	_
+5	that	that	SCONJ	IN	_	9	mark	_	SpacesAfter=\s \s
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	expl	_	_
+7	would	would	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+9	lovely	lovely	ADJ	JJ	Degree=Pos	4	ccomp	_	_
+10	to	to	PART	TO	_	11	mark	_	_
+11	have	have	VERB	VB	VerbForm=Inf	9	csubj	_	_
+12	new	new	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	medicines	medicine	NOUN	NNS	Number=Plur	11	obj	_	_
+14	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 135
+# text = But perhaps what 's really at stake are three more intangible M 's : mechanisms , models , metaphors .
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	perhaps	perhaps	ADV	RB	_	3	advmod	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	really	really	ADV	RB	_	7	advmod	_	_
+6	at	at	ADP	IN	_	7	case	_	_
+7	stake	stake	NOUN	NN	Number=Sing	12	nsubj	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+9	three	three	NUM	CD	NumType=Card	10	nummod	_	_
+10	more	more	ADJ	JJR	Degree=Cmp	12	amod	_	_
+11	intangible	intangible	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	M	m	NOUN	NN	Number=Sing	19	compound	_	_
+13	's	's	PART	POS	_	12	case	_	_
+14	:	:	PUNCT	:	_	12	punct	_	SpacesAfter=\s\s \s
+15	mechanisms	mechanism	NOUN	NNS	Number=Plur	12	appos	_	_
+16	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s
+17	models	model	NOUN	NNS	Number=Plur	15	conj	_	_
+18	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s
+19	metaphors	metaphor	NOUN	NNS	Number=Plur	3	nsubj	_	_
+20	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 136
+# text = Thank you .
+1	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n\n
+
+# newpar
+# sent_id = 137
+# text = Chris
+1	Chris	Chris	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 138
+# text = Anderson :
+1	Anderson	Anderson	PROPN	NNP	Number=Sing	0	root	_	_
+2	:	:	PUNCT	:	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 139
+# text = I really like this metaphor .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	really	really	ADV	RB	_	3	advmod	_	_
+3	like	like	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	this	this	DET	DT	Number=Sing|PronType=Dem	5	det	_	_
+5	metaphor	metaphor	NOUN	NN	Number=Sing	3	obj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 140
+# text = How does it link in There 's a lot of talk in technologylandabout the personalization of medicine , that we have all this data and that medical treatments of the futurewill be for you specifically , your genome , your current context .
+1	How	how	ADV	WRB	PronType=Int	4	advmod	_	_
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
+4	link	link	VERB	VB	VerbForm=Inf	0	root	_	_
+5	in	in	SCONJ	IN	_	7	mark	_	SpacesAfter=\s \s
+6	There	there	PRON	EX	_	7	expl	_	_
+7	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	advcl	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	lot	lot	NOUN	NN	Number=Sing	7	nsubj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	talk	talk	NOUN	NN	Number=Sing	9	nmod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	technologylandabout	technologylandabout	NOUN	NN	Number=Sing	11	nmod	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	personalization	personalization	NOUN	NN	Number=Sing	11	nmod	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	medicine	medicine	NOUN	NN	Number=Sing	15	nmod	_	_
+18	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s \s
+19	that	that	SCONJ	IN	_	21	mark	_	_
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+21	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	ccomp	_	_
+22	all	all	DET	PDT	_	24	det:predet	_	_
+23	this	this	DET	DT	Number=Sing|PronType=Dem	24	det	_	_
+24	data	data	NOUN	NN	Number=Sing	21	obj	_	_
+25	and	and	CCONJ	CC	_	28	cc	_	_
+26	that	that	DET	DT	Number=Sing|PronType=Dem	28	det	_	_
+27	medical	medical	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	treatments	treatment	NOUN	NNS	Number=Plur	24	conj	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	futurewill	futurewill	NOUN	NN	Number=Sing	28	nmod	_	_
+32	be	be	AUX	VB	VerbForm=Inf	38	cop	_	_
+33	for	for	ADP	IN	_	38	case	_	_
+34	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	38	nsubj	_	_
+35	specifically	specifically	ADV	RB	_	38	advmod	_	_
+36	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\s\s
+37	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
+38	genome	genome	NOUN	NN	Number=Sing	4	conj	_	_
+39	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\s\s
+40	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	42	nmod:poss	_	_
+41	current	current	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	context	context	NOUN	NN	Number=Sing	38	appos	_	_
+43	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 141
+# text = Does that apply to this model you 've got here Siddhartha Mukherjee :
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	_
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	apply	apply	VERB	VB	VerbForm=Inf	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	_	_
+6	model	model	NOUN	NN	Number=Sing	3	obl	_	_
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	nsubj	_	_
+8	'	'	PUNCT	``	_	7	punct	_	SpaceAfter=No
+9	ve	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	got	get	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+11	here	here	ADV	RB	PronType=Dem	10	advmod	_	SpacesAfter=\n
+12	Siddhartha	Siddhartha	PROPN	NNP	Number=Sing	13	compound	_	_
+13	Mukherjee	Mukherjee	PROPN	NNP	Number=Sing	10	obj	_	_
+14	:	:	PUNCT	:	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 142
+# text = It 's a very interesting question .
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+4	very	very	ADV	RB	_	5	advmod	_	_
+5	interesting	interesting	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	question	question	NOUN	NN	Number=Sing	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 143
+# text = We 've thought about personalization of medicinevery much in terms of genomics .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	've	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	aux	_	_
+3	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+4	about	about	ADP	IN	_	5	case	_	_
+5	personalization	personalization	NOUN	NN	Number=Sing	3	obl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	medicinevery	medicinevery	NOUN	NN	Number=Sing	5	nmod	_	_
+8	much	much	ADJ	JJ	Degree=Pos	7	amod	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	terms	term	NOUN	NNS	Number=Plur	8	obl	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	genomics	genomics	NOUN	NNS	Number=Plur	10	nmod	_	_
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 144
+# text = That 's because the gene is such a dominant metaphor , again , to use that same word , in medicine today , that we think the genome will drive the personalization of medicine .
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	_	_
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	because	because	SCONJ	IN	_	10	mark	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	gene	gene	NOUN	NN	Number=Sing	10	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+7	such	such	DET	PDT	_	10	det:predet	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	dominant	dominant	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	metaphor	metaphor	NOUN	NN	Number=Sing	2	advcl	_	_
+11	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s \s
+12	again	again	ADV	RB	_	2	advmod	_	_
+13	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+14	to	to	PART	TO	_	15	mark	_	_
+15	use	use	VERB	VB	VerbForm=Inf	2	advcl	_	_
+16	that	that	DET	DT	Number=Sing|PronType=Dem	18	det	_	_
+17	same	same	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	word	word	NOUN	NN	Number=Sing	15	obj	_	_
+19	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+20	in	in	ADP	IN	_	21	case	_	_
+21	medicine	medicine	NOUN	NN	Number=Sing	2	obl	_	_
+22	today	today	NOUN	NN	Number=Sing	2	obl:tmod	_	_
+23	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s \s
+24	that	that	SCONJ	IN	_	26	mark	_	_
+25	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	26	nsubj	_	_
+26	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	genome	genome	NOUN	NN	Number=Sing	30	nsubj	_	_
+29	will	will	AUX	MD	VerbForm=Fin	30	aux	_	_
+30	drive	drive	VERB	VB	VerbForm=Inf	26	ccomp	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	32	det	_	_
+32	personalization	personalization	NOUN	NN	Number=Sing	30	obj	_	_
+33	of	of	ADP	IN	_	34	case	_	_
+34	medicine	medicine	NOUN	NN	Number=Sing	32	nmod	_	_
+35	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 145
+# text = But of course the genome is just the bottom of a long chain of being , as it were .
+1	But	but	CCONJ	CC	_	9	cc	_	_
+2	of	of	ADV	RB	_	9	advmod	_	_
+3	course	course	ADV	RB	_	2	fixed	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	genome	genome	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	_
+7	just	just	ADV	RB	_	9	advmod	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	bottom	bottom	NOUN	NN	Number=Sing	0	root	_	SpacesAfter=\s \s
+10	of	of	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	long	long	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	chain	chain	NOUN	NN	Number=Sing	9	nmod	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	being	being	NOUN	NN	Number=Sing	13	nmod	_	_
+16	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+17	as	as	SCONJ	IN	_	19	mark	_	_
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	_	_
+19	were	be	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	advcl	_	_
+20	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 146
+# text = That chain of being , really the first organized unit of that , is the cell .
+1	That	that	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	chain	chain	NOUN	NN	Number=Sing	16	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	being	being	NOUN	NN	Number=Sing	2	nmod	_	_
+5	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+6	really	really	ADV	RB	_	10	advmod	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	10	amod	_	_
+9	organized	organized	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	unit	unit	NOUN	NN	Number=Sing	2	parataxis	_	_
+11	of	of	ADP	IN	_	12	case	_	_
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	10	nmod	_	_
+13	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	cell	cell	NOUN	NN	Number=Sing	0	root	_	_
+17	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 147
+# text = So , if we are really going to deliver in medicine in this way , we have to think of personalizing cellular therapies , and then personalizing organ or organismal therapies , and ultimately personalizing immersion therapies for the environment .
+1	So	so	ADV	RB	_	17	advmod	_	_
+2	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s
+3	if	if	SCONJ	IN	_	7	mark	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	nsubj	_	_
+5	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+6	really	really	ADV	RB	_	7	advmod	_	_
+7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	17	advcl	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	deliver	deliver	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	medicine	medicine	NOUN	NN	Number=Sing	9	obl	_	_
+12	in	in	ADP	IN	_	14	case	_	_
+13	this	this	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	way	way	NOUN	NN	Number=Sing	9	obl	_	_
+15	,	,	PUNCT	,	_	17	punct	_	_
+16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	17	nsubj	_	_
+17	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	think	think	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	of	of	SCONJ	IN	_	21	mark	_	_
+21	personalizing	personalize	VERB	VBG	VerbForm=Ger	19	advcl	_	_
+22	cellular	cellular	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	therapies	therapy	NOUN	NNS	Number=Plur	21	obj	_	_
+24	,	,	PUNCT	,	_	27	punct	_	SpacesAfter=\s\s \s
+25	and	and	CCONJ	CC	_	27	cc	_	_
+26	then	then	ADV	RB	PronType=Dem	27	advmod	_	_
+27	personalizing	personalize	VERB	VBG	VerbForm=Ger	17	conj	_	_
+28	organ	organ	ADJ	JJ	Degree=Pos	31	amod	_	_
+29	or	or	CCONJ	CC	_	30	cc	_	_
+30	organismal	organismal	ADJ	JJ	Degree=Pos	28	conj	_	_
+31	therapies	therapy	NOUN	NNS	Number=Plur	27	obj	_	_
+32	,	,	PUNCT	,	_	35	punct	_	_
+33	and	and	CCONJ	CC	_	35	cc	_	_
+34	ultimately	ultimately	ADV	RB	_	35	advmod	_	_
+35	personalizing	personalize	VERB	VBG	VerbForm=Ger	17	conj	_	_
+36	immersion	immersion	NOUN	NN	Number=Sing	37	compound	_	_
+37	therapies	therapie	NOUN	NNS	Number=Plur	35	obj	_	_
+38	for	for	ADP	IN	_	40	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+40	environment	environment	NOUN	NN	Number=Sing	35	obl	_	_
+41	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 148
+# text = So I think at every stage , you know -- there 's that metaphor , there 's turtles all the way .
+1	So	so	ADV	RB	_	3	advmod	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	at	at	ADP	IN	_	6	case	_	_
+5	every	every	DET	DT	_	6	det	_	_
+6	stage	stage	NOUN	NN	Number=Sing	3	obl	_	_
+7	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	nsubj	_	_
+9	know	know	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+10	--	--	PUNCT	,	_	9	punct	_	SpacesAfter=\s \s
+11	there	there	PRON	EX	_	12	expl	_	_
+12	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	_	_
+13	that	that	DET	DT	Number=Sing|PronType=Dem	14	det	_	_
+14	metaphor	metaphor	NOUN	NN	Number=Sing	12	nsubj	_	_
+15	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s
+16	there	there	PRON	EX	_	17	expl	_	_
+17	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+18	turtles	turtle	NOUN	NNS	Number=Plur	17	nsubj	_	_
+19	all	all	DET	PDT	_	21	det:predet	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	way	way	NOUN	NN	Number=Sing	17	nsubj	_	_
+22	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 149
+# text = Well , in this , there 's personalization all the way .
+1	Well	well	INTJ	UH	_	7	discourse	_	_
+2	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+3	in	in	ADP	IN	_	4	case	_	_
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	7	obl	_	_
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+6	there	there	PRON	EX	_	7	expl	_	_
+7	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	personalization	personalization	NOUN	NN	Number=Sing	7	nsubj	_	_
+9	all	all	DET	PDT	_	11	det:predet	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	way	way	NOUN	NN	Number=Sing	8	nmod:npmod	_	_
+12	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 150
+# text = CA :
+1	CA	ca	NOUN	NN	Number=Sing	0	root	_	_
+2	:	:	PUNCT	:	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 151
+# text = So when you say medicine could be a cell and not a pill , you 're talking about potentially your own cells .
+1	So	so	ADV	RB	_	17	advmod	_	_
+2	when	when	ADV	WRB	PronType=Int	4	mark	_	_
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+4	say	say	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	advcl	_	_
+5	medicine	medicine	NOUN	NN	Number=Sing	9	nsubj	_	_
+6	could	could	AUX	MD	VerbForm=Fin	9	aux	_	_
+7	be	be	AUX	VB	VerbForm=Inf	9	cop	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+9	cell	cell	NOUN	NN	Number=Sing	4	ccomp	_	SpacesAfter=\s \s
+10	and	and	CCONJ	CC	_	13	cc	_	_
+11	not	not	ADV	RB	_	13	advmod	_	_
+12	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+13	pill	pill	NOUN	NN	Number=Sing	9	conj	_	_
+14	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s \s
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+16	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+18	about	about	ADP	IN	_	22	case	_	_
+19	potentially	potentially	ADV	RB	_	22	advmod	_	_
+20	your	you	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	own	own	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	cells	cell	NOUN	NNS	Number=Plur	17	obl	_	_
+23	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n
+
+# sent_id = 152
+# text = SM : Absolutely .
+1	SM	sm	NOUN	NN	Number=Sing	0	root	_	_
+2	:	:	PUNCT	:	_	1	punct	_	SpacesAfter=\s\s
+3	Absolutely	absolutely	ADV	RB	_	1	advmod	_	_
+4	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 153
+# text = CA :
+1	CA	ca	NOUN	NN	Number=Sing	0	root	_	_
+2	:	:	PUNCT	:	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 154
+# text = So converted to stem cells , perhaps tested against all kinds of drugs or something , and prepared .
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	converted	convert	ADJ	JJ	Degree=Pos	0	root	_	_
+3	to	to	PART	TO	_	4	mark	_	_
+4	stem	stem	VERB	VB	VerbForm=Inf	2	advcl	_	_
+5	cells	cell	NOUN	NNS	Number=Plur	4	obj	_	_
+6	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\s\s \s
+7	perhaps	perhaps	ADV	RB	_	8	advmod	_	_
+8	tested	test	VERB	VBN	Tense=Past|VerbForm=Part	4	conj	_	_
+9	against	against	ADP	IN	_	11	case	_	_
+10	all	all	DET	DT	_	11	det	_	_
+11	kinds	kind	NOUN	NNS	Number=Plur	8	obl	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	drugs	drug	NOUN	NNS	Number=Plur	11	nmod	_	_
+14	or	or	CCONJ	CC	_	15	cc	_	_
+15	something	something	PRON	NN	Number=Sing	13	conj	_	_
+16	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\s\s
+17	and	and	CCONJ	CC	_	18	cc	_	_
+18	prepared	prepare	VERB	VBN	Tense=Past|VerbForm=Part	2	conj	_	_
+19	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 155
+# text = SM :
+1	SM	sm	NOUN	NN	Number=Sing	0	root	_	_
+2	:	:	PUNCT	:	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 156
+# text = And there 's no perhaps .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	no	no	DET	DT	_	5	det	_	_
+5	perhaps	perhap	NOUN	NNS	Number=Plur	3	nsubj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 157
+# text = This is what we 're doing .
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	nsubj	_	_
+5	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	3	acl:relcl	_	_
+7	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s \s
+
+# sent_id = 158
+# text = This is what 's happening , and in fact , we 're slowly moving , not away from genomics , but incorporating genomics into what we call multi-order , semi-autonomous , self-regulating systems , like cells , like organs , like environments .
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	_
+3	what	what	PRON	WP	PronType=Int	5	nsubj	_	_
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	15	acl:relcl	_	_
+6	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+7	and	and	CCONJ	CC	_	14	cc	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	fact	fact	NOUN	NN	Number=Sing	14	obl	_	_
+10	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	nsubj	_	_
+12	're	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	aux	_	_
+13	slowly	slowly	ADV	RB	_	14	advmod	_	_
+14	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part	5	conj	_	_
+15	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s \s
+16	not	not	PART	RB	_	17	advmod	_	_
+17	away	away	ADV	RB	_	0	root	_	_
+18	from	from	ADP	IN	_	19	case	_	_
+19	genomics	genomics	NOUN	NNS	Number=Plur	17	obl	_	_
+20	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s
+21	but	but	CCONJ	CC	_	22	cc	_	_
+22	incorporating	incorporate	VERB	VBG	VerbForm=Ger	17	conj	_	_
+23	genomics	genomics	NOUN	NNS	Number=Plur	22	obj	_	SpacesAfter=\s \s
+24	into	into	SCONJ	IN	_	25	case	_	_
+25	what	what	PRON	WP	PronType=Int	22	obl	_	_
+26	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
+27	call	call	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	25	acl:relcl	_	_
+28	multi-order	multi-order	ADJ	JJ	Degree=Pos	35	amod	_	_
+29	,	,	PUNCT	,	_	30	punct	_	SpacesAfter=\s\s
+30	semi-autonomous	semi-autonomous	ADJ	JJ	Degree=Pos	28	conj	_	_
+31	,	,	PUNCT	,	_	35	punct	_	SpacesAfter=\s\s
+32	self	self	NOUN	NN	Number=Sing	34	obl:npmod	_	SpaceAfter=No
+33	-	-	PUNCT	HYPH	_	34	punct	_	SpaceAfter=No
+34	regulating	regulate	VERB	VBG	VerbForm=Ger	35	amod	_	_
+35	systems	system	NOUN	NNS	Number=Plur	27	obj	_	_
+36	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\s\s \s
+37	like	like	ADP	IN	_	38	case	_	_
+38	cells	cell	NOUN	NNS	Number=Plur	22	obl	_	_
+39	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\s\s
+40	like	like	ADP	IN	_	41	case	_	_
+41	organs	organ	NOUN	NNS	Number=Plur	38	nmod	_	_
+42	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\s\s
+43	like	like	ADP	IN	_	44	case	_	_
+44	environments	environment	NOUN	NNS	Number=Plur	38	nmod	_	_
+45	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n
+
+# sent_id = 159
+# text = CA :
+1	CA	ca	NOUN	NN	Number=Sing	0	root	_	_
+2	:	:	PUNCT	:	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 160
+# text = Thank you so much .
+1	Thank	thank	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	obj	_	_
+3	so	so	ADV	RB	_	4	advmod	_	_
+4	much	much	ADV	RB	_	1	advmod	_	_
+5	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+
+# sent_id = 161
+# text = SM : Pleasure .
+1	SM	sm	NOUN	NN	Number=Sing	0	root	_	_
+2	:	:	PUNCT	:	_	1	punct	_	SpacesAfter=\s\s
+3	Pleasure	pleasure	PROPN	NNP	Number=Sing	1	appos	_	_
+4	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 162
+# text = Thanks .
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	SpacesAfter=\s\n
+

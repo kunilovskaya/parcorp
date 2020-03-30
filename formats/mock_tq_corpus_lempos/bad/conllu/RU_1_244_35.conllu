@@ -1,0 +1,450 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Вся правда о ГМО Сторонники генномодифицированного зерна настаивают, что это единственный способ справиться с тем, чтобы прокормить густонаселенный мир.
+1	Вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+2	правда	правда	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	о	о	ADP	_	_	4	case	_	_
+4	ГМО	Гмый	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nmod	_	SpacesAfter=\n
+5	Сторонники	сторонник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+6	генномодифицированного	генномодифицировать	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	зерна	зерно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	настаивают	настаивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	13	mark	_	_
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+12	единственный	единственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	ccomp	_	_
+14	справиться	справляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	13	obl	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	14	obl	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	чтобы	что	SCONJ	_	Mood=Cnd	19	mark	_	_
+19	прокормить	прокармливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	advcl	_	_
+20	густонаселенный	густонаселенный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	мир	мир	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 2
+# text = Критики же уверены, что этим мы наносим природе непоправимый ущерб .
+1	Критики	критика	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	же	же	PART	_	_	1	discourse	_	_
+3	уверены	уверенный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	8	mark	_	_
+6	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
+7	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	8	nsubj	_	_
+8	наносим	наносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+9	природе	природа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	iobj	_	_
+10	непоправимый	непоправимый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	ущерб	ущерб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+12	.	.	PUNCT	_	_	11	punct	_	_
+
+# sent_id = 3
+# text = Так кто же прав?
+1	Так	так	ADV	_	Degree=Pos	4	advmod	_	_
+2	кто	кто	PRON	_	Case=Nom	4	nsubj	_	_
+3	же	же	PART	_	_	2	discourse	_	_
+4	прав	прав	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	SpacesAfter=\n
+
+# sent_id = 4
+# text = Дэвид Х. Фридман 20 августа 2013 Роберт Голдберг сидит за своим рабочим столом и энергично жестикулирует: " Монстры-Франкенштейны, это все - те вещи, что выходят из-под контроля."
+1	Дэвид	дэвид	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+2	Х.	х.	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+3	Фридман	Фридман	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	flat:name	_	_
+4	20	20	NUM	_	_	1	nummod	_	_
+5	августа	август	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	flat	_	_
+6	2013	2013	NUM	_	_	5	nummod	_	SpacesAfter=\n
+7	Роберт	роберт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	appos	_	_
+8	Голдберг	Голдберг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	сидит	сидеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	за	за	ADP	_	_	13	case	_	_
+11	своим	свой	DET	_	Case=Ins|Gender=Masc|Number=Sing	13	det	_	_
+12	рабочим	рабочий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	столом	стол	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+14	и	и	CCONJ	_	_	16	cc	_	_
+15	энергично	энергично	ADV	_	Degree=Pos	16	advmod	_	_
+16	жестикулирует	жестикулировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	SpaceAfter=No
+17	:	:	PUNCT	_	_	16	punct	_	_
+18	"	"	PUNCT	_	_	19	punct	_	_
+19	Монстры	монстр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	26	nmod	_	SpaceAfter=No
+20	-Франкенштейны	-Франкенштейна	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
+21	,	,	PUNCT	_	_	20	punct	_	_
+22	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+23	все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	22	det	_	_
+24	-	-	PUNCT	_	_	23	punct	_	_
+25	те	тот	DET	_	Case=Nom|Number=Plur	26	det	_	_
+26	вещи	вещь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	16	parataxis	_	SpaceAfter=No
+27	,	,	PUNCT	_	_	26	punct	_	_
+28	что	что	PRON	_	Case=Nom	29	nsubj	_	_
+29	выходят	выходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl:relcl	_	_
+30	из-под	из-под	ADP	_	_	31	case	_	_
+31	контроля	контроль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	obl	_	SpaceAfter=No
+32	.	.	PUNCT	_	_	31	punct	_	SpaceAfter=No
+33	"	"	PUNCT	_	_	31	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = "Это самая расстраивающая вещь, с которой я когда-либо сталкивался"- добавляет он.
+1	"	"	PUNCT	_	_	2	punct	_	SpaceAfter=No
+2	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	расстраивающая	расстраивать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	amod	_	_
+5	вещь	вещь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	которой	который	PRON	_	Case=Gen	11	obl	_	_
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	11	nsubj	_	_
+10	когда-либо	когда-либо	ADV	_	Degree=Pos	11	advmod	_	_
+11	сталкивался	сталкиваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	SpaceAfter=No
+12	"	"	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	_
+14	добавляет	добавлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+15	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	SpaceAfter=No
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\n
+
+# sent_id = 6
+# text = Голдберг, молекулярный биолог в Калифорнийском Университете Лос-Анджелеса, далеко не психопат.
+1	Голдберг	Голдберг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	молекулярный	молекулярный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	биолог	биолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	conj	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	Калифорнийском	калифорнийский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	Университете	университет	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	nmod	_	_
+8	Лос-Анджелеса	лос-анджелес	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	далеко	далеко	ADV	_	Degree=Pos	11	advmod	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	психопат	психопат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
+13	.	.	PUNCT	_	_	12	punct	_	_
+
+# sent_id = 7
+# text = Он хочет передать всю свою безысходность в противостоянии генномодефецированному зерну.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	передать	передавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing	6	det	_	_
+5	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	6	det	_	_
+6	безысходность	безысходность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	противостоянии	противостояние	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+9	генномодефецированному	генномодефецированный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	зерну	зерно	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	8	iobj	_	SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 8
+# text = Очень разочаровывающим для него является то, что этот вопрос должен был быть закрыт уже очень давно, когда ученые представили ясное доказательство:"Сегодня мы сталкиваемся с теми же противоречиями, что и сорок лет назад."
+1	Очень	очень	ADV	_	Degree=Pos	2	advmod	_	_
+2	разочаровывающим	разочаровывать	VERB	_	Aspect=Imp|Case=Ins|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	obl	_	_
+5	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	11	mark	_	_
+9	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	10	det	_	_
+10	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	должен	должен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	6	acl	_	_
+12	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+13	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	aux:pass	_	_
+14	закрыт	закрывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+15	уже	уже	ADV	_	Degree=Pos	16	advmod	_	_
+16	очень	очень	ADV	_	Degree=Pos	17	advmod	_	_
+17	давно	давно	ADV	_	Degree=Pos	14	advmod	_	SpaceAfter=No
+18	,	,	PUNCT	_	_	17	punct	_	_
+19	когда	когда	SCONJ	_	_	21	mark	_	_
+20	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+21	представили	представлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+22	ясное	ясный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	доказательство	доказательство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	21	obj	_	SpaceAfter=No
+24	:	:	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	"	"	PUNCT	_	_	26	punct	_	SpaceAfter=No
+26	Сегодня	сегодня	ADV	_	Degree=Pos	28	advmod	_	_
+27	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	28	nsubj	_	_
+28	сталкиваемся	сталкиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	21	parataxis	_	_
+29	с	с	ADP	_	_	32	case	_	_
+30	теми	тот	DET	_	Case=Ins|Number=Plur	32	det	_	_
+31	же	же	PART	_	_	30	discourse	_	_
+32	противоречиями	противоречие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	28	obl	_	SpaceAfter=No
+33	,	,	PUNCT	_	_	32	punct	_	_
+34	что	что	SCONJ	_	_	38	mark	_	_
+35	и	и	PART	_	_	36	discourse	_	_
+36	сорок	сорок	NUM	_	Case=Acc	37	nummod:gov	_	_
+37	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	38	obl	_	_
+38	назад.	назадемик	ADV	_	Degree=Pos	32	acl	_	SpaceAfter=No
+39	"	"	PUNCT	_	_	38	punct	_	SpacesAfter=\n
+
+# sent_id = 9
+# text = Пересекая кампус, Девид Вилльямс, клеточный биолог, чьей специализацией является анализ, выступает с противоположным мнением: "Многие ученые были вовлечены в продвижение этой технологии.
+1	Пересекая	пересекать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	_
+2	кампус	кампус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	Девид	Девид	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+5	Вилльямс	Вилльямс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No
+6	,	,	PUNCT	_	_	5	punct	_	_
+7	клеточный	клеточный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	биолог	биолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	чьей	чей	DET	_	Case=Ins|Gender=Fem|Number=Sing	11	det	_	_
+11	специализацией	специализация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	12	obl	_	_
+12	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	_
+13	анализ	анализ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	SpaceAfter=No
+14	,	,	PUNCT	_	_	13	punct	_	_
+15	выступает	выступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+16	с	с	ADP	_	_	18	case	_	_
+17	противоположным	противоположный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	мнением	мнение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	15	obl	_	SpaceAfter=No
+19	:	:	PUNCT	_	_	18	punct	_	_
+20	"	"	PUNCT	_	_	21	punct	_	SpaceAfter=No
+21	Многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	ученые	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	24	nsubj	_	_
+23	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	24	aux:pass	_	_
+24	вовлечены	вовлекать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	18	parataxis	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	продвижение	продвижение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	obl	_	_
+27	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	28	det	_	_
+28	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	26	nmod	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	28	punct	_	_
+
+# sent_id = 10
+# text = Тридцать лет назад мы не знали, что, если ты внедряешь ген в разные геномы, геном реагирует на это.
+1	Тридцать	тридцать	NUM	_	Case=Acc	2	nummod:gov	_	_
+2	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+3	назад	назад	ADV	_	Degree=Pos	2	advmod	_	_
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	знали	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	что	что	SCONJ	_	_	19	mark	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	если	если	SCONJ	_	_	12	mark	_	_
+11	ты	ты	PRON	_	Case=Nom|Number=Sing|Person=2	12	nsubj	_	_
+12	внедряешь	внедрять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	19	advcl	_	_
+13	ген	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	разные	разный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	геномы	геном	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	13	nmod	_	SpaceAfter=No
+17	,	,	PUNCT	_	_	16	punct	_	_
+18	геном	ген	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	_
+19	реагирует	реагировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
+20	на	на	ADP	_	_	21	case	_	_
+21	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obl	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 11
+# text = Но теперь, каждый в этой сфере знает, что геном не статичен.
+1	Но	но	CCONJ	_	_	8	cc	_	_
+2	теперь	теперь	ADV	_	Degree=Pos	8	advmod	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	nsubj	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	7	det	_	_
+7	сфере	сфера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+8	знает	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	что	что	SCONJ	_	_	13	mark	_	_
+11	геном	ген	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	obl	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	статичен	статитывать	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	8	ccomp	_	SpaceAfter=No
+14	.	.	PUNCT	_	_	13	punct	_	_
+
+# sent_id = 12
+# text = Вставной геном может быть трансформирован несколькими разными способами, и это может дать о себе знать только несколькими поколениями позже.
+1	Вставной	вставной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	геном	ген	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	aux:pass	_	_
+5	трансформирован	трансформировать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	xcomp	_	_
+6	несколькими	несколько	NUM	_	Case=Ins	8	nummod	_	_
+7	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	8	amod	_	_
+8	способами	способ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+13	дать	давать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+14	о	о	ADP	_	_	15	case	_	_
+15	себе	себя	PRON	_	Case=Loc	13	obl	_	_
+16	знать	знать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+17	только	только	PART	_	_	18	advmod	_	_
+18	несколькими	несколько	NUM	_	Case=Ins	19	nummod	_	_
+19	поколениями	поколение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	16	obl	_	_
+20	позже	поздно	ADV	_	Degree=Cmp	16	advmod	_	SpaceAfter=No
+21	.	.	PUNCT	_	_	20	punct	_	_
+
+# sent_id = 13
+# text = Он настаивает, что все это выльется в то, что многие потенциально токсичные растения смогут пройти тест безопасности.
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	настаивает	настаивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	7	mark	_	_
+5	все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	6	det	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	выльется	выливаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	ccomp	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	что	что	SCONJ	_	_	16	mark	_	_
+12	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+13	потенциально	потенциально	ADV	_	Degree=Pos	14	obl	_	_
+14	токсичные	токсичный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	растения	растение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	16	nsubj	_	_
+16	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	9	acl	_	_
+17	пройти	проходить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+18	тест	тест	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+19	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = Вилльямс допускает, что он один из узкого круга ученых-биологов, которые поднимают острый вопрос о безопасности генномодифицированного зерна.
+1	Вилльямс	Вилльямс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	допускает	допускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	что	что	SCONJ	_	_	6	mark	_	_
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	один	один	NUM	_	Case=Nom|Gender=Masc	2	ccomp	_	_
+7	из	из	ADP	_	_	9	case	_	_
+8	узкого	узкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	круга	круг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+10	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	биологов	биолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	appos	_	SpaceAfter=No
+13	,	,	PUNCT	_	_	12	punct	_	_
+14	которые	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	поднимают	поднимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+16	острый	острый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+18	о	о	ADP	_	_	19	case	_	_
+19	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	nmod	_	_
+20	генномодифицированного	генномодифицировать	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	зерна	зерно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	SpaceAfter=No
+22	.	.	PUNCT	_	_	21	punct	_	_
+
+# sent_id = 15
+# text = Но он отмечает, что это все лишь из-за того, что общество молекулярной биологии защищает свои собственные интересы.
+1	Но	но	CCONJ	_	_	3	cc	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	отмечает	отмечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	что	что	SCONJ	_	_	10	mark	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+7	все	весь	PART	_	_	8	discourse	_	_
+8	лишь	лишь	PART	_	_	10	discourse	_	_
+9	из-за	из-за	ADP	_	_	10	case	_	_
+10	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	ccomp	_	SpaceAfter=No
+11	,	,	PUNCT	_	_	10	punct	_	_
+12	что	что	SCONJ	_	_	16	mark	_	_
+13	общество	общество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+14	молекулярной	молекулярный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	биологии	биология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	защищает	защищать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl	_	_
+17	свои	свой	DET	_	Case=Acc|Number=Plur	19	det	_	_
+18	собственные	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	интересы	интерес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	SpaceAfter=No
+20	.	.	PUNCT	_	_	19	punct	_	_
+
+# sent_id = 16
+# text = Финансирование приходит по большому счету из тех компаний, которые занимаются продажей ГМ зерна.
+1	Финансирование	финансирование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	приходит	приходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	по	по	ADP	_	_	5	case	_	_
+4	большому	большой	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	счету	счет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
+6	из	из	ADP	_	_	8	case	_	_
+7	тех	тот	DET	_	Case=Gen|Number=Plur	8	det	_	_
+8	компаний	компания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpaceAfter=No
+9	,	,	PUNCT	_	_	8	punct	_	_
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	acl:relcl	_	_
+12	продажей	продажа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+13	ГМ	гм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	nmod	_	_
+14	зерна	зерно	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 17
+# text = Эти компании оказывают большую поддержку ученым, которые способствуют продвижению ГМО в сельском хозяйстве.
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	компании	компания	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+3	оказывают	оказывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	поддержку	поддержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+6	ученым	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	5	iobj	_	SpaceAfter=No
+7	,	,	PUNCT	_	_	6	punct	_	_
+8	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	способствуют	способствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	продвижению	продвижение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	iobj	_	_
+11	ГМО	Гмо	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	appos	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	сельском	сельский	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	хозяйстве	хозяйство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	nmod	_	SpaceAfter=No
+15	.	.	PUNCT	_	_	14	punct	_	_
+
+# sent_id = 18
+# text = Далеко не всех биологов, исследующих влияние ГМО на здоровье и другие прилагающиеся риски, можно назвать объективными.
+1	Далеко	далеко	ADV	_	Degree=Pos	2	advmod	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	всех	весь	DET	_	Case=Gen|Number=Plur	4	det	_	_
+4	биологов	биолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	obl	_	SpaceAfter=No
+5	,	,	PUNCT	_	_	4	punct	_	_
+6	исследующих	исследовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	_	_
+7	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+8	ГМО	Гмо	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nmod	_	_
+9	на	на	ADP	_	_	10	case	_	_
+10	здоровье	здоровье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+11	и	и	CCONJ	_	_	14	cc	_	_
+12	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	14	amod	_	_
+13	прилагающиеся	прилагаться	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	14	amod	_	_
+14	риски	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	conj	_	SpaceAfter=No
+15	,	,	PUNCT	_	_	14	punct	_	_
+16	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+17	назвать	называть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	csubj	_	_
+18	объективными	объективный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	17	obl	_	SpaceAfter=No
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\n
+
+# sent_id = 19
+# text = Так кто же прав: приверженцы ГМО или его критики?
+1	Так	так	ADV	_	Degree=Pos	4	advmod	_	_
+2	кто	кто	PRON	_	Case=Nom	4	nsubj	_	_
+3	же	же	PART	_	_	2	discourse	_	_
+4	прав	прав	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	SpaceAfter=No
+5	:	:	PUNCT	_	_	4	punct	_	_
+6	приверженцы	приверженец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	parataxis	_	_
+7	ГМО	Гмо	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	или	или	CCONJ	_	_	10	cc	_	_
+9	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	критики	критика	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	conj	_	SpaceAfter=No
+11	?	?	PUNCT	_	_	10	punct	_	_
+
+# sent_id = 20
+# text = Выход из этой дилеммы мы сможем найти только тогда, когда посмотрим на этот вопрос с обеих сторон и взвесим все "за" и "против".
+1	Выход	выход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	obj	_	_
+2	из	из	ADP	_	_	4	case	_	_
+3	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	4	det	_	_
+4	дилеммы	дилемма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+5	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
+6	сможем	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	только	только	PART	_	_	9	advmod	_	_
+9	тогда	тогда	ADV	_	Degree=Pos	7	advmod	_	SpaceAfter=No
+10	,	,	PUNCT	_	_	9	punct	_	_
+11	когда	когда	ADV	_	Degree=Pos	12	advmod	_	_
+12	посмотрим	смотреть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	15	det	_	_
+15	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+16	с	с	ADP	_	_	18	case	_	_
+17	обеих	оба	NUM	_	Case=Gen|Gender=Fem	18	nummod	_	_
+18	сторон	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	nmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	взвесим	взвесить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+21	все	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+22	"	"	PUNCT	_	_	23	punct	_	SpaceAfter=No
+23	за	за	ADP	_	_	20	advmod	_	SpaceAfter=No
+24	"	"	PUNCT	_	_	23	punct	_	_
+25	и	и	CCONJ	_	_	27	cc	_	_
+26	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+27	против	против	ADP	_	_	23	conj	_	SpaceAfter=No
+28	"	"	PUNCT	_	_	27	punct	_	SpaceAfter=No
+29	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\n
+

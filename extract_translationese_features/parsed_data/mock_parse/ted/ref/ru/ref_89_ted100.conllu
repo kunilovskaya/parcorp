@@ -1,0 +1,1899 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Лайнус Полинг и кристаллография Химик Артем Оганов о шкале ионных радиусов , вкладе Полинга в кристаллографию и открытии квазикристаллов Лайнус Карл Полинг - один из величайших ученых XX века , а возможно , и всей истории .
+1	Лайнус	Лайнус	ADP	_	_	2	case	_	_
+2	Полинг	Полинг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	0	root	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	кристаллография	кристаллография	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	SpacesAfter=\n
+5	Химик	химик	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	Артем	артем	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
+7	Оганов	Оганов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	flat:name	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	шкале	шкала	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+10	ионных	ионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	11	amod	_	_
+11	радиусов	радиус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	вкладе	вклад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	conj	_	_
+14	Полинга	Полинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	кристаллографию	кристаллография	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	открытии	открытие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	conj	_	_
+19	квазикристаллов	квазикристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	SpacesAfter=\n
+20	Лайнус	Лайнус	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+21	Карл	карл	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	_
+22	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	20	flat:name	_	_
+23	-	-	PUNCT	_	_	22	punct	_	_
+24	один	один	NUM	_	Case=Nom|Gender=Masc	5	nummod:gov	_	_
+25	из	из	ADP	_	_	27	case	_	_
+26	величайших	великий	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	27	amod	_	_
+27	ученых	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+28	XX	xx	NUM	_	_	29	nummod	_	_
+29	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+30	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	а	а	CCONJ	_	_	32	cc	_	_
+32	возможно	возможно	ADV	_	Degree=Pos	24	conj	_	_
+33	,	,	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+34	и	и	CCONJ	_	_	36	cc	_	_
+35	всей	весь	DET	_	Case=Gen|Gender=Fem|Number=Sing	36	det	_	_
+36	истории	история	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	conj	_	_
+37	.	.	PUNCT	_	_	36	punct	_	SpacesAfter=\s\s
+
+# sent_id = 2
+# text = Он родился в самом начале XX века , в 1901 году , в США , штате Орегон .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	родился	рождаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	2	obl	_	_
+6	XX	xx	NUM	_	_	7	nummod	_	_
+7	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	в	в	ADP	_	_	11	case	_	_
+10	1901	1901	NUM	_	_	11	nummod	_	_
+11	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	2	obl	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	в	в	ADP	_	_	14	case	_	_
+14	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	11	conj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	штате	штат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	conj	_	_
+17	Орегон	Орегон	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	appos	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 3
+# text = Начало его жизни не предвещало ничего великого для будущего .
+1	Начало	начало	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+2	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+3	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	предвещало	предвещать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	ничего	ничто	PRON	_	Case=Gen	5	obl	_	_
+7	великого	великий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	будущего	будущее	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	obl	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Но когда Полинг умирал в 1993 году ( он прожил очень долгую плодотворную жизнь ) , он умирал как человек , внесший решающий вклад в развитие многих дисциплин .
+1	Но	но	CCONJ	_	_	4	cc	_	_
+2	когда	когда	SCONJ	_	_	4	mark	_	_
+3	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	умирал	умирать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	1993	1993	NUM	_	_	7	nummod	_	_
+7	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	SpacesAfter=\s\s
+8	(	(	PUNCT	_	_	9	punct	_	_
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	прожил	проживать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+11	очень	очень	ADV	_	Degree=Pos	12	obl	_	_
+12	долгую	долгий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+13	плодотворную	плодотворный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+15	)	)	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+17	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
+18	умирал	умирать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+19	как	как	SCONJ	_	_	20	mark	_	_
+20	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	advcl	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	внесший	внесать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	20	acl	_	_
+23	решающий	решающий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	вклад	вклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	22	obj	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	24	nmod	_	_
+27	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	дисциплин	дисциплина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = Сам он говорил про себя , что он химик , структурный химик , рентгеновский кристаллограф , минералог , физхимик , биохимик и медик .
+1	Сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	obl	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+3	говорил	говорить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	про	про	ADP	_	_	5	case	_	_
+5	себя	себя	PRON	_	Case=Acc	3	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	что	что	SCONJ	_	_	9	mark	_	_
+8	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+9	химик	химик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	структурный	структурный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	химик	химик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	рентгеновский	рентгеновский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	кристаллограф	кристаллограф	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	минералог	минералог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	физхимик	физхимик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	биохимик	биохимик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+22	и	и	CCONJ	_	_	23	cc	_	_
+23	медик	медик	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	conj	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = И это было правдой : он является ключевой фигурой во всех этих областях .
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	правдой	правда	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+5	:	:	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
+7	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	4	parataxis	_	_
+8	ключевой	ключевой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	фигурой	фигура	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+10	во	в	ADP	_	_	13	case	_	_
+11	всех	весь	DET	_	Case=Loc|Number=Plur	13	det	_	_
+12	этих	этот	DET	_	Case=Loc|Number=Plur	13	det	_	_
+13	областях	область	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	nmod	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Он является одним из немногих людей , удостоенных дважды Нобелевской премии - первый раз по химии , а второй раз за мир . Расскажу немного о том , что этот человек сделал , с упором на его кристаллографическую активность .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	одним	один	NUM	_	Case=Ins|Gender=Masc	2	nummod	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	немногих	немногие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	удостоенных	удостаивать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+9	дважды	дважды	ADV	_	Degree=Pos	10	obl	_	_
+10	Нобелевской	нобелевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
+12	-	-	PUNCT	_	_	11	punct	_	_
+13	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	химии	химия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	а	а	CCONJ	_	_	24	cc	_	_
+19	второй	второй	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
+21	за	за	ADP	_	_	22	case	_	_
+22	мир	мир	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\n
+24	Расскажу	рассказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	2	conj	_	_
+25	немного	немного	ADV	_	Degree=Pos	27	obl	_	_
+26	о	о	ADP	_	_	27	case	_	_
+27	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	obl	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	что	что	SCONJ	_	_	32	mark	_	_
+30	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	31	det	_	_
+31	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+32	сделал	делать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	acl	_	_
+33	,	,	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+34	с	с	ADP	_	_	35	case	_	_
+35	упором	упор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	32	obl	_	_
+36	на	на	ADP	_	_	39	case	_	_
+37	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	39	nmod	_	_
+38	кристаллографическую	кристаллографический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	35	nmod	_	_
+40	.	.	PUNCT	_	_	39	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = Его Нобелевская премия мира - предмет уже другого разговора .
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
+2	Нобелевская	нобелевский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	премия	премия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+4	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	-	-	PUNCT	_	_	4	punct	_	_
+6	предмет	предмет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	уже	уже	ADV	_	Degree=Pos	8	obl	_	_
+8	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	разговора	разговор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = Полинг родился в семье достаточно разношерстного происхождения .
+1	Полинг	Полинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	родился	рождаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	семье	семья	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+5	достаточно	достаточно	ADV	_	Degree=Pos	6	obl	_	_
+6	разношерстного	разношерстный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	происхождения	происхождение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Сама фамилия Полинг вообще-то немецкая , и , как и огромный процент жителей США , Полинг имел немецкие корни .
+1	Сама	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	фамилия	фамилия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+3	Полинг	Полинг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	вообще-то	вообще-то	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	немецкая	немецкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	и	и	CCONJ	_	_	17	cc	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	как	как	SCONJ	_	_	12	mark	_	_
+10	и	и	PART	_	_	11	discourse	_	_
+11	огромный	огромный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	процент	процент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	nsubj	_	_
+13	жителей	житель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	13	nmod	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+17	имел	иметь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+18	немецкие	немецкий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	19	amod	_	_
+19	корни	корень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obj	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 11
+# text = В раннем Советском Союзе его фамилию писали как Паулинг , то есть побуквенно , хотя сами американцы чаще произносят Полинг .
+1	В	в	ADP	_	_	4	case	_	_
+2	раннем	ранний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	Советском	советский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	Союзе	союз	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+5	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	6	nmod	_	_
+6	фамилию	фамилия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+7	писали	писать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	как	как	SCONJ	_	_	9	mark	_	_
+9	Паулинг	Паулинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	advcl	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	mark	_	_
+12	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	fixed	_	_
+13	побуквенно	побуквенть	ADV	_	Degree=Pos	9	parataxis	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	хотя	хотя	SCONJ	_	_	19	mark	_	_
+16	сами	сам	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	американцы	американец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+18	чаще	часто	ADV	_	Degree=Cmp	19	advmod	_	_
+19	произносят	произносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
+20	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	19	obj	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 12
+# text = Полинг окончил Орегонский сельскохозяйственный институт . Многие университеты США в своей ранней истории ( а начало XX века - это , конечно , ранняя история для США ) были сельскохозяйственными или горными школами .
+1	Полинг	Полинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	obj	_	_
+2	окончил	оканчивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	Орегонский	Орегонский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	сельскохозяйственный	сельскохозяйственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	институт	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	Многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	университеты	университет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	appos	_	_
+9	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	8	nmod	_	_
+10	в	в	ADP	_	_	13	case	_	_
+11	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	13	det	_	_
+12	ранней	ранний	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	истории	история	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	SpacesAfter=\s\s
+14	(	(	PUNCT	_	_	15	punct	_	_
+15	а	а	CCONJ	_	_	25	cc	_	_
+16	начало	начало	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	25	nsubj	_	_
+17	XX	xx	NUM	_	_	18	nummod	_	_
+18	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+19	-	-	PUNCT	_	_	18	punct	_	_
+20	это	это	PRON	_	_	25	cop	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	конечно	конечно	ADV	_	Degree=Pos	25	parataxis	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	ранняя	ранний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	история	история	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	conj	_	_
+26	для	для	ADP	_	_	27	case	_	_
+27	США	сша	PROPN	_	Animacy=Inan|Case=Nom|Number=Plur	25	nmod	_	_
+28	)	)	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	33	cop	_	_
+30	сельскохозяйственными	сельскохозяйственный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	33	amod	_	_
+31	или	или	CCONJ	_	_	32	cc	_	_
+32	горными	горный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	30	conj	_	_
+33	школами	школа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	2	obl	_	_
+34	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+
+# sent_id = 13
+# text = То , что было Орегонским сельскохозяйственным институтом , сейчас называется Орегонским университетом .
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	что	что	PRON	_	Case=Nom	7	nsubj	_	_
+4	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
+5	Орегонским	Орегонский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	сельскохозяйственным	сельскохозяйственный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	институтом	институт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	acl:relcl	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	сейчас	сейчас	ADV	_	Degree=Pos	10	advmod	_	_
+10	называется	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	Орегонским	Орегонский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	университетом	университет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 14
+# text = Кстати , сейчас это довольно хороший университет . Многие из тех сельскохозяйственных школ так и не выросли в хорошие университеты .
+1	Кстати	кстати	ADV	_	Degree=Pos	7	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	сейчас	сейчас	ADV	_	Degree=Pos	7	advmod	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+5	довольно	довольно	ADV	_	Degree=Pos	6	obl	_	_
+6	хороший	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	университет	университет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	Многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	nsubj	_	_
+10	из	из	ADP	_	_	13	case	_	_
+11	тех	тот	DET	_	Case=Gen|Number=Plur	13	det	_	_
+12	сельскохозяйственных	сельскохозяйственный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	школ	школа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	17	obl	_	_
+14	так	так	ADV	_	Degree=Pos	17	advmod	_	_
+15	и	и	PART	_	_	14	fixed	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	выросли	вырастать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+18	в	в	ADP	_	_	20	case	_	_
+19	хорошие	хороший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	20	amod	_	_
+20	университеты	университет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	17	obl	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = Мы знаем университет какого-нибудь там Вайоминга или Северной Дакоты , Южной Дакоты - это до сих пор очень слабые университеты , которые начинались как такие сельскохозяйственные школы .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	знаем	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	университет	университет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	какого-нибудь	какой-нибудь	DET	_	Case=Gen|Gender=Masc|Number=Sing	20	det	_	_
+5	там	там	ADV	_	Degree=Pos	20	obl	_	_
+6	Вайоминга	Вайоминг	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	parataxis	_	_
+7	или	или	CCONJ	_	_	9	cc	_	_
+8	Северной	северный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	Дакоты	Дакот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	Южной	южный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	Дакоты	Дакот	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
+13	-	-	PUNCT	_	_	12	punct	_	_
+14	это	это	PRON	_	_	20	nsubj	_	_
+15	до	до	ADP	_	_	19	advmod	_	_
+16	сих	сей	DET	_	Case=Gen|Number=Plur	15	fixed	_	_
+17	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	15	fixed	_	_
+18	очень	очень	ADV	_	Degree=Pos	19	obl	_	_
+19	слабые	слабый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	университеты	университет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nmod	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	которые	который	PRON	_	Case=Nom	23	nsubj	_	_
+23	начинались	начинаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	20	acl:relcl	_	_
+24	как	как	SCONJ	_	_	27	mark	_	_
+25	такие	такой	DET	_	Case=Nom|Number=Plur	27	det	_	_
+26	сельскохозяйственные	сельскохозяйственный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	27	amod	_	_
+27	школы	школа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	23	advcl	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\n
+
+# sent_id = 16
+# text = А Орегонский университет со временем стал достаточно сильным .
+1	А	а	CCONJ	_	_	6	cc	_	_
+2	Орегонский	Орегонский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	университет	университет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	со	с	ADP	_	_	5	case	_	_
+5	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	obl	_	_
+6	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	достаточно	достаточно	ADV	_	Degree=Pos	8	obl	_	_
+8	сильным	сильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 17
+# text = Но в те времена это было не так .
+1	Но	но	CCONJ	_	_	8	cc	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	те	тот	DET	_	Case=Acc|Number=Plur	4	det	_	_
+4	времена	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+6	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	так	так	ADV	_	Degree=Pos	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = И вот Полинг окончил этот университет . Казалось бы , выпускнику такого университета научная карьера не светит .
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	вот	вот	PART	_	_	4	discourse	_	_
+3	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	окончил	оканчивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	6	det	_	_
+6	университет	университет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	Казалось	казаться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	17	parataxis	_	_
+9	бы	бы	PART	_	Mood=Cnd	8	aux	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	выпускнику	выпускник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	17	iobj	_	_
+12	такого	такой	DET	_	Case=Gen|Gender=Masc|Number=Sing	13	det	_	_
+13	университета	университет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+14	научная	научный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	карьера	карьера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	светит	светить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	4	conj	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 19
+# text = Но Полинг был очень любопытным человеком , очень любознательным , и его очень рано , с самого появления , заинтересовала нарождающаяся физическая дисциплина - квантовая механика .
+1	Но	но	CCONJ	_	_	6	cc	_	_
+2	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+4	очень	очень	ADV	_	Degree=Pos	5	obl	_	_
+5	любопытным	любопытный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	человеком	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	очень	очень	ADV	_	Degree=Pos	9	obl	_	_
+9	любознательным	любознательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	и	и	CCONJ	_	_	20	cc	_	_
+12	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	20	obj	_	_
+13	очень	очень	ADV	_	Degree=Pos	14	advmod	_	_
+14	рано	рано	ADV	_	Degree=Pos	20	advmod	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	с	с	ADP	_	_	18	case	_	_
+17	самого	самый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	появления	появление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	conj	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	заинтересовала	заинтересовывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+21	нарождающаяся	нарождаться	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	23	amod	_	_
+22	физическая	физический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	23	amod	_	_
+23	дисциплина	дисциплина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+24	-	-	PUNCT	_	_	23	punct	_	_
+25	квантовая	квантовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	механика	механика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	parataxis	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 20
+# text = Он получил стипендию и поехал в Мюнхен , к Арнольду Зоммерфельду - выдающемуся физику , который был одним из отцов этой нарождающейся дисциплины .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	стипендию	стипендия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	поехал	поехать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Мюнхен	мюнхен	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	к	к	ADP	_	_	10	case	_	_
+10	Арнольду	Арнольд	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	7	conj	_	_
+11	Зоммерфельду	Зоммерфельд	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	10	flat:name	_	_
+12	-	-	PUNCT	_	_	11	punct	_	_
+13	выдающемуся	выдающийся	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	5	xcomp	_	_
+14	физику	физика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	который	который	PRON	_	Case=Nom	17	nsubj	_	_
+17	был	быть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+18	одним	один	NUM	_	Case=Ins|Gender=Masc	17	nummod	_	_
+19	из	из	ADP	_	_	20	case	_	_
+20	отцов	отец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	23	det	_	_
+22	нарождающейся	нарождаться	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	23	amod	_	_
+23	дисциплины	дисциплина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+
+# sent_id = 21
+# text = После этого он был в Копенгагене , навещая Нильса Бора , и после года жизни в Европе вернулся в Америку . Вернулся совершенно другим исследователем - вернулся , к тому времени уже наработав несколько ключевых открытий , очень мощных публикаций и фактически став основателем новой дисциплины - структурной химии .
+1	После	после	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	Копенгагене	Копенгаген	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	навещая	навещать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	amod	_	_
+9	Нильса	Нильс	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
+10	Бора	Бор	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	и	и	CCONJ	_	_	14	cc	_	_
+13	после	после	ADP	_	_	14	case	_	_
+14	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
+15	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	вернулся	вернуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	Америку	америка	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obl	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\n
+22	Вернулся	вернуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+23	совершенно	совершенно	ADV	_	Degree=Pos	24	obl	_	_
+24	другим	другой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	исследователем	исследователь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+26	-	-	PUNCT	_	_	25	punct	_	_
+27	вернулся	вернуться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	к	к	ADP	_	_	31	case	_	_
+30	тому	тот	DET	_	Case=Dat|Gender=Neut|Number=Sing	31	det	_	_
+31	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	33	obl	_	_
+32	уже	уже	ADV	_	Degree=Pos	33	advmod	_	_
+33	наработав	нарабатывать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	27	advcl	_	_
+34	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	36	nummod:gov	_	_
+35	ключевых	ключевой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	открытий	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	33	obl	_	_
+37	,	,	PUNCT	_	_	36	punct	_	SpacesAfter=\s\s
+38	очень	очень	ADV	_	Degree=Pos	39	obl	_	_
+39	мощных	мощный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	40	amod	_	_
+40	публикаций	публикация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	36	conj	_	_
+41	и	и	CCONJ	_	_	43	cc	_	_
+42	фактически	фактически	ADV	_	Degree=Pos	43	advmod	_	_
+43	став	становиться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	36	conj	_	_
+44	основателем	основатель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	43	obl	_	_
+45	новой	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	46	amod	_	_
+46	дисциплины	дисциплина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	_
+47	-	-	PUNCT	_	_	46	punct	_	_
+48	структурной	структурный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	49	amod	_	_
+49	химии	химия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	46	parataxis	_	_
+50	.	.	PUNCT	_	_	49	punct	_	SpacesAfter=\s\s
+
+# sent_id = 22
+# text = В принципе , структурная химия в каком-то виде существовала еще и до Полинга .
+1	В	в	ADP	_	_	2	case	_	_
+2	принципе	принцип	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	структурная	структурный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	химия	химия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	каком-то	какой-то	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	виде	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+9	существовала	существовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	еще	еще	ADV	_	Degree=Pos	13	obl	_	_
+11	и	и	PART	_	_	13	discourse	_	_
+12	до	до	ADP	_	_	13	case	_	_
+13	Полинга	Полинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	obl	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = Еще наш Бутлеров рисовал структурные схемы , и Кекуле тоже , но как наука , основанная на физических принципах , структурная химия действительно была создана Лайнусом Полингом . Лайнус Полинг ввел ключевые понятия , такие как электроотрицательность .
+1	Еще	еще	ADV	_	Degree=Pos	2	obl	_	_
+2	наш	наш	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+3	Бутлеров	бутлеров	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	рисовал	рисовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	структурные	структурный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	6	amod	_	_
+6	схемы	схема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	и	и	CCONJ	_	_	9	cc	_	_
+9	Кекуле	Кекул	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	conj	_	_
+10	тоже	тоже	PART	_	_	9	discourse	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	но	но	CCONJ	_	_	14	cc	_	_
+13	как	как	SCONJ	_	_	14	mark	_	_
+14	наука	наука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	основанная	основывать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	_
+17	на	на	ADP	_	_	19	case	_	_
+18	физических	физический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	принципах	принцип	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	16	obl	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	структурная	структурный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	22	amod	_	_
+22	химия	химия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+23	действительно	действительно	ADV	_	Degree=Pos	25	advmod	_	_
+24	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	25	aux:pass	_	_
+25	создана	создавать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	4	conj	_	_
+26	Лайнусом	Лайнус	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	25	obl	_	_
+27	Полингом	Полинг	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	flat:name	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	Лайнус	Лайнус	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+30	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	29	flat:name	_	_
+31	ввел	вводить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+32	ключевые	ключевой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	33	amod	_	_
+33	понятия	понятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	31	obj	_	_
+34	,	,	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+35	такие	такой	DET	_	Case=Nom|Number=Plur	4	det	_	_
+36	как	как	SCONJ	_	_	37	mark	_	_
+37	электроотрицательность	электроотрицательность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	35	obl	_	_
+38	.	.	PUNCT	_	_	37	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = Хотя опять же можно сделать оговорку , что какие-то попытки создания такого понятия , как электроотрицательность , делались и до него , но он этому понятию придал , можно сказать , окончательный и общепринятый смысл .
+1	Хотя	хотя	SCONJ	_	_	4	mark	_	_
+2	опять	опять	ADV	_	Degree=Pos	4	advmod	_	_
+3	же	же	PART	_	_	2	discourse	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	csubj	_	_
+6	оговорку	оговорка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	что	чтобы	SCONJ	_	_	18	mark	_	_
+9	какие-то	какой-то	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	попытки	попытка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	18	nsubj:pass	_	_
+11	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+12	такого	такой	DET	_	Case=Gen|Gender=Neut|Number=Sing	13	det	_	_
+13	понятия	понятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	как	как	SCONJ	_	_	16	mark	_	_
+16	электроотрицательность	электроотрицательность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	obl	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	делались	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	6	acl	_	_
+19	и	и	PART	_	_	21	discourse	_	_
+20	до	до	ADP	_	_	21	case	_	_
+21	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	obl	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	но	но	CCONJ	_	_	27	cc	_	_
+24	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	27	nsubj	_	_
+25	этому	этот	DET	_	Case=Dat|Gender=Neut|Number=Sing	26	det	_	_
+26	понятию	понятие	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	27	iobj	_	_
+27	придал	придавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	conj	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	можно	можно	ADV	_	Degree=Pos	27	parataxis	_	_
+30	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	csubj	_	_
+31	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+32	окончательный	окончательный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	общепринятый	общепринятый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	32	conj	_	_
+35	смысл	смысл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+36	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\s\n
+
+# sent_id = 25
+# text = Он был одним из тех , кто создал популярную шкалу ионных радиусов , он был тем человеком , который придумал слово " гибридизация " - гибридизация атомных орбиталей .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	одним	один	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+4	из	из	ADP	_	_	5	case	_	_
+5	тех	тот	DET	_	Case=Gen|Number=Plur	3	det	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	кто	кто	PRON	_	Case=Nom	8	nsubj	_	_
+8	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	acl:relcl	_	_
+9	популярную	популярный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	шкалу	шкала	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	ионных	ионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	радиусов	радиус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
+15	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
+16	тем	тот	DET	_	Case=Ins|Gender=Masc|Number=Sing	17	det	_	_
+17	человеком	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	3	conj	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	который	который	PRON	_	Case=Nom	20	nsubj	_	_
+20	придумал	придумывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	acl:relcl	_	_
+21	слово	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	SpacesAfter=\s\s
+22	"	"	PUNCT	_	_	23	punct	_	_
+23	гибридизация	гибридизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	appos	_	_
+24	"	"	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+25	-	-	PUNCT	_	_	23	punct	_	_
+26	гибридизация	гибридизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+27	атомных	атомный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+28	орбиталей	орбиталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	nmod	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 26
+# text = И тут , кстати говоря , есть отсылка к его прошлому в сельскохозяйственной школе , где гибридизировали разные растения : овес , ячмень и так далее .
+1	И	и	CCONJ	_	_	7	cc	_	_
+2	тут	тут	ADV	_	Degree=Pos	7	advmod	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	кстати	кстати	ADV	_	Degree=Pos	5	advmod	_	_
+5	говоря	говорить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	parataxis	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	отсылка	отсылка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	nsubj	_	_
+9	к	к	ADP	_	_	11	case	_	_
+10	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	11	nmod	_	_
+11	прошлому	прошлый	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	nmod	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	сельскохозяйственной	сельскохозяйственный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	школе	школа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	nmod	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	где	где	ADV	_	Degree=Pos	17	advmod	_	_
+17	гибридизировали	гибридизировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+18	разные	разный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	растения	растение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	17	nsubj	_	_
+20	:	:	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	овес	овес	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	parataxis	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	ячмень	ячмень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	conj	_	_
+24	и	и	CCONJ	_	_	21	conj	_	_
+25	так	так	ADV	_	Degree=Pos	24	fixed	_	_
+26	далее	далее	ADV	_	Degree=Pos	24	fixed	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 27
+# text = И так же у Полинга гибридизировались S- , P- и D-орбитали .
+1	И	и	CCONJ	_	_	6	cc	_	_
+2	так	так	ADV	_	Degree=Pos	6	advmod	_	_
+3	же	же	PART	_	_	2	discourse	_	_
+4	у	в	ADP	_	_	5	case	_	_
+5	Полинга	Полинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+6	гибридизировались	гибридизироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	S	s	PROPN	_	Foreign=Yes	6	flat:foreign	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	_
+9	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+10	P	P	PROPN	_	Foreign=Yes	7	flat:foreign	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	D-орбитали	D-орбиталь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	conj	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 28
+# text = Полинг в 1939 году выпускает блестящую книгу " Природа химической связи " . Она выдержала целый ряд переизданий , стала классикой .
+1	Полинг	Полинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	1939	1939	NUM	_	_	4	nummod	_	_
+4	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	выпускает	выпускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	блестящую	блестящий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	книгу	книга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	SpacesAfter=\s\s
+8	"	"	PUNCT	_	_	9	punct	_	_
+9	Природа	природа	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	appos	_	_
+10	химической	химический	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	связи	связь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	"	"	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+14	Она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	15	nsubj	_	_
+15	выдержала	выдерживать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+16	целый	целый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	ряд	ряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+18	переизданий	переиздание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	17	nmod	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	_
+21	классикой	классика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	obl	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 29
+# text = К настоящему времени эта книга устарела , но она оказала колоссальное влияние на несколько поколений химиков .
+1	К	к	ADP	_	_	3	case	_	_
+2	настоящему	настоящий	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	времени	время	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+4	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	5	det	_	_
+5	книга	книга	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+6	устарела	устаревать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	но	но	CCONJ	_	_	10	cc	_	_
+9	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	10	nsubj	_	_
+10	оказала	оказывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+11	колоссальное	колоссальный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	15	nummod:gov	_	_
+15	поколений	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+16	химиков	химик	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\n
+
+# sent_id = 30
+# text = Полинг формулирует пять знаменитых правил , определяющих строение кристаллических тел .
+1	Полинг	Полинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	формулирует	формулировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	пять	пять	NUM	_	Case=Acc	5	nummod:gov	_	_
+4	знаменитых	знаменитый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	правил	правило	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	2	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	определяющих	определять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
+8	строение	строение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	кристаллических	кристаллический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	тел	тело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	8	nmod	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = Первое правило - что в ионах кристаллов межатомные расстояния определяются суммой ионных радиусов , а координационные числа , то есть число соседей для каждого атома , определяется соотношением размеров этого атома и его соседей .
+1	Первое	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	правило	править	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	-	-	PUNCT	_	_	2	punct	_	_
+4	что	чтобы	SCONJ	_	_	10	mark	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	ионах	ион	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_
+7	кристаллов	кристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	межатомные	межатомный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	9	amod	_	_
+9	расстояния	расстояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	10	nsubj:pass	_	_
+10	определяются	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	parataxis	_	_
+11	суммой	сумма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+12	ионных	ионный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	радиусов	радиус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	а	а	CCONJ	_	_	27	cc	_	_
+16	координационные	координационный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	17	amod	_	_
+17	числа	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	27	nsubj:pass	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	mark	_	_
+20	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	fixed	_	_
+21	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	parataxis	_	_
+22	соседей	сосед	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	21	nmod	_	_
+23	для	для	ADP	_	_	25	case	_	_
+24	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+25	атома	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+26	,	,	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+27	определяется	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	conj	_	_
+28	соотношением	соотношение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	27	obl	_	_
+29	размеров	размер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+30	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	31	det	_	_
+31	атома	атом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+32	и	и	CCONJ	_	_	34	cc	_	_
+33	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	34	nmod	_	_
+34	соседей	сосед	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	28	conj	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+
+# sent_id = 32
+# text = Второе правило , несколько более сложное , но , пожалуй , более мощное , говорит о том , что в ионных структурах наблюдается локальный электростатический баланс .
+1	Второе	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	несколько	несколько	ADV	_	Degree=Pos	5	advmod	_	_
+5	более	более	ADV	_	Degree=Cmp	6	obl	_	_
+6	сложное	сложный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	но	но	CCONJ	_	_	15	cc	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	пожалуй	пожалуй	ADV	_	Degree=Pos	13	parataxis	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	более	более	ADV	_	Degree=Cmp	13	obl	_	_
+13	мощное	мощный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	15	obl	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+16	о	о	ADP	_	_	17	case	_	_
+17	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	obl	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	что	что	SCONJ	_	_	23	mark	_	_
+20	в	в	ADP	_	_	22	case	_	_
+21	ионных	ионный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	22	amod	_	_
+22	структурах	структура	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	23	obl	_	_
+23	наблюдается	наблюдать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	acl	_	_
+24	локальный	локальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+25	электростатический	электростатический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	баланс	баланс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nsubj:pass	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 33
+# text = Позже оказалось , что не только ионные структуры подчиняются этому правилу .
+1	Позже	поздно	ADV	_	Degree=Cmp	2	advmod	_	_
+2	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	что	что	SCONJ	_	_	9	mark	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	только	только	PART	_	_	7	advmod	_	_
+7	ионные	ионный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	структуры	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	9	nsubj	_	_
+9	подчиняются	подчинять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	ccomp	_	_
+10	этому	этот	DET	_	Case=Dat|Gender=Masc|Number=Sing	11	det	_	_
+11	правилу	правило	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	9	iobj	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 34
+# text = Третье правило говорит о том , что если вы берете центральный атом , смотрите на его соседей и строите многогранник , состоящий целиком из этих соседей , то эти полиэдры , то есть многогранники , окружающие каждый атом , согласно третьему , а также четвертому правилу в несколько разных аспектах будут стремиться стыковаться по вершинам или не стыковаться вообще для маленьких высокозаряженных ионов .
+1	Третье	третий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	правило	править	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	что	что	SCONJ	_	_	14	mark	_	_
+8	если	если	SCONJ	_	_	10	mark	_	_
+9	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	10	nsubj	_	_
+10	берете	брать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	14	advcl	_	_
+11	центральный	центральный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	атом	атом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	смотрите	смотреть	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	5	acl	_	_
+15	на	на	ADP	_	_	17	case	_	_
+16	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
+17	соседей	сосед	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+18	и	и	CCONJ	_	_	19	cc	_	_
+19	строите	строить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	14	conj	_	_
+20	многогранник	многогранник	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	состоящий	состоять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	acl	_	_
+23	целиком	целиком	ADV	_	Degree=Pos	26	obl	_	_
+24	из	из	ADP	_	_	26	case	_	_
+25	этих	этот	DET	_	Case=Gen|Number=Plur	26	det	_	_
+26	соседей	сосед	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	то	то	SCONJ	_	_	41	mark	_	_
+29	эти	этот	DET	_	Case=Nom|Number=Plur	30	det	_	_
+30	полиэдры	полиэдр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	41	nsubj	_	_
+31	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+32	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	mark	_	_
+33	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	fixed	_	_
+34	многогранники	многогранник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	30	conj	_	_
+35	,	,	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+36	окружающие	окружать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	34	acl	_	_
+37	каждый	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	атом	атом	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	36	obl	_	_
+39	,	,	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+40	согласно	согласно	ADP	_	_	41	case	_	_
+41	третьему	третий	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	3	ccomp	_	_
+42	,	,	PUNCT	_	_	41	punct	_	SpacesAfter=\s\s
+43	а	а	CCONJ	_	_	46	cc	_	_
+44	также	также	ADV	_	Degree=Pos	46	obl	_	_
+45	четвертому	четвертый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+46	правилу	правило	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	41	conj	_	_
+47	в	в	ADP	_	_	50	case	_	_
+48	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	50	nummod:gov	_	_
+49	разных	разный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	50	amod	_	_
+50	аспектах	аспект	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	52	obl	_	_
+51	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	52	aux	_	_
+52	стремиться	стремиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	46	csubj	_	_
+53	стыковаться	стыковаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	52	xcomp	_	_
+54	по	по	ADP	_	_	55	case	_	_
+55	вершинам	вершина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	53	obl	_	_
+56	или	или	CCONJ	_	_	58	cc	_	_
+57	не	не	PART	_	_	58	advmod	_	_
+58	стыковаться	стыковаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	53	conj	_	_
+59	вообще	вообще	ADV	_	Degree=Pos	58	advmod	_	_
+60	для	для	ADP	_	_	63	case	_	_
+61	маленьких	маленький	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	63	amod	_	_
+62	высокозаряженных	высокозаряженный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	63	amod	_	_
+63	ионов	ион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	58	obl	_	_
+64	.	.	PUNCT	_	_	63	punct	_	SpacesAfter=\s\s
+
+# sent_id = 35
+# text = И пятое правило говорит о том , что кристаллические структуры имеют тенденцию быть простыми , то есть устойчивые кристаллические структуры стремятся , имеют тенденцию состоять из малого числа различных строительных блоков , то есть мы можем их экономным образом описать .
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	пятое	пятый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	что	что	SCONJ	_	_	11	mark	_	_
+9	кристаллические	кристаллический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	структуры	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+11	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	_
+12	тенденцию	тенденция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	cop	_	_
+14	простыми	простой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	obl	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	mark	_	_
+17	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	fixed	_	_
+18	устойчивые	устойчивый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+19	кристаллические	кристаллический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+20	структуры	структура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	_
+21	стремятся	стремиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	parataxis	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	_
+24	тенденцию	тенденция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+25	состоять	состоять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	obl	_	_
+26	из	из	ADP	_	_	28	case	_	_
+27	малого	малый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	числа	число	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+29	различных	различный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+30	строительных	строительный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	блоков	блок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	36	mark	_	_
+34	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	fixed	_	_
+35	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	36	nsubj	_	_
+36	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	25	parataxis	_	_
+37	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	40	obj	_	_
+38	экономным	экономный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	39	amod	_	_
+39	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	40	obl	_	_
+40	описать	описывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	36	xcomp	_	_
+41	.	.	PUNCT	_	_	40	punct	_	SpacesAfter=\s\n
+
+# sent_id = 36
+# text = С Полингом произошло достаточно много перипетий , достаточно много трансформаций .
+1	С	с	ADP	_	_	2	case	_	_
+2	Полингом	Полинг	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	3	obl	_	_
+3	произошло	происходить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	достаточно	достаточно	ADV	_	Degree=Pos	5	advmod	_	_
+5	много	много	ADV	_	Degree=Pos	6	nummod:gov	_	_
+6	перипетий	перипетия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	obl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	достаточно	достаточно	ADV	_	Degree=Pos	9	advmod	_	_
+9	много	много	ADV	_	Degree=Pos	10	nummod:gov	_	_
+10	трансформаций	трансформация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	conj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 37
+# text = В более позднее издание своей книги он уже не включал пятое правило , потому что оно подвергалось многочисленным нападкам , хотя на самом деле правило правильное , корректное .
+1	В	в	ADP	_	_	3	case	_	_
+2	более	более	ADV	_	Degree=Cmp	3	advmod	_	_
+3	позднее	поздно	ADV	_	Degree=Cmp	10	advmod	_	_
+4	издание	издание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+5	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	6	det	_	_
+6	книги	книга	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+8	уже	уже	ADV	_	Degree=Pos	10	advmod	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	включал	включать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	пятое	пятый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	правило	правило	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	потому	потому	ADV	_	Degree=Pos	17	mark	_	_
+15	что	что	SCONJ	_	_	14	fixed	_	_
+16	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	17	nsubj	_	_
+17	подвергалось	подвергаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	10	advcl	_	_
+18	многочисленным	многочисленный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	19	amod	_	_
+19	нападкам	нападки	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	17	iobj	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	хотя	хотя	SCONJ	_	_	26	mark	_	_
+22	на	на	ADP	_	_	24	case	_	_
+23	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	26	obl	_	_
+25	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+26	правильное	правильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	advcl	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	корректное	корректный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	26	conj	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 38
+# text = Полинг очень часто оказывался прав , но достаточно часто оказывался и неправ , но даже в своих ошибках он был гениален .
+1	Полинг	Полинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	очень	очень	ADV	_	Degree=Pos	3	advmod	_	_
+3	часто	часто	ADV	_	Degree=Pos	4	advmod	_	_
+4	оказывался	оказываться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	прав	право	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	но	но	CCONJ	_	_	10	cc	_	_
+8	достаточно	достаточно	ADV	_	Degree=Pos	9	advmod	_	_
+9	часто	часто	ADV	_	Degree=Pos	10	advmod	_	_
+10	оказывался	оказываться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	неправ	неправ	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	conj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	но	но	CCONJ	_	_	21	cc	_	_
+15	даже	даже	PART	_	_	18	discourse	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	своих	свой	DET	_	Case=Loc|Number=Plur	18	det	_	_
+18	ошибках	ошибка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	21	obl	_	_
+19	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+20	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	cop	_	_
+21	гениален	гениальный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	conj	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 39
+# text = Эти ошибки , трансформируясь , приводили неизменно к новым идеям .
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	ошибки	ошибка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	трансформируясь	трансформируться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	6	advcl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	приводили	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	неизменно	неизменно	ADV	_	Degree=Pos	6	advmod	_	_
+8	к	к	ADP	_	_	10	case	_	_
+9	новым	новый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	10	amod	_	_
+10	идеям	идея	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	7	obl	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 40
+# text = В конце жизни Полинг был противником открытия квазикристаллов ( это было , пожалуй , его крупнейшей ошибкой ) . Квазикристаллы , открытые в 1982 году израильтянином Деном Шехтманом , были приняты Полингом в штыки .
+1	В	в	ADP	_	_	2	case	_	_
+2	конце	конец	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+3	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	противником	противник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	31	obl	_	_
+7	открытия	открытие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	nmod	_	_
+8	квазикристаллов	квазикристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	SpacesAfter=\s\s
+9	(	(	PUNCT	_	_	10	punct	_	_
+10	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+11	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	17	cop	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	пожалуй	пожалуй	ADV	_	Degree=Pos	17	parataxis	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	nmod	_	_
+16	крупнейшей	крупный	ADJ	_	Case=Ins|Degree=Sup|Gender=Fem|Number=Sing	17	amod	_	_
+17	ошибкой	ошибка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	parataxis	_	_
+18	)	)	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\n
+20	Квазикристаллы	Квазикристалла	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	открытые	открытый	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	1982	1982	NUM	_	_	25	nummod	_	_
+25	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+26	израильтянином	израильтянин	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	22	obl	_	_
+27	Деном	Ден	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	26	appos	_	_
+28	Шехтманом	Шехтман	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	27	flat:name	_	_
+29	,	,	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	31	aux:pass	_	_
+31	приняты	принимать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+32	Полингом	Полинг	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	31	obl	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	штыки	штык	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	31	obl	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+
+# sent_id = 41
+# text = Полинг утверждал : " Нет квазикристаллов , мои друзья , но есть квазикристаллографы " , говоря именно про Шехтмана .
+1	Полинг	Полинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	утверждал	утверждать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	:	:	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s\s
+4	"	"	PUNCT	_	_	5	punct	_	_
+5	Нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+6	квазикристаллов	квазикристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	мои	мой	DET	_	Case=Nom|Number=Plur	9	det	_	_
+9	друзья	друг	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	parataxis	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	но	но	CCONJ	_	_	12	cc	_	_
+12	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+13	квазикристаллографы	квазикристаллограф	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+14	"	"	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+16	говоря	говорить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	12	advcl	_	_
+17	именно	именно	PART	_	_	19	discourse	_	_
+18	про	про	ADP	_	_	19	case	_	_
+19	Шехтмана	Шехтман	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	16	obl	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 42
+# text = Он объяснял существование квазикристаллов ( квазикристаллы - это упорядоченные твердые тела , не построенные на принципах периодичности , то есть непериодические , но тем не менее пространственно высокоорганизованные ) , их свойства тем , что существуют некие кристаллы , как считал Полинг , с очень большими элементарными ячейками , которые фактически воспроизводят те же самые свойства .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	объяснял	объяснять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	существование	существование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	квазикристаллов	квазикристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	SpacesAfter=\s\s
+5	(	(	PUNCT	_	_	6	punct	_	_
+6	квазикристаллы	квазикристалл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	11	nsubj	_	_
+7	-	-	PUNCT	_	_	6	punct	_	_
+8	это	это	PRON	_	_	11	cop	_	_
+9	упорядоченные	упорядочить	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	amod	_	_
+10	твердые	твердый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	тела	тело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	parataxis	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	не	не	PART	_	_	14	advmod	_	_
+14	построенные	строить	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	принципах	принцип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+17	периодичности	периодичность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	mark	_	_
+20	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	fixed	_	_
+21	непериодические	непериодический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	parataxis	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	но	но	CCONJ	_	_	32	cc	_	_
+24	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	32	discourse	_	_
+25	не	не	PART	_	Polarity=Neg	24	fixed	_	_
+26	менее	менее	ADV	_	Degree=Cmp	24	fixed	_	_
+27	пространственно	пространственно	ADV	_	Degree=Pos	28	obl	_	_
+28	высокоорганизованные	высокоорганизованный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	32	amod	_	_
+29	)	)	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	,	,	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+31	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	28	conj	_	_
+32	свойства	свойство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	21	conj	_	_
+33	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	32	nmod	_	_
+34	,	,	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+35	что	что	SCONJ	_	_	36	mark	_	_
+36	существуют	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	acl	_	_
+37	некие	некий	DET	_	Case=Acc|Number=Plur	38	det	_	_
+38	кристаллы	кристалл	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	36	obj	_	_
+39	,	,	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+40	как	как	SCONJ	_	_	41	mark	_	_
+41	считал	считать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	36	advcl	_	_
+42	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
+43	,	,	PUNCT	_	_	42	punct	_	SpacesAfter=\s\s
+44	с	с	ADP	_	_	48	case	_	_
+45	очень	очень	ADV	_	Degree=Pos	46	obl	_	_
+46	большими	большой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	48	amod	_	_
+47	элементарными	элементарный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	48	amod	_	_
+48	ячейками	ячейка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	41	obl	_	_
+49	,	,	PUNCT	_	_	48	punct	_	SpacesAfter=\s\s
+50	которые	который	PRON	_	Case=Nom	52	nsubj	_	_
+51	фактически	фактически	ADV	_	Degree=Pos	52	advmod	_	_
+52	воспроизводят	воспроизводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	48	acl:relcl	_	_
+53	те	тот	DET	_	Case=Nom|Number=Plur	56	det	_	_
+54	же	же	PART	_	_	53	discourse	_	_
+55	самые	самый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	53	amod	_	_
+56	свойства	свойство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	52	obl	_	_
+57	.	.	PUNCT	_	_	56	punct	_	SpacesAfter=\s\s
+
+# sent_id = 43
+# text = Полинг оказался неправ , в квазикристаллах нельзя выделить даже такую большую элементарную ячейку , но тем не менее существует класс соединений , который является мостиком между обычными кристаллами с простым строением и квазикристаллами с исключительно сложным строением , и они действительно характеризуются такими большущими трансляционно повторяемыми элементарными ячейками , они называются аппроксимантами квазикристаллов .
+1	Полинг	Полинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	неправ	неправ	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	2	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	в	в	ADP	_	_	6	case	_	_
+6	квазикристаллах	квазикристалл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+7	нельзя	нельзя	ADV	_	Degree=Pos	2	conj	_	_
+8	выделить	выделять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	csubj	_	_
+9	даже	даже	PART	_	_	10	discourse	_	_
+10	такую	такой	DET	_	Case=Acc|Gender=Fem|Number=Sing	11	det	_	_
+11	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+12	элементарную	элементарный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	13	amod	_	_
+13	ячейку	ячейка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	но	но	CCONJ	_	_	19	cc	_	_
+16	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	discourse	_	_
+17	не	не	PART	_	Polarity=Neg	16	fixed	_	_
+18	менее	менее	ADV	_	Degree=Cmp	16	fixed	_	_
+19	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+20	класс	класс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj	_	_
+21	соединений	соединение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	который	который	PRON	_	Case=Nom	24	nsubj	_	_
+24	является	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	21	acl:relcl	_	_
+25	мостиком	мостик	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	obl	_	_
+26	между	между	ADP	_	_	28	case	_	_
+27	обычными	обычный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	28	amod	_	_
+28	кристаллами	кристалл	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	25	nmod	_	_
+29	с	с	ADP	_	_	31	case	_	_
+30	простым	простой	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	31	amod	_	_
+31	строением	строение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	28	nmod	_	_
+32	и	и	CCONJ	_	_	33	cc	_	_
+33	квазикристаллами	квазикристалл	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	28	conj	_	_
+34	с	с	ADP	_	_	37	case	_	_
+35	исключительно	исключительно	ADV	_	Degree=Pos	36	obl	_	_
+36	сложным	сложный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	37	amod	_	_
+37	строением	строение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	33	nmod	_	_
+38	,	,	PUNCT	_	_	37	punct	_	SpacesAfter=\s\s
+39	и	и	CCONJ	_	_	42	cc	_	_
+40	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	42	nsubj	_	_
+41	действительно	действительно	ADV	_	Degree=Pos	42	advmod	_	_
+42	характеризуются	характеризоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	24	conj	_	_
+43	такими	такой	DET	_	Case=Ins|Number=Plur	48	det	_	_
+44	большущими	большущий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	48	amod	_	_
+45	трансляционно	трансляционно	ADV	_	Degree=Pos	46	advmod	_	_
+46	повторяемыми	повторять	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	48	acl	_	_
+47	элементарными	элементарный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	48	amod	_	_
+48	ячейками	ячейка	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	42	obl	_	_
+49	,	,	PUNCT	_	_	48	punct	_	SpacesAfter=\s\s
+50	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	51	nsubj	_	_
+51	называются	называться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	parataxis	_	_
+52	аппроксимантами	аппроксимант	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	51	obl	_	_
+53	квазикристаллов	квазикристалл	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	52	nmod	_	_
+54	.	.	PUNCT	_	_	53	punct	_	SpacesAfter=\s\n
+
+# sent_id = 44
+# text = У Полинга есть еще один аспект , который очень часто обсуждается в популярной прессе , - его любовь к витаминам .
+1	У	в	ADP	_	_	2	case	_	_
+2	Полинга	Полинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+3	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	еще	еще	ADV	_	Degree=Pos	5	advmod	_	_
+5	один	один	NUM	_	Case=Nom|Gender=Masc	6	nummod:gov	_	_
+6	аспект	аспект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	который	который	PRON	_	Case=Nom	11	nsubj:pass	_	_
+9	очень	очень	ADV	_	Degree=Pos	10	advmod	_	_
+10	часто	часто	ADV	_	Degree=Pos	11	advmod	_	_
+11	обсуждается	обсуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl:relcl	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	популярной	популярный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	прессе	пресса	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	-	-	PUNCT	_	_	14	punct	_	_
+17	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	nmod	_	_
+18	любовь	любовь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+19	к	к	ADP	_	_	20	case	_	_
+20	витаминам	витамина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	18	nmod	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 45
+# text = Это тот самый Полинг , который фактически создал структурную химию , тот самый Полинг , который создал биохимию , и тот самый Полинг , который показал , что в случае ядерной войны вероятно тотальное уничтожение человечества .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	4	det	_	_
+3	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+4	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	который	который	PRON	_	Case=Nom	8	nsubj	_	_
+7	фактически	фактически	ADV	_	Degree=Pos	8	advmod	_	_
+8	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	acl:relcl	_	_
+9	структурную	структурный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	химию	химия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	14	det	_	_
+13	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+14	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	который	который	PRON	_	Case=Nom	17	nsubj	_	_
+17	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	acl:relcl	_	_
+18	биохимию	биохимия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obj	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	и	и	CCONJ	_	_	23	cc	_	_
+21	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	23	det	_	_
+22	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+25	который	который	PRON	_	Case=Nom	26	nsubj	_	_
+26	показал	показывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	acl:relcl	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	что	что	SCONJ	_	_	33	mark	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	случае	случай	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	33	obl	_	_
+31	ядерной	ядерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+33	вероятно	вероятно	ADV	_	Degree=Pos	26	ccomp	_	_
+34	тотальное	тотальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	35	amod	_	_
+35	уничтожение	уничтожение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	33	nsubj	_	_
+36	человечества	человечество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	_
+37	.	.	PUNCT	_	_	36	punct	_	SpacesAfter=\s\s
+
+# sent_id = 46
+# text = И благодаря его работам ядерная гонка вооружений была в значительной степени приостановлена .
+1	И	и	CCONJ	_	_	12	cc	_	_
+2	благодаря	благодаря	ADP	_	_	4	case	_	_
+3	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+4	работам	работа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	12	obl	_	_
+5	ядерная	ядерный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	гонка	гонка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+7	вооружений	вооружение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	nmod	_	_
+8	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	значительной	значительный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	степени	степень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+12	приостановлена	приостанавливать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 47
+# text = В 1941 году , когда Полингу было сорок лет , он очень серьезно заболел , у него проявилась тяжелая болезнь почек . Вообще у него была плохая наследственность : его и отец и мать умерли в раннем возрасте , и сам Полинг был достаточно болезненным человеком .
+1	В	в	ADP	_	_	3	case	_	_
+2	1941	1941	NUM	_	_	3	nummod	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	когда	когда	SCONJ	_	_	7	mark	_	_
+6	Полингу	Полинг	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+7	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+8	сорок	сорок	NUM	_	Case=Nom	9	nummod:gov	_	_
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+12	очень	очень	ADV	_	Degree=Pos	13	advmod	_	_
+13	серьезно	серьезно	ADV	_	Degree=Pos	14	advmod	_	_
+14	заболел	заболевать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	у	у	ADP	_	_	17	case	_	_
+17	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	obl	_	_
+18	проявилась	проявляться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	14	parataxis	_	_
+19	тяжелая	тяжелый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	20	amod	_	_
+20	болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+21	почек	почка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	20	nmod	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	Вообще	вообще	ADV	_	Degree=Pos	26	advmod	_	_
+24	у	у	ADP	_	_	25	case	_	_
+25	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	26	obl	_	_
+26	была	быть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	conj	_	_
+27	плохая	плохой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	наследственность	наследственность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+29	:	:	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	32	nmod	_	_
+31	и	и	PART	_	_	32	discourse	_	_
+32	отец	отец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	35	nsubj	_	_
+33	и	и	CCONJ	_	_	34	cc	_	_
+34	мать	мать	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	32	conj	_	_
+35	умерли	умирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	26	parataxis	_	_
+36	в	в	ADP	_	_	38	case	_	_
+37	раннем	ранний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	38	amod	_	_
+38	возрасте	возраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	35	obl	_	_
+39	,	,	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+40	и	и	CCONJ	_	_	46	cc	_	_
+41	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	42	amod	_	_
+42	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	46	nsubj	_	_
+43	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	46	cop	_	_
+44	достаточно	достаточно	ADV	_	Degree=Pos	45	obl	_	_
+45	болезненным	болезненный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	46	amod	_	_
+46	человеком	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	35	conj	_	_
+47	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\s\s
+
+# sent_id = 48
+# text = И у него была эта почечная болезнь .
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	у	у	ADP	_	_	3	case	_	_
+3	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	4	obl	_	_
+4	была	быть	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	7	det	_	_
+6	почечная	почечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 49
+# text = Доктора ему сказали , что он не переживет эту болезнь и умрет .
+1	Доктора	доктор	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+2	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	3	iobj	_	_
+3	сказали	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	8	mark	_	_
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	переживет	переживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	3	ccomp	_	_
+9	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	10	det	_	_
+10	болезнь	болезнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	умрет	умирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	8	conj	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 50
+# text = Но один доктор ему прописал витамин C в достаточно больших количествах и попросил воздерживаться от белковой пищи , ограничить ее .
+1	Но	но	CCONJ	_	_	5	cc	_	_
+2	один	один	NUM	_	Case=Nom|Gender=Masc	3	nummod:gov	_	_
+3	доктор	доктор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	5	iobj	_	_
+5	прописал	прописывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	витамин	витамин	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	obl	_	_
+7	C	с	PROPN	_	Foreign=Yes	6	flat:foreign	_	_
+8	в	в	ADP	_	_	11	case	_	_
+9	достаточно	достаточно	ADV	_	Degree=Pos	10	obl	_	_
+10	больших	больший	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	11	amod	_	_
+11	количествах	количество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	6	nmod	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	попросил	просить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
+14	воздерживаться	воздерживаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	13	xcomp	_	_
+15	от	от	ADP	_	_	17	case	_	_
+16	белковой	белковый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	пищи	пища	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	ограничить	ограничивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	13	xcomp	_	_
+20	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	19	obj	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 51
+# text = Полинг выжил , более того , стал гораздо более жизнеспособным ( напомню , он прожил 93 года ) . После этого Полинг увлекся также биохимией , в значительной степени чтобы поправить свое собственное здоровье .
+1	Полинг	Полинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	выжил	выживать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	более	более	ADV	_	Degree=Cmp	5	nummod:gov	_	_
+5	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	гораздо	гораздо	ADV	_	Degree=Pos	9	advmod	_	_
+9	более	более	ADV	_	Degree=Cmp	10	obl	_	_
+10	жизнеспособным	жизнеспособный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	obl	_	SpacesAfter=\s\s
+11	(	(	PUNCT	_	_	12	punct	_	_
+12	напомню	напоминать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	15	parataxis	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	прожил	проживать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+16	93	93	NUM	_	_	17	nummod	_	_
+17	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	obl	_	_
+18	)	)	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\n
+20	После	после	ADP	_	_	21	case	_	_
+21	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	obl	_	_
+22	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	23	nsubj	_	_
+23	увлекся	увлекаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	15	conj	_	_
+24	также	также	ADV	_	Degree=Pos	23	advmod	_	_
+25	биохимией	биохимия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	23	obl	_	_
+26	,	,	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+27	в	в	ADP	_	_	29	case	_	_
+28	значительной	значительный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	степени	степень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	25	conj	_	_
+30	чтобы	чтобы	SCONJ	_	Mood=Cnd	31	mark	_	_
+31	поправить	поправлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	29	advcl	_	_
+32	свое	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	34	det	_	_
+33	собственное	собственный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	здоровье	здоровье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	31	obj	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+
+# sent_id = 52
+# text = Он был одним из первых людей , которые исследовали строение биологически активных молекул , белков и ДНК .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	одним	один	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+4	из	из	ADP	_	_	6	case	_	_
+5	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	которые	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	исследовали	исследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	строение	строение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+11	биологически	биологически	ADV	_	Degree=Pos	12	advmod	_	_
+12	активных	активный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	молекул	молекула	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	белков	белок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	conj	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	ДНК	днк	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	conj	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 53
+# text = Как-то Полинг , лежа в постели с очередной болезнью , игрался с молекулярным конструктором ( кстати , одна из популярных моделей изображений кристаллических и молекулярных структур принадлежит именно ему ) , пытаясь прикинуть , как аминокислотные остатки могут соединиться в белковую цепь , а эта белковая цепь может свернуться в пространстве .
+1	Как-то	как-то	ADV	_	Degree=Pos	11	advmod	_	_
+2	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	лежа	лежать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	11	advcl	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	постели	постель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	очередной	очередной	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	болезнью	болезнь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	игрался	играться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	с	с	ADP	_	_	14	case	_	_
+13	молекулярным	молекулярный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	конструктором	конструктор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	SpacesAfter=\s\s
+15	(	(	PUNCT	_	_	16	punct	_	_
+16	кстати	кстати	ADV	_	Degree=Pos	18	parataxis	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	одна	один	NUM	_	Case=Nom|Gender=Fem	11	nummod:gov	_	_
+19	из	из	ADP	_	_	21	case	_	_
+20	популярных	популярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	amod	_	_
+21	моделей	модель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	18	nmod	_	_
+22	изображений	изображение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	_
+23	кристаллических	кристаллический	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	26	amod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	молекулярных	молекулярный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	23	conj	_	_
+26	структур	структура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	22	nmod	_	_
+27	принадлежит	принадлежать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+28	именно	именно	PART	_	_	29	discourse	_	_
+29	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	27	iobj	_	_
+30	)	)	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+32	пытаясь	пытаться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	27	advcl	_	_
+33	прикинуть	прикинуть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	xcomp	_	_
+34	,	,	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+35	как	как	SCONJ	_	_	38	mark	_	_
+36	аминокислотные	аминокислотный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	37	amod	_	_
+37	остатки	остатки	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	38	nsubj	_	_
+38	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	33	ccomp	_	_
+39	соединиться	соединяться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	38	xcomp	_	_
+40	в	в	ADP	_	_	42	case	_	_
+41	белковую	белковый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	42	amod	_	_
+42	цепь	цепь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	39	obl	_	_
+43	,	,	PUNCT	_	_	42	punct	_	SpacesAfter=\s\s
+44	а	а	CCONJ	_	_	48	cc	_	_
+45	эта	этот	DET	_	Case=Nom|Gender=Fem|Number=Sing	47	det	_	_
+46	белковая	белковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	47	amod	_	_
+47	цепь	цепь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	48	nsubj	_	_
+48	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	38	conj	_	_
+49	свернуться	свернуться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	48	xcomp	_	_
+50	в	в	ADP	_	_	51	case	_	_
+51	пространстве	пространство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	49	obl	_	_
+52	.	.	PUNCT	_	_	51	punct	_	SpacesAfter=\s\s
+
+# sent_id = 54
+# text = И , лежа в постели , он придумал структуру альфа-спирали , а несколько позже и бета-листа - это основные структурные элементы в белках .
+1	И	и	CCONJ	_	_	8	cc	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	лежа	лежать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	постели	постель	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	придумал	придумывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	структуру	структура	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+10	альфа	альфа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+11	-спирали	-спираль	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	xcomp	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	а	а	CCONJ	_	_	15	cc	_	_
+14	несколько	несколько	ADV	_	Degree=Pos	15	advmod	_	_
+15	позже	поздно	ADV	_	Degree=Cmp	11	conj	_	_
+16	и	и	CCONJ	_	_	18	cc	_	_
+17	бета	бета	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	SpaceAfter=No
+18	-листа	-лист	ADV	_	Degree=Pos	15	conj	_	_
+19	-	-	PUNCT	_	_	18	punct	_	_
+20	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+21	основные	основной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+22	структурные	структурный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+23	элементы	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	parataxis	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	белках	белок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	23	nmod	_	_
+26	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+
+# sent_id = 55
+# text = Эти работы были последней каплей в этом стакане воды , и он был награжден Нобелевской премией по химии .
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	работы	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	nsubj	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+4	последней	последний	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	каплей	капля	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+6	в	в	ADP	_	_	8	case	_	_
+7	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	8	det	_	_
+8	стакане	стакан	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+9	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	и	и	CCONJ	_	_	14	cc	_	_
+12	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+13	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	aux:pass	_	_
+14	награжден	награждать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	conj	_	_
+15	Нобелевской	нобелевский	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	премией	премия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	14	obl	_	_
+17	по	по	ADP	_	_	18	case	_	_
+18	химии	химия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	16	nmod	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\n
+
+# sent_id = 56
+# text = Кстати говоря , уже в те времена он проявлял большую активность против грядущей третьей мировой войны , которая была , повторюсь , в значительной степени предотвращена его гуманистическими работами .
+1	Кстати	кстати	ADV	_	Degree=Pos	2	advmod	_	_
+2	говоря	говорить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	9	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	уже	уже	ADV	_	Degree=Pos	7	obl	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	те	тот	DET	_	Case=Acc|Number=Plur	7	det	_	_
+7	времена	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obl	_	_
+8	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+9	проявлял	проявлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	большую	большой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	активность	активность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	против	против	ADP	_	_	14	case	_	_
+13	грядущей	грядущий	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	третьей	третий	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
+15	мировой	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	войны	война	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	которая	который	PRON	_	Case=Nom	26	nsubj	_	_
+19	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	26	aux:pass	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	повторюсь	повторяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	26	parataxis	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	в	в	ADP	_	_	25	case	_	_
+24	значительной	значительный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+25	степени	степень	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	obl	_	_
+26	предотвращена	предотвращать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	14	acl:relcl	_	_
+27	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	26	obj	_	_
+28	гуманистическими	гуманистическо	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	29	amod	_	_
+29	работами	работа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	26	obl	_	_
+30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+
+# sent_id = 57
+# text = Уже в это время он намозолил глаза американскому правительству , и незадолго до вручения Нобелевской премии , когда он был приглашен в Великобританию с лекциями , ему отказали в выезде власти США , аргументируя это тем , что Лайнус Полинг недостаточно активно борется с коммунизмом .
+1	Уже	уже	ADV	_	Degree=Pos	4	obl	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	это	этот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	det	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	6	nsubj	_	_
+6	намозолил	намозолить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	глаза	глаз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	американскому	американский	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	правительству	правительство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	iobj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	и	и	CCONJ	_	_	28	cc	_	_
+12	незадолго	незадолго	ADV	_	Degree=Pos	28	advmod	_	_
+13	до	до	ADP	_	_	14	case	_	_
+14	вручения	вручение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+15	Нобелевской	нобелевский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	премии	премия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	когда	когда	SCONJ	_	_	21	advmod	_	_
+19	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	21	nsubj	_	_
+20	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	21	aux:pass	_	_
+21	приглашен	приглашать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	acl:relcl	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	Великобританию	великобритания	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obl	_	_
+24	с	с	ADP	_	_	25	case	_	_
+25	лекциями	лекция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	21	obl	_	_
+26	,	,	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+27	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	28	iobj	_	_
+28	отказали	отказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	выезде	выезд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	28	obl	_	_
+31	власти	власть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	31	nmod	_	_
+33	,	,	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+34	аргументируя	аргументировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	28	advcl	_	_
+35	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	34	obj	_	_
+36	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	34	obl	_	_
+37	,	,	PUNCT	_	_	36	punct	_	SpacesAfter=\s\s
+38	что	что	SCONJ	_	_	43	mark	_	_
+39	Лайнус	Лайнус	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	43	nsubj	_	_
+40	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	39	flat:name	_	_
+41	недостаточно	недостаточно	ADV	_	Degree=Pos	42	advmod	_	_
+42	активно	активно	ADV	_	Degree=Pos	43	advmod	_	_
+43	борется	бороться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	36	acl	_	_
+44	с	с	ADP	_	_	45	case	_	_
+45	коммунизмом	коммунизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	43	obl	_	_
+46	.	.	PUNCT	_	_	45	punct	_	SpacesAfter=\s\s
+
+# sent_id = 58
+# text = На дворе был 1952 год .
+1	На	на	ADP	_	_	2	case	_	_
+2	дворе	двор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+3	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	1952	1952	NUM	_	_	5	nummod	_	_
+5	год	год	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 59
+# text = Но тем не менее вскоре Нобелевскую премию он получил по химии , затем последовала Нобелевская премия за мир , а затем - увольнение из Калифорнийского технологического института , где Полинг проработал , по сути , всю жизнь .
+1	Но	но	CCONJ	_	_	9	cc	_	_
+2	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	discourse	_	_
+3	не	не	PART	_	Polarity=Neg	2	fixed	_	_
+4	менее	менее	ADV	_	Degree=Cmp	2	fixed	_	_
+5	вскоре	вскоре	ADV	_	Degree=Pos	9	advmod	_	_
+6	Нобелевскую	нобелевский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	премию	премия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+8	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
+9	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	по	по	ADP	_	_	11	case	_	_
+11	химии	химия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	затем	затем	ADV	_	Degree=Pos	14	advmod	_	_
+14	последовала	следовать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+15	Нобелевская	нобелевский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	премия	премия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+17	за	за	ADP	_	_	18	case	_	_
+18	мир	мир	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	а	а	CCONJ	_	_	23	cc	_	_
+21	затем	затем	ADV	_	Degree=Pos	23	advmod	_	_
+22	-	-	PUNCT	_	_	21	punct	_	_
+23	увольнение	увольнение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	conj	_	_
+24	из	из	ADP	_	_	27	case	_	_
+25	Калифорнийского	калифорнийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+26	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	где	где	ADV	_	Degree=Pos	31	advmod	_	_
+30	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+31	проработал	прорабатывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	acl:relcl	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	по	по	ADP	_	_	34	case	_	_
+34	сути	суть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	37	parataxis	_	_
+35	,	,	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+36	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing	37	det	_	_
+37	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	parataxis	_	_
+38	.	.	PUNCT	_	_	37	punct	_	SpacesAfter=\s\s
+
+# sent_id = 60
+# text = Недавно истек период конфиденциальности , и вскрылись архивы , в которых было найдено письмо от администрации президента США президенту Калифорнийского технологического института , где говорилось , что если Полинг не будет уволен , то Калифорнийский технологический институт никогда не будет получать федеральные гранты США .
+1	Недавно	недавно	ADV	_	Degree=Pos	2	advmod	_	_
+2	истек	истекать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+4	конфиденциальности	конфиденциальность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	вскрылись	вскрыться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+8	архивы	архив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	в	в	ADP	_	_	11	case	_	_
+11	которых	который	PRON	_	Case=Loc	13	obl	_	_
+12	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	13	aux:pass	_	_
+13	найдено	находить	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	acl:relcl	_	_
+14	письмо	письмо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+15	от	от	ADP	_	_	16	case	_	_
+16	администрации	администрация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+17	президента	президент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	17	nmod	_	_
+19	президенту	президент	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	14	conj	_	_
+20	Калифорнийского	калифорнийский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+21	технологического	технологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	где	где	ADV	_	Degree=Pos	25	advmod	_	_
+25	говорилось	говорить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	22	acl:relcl	_	_
+26	,	,	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+27	что	что	SCONJ	_	_	41	mark	_	_
+28	если	если	SCONJ	_	_	32	mark	_	_
+29	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+30	не	не	PART	_	_	32	advmod	_	_
+31	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	cop	_	_
+32	уволен	увольнять	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	41	advcl	_	_
+33	,	,	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+34	то	то	SCONJ	_	_	25	mark	_	_
+35	Калифорнийский	калифорнийский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+36	технологический	технологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	институт	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	41	nsubj	_	_
+38	никогда	никогда	ADV	_	Degree=Pos	41	advmod	_	_
+39	не	не	PART	_	_	41	advmod	_	_
+40	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	41	aux	_	_
+41	получать	получать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	ccomp	_	_
+42	федеральные	федеральный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	43	amod	_	_
+43	гранты	грант	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	41	obj	_	_
+44	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	43	nmod	_	_
+45	.	.	PUNCT	_	_	44	punct	_	SpacesAfter=\s\s
+
+# sent_id = 61
+# text = Полинг был уволен , разумеется , по собственному желанию и через какое-то время создал свой собственный институт , который так и назывался - Институт науки и медицины имени Лайнуса Полинга , и профессором этого института Полинг проработал весь остаток своей жизни .
+1	Полинг	Полинг	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	уволен	увольнять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	разумеется	разумеется	ADV	_	Degree=Pos	9	parataxis	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	по	по	ADP	_	_	9	case	_	_
+8	собственному	собственный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	желанию	желание	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	3	obl	_	_
+10	и	и	CCONJ	_	_	14	cc	_	_
+11	через	через	ADP	_	_	13	case	_	_
+12	какое-то	какой-то	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	obl	_	_
+14	создал	создавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	conj	_	_
+15	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	17	det	_	_
+16	собственный	собственный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	институт	институт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obj	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	который	который	PRON	_	Case=Nom	22	nsubj	_	_
+20	так	так	ADV	_	Degree=Pos	22	advmod	_	_
+21	и	и	PART	_	_	20	fixed	_	_
+22	назывался	называться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	17	acl:relcl	_	_
+23	-	-	PUNCT	_	_	22	punct	_	_
+24	Институт	институт	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
+25	науки	наука	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	медицины	медицина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	conj	_	_
+28	имени	имя	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	nmod	_	_
+29	Лайнуса	Лайнус	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	Полинга	Полинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	29	flat:name	_	_
+31	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+32	и	и	CCONJ	_	_	33	cc	_	_
+33	профессором	профессор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	24	conj	_	_
+34	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	35	det	_	_
+35	института	институт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
+36	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	33	appos	_	_
+37	проработал	прорабатывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	parataxis	_	_
+38	весь	весь	DET	_	Case=Acc|Gender=Masc|Number=Sing	39	det	_	_
+39	остаток	остаток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	37	obj	_	_
+40	своей	свой	DET	_	Case=Gen|Gender=Fem|Number=Sing	41	det	_	_
+41	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	nmod	_	_
+42	.	.	PUNCT	_	_	41	punct	_	SpacesAfter=\s\n
+
+# sent_id = 62
+# text = Сейчас этот институт присоединен к Университету Орегона - тому самому , в котором Полинг начинал свою блестящую научную карьеру .
+1	Сейчас	сейчас	ADV	_	Degree=Pos	4	advmod	_	_
+2	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	3	det	_	_
+3	институт	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj:pass	_	_
+4	присоединен	присоединять	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	Университету	университет	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	4	obl	_	_
+7	Орегона	Орегон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	-	-	PUNCT	_	_	7	punct	_	_
+9	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	iobj	_	_
+10	самому	сам	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	в	в	ADP	_	_	13	case	_	_
+13	котором	который	PRON	_	Case=Loc	15	obl	_	_
+14	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+15	начинал	начинать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+16	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	19	det	_	_
+17	блестящую	блестящий	VERB	_	Aspect=Imp|Case=Acc|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	19	amod	_	_
+18	научную	научный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	карьеру	карьера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 63
+# text = Мне кажется , оценивать вклад Полинга в науку нужно в самых положительных тонах .
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	2	iobj	_	_
+2	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	оценивать	оценивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	csubj	_	_
+5	вклад	вклад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	Полинга	Полинг	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	науку	наука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+9	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	nsubj	_	_
+10	в	в	ADP	_	_	13	case	_	_
+11	самых	самый	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	12	amod	_	_
+12	положительных	положительный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	тонах	тон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	9	obl	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 64
+# text = Да , Полинг временами был неправ , но , даже когда он был неправ , это шло на пользу науке .
+1	Да	да	PART	_	_	6	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	Полинг	Полинг	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+4	временами	временами	ADV	_	Degree=Pos	6	obl	_	_
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	неправ	неправ	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	но	но	CCONJ	_	_	17	cc	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	даже	даже	PART	_	_	14	discourse	_	_
+11	когда	когда	SCONJ	_	_	14	mark	_	_
+12	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
+13	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	14	cop	_	_
+14	неправ	неправ	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	17	advcl	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+17	шло	идти	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	пользу	польза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	obl	_	_
+20	науке	наука	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	17	iobj	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 65
+# text = Но в большей части случаев Полинг оказывался прав .
+1	Но	но	CCONJ	_	_	7	cc	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	большей	больший	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	части	часть	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+5	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	Полинг	Полинг	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	оказывался	оказываться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	прав	право	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	7	obl	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 66
+# text = Его трудами , повторюсь , создана структурная химия , молекулярная биология , биохимия , и во многом благодаря активности этого человека мы живем в относительно мирное время .
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	трудами	труд	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	6	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	повторюсь	повторяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	6	parataxis	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	создана	создавать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	структурная	структурный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	химия	химия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj:pass	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	молекулярная	молекулярный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	биология	биология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	биохимия	биохимия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	conj	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	и	и	CCONJ	_	_	23	cc	_	_
+16	во	в	ADP	_	_	17	case	_	_
+17	многом	многое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	23	obl	_	_
+18	благодаря	благодаря	ADP	_	_	19	case	_	_
+19	активности	активность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	23	obl	_	_
+20	этого	этот	DET	_	Case=Gen|Gender=Masc|Number=Sing	21	det	_	_
+21	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+22	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	23	nsubj	_	_
+23	живем	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+24	в	в	ADP	_	_	27	case	_	_
+25	относительно	относительно	ADV	_	Degree=Pos	26	obl	_	_
+26	мирное	мирный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	27	amod	_	_
+27	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obl	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\n
+
