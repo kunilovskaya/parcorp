@@ -1,0 +1,36 @@
+Economic and Social Council Distr.
+Working Party on the Transport of Dangerous Goods Joint Meeting of Experts on the Regulations annexed to the European Agreement concerning the International Carriage of Dangerous Goods by Inland Waterways (ADN)
+Sixteenth session Geneva, 25-29 January 2010
+Item 4 (b) of the provisional agenda Proposals for amendments to the regulations annexed to adN
+Other amendment proposals Synthetic ropes for supply vessels Submitted by the Government of the Netherlands , Background
+1. The European Barge Union (EBU) transmitted a proposal on synthetic ropes at the fourteenth session of the ADN Safety Committee held from 26-30 January 2009 (ECE/TRANS/WP.15/AC.2/2009/4).
+After discussion in the Safety Committee, EBU withdrew its proposal.
+The Government of the Netherlands would like to put the subject on the agenda once again because the problems encountered in Dutch ports, both legal and practical, need to be solved.
+2. At present, paragraph 7.2.4.76 authorizes the use of synthetic ropes for supply vessels during the delivery of products for the operation of vessels.
+The definition of `supply vessels' reads as follows: "an open type N vessel with dead weight of up to 300 tonnes, constructed and fitted (....)".
+Due to the vast increase in scale of seagoing vessels, many of the Dutch supply vessels have followed market demand and are now larger than the supply vessels described above.
+3. The heart of the problem is that the larger supply vessels, by definition, are to be considered as `normal' tank vessels and therefore "may be moored by means of synthetic ropes only when steel cables are used to prevent the vessel from going adrift."
+This requirement proves impossible and unsafe to work with in the Dutch bunker ports of Rotterdam and Amsterdam.
+The problems encountered from a practical and judicial viewpoint are:
+(a) Steel cables are very heavy and, in practice, cannot be handled during the bunkering of large seagoing vessels.
+There are often more than 30 metres in height difference and the sea-going vessels have no winches to pull these cables up.
+Near accidents have happened trying to handle the cables;
+(b) There is a legal contradiction with labour and lifting guidelines.
+A Dutch court decision has resulted in the maximum lifting limit of an employee being 23 kilos or less.
+The lifting of steel cables in the situation described, does not fit in that category;
+(c) The Shipboard Marine Pollution Emergency Plan, as required by the International Maritime Organisation, stipulates in the case of cargo transfer between ship and barge: "barge moorings should be of such a nature that the barge can be quickly released in an emergency".
+The use of steel cables makes a quick release in the event of an emergency impossible and dangerous.
+4. Furthermore, in paragraph 7.1.4.76, container vessels are exempted from a similar requirement due to the frequency of mooring operations for these types of vessels.
+To illustrate the frequency of bunker operations in Dutch ports, some numbers: In Rotterdam, per month, approximately 1 million m3 of heavy fuel oil (approximately 1,000 bunker handlings), 20,000 m3 of marine gas oil (400 bunker handlings) and 7,000 m3 of marine diesel oil (100 bunker handlings) are handled.
+5. The fire hazard was the reason why steel cables were introduced.
+The fire hazard of bunker products is relatively low compared to many other products transported in tank vessels.
+This is exactly the reason why supply vessels are exempted.
+6. The Government of the Netherlands would like to bring the Regulations annexed to ADN up to date with the current size and scale of bunkering practice.
+The Safety Committee is invited to consider one of the following alternatives: Alternative No. 1
+7.2.4.76 Synthetic ropes: Amend the last paragraph to read as follows:
+"Oil separator vessels may, however, be moored by means of synthetic ropes during the reception of oily and greasy wastes resulting from the operation of vessels, as may supply vessels and other vessels delivering products for the operation of vessels.".
+"Oil separator vessels may however, be moored by means of synthetic ropes during the reception of oily and greasy wastes resulting from the operation of vessels, as may supply vessels during the delivery of products for the operation of vessels.
+The competent authority may prescribe that all vessels delivering products for the operation of vessels, are allowed to use synthetic ropes.".
+7. A third option would be to change the definition of `supply vessels' in Chapter 1.2 in such a way that the weight is no longer an issue.
+However, since `supply vessels' form a distinct category in many ADN paragraphs, this could have many unforeseen repercussions.
+It is therefore suggested to choose alternative No. 1 or No. 2 in order to solve the problem.

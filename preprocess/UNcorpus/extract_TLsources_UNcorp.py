@@ -1,13 +1,17 @@
-# coding: utf-8
-# getting Russian reference from UN corpus downloaded from https://conferences.unite.un.org/UNCORPUS/en/DownloadOverview#download (should be 403 files in UNv1.0-TEI/ru/ folder)
+'''
+get TL originals (non-translation) to build the reference subcorpus in translationese studies from UN corpus
 
-# loop over all folders of xml in UNv1.0-TEI/ru/ and store text marked <s id="6:1" lang="ru">Original: RUSSIAN</s> in separate plain-text files
+What the script does:
+loop over all folders of xml in UNv1.0-TEI/ru/ and store text marked <s id="6:1" lang="ru">Original: RUSSIAN</s> in separate plain-text files
 # e.g. 2007/ccw/gge/2007/wp_7.xml > 2007_ccw_gge_2007_wp_7.txt
+
+USAGE: python3 extract_TLsources_UNcorp.py /path/to/TL/folder/  e.g. 'downloads/UNv1.0-TEI/ru/
+'''
 
 import sys, os
 from xml.dom import minidom
 
-rootdir = '/home/u2/resources/corpora/parallel/UNv1.0-TEI/ru/'
+rootdir = sys.argv[1] # folder with re-assembled and extracted archive for your TL
 # parent directory
 parent = os.path.join(rootdir, os.pardir)
 outto = os.path.abspath(parent) + '/ru_sources/'

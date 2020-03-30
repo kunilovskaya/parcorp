@@ -1,0 +1,36 @@
+Economic and Social Council Distr.
+World Forum for Harmonization of Vehicle Regulations One-hundred-and-fiftieth session Geneva, 9-12 March 2010
+Item 17.4 of the provisional agenda PROGRESS IN THE DEVELOPMENT OF NEW GLOBAL TECHNICAL REGULATIONS OR AMENDMENTS TO ESTABLISHED GLOBAL TECHNICAL REGULATIONS
+(Worldwide harmonized Heavy Duty Certification (WHDC))
+United States of America statement and proposal concerning soak period and cold start weighting options in gtr No. 4 (WHDC)
+Submitted by the representative of the United States of America /
+This document contains the proposal of the United States of America to eliminate the soak period and cold start weighting options remaining in gtr No. 4.
+The Executive Committee (AC.3) of the 1998 Agreement agreed to prepare the corresponding documents to be submitted to a vote at the June 2010 session of AC.3, after consideration by the Working Party on Pollution and Energy (GRPE) at its January 2010 session and by AC.3 at its March 2010 session (ECE/TRANS/WP.29/1079, para. 94).
+1. As noted in paragraphs 11 through 14 of the proposal for Amendment 1 to gtr No. 4 (ECE/TRANS/WP.29/2009/122), two of the five options on which the World Forum for Harmonization of Vehicle Regulations (WP.29) expected resolution by the WHDC informal group remain open.
+The hot soak period option remains as a 5 or a 20 minute soak while the cold start weighting factor option remains as either 14 per cent or 10 per cent.
+2. During the past two years, the WHDC informal group within the Working Party on Pollution and Energy (GRPE) has looked into a 10 minute hot soak period possibly replacing the 5 or 20 minute option.
+Discussions within the informal group progressed to a debate between 10 minute and 20 minute soak periods with the United States leaning toward the 20 minute period given presence of a 20 minute soak period in the United States test procedures and, therefore, protection against possible backsliding of regulatory stringency.
+A number of parties put forward a recommendation of a 10 minute soak period to replace the current option of 5 or 20 minutes.
+The 5 minute soak option was considered undesirable by many parties as too short and likely to cause an unacceptable frequency of voided tests.
+3. In an effort to resolve the issue and ensure that important decisions at GRPE are based on data-driven analysis wherever possible, the United States proposed a test program to shed light on the issue of stringency by comparing emission results using a 10 minute versus a 20 minute soak period.
+Three entities stepped forward to generate test data according to this test program: the Engine Manufacturers Association (EMA); Daimler AG; and, Detroit Diesel Corporation (DDC).
+These data, in part, were presented by the WHDC Chair and Secretary to GRPE at its June 2009 session, with more data made available to working group members on 31 July 2009.
+Since that time, the United States has been analysing the data and generating an internal position on how to proceed.
+Due to the timing of the test program data availability, and the importance of the issue to the United States, the resolution of the option was not possible within the time required for submitting new text to the WP.29 Secretariat for consideration at this 149th session of WP.29.
+Hence, the gtr as it is currently written contains an option of a 5 or 20 minute soak period (i.e., a 10 minute soak does not appear in the current gtr).
+4. The United States is prepared to eliminate the soak period and cold start weighting factor options consistent with its understanding of the discussions within the WHDC working group.
+Specifically, the United States will support a 10 minute soak period in conjunction with a 14 per cent cold start weighting factor.
+5. The United States wishes to thank the WHDC working group and GRPE for its hard work on this gtr and, specifically, EMA, Daimler, and DDC for stepping forward to generate test data.
+The United States firmly believes that decisions at GRPE should be data-driven and made based on the best available scientific information.
+6. In addition, it was noted that a formal rulemaking process would have to be conducted in the United States prior to adopting the WHDC gtr.
+During that rulemaking process, additional data will probably be needed to shed light on the relative stringency of the WHDC gtr relative to existing United States test procedures.
+The outcome of that process cannot be known today.
+The industry will be supportive of that need and will cooperate again when the time arises.
+Comments specific to ECE/TRANS/WP.29/2009/121 (the WHDC gtr)
+7. Suggested changes to paragraph 7.6.3
+Hot soak period Immediately upon completion of the cold start test, the engine shall be conditioned for the hot start test using a 10 +- 1 minutes hot soak period. by using one of the following options:
+(a) 5 +- 1 minutes hot soak period
+(b) 20 +- 1 minutes hot soak period The option shall be selected by the Contracting Parties.
+8. Suggested changes to paragraph 8.6.3
+Calculation of the specific emissions
+For the WHTC, the final test result shall be a weighted average from cold start test and hot start test according to the following formula: by using either of the following options:

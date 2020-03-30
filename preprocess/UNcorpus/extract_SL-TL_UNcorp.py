@@ -1,15 +1,19 @@
-# coding: utf-8
-# getting EN sources translated into Russian from UN corpus downloaded from https://conferences.unite.un.org/UNCORPUS/en/DownloadOverview#download
-
 '''
+TASK:
+from reassembled extracted XML archives for each language in a language pair downloaded from https://conferences.unite.un.org/UNCORPUS/en/DownloadOverview
+get a collection of plain texts for SL that are translated into selected TL (default English > Russian, adjust the code for other pairs)
+
+Steps in the code:
 (1) get a list of filepaths for texts in UNv1.0-TEI/en/ that are marked as Original: ENGLISH
 (2) follow the paths to see whether there are corresponding texts in UNv1.0-TEI/ru/ and get them
+
+USAGE: python3 extract_SL-TL_UNcorp.py /path/to/TL/folder/  e.g. 'downloads/UNv1.0-TEI/en/
 '''
 
 import sys, os
 from xml.dom import minidom
 
-source_rootdir = '/home/u2/resources/corpora/parallel/UNv1.0-TEI/en/'
+source_rootdir = sys.argv[1] # folder with re-assembled and extracted archive for your SL
 
 # parent directory
 parent = os.path.join(source_rootdir, os.pardir)
@@ -33,7 +37,7 @@ for subdir, dirs, files in os.walk(source_rootdir):
             if source_filepath.endswith(".xml"):
                 all_source += 1
                 temp = open(source_filepath, 'r').read()
-                if 'Original: ENGLISH' in temp:
+                if 'Original: ENGLISH' in temp: # adjust accordingly
                     marked_source += 1
                     
                     target_filepath = source_filepath.replace('en', 'ru')
@@ -58,6 +62,7 @@ for subdir, dirs, files in os.walk(source_rootdir):
                             
                         if source_segs and target_segs:
                             rel_path = os.path.relpath(source_filepath, source_rootdir)  # path, start
+                            # adjust languages
                             source_outname = 'en_' + '_'.join((rel_path).split('/')).replace('.xml', '.txt')
                             target_outname = 'ru_' + '_'.join((rel_path).split('/')).replace('.xml', '.txt')
                             pairs += 1
