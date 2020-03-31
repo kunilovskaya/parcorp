@@ -2,6 +2,8 @@
 
 #use requests and justext to extract text from a list of URL and save them as plain texts
 
+# USAGE: from build_your_own$ python3 extract-text-from-links.py urls/en.links
+
 import requests, justext
 import sys, os
 
