@@ -13,7 +13,7 @@ import gzip
 
 
 def tokeniseall(s, lang=None):
-    # sibstitute 58,000 with 58000 for it to be treated as ONE number, not TWO with a comma'
+    # sibstitute 58,000 with 58000 for it to be treated as ONE number, not TWO with a comma
     res0 = re.sub(r'(\d+),\s?(\d+)', r'\1\2', s)
     
     # properly separate punctuation
@@ -166,6 +166,7 @@ def postprocess_ud(ud_annotated, outfile, sentencebreaks=True, entities=None, la
   
     if entities is None:
         entities = {'PROPN'}
+        
     tempfile0 = open(outfile, 'w')
 
     nr_lines = 0

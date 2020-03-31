@@ -1,4 +1,3 @@
-# coding: utf-8
 '''
 updated March 25, 2020
 based on https://github.com/akutuzov/webvectors/blob/master/preprocessing/rus_preprocessing_udpipe.py
@@ -6,8 +5,7 @@ based on https://github.com/akutuzov/webvectors/blob/master/preprocessing/rus_pr
 pre-process multiling tree of folders with raw texts (not necessarily one-sent per line)
 into one-sent-per-line punct-tokenized txt, conllu corpus and a lempos corpus
 
-use available filters to adjust the required format for each of the three outputs
-the script expects:
+The script expects:
 (1) a path to the root of the tree (last folder has lang index as the name) to be preprocessed
 (2) a path where to store the output; you don't have to create it, just say where to create it
 (3) the UD models for en, ru in the working folder (from which this script is run)
@@ -16,7 +14,7 @@ the script expects:
 
 USAGE:
 -- go to parsing folder
--- run: python3 raw_multi-ling-tree2txt2conllu2lempos.py --texts ../rawdata/mock_data/ --outto ../mock_parse/
+-- run: python3 raw_multi-ling-tree2txt2conllu2lempos.py --texts ../cleandata/mock_data/ --outto ../mock_parse/
 '''
 import os, sys
 from ufal.udpipe import Model, Pipeline
@@ -58,7 +56,7 @@ en_model = Model.load(en_udpipe_filename)
 en_pipeline = Pipeline(en_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
 
 print('UD models loaded')
-print('If you get no output and no errors, check the path to the rawdata')
+print('If you get no output and no errors, check the path to the cleandata')
 
 counter = 0
 for subdir, dirs, files in os.walk(args.texts):

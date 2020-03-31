@@ -1,19 +1,26 @@
-# coding: utf-8
 '''
-pre-process raw texts (not necessarily one-sent per line) into one-sent-per-line punct-tokenized txt, conllu corpus and a lempos corpus
-use available filters to adjust the required format for each of the three outputs
-expects:
+updated March 25, 2020
+based on https://github.com/akutuzov/webvectors/blob/master/preprocessing/rus_preprocessing_udpipe.py
+
+pre-process prepared texts (not necessarily one-sent per line) to get three versions of the corpus
+- one-sent-per-line punct-tokenized txt,
+- a conllu-format corpus and
+- a lempos-represented corpus
+
+The script expects:
 (1) a path to files to be preprocessed (assumingly a subcorpus name: e.g. en, ru)
-(2) a path where to store the output; you don't have to create it, just say where to create it
+(2) a path where to store the output; you don't have to create a folder, just say where to create it
 (3) the UD models for en, ru in the working folder (from which this script is run)
 (4) the preprocess_imports.py module with the functions to be imported
 
-USAGE: python3 raw2txt2conllu2lempos.py --raw data/en_raw/ --outto data/preprocessed/ --lang en
+USAGE:
+-- go to parsing folder
+-- python3 raw2txt2conllu2lempos.py --raw cleandata/mock_data/ --outto parsed/ --lang en
 '''
 
 import argparse
 import zipfile, io, sys
-from preprocess_imports import * #tokeniseall, unify_sym, postprocess_ud, do_job
+from preprocess_functions import * #tokeniseall, unify_sym, postprocess_ud, do_job
 from smart_open import open
 
 parser = argparse.ArgumentParser()
@@ -34,7 +41,7 @@ lang = args.lang
 if lang == 'ru':
     # # STOPWORDS_FILE = 'stopwords_ru'
     # # stopwords = set([w.strip().lower() for w in smart_open(STOPWORDS_FILE,'r').readlines()])
-    udpipe_filename = 'udpipe_syntagrus.model'## I am getting permission denied on this model
+    udpipe_filename = 'udpipe_syntagrus.model'
     model = Model.load(udpipe_filename)
     pipeline = Pipeline(model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
 if lang == 'en':
@@ -84,7 +91,7 @@ if args.raw.endswith('.zip'):
                         print(f)
                         continue
             
-                    do_job(pipeline, text, lang, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True)
+                    do_job(pipeline, text, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True, lang=lang)
         ### Monitor processing:
         if id % 50 == 0:
             print('%s files processed' % id, file=sys.stderr)
@@ -108,7 +115,7 @@ if args.raw.endswith('/'):
                     print(f)
                     continue
                 
-                do_job(pipeline, text, lang, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True)
+                do_job(pipeline, text, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True, lang=lang)
     
         ### Monitor processing:
         if counter % 50 == 0:
@@ -116,4 +123,4 @@ if args.raw.endswith('/'):
 end = time.time()
 
 processing_time = int(end - start)
-print('Processing %s (%s files) took %.2f minites' % (args.raw, counter, processing_time / 60), file=sys.stderr) #.split('/')[-2]
+print('Processing %s (%s files) took %.2f minites' % (args.raw, counter, processing_time / 60), file=sys.stderr)
