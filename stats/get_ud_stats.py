@@ -6,7 +6,7 @@ adjust the dependencies you want to extract
 If you want to use the output in ML experiment or statistic analysis, you might want to adjust the last folder names for each sybcorpus to represent a subcorpus,
 i.e. a label in ML
 
-USAGE: python3 stats/by_doc_analyze_treebank.py formats/mock_tq_corpus_lempos/good/conllu/ > stats/tables/ud_stats.tsv
+USAGE: python3 stats/get_ud_stats.py formats/mock_good-bad_versions/good/conllu/ > stats/tables/ud_stats_good.tsv
 
 """
 
@@ -61,9 +61,7 @@ if __name__ == "__main__":
 
     for rel in relations.keys():
         headers.append(rel)
-    for i in headers:
-        print(i, end="\t")
-    print('\n')
+    print('\t'.join(headers))
 
     # Now let's start analyzing the treebank as a set of documents
     bank = [f for f in os.listdir(many) if f.endswith('.conllu')]
