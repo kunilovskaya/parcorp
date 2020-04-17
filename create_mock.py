@@ -1,11 +1,11 @@
 # TASK: copy first five files in each folder of a folder structure to a mock-data folder structure
-# USAGE: python3 create_corpus.py /path/to/corpus/tree/of/folders/
+# USAGE: python3 create_corpus.py /path/to/corpus/tree/of/folders/ /where/you/want/it/
 
 import os, sys
 import shutil
 
 source_root = sys.argv[1] # you can hard-code your path and call the script as python3 create_corpus.py
-target_root = 'formats/mock_tq_corpus_lempos/'
+target_root = sys.argv[2]
 
 for subdir, dirs, files in os.walk(source_root):
     counter = 0

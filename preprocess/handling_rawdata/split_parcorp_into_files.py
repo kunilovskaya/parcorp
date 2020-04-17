@@ -1,4 +1,6 @@
 # creating a number of files from the yandex parallel corpus (corpus.en_ru.1m.en and aligned corpus.en_ru.1m.ru)
+# USAGE: python3 /home/u2/proj/quest/process_news-commentary_en.py news-commentary-v15.en.gz ../en_news-comm_clean.txt en
+
 import os
 enOUT = 'yandex/source/en/'
 ruOUT = 'yandex/pro/ru/'

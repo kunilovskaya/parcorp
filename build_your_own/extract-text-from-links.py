@@ -11,7 +11,7 @@ import sys, os
 urls = sys.argv[1]
 
 # create the output folder in the project working directory
-output = 'from-links/'
+output = 'es_from-links/'
 outdir = os.makedirs(output, exist_ok=True)
 
 def gettext4url(url, lang, fname):
@@ -30,4 +30,4 @@ num = 1
 for link in links:
     num += 1
     print(link, num)
-    gettext4url(link.strip(), 'English', output+'en_'+str(num)+'.txt')
+    gettext4url(link.strip(), 'Spanish', output+'es_'+str(num)+'.txt')
