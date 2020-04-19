@@ -8,7 +8,8 @@ __pycache__/
 
 # data
 mock_parse/
-preprocessing/building_comparable_reference/models/
+preprocessing/building_comparable_reference/models/*.h5
+preprocessing/building_comparable_reference/models/*.map
 # Distribution / packaging
 temp/
 lists-of-files/
