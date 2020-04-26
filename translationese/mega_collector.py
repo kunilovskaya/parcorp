@@ -2,7 +2,7 @@
 produces a dictionary with each text values for each feature + a class value (type) for three languages from files in conllu format
 the language index is taken from the folder name and needs to be set up accordingly
 expected structure of folders: we store names of the last three folders as levels (metadata) in the resulting table
-(1) the last folder is language (en, ru)
+(1) the last folder is the languages (en, ru) these indices need to be passed to the --langs option
 (2) the last but one is status (professional/student, reference, source (in the current project it duplicates the lang folder for the sake of structure)
 (3) the last but two is source of data (authors, corpora, genres/registers)
 For example:
@@ -39,7 +39,7 @@ keys = 'afile alang aregister astatus ' \
 master_dict = {k: [] for k in keys}
 
 basic_stats = {}
-languages = args.langs  # 'de',
+languages = args.langs
 
 adv_support = {}
 mpred_support = {}
