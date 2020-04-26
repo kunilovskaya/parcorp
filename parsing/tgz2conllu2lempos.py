@@ -15,7 +15,8 @@ The script expects:
 
 USAGE:
 -- go to parsing folder
--- python3 simple_raw2conllu2lempos.py --raw cleandata/mock_data/fiction/source/en/ --outto parsed/ --lang en
+-- python3 tgz2conllu2lempos.py --raw cleandata/mock_data/fiction/source/en/ --outto parsed/ --lang en
+
 '''
 
 import argparse
