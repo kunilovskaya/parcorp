@@ -1,0 +1,1768 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Eternal youth has been a human preoccupation for millennia .
+1	Eternal	Eternal	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	youth	youth	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	cop	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	7	det	_	_
+6	human	human	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	preoccupation	preoccupation	NOUN	NN	Number=Sing	0	root	_	_
+8	for	for	ADP	IN	_	9	case	_	_
+9	millennia	millennia	NOUN	NN	Number=Sing	7	nmod	_	_
+10	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = But what would happen if we could actually halt the ageing process
+1	But	but	CCONJ	CC	_	4	cc	_	_
+2	what	what	PRON	WP	PronType=Int	4	nsubj	_	_
+3	would	would	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	happen	happen	VERB	VB	VerbForm=Inf	0	root	_	_
+5	if	if	SCONJ	IN	_	9	mark	_	_
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	nsubj	_	_
+7	could	could	AUX	MD	VerbForm=Fin	9	aux	_	_
+8	actually	actually	ADV	RB	_	9	advmod	_	_
+9	halt	hal	VERB	VB	VerbForm=Inf	4	advcl	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	ageing	ageing	NOUN	NN	Number=Sing	12	compound	_	_
+12	process	process	NOUN	NN	Number=Sing	9	obj	_	SpacesAfter=\n
+
+# sent_id = 3
+# text = In the 1850s , the average life expectancy in the US at birth was only 40 years old .
+1	In	in	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	1850s	1850	NOUN	NNS	Number=Plur	18	obl	_	_
+4	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\s\s
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+6	average	average	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	life	life	NOUN	NN	Number=Sing	8	compound	_	_
+8	expectancy	expectancy	NOUN	NN	Number=Sing	18	nsubj	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	US	US	PROPN	NNP	Number=Sing	8	nmod	_	_
+12	at	at	ADP	IN	_	13	case	_	_
+13	birth	birth	NOUN	NN	Number=Sing	8	nmod	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+15	only	only	ADV	RB	_	16	advmod	_	_
+16	40	40	NUM	CD	NumType=Card	17	nummod	_	_
+17	years	year	NOUN	NNS	Number=Plur	18	obl:npmod	_	_
+18	old	old	ADJ	JJ	Degree=Pos	0	root	_	_
+19	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Now , the average American can expect to live until at least 78 .
+1	Now	now	ADV	RB	_	7	advmod	_	_
+2	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	average	average	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	American	American	PROPN	NNP	Number=Sing	7	nsubj	_	_
+6	can	can	AUX	MD	VerbForm=Fin	7	aux	_	_
+7	expect	expect	VERB	VB	VerbForm=Inf	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	live	live	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	until	until	ADP	IN	_	13	case	_	_
+11	at	at	ADV	RB	_	12	case	_	_
+12	least	least	ADV	RBS	Degree=Sup	13	nmod	_	_
+13	78	78	NUM	CD	NumType=Card	9	obl	_	_
+14	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Recent medical research has teased us with the promise of extending human life further .
+1	Recent	recent	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	medical	medical	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	research	research	NOUN	NN	Number=Sing	5	nsubj	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	_
+5	teased	tease	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	obj	_	_
+7	with	with	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	promise	promise	NOUN	NN	Number=Sing	5	obl	_	_
+10	of	of	SCONJ	IN	_	11	mark	_	_
+11	extending	extend	VERB	VBG	VerbForm=Ger	9	acl	_	_
+12	human	human	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	life	life	NOUN	NN	Number=Sing	11	obj	_	_
+14	further	further	ADV	RB	_	11	advmod	_	_
+15	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = But , what are the implications of this new medicine and what consequences would it have upon society Films , such as Logan " s Run and Soylent Green , have painted grim visions of an overpopulated future , where drastic measures are taken to control these overcrowded worlds and their scarce resources .
+1	But	but	CCONJ	CC	_	3	cc	_	_
+2	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s
+3	what	what	PRON	WP	PronType=Int	0	root	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	cop	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	implications	implication	NOUN	NNS	Number=Plur	32	nsubj	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	this	this	DET	DT	Number=Sing|PronType=Dem	10	det	_	_
+9	new	new	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	medicine	medicine	NOUN	NN	Number=Sing	6	nmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	what	what	PRON	WP	PronType=Int	13	nsubj	_	_
+13	consequences	consequence	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+14	would	would	AUX	MD	VerbForm=Fin	16	aux	_	_
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	have	have	VERB	VB	VerbForm=Inf	13	ccomp	_	_
+17	upon	upon	ADP	IN	_	19	case	_	_
+18	society	society	NOUN	NN	Number=Sing	19	compound	_	SpacesAfter=\n
+19	Films	Film	NOUN	NNS	Number=Plur	16	obl	_	_
+20	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+21	such	such	ADJ	JJ	Degree=Pos	23	case	_	_
+22	as	as	ADP	IN	_	21	fixed	_	_
+23	Logan	Logan	PROPN	NNP	Number=Sing	16	obl	_	_
+24	"	"	PUNCT	''	_	26	punct	_	_
+25	s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	cop	_	_
+26	Run	Run	PROPN	NNP	Number=Sing	23	flat	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	Soylent	Soylent	PROPN	NNP	Number=Sing	23	conj	_	_
+29	Green	Green	PROPN	NNP	Number=Sing	28	flat	_	_
+30	,	,	PUNCT	,	_	32	punct	_	SpacesAfter=\s\s
+31	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	32	aux	_	_
+32	painted	paint	VERB	VBN	Tense=Past|VerbForm=Part	3	acl:relcl	_	_
+33	grim	grim	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	visions	vision	NOUN	NNS	Number=Plur	32	obj	_	_
+35	of	of	ADP	IN	_	38	case	_	_
+36	an	a	DET	DT	Definite=Ind|PronType=Art	38	det	_	_
+37	overpopulated	overpopulate	VERB	VBN	Tense=Past|VerbForm=Part	38	amod	_	_
+38	future	future	NOUN	NN	Number=Sing	34	nmod	_	_
+39	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\s\s
+40	where	where	ADV	WRB	PronType=Rel	44	advmod	_	_
+41	drastic	drastic	ADJ	JJ	Degree=Pos	42	amod	_	_
+42	measures	measure	NOUN	NNS	Number=Plur	44	nsubj:pass	_	_
+43	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	44	aux:pass	_	_
+44	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	38	acl:relcl	_	_
+45	to	to	PART	TO	_	46	mark	_	_
+46	control	control	VERB	VB	VerbForm=Inf	44	xcomp	_	_
+47	these	these	DET	DT	Number=Plur|PronType=Dem	49	det	_	_
+48	overcrowded	overcrowded	ADJ	JJ	Degree=Pos	49	amod	_	_
+49	worlds	world	NOUN	NNS	Number=Plur	46	obj	_	_
+50	and	and	CCONJ	CC	_	53	cc	_	_
+51	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	53	nmod:poss	_	_
+52	scarce	scarce	NOUN	NN	Number=Sing	53	compound	_	_
+53	resources	resources	NOUN	NNS	Number=Plur	44	conj	_	_
+54	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = The need for strict population control is not pure fantasy -- until recently , China had the One-Child Policy , due to their booming population in the 1970s .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	need	need	NOUN	NN	Number=Sing	10	nsubj	_	_
+3	for	for	ADP	IN	_	6	case	_	_
+4	strict	strict	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	population	population	NOUN	NN	Number=Sing	6	compound	_	_
+6	control	control	NOUN	NN	Number=Sing	2	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+8	not	not	PART	RB	_	10	advmod	_	_
+9	pure	pure	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	fantasy	fantasy	NOUN	NN	Number=Sing	0	root	_	_
+11	--	--	PUNCT	,	_	10	punct	_	_
+12	until	until	ADP	IN	_	13	case	_	_
+13	recently	recently	ADV	RB	_	16	advmod	_	_
+14	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+15	China	China	PROPN	NNP	Number=Sing	16	nsubj	_	_
+16	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	parataxis	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+18	One	one	NUM	CD	NumType=Card	20	nummod	_	SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	20	punct	_	SpaceAfter=No
+20	Child	child	NOUN	NN	Number=Sing	21	compound	_	_
+21	Policy	policy	NOUN	NN	Number=Sing	16	obj	_	_
+22	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+23	due	due	ADP	IN	_	27	case	_	_
+24	to	to	ADP	IN	_	23	fixed	_	_
+25	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	27	nmod:poss	_	_
+26	booming	booming	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	population	population	NOUN	NN	Number=Sing	16	obl	_	_
+28	in	in	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	1970s	1970	NOUN	NNS	Number=Plur	27	nmod	_	_
+31	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = One might think that a longer-living society would lead to an increase in population , but the reality is quite different . "
+1	One	one	PRON	PRP	_	3	nsubj	_	_
+2	might	might	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	think	think	VERB	VB	VerbForm=Inf	0	root	_	_
+4	that	that	SCONJ	IN	_	11	mark	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+6	longer	longer	ADV	RBR	Degree=Cmp	8	advmod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	living	living	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	society	society	NOUN	NN	Number=Sing	11	nsubj	_	_
+10	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	lead	lead	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+12	to	to	ADP	IN	_	14	case	_	_
+13	an	a	DET	DT	Definite=Ind|PronType=Art	14	det	_	_
+14	increase	increase	NOUN	NN	Number=Sing	11	obl	_	_
+15	in	in	ADP	IN	_	16	case	_	_
+16	population	population	NOUN	NN	Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	,	_	23	punct	_	SpacesAfter=\s\s
+18	but	but	CCONJ	CC	_	23	cc	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	reality	reality	NOUN	NN	Number=Sing	23	nsubj	_	_
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	_
+22	quite	quite	ADV	RB	_	23	advmod	_	_
+23	different	different	ADJ	JJ	Degree=Pos	3	conj	_	_
+24	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n\s
+25	"	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 9
+# text = In the very short term , falls in mortality do create population growth , " observes Jane Falkingham , professor and director of the Centre of Population Change at the University of Southampton . "
+1	In	in	ADP	IN	_	5	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+3	very	very	ADV	RB	_	4	advmod	_	_
+4	short	short	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	term	term	NOUN	NN	Number=Sing	7	obl	_	_
+6	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+7	falls	fall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	mortality	mortality	NOUN	NN	Number=Sing	11	obl	_	_
+10	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	create	create	VERB	VB	VerbForm=Inf	7	parataxis	_	_
+12	population	population	NOUN	NN	Number=Sing	13	compound	_	_
+13	growth	growth	NOUN	NN	Number=Sing	11	obj	_	_
+14	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+15	"	"	PUNCT	''	_	7	punct	_	SpacesAfter=\s\s
+16	observes	observe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	xcomp	_	_
+17	Jane	Jane	PROPN	NNP	Number=Sing	16	obj	_	_
+18	Falkingham	Falkingham	PROPN	NNP	Number=Sing	17	flat	_	_
+19	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\s\s
+20	professor	professor	NOUN	NN	Number=Sing	17	conj	_	_
+21	and	and	CCONJ	CC	_	22	cc	_	_
+22	director	director	NOUN	NN	Number=Sing	17	conj	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	Centre	Centre	PROPN	NNP	Number=Sing	22	nmod	_	_
+26	of	of	ADP	IN	_	28	case	_	_
+27	Population	population	NOUN	NN	Number=Sing	28	compound	_	_
+28	Change	change	NOUN	NN	Number=Sing	25	nmod	_	_
+29	at	at	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	University	University	PROPN	NNP	Number=Sing	16	obl	_	_
+32	of	of	ADP	IN	_	33	case	_	_
+33	Southampton	Southampton	PROPN	NNP	Number=Sing	31	nmod	_	_
+34	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\s\s
+35	"	"	PUNCT	''	_	7	punct	_	_
+
+# sent_id = 10
+# text = In the longer period , it is fertility that is the engine rather than mortality . "
+1	In	in	ADP	IN	_	4	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	longer	longer	ADJ	JJR	Degree=Cmp	4	amod	_	_
+4	period	period	NOUN	NN	Number=Sing	8	obl	_	_
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+8	fertility	fertility	NOUN	NN	Number=Sing	0	root	_	_
+9	that	that	PRON	WDT	PronType=Rel	12	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	engine	engine	NOUN	NN	Number=Sing	8	acl:relcl	_	_
+13	rather	rather	ADV	RB	_	15	cc	_	_
+14	than	than	ADP	IN	_	13	fixed	_	_
+15	mortality	mortality	NOUN	NN	Number=Sing	12	conj	_	_
+16	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\s
+17	"	"	PUNCT	''	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Recent clinical trials in mice have shown diabetic animals given the drug metformin , first introduced in 1957 , are living longer than non-diabetics , who did not take the drug .
+1	Recent	recent	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	clinical	clinical	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	trials	trial	NOUN	NNS	Number=Plur	7	nsubj	_	_
+4	in	in	ADP	IN	_	5	case	_	_
+5	mice	mouse	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	shown	show	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	diabetic	diabetic	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	animals	animal	NOUN	NNS	Number=Plur	7	obj	_	_
+10	given	give	VERB	VBN	Tense=Past|VerbForm=Part	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	drug	drug	NOUN	NN	Number=Sing	13	compound	_	_
+13	metformin	metformin	NOUN	NN	Number=Sing	7	obl	_	_
+14	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+15	first	first	ADV	RB	_	16	advmod	_	_
+16	introduced	introduce	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	conj	_	_
+17	in	in	ADP	IN	_	18	case	_	_
+18	1957	1957	NUM	CD	NumType=Card	16	obl	_	_
+19	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+20	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	7	conj	_	_
+22	longer	longer	ADV	RBR	Degree=Cmp	21	advmod	_	_
+23	than	than	ADP	IN	_	24	case	_	_
+24	non-diabetics	non-diabetic	NOUN	NNS	Number=Plur	21	obl	_	_
+25	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\s\s
+26	who	who	PRON	WP	PronType=Rel	29	nsubj	_	_
+27	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	aux	_	_
+28	not	not	PART	RB	_	29	advmod	_	_
+29	take	take	VERB	VB	VerbForm=Inf	24	acl:relcl	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	drug	drug	NOUN	NN	Number=Sing	29	obj	_	_
+32	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = And it " s been suggested that metformin could protect against basic ageing itself , and not just type 2 diabetes .
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj:pass	_	_
+3	"	"	PUNCT	``	_	2	punct	_	_
+4	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux:pass	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	suggested	suggest	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	that	that	SCONJ	IN	_	10	mark	_	_
+8	metformin	metformin	NOUN	NNS	Number=Plur	10	nsubj	_	_
+9	could	could	AUX	MD	VerbForm=Fin	10	aux	_	_
+10	protect	protect	VERB	VB	VerbForm=Inf	6	ccomp	_	_
+11	against	against	ADP	IN	_	13	case	_	_
+12	basic	basic	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	ageing	ageing	NOUN	NN	Number=Sing	10	obl	_	_
+14	itself	itself	PRON	PRP	Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nmod:npmod	_	_
+15	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s
+16	and	and	CCONJ	CC	_	19	cc	_	_
+17	not	not	ADV	RB	_	19	advmod	_	_
+18	just	just	ADV	RB	_	19	advmod	_	_
+19	type	type	VERB	VB	VerbForm=Inf	10	conj	_	_
+20	2	2	NUM	CD	NumType=Card	21	nummod	_	_
+21	diabetes	diabete	NOUN	NNS	Number=Plur	19	obj	_	_
+22	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = However , there are some possible pharmaceutical treatments that may not only protect against ageing , but actually reverse the effects of ageing itself .
+1	However	however	ADV	RB	_	4	advmod	_	_
+2	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\s\s
+3	there	there	PRON	EX	_	4	expl	_	_
+4	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	some	some	DET	DT	_	8	det	_	_
+6	possible	possible	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	pharmaceutical	pharmaceutical	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	treatments	treatment	NOUN	NNS	Number=Plur	4	nsubj	_	_
+9	that	that	PRON	WDT	PronType=Rel	13	nsubj	_	_
+10	may	may	AUX	MD	VerbForm=Fin	13	aux	_	_
+11	not	not	PART	RB	_	13	advmod	_	_
+12	only	only	ADV	RB	_	13	advmod	_	_
+13	protect	protect	VERB	VB	VerbForm=Inf	8	acl:relcl	_	_
+14	against	against	SCONJ	IN	_	15	mark	_	_
+15	ageing	ageing	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+16	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s
+17	but	but	CCONJ	CC	_	19	cc	_	_
+18	actually	actually	ADV	RB	_	19	advmod	_	_
+19	reverse	reverse	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	conj	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	effects	effect	NOUN	NNS	Number=Plur	19	obj	_	_
+22	of	of	SCONJ	IN	_	23	mark	_	_
+23	ageing	age	VERB	VBG	VerbForm=Ger	21	acl	_	_
+24	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	23	obj	_	_
+25	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = The almost vampiric practice of elderly people being given blood transfusions from young donors has been discovered to have some medical credibility .
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	almost	almost	ADV	RBS	_	3	advmod	_	_
+3	vampiric	vampiric	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	practice	practice	NOUN	NN	Number=Sing	17	nsubj:pass	_	_
+5	of	of	ADP	IN	_	7	case	_	_
+6	elderly	elderly	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	people	people	NOUN	NNS	Number=Plur	4	nmod	_	_
+8	being	be	AUX	VBG	VerbForm=Ger	9	aux:pass	_	_
+9	given	give	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+10	blood	blood	NOUN	NN	Number=Sing	11	compound	_	_
+11	transfusions	transfusion	NOUN	NNS	Number=Plur	9	obj	_	_
+12	from	from	ADP	IN	_	14	case	_	_
+13	young	young	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	donors	donor	NOUN	NNS	Number=Plur	11	nmod	_	_
+15	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	_
+16	been	be	AUX	VBN	Tense=Past|VerbForm=Part	17	aux:pass	_	_
+17	discovered	discover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	have	have	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	some	some	DET	DT	_	22	det	_	_
+21	medical	medical	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	credibility	credibility	NOUN	NN	Number=Sing	19	obj	_	_
+23	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n
+
+# sent_id = 15
+# text = This fascination with blood " s potentially life-giving properties was first pursued by the German doctor Andreas Libavius in 1615 , where he considered connecting the arteries of an older man to that of a young man .
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	fascination	fascination	NOUN	NN	Number=Sing	8	nsubj	_	_
+3	with	with	ADP	IN	_	4	case	_	_
+4	blood	blood	NOUN	NN	Number=Sing	2	nmod	_	_
+5	"	"	PUNCT	''	_	2	punct	_	_
+6	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	_
+7	potentially	potentially	ADV	RB	_	8	advmod	_	_
+8	life	life	NOUN	NN	Number=Sing	14	nsubj:pass	_	SpaceAfter=No
+9	-	-	PUNCT	,	_	8	punct	_	SpaceAfter=No
+10	giving	give	VERB	VBG	VerbForm=Ger	8	acl	_	_
+11	properties	property	NOUN	NNS	Number=Plur	10	obj	_	_
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	aux:pass	_	_
+13	first	first	ADV	RB	_	14	advmod	_	_
+14	pursued	pursue	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+15	by	by	ADP	IN	_	20	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+17	German	german	ADJ	JJ	Degree=Pos	19	amod	_	_
+18	doctor	doctor	NOUN	NN	Number=Sing	19	compound	_	_
+19	Andreas	Andreas	NOUN	NNS	Number=Plur	20	compound	_	_
+20	Libavius	Libavius	PROPN	NNP	Number=Sing	14	obl	_	_
+21	in	in	ADP	IN	_	22	case	_	_
+22	1615	1615	NUM	CD	NumType=Card	14	obl	_	_
+23	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+24	where	where	ADV	WRB	PronType=Rel	26	advmod	_	_
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	nsubj	_	_
+26	considered	consider	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	acl:relcl	_	_
+27	connecting	connect	VERB	VBG	VerbForm=Ger	26	xcomp	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	arteries	artery	NOUN	NNS	Number=Plur	27	obj	_	_
+30	of	of	ADP	IN	_	33	case	_	_
+31	an	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	older	older	ADJ	JJR	Degree=Cmp	33	amod	_	_
+33	man	man	NOUN	NN	Number=Sing	29	nmod	_	_
+34	to	to	ADP	IN	_	35	case	_	_
+35	that	that	PRON	DT	Number=Sing|PronType=Dem	26	obl	_	_
+36	of	of	ADP	IN	_	39	case	_	_
+37	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+38	young	young	ADJ	JJ	Degree=Pos	39	amod	_	_
+39	man	man	NOUN	NN	Number=Sing	35	nmod	_	_
+40	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 16
+# text = Libavius was confident it would succeed , and results from experiments in 2005 showed the idea had promise .
+1	Libavius	Libavius	PROPN	NNP	Number=Sing	3	nsubj	_	_
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	cop	_	_
+3	confident	confident	ADJ	JJ	Degree=Pos	0	root	_	_
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	_
+5	would	would	AUX	MD	VerbForm=Fin	6	aux	_	_
+6	succeed	succeed	VERB	VB	VerbForm=Inf	3	ccomp	_	_
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+8	and	and	CCONJ	CC	_	9	cc	_	_
+9	results	result	NOUN	NNS	Number=Plur	14	nsubj	_	_
+10	from	from	ADP	IN	_	11	case	_	_
+11	experiments	experiment	NOUN	NNS	Number=Plur	9	nmod	_	_
+12	in	in	ADP	IN	_	13	case	_	_
+13	2005	2005	NUM	CD	NumType=Card	9	nmod	_	_
+14	showed	show	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	parataxis	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	idea	idea	NOUN	NN	Number=Sing	17	nsubj	_	_
+17	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	ccomp	_	_
+18	promise	promise	NOUN	NN	Number=Sing	17	obj	_	_
+19	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = Old mice became healthier with young blood , whilst the young mice , who were infused with blood from elderly mice , did much worse .
+1	Old	old	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	mice	mouse	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	became	become	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	healthier	healthier	ADJ	JJR	Degree=Cmp	3	xcomp	_	_
+5	with	with	ADP	IN	_	7	case	_	_
+6	young	young	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	blood	blood	NOUN	NN	Number=Sing	4	obl	_	_
+8	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s
+9	whilst	whilst	SCONJ	IN	_	25	mark	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	young	young	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	mice	mouse	NOUN	NNS	Number=Plur	25	nsubj	_	_
+13	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+14	who	who	PRON	WP	PronType=Rel	16	nsubj:pass	_	_
+15	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	aux:pass	_	_
+16	infused	infuse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	acl:relcl	_	_
+17	with	with	ADP	IN	_	18	case	_	_
+18	blood	blood	NOUN	NN	Number=Sing	16	obl	_	_
+19	from	from	ADP	IN	_	21	case	_	_
+20	elderly	elderly	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	mice	mouse	NOUN	NNS	Number=Plur	18	nmod	_	_
+22	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\s\s
+23	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+24	much	much	ADV	RB	_	25	advmod	_	_
+25	worse	worse	ADJ	JJR	Degree=Cmp	3	advcl	_	_
+26	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 18
+# text = However , the risks associated with blood transfusions , such as lung injury and infections , should not be overlooked .
+1	However	however	ADV	RB	_	20	advmod	_	_
+2	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\s\s
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	risks	risk	NOUN	NNS	Number=Plur	20	nsubj:pass	_	_
+5	associated	associate	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	_
+6	with	with	ADP	IN	_	8	case	_	_
+7	blood	blood	NOUN	NN	Number=Sing	8	compound	_	_
+8	transfusions	transfusion	NOUN	NNS	Number=Plur	5	obl	_	_
+9	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\s\s
+10	such	such	ADJ	JJ	Degree=Pos	13	case	_	_
+11	as	as	ADP	IN	_	10	fixed	_	_
+12	lung	lung	NOUN	NN	Number=Sing	13	compound	_	_
+13	injury	injury	NOUN	NN	Number=Sing	4	nmod	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	infections	infection	NOUN	NNS	Number=Plur	13	conj	_	_
+16	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\s\s
+17	should	should	AUX	MD	VerbForm=Fin	20	aux	_	_
+18	not	not	PART	RB	_	20	advmod	_	_
+19	be	be	AUX	VB	VerbForm=Inf	20	aux:pass	_	_
+20	overlooked	overlook	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+21	.	.	PUNCT	.	_	20	punct	_	SpacesAfter=\s\n
+
+# sent_id = 19
+# text = Yet , there are treatments being developed that are not as controversial and are repeatedly being proven as effective in laboratory tests .
+1	Yet	yet	CCONJ	CC	_	4	cc	_	_
+2	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\s\s
+3	there	there	PRON	EX	_	4	expl	_	_
+4	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	treatments	treatment	NOUN	NNS	Number=Plur	4	nsubj	_	_
+6	being	be	AUX	VBG	VerbForm=Ger	7	aux:pass	_	_
+7	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
+8	that	that	PRON	WDT	PronType=Rel	12	nsubj	_	_
+9	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	cop	_	_
+10	not	not	PART	RB	_	12	advmod	_	_
+11	as	as	ADV	RB	_	12	advmod	_	_
+12	controversial	controversial	ADJ	JJ	Degree=Pos	5	acl:relcl	_	_
+13	and	and	CCONJ	CC	_	17	cc	_	_
+14	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+15	repeatedly	repeatedly	ADV	RB	_	17	advmod	_	_
+16	being	be	AUX	VBG	VerbForm=Ger	17	aux:pass	_	_
+17	proven	prove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+18	as	as	SCONJ	IN	_	19	mark	_	_
+19	effective	effective	ADJ	JJ	Degree=Pos	17	advcl	_	_
+20	in	in	ADP	IN	_	22	case	_	_
+21	laboratory	laboratory	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	tests	test	NOUN	NNS	Number=Plur	19	obl	_	_
+23	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 20
+# text = Mice that have their senescent cells -- those that can no longer divide to create new cells -- removed through the injection of Foxo4-DRI live longer .
+1	Mice	mouse	NOUN	NNS	Number=Plur	27	nsubj	_	_
+2	that	that	PRON	WDT	PronType=Rel	3	nsubj	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	1	acl:relcl	_	_
+4	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+5	senescent	senescent	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	cells	cell	NOUN	NNS	Number=Plur	3	obj	_	_
+7	--	--	PUNCT	,	_	8	punct	_	_
+8	those	those	PRON	DT	Number=Plur|PronType=Dem	27	nsubj	_	_
+9	that	that	PRON	WDT	PronType=Rel	13	nsubj	_	_
+10	can	can	AUX	MD	VerbForm=Fin	13	aux	_	_
+11	no	no	ADV	RB	_	12	advmod	_	_
+12	longer	longer	ADV	RBR	Degree=Cmp	13	advmod	_	_
+13	divide	divide	ADJ	JJ	Degree=Pos	8	acl:relcl	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	create	create	VERB	VB	VerbForm=Inf	13	advcl	_	_
+16	new	new	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	cells	cell	NOUN	NNS	Number=Plur	15	obj	_	_
+18	--	--	PUNCT	,	_	8	punct	_	_
+19	removed	remove	VERB	VBN	Tense=Past|VerbForm=Part	8	acl	_	_
+20	through	through	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	injection	injection	NOUN	NN	Number=Sing	19	obl	_	_
+23	of	of	ADP	IN	_	26	case	_	_
+24	Foxo4	Foxo4	PROPN	NNP	Number=Sing	26	compound	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	_	26	punct	_	SpaceAfter=No
+26	DRI	DRI	PROPN	NNP	Number=Sing	22	nmod	_	_
+27	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+28	longer	longer	ADV	RBR	Degree=Cmp	27	advmod	_	_
+29	.	.	PUNCT	.	_	27	punct	_	SpacesAfter=\s\n
+
+# sent_id = 21
+# text = This compound essentially interferes with the normal process that would tell the cell to stop dividing .
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	compound	compound	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	essentially	essentially	ADV	RB	_	4	advmod	_	_
+4	interferes	interfere	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	with	with	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	normal	normal	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	process	process	NOUN	NN	Number=Sing	4	obl	_	_
+9	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+10	would	would	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	tell	tell	VERB	VB	VerbForm=Inf	8	acl:relcl	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	cell	cell	NOUN	NN	Number=Sing	11	obj	_	_
+14	to	to	PART	TO	_	15	mark	_	_
+15	stop	stop	VERB	VB	VerbForm=Inf	11	xcomp	_	_
+16	dividing	divide	VERB	VBG	VerbForm=Ger	15	xcomp	_	_
+17	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 22
+# text = These mice are now 30 months old , which is approximately the equivalent of 100 human years , and remain active , proving the effect is not temporary . "
+1	These	these	DET	DT	Number=Plur|PronType=Dem	2	det	_	_
+2	mice	mouse	NOUN	NNS	Number=Plur	7	nsubj	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	now	now	ADV	RB	_	7	advmod	_	_
+5	30	30	NUM	CD	NumType=Card	6	nummod	_	_
+6	months	month	NOUN	NNS	Number=Plur	7	obl:npmod	_	_
+7	old	old	ADJ	JJ	Degree=Pos	0	root	_	_
+8	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+9	which	which	PRON	WDT	PronType=Int	13	nsubj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	approximately	approximately	ADV	RB	_	13	advmod	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	equivalent	equivalent	NOUN	NN	Number=Sing	7	parataxis	_	_
+14	of	of	ADP	IN	_	17	case	_	_
+15	100	100	NUM	CD	NumType=Card	17	nummod	_	_
+16	human	human	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	years	year	NOUN	NNS	Number=Plur	13	nmod	_	_
+18	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\s\s
+19	and	and	CCONJ	CC	_	20	cc	_	_
+20	remain	remain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	conj	_	_
+21	active	active	ADJ	JJ	Degree=Pos	20	xcomp	_	_
+22	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+23	proving	prove	VERB	VBG	VerbForm=Ger	21	advcl	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	effect	effect	NOUN	NN	Number=Sing	28	nsubj	_	_
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	_
+27	not	not	PART	RB	_	28	advmod	_	_
+28	temporary	temporary	ADJ	JJ	Degree=Pos	23	ccomp	_	_
+29	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n\s
+30	"	"	PUNCT	''	_	7	punct	_	_
+
+# sent_id = 23
+# text = If you target so-called bad senescent cells , which are unwanted as they have become old and irreparably damaged , then you can extend and , to a degree , even restore health , " explains Peter de Keizer of the Department of Molecular Genetics at Erasmus University Medical Centre . "
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	nsubj	_	_
+3	target	target	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	advcl	_	_
+4	so	so	ADV	RB	_	6	advmod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	called	call	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	_	_
+7	bad	bad	ADJ	JJ	Degree=Pos	9	amod	_	_
+8	senescent	senescent	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	cells	cell	NOUN	NNS	Number=Plur	3	obj	_	_
+10	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+11	which	which	PRON	WDT	PronType=Rel	13	nsubj	_	_
+12	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	unwanted	unwant	ADJ	JJ	Degree=Pos	9	acl:relcl	_	_
+14	as	as	SCONJ	IN	_	17	mark	_	_
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	17	nsubj	_	_
+16	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	17	aux	_	_
+17	become	become	VERB	VBN	Tense=Past|VerbForm=Part	13	advcl	_	_
+18	old	old	ADJ	JJ	Degree=Pos	17	xcomp	_	_
+19	and	and	CCONJ	CC	_	21	cc	_	_
+20	irreparably	irreparably	ADV	RB	_	21	advmod	_	_
+21	damaged	damaged	ADJ	JJ	Degree=Pos	18	conj	_	_
+22	,	,	PUNCT	,	_	26	punct	_	SpacesAfter=\s\s
+23	then	then	ADV	RB	PronType=Dem	26	advmod	_	_
+24	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	nsubj	_	_
+25	can	can	AUX	MD	VerbForm=Fin	26	aux	_	_
+26	extend	extend	VERB	VB	VerbForm=Inf	0	root	_	_
+27	and	and	CCONJ	CC	_	31	cc	_	_
+28	,	,	PUNCT	,	_	31	punct	_	SpacesAfter=\s\s
+29	to	to	ADP	IN	_	31	case	_	_
+30	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+31	degree	degree	NOUN	NN	Number=Sing	26	conj	_	_
+32	,	,	PUNCT	,	_	26	punct	_	SpacesAfter=\s\s
+33	even	even	ADV	RB	_	34	advmod	_	_
+34	restore	restore	VERB	VB	VerbForm=Inf	38	ccomp	_	_
+35	health	health	NOUN	NN	Number=Sing	34	obj	_	_
+36	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\s\s
+37	"	"	PUNCT	''	_	38	punct	_	SpacesAfter=\s\s
+38	explains	explain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	conj	_	_
+39	Peter	Peter	PROPN	NNP	Number=Sing	38	obj	_	_
+40	de	de	PROPN	NNP	Number=Sing	39	flat	_	_
+41	Keizer	Keizer	PROPN	NNP	Number=Sing	39	flat	_	_
+42	of	of	ADP	IN	_	44	case	_	_
+43	the	the	DET	DT	Definite=Def|PronType=Art	44	det	_	_
+44	Department	Department	PROPN	NNP	Number=Sing	39	nmod	_	_
+45	of	of	ADP	IN	_	47	case	_	_
+46	Molecular	Molecular	ADJ	JJ	Degree=Pos	47	amod	_	_
+47	Genetics	genetics	NOUN	NNS	Number=Plur	44	nmod	_	_
+48	at	at	ADP	IN	_	52	case	_	_
+49	Erasmus	Erasmus	PROPN	NNP	Number=Sing	50	compound	_	_
+50	University	University	PROPN	NNP	Number=Sing	52	compound	_	_
+51	Medical	Medical	PROPN	NNP	Number=Sing	52	compound	_	_
+52	Centre	Centre	PROPN	NNP	Number=Sing	47	nmod	_	_
+53	.	.	PUNCT	.	_	26	punct	_	SpacesAfter=\s\s\s
+54	"	"	PUNCT	''	_	26	punct	_	_
+
+# sent_id = 24
+# text = By targeting these cells , ageing could not only be delayed , but also , to a degree at least , reversed . " Meanwhile , Calico , a subdivision of Google " s parent company Alphabet , intends to harness advanced technologies in order to understand the biology that controls lifespan and to use that knowledge to devise interventions that will enable people to lead longer and healthier lives .
+1	By	by	SCONJ	IN	_	2	mark	_	_
+2	targeting	target	VERB	VBG	VerbForm=Ger	11	advcl	_	_
+3	these	these	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	cells	cell	NOUN	NNS	Number=Plur	2	obj	_	_
+5	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s
+6	ageing	age	VERB	VBG	VerbForm=Ger	11	nsubj:pass	_	_
+7	could	could	AUX	MD	VerbForm=Fin	11	aux	_	_
+8	not	not	PART	RB	_	11	advmod	_	_
+9	only	only	ADV	RB	_	11	advmod	_	_
+10	be	be	AUX	VB	VerbForm=Inf	11	aux:pass	_	_
+11	delayed	delay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+12	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\s\s
+13	but	but	CCONJ	CC	_	22	cc	_	_
+14	also	also	ADV	RB	_	22	advmod	_	_
+15	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\s\s
+16	to	to	ADP	IN	_	18	case	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+18	degree	degree	NOUN	NN	Number=Sing	22	obl	_	_
+19	at	at	ADV	RB	_	20	case	_	_
+20	least	least	ADV	RBS	Degree=Sup	18	nmod	_	_
+21	,	,	PUNCT	,	_	22	punct	_	SpacesAfter=\s\s
+22	reversed	reverse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	conj	_	_
+23	.	.	PUNCT	.	_	22	punct	_	SpacesAfter=\s\s
+24	"	"	PUNCT	''	_	11	punct	_	SpacesAfter=\s\n
+25	Meanwhile	meanwhile	ADV	RB	_	39	advmod	_	_
+26	,	,	PUNCT	,	_	27	punct	_	SpacesAfter=\s\s
+27	Calico	calico	PROPN	NNP	Number=Sing	25	conj	_	_
+28	,	,	PUNCT	,	_	39	punct	_	SpacesAfter=\s\s
+29	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+30	subdivision	subdivision	NOUN	NN	Number=Sing	39	nsubj	_	_
+31	of	of	ADP	IN	_	32	case	_	_
+32	Google	Google	PROPN	NNP	Number=Sing	37	nmod:poss	_	_
+33	"	"	PUNCT	''	_	32	punct	_	_
+34	s	's	PART	POS	_	32	case	_	_
+35	parent	parent	NOUN	NN	Number=Sing	36	compound	_	_
+36	company	company	NOUN	NN	Number=Sing	37	compound	_	_
+37	Alphabet	Alphabet	NOUN	NN	Number=Sing	30	nmod	_	_
+38	,	,	PUNCT	,	_	39	punct	_	SpacesAfter=\s\s
+39	intends	intend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	conj	_	_
+40	to	to	PART	TO	_	41	mark	_	_
+41	harness	harness	VERB	VB	VerbForm=Inf	39	xcomp	_	_
+42	advanced	advanced	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	technologies	technology	NOUN	NNS	Number=Plur	41	obj	_	_
+44	in	in	ADP	IN	_	47	mark	_	_
+45	order	order	NOUN	NN	Number=Sing	44	fixed	_	_
+46	to	to	PART	TO	_	47	mark	_	_
+47	understand	understand	VERB	VB	VerbForm=Inf	41	advcl	_	_
+48	the	the	DET	DT	Definite=Def|PronType=Art	49	det	_	_
+49	biology	biology	NOUN	NN	Number=Sing	47	obj	_	_
+50	that	that	PRON	WDT	PronType=Rel	51	nsubj	_	_
+51	controls	control	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	49	acl:relcl	_	_
+52	lifespan	lifespan	NOUN	NN	Number=Sing	51	obj	_	_
+53	and	and	CCONJ	CC	_	55	cc	_	_
+54	to	to	PART	TO	_	55	mark	_	_
+55	use	use	VERB	VB	VerbForm=Inf	51	conj	_	_
+56	that	that	DET	DT	Number=Sing|PronType=Dem	57	det	_	_
+57	knowledge	knowledge	NOUN	NN	Number=Sing	55	obj	_	_
+58	to	to	PART	TO	_	59	mark	_	_
+59	devise	devise	VERB	VB	VerbForm=Inf	55	xcomp	_	_
+60	interventions	intervention	NOUN	NNS	Number=Plur	59	obj	_	_
+61	that	that	PRON	WDT	PronType=Rel	63	nsubj	_	_
+62	will	will	AUX	MD	VerbForm=Fin	63	aux	_	_
+63	enable	enable	VERB	VB	VerbForm=Inf	60	acl:relcl	_	_
+64	people	people	NOUN	NNS	Number=Plur	63	obj	_	_
+65	to	to	PART	TO	_	66	mark	_	_
+66	lead	lead	VERB	VB	VerbForm=Inf	63	xcomp	_	_
+67	longer	longer	ADV	RBR	Degree=Cmp	66	advmod	_	_
+68	and	and	CCONJ	CC	_	69	cc	_	_
+69	healthier	healthier	ADJ	JJR	Degree=Cmp	66	conj	_	_
+70	lives	life	NOUN	NNS	Number=Plur	66	obj	_	_
+71	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 25
+# text = So what are the implications if these techniques succeed in radically extending life
+1	So	so	ADV	RB	_	2	advmod	_	_
+2	what	what	PRON	WP	PronType=Int	0	root	_	_
+3	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	cop	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	implications	implication	NOUN	NNS	Number=Plur	2	nsubj	_	_
+6	if	if	SCONJ	IN	_	9	mark	_	_
+7	these	these	DET	DT	Number=Plur|PronType=Dem	8	det	_	_
+8	techniques	technique	NOUN	NNS	Number=Plur	9	nsubj	_	_
+9	succeed	succeed	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+10	in	in	SCONJ	IN	_	12	mark	_	_
+11	radically	radically	ADV	RB	_	12	advmod	_	_
+12	extending	extend	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+13	life	life	NOUN	NN	Number=Sing	12	obj	_	SpacesAfter=\n
+
+# sent_id = 26
+# text = One possible issue around people living longer is that it would add to the effects of over-population , an increasing concern in the 21st Century .
+1	One	one	NUM	CD	NumType=Card	3	nummod	_	_
+2	possible	possible	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	issue	issue	NOUN	NN	Number=Sing	8	nsubj	_	_
+4	around	around	ADP	IN	_	5	case	_	_
+5	people	people	NOUN	NNS	Number=Plur	3	nmod	_	_
+6	living	live	VERB	VBG	VerbForm=Ger	5	acl	_	_
+7	longer	longer	ADV	RBR	Degree=Cmp	6	advmod	_	_
+8	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	that	that	SCONJ	IN	_	12	mark	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
+11	would	would	AUX	MD	VerbForm=Fin	12	aux	_	_
+12	add	add	VERB	VB	VerbForm=Inf	8	ccomp	_	_
+13	to	to	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	effects	effect	NOUN	NNS	Number=Plur	12	obl	_	_
+16	of	of	ADP	IN	_	19	case	_	_
+17	over	over	X	AFX	_	19	compound	_	SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	19	punct	_	SpaceAfter=No
+19	population	population	NOUN	NN	Number=Sing	15	nmod	_	_
+20	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+21	an	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+22	increasing	increase	VERB	VBG	VerbForm=Ger	23	amod	_	_
+23	concern	concern	NOUN	NN	Number=Sing	8	parataxis	_	_
+24	in	in	ADP	IN	_	27	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	21st	21st	ADJ	JJ	Degree=Pos|NumType=Ord	27	amod	_	_
+27	Century	century	NOUN	NN	Number=Sing	23	nmod	_	_
+28	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 27
+# text = In 2015 , the number of children born to mothers in England and Wales was , on average , approximately 1 . 8 children .
+1	In	in	ADP	IN	_	2	case	_	_
+2	2015	2015	NUM	CD	NumType=Card	18	obl	_	_
+3	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\s\s
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	number	number	NOUN	NN	Number=Sing	18	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	children	child	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	7	acl	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	mothers	mother	NOUN	NNS	Number=Plur	8	obl	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	England	England	PROPN	NNP	Number=Sing	10	nmod	_	_
+13	and	and	CCONJ	CC	_	14	cc	_	_
+14	Wales	Wales	PROPN	NNP	Number=Sing	12	conj	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	cop	_	_
+16	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s
+17	on	on	ADP	IN	_	18	case	_	_
+18	average	average	ADJ	JJ	Degree=Pos	0	root	_	_
+19	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\s\s
+20	approximately	approximately	ADV	RB	_	21	advmod	_	_
+21	1	1	NUM	CD	NumType=Card	24	nummod	_	_
+22	.	.	PUNCT	.	_	21	punct	_	_
+23	8	8	NUM	CD	NumType=Card	24	nummod	_	_
+24	children	child	NOUN	NNS	Number=Plur	18	appos	_	_
+25	.	.	PUNCT	.	_	18	punct	_	SpacesAfter=\s\n
+
+# sent_id = 28
+# text = As society has become more educated and health has improved , the biological imperative for families to have lots of children to compensate for those who did not survive has become redundant .
+1	As	as	SCONJ	IN	_	4	mark	_	_
+2	society	society	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	become	become	VERB	VBN	Tense=Past|VerbForm=Part	31	advcl	_	_
+5	more	more	ADV	RBR	_	6	advmod	_	_
+6	educated	educated	ADJ	JJ	Degree=Pos	4	xcomp	_	_
+7	and	and	CCONJ	CC	_	10	cc	_	_
+8	health	health	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	improved	improve	VERB	VBN	Tense=Past|VerbForm=Part	6	conj	_	_
+11	,	,	PUNCT	,	_	31	punct	_	SpacesAfter=\s\s
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	biological	biological	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	imperative	imperative	NOUN	NN	Number=Sing	31	nsubj	_	_
+15	for	for	ADP	IN	_	16	case	_	_
+16	families	family	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	have	have	VERB	VB	VerbForm=Inf	14	acl	_	_
+19	lots	lot	NOUN	NNS	Number=Plur	18	obj	_	_
+20	of	of	ADP	IN	_	21	case	_	_
+21	children	child	NOUN	NNS	Number=Plur	19	nmod	_	_
+22	to	to	PART	TO	_	23	mark	_	_
+23	compensate	compensate	VERB	VB	VerbForm=Inf	18	xcomp	_	_
+24	for	for	ADP	IN	_	25	case	_	_
+25	those	those	PRON	DT	Number=Plur|PronType=Dem	23	obl	_	_
+26	who	who	PRON	WP	PronType=Rel	29	nsubj	_	_
+27	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	29	aux	_	_
+28	not	not	PART	RB	_	29	advmod	_	_
+29	survive	survive	VERB	VB	VerbForm=Inf	25	acl:relcl	_	_
+30	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	become	become	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+32	redundant	redundant	NOUN	NN	Number=Sing	31	xcomp	_	_
+33	.	.	PUNCT	.	_	32	punct	_	SpacesAfter=\s\n
+
+# sent_id = 29
+# text = Further , the average age of women giving birth has increased to 30 .
+1	Further	further	ADV	RB	_	11	advmod	_	_
+2	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s
+3	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+4	average	average	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	age	age	NOUN	NN	Number=Sing	11	nsubj	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	women	woman	NOUN	NNS	Number=Plur	5	nmod	_	_
+8	giving	give	VERB	VBG	VerbForm=Ger	5	acl	_	_
+9	birth	birth	NOUN	NN	Number=Sing	8	obj	_	_
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	_
+11	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	30	30	NUM	CD	NumType=Card	11	obl	_	_
+14	.	.	PUNCT	.	_	11	punct	_	_
+
+# sent_id = 30
+# text = 3 years and there is a growing number of women who have no wish to have children . "
+1	3	3	NUM	CD	NumType=Card	2	nummod	_	_
+2	years	year	NOUN	NNS	Number=Plur	0	root	_	_
+3	and	and	CCONJ	CC	_	5	cc	_	_
+4	there	there	PRON	EX	_	5	expl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	_
+6	a	a	DET	DT	Definite=Ind|PronType=Art	8	det	_	_
+7	growing	grow	VERB	VBG	VerbForm=Ger	8	amod	_	_
+8	number	number	NOUN	NN	Number=Sing	5	nsubj	_	_
+9	of	of	ADP	IN	_	10	case	_	_
+10	women	woman	NOUN	NNS	Number=Plur	8	nmod	_	_
+11	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+12	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+13	no	no	DET	DT	_	14	det	_	_
+14	wish	wish	NOUN	NN	Number=Sing	12	obj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	have	have	VERB	VB	VerbForm=Inf	14	acl	_	_
+17	children	child	NOUN	NNS	Number=Plur	16	obj	_	_
+18	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n\s
+19	"	"	PUNCT	''	_	2	punct	_	_
+
+# sent_id = 31
+# text = Many countries have gone down to , or near to , replacement levels , " observes Sarah Harper , professor of gerontology at the University of Oxford and director of the Royal Institution of Great Britain .
+1	Many	many	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	countries	country	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+4	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	down	down	ADP	RP	_	4	compound:prt	_	_
+6	to	to	ADP	IN	_	4	obl	_	_
+7	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+8	or	or	CCONJ	CC	_	16	cc	_	_
+9	near	near	ADP	IN	_	10	case	_	_
+10	to	to	NOUN	NN	Number=Sing	16	obl	_	_
+11	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+12	replacement	replacement	NOUN	NN	Number=Sing	13	compound	_	_
+13	levels	level	NOUN	NNS	Number=Plur	16	nsubj	_	_
+14	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+15	"	"	PUNCT	''	_	16	punct	_	SpacesAfter=\s\s
+16	observes	observe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	_
+17	Sarah	Sarah	PROPN	NNP	Number=Sing	16	obj	_	_
+18	Harper	Harper	PROPN	NNP	Number=Sing	17	flat	_	_
+19	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s
+20	professor	professor	NOUN	NN	Number=Sing	17	appos	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	gerontology	gerontology	NOUN	NNS	Number=Plur	20	nmod	_	_
+23	at	at	ADP	IN	_	25	case	_	_
+24	the	the	DET	DT	Definite=Def|PronType=Art	25	det	_	_
+25	University	University	PROPN	NNP	Number=Sing	20	nmod	_	_
+26	of	of	ADP	IN	_	27	case	_	_
+27	Oxford	Oxford	PROPN	NNP	Number=Sing	25	nmod	_	_
+28	and	and	CCONJ	CC	_	29	cc	_	_
+29	director	director	NOUN	NN	Number=Sing	25	conj	_	_
+30	of	of	ADP	IN	_	33	case	_	_
+31	the	the	DET	DT	Definite=Def|PronType=Art	33	det	_	_
+32	Royal	Royal	PROPN	NNP	Number=Sing	33	compound	_	_
+33	Institution	Institution	PROPN	NNP	Number=Sing	29	nmod	_	_
+34	of	of	ADP	IN	_	36	case	_	_
+35	Great	Great	PROPN	NNP	Number=Sing	36	compound	_	_
+36	Britain	Britain	PROPN	NNP	Number=Sing	33	nmod	_	_
+37	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 32
+# text = There is also the ethical conundrum that , unless age regression treatment is made available to all , there is a danger of a two-tier society being established , based upon who has access to the treatment .
+1	There	there	PRON	EX	_	2	expl	_	_
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	also	also	ADV	RB	_	2	advmod	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+5	ethical	ethical	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	conundrum	conundrum	NOUN	NN	Number=Sing	2	nsubj	_	_
+7	that	that	PRON	WDT	PronType=Rel	20	nsubj	_	_
+8	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\s\s
+9	unless	unless	SCONJ	IN	_	14	mark	_	_
+10	age	age	NOUN	NN	Number=Sing	12	compound	_	_
+11	regression	regression	NOUN	NN	Number=Sing	12	compound	_	_
+12	treatment	treatment	NOUN	NN	Number=Sing	14	nsubj:pass	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux:pass	_	_
+14	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	advcl	_	_
+15	available	available	ADJ	JJ	Degree=Pos	14	xcomp	_	_
+16	to	to	ADP	IN	_	17	case	_	_
+17	all	all	DET	DT	_	14	obl	_	_
+18	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\s\s
+19	there	there	PRON	EX	_	20	expl	_	_
+20	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	acl:relcl	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+22	danger	danger	NOUN	NN	Number=Sing	20	nsubj	_	_
+23	of	of	ADP	IN	_	28	case	_	_
+24	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+25	two	two	NUM	CD	NumType=Card	27	nummod	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+27	tier	tier	NOUN	NN	Number=Sing	28	compound	_	_
+28	society	society	NOUN	NN	Number=Sing	22	nmod	_	_
+29	being	be	AUX	VBG	VerbForm=Ger	30	aux:pass	_	_
+30	established	establish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	28	acl	_	_
+31	,	,	PUNCT	,	_	32	punct	_	SpacesAfter=\s\s
+32	based	base	VERB	VBN	Tense=Past|VerbForm=Part	30	case	_	_
+33	upon	upon	SCONJ	IN	_	35	mark	_	_
+34	who	who	PRON	WP	PronType=Int	35	nsubj	_	_
+35	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	advcl	_	_
+36	access	access	NOUN	NN	Number=Sing	35	obj	_	_
+37	to	to	ADP	IN	_	39	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	39	det	_	_
+39	treatment	treatment	NOUN	NN	Number=Sing	36	nmod	_	_
+40	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 33
+# text = We already live in a world of massive social inequalities . "
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	already	already	ADV	RB	_	3	advmod	_	_
+3	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+6	world	world	NOUN	NN	Number=Sing	3	obl	_	_
+7	of	of	ADP	IN	_	10	case	_	_
+8	massive	massive	ADJ	JJ	Degree=Pos	10	amod	_	_
+9	social	social	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	inequalities	inequality	NOUN	NNS	Number=Plur	6	nmod	_	_
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n\s
+12	"	"	PUNCT	''	_	3	punct	_	_
+
+# sent_id = 34
+# text = A child born in the slums of Nairobi has quite different life chances to a child born in Kensington [ in London ] , " says Falkingham .
+1	A	a	DET	DT	Definite=Ind|PronType=Art	2	det	_	_
+2	child	child	NOUN	NN	Number=Sing	9	nsubj	_	_
+3	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	2	acl	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	slums	slum	NOUN	NNS	Number=Plur	3	obl	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	Nairobi	Nairobi	PROPN	NNP	Number=Sing	6	nmod	_	_
+9	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	ccomp	_	_
+10	quite	quite	DET	PDT	_	13	det	_	_
+11	different	different	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	life	life	NOUN	NN	Number=Sing	13	compound	_	_
+13	chances	chance	NOUN	NNS	Number=Plur	9	obj	_	_
+14	to	to	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	child	child	NOUN	NN	Number=Sing	13	nmod	_	_
+17	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	16	acl	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	Kensington	Kensington	PROPN	NNP	Number=Sing	17	obl	_	SpacesAfter=\s\s
+20	[	[	PUNCT	-LRB-	_	19	punct	_	_
+21	in	in	ADP	IN	_	22	case	_	_
+22	London	London	PROPN	NNP	Number=Sing	9	obl	_	_
+23	]	]	PUNCT	-RRB-	_	9	punct	_	SpacesAfter=\s\s
+24	,	,	PUNCT	,	_	26	punct	_	SpacesAfter=\s\s
+25	"	"	PUNCT	''	_	26	punct	_	SpacesAfter=\s\s
+26	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+27	Falkingham	Falkingham	PROPN	NNP	Number=Sing	26	nsubj	_	_
+28	.	.	PUNCT	.	_	26	punct	_	SpacesAfter=\s\n
+
+# sent_id = 35
+# text = Should age-extension treatment be equally distributed , then it would also face us with the consequences of a growing elderly population .
+1	Should	should	AUX	MD	VerbForm=Fin	8	aux	_	_
+2	age	age	NOUN	NN	Number=Sing	4	compound	_	SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	4	punct	_	SpaceAfter=No
+4	extension	extension	NOUN	NN	Number=Sing	5	compound	_	_
+5	treatment	treatment	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+6	be	be	AUX	VB	VerbForm=Inf	8	aux:pass	_	_
+7	equally	equally	ADV	RB	_	8	advmod	_	_
+8	distributed	distribute	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	advcl	_	_
+9	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+10	then	then	ADV	RB	PronType=Dem	14	advmod	_	_
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	_	_
+12	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
+13	also	also	ADV	RB	_	14	advmod	_	_
+14	face	face	VERB	VB	VerbForm=Inf	0	root	_	_
+15	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	14	obj	_	_
+16	with	with	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	consequences	consequence	NOUN	NNS	Number=Plur	14	obl	_	_
+19	of	of	ADP	IN	_	23	case	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+21	growing	grow	VERB	VBG	VerbForm=Ger	23	amod	_	_
+22	elderly	elderly	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	population	population	NOUN	NN	Number=Sing	18	nmod	_	_
+24	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 36
+# text = The oldest living person ever recorded was Jeanne Calment from France , who lived for 122 years ( 1875 to 1997 ) .
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	oldest	oldest	ADJ	JJS	Degree=Sup	4	amod	_	_
+3	living	living	NOUN	NN	Number=Sing	4	compound	_	_
+4	person	person	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	ever	ever	ADV	RB	_	6	advmod	_	_
+6	recorded	record	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	_
+8	Jeanne	Jeanne	PROPN	NNP	Number=Sing	6	obj	_	_
+9	Calment	Calment	PROPN	NNP	Number=Sing	8	flat	_	_
+10	from	from	ADP	IN	_	11	case	_	_
+11	France	France	PROPN	NNP	Number=Sing	8	nmod	_	_
+12	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+13	who	who	PRON	WP	PronType=Rel	14	nsubj	_	_
+14	lived	live	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+15	for	for	ADP	IN	_	17	case	_	_
+16	122	122	NUM	CD	NumType=Card	17	nummod	_	_
+17	years	year	NOUN	NNS	Number=Plur	14	obl	_	SpacesAfter=\s\s
+18	(	(	PUNCT	-LRB-	_	19	punct	_	_
+19	1875	1875	NUM	CD	NumType=Card	14	obl:tmod	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	1997	1997	NUM	CD	NumType=Card	19	nmod	_	_
+22	)	)	PUNCT	-RRB-	_	19	punct	_	SpacesAfter=\s\s
+23	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 37
+# text = Since health care has continually improved since that time , it is surprising that this record has not yet been surpassed . "
+1	Since	since	ADP	IN	_	3	case	_	_
+2	health	health	NOUN	NN	Number=Sing	3	compound	_	_
+3	care	care	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	continually	continually	ADV	RB	_	6	advmod	_	_
+6	improved	improve	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	since	since	SCONJ	IN	_	9	case	_	_
+8	that	that	DET	DT	Number=Sing|PronType=Dem	9	det	_	_
+9	time	time	NOUN	NN	Number=Sing	6	obl	_	_
+10	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\s\s
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+13	surprising	surprising	ADJ	JJ	Degree=Pos	6	parataxis	_	_
+14	that	that	SCONJ	IN	_	21	mark	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	record	record	NOUN	NN	Number=Sing	21	nsubj:pass	_	_
+17	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+18	not	not	PART	RB	_	21	advmod	_	_
+19	yet	yet	ADV	RB	_	21	advmod	_	_
+20	been	be	AUX	VBN	Tense=Past|VerbForm=Part	21	aux:pass	_	_
+21	surpassed	surpass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	csubj	_	_
+22	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n\s
+23	"	"	PUNCT	''	_	6	punct	_	_
+
+# sent_id = 38
+# text = There was a paper that came out in 2016 that argued we might not be able to live longer than 120 years , " says de Keizer .
+1	There	there	PRON	EX	_	2	expl	_	_
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	ccomp	_	_
+3	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+4	paper	paper	NOUN	NN	Number=Sing	2	nsubj	_	_
+5	that	that	PRON	WDT	PronType=Rel	6	nsubj	_	_
+6	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	4	acl:relcl	_	_
+7	out	out	ADV	RB	_	6	advmod	_	_
+8	in	in	ADP	IN	_	9	case	_	_
+9	2016	2016	NUM	CD	NumType=Card	6	obl	_	_
+10	that	that	PRON	WDT	PronType=Rel	11	nsubj	_	_
+11	argued	argue	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	acl:relcl	_	_
+12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	nsubj	_	_
+13	might	might	AUX	MD	VerbForm=Fin	16	aux	_	_
+14	not	not	PART	RB	_	16	advmod	_	_
+15	be	be	AUX	VB	VerbForm=Inf	16	cop	_	_
+16	able	able	ADJ	JJ	Degree=Pos	11	ccomp	_	_
+17	to	to	PART	TO	_	18	mark	_	_
+18	live	live	VERB	VB	VerbForm=Inf	16	xcomp	_	_
+19	longer	longer	ADV	RBR	Degree=Cmp	18	advmod	_	_
+20	than	than	ADP	IN	_	22	case	_	_
+21	120	120	NUM	CD	NumType=Card	22	nummod	_	_
+22	years	year	NOUN	NNS	Number=Plur	18	obl	_	_
+23	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\s\s
+24	"	"	PUNCT	''	_	25	punct	_	SpacesAfter=\s\s
+25	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+26	de	de	PROPN	NNP	Number=Sing	27	compound	_	_
+27	Keizer	Keizer	PROPN	NNP	Number=Sing	25	nsubj	_	_
+28	.	.	PUNCT	.	_	25	punct	_	SpacesAfter=\s\n
+
+# sent_id = 39
+# text = Others think differently .
+1	Others	other	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	differently	differently	ADV	RB	_	2	advmod	_	_
+4	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 40
+# text = Aubrey De Grey , professor at the SENS Foundation , believes the human lifespan could soon extend dramatically to 1000 .
+1	Aubrey	Aubrey	PROPN	NNP	Number=Sing	11	nsubj	_	_
+2	De	de	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Grey	grey	PROPN	NNP	Number=Sing	1	flat	_	_
+4	,	,	PUNCT	,	_	1	punct	_	SpacesAfter=\s\s
+5	professor	professor	NOUN	NN	Number=Sing	1	appos	_	_
+6	at	at	ADP	IN	_	9	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	SENS	SENS	PROPN	NNP	Number=Sing	9	compound	_	_
+9	Foundation	foundation	NOUN	NN	Number=Sing	5	nmod	_	_
+10	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s
+11	believes	believe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	human	human	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	lifespan	lifespan	NOUN	NN	Number=Sing	17	nsubj	_	_
+15	could	could	AUX	MD	VerbForm=Fin	17	aux	_	_
+16	soon	soon	ADV	RB	Degree=Pos	17	advmod	_	_
+17	extend	extend	VERB	VB	VerbForm=Inf	11	ccomp	_	_
+18	dramatically	dramatically	ADV	RB	_	20	advmod	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	1000	1000	NUM	CD	NumType=Card	17	obl	_	_
+21	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 41
+# text = However , as Falkingham observes , " Not very many people agree with him . "
+1	However	however	ADV	RB	_	12	advmod	_	_
+2	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+3	as	as	SCONJ	IN	_	5	mark	_	_
+4	Falkingham	Falkingham	PROPN	NNP	Number=Sing	5	nsubj	_	_
+5	observes	observe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	_	_
+6	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s\s
+7	"	"	PUNCT	``	_	12	punct	_	_
+8	Not	not	ADV	RB	_	9	advmod	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	many	many	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	people	people	NOUN	NNS	Number=Plur	12	nsubj	_	_
+12	agree	agree	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	with	with	ADP	IN	_	14	case	_	_
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	obl	_	_
+15	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\s
+16	"	"	PUNCT	''	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 42
+# text = Many elderly people struggle with conditions like cancer , heart disease , dementia and others .
+1	Many	many	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	elderly	elderly	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	people	people	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	struggle	struggle	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	with	with	ADP	IN	_	6	case	_	_
+6	conditions	condition	NOUN	NNS	Number=Plur	4	obl	_	_
+7	like	like	ADP	IN	_	8	case	_	_
+8	cancer	cancer	NOUN	NN	Number=Sing	4	obl	_	_
+9	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s
+10	heart	heart	NOUN	NN	Number=Sing	11	compound	_	_
+11	disease	disease	NOUN	NN	Number=Sing	8	conj	_	_
+12	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+13	dementia	dementia	NOUN	NN	Number=Sing	8	conj	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	others	other	NOUN	NNS	Number=Plur	8	conj	_	_
+16	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 43
+# text = Much of the current medical research is not about living longer , but rather living healthier for longer , and delaying infirmity .
+1	Much	much	ADJ	JJ	Degree=Pos	10	nsubj	_	_
+2	of	of	ADP	IN	_	6	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	current	current	ADJ	JJ	Degree=Pos	6	amod	_	_
+5	medical	medical	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	research	research	NOUN	NN	Number=Sing	1	obl	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+8	not	not	PART	RB	_	10	advmod	_	_
+9	about	about	ADV	RB	_	10	advmod	_	_
+10	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+11	longer	longer	ADV	RBR	Degree=Cmp	10	advmod	_	_
+12	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s
+13	but	but	CCONJ	CC	_	15	cc	_	_
+14	rather	rather	ADV	RB	_	15	advmod	_	_
+15	living	live	VERB	VBG	VerbForm=Ger	10	conj	_	_
+16	healthier	healthier	ADJ	JJR	Degree=Cmp	15	xcomp	_	_
+17	for	for	ADP	IN	_	18	case	_	_
+18	longer	longer	ADV	RBR	Degree=Cmp	16	obl	_	_
+19	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+20	and	and	CCONJ	CC	_	21	cc	_	_
+21	delaying	delay	VERB	VBG	VerbForm=Ger	15	conj	_	_
+22	infirmity	infirmity	NOUN	NN	Number=Sing	21	obj	_	_
+23	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 44
+# text = Rejuvenation treatments may address the physical aspects of ageing , however they do not address the mental and neurological elements , such as Alzheimer " s and dementia .
+1	Rejuvenation	Rejuvenation	NOUN	NN	Number=Sing	2	compound	_	_
+2	treatments	treatment	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	may	may	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	address	address	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	physical	physical	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	aspects	aspect	NOUN	NNS	Number=Plur	4	obj	_	_
+8	of	of	ADP	IN	_	9	case	_	_
+9	ageing	ageing	NOUN	NN	Number=Sing	7	nmod	_	_
+10	,	,	PUNCT	,	_	4	punct	_	SpacesAfter=\s\s
+11	however	however	ADV	RB	_	15	advmod	_	_
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	nsubj	_	_
+13	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	15	aux	_	_
+14	not	not	PART	RB	_	15	advmod	_	_
+15	address	address	VERB	VB	VerbForm=Inf	4	parataxis	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	mental	mental	ADJ	JJ	Degree=Pos	20	amod	_	_
+18	and	and	CCONJ	CC	_	19	cc	_	_
+19	neurological	neurological	ADJ	JJ	Degree=Pos	17	conj	_	_
+20	elements	element	NOUN	NNS	Number=Plur	15	obj	_	_
+21	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\s\s
+22	such	such	ADJ	JJ	Degree=Pos	24	case	_	_
+23	as	as	ADP	IN	_	22	fixed	_	_
+24	Alzheimer	Alzheimer	PROPN	NNP	Number=Sing	20	nmod	_	_
+25	"	"	PUNCT	''	_	24	punct	_	_
+26	s	s	PART	POS	_	25	case	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	dementia	dementia	NOUN	NN	Number=Sing	24	conj	_	_
+29	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 45
+# text = That being said , the number of reported cases of dementia is reducing . "
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	3	nsubj:pass	_	_
+2	being	be	AUX	VBG	VerbForm=Ger	3	aux:pass	_	_
+3	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	advcl	_	_
+4	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	number	number	NOUN	NN	Number=Sing	13	nsubj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	reported	report	VERB	VBN	Tense=Past|VerbForm=Part	9	amod	_	_
+9	cases	casis	NOUN	NNS	Number=Plur	6	nmod	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	dementia	dementia	NOUN	NN	Number=Sing	9	nmod	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	_
+13	reducing	reduce	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+14	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\s\n\s
+15	"	"	PUNCT	''	_	13	punct	_	_
+
+# sent_id = 46
+# text = One theory is that just as we keep our bodies active our bodies tend to decline slower , so there is an argument that as we keep our mental activities higher maybe we ward off dementia , " says Harper .
+1	One	one	NUM	CD	NumType=Card	2	nummod	_	_
+2	theory	theory	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	39	ccomp	_	_
+4	that	that	SCONJ	IN	_	8	mark	_	_
+5	just	just	ADV	RB	_	8	advmod	_	_
+6	as	as	SCONJ	IN	_	8	mark	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	keep	keep	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	ccomp	_	_
+9	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	bodies	bodie	NOUN	NNS	Number=Plur	8	obj	_	_
+11	active	active	ADJ	JJ	Degree=Pos	8	xcomp	_	_
+12	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	13	nmod:poss	_	_
+13	bodies	bodie	NOUN	NNS	Number=Plur	14	nsubj	_	_
+14	tend	tend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	ccomp	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	decline	decline	VERB	VB	VerbForm=Inf	14	xcomp	_	_
+17	slower	slower	ADV	RBR	Degree=Cmp	16	advmod	_	_
+18	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s
+19	so	so	ADV	RB	_	21	advmod	_	_
+20	there	there	PRON	EX	_	21	expl	_	_
+21	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+22	an	a	DET	DT	Definite=Ind|PronType=Art	23	det	_	_
+23	argument	argument	NOUN	NN	Number=Sing	21	nsubj	_	_
+24	that	that	SCONJ	IN	_	34	mark	_	_
+25	as	as	SCONJ	IN	_	27	mark	_	_
+26	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	27	nsubj	_	_
+27	keep	keep	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	34	advcl	_	_
+28	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	30	nmod:poss	_	_
+29	mental	mental	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	activities	activity	NOUN	NNS	Number=Plur	27	obj	_	_
+31	higher	higher	ADV	RBR	Degree=Cmp	27	advmod	_	_
+32	maybe	maybe	ADV	RB	_	34	advmod	_	_
+33	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	34	nsubj	_	_
+34	ward	ward	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	23	acl	_	_
+35	off	off	ADP	RP	_	34	compound:prt	_	_
+36	dementia	dementia	NOUN	NN	Number=Sing	34	obj	_	_
+37	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s
+38	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\s
+39	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+40	Harper	Harper	PROPN	NNP	Number=Sing	39	nsubj	_	_
+41	.	.	PUNCT	.	_	39	punct	_	SpacesAfter=\s\n
+
+# sent_id = 47
+# text = Another aspect to us living longer and healthier lives is that our chronological age becomes increasingly meaningless when defining our lives .
+1	Another	another	DET	DT	_	2	det	_	_
+2	aspect	aspect	NOUN	NN	Number=Sing	5	nsubj	_	_
+3	to	to	ADP	IN	_	4	case	_	_
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	nmod	_	_
+5	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+6	longer	longer	ADV	RBR	Degree=Cmp	5	advmod	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	healthier	healthier	ADJ	JJR	Degree=Cmp	9	amod	_	_
+9	lives	life	NOUN	NNS	Number=Plur	5	obj	_	_
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	advcl	_	_
+11	that	that	SCONJ	IN	_	15	mark	_	_
+12	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	nmod:poss	_	_
+13	chronological	chronological	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	age	age	NOUN	NN	Number=Sing	15	nsubj	_	_
+15	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+16	increasingly	increasingly	ADV	RB	_	15	advmod	_	_
+17	meaningless	meaningless	SCONJ	IN	_	15	advmod	_	_
+18	when	when	ADV	WRB	PronType=Int	19	mark	_	_
+19	defining	define	VERB	VBG	VerbForm=Ger	17	advcl	_	_
+20	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	lives	life	NOUN	NNS	Number=Plur	19	obj	_	_
+22	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 48
+# text = There are now 40-year-old women who are giving birth for the first time , as well as other 40-year-old women who are becoming grandmothers .
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	now	now	ADV	RB	_	9	advmod	_	_
+4	40	40	NUM	CD	NumType=Card	6	nummod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	6	punct	_	SpaceAfter=No
+6	year	year	NOUN	NN	Number=Sing	8	obl:npmod	_	SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	8	punct	_	SpaceAfter=No
+8	old	old	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	women	woman	NOUN	NNS	Number=Plur	2	nsubj	_	_
+10	who	who	PRON	WP	PronType=Rel	12	nsubj	_	_
+11	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	aux	_	_
+12	giving	give	VERB	VBG	Tense=Pres|VerbForm=Part	9	acl:relcl	_	_
+13	birth	birth	NOUN	NN	Number=Sing	12	obj	_	_
+14	for	for	ADP	IN	_	17	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	17	amod	_	_
+17	time	time	NOUN	NN	Number=Sing	12	obl	_	_
+18	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+19	as	as	ADV	RB	_	28	cc	_	_
+20	well	well	ADV	RB	Degree=Pos	19	fixed	_	_
+21	as	as	ADP	IN	_	19	fixed	_	_
+22	other	other	ADJ	JJ	Degree=Pos	28	amod	_	_
+23	40	40	NUM	CD	NumType=Card	25	nummod	_	SpaceAfter=No
+24	-	-	PUNCT	HYPH	_	25	punct	_	SpaceAfter=No
+25	year	year	NOUN	NN	Number=Sing	27	obl:npmod	_	SpaceAfter=No
+26	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+27	old	old	ADJ	JJ	Degree=Pos	28	amod	_	_
+28	women	woman	NOUN	NNS	Number=Plur	2	conj	_	_
+29	who	who	PRON	WP	PronType=Rel	31	nsubj	_	_
+30	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	31	aux	_	_
+31	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	28	acl:relcl	_	_
+32	grandmothers	grandmother	NOUN	NNS	Number=Plur	31	obj	_	_
+33	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 49
+# text = Despite their shared age , their lives have little in common .
+1	Despite	despite	ADP	IN	_	4	case	_	_
+2	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	_	_
+3	shared	share	VERB	VBN	Tense=Past|VerbForm=Part	4	amod	_	_
+4	age	age	NOUN	NN	Number=Sing	8	obl	_	_
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+6	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	_	_
+7	lives	life	NOUN	NNS	Number=Plur	8	nsubj	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	little	little	ADJ	JJ	Degree=Pos	8	xcomp	_	_
+10	in	in	ADP	IN	_	11	case	_	_
+11	common	common	ADJ	JJ	Degree=Pos	9	obl	_	_
+12	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 50
+# text = In spite of us living longer , our 20s and 30s remain demographically dense , in that we are still having children and starting careers during those decades .
+1	In	in	ADP	IN	_	2	case	_	_
+2	spite	spite	NOUN	NN	Number=Sing	12	obl	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	nmod	_	_
+5	living	live	NOUN	NN	Number=Sing	6	obl:npmod	_	_
+6	longer	longer	ADV	RBR	Degree=Cmp	4	advmod	_	_
+7	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	20s	20	NOUN	NNS	Number=Plur	12	nsubj	_	_
+10	and	and	CCONJ	CC	_	11	cc	_	_
+11	30s	30	NOUN	NNS	Number=Plur	9	conj	_	_
+12	remain	remain	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+13	demographically	demographically	ADV	RB	_	14	advmod	_	_
+14	dense	dense	ADJ	JJ	Degree=Pos	12	xcomp	_	_
+15	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+16	in	in	SCONJ	IN	_	21	mark	_	_
+17	that	that	SCONJ	IN	_	21	mark	_	_
+18	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	21	nsubj	_	_
+19	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	21	aux	_	_
+20	still	still	ADV	RB	_	21	advmod	_	_
+21	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	12	advcl	_	_
+22	children	child	NOUN	NNS	Number=Plur	21	obj	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	starting	start	VERB	VBG	VerbForm=Ger	21	conj	_	_
+25	careers	career	NOUN	NNS	Number=Plur	24	obj	_	_
+26	during	during	ADP	IN	_	28	case	_	_
+27	those	those	DET	DT	Number=Plur|PronType=Dem	28	det	_	_
+28	decades	decade	NOUN	NNS	Number=Plur	24	obl	_	_
+29	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 51
+# text = Age regression treatments are also expensive .
+1	Age	age	ADJ	JJ	Degree=Pos	3	amod	_	_
+2	regression	regression	NOUN	NN	Number=Sing	3	compound	_	_
+3	treatments	treatment	NOUN	NNS	Number=Plur	6	nsubj	_	_
+4	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	also	also	ADV	RB	_	6	advmod	_	_
+6	expensive	expensive	ADJ	JJ	Degree=Pos	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 52
+# text = Even if Foxo4-DRI treatment was cleared for use in humans , it costs approximately a few thousand euros for 10mg .
+1	Even	even	ADV	RB	_	8	advmod	_	_
+2	if	if	SCONJ	IN	_	8	mark	_	_
+3	Foxo4	Foxo4	PROPN	NNP	Number=Sing	6	compound	_	SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	punct	_	SpaceAfter=No
+5	DRI	DRI	PROPN	NNP	Number=Sing	6	compound	_	_
+6	treatment	treatment	NOUN	NN	Number=Sing	8	nsubj:pass	_	_
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	aux:pass	_	_
+8	cleared	cleare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	advcl	_	_
+9	for	for	ADP	IN	_	10	case	_	_
+10	use	use	NOUN	NN	Number=Sing	8	obl	_	_
+11	in	in	ADP	IN	_	12	case	_	_
+12	humans	human	NOUN	NNS	Number=Plur	8	obl	_	_
+13	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	nsubj	_	_
+15	costs	cost	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+16	approximately	approximately	ADV	RB	_	15	advmod	_	_
+17	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+18	few	few	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	thousand	thousand	NUM	CD	NumType=Card	20	nummod	_	_
+20	euros	euro	NOUN	NNS	Number=Plur	15	obj	_	_
+21	for	for	ADP	IN	_	23	case	_	_
+22	10	10	NUM	CD	NumType=Card	23	nummod	_	SpaceAfter=No
+23	mg	mg	NOUN	NN	Number=Sing	15	obl	_	_
+24	.	.	PUNCT	.	_	15	punct	_	SpacesAfter=\s\n
+
+# sent_id = 53
+# text = And blood transfusions Well , this supply is very limited .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	blood	blood	NOUN	NN	Number=Sing	3	compound	_	_
+3	transfusions	transfusion	NOUN	NNS	Number=Plur	0	root	_	SpacesAfter=\n
+4	Well	well	INTJ	UH	_	10	discourse	_	_
+5	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+6	this	this	DET	DT	Number=Sing|PronType=Dem	7	det	_	_
+7	supply	supply	NOUN	NN	Number=Sing	10	nsubj	_	_
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	very	very	ADV	RB	_	10	advmod	_	_
+10	limited	limited	ADJ	JJ	Degree=Pos	3	conj	_	_
+11	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 54
+# text = Only 4 % of the UK population are blood donors , which is just 1 % over what medical and research industries need .
+1	Only	only	ADV	RB	_	2	advmod	_	_
+2	4	4	NUM	CD	NumType=Card	3	nummod	_	_
+3	%	%	SYM	NN	Number=Sing	10	nsubj	_	SpacesAfter=\s\s
+4	of	of	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	UK	UK	PROPN	NNP	Number=Sing	7	compound	_	_
+7	population	population	NOUN	NN	Number=Sing	3	nmod	_	_
+8	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	cop	_	_
+9	blood	blood	NOUN	NN	Number=Sing	10	compound	_	_
+10	donors	donor	NOUN	NNS	Number=Plur	0	root	_	_
+11	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+12	which	which	PRON	WDT	PronType=Rel	18	nsubj	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+14	just	just	ADV	RB	_	18	advmod	_	_
+15	1	1	NUM	CD	NumType=Card	16	nummod	_	_
+16	%	%	SYM	NN	Number=Sing	18	obl:npmod	_	SpacesAfter=\s\s
+17	over	over	SCONJ	IN	_	18	case	_	_
+18	what	what	PRON	WP	PronType=Int	10	parataxis	_	_
+19	medical	medical	ADJ	JJ	Degree=Pos	22	amod	_	_
+20	and	and	CCONJ	CC	_	22	cc	_	_
+21	research	research	NOUN	NN	Number=Sing	22	compound	_	_
+22	industries	industry	NOUN	NNS	Number=Plur	23	nsubj	_	_
+23	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+24	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 55
+# text = Of these 4 % , not all will be happy donating blood for age regression .
+1	Of	of	ADP	IN	_	4	case	_	_
+2	these	these	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+3	4	4	NUM	CD	NumType=Card	4	nummod	_	_
+4	%	%	SYM	NN	Number=Sing	10	obl	_	SpacesAfter=\s\s
+5	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+6	not	not	ADV	RB	_	10	advmod	_	_
+7	all	all	DET	DT	_	10	nsubj	_	_
+8	will	will	AUX	MD	VerbForm=Fin	10	aux	_	_
+9	be	be	AUX	VB	VerbForm=Inf	10	cop	_	_
+10	happy	happy	ADJ	JJ	Degree=Pos	0	root	_	_
+11	donating	donate	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+12	blood	blood	NOUN	NN	Number=Sing	11	obj	_	_
+13	for	for	ADP	IN	_	15	case	_	_
+14	age	age	NOUN	NN	Number=Sing	15	compound	_	_
+15	regression	regression	NOUN	NN	Number=Sing	11	obl	_	_
+16	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 56
+# text = This scarcity of supply also raises the macabre possibility of a black market where young people are forced or coerced into providing their blood , as well as the dangers of unlicensed dealers selling fake plasma , or that which is unfit for infusion .
+1	This	this	DET	DT	Number=Sing|PronType=Dem	2	det	_	_
+2	scarcity	scarcity	NOUN	NN	Number=Sing	6	nsubj	_	_
+3	of	of	ADP	IN	_	4	case	_	_
+4	supply	supply	NOUN	NN	Number=Sing	2	nmod	_	_
+5	also	also	ADV	RB	_	6	advmod	_	_
+6	raises	raise	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	macabre	macabre	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	possibility	possibility	NOUN	NN	Number=Sing	6	obj	_	_
+10	of	of	ADP	IN	_	13	case	_	_
+11	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+12	black	black	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	market	market	NOUN	NN	Number=Sing	9	nmod	_	_
+14	where	where	ADV	WRB	PronType=Int	18	advmod	_	_
+15	young	young	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	people	people	NOUN	NNS	Number=Plur	18	nsubj:pass	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	aux:pass	_	_
+18	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	acl	_	_
+19	or	or	CCONJ	CC	_	20	cc	_	_
+20	coerced	coerce	VERB	VBN	Tense=Past|VerbForm=Part	18	conj	_	_
+21	into	into	SCONJ	IN	_	22	mark	_	_
+22	providing	provide	VERB	VBG	VerbForm=Ger	18	advcl	_	_
+23	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	_	_
+24	blood	blood	NOUN	NN	Number=Sing	22	obj	_	_
+25	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\s\s
+26	as	as	ADV	RB	_	30	cc	_	_
+27	well	well	ADV	RB	Degree=Pos	26	fixed	_	_
+28	as	as	ADP	IN	_	26	fixed	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	dangers	danger	NOUN	NNS	Number=Plur	6	conj	_	_
+31	of	of	ADP	IN	_	33	case	_	_
+32	unlicensed	unlicensed	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	dealers	dealer	NOUN	NNS	Number=Plur	30	nmod	_	_
+34	selling	sell	VERB	VBG	VerbForm=Ger	30	acl	_	_
+35	fake	fake	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	plasma	plasma	NOUN	NN	Number=Sing	34	obj	_	_
+37	,	,	PUNCT	,	_	42	punct	_	SpacesAfter=\s\s
+38	or	or	CCONJ	CC	_	42	cc	_	_
+39	that	that	SCONJ	IN	_	42	mark	_	_
+40	which	which	PRON	WDT	PronType=Int	42	nsubj	_	_
+41	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	42	cop	_	_
+42	unfit	unfit	ADJ	JJ	Degree=Pos	6	conj	_	_
+43	for	for	ADP	IN	_	44	case	_	_
+44	infusion	infusion	NOUN	NN	Number=Sing	42	obl	_	_
+45	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 57
+# text = If this seems overly dramatic , then all we need to consider is how the health industry has become a profitable sector for organised crime .
+1	If	if	SCONJ	IN	_	3	mark	_	_
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	_	_
+3	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	advcl	_	_
+4	overly	overly	ADV	RB	_	5	advmod	_	_
+5	dramatic	dramatic	ADJ	JJ	Degree=Pos	3	xcomp	_	_
+6	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s
+7	then	then	ADV	RB	PronType=Dem	19	advmod	_	_
+8	all	all	DET	DT	_	19	nsubj	_	_
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	nsubj	_	_
+10	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	acl:relcl	_	_
+11	to	to	PART	TO	_	12	mark	_	_
+12	consider	consider	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+14	how	how	ADV	WRB	PronType=Int	19	advmod	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+16	health	health	NOUN	NN	Number=Sing	17	compound	_	_
+17	industry	industry	NOUN	NN	Number=Sing	19	nsubj	_	_
+18	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	aux	_	_
+19	become	become	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+20	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+21	profitable	profitable	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	sector	sector	NOUN	NN	Number=Sing	19	xcomp	_	_
+23	for	for	ADP	IN	_	25	case	_	_
+24	organised	organised	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	crime	crime	NOUN	NN	Number=Sing	22	nmod	_	_
+26	.	.	PUNCT	.	_	19	punct	_	SpacesAfter=\s\n
+
+# sent_id = 58
+# text = Europol stated , in their recent Serious and Organised Crime Threat Assessment : " The distribution of counterfeit pharmaceutical products online is particularly dangerous . "
+1	Europol	Europol	PROPN	NNP	Number=Sing	2	nsubj	_	_
+2	stated	state	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+4	in	in	ADP	IN	_	12	case	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	nmod:poss	_	_
+6	recent	recent	ADJ	JJ	Degree=Pos	12	amod	_	_
+7	Serious	serious	PROPN	NNP	Number=Sing	12	compound	_	_
+8	and	and	CCONJ	CC	_	11	cc	_	_
+9	Organised	organise	PROPN	NNP	Number=Sing	11	compound	_	_
+10	Crime	Crime	PROPN	NNP	Number=Sing	11	compound	_	_
+11	Threat	threat	PROPN	NNP	Number=Sing	7	conj	_	_
+12	Assessment	assessment	PROPN	NNP	Number=Sing	2	obl	_	_
+13	:	:	PUNCT	:	_	2	punct	_	SpacesAfter=\s\s\s
+14	"	"	PUNCT	``	_	2	punct	_	_
+15	The	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	distribution	distribution	NOUN	NN	Number=Sing	24	nsubj	_	_
+17	of	of	ADP	IN	_	20	case	_	_
+18	counterfeit	counterfeit	NOUN	NN	Number=Sing	20	compound	_	_
+19	pharmaceutical	pharmaceutical	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	products	product	NOUN	NNS	Number=Plur	16	nmod	_	_
+21	online	online	ADV	RB	_	24	advmod	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	_	_
+23	particularly	particularly	ADV	RB	_	24	advmod	_	_
+24	dangerous	dangerous	ADJ	JJ	Degree=Pos	2	ccomp	_	_
+25	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s
+26	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 59
+# text = One recent operation resulted in the seizure of potentially dangerous medicines worth £45m ( $ 58 . 5m ) .
+1	One	one	NUM	CD	NumType=Card	3	nummod	_	_
+2	recent	recent	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	operation	operation	NOUN	NN	Number=Sing	0	root	_	_
+4	resulted	result	VERB	VBN	Tense=Past|VerbForm=Part	3	acl	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	seizure	seizure	NOUN	NN	Number=Sing	4	obl	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	potentially	potentially	ADV	RB	_	10	advmod	_	_
+10	dangerous	dangerous	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	medicines	medicine	NOUN	NNS	Number=Plur	7	nmod	_	_
+12	worth	worth	ADJ	JJ	Degree=Pos	13	case	_	_
+13	£	£	SYM	$	_	21	compound	_	SpaceAfter=No
+14	45	45	NUM	CD	NumType=Card	15	compound	_	SpaceAfter=No
+15	m	m	NUM	CD	NumType=Card	13	nummod	_	SpacesAfter=\s\s
+16	(	(	PUNCT	-LRB-	_	17	punct	_	SpacesAfter=\s\s
+17	$	$	SYM	$	_	21	compound	_	_
+18	58	58	NUM	CD	NumType=Card	17	nummod	_	_
+19	.	.	PUNCT	.	_	21	punct	_	_
+20	5	5	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
+21	m	m	NOUN	NN	Number=Sing	3	nmod	_	_
+22	)	)	PUNCT	-RRB-	_	21	punct	_	SpacesAfter=\s\s
+23	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 60
+# text = We would need incredible advances in our understanding of human science to fully prevent human ageing , and to even predictably delay it seems a tall order .
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	would	would	AUX	MD	VerbForm=Fin	3	aux	_	_
+3	need	need	VERB	VB	VerbForm=Inf	0	root	_	_
+4	incredible	incredible	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	advances	advance	NOUN	NNS	Number=Plur	3	obj	_	_
+6	in	in	ADP	IN	_	8	case	_	_
+7	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+8	understanding	understanding	NOUN	NN	Number=Sing	5	nmod	_	_
+9	of	of	ADP	IN	_	11	case	_	_
+10	human	human	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	science	science	NOUN	NN	Number=Sing	8	nmod	_	_
+12	to	to	PART	TO	_	14	mark	_	_
+13	fully	fully	ADV	RB	_	14	advmod	_	_
+14	prevent	prevent	VERB	VB	VerbForm=Inf	3	xcomp	_	_
+15	human	human	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	ageing	ageing	NOUN	NN	Number=Sing	14	obj	_	_
+17	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+18	and	and	CCONJ	CC	_	21	cc	_	_
+19	to	to	PART	TO	_	21	mark	_	_
+20	even	even	ADV	RB	_	21	advmod	_	_
+21	predictably	predictably	VERB	VB	VerbForm=Inf	14	conj	_	_
+22	delay	delay	NOUN	NN	Number=Sing	21	obj	_	_
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	_
+24	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	tall	tall	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	order	order	NOUN	NN	Number=Sing	24	obj	_	_
+28	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 61
+# text = Further , the ethical , cultural and sociological issues of eradicating ageing would need to be robustly discussed . "
+1	Further	further	ADV	RB	_	14	advmod	_	_
+2	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+3	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+4	ethical	ethical	ADJ	JJ	Degree=Pos	9	amod	_	_
+5	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\s\s
+6	cultural	cultural	ADJ	JJ	Degree=Pos	4	conj	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	sociological	sociological	ADJ	JJ	Degree=Pos	4	conj	_	_
+9	issues	issue	NOUN	NNS	Number=Plur	14	nsubj	_	_
+10	of	of	ADP	IN	_	12	case	_	_
+11	eradicating	eradicating	ADJ	JJ	Degree=Pos|Typo=Yes	12	amod	_	_
+12	ageing	ageing	NOUN	NN	Number=Sing	9	nmod	_	_
+13	would	would	AUX	MD	VerbForm=Fin	14	aux	_	_
+14	need	need	VERB	VB	VerbForm=Inf	0	root	_	_
+15	to	to	PART	TO	_	18	mark	_	_
+16	be	be	AUX	VB	VerbForm=Inf	18	aux:pass	_	_
+17	robustly	robustly	ADV	RB	_	18	advmod	_	_
+18	discussed	discuss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	xcomp	_	_
+19	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\s\n\s
+20	"	"	PUNCT	''	_	14	punct	_	_
+
+# sent_id = 62
+# text = Part of being human is that we have a finite life and that we pace our lives , " concludes Harper . "
+1	Part	part	NOUN	NN	Number=Sing	5	nsubj	_	_
+2	of	of	SCONJ	IN	_	4	mark	_	_
+3	being	be	AUX	VBG	VerbForm=Ger	4	cop	_	_
+4	human	human	ADJ	JJ	Degree=Pos	1	acl	_	_
+5	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+6	that	that	SCONJ	IN	_	8	mark	_	_
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	_
+8	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+9	a	a	DET	DT	Definite=Ind|PronType=Art	11	det	_	_
+10	finite	finite	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	life	life	NOUN	NN	Number=Sing	8	obj	_	_
+12	and	and	CCONJ	CC	_	15	cc	_	_
+13	that	that	SCONJ	IN	_	15	mark	_	_
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	_	_
+15	pace	pace	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	8	conj	_	_
+16	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	lives	live	NOUN	NNS	Number=Plur	15	obj	_	_
+18	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+19	"	"	PUNCT	''	_	5	punct	_	SpacesAfter=\s\s
+20	concludes	conclude	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	_	_
+21	Harper	Harper	PROPN	NNP	Number=Sing	20	obj	_	_
+22	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s\s
+23	"	"	PUNCT	''	_	5	punct	_	_
+
+# sent_id = 63
+# text = It is far better to put all our resources into having everyone living long and healthy lifespans , rather than having a few people to live into the far future . "
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	_
+3	far	far	ADV	RB	Degree=Pos	4	advmod	_	_
+4	better	better	ADJ	JJR	Degree=Cmp	0	root	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	put	put	VERB	VB	VerbForm=Inf	4	csubj	_	_
+7	all	all	DET	PDT	_	9	det:predet	_	_
+8	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	nmod:poss	_	_
+9	resources	resource	NOUN	NNS	Number=Plur	6	obj	_	_
+10	into	into	SCONJ	IN	_	11	mark	_	_
+11	having	have	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+12	everyone	everyone	PRON	NN	Number=Sing	11	obj	_	_
+13	living	live	VERB	VBG	VerbForm=Ger	12	acl	_	_
+14	long	long	ADJ	JJ	Degree=Pos	17	amod	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	healthy	healthy	ADJ	JJ	Degree=Pos	14	conj	_	_
+17	lifespans	lifespan	NOUN	NNS	Number=Plur	13	obj	_	_
+18	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+19	rather	rather	ADP	IN	_	21	cc	_	_
+20	than	than	SCONJ	IN	_	19	fixed	_	_
+21	having	have	VERB	VBG	VerbForm=Ger	6	conj	_	_
+22	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+23	few	few	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	people	people	NOUN	NNS	Number=Plur	21	obj	_	_
+25	to	to	PART	TO	_	26	mark	_	_
+26	live	live	VERB	VB	VerbForm=Inf	24	acl	_	_
+27	into	into	ADP	IN	_	30	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+29	far	far	ADJ	JJ	Degree=Pos	30	amod	_	_
+30	future	future	NOUN	NN	Number=Sing	26	obl	_	_
+31	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\s
+32	"	"	PUNCT	''	_	4	punct	_	SpacesAfter=\s\n
+

@@ -1,0 +1,1722 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Год возмужания МОДЕРНИЗАЦИЯ : " ШЕВРОЛЕ-НИВА " АЛЕКСАНДР БУДКИН Минуло больше года с начала производства российско-американского вседорожника " Шевроле-Нива " .
+1	Год	год	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+2	возмужания	возмужание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	SpacesAfter=\n
+3	МОДЕРНИЗАЦИЯ	модернизация	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+4	:	:	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s\s
+5	"	"	PUNCT	_	_	6	punct	_	_
+6	ШЕВРОЛЕ-НИВА	Шевроле-нивый	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	appos	_	_
+7	"	"	PUNCT	_	_	6	punct	_	SpacesAfter=\s\n
+8	АЛЕКСАНДР	александр	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	6	appos	_	_
+9	БУДКИН	Будкин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	flat:name	_	SpacesAfter=\n
+10	Минуло	минуть	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	больше	много	NUM	_	_	12	nummod:gov	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+15	производства	производство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	14	nmod	_	_
+16	российско-	российско-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	американского	американский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	вседорожника	вседорожник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	SpacesAfter=\s\s
+19	"	"	PUNCT	_	_	20	punct	_	_
+20	Шевроле-Нива	Шевроле-Нива	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	appos	_	_
+21	"	"	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 2
+# text = За этот период о ней много было сказано и написано -- хорошего и не очень .
+1	За	за	ADP	_	_	3	case	_	_
+2	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	3	det	_	_
+3	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	8	obl	_	_
+6	много	много	ADV	_	Degree=Pos	8	advmod	_	_
+7	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	aux:pass	_	_
+8	сказано	сказать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	написано	писать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	8	conj	_	_
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	10	punct	_	_
+13	хорошего	хороший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	10	obl	_	_
+14	и	и	CCONJ	_	_	16	cc	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	очень	очень	ADV	_	Degree=Pos	13	conj	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 3
+# text = Журнал не раз хвалил машину за приятную управляемость , современную эргономику , достаточную проходимость .
+1	Журнал	журнал	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+4	хвалил	хвалить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+6	за	за	ADP	_	_	8	case	_	_
+7	приятную	приятный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	управляемость	управляемость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obl	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	современную	современный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	эргономику	эргономика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	достаточную	достаточный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	проходимость	проходимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	conj	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Но при этом критиковал низкую надежность и очень дорогое обслуживание .
+1	Но	но	CCONJ	_	_	4	cc	_	_
+2	при	при	ADP	_	_	3	case	_	_
+3	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	obl	_	_
+4	критиковал	критиковать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	низкую	низкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	надежность	надежность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	и	и	CCONJ	_	_	10	cc	_	_
+8	очень	очень	ADV	_	Degree=Pos	9	obl	_	_
+9	дорогое	дорогой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	обслуживание	обслуживание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	conj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Тем временем производитель вносил изменения в конструкцию , совершенствовал технологию .
+1	Тем	тот	DET	_	Case=Ins|Gender=Neut|Number=Sing	2	det	_	_
+2	временем	время	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+3	производитель	производитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	вносил	вносить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	4	obj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	конструкцию	конструкция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	совершенствовал	совершенствовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+10	технологию	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = В общем , появились основания думать , что " нивы " за год стали не только дороже , но и значительно лучше .
+1	В	в	ADP	_	_	2	case	_	_
+2	общем	общий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	4	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	появились	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	основания	основание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	4	nsubj	_	_
+6	думать	думать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	obl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	что	что	SCONJ	_	_	14	mark	_	SpacesAfter=\s\s
+9	"	"	PUNCT	_	_	10	punct	_	_
+10	нивы	нива	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	nsubj	_	_
+11	"	"	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	за	за	ADP	_	_	13	case	_	_
+13	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	nmod	_	_
+14	стали	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	6	ccomp	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	только	только	PART	_	_	17	advmod	_	_
+17	дороже	дорого	ADJ	_	Degree=Cmp	14	obl	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	но	но	CCONJ	_	_	22	cc	_	_
+20	и	и	PART	_	_	19	discourse	_	_
+21	значительно	значительно	ADV	_	Degree=Pos	22	advmod	_	_
+22	лучше	хороший	ADJ	_	Degree=Cmp	17	conj	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Вот и решили мы в пару к уже имеющейся в редакции " Шевроле-Ниве " , выпущенной в ноябре 2002 года , прикупить машину конца 2003-го . Внимательно изучили новинку , сравнили с хорошо знакомым нам экземпляром и теперь расскажем о впечатлениях .
+1	Вот	вот	PART	_	_	2	discourse	_	_
+2	и	и	PART	_	_	3	discourse	_	_
+3	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	пару	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obl	_	_
+7	к	к	ADP	_	_	13	case	_	_
+8	уже	уже	ADV	_	Degree=Pos	9	advmod	_	_
+9	имеющейся	иметься	VERB	_	Aspect=Imp|Case=Gen|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	13	acl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	редакции	редакция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	9	obl	_	SpacesAfter=\s\s
+12	"	"	PUNCT	_	_	13	punct	_	_
+13	Шевроле-Ниве	Шевроле-Нива	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+14	"	"	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+16	выпущенной	выпускать	VERB	_	Aspect=Perf|Case=Loc|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	ноябре	ноябрь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	obl	_	_
+19	2002	2002	NUM	_	_	20	nummod	_	_
+20	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	прикупить	прикупать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+23	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+24	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	2003-го	2003-й	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	obl	_	_
+26	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+27	Внимательно	внимательно	ADV	_	Degree=Pos	28	advmod	_	_
+28	изучили	изучить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	conj	_	_
+29	новинку	новинка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	28	obj	_	_
+30	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	сравнили	сравнивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+32	с	с	ADP	_	_	36	case	_	_
+33	хорошо	хорошо	ADV	_	Degree=Pos	34	obl	_	_
+34	знакомым	знакомый	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	36	amod	_	_
+35	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	34	iobj	_	_
+36	экземпляром	экземпляр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	obl	_	_
+37	и	и	CCONJ	_	_	39	cc	_	_
+38	теперь	теперь	ADV	_	Degree=Pos	39	advmod	_	_
+39	расскажем	рассказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	_
+40	о	о	ADP	_	_	41	case	_	_
+41	впечатлениях	впечатление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	39	obl	_	_
+42	.	.	PUNCT	_	_	41	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = СВОЙ СРЕДИ ЧУЖИХ Проведя предпродажную подготовку , вежливые и учтивые работники фирменной " джи-эмовской " станции пожелали нам счастливого пути .
+1	СВОЙ	свой	DET	_	Case=Nom|Gender=Masc|Number=Sing	19	det	_	_
+2	СРЕДИ	среди	ADP	_	_	3	case	_	_
+3	ЧУЖИХ	чужой	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	SpacesAfter=\n
+4	Проведя	проводить	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	19	advcl	_	_
+5	предпродажную	предпродажный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	подготовку	подготовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	вежливые	вежливый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	учтивые	учтивый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	conj	_	_
+11	работники	работник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	19	nsubj	_	_
+12	фирменной	фирменный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	SpacesAfter=\s\s
+13	"	"	PUNCT	_	_	14	punct	_	_
+14	джи	дж	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
+15	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	эмовской	эмовский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+18	станции	станция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	appos	_	_
+19	пожелали	желать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+20	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	19	iobj	_	_
+21	счастливого	счастливый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	пути	путь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = А путь-то лежал в техцентр ЗР , где мы взялись искать огрехи сборки .
+1	А	а	CCONJ	_	_	3	cc	_	_
+2	путь-то	путь-то	ADV	_	Degree=Pos	3	advmod	_	_
+3	лежал	лежать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	техцентр	техцентр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	ЗР	ЗР	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	где	где	ADV	_	Degree=Pos	10	advmod	_	_
+9	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	10	nsubj	_	_
+10	взялись	браться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	_
+11	искать	искать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	огрехи	огрех	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+13	сборки	сборка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Нашли , к счастью , немного , но все-таки кое-что набралось .
+1	Нашли	находить	VERB	_	Aspect=Perf|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	к	к	ADP	_	_	4	case	_	_
+4	счастью	счастье	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	1	parataxis	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	немного	немного	ADV	_	Degree=Pos	1	conj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	но	но	CCONJ	_	_	11	cc	_	_
+9	все-таки	все-таки	PART	_	_	11	discourse	_	_
+10	кое-что	кое-что	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+11	набралось	набираться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	1	conj	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Еще по дороге возникло первое , наиболее серьезное нарекание -- шумит редуктор переднего моста .
+1	Еще	еще	ADV	_	Degree=Pos	3	obl	_	_
+2	по	по	ADP	_	_	3	case	_	_
+3	дороге	дорога	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	obl	_	_
+4	возникло	возникать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	первое	первый	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	наиболее	наиболее	ADV	_	Degree=Pos	8	obl	_	_
+8	серьезное	серьезный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	нарекание	нарекание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	9	punct	_	_
+12	шумит	шуметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+13	редуктор	редуктор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	переднего	передний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	моста	мост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 12
+# text = Надеемся , в серьезную проблему это не перерастет , поскольку гарантийная станция до сих пор такие дефекты устраняла без разговоров .
+1	Надеемся	надеяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	в	в	ADP	_	_	5	case	_	_
+4	серьезную	серьезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	проблему	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	перерастет	перерастать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	conj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	поскольку	поскольку	SCONJ	_	_	18	mark	_	_
+11	гарантийная	гарантийнать	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	станция	станция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+13	до	до	ADP	_	_	18	advmod	_	_
+14	сих	сей	DET	_	Case=Gen|Number=Plur	13	fixed	_	_
+15	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	fixed	_	_
+16	такие	такой	DET	_	Case=Acc|Number=Plur	17	det	_	_
+17	дефекты	дефект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	18	obj	_	_
+18	устраняла	устранять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+19	без	без	ADP	_	_	20	case	_	_
+20	разговоров	разговор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	18	obl	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Из мелких претензий отметили , что указатель температуры двигателя говорит неправду .
+1	Из	из	ADP	_	_	3	case	_	_
+2	мелких	мелкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	3	amod	_	_
+3	претензий	претензия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+4	отметили	отмечать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	что	что	SCONJ	_	_	10	mark	_	_
+7	указатель	указатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+8	температуры	температура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
+9	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	говорит	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+11	неправду	неправда	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 14
+# text = Его стрелка при езде по трассе не достигает 90C и даже в момент включения вентиляторов не желает показывать больше 92-94C .
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	стрелка	стрелка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	при	при	ADP	_	_	4	case	_	_
+4	езде	езда	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	по	по	ADP	_	_	6	case	_	_
+6	трассе	трасса	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	nmod	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	достигает	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	90C	90c	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	и	и	CCONJ	_	_	17	cc	_	_
+11	даже	даже	PART	_	_	13	discourse	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+14	включения	включение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+15	вентиляторов	вентилятор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	желает	желать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+18	показывать	показывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	больше	больше	ADV	_	Degree=Cmp	18	advmod	_	_
+20	92-94C	92-94c	X	_	Foreign=Yes	19	flat:foreign	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = Подключенный же прибор диагностики не столь оптимистичен , считая , что под сотню градусов ( как и положено ) " Тосол " все-таки нагревается .
+1	Подключенный	Подключенный	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	3	amod	_	_
+2	же	же	PART	_	_	1	discourse	_	_
+3	прибор	прибор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+4	диагностики	диагностика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	столь	столь	ADV	_	Degree=Pos	7	obl	_	_
+7	оптимистичен	оптимистиченный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	считая	считать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	7	advcl	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	что	что	SCONJ	_	_	24	mark	_	_
+12	под	под	ADP	_	_	13	case	_	_
+13	сотню	сотня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obl	_	_
+14	градусов	градус	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	24	nsubj	_	SpacesAfter=\s\s
+15	(	(	PUNCT	_	_	16	punct	_	_
+16	как	как	SCONJ	_	_	18	mark	_	_
+17	и	и	PART	_	_	18	discourse	_	_
+18	положено	положенный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	24	parataxis	_	_
+19	)	)	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s\s
+20	"	"	PUNCT	_	_	21	punct	_	_
+21	Тосол	тосол	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	24	nsubj	_	_
+22	"	"	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	все-таки	все-таки	PART	_	_	24	discourse	_	_
+24	нагревается	нагреваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	ccomp	_	_
+25	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = Для машины с эмблемой " Шевроле " такие отклонения в показаниях считаем недостатком : это же не простая " Нива " . . . Впрочем , если подходить к оценке совместного продукта с учетом его корней , картина получится очень даже радужная .
+1	Для	для	ADP	_	_	2	case	_	_
+2	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	эмблемой	эмблема	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	2	nmod	_	SpacesAfter=\s\s
+5	"	"	PUNCT	_	_	6	punct	_	_
+6	Шевроле	Шевроле	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	appos	_	_
+7	"	"	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	такие	такой	DET	_	Case=Nom|Number=Plur	9	det	_	_
+9	отклонения	отклонение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	12	nsubj	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	показаниях	показание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	nmod	_	_
+12	считаем	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	недостатком	недостаток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	12	obl	_	_
+14	:	:	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+16	же	же	PART	_	_	15	discourse	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	простая	простой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	13	parataxis	_	SpacesAfter=\s\s
+19	"	"	PUNCT	_	_	20	punct	_	_
+20	Нива	нива	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	39	nsubj	_	_
+21	"	"	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+23	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+24	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\n
+25	Впрочем	впрочем	ADV	_	Degree=Pos	39	parataxis	_	_
+26	,	,	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+27	если	если	SCONJ	_	_	28	mark	_	_
+28	подходить	подходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	39	advcl	_	_
+29	к	к	ADP	_	_	30	case	_	_
+30	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	28	obl	_	_
+31	совместного	совместный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	продукта	продукт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	с	с	ADP	_	_	34	case	_	_
+34	учетом	учет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	30	nmod	_	_
+35	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	36	nmod	_	_
+36	корней	корень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	34	nmod	_	_
+37	,	,	PUNCT	_	_	36	punct	_	SpacesAfter=\s\s
+38	картина	картина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	39	nsubj	_	_
+39	получится	получаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	18	parataxis	_	_
+40	очень	очень	ADV	_	Degree=Pos	42	obl	_	_
+41	даже	даже	PART	_	_	42	discourse	_	_
+42	радужная	радужный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	39	obl	_	_
+43	.	.	PUNCT	_	_	42	punct	_	SpacesAfter=\s\s
+
+# sent_id = 17
+# text = В последние пару месяцев мы смогли оценить качество машин , собранных в Ижевске ( см .
+1	В	в	ADP	_	_	3	case	_	_
+2	последние	последний	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	3	amod	_	_
+3	пару	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+4	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
+6	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	оценить	оценивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	xcomp	_	_
+8	качество	качество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obj	_	_
+9	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	собранных	собирать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	Ижевске	Ижевск	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	SpacesAfter=\s\s
+14	(	(	PUNCT	_	_	15	punct	_	_
+15	см	смотреть	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = ЗР , 2004 , 1 ) и в Тольятти на вазовском конвейере ( см . этот номер ) .
+1	ЗР	ЗР	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	2004	2004	NUM	_	_	1	conj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s\s
+5	1	2	NUM	_	_	1	conj	_	_
+6	)	)	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	и	и	CCONJ	_	_	9	cc	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	Тольятти	Тольятти	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	1	conj	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	вазовском	вазовский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	конвейере	конвейер	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	SpacesAfter=\s\s
+13	(	(	PUNCT	_	_	14	punct	_	_
+14	см	смотреть	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	17	det	_	_
+17	номер	номер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+18	)	)	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 19
+# text = И теперь смело можем заявить : " Шевроле-Нива " собрана значительно лучше .
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	теперь	теперь	ADV	_	Degree=Pos	4	advmod	_	_
+3	смело	смело	ADV	_	Degree=Pos	4	advmod	_	_
+4	можем	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	заявить	заявлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	:	:	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s\s
+7	"	"	PUNCT	_	_	8	punct	_	_
+8	Шевроле-Нива	Шевроле-Нива	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj:pass	_	_
+9	"	"	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	собрана	собирать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	ccomp	_	_
+11	значительно	значительно	ADV	_	Degree=Pos	12	advmod	_	_
+12	лучше	хорошо	ADV	_	Degree=Cmp	10	advmod	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 20
+# text = А по сравнению с нашим прошлогодним автомобилем она имеет еще и ряд конструктивных преимуществ . Возможно , покажется странным , но в числе наиболее значимых для потребителя изменений в конструкции машины назовем замену двух " жигулевских " ремней , до недавнего времени приводивших генератор с помпой и насос гидроусилителя , на один поликлиновой .
+1	А	а	CCONJ	_	_	9	cc	_	_
+2	по	по	ADP	_	_	7	case	_	_
+3	сравнению	сравнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	2	fixed	_	_
+4	с	с	ADP	_	_	2	fixed	_	_
+5	нашим	наш	DET	_	Case=Ins|Gender=Masc|Number=Sing	7	det	_	_
+6	прошлогодним	прошлогодний	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	автомобилем	автомобиль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	9	obl	_	_
+8	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	9	nsubj	_	_
+9	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	еще	еще	ADV	_	Degree=Pos	12	obl	_	_
+11	и	и	PART	_	_	12	discourse	_	_
+12	ряд	ряд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+13	конструктивных	конструктивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	преимуществ	преимущество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	12	nmod	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\n
+16	Возможно	возможно	ADV	_	Degree=Pos	18	parataxis	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	покажется	казаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	9	parataxis	_	_
+19	странным	странный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	18	obl	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	но	но	CCONJ	_	_	32	cc	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	32	obl	_	_
+24	наиболее	наиболее	ADV	_	Degree=Pos	25	obl	_	_
+25	значимых	значимый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	28	amod	_	_
+26	для	для	ADP	_	_	27	case	_	_
+27	потребителя	потребитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	25	obl	_	_
+28	изменений	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	nmod	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	конструкции	конструкция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	obl	_	_
+31	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	назовем	назвать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	conj	_	_
+33	замену	замена	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
+34	двух	два	NUM	_	Case=Gen	38	nummod	_	SpacesAfter=\s\s
+35	"	"	PUNCT	_	_	36	punct	_	_
+36	жигулевских	жигулевский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	38	amod	_	_
+37	"	"	PUNCT	_	_	36	punct	_	SpacesAfter=\s\s
+38	ремней	ремень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	33	nmod	_	_
+39	,	,	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+40	до	до	ADP	_	_	42	case	_	_
+41	недавнего	недавний	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	42	amod	_	_
+42	времени	время	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	32	obl	_	_
+43	приводивших	приводить	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	42	acl	_	_
+44	генератор	генератор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	43	obj	_	_
+45	с	с	ADP	_	_	46	case	_	_
+46	помпой	помпа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	44	nmod	_	_
+47	и	и	CCONJ	_	_	48	cc	_	_
+48	насос	насос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	44	conj	_	_
+49	гидроусилителя	гидроусилитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	48	nmod	_	_
+50	,	,	PUNCT	_	_	49	punct	_	SpacesAfter=\s\s
+51	на	на	ADP	_	_	53	case	_	_
+52	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	53	nummod:gov	_	_
+53	поликлиновой	поликлинова	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	43	obl	_	_
+54	.	.	PUNCT	_	_	53	punct	_	SpacesAfter=\s\s
+
+# sent_id = 21
+# text = Во-первых , теперь не нужно то и дело подтягивать ремень генератора , чтобы он не свистел , во-вторых , дольше будет жить помпа ( ее подшипник страдал от перетяжки ремня ) , в-третьих , поликлиновой ремень куда дольше служит .
+1	Во-первых	во-первых	ADV	_	Degree=Pos	5	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	теперь	теперь	ADV	_	Degree=Pos	5	advmod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+6	то	то	DET	_	Case=Nom|Gender=Neut|Number=Sing	8	det	_	_
+7	и	и	PART	_	_	8	discourse	_	_
+8	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	obl	_	_
+9	подтягивать	подтягивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	csubj	_	_
+10	ремень	ремень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	генератора	генератор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	чтобы	что	SCONJ	_	Mood=Cnd	16	mark	_	_
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	свистел	свистеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	advcl	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	во-вторых	во-вторых	ADV	_	Degree=Pos	22	parataxis	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	дольше	долго	ADV	_	Degree=Cmp	22	advmod	_	_
+21	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	aux	_	_
+22	жить	жить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	conj	_	_
+23	помпа	помпа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	SpacesAfter=\s\s
+24	(	(	PUNCT	_	_	25	punct	_	_
+25	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	26	nmod	_	_
+26	подшипник	подшипник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+27	страдал	страдать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	23	conj	_	_
+28	от	от	ADP	_	_	29	case	_	_
+29	перетяжки	перетяжка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	obl	_	_
+30	ремня	ремень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
+31	)	)	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+32	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+33	в	в	ADP	_	_	34	case	_	SpaceAfter=No
+34	-третьих	-третий	DET	_	Case=Loc|Number=Plur	40	det	_	_
+35	,	,	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+36	поликлиновой	поликлиновый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	ремень	ремень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	40	nsubj	_	_
+38	куда	куда	ADV	_	Degree=Pos	39	advmod	_	_
+39	дольше	долго	ADV	_	Degree=Cmp	40	advmod	_	_
+40	служит	служить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	parataxis	_	_
+41	.	.	PUNCT	_	_	40	punct	_	SpacesAfter=\s\n
+
+# sent_id = 22
+# text = Насколько изменилась в связи с этим компоновка Генератор переместился на другую сторону двигателя и поднялся гораздо выше -- так делают на большинстве вседорожников , и не только на них . Второе , что бросилось в глаза , -- исправленная топливная горловина .
+1	Насколько	насколько	ADV	_	Degree=Pos	2	advmod	_	_
+2	изменилась	изменяться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	в	в	ADP	_	_	6	case	_	_
+4	связи	связь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	fixed	_	_
+5	с	с	ADP	_	_	3	fixed	_	_
+6	этим	этот	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+7	компоновка	компоновка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	Генератор	генератор	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	appos	_	_
+9	переместился	перемещаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	другую	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+13	двигателя	двигатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	поднялся	подниматься	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+16	гораздо	гораздо	ADV	_	Degree=Pos	17	advmod	_	_
+17	выше	высоко	ADV	_	Degree=Cmp	15	advmod	_	_
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	17	punct	_	_
+20	так	так	ADV	_	Degree=Pos	21	advmod	_	_
+21	делают	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	большинстве	большинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	_
+24	вседорожников	вседорожник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	23	nmod	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	и	и	CCONJ	_	_	30	cc	_	_
+27	не	не	PART	_	_	28	advmod	_	_
+28	только	только	PART	_	_	30	advmod	_	_
+29	на	на	ADP	_	_	30	case	_	_
+30	них	они	PRON	_	Case=Acc|Number=Plur|Person=3	2	conj	_	_
+31	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\s\n
+32	Второе	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	43	acl	_	_
+33	,	,	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+34	что	что	PRON	_	Case=Nom	35	nsubj	_	_
+35	бросилось	бросаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	32	acl:relcl	_	_
+36	в	в	ADP	_	_	37	case	_	_
+37	глаза	глаз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	35	obl	_	_
+38	,	,	PUNCT	_	_	37	punct	_	SpacesAfter=\s\s
+39	-	-	PUNCT	_	_	37	punct	_	SpaceAfter=No
+40	-	-	PUNCT	_	_	37	punct	_	_
+41	исправленная	исправить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	43	amod	_	_
+42	топливная	топливный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	_
+43	горловина	горловина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+44	.	.	PUNCT	_	_	43	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = На той , годовалой " Ниве " встроенный в горловину клапан опущен слишком глубоко и не позволял нормально заправлять машину : чтобы залить 30 литров , требовалось около 10 минут !
+1	На	на	ADP	_	_	6	case	_	_
+2	той	тот	DET	_	Case=Loc|Gender=Fem|Number=Sing	6	det	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	годовалой	годовалый	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	SpacesAfter=\s\s
+5	"	"	PUNCT	_	_	6	punct	_	_
+6	Ниве	нива	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+7	"	"	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	встроенный	встраивать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	11	acl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	горловину	горловина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obl	_	_
+11	клапан	клапан	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj:pass	_	_
+12	опущен	опустить	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+13	слишком	слишком	ADV	_	Degree=Pos	14	advmod	_	_
+14	глубоко	глубоко	ADV	_	Degree=Pos	12	advmod	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	позволял	позволять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	conj	_	_
+18	нормально	нормально	ADV	_	Degree=Pos	19	advmod	_	_
+19	заправлять	заправлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+20	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	:	:	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	чтобы	чтобы	SCONJ	_	Mood=Cnd	23	mark	_	_
+23	залить	заливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	27	advcl	_	_
+24	30	30	NUM	_	_	25	nummod	_	_
+25	литров	литр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	23	obl	_	_
+26	,	,	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+27	требовалось	требоваться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	19	parataxis	_	_
+28	около	около	ADP	_	_	30	case	_	_
+29	10	10	NUM	_	_	30	nummod	_	_
+30	минут	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	27	nsubj	_	_
+31	!	!	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = Теперь до клапана легко достать пальцем .
+1	Теперь	теперь	ADV	_	Degree=Pos	4	advmod	_	_
+2	до	до	ADP	_	_	3	case	_	_
+3	клапана	клапан	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+4	легко	легко	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	достать	доставать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	csubj	_	_
+6	пальцем	палец	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 25
+# text = Препятствий на пути бензина нет и на курок заправочного пистолета можно жать до упора : две минуты -- бак полон ! Сегодня на все автомобили , даже в комплектации L , устанавливают электропривод и подогрев наружных зеркал .
+1	Препятствий	препятствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nsubj	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	пути	путь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	nmod	_	_
+4	бензина	бензин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	и	и	PART	_	_	8	discourse	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	курок	курок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+9	заправочного	заправочный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	пистолета	пистолет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+11	можно	можно	ADV	_	Degree=Pos	5	conj	_	_
+12	жать	жать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	csubj	_	_
+13	до	до	ADP	_	_	14	case	_	_
+14	упора	упор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+15	:	:	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	две	два	NUM	_	Case=Nom|Gender=Fem	17	nummod:gov	_	_
+17	минуты	минута	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	parataxis	_	_
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	17	punct	_	_
+20	бак	бак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+21	полон	полный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	17	parataxis	_	_
+22	!	!	PUNCT	_	_	21	punct	_	SpacesAfter=\s\n
+23	Сегодня	сегодня	ADV	_	Degree=Pos	33	advmod	_	_
+24	на	на	ADP	_	_	26	case	_	_
+25	все	весь	DET	_	Case=Acc|Number=Plur	26	det	_	_
+26	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	33	obl	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	даже	даже	PART	_	_	30	discourse	_	_
+29	в	в	ADP	_	_	30	case	_	_
+30	комплектации	комплектация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	26	conj	_	_
+31	L	l	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	устанавливают	устанавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	xcomp	_	_
+34	электропривод	электропривод	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	33	obj	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	подогрев	подогрев	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	33	conj	_	_
+37	наружных	наружный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	38	amod	_	_
+38	зеркал	зеркало	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	36	obj	_	_
+39	.	.	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+
+# sent_id = 26
+# text = Кроме прочего , это помогло убрать вибрации зеркал , которые надоедают владельцам первых серийных машин . Появились противотуманные фары и система охлаждения жидкости гидроусилителя .
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	прочего	прочий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	помогло	помогать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	убрать	убирать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	вибрации	вибрация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	6	obj	_	_
+8	зеркал	зеркало	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	appos	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+11	надоедают	надоедать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+12	владельцам	владелец	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	iobj	_	_
+13	первых	первый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+14	серийных	серийный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	машин	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	12	nmod	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	Появились	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	5	conj	_	_
+18	противотуманные	противотуманный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	фары	фара	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	17	nsubj	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	conj	_	_
+22	охлаждения	охлаждение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	жидкости	жидкость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	гидроусилителя	гидроусилитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
+25	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+
+# sent_id = 27
+# text = Последняя весьма полезна , если на улице под 40C или вы забрались метров на 500 над уровнем моря .
+1	Последняя	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	весьма	весьма	ADV	_	Degree=Pos	3	obl	_	_
+3	полезна	полезный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	если	если	SCONJ	_	_	12	mark	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	улице	улица	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+8	под	под	ADP	_	_	9	case	_	_
+9	40C	40c	PROPN	_	Foreign=Yes	7	flat:foreign	_	_
+10	или	или	CCONJ	_	_	11	cc	_	_
+11	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	12	nsubj	_	_
+12	забрались	забраться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	3	advcl	_	_
+13	метров	метр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	500	500	NUM	_	_	13	nummod	_	_
+16	над	над	ADP	_	_	17	case	_	_
+17	уровнем	уровень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	_
+18	моря	море	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\n
+
+# sent_id = 28
+# text = На все " нивы " теперь устанавливают фильтр салона -- раньше было только место для него .
+1	На	на	ADP	_	_	2	case	_	_
+2	все	весь	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obl	_	SpacesAfter=\s\s
+3	"	"	PUNCT	_	_	4	punct	_	_
+4	нивы	нива	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	obl	_	_
+5	"	"	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	теперь	теперь	ADV	_	Degree=Pos	7	advmod	_	_
+7	устанавливают	устанавливать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	фильтр	фильтр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	obj	_	_
+9	салона	салон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	9	punct	_	_
+12	раньше	рано	ADV	_	Degree=Cmp	13	advmod	_	_
+13	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+14	только	только	PART	_	_	15	advmod	_	_
+15	место	место	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	nsubj	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	15	nmod	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 29
+# text = Правда , показалось странным , что крышка , за которой скрывается фильтр , посажена на герметик .
+1	Правда	правда	ADV	_	Degree=Pos	3	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	показалось	казаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	странным	странный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	3	obl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	что	что	SCONJ	_	_	14	mark	_	_
+7	крышка	крышка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	nsubj:pass	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	за	за	ADP	_	_	10	case	_	_
+10	которой	который	PRON	_	Case=Ins	11	obl	_	_
+11	скрывается	скрывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	7	acl:relcl	_	_
+12	фильтр	фильтр	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	посажена	посадить	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	ccomp	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	герметик	герметик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 30
+# text = Пользуясь случаем , еще раз напомним читателям , что со второго квартала 2003 года все машины окрашивают не на ВАЗе , а на самом СП , в современной автоматической камере .
+1	Пользуясь	пользоваться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	6	advcl	_	_
+2	случаем	случай	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	еще	еще	ADV	_	Degree=Pos	5	obl	_	_
+5	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+6	напомним	напоминать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+7	читателям	читатель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	6	iobj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	что	что	SCONJ	_	_	17	mark	_	_
+10	со	с	ADP	_	_	12	case	_	_
+11	второго	второй	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	квартала	квартал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+13	2003	2003	NUM	_	_	14	nummod	_	_
+14	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+15	все	весь	DET	_	Case=Nom|Number=Plur	16	det	_	_
+16	машины	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+17	окрашивают	окрашивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
+18	не	не	PART	_	_	20	advmod	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	ВАЗе	ваза	PROPN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	а	а	CCONJ	_	_	25	cc	_	_
+23	на	на	ADP	_	_	25	case	_	_
+24	самом	сам	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	СП	сп	PROPN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	conj	_	_
+26	,	,	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+27	в	в	ADP	_	_	30	case	_	_
+28	современной	современный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+29	автоматической	автоматический	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	камере	камера	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	conj	_	_
+31	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = Покупателю предлагают четыре цвета -- белый ( обычный ) и три металлика : серебристый , темно-зеленый и вишневый .
+1	Покупателю	покупатель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	2	iobj	_	_
+2	предлагают	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	четыре	четыре	NUM	_	Case=Nom	4	nummod:gov	_	_
+4	цвета	цвет	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	4	punct	_	_
+7	белый	белый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	SpacesAfter=\s\s
+8	(	(	PUNCT	_	_	9	punct	_	_
+9	обычный	обычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	appos	_	_
+10	)	)	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	три	три	NUM	_	Case=Nom	13	nummod:gov	_	_
+13	металлика	металлик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	parataxis	_	_
+14	:	:	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	серебристый	серебристый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	parataxis	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	темно-	темно-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+18	зеленый	зеленый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	вишневый	вишневый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	conj	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 32
+# text = Кроме того , многие детали кузова имеют двустороннюю оцинковку .
+1	Кроме	кроме	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	детали	деталь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+6	кузова	кузов	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+7	имеют	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	двустороннюю	двусторонний	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	оцинковку	оцинковка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 33
+# text = Также с удовольствием сообщаем , что купленная редакцией машина успешно преодолела испытание холодом в уже известном читателям зиловском " холодильнике " ( см .
+1	Также	также	ADV	_	Degree=Pos	4	advmod	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	удовольствием	удовольствие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	obl	_	_
+4	сообщаем	сообщать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	что	что	SCONJ	_	_	11	mark	_	_
+7	купленная	купить	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	9	acl	_	_
+8	редакцией	редакция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+9	машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	успешно	успешно	ADV	_	Degree=Pos	11	advmod	_	_
+11	преодолела	преодолевать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+12	испытание	испытание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+13	холодом	холод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+14	в	в	ADP	_	_	20	case	_	_
+15	уже	уже	ADV	_	Degree=Pos	16	obl	_	_
+16	известном	известный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+17	читателям	читатель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	16	iobj	_	_
+18	зиловском	зиловский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	SpacesAfter=\s\s
+19	"	"	PUNCT	_	_	20	punct	_	_
+20	холодильнике	холодильник	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+21	"	"	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s\s
+22	(	(	PUNCT	_	_	23	punct	_	_
+23	см	смотреть	VERB	_	Aspect=Imp|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	20	parataxis	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+
+# sent_id = 34
+# text = ЗР , 2004 , 1 ) . Поскольку загоняли мы ее туда с моторным маслом , залитым на заводе , при минус 30C она , конечно , не завелась .
+1	ЗР	ЗР	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	2004	2004	NUM	_	_	1	conj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s\s
+5	1	2	NUM	_	_	1	conj	_	_
+6	)	)	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+8	Поскольку	поскольку	SCONJ	_	_	9	mark	_	_
+9	загоняли	загонять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	29	advcl	_	_
+10	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	9	nsubj	_	_
+11	ее	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	9	obj	_	_
+12	туда	туда	ADV	_	Degree=Pos	9	advmod	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	моторным	моторный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	маслом	масло	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	залитым	залить	VERB	_	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	15	acl	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	заводе	завод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	при	при	ADP	_	_	22	case	_	_
+22	минус	минус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	29	obl	_	_
+23	30C	30с	ADP	_	_	24	case	_	_
+24	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	29	nsubj	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	конечно	конечно	ADV	_	Degree=Pos	29	parataxis	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	не	не	PART	_	_	29	advmod	_	_
+29	завелась	завестись	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+
+# sent_id = 35
+# text = Но порог в минус 25C преодолела .
+1	Но	но	CCONJ	_	_	6	cc	_	_
+2	порог	порог	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	минус	минус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+5	25C	25c	PROPN	_	_	4	appos	_	_
+6	преодолела	преодолевать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 36
+# text = В испытаниях , в том числе по оценке скорости прогрева салона , участвовали , кроме " Нивы " , и другие машины , о чем мы собираемся рассказать отдельно -- подробнее .
+1	В	в	ADP	_	_	2	case	_	_
+2	испытаниях	испытание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	13	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	в	в	ADP	_	_	6	case	_	_
+5	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	6	det	_	_
+6	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	nmod	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	оценке	оценка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	2	conj	_	_
+9	скорости	скорость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	прогрева	прогрево	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	салона	салон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	участвовали	участвовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	кроме	кроме	ADP	_	_	17	case	_	SpacesAfter=\s\s
+16	"	"	PUNCT	_	_	17	punct	_	_
+17	Нивы	нива	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+18	"	"	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+20	и	и	CCONJ	_	_	22	discourse	_	_
+21	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	22	amod	_	_
+22	машины	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	13	nsubj	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	о	о	ADP	_	_	25	case	_	_
+25	чем	что	PRON	_	Case=Loc	28	obl	_	_
+26	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	27	nsubj	_	_
+27	собираемся	собираться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	22	acl:relcl	_	_
+28	рассказать	рассказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	csubj	_	_
+29	отдельно	отдельно	ADV	_	Degree=Pos	28	advmod	_	_
+30	-	-	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	-	-	PUNCT	_	_	29	punct	_	_
+32	подробнее	подробно	ADV	_	Degree=Cmp	27	advmod	_	_
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\s\n
+
+# sent_id = 37
+# text = ЧУЖОЙ СРЕДИ СВОИХ Один из часто задаваемых водителю " Нивы " вопросов : что у машины от " Шевроле " Проще всего ответить : " эмблема " -- ведь это правда .
+1	ЧУЖОЙ	чужой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+2	СРЕДИ	среди	ADP	_	_	3	case	_	_
+3	СВОИХ	свой	DET	_	Case=Loc|Number=Plur	4	det	_	SpacesAfter=\n
+4	Один	один	NUM	_	Case=Nom|Gender=Masc	0	root	_	_
+5	из	из	ADP	_	_	8	case	_	_
+6	часто	часто	ADV	_	Degree=Pos	7	advmod	_	_
+7	задаваемых	задавать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	8	acl	_	_
+8	водителю	водитель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	4	nmod	_	SpacesAfter=\s\s
+9	"	"	PUNCT	_	_	10	punct	_	_
+10	Нивы	нива	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	appos	_	_
+11	"	"	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	вопросов	вопрос	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+13	:	:	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	что	чтобы	SCONJ	_	_	16	mark	_	_
+15	у	в	ADP	_	_	16	case	_	_
+16	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+17	от	от	ADP	_	_	19	case	_	SpacesAfter=\s\s
+18	"	"	PUNCT	_	_	19	punct	_	_
+19	Шевроле	Шевроле	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
+20	"	"	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	Проще	простой	ADV	_	Degree=Cmp	16	advmod	_	_
+22	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obl	_	_
+23	ответить	отвечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	csubj	_	_
+24	:	:	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s\s
+25	"	"	PUNCT	_	_	26	punct	_	_
+26	эмблема	эмблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	23	obl	_	_
+27	"	"	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	-	-	PUNCT	_	_	26	punct	_	SpaceAfter=No
+29	-	-	PUNCT	_	_	26	punct	_	_
+30	ведь	ведь	PART	_	_	31	discourse	_	_
+31	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	nsubj	_	_
+32	правда	правда	ADV	_	Degree=Pos	23	parataxis	_	_
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+
+# sent_id = 38
+# text = Если настроение плохое , говорите : стоимость обслуживания .
+1	Если	если	SCONJ	_	_	3	mark	_	_
+2	настроение	настроение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	плохое	плохой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	говорите	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+6	:	:	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	стоимость	стоимость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	_
+8	обслуживания	обслуживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 39
+# text = Ну , а коли хорошее , можно похвастать импортными гидроусилителем и тормозами , рассказать о качественном и дорогом сырье для пластиковых деталей , о самом современном сборочном и окрасочном оборудовании , установленном в СП .
+1	Ну	ну	PART	_	_	7	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	а	а	CCONJ	_	_	7	cc	_	_
+4	коли	коли	SCONJ	_	_	5	mark	_	_
+5	хорошее	хороший	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	7	advcl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+8	похвастать	похвастать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	csubj	_	_
+9	импортными	импортный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	гидроусилителем	гидроусилитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	тормозами	тормоз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	10	conj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	рассказать	рассказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	conj	_	_
+15	о	о	ADP	_	_	19	case	_	_
+16	качественном	качественный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	дорогом	дорогой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	conj	_	_
+19	сырье	сырье	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	obl	_	_
+20	для	для	ADP	_	_	22	case	_	_
+21	пластиковых	пластиковый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	деталей	деталь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	о	о	ADP	_	_	30	case	_	_
+25	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	современном	современный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+27	сборочном	сборочн	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+28	и	и	CCONJ	_	_	29	cc	_	_
+29	окрасочном	окрасочный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	27	conj	_	_
+30	оборудовании	оборудование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	nmod	_	_
+31	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+32	установленном	устанавливать	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	30	acl	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	СП	сп	PROPN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	32	obl	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+
+# sent_id = 40
+# text = Так обстоят дела сегодня , но ситуация вскоре изменится .
+1	Так	так	ADV	_	Degree=Pos	2	advmod	_	_
+2	обстоят	обстоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	дела	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	2	nsubj	_	_
+4	сегодня	сегодня	ADV	_	Degree=Pos	2	advmod	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	но	но	CCONJ	_	_	9	cc	_	_
+7	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+8	вскоре	вскоре	ADV	_	Degree=Pos	9	advmod	_	_
+9	изменится	изменяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	conj	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 41
+# text = В этом году планируется очень много изменений , самое ожидаемое из которых -- " опелевский " двигатель ЭКОТЕК FAM 1 объемом 18 л с 16 клапанами на цилиндр .
+1	В	в	ADP	_	_	3	case	_	_
+2	этом	этот	DET	_	Case=Loc|Gender=Masc|Number=Sing	3	det	_	_
+3	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	планируется	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+5	очень	очень	ADV	_	Degree=Pos	6	advmod	_	_
+6	много	много	ADV	_	Degree=Pos	7	nummod:gov	_	_
+7	изменений	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	4	nsubj:pass	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	ожидаемое	ожидать	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	nsubj	_	_
+11	из	из	ADP	_	_	12	case	_	_
+12	которых	который	PRON	_	Case=Gen	10	nmod	_	_
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+15	"	"	PUNCT	_	_	16	punct	_	_
+16	опелевский	опелевский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	"	"	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+19	ЭКОТЕК	ЭКОТЕк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
+20	FAM	Fam	PROPN	_	Foreign=Yes	19	flat:foreign	_	_
+21	1	2	NUM	_	_	22	nummod	_	_
+22	объемом	объем	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	19	nmod	_	_
+23	18	18	NUM	_	_	24	nummod	_	_
+24	л	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+25	с	с	ADP	_	_	27	case	_	_
+26	16	16	NUM	_	_	27	nummod	_	_
+27	клапанами	клапан	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	24	nmod	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	цилиндр	цилиндр	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	nmod	_	_
+30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+
+# sent_id = 42
+# text = Его мощность в полтора раза выше , чем у сегодняшнего вазовского , а момент -- более чем на 30 % .
+1	Его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+2	мощность	мощность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	полтора	полтора	NUM	_	Case=Acc|Gender=Masc	5	nummod:gov	_	_
+5	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+6	выше	высокий	ADJ	_	Degree=Cmp	0	root	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	чем	чем	SCONJ	_	_	11	mark	_	_
+9	у	в	ADP	_	_	11	case	_	_
+10	сегодняшнего	сегодняшний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	вазовского	вазовский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	obl	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	а	а	CCONJ	_	_	14	cc	_	_
+14	момент	момент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	conj	_	_
+15	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	14	punct	_	_
+17	более	более	ADV	_	Degree=Cmp	21	case	_	_
+18	чем	чем	SCONJ	_	_	17	fixed	_	_
+19	на	на	ADP	_	_	21	case	_	_
+20	30	30	NUM	_	_	21	nummod	_	_
+21	%	%	SYM	_	_	14	parataxis	_	SpacesAfter=\s\s
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 43
+# text = В паре с ним будет трудиться японская механическая пятиступенчатая коробка передач " Айсин " , к которой , в свою очередь , пристыкуют ( без промежуточного вала ) ту же " раздатку " , что идет сегодня на " Шевроле-Ниву " -- на базе обычной " нивовской " , но с мелкомодульными зубьями , другим механизмом переключения ( под один рычаг ) и дополнительной опорой крепления .
+1	В	в	ADP	_	_	2	case	_	_
+2	паре	пар	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+3	с	с	ADP	_	_	4	case	_	_
+4	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	2	nmod	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
+6	трудиться	трудиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	0	root	_	_
+7	японская	японский	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+8	механическая	механический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+9	пятиступенчатая	пятиступенчатый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	коробка	коробка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+11	передач	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	nmod	_	SpacesAfter=\s\s
+12	"	"	PUNCT	_	_	13	punct	_	_
+13	Айсин	Айсин	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+14	"	"	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+16	к	к	ADP	_	_	17	case	_	_
+17	которой	который	PRON	_	Case=Dat	23	obl	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	в	в	ADP	_	_	21	case	_	_
+20	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	21	det	_	_
+21	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	parataxis	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	пристыкуют	пристыковать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	acl:relcl	_	SpacesAfter=\s\s
+24	(	(	PUNCT	_	_	25	punct	_	_
+25	без	без	ADP	_	_	27	case	_	_
+26	промежуточного	промежуточный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	вала	вал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	parataxis	_	_
+28	)	)	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	ту	тот	DET	_	Case=Acc|Gender=Fem|Number=Sing	32	det	_	_
+30	же	же	PART	_	_	29	discourse	_	SpacesAfter=\s\s
+31	"	"	PUNCT	_	_	32	punct	_	_
+32	раздатку	раздатка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obj	_	_
+33	"	"	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+34	,	,	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+35	что	что	PRON	_	Case=Nom	36	nsubj	_	_
+36	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+37	сегодня	сегодня	ADV	_	Degree=Pos	36	advmod	_	_
+38	на	на	ADP	_	_	40	case	_	SpacesAfter=\s\s
+39	"	"	PUNCT	_	_	40	punct	_	_
+40	Шевроле-Ниву	Шевроле-Ниву	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	36	obl	_	_
+41	"	"	PUNCT	_	_	40	punct	_	SpacesAfter=\s\s
+42	-	-	PUNCT	_	_	40	punct	_	SpaceAfter=No
+43	-	-	PUNCT	_	_	40	punct	_	_
+44	на	на	ADP	_	_	45	case	_	_
+45	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	36	parataxis	_	_
+46	обычной	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	45	obl	_	SpacesAfter=\s\s
+47	"	"	PUNCT	_	_	48	punct	_	_
+48	нивовской	нивовский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	46	appos	_	_
+49	"	"	PUNCT	_	_	48	punct	_	SpacesAfter=\s\s
+50	,	,	PUNCT	_	_	48	punct	_	SpacesAfter=\s\s
+51	но	но	CCONJ	_	_	54	cc	_	_
+52	с	с	ADP	_	_	54	case	_	_
+53	мелкомодульными	мелкомодульный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	54	amod	_	_
+54	зубьями	зуб	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	45	conj	_	_
+55	,	,	PUNCT	_	_	54	punct	_	SpacesAfter=\s\s
+56	другим	другой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	57	amod	_	_
+57	механизмом	механизм	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	45	conj	_	_
+58	переключения	переключение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	57	nmod	_	SpacesAfter=\s\s
+59	(	(	PUNCT	_	_	60	punct	_	_
+60	под	под	ADP	_	_	62	case	_	_
+61	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	62	nummod:gov	_	_
+62	рычаг	рычаг	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	58	parataxis	_	_
+63	)	)	PUNCT	_	_	62	punct	_	SpacesAfter=\s\s
+64	и	и	CCONJ	_	_	66	cc	_	_
+65	дополнительной	дополнительный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	66	amod	_	_
+66	опорой	опора	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	45	conj	_	_
+67	крепления	крепление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	66	nmod	_	_
+68	.	.	PUNCT	_	_	67	punct	_	SpacesAfter=\s\n
+
+# sent_id = 44
+# text = Вместе с импортным силовым агрегатом на машине в комплектации LX появятся ABS , кондиционер , подушки безопасности водителя и переднего пассажира , ремни с пиронатяжителями и ограничением нагрузки , регулировка водительского кресла по высоте .
+1	Вместе	вместе	ADV	_	Degree=Pos	11	advmod	_	_
+2	с	с	ADP	_	_	5	case	_	_
+3	импортным	импортный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	силовым	силовой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	агрегатом	агрегат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	1	obl	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	машине	машина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	комплектации	комплектация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	nmod	_	_
+10	LX	lx	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	появятся	появляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	ABS	ABS	PROPN	_	Foreign=Yes	11	nsubj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	кондиционер	кондиционер	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	12	conj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	подушки	подушка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	_
+17	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	водителя	водитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	и	и	CCONJ	_	_	21	cc	_	_
+20	переднего	передний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	пассажира	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	18	conj	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	ремни	ремень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	12	conj	_	_
+24	с	с	ADP	_	_	25	case	_	_
+25	пиронатяжителями	пиронатяжитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	23	nmod	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	ограничением	ограничение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	25	conj	_	_
+28	нагрузки	нагрузка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	,	,	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	регулировка	регулировка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	conj	_	_
+31	водительского	водительский	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	32	amod	_	_
+32	кресла	кресло	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	30	nmod	_	_
+33	по	по	ADP	_	_	34	case	_	_
+34	высоте	высота	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	30	nmod	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+
+# sent_id = 45
+# text = На такой автомобиль планируют устанавливать уже не 15- , а 16-дюймовые колеса под шины 215 / 65R16 . Машину в таком исполнении пока обещают продавать за 13 тыс . евро , но это лишь предварительный прогноз .
+1	На	на	ADP	_	_	3	case	_	_
+2	такой	такой	DET	_	Case=Acc|Gender=Masc|Number=Sing	3	det	_	_
+3	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+4	планируют	планировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	устанавливать	устанавливать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	уже	уже	ADV	_	Degree=Pos	8	advmod	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	15	15	NUM	_	_	5	nummod	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	8	punct	_	_
+10	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+11	а	а	CCONJ	_	_	25	cc	_	_
+12	16-дюймовые	16-дюймовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	колеса	колесо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	25	obj	_	_
+14	под	под	ADP	_	_	15	case	_	_
+15	шины	шина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	215	215	NUM	_	_	25	nummod	_	_
+17	/	/	PUNCT	_	_	16	punct	_	_
+18	65R16	65R16	NUM	_	_	16	nummod	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\n
+20	Машину	машина	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	25	obj	_	_
+21	в	в	ADP	_	_	23	case	_	_
+22	таком	такой	DET	_	Case=Loc|Gender=Neut|Number=Sing	23	det	_	_
+23	исполнении	исполнение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	obl	_	_
+24	пока	пока	ADV	_	Degree=Pos	25	advmod	_	_
+25	обещают	обещать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+26	продавать	продавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+27	за	за	ADP	_	_	29	case	_	_
+28	13	13	NUM	_	_	29	nummod	_	_
+29	тыс	тысяча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	26	obl	_	_
+30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	но	но	CCONJ	_	_	37	cc	_	_
+34	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	37	nsubj	_	_
+35	лишь	лишь	PART	_	_	36	discourse	_	_
+36	предварительный	предварительный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	прогноз	прогноз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+38	.	.	PUNCT	_	_	37	punct	_	SpacesAfter=\s\n
+
+# sent_id = 46
+# text = Тех , кто решит в новом году купить " Шевроле-Ниву " с отечественным силовым агрегатом , тоже ждет множество полезных ( так и хочется сказать " для здоровья " ) нововведений .
+1	Тех	тот	PRON	_	_	18	obj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	кто	кто	PRON	_	Case=Nom	4	nsubj	_	_
+4	решит	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	новом	новый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+8	купить	покупать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	SpacesAfter=\s\s
+9	"	"	PUNCT	_	_	10	punct	_	_
+10	Шевроле-Ниву	Шевроле-Ниву	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	"	"	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	с	с	ADP	_	_	15	case	_	_
+13	отечественным	отечественный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	силовым	силовой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	агрегатом	агрегат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	тоже	тоже	PART	_	_	18	discourse	_	_
+18	ждет	ждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+19	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+20	полезных	полезный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	SpacesAfter=\s\s
+21	(	(	PUNCT	_	_	22	punct	_	_
+22	так	так	ADV	_	Degree=Pos	24	advmod	_	_
+23	и	и	PART	_	_	24	discourse	_	_
+24	хочется	хотеться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	20	parataxis	_	_
+25	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	_	SpacesAfter=\s\s
+26	"	"	PUNCT	_	_	27	punct	_	_
+27	для	для	ADP	_	_	28	case	_	_
+28	здоровья	здоровье	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+29	"	"	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	)	)	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+31	нововведений	нововведение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	19	nmod	_	_
+32	.	.	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+
+# sent_id = 47
+# text = Прежде всего , это бессчетное число доработок кузова , призванных обеспечить высокий уровень пассивной безопасности .
+1	Прежде	прежде	ADP	_	_	6	advmod	_	_
+2	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	fixed	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+5	бессчетное	бессчетный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	число	число	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+7	доработок	доработка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	6	nmod	_	_
+8	кузова	кузов	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	призванных	призванный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	acl	_	_
+11	обеспечить	обеспечивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	высокий	высокий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+14	пассивной	пассивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 48
+# text = Разрабатывались все они под экспортную комплектацию , но не делать же для каждого варианта машины свой кузов .
+1	Разрабатывались	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	все	весь	DET	_	Case=Nom|Number=Plur	3	det	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	1	nsubj	_	_
+4	под	под	ADP	_	_	6	case	_	_
+5	экспортную	экспортный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	комплектацию	комплектация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	1	obl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	но	но	CCONJ	_	_	10	cc	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	conj	_	_
+11	же	же	PART	_	_	10	discourse	_	_
+12	для	для	ADP	_	_	14	case	_	_
+13	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	варианта	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+15	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	свой	свой	DET	_	Case=Acc|Gender=Masc|Number=Sing	17	det	_	_
+17	кузов	кузов	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	obj	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\n
+
+# sent_id = 49
+# text = Если все пойдет по плану , то вазовский силовой агрегат " мягко " вытеснят импортным .
+1	Если	если	SCONJ	_	_	3	mark	_	_
+2	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	пойдет	пойти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	14	advcl	_	_
+4	по	по	ADP	_	_	5	case	_	_
+5	плану	план	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	то	то	SCONJ	_	_	14	mark	_	_
+8	вазовский	вазовский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	силовой	силовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	агрегат	агрегат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	SpacesAfter=\s\s
+11	"	"	PUNCT	_	_	12	punct	_	_
+12	мягко	мягко	ADV	_	Degree=Pos	14	advmod	_	_
+13	"	"	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	вытеснят	вытеснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+15	импортным	импортный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	obl	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 50
+# text = По крайней мере , об этом говорили представители СП " Джи-Эм-АвтоВАЗ " на прошлогоднем автосалоне в Москве .
+1	По	по	ADP	_	_	7	advmod	_	_
+2	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	1	fixed	_	_
+3	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	fixed	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	об	о	ADP	_	_	6	case	_	_
+6	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	7	obl	_	_
+7	говорили	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	представители	представитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+9	СП	сп	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	SpacesAfter=\s\s
+10	"	"	PUNCT	_	_	11	punct	_	_
+11	Джи	Джо	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	SpaceAfter=No
+12	-Эм-АвтоВАЗ	-эм-автоваз	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	"	"	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	на	на	ADP	_	_	16	case	_	_
+15	прошлогоднем	прошлогодний	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	автосалоне	автосалон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	Москве	москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	nmod	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 51
+# text = Производитель намерен поддерживать такое соотношение цен на машины с вазовским и " опелевским " моторами , при котором большинство сделает выбор в пользу последнего .
+1	Производитель	производитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	намерен	намерен	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+3	поддерживать	поддерживать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	такое	такой	DET	_	Case=Acc|Gender=Neut|Number=Sing	5	det	_	_
+5	соотношение	соотношение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+6	цен	цена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	машины	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	nmod	_	_
+9	с	с	ADP	_	_	15	case	_	_
+10	вазовским	вазовский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+11	и	и	CCONJ	_	_	13	cc	_	SpacesAfter=\s\s
+12	"	"	PUNCT	_	_	13	punct	_	_
+13	опелевским	опелевский	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	conj	_	_
+14	"	"	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	моторами	мотор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	nmod	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	при	при	ADP	_	_	18	case	_	_
+18	котором	который	PRON	_	Case=Loc	20	obl	_	_
+19	большинство	большинство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	20	nsubj	_	_
+20	сделает	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	15	acl:relcl	_	_
+21	выбор	выбор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	пользу	польза	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	nmod	_	_
+24	последнего	последний	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	23	nmod	_	_
+25	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\s\n
+
+# sent_id = 52
+# text = Кстати , в этой связи возникает вопрос : не был ли задуман перевод цен на " нивы " в евро как способ агитации за " Опель " и " Айсин " Или просто спрос на машину оказался выше , чем рассчитывали маркетологи СП Тогда обратим внимание еще на одно обстоятельство .
+1	Кстати	кстати	ADV	_	Degree=Pos	6	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	в	в	ADP	_	_	5	case	_	_
+4	этой	этот	DET	_	Case=Loc|Gender=Fem|Number=Sing	5	det	_	_
+5	связи	связь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+6	возникает	возникать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	:	:	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	не	не	PART	_	_	12	advmod	_	_
+10	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	aux:pass	_	_
+11	ли	ли	PART	_	_	12	discourse	_	_
+12	задуман	задумать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	appos	_	_
+13	перевод	перевод	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+14	цен	цена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	nmod	_	_
+15	на	на	ADP	_	_	17	case	_	SpacesAfter=\s\s
+16	"	"	PUNCT	_	_	17	punct	_	_
+17	нивы	нива	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	nmod	_	_
+18	"	"	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	в	в	ADP	_	_	20	case	_	_
+20	евро	евро	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	13	nmod	_	_
+21	как	как	SCONJ	_	_	22	mark	_	_
+22	способ	способ	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	advcl	_	_
+23	агитации	агитация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nmod	_	_
+24	за	за	ADP	_	_	26	case	_	SpacesAfter=\s\s
+25	"	"	PUNCT	_	_	26	punct	_	_
+26	Опель	опель	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
+27	"	"	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	и	и	CCONJ	_	_	30	cc	_	SpacesAfter=\s\s
+29	"	"	PUNCT	_	_	30	punct	_	_
+30	Айсин	Айсин	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_
+31	"	"	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+32	Или	или	CCONJ	_	_	37	cc	_	_
+33	просто	просто	PART	_	_	37	advmod	_	_
+34	спрос	спрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	nsubj	_	_
+35	на	на	ADP	_	_	36	case	_	_
+36	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	nmod	_	_
+37	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	22	conj	_	_
+38	выше	высоко	ADV	_	Degree=Cmp	37	advmod	_	_
+39	,	,	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+40	чем	чем	SCONJ	_	_	41	mark	_	_
+41	рассчитывали	рассчитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	38	advcl	_	_
+42	маркетологи	маркетолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	41	nsubj	_	_
+43	СП	сп	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+44	Тогда	тогда	ADV	_	Degree=Pos	41	advmod	_	_
+45	обратим	обращать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	41	xcomp	_	_
+46	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	45	obj	_	_
+47	еще	еще	ADV	_	Degree=Pos	50	obl	_	_
+48	на	на	ADP	_	_	50	case	_	_
+49	одно	один	NUM	_	Case=Acc|Gender=Neut	50	nummod:gov	_	_
+50	обстоятельство	обстоятельство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	45	obl	_	_
+51	.	.	PUNCT	_	_	50	punct	_	SpacesAfter=\s\s
+
+# sent_id = 53
+# text = Предновогодние скидки на " Шевроле-Ниву " приятно радовали и удивляли одновременно -- около 500 евро .
+1	Предновогодние	предновогодний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	amod	_	_
+2	скидки	скидка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+3	на	на	ADP	_	_	5	case	_	SpacesAfter=\s\s
+4	"	"	PUNCT	_	_	5	punct	_	_
+5	Шевроле-Ниву	Шевроле-Ниву	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	nmod	_	_
+6	"	"	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	приятно	приятный	ADV	_	Degree=Pos	8	advmod	_	_
+8	радовали	радовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	удивляли	удивлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+11	одновременно	одновременно	ADV	_	Degree=Pos	16	obl	_	_
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	_
+14	около	около	ADP	_	_	16	case	_	_
+15	500	500	NUM	_	_	16	nummod	_	_
+16	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 54
+# text = Таким образом , за машину просили минимум 288 888 руб . , или $ 9860 , или около 8000 евро .
+1	Таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	2	det	_	_
+2	образом	образ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	за	за	ADP	_	_	5	case	_	_
+5	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obl	_	_
+6	просили	просить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	nmod	_	_
+8	288	288	NUM	_	_	10	nummod	_	_
+9	888	888	NUM	_	_	10	nummod	_	_
+10	руб	рубль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+13	или	или	CCONJ	_	_	14	cc	_	SpacesAfter=\s\s
+14	$	$	SYM	_	_	6	conj	_	_
+15	9860	9860	NUM	_	_	14	nummod	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	или	или	CCONJ	_	_	20	cc	_	_
+18	около	около	ADP	_	_	20	case	_	_
+19	8000	8000	NUM	_	_	20	nummod	_	_
+20	евро	евро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 55
+# text = Это может быть свидетельством гибкой ценовой политики СП или . . . небольшого перебора с ценой , возникшего после перевода стоимости в евро при сохранении долларовых цифр .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	4	cop	_	_
+4	свидетельством	свидетельство	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+5	гибкой	гибкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+6	ценовой	ценовой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	политики	политика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+8	СП	сп	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	или	или	CCONJ	_	_	14	cc	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+12	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+13	небольшого	небольшой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	перебора	перебор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	conj	_	_
+15	с	с	ADP	_	_	16	case	_	_
+16	ценой	цена	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	возникшего	возникнуть	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	16	acl	_	_
+19	после	после	ADP	_	_	20	case	_	_
+20	перевода	перевод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	obl	_	_
+21	стоимости	стоимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	евро	евро	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	20	nmod	_	_
+24	при	при	ADP	_	_	25	case	_	_
+25	сохранении	сохранение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+26	долларовых	долларовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	27	amod	_	_
+27	цифр	цифра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	25	nmod	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+
+# sent_id = 56
+# text = Для потребителей последнее , наверное , тоже неплохо .
+1	Для	для	ADP	_	_	2	case	_	_
+2	потребителей	потребитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+3	последнее	последний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	наверное	наверное	ADV	_	Degree=Pos	8	parataxis	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	тоже	тоже	PART	_	_	8	discourse	_	_
+8	неплохо	неплохой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 57
+# text = По крайней мере , можно надеяться , что с дальнейшим ростом цен производитель спешить не будет .
+1	По	по	ADP	_	_	5	advmod	_	_
+2	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	1	fixed	_	_
+3	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	fixed	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	надеяться	надеяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	5	csubj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	что	что	SCONJ	_	_	14	mark	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	дальнейшим	дальнейший	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	ростом	рост	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	13	nmod	_	_
+12	цен	цена	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	производитель	производитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	спешить	спешить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	ccomp	_	_
+15	не	не	PART	_	_	14	advmod	_	_
+16	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	aux	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\n
+
+# sent_id = 58
+# text = ЭТО .
+1	ЭТО	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	.	.	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+
+# sent_id = 59
+# text = . . НУЖНО ОДНОМУ , А НЕ ВСЕМ Завершая рассказ , обратим ваше внимание на одно необычное обстоятельство .
+1	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+2	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+3	НУЖНО	нужный	ADV	_	Degree=Pos	4	obl	_	_
+4	ОДНОМУ	один	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	А	а	CCONJ	_	_	8	cc	_	_
+7	НЕ	не	PART	_	_	8	advmod	_	_
+8	ВСЕМ	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur	4	conj	_	SpacesAfter=\n
+9	Завершая	завершать	VERB	_	Aspect=Perf|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	8	acl	_	_
+10	рассказ	рассказ	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	обратим	обращать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	9	conj	_	_
+13	ваше	ваш	DET	_	Case=Acc|Gender=Neut|Number=Sing	14	det	_	_
+14	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+15	на	на	ADP	_	_	18	case	_	_
+16	одно	один	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+17	необычное	необычный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	обстоятельство	обстоятельство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	nmod	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 60
+# text = Экспортная машина в комплектации LX будет более мощной , безопасной , наверняка , еще лучше собранной , но . . . четырехместной .
+1	Экспортная	экспортный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	комплектации	комплектация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	nmod	_	_
+5	LX	lx	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+6	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+7	более	более	ADV	_	Degree=Cmp	8	obl	_	_
+8	мощной	мощный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	безопасной	безопасный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	8	conj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	наверняка	наверняка	ADV	_	Degree=Pos	8	parataxis	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	еще	еще	ADV	_	Degree=Pos	15	obl	_	_
+15	лучше	хороший	ADJ	_	Degree=Cmp	16	obl	_	_
+16	собранной	собирать	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	conj	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	но	но	CCONJ	_	_	22	cc	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+21	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+22	четырехместной	четырехместная	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	12	conj	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 61
+# text = По крайней мере , так говорят официальные материалы .
+1	По	по	ADP	_	_	6	advmod	_	_
+2	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	1	fixed	_	_
+3	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	1	fixed	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	так	так	ADV	_	Degree=Pos	6	advmod	_	_
+6	говорят	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	официальные	официальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	материалы	материал	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 62
+# text = Мы догадываемся , с чем это связано .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	догадываемся	догадываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	с	с	ADP	_	_	5	case	_	_
+5	чем	что	PRON	_	Case=Ins	7	obl	_	_
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj:pass	_	_
+7	связано	связывать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	ccomp	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 63
+# text = Например , со сложностями при обеспечении безопасности пятого пассажира или с превышением расчетной полной массы автомобиля .
+1	Например	например	ADV	_	Degree=Pos	4	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	со	с	ADP	_	_	4	case	_	_
+4	сложностями	сложность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	0	root	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	обеспечении	обеспечение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	4	nmod	_	_
+7	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	пятого	пятый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	пассажира	пассажир	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	или	или	CCONJ	_	_	12	cc	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	превышением	превышение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	6	conj	_	_
+13	расчетной	расчетный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+14	полной	полный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	массы	масса	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+16	автомобиля	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 64
+# text = Но даже придумав ( для себя ) такие объяснения , продолжаем удивляться странному решению производителя .
+1	Но	но	CCONJ	_	_	11	cc	_	_
+2	даже	даже	PART	_	_	3	discourse	_	_
+3	придумав	придумать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	11	advcl	_	SpacesAfter=\s\s
+4	(	(	PUNCT	_	_	5	punct	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	себя	себя	PRON	_	Case=Gen	3	obl	_	_
+7	)	)	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	такие	такой	DET	_	Case=Acc|Number=Plur	9	det	_	_
+9	объяснения	объяснение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	3	obj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	продолжаем	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+12	удивляться	удивляться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	11	xcomp	_	_
+13	странному	странный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	решению	решение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	iobj	_	_
+15	производителя	производитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 65
+# text = На наш взгляд , такие трудности с сертификацией не могут его оправдать : ведь даже " Мицубиси-Паджеро Пинин " с пятидверным кузовом -- автомобиль пятиместный , хотя он заметно меньше тольяттинской машины .
+1	На	на	ADP	_	_	3	case	_	_
+2	наш	наш	DET	_	Case=Acc|Gender=Masc|Number=Sing	3	det	_	_
+3	взгляд	взгляд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	10	parataxis	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	такие	такой	DET	_	Case=Nom|Number=Plur	6	det	_	_
+6	трудности	трудность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	сертификацией	сертификация	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	6	nmod	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+12	оправдать	оправдывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+13	:	:	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	ведь	ведь	PART	_	_	15	discourse	_	_
+15	даже	даже	PART	_	_	17	discourse	_	SpacesAfter=\s\s
+16	"	"	PUNCT	_	_	17	punct	_	_
+17	Мицубиси-Паджеро	Мицубиси-Паджеро	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+18	Пинин	Пинин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	flat:name	_	_
+19	"	"	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	с	с	ADP	_	_	22	case	_	_
+21	пятидверным	пятидверный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	кузовом	кузов	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	17	nmod	_	_
+23	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	22	punct	_	_
+25	автомобиль	автомобиль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	17	parataxis	_	_
+26	пятиместный	пятиместный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	25	amod	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	хотя	хотя	SCONJ	_	_	31	mark	_	_
+29	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	31	nsubj	_	_
+30	заметно	заметно	ADV	_	Degree=Pos	31	advmod	_	_
+31	меньше	мало	ADJ	_	Degree=Cmp	10	parataxis	_	_
+32	тольяттинской	тольяттинский	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	33	amod	_	_
+33	машины	машина	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	31	obl	_	_
+34	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+
+# sent_id = 66
+# text = Или опять временное решение Неужели и этому " Джи-Эм " успел научиться у российских коллег . . .
+1	Или	или	CCONJ	_	_	11	cc	_	_
+2	опять	опять	ADV	_	Degree=Pos	11	advmod	_	_
+3	временное	временный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	4	amod	_	_
+4	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+5	Неужели	неужели	PART	_	_	11	advmod	_	_
+6	и	и	PART	_	_	7	discourse	_	_
+7	этому	этот	DET	_	Case=Dat|Gender=Masc|Number=Sing	9	det	_	SpacesAfter=\s\s
+8	"	"	PUNCT	_	_	9	punct	_	_
+9	Джи-Эм	Джи-эм	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nsubj	_	_
+10	"	"	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	успел	успевать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+12	научиться	научаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	obl	_	_
+13	у	в	ADP	_	_	15	case	_	_
+14	российских	российский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+15	коллег	коллега	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+18	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\n
+

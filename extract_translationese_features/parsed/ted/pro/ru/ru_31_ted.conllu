@@ -1,0 +1,2809 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Всё , что следует далее , -- это моё мнение , и оно не отражает мнение или политику какой-либо прокуратуры .
+1	Всё	все	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	nsubj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	что	что	PRON	_	Case=Acc	4	obj	_	_
+4	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+5	далее	далее	ADV	_	Degree=Pos	4	advmod	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	5	punct	_	_
+9	это	это	PRON	_	_	11	cop	_	_
+10	моё	мой	DET	_	Case=Acc|Gender=Neut|Number=Sing	11	det	_	_
+11	мнение	мнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	0	root	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	и	и	CCONJ	_	_	16	cc	_	_
+14	оно	оно	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3	16	nsubj	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	отражает	отражать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+17	мнение	мнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obj	_	_
+18	или	или	CCONJ	_	_	19	cc	_	_
+19	политику	политика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	17	conj	_	_
+20	какой-либо	какой-либо	DET	_	Case=Gen|Gender=Fem|Number=Sing	21	det	_	_
+21	прокуратуры	прокуратура	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Я прокурор .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	прокурор	прокурор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 3
+# text = Я верю в закон и порядок .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	верю	верить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	закон	закон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	порядок	порядок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	conj	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Я приёмный сын полицейского , пехотинца и парихмахера .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+2	приёмный	приемный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	сын	сын	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	полицейского	полицейский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	пехотинца	пехотиннец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	парихмахера	парихмахер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	conj	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = Я верю в ответственность и в то , что в наших общинах мы должны находиться в безопасности .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	верю	верить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	ответственность	ответственность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+5	и	и	CCONJ	_	_	7	cc	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	conj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	что	что	SCONJ	_	_	14	mark	_	_
+10	в	в	ADP	_	_	12	case	_	_
+11	наших	наш	DET	_	Case=Loc|Number=Plur	12	det	_	_
+12	общинах	община	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	14	obl	_	_
+13	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	14	nsubj	_	_
+14	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	acl	_	_
+15	находиться	находиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	14	xcomp	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	15	obl	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = Я люблю свою работу и людей , которые ей занимаются .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	люблю	любить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	det	_	_
+4	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	conj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	которые	который	PRON	_	Case=Nom	10	nsubj	_	_
+9	ей	она	PRON	_	Case=Dat|Gender=Fem|Number=Sing|Person=3	10	iobj	_	_
+10	занимаются	заниматься	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Я думаю , мы ответственны за то , чтобы делать её лучше .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	думаю	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+5	ответственны	ответственный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+6	за	за	ADP	_	_	7	case	_	_
+7	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	чтобы	что	SCONJ	_	Mood=Cnd	10	mark	_	_
+10	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	acl	_	_
+11	её	она	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	лучше	хороший	ADJ	_	Degree=Cmp	10	obl	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Поднимите руки те , кто к 25 годам или плохо себя вёл в школе , ходил туда , куда вам говорили не ходить , или пил алкоголь , не достигнув совершеннолетия Хорошо .
+1	Поднимите	поднять	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	32	csubj	_	_
+2	руки	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	1	obj	_	_
+3	те	тот	DET	_	Case=Nom|Number=Plur	1	det	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	кто	кто	PRON	_	Case=Nom	12	nsubj	_	_
+6	к	к	ADP	_	_	8	case	_	_
+7	25	25	NUM	_	_	8	nummod	_	_
+8	годам	год	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	12	obl	_	_
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	плохо	плохо	ADV	_	Degree=Pos	8	conj	_	_
+11	себя	себя	PRON	_	Case=Acc	12	obj	_	_
+12	вёл	вести	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	школе	школа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	ходил	ходить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+17	туда	туда	ADV	_	Degree=Pos	16	advmod	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	куда	куда	ADV	_	Degree=Pos	21	advmod	_	_
+20	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	21	iobj	_	_
+21	говорили	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	ходить	ходить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+25	или	или	CCONJ	_	_	26	cc	_	_
+26	пил	пила	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+27	алкоголь	алкоголь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	не	не	PART	_	_	30	advmod	_	_
+30	достигнув	достигнуть	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	32	advcl	_	_
+31	совершеннолетия	совершеннолетие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	30	obj	_	SpacesAfter=\n
+32	Хорошо	хорошо	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = Кто из вас крал из магазина , пробовал наркотики или дрался -- да , хотя бы сестрой или братом Кто из вас провёл хоть одну ночь в тюрьме за вышеназванные поступки Кто из вас , сидящих здесь , считает себя опасностью для общества или думает , что о вас следует судить по ошибкам молодости Понятно . Когда мы говорим о реформе уголовного правосудия , мы часто заостряем внимание на нескольких моментах , об этом я и хочу с вами сегодня поговорить .
+1	Кто	кто	PRON	_	Case=Nom	4	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	1	nmod	_	_
+4	крал	красть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	магазина	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	пробовал	пробовать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+9	наркотики	наркотик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	obj	_	_
+10	или	или	CCONJ	_	_	11	cc	_	_
+11	дрался	драться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	_
+14	да	да	PART	_	_	24	parataxis	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	хотя	хотя	PART	_	_	18	advmod	_	_
+17	бы	бы	PART	_	_	16	fixed	_	_
+18	сестрой	сестра	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Sing	21	obl	_	_
+19	или	или	CCONJ	_	_	20	cc	_	_
+20	братом	брат	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	18	conj	_	_
+21	Кто	кто	PRON	_	Case=Nom	24	nsubj	_	_
+22	из	из	ADP	_	_	23	case	_	_
+23	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	24	obl	_	_
+24	провёл	проводить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+25	хоть	хоть	ADV	_	Degree=Pos	26	advmod	_	_
+26	одну	один	NUM	_	Case=Acc|Gender=Fem	27	nummod:gov	_	_
+27	ночь	ночь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	тюрьме	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	nmod	_	_
+30	за	за	ADP	_	_	32	case	_	_
+31	вышеназванные	вышеназванный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	32	amod	_	_
+32	поступки	поступок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	24	obl	_	_
+33	Кто	кто	PRON	_	Case=Nom	40	nsubj	_	_
+34	из	из	ADP	_	_	35	case	_	_
+35	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	33	nmod	_	_
+36	,	,	PUNCT	_	_	35	punct	_	SpacesAfter=\s\s
+37	сидящих	сидеть	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	33	acl	_	_
+38	здесь	здесь	ADV	_	Degree=Pos	37	advmod	_	_
+39	,	,	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+40	считает	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	32	parataxis	_	_
+41	себя	себя	PRON	_	Case=Acc	40	obj	_	_
+42	опасностью	опасность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	40	obl	_	_
+43	для	для	ADP	_	_	44	case	_	_
+44	общества	общество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	42	nmod	_	_
+45	или	или	CCONJ	_	_	46	cc	_	_
+46	думает	думать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	40	conj	_	_
+47	,	,	PUNCT	_	_	46	punct	_	SpacesAfter=\s\s
+48	что	что	SCONJ	_	_	51	mark	_	_
+49	о	о	ADP	_	_	50	case	_	_
+50	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	52	obl	_	_
+51	следует	следовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	46	ccomp	_	_
+52	судить	судить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	51	csubj	_	_
+53	по	по	ADP	_	_	54	case	_	_
+54	ошибкам	ошибка	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	52	obl	_	_
+55	молодости	молодость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	54	nmod	_	SpacesAfter=\n
+56	Понятно	понятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	40	conj	_	_
+57	.	.	PUNCT	_	_	56	punct	_	SpacesAfter=\s\n
+58	Когда	когда	SCONJ	_	_	60	mark	_	_
+59	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	60	nsubj	_	_
+60	говорим	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	68	advcl	_	_
+61	о	о	ADP	_	_	62	case	_	_
+62	реформе	реформа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	60	obl	_	_
+63	уголовного	уголовный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	64	amod	_	_
+64	правосудия	правосудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	62	nmod	_	_
+65	,	,	PUNCT	_	_	64	punct	_	SpacesAfter=\s\s
+66	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	68	nsubj	_	_
+67	часто	часто	ADV	_	Degree=Pos	68	advmod	_	_
+68	заостряем	заострять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	56	csubj	_	_
+69	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	68	obj	_	_
+70	на	на	ADP	_	_	72	case	_	_
+71	нескольких	несколько	NUM	_	Case=Loc	72	nummod	_	_
+72	моментах	момент	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	69	nmod	_	_
+73	,	,	PUNCT	_	_	72	punct	_	SpacesAfter=\s\s
+74	об	о	ADP	_	_	75	case	_	_
+75	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	78	obl	_	_
+76	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	78	nsubj	_	_
+77	и	и	PART	_	_	78	discourse	_	_
+78	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	68	parataxis	_	_
+79	с	с	ADP	_	_	80	case	_	_
+80	вами	вы	PRON	_	Case=Ins|Number=Plur|Person=2	78	obl	_	_
+81	сегодня	сегодня	ADV	_	Degree=Pos	82	advmod	_	_
+82	поговорить	говорить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	78	xcomp	_	_
+83	.	.	PUNCT	_	_	82	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Но сначала , поскольку вы со мной поделились , я тоже вам признаюсь .
+1	Но	но	CCONJ	_	_	13	cc	_	_
+2	сначала	сначала	ADV	_	Degree=Pos	13	advmod	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	поскольку	поскольку	SCONJ	_	_	8	mark	_	_
+5	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	8	nsubj	_	_
+6	со	с	ADP	_	_	7	case	_	_
+7	мной	я	PRON	_	Case=Ins|Number=Sing|Person=1	8	obl	_	_
+8	поделились	делиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	13	advcl	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	13	nsubj	_	_
+11	тоже	тоже	PART	_	_	13	discourse	_	_
+12	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	13	iobj	_	_
+13	признаюсь	признаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 11
+# text = Я пошёл на юрфак , чтобы зарабатывать деньги . Меня не интересовала работа чиновника , меня не интересовало уголовное право , и мне в голову не приходила мысль , что я когда-нибудь стану прокурором .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	пошёл	пойти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	юрфак	юрфак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	чтобы	чтобы	SCONJ	_	Mood=Cnd	7	mark	_	_
+7	зарабатывать	зарабатывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	advcl	_	_
+8	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	Меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	12	obj	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	интересовала	интересовать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+13	работа	работа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+14	чиновника	чиновник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	18	obl	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	интересовало	интересовать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+19	уголовное	уголовный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	право	право	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	и	и	CCONJ	_	_	27	cc	_	_
+23	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	27	iobj	_	_
+24	в	в	ADP	_	_	25	case	_	_
+25	голову	голова	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	obl	_	_
+26	не	не	PART	_	_	27	advmod	_	_
+27	приходила	приходить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+28	мысль	мысль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	nsubj	_	_
+29	,	,	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	что	что	SCONJ	_	_	34	mark	_	_
+31	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	34	nsubj	_	_
+32	когда	когда	SCONJ	_	_	34	mark	_	SpaceAfter=No
+33	-нибудь	-нибудь	ADV	_	Degree=Pos	34	advmod	_	_
+34	стану	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	28	acl	_	_
+35	прокурором	прокурор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	34	obl	_	_
+36	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = К концу первого курса юрфака я начал стажировку в городском суде района Роксбури в Бостоне .
+1	К	к	ADP	_	_	2	case	_	_
+2	концу	конец	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	7	obl	_	_
+3	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	курса	курс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	юрфака	юрфак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	7	nsubj	_	_
+7	начал	начинать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	стажировку	стажировка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	городском	городской	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	суде	суд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+12	района	район	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	Роксбури	Роксбури	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	appos	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	Бостоне	бостон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 13
+# text = Я знал , что Роксбури был бедным районом Бостона , где свирепствовали преступления с применением оружия и наркотики .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	знал	знать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	что	что	SCONJ	_	_	8	mark	_	_
+5	Роксбури	Роксбури	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+7	бедным	бедный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	районом	район	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	ccomp	_	_
+9	Бостона	бостон	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	где	где	ADV	_	Degree=Pos	12	advmod	_	_
+12	свирепствовали	свирепствовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+13	преступления	преступление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obj	_	_
+14	с	с	ADP	_	_	15	case	_	_
+15	применением	применение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	13	nmod	_	_
+16	оружия	оружие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	наркотики	наркотик	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	conj	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 14
+# text = Моя жизнь и юридическая карьера изменились в первый день стажировки .
+1	Моя	мой	DET	_	Case=Nom|Gender=Fem|Number=Sing	2	det	_	_
+2	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+3	и	и	CCONJ	_	_	5	cc	_	_
+4	юридическая	юридический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	карьера	карьера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	conj	_	_
+6	изменились	изменяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	первый	первый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+10	стажировки	стажировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = Я вошёл в зал суда и увидел людей , которые один за другим выходили вперёд , чтобы сказать только два слова : " Не виновен " .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	вошёл	войти	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	зал	зал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+5	суда	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	увидел	видеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	которые	который	PRON	_	Case=Nom	14	nsubj	_	_
+11	один	один	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	14	obl	_	_
+12	за	за	ADP	_	_	11	fixed	_	_
+13	другим	другой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	11	fixed	_	_
+14	выходили	выходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	acl:relcl	_	_
+15	вперёд	вперед	ADV	_	Degree=Pos	14	advmod	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	чтобы	чтобы	SCONJ	_	Mood=Cnd	18	mark	_	_
+18	сказать	сказать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	advcl	_	_
+19	только	только	PART	_	_	20	advmod	_	_
+20	два	два	NUM	_	Case=Acc|Gender=Neut	21	nummod:gov	_	_
+21	слова	слово	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	obl	_	_
+22	:	:	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s\s
+23	"	"	PUNCT	_	_	24	punct	_	_
+24	Не	не	PART	_	_	25	advmod	_	_
+25	виновен	виновный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	21	parataxis	_	_
+26	"	"	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+27	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = В основном они были темнокожими .
+1	В	в	ADP	_	_	2	case	_	_
+2	основном	основной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	темнокожими	темнокожий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 17
+# text = После чего судья , адвокат и прокурор принимали решения , меняющие жизнь людей , не выслушав их .
+1	После	после	ADP	_	_	2	case	_	_
+2	чего	что	PRON	_	Case=Gen	8	obl	_	_
+3	судья	судья	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	адвокат	адвокат	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	прокурор	прокурор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
+8	принимали	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	решения	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	меняющие	менять	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	9	acl	_	_
+12	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	не	не	PART	_	_	16	advmod	_	_
+16	выслушав	выслушивать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	8	advcl	_	_
+17	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	16	obj	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = В основном они были белыми .
+1	В	в	ADP	_	_	2	case	_	_
+2	основном	основной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	5	nsubj	_	_
+4	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
+5	белыми	белый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 19
+# text = Про каждого из выходящих вперёд я не мог не думать : " Как они сюда попали " Мне хотелось узнать их истории . Будучи прокурором и читая факты каждого дела , я про себя думал , мы могли бы это предвидеть .
+1	Про	про	ADP	_	_	2	case	_	_
+2	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	8	obl	_	_
+3	из	из	ADP	_	_	4	mark	_	_
+4	выходящих	выходить	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	2	nmod	_	_
+5	вперёд	вперед	ADV	_	Degree=Pos	8	advmod	_	_
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	думать	думать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	:	:	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s\s
+12	"	"	PUNCT	_	_	13	punct	_	_
+13	Как	как	ADV	_	Degree=Pos	16	advmod	_	_
+14	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	16	nsubj	_	_
+15	сюда	сюда	ADV	_	Degree=Pos	16	advmod	_	_
+16	попали	попадать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	ccomp	_	_
+17	"	"	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+18	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	19	iobj	_	_
+19	хотелось	хотеться	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	16	xcomp	_	_
+20	узнать	узнавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	19	xcomp	_	_
+21	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	22	nmod	_	_
+22	истории	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	obj	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	Будучи	быть	AUX	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	25	cop	_	_
+25	прокурором	прокурор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	35	obl	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	читая	читать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	25	conj	_	_
+28	факты	факт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	27	obj	_	_
+29	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	30	amod	_	_
+30	дела	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	28	nmod	_	_
+31	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+32	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	35	nsubj	_	_
+33	про	про	ADP	_	_	34	case	_	_
+34	себя	себя	PRON	_	Case=Acc	35	obl	_	_
+35	думал	думать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	parataxis	_	_
+36	,	,	PUNCT	_	_	35	punct	_	SpacesAfter=\s\s
+37	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	38	nsubj	_	_
+38	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	35	conj	_	_
+39	бы	бы	PART	_	Mood=Cnd	38	aux	_	_
+40	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	41	obj	_	_
+41	предвидеть	предвидеть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	38	xcomp	_	_
+42	.	.	PUNCT	_	_	41	punct	_	SpacesAfter=\s\s
+
+# sent_id = 20
+# text = И кажется , что такое легко предотвратить , и не потому , что я эксперт по уголовному праву , а потому , что это отвечает здравому смыслу .
+1	И	и	CCONJ	_	_	2	cc	_	_
+2	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	что	что	SCONJ	_	_	6	mark	_	_
+5	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	7	det	_	_
+6	легко	легкий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	ccomp	_	_
+7	предотвратить	предотвращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	csubj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	потому	потому	ADV	_	Degree=Pos	2	conj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	что	что	SCONJ	_	_	15	mark	_	_
+14	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	15	nsubj	_	_
+15	эксперт	эксперт	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	advcl	_	_
+16	по	по	ADP	_	_	18	case	_	_
+17	уголовному	уголовный	ADJ	_	Case=Dat|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	праву	право	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	15	nmod	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	а	а	CCONJ	_	_	21	cc	_	_
+21	потому	потому	ADV	_	Degree=Pos	11	conj	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	что	что	SCONJ	_	_	25	mark	_	_
+24	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	25	nsubj	_	_
+25	отвечает	отвечать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl	_	_
+26	здравому	здравый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	смыслу	смысл	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	25	iobj	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\n
+
+# sent_id = 21
+# text = За период стажировки я начал узнавать в зале людей , не потому , что они были преступными гениями , а потому , что они приходили к нам за помощью , а мы отправляли их , этой помощи не оказав .
+1	За	за	ADP	_	_	2	case	_	_
+2	период	период	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+3	стажировки	стажировка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
+5	начал	начинать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	узнавать	узнавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	зале	зал	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+9	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	не	не	PART	_	_	12	advmod	_	_
+12	потому	потому	ADV	_	Degree=Pos	6	advmod	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	что	что	SCONJ	_	_	18	mark	_	_
+15	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	18	nsubj	_	_
+16	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	18	cop	_	_
+17	преступными	преступный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	_
+18	гениями	гений	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	12	advcl	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	а	а	CCONJ	_	_	21	cc	_	_
+21	потому	потому	ADV	_	Degree=Pos	12	conj	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	что	что	SCONJ	_	_	25	mark	_	_
+24	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	25	nsubj	_	_
+25	приходили	приходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	21	advcl	_	_
+26	к	к	ADP	_	_	27	case	_	_
+27	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	25	obl	_	_
+28	за	за	ADP	_	_	29	case	_	_
+29	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	25	obl	_	_
+30	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	а	а	CCONJ	_	_	33	cc	_	_
+32	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	33	nsubj	_	_
+33	отправляли	отправлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	25	conj	_	_
+34	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	33	obj	_	_
+35	,	,	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+36	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	37	det	_	_
+37	помощи	помощь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	39	obl	_	_
+38	не	не	PART	_	_	39	advmod	_	_
+39	оказав	оказать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	33	advcl	_	_
+40	.	.	PUNCT	_	_	39	punct	_	SpacesAfter=\s\n
+
+# sent_id = 22
+# text = На втором курсе юрфака я работал помощником адвоката , и мне удалось познакомиться с молодыми людьми , обвинёнными в убийствах .
+1	На	на	ADP	_	_	3	case	_	_
+2	втором	второй	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	курсе	курс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	юрфака	юрфак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
+6	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	помощником	помощник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+8	адвоката	адвокат	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	и	и	CCONJ	_	_	12	cc	_	_
+11	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	12	iobj	_	_
+12	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	conj	_	_
+13	познакомиться	знакомиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	12	csubj	_	_
+14	с	с	ADP	_	_	16	case	_	_
+15	молодыми	молодой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	16	amod	_	_
+16	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	13	obl	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	обвинёнными	обвинёть	VERB	_	Aspect=Perf|Case=Ins|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	16	acl	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	убийствах	убийство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	18	obl	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = И даже в самом плохом я видел человеческую историю .
+1	И	и	CCONJ	_	_	7	cc	_	_
+2	даже	даже	PART	_	_	5	discourse	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	плохом	плохой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	7	obl	_	_
+6	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	7	nsubj	_	_
+7	видел	видеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	человеческую	человеческий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = У всех были детские травмы , издевательства , бедность , потери , прогулы в школе , раннее знакомство с полицией и системой уголовного правосудия -- всё , что приводит в зал суда . Признанные виновными в убийстве были обречены на смерть в тюрьме , и во время встреч с этими людьми я не мог понять , почему мы тратим огромные суммы на содержание одного человека в тюрьме в течение 80 лет , когда мы могли бы вложить эти деньги авансом и , возможно , с самого начала предотвратить случившееся .
+1	У	у	ADP	_	_	2	case	_	_
+2	всех	все	PRON	_	Animacy=Anim|Case=Gen|Number=Plur	3	obl	_	_
+3	были	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	детские	детский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	травмы	травма	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	3	nsubj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	издевательства	издевательство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	conj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	бедность	бедность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	потери	потеря	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	5	conj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	прогулы	прогул	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	5	conj	_	_
+14	в	в	ADP	_	_	15	case	_	_
+15	школе	школа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	13	nmod	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	раннее	ранний	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	знакомство	знакомство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+19	с	с	ADP	_	_	20	case	_	_
+20	полицией	полиция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	nmod	_	_
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	20	conj	_	_
+23	уголовного	уголовный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	24	amod	_	_
+24	правосудия	правосудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	nmod	_	_
+25	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	-	-	PUNCT	_	_	24	punct	_	_
+27	всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	40	nsubj	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	что	что	PRON	_	Case=Nom	30	nsubj	_	_
+30	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	acl:relcl	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	зал	зал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obl	_	_
+33	суда	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	32	nmod	_	_
+34	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+35	Признанные	признавать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	32	acl	_	_
+36	виновными	виновный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	35	obl	_	_
+37	в	в	ADP	_	_	38	case	_	_
+38	убийстве	убийство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	36	nmod	_	_
+39	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	40	aux:pass	_	_
+40	обречены	обрекать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	3	conj	_	_
+41	на	на	ADP	_	_	42	case	_	_
+42	смерть	смерть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	40	obl	_	_
+43	в	в	ADP	_	_	44	case	_	_
+44	тюрьме	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	42	nmod	_	_
+45	,	,	PUNCT	_	_	44	punct	_	SpacesAfter=\s\s
+46	и	и	CCONJ	_	_	55	cc	_	_
+47	во	во	ADP	_	_	49	case	_	_
+48	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	47	fixed	_	_
+49	встреч	встреча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	55	obl	_	_
+50	с	с	ADP	_	_	52	case	_	_
+51	этими	этот	DET	_	Case=Ins|Number=Plur	52	det	_	_
+52	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	49	nmod	_	_
+53	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	55	nsubj	_	_
+54	не	не	PART	_	_	55	advmod	_	_
+55	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+56	понять	понимать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	55	xcomp	_	_
+57	,	,	PUNCT	_	_	56	punct	_	SpacesAfter=\s\s
+58	почему	почему	ADV	_	Degree=Pos	60	advmod	_	_
+59	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	60	nsubj	_	_
+60	тратим	тратить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	56	ccomp	_	_
+61	огромные	огромный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	62	amod	_	_
+62	суммы	сумма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	60	obj	_	_
+63	на	на	ADP	_	_	64	case	_	_
+64	содержание	содержание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	62	nmod	_	_
+65	одного	один	NUM	_	Case=Gen|Gender=Masc	66	nummod	_	_
+66	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	64	nmod	_	_
+67	в	в	ADP	_	_	68	case	_	_
+68	тюрьме	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	60	obl	_	_
+69	в	в	ADP	_	_	72	case	_	_
+70	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	69	fixed	_	_
+71	80	80	NUM	_	_	72	nummod	_	_
+72	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	60	obl	_	_
+73	,	,	PUNCT	_	_	72	punct	_	SpacesAfter=\s\s
+74	когда	когда	SCONJ	_	_	76	mark	_	_
+75	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	76	nsubj	_	_
+76	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	60	advcl	_	_
+77	бы	бы	PART	_	Mood=Cnd	76	aux	_	_
+78	вложить	вкладывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	76	xcomp	_	_
+79	эти	этот	DET	_	Case=Acc|Number=Plur	80	det	_	_
+80	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	78	obj	_	_
+81	авансом	аванс	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	78	obl	_	_
+82	и	и	CCONJ	_	_	89	cc	_	_
+83	,	,	PUNCT	_	_	82	punct	_	SpacesAfter=\s\s
+84	возможно	возможно	ADV	_	Degree=Pos	88	parataxis	_	_
+85	,	,	PUNCT	_	_	84	punct	_	SpacesAfter=\s\s
+86	с	с	ADP	_	_	88	case	_	_
+87	самого	самый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	88	amod	_	_
+88	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	89	obl	_	_
+89	предотвратить	предотвращать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	78	conj	_	_
+90	случившееся	случаться	VERB	_	Aspect=Perf|Case=Acc|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	89	xcomp	_	_
+91	.	.	PUNCT	_	_	90	punct	_	SpacesAfter=\s\n
+
+# sent_id = 25
+# text = На третьем курсе юрфака я защищал людей , обвинённых в мелких уличных преступлениях , в основном душевнобольных , в основном бездомных , в основном наркоманов -- все они нуждались в помощи .
+1	На	на	ADP	_	_	3	case	_	_
+2	третьем	третий	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	курсе	курс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+4	юрфака	юрфак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
+6	защищал	защищать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	обвинённых	обвинить	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+10	в	в	ADP	_	_	13	case	_	_
+11	мелких	мелкий	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+12	уличных	уличный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	преступлениях	преступление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	obl	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	в	в	ADP	_	_	16	case	_	_
+16	основном	основной	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	17	obl	_	_
+17	душевнобольных	душевнобольной	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	acl	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	в	в	ADP	_	_	20	case	_	_
+20	основном	основной	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	21	obl	_	_
+21	бездомных	бездомный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	17	conj	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	в	в	ADP	_	_	24	case	_	_
+24	основном	основной	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	30	obl	_	_
+25	наркоманов	наркоман	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	24	nmod	_	_
+26	-	-	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	-	-	PUNCT	_	_	25	punct	_	_
+28	все	весь	DET	_	Case=Nom|Number=Plur	29	det	_	_
+29	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	30	nsubj	_	_
+30	нуждались	нуждаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	17	conj	_	_
+31	в	в	ADP	_	_	32	case	_	_
+32	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	30	obl	_	_
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+
+# sent_id = 26
+# text = Они приходили к нам , а мы отправляли их , этой помощи не оказав .
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	приходили	приходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	к	к	ADP	_	_	4	case	_	_
+4	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	2	obl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	а	а	CCONJ	_	_	8	cc	_	_
+7	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	8	nsubj	_	_
+8	отправляли	отправлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	8	obj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	этой	этот	DET	_	Case=Gen|Gender=Fem|Number=Sing	12	det	_	_
+12	помощи	помощь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	obl	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	оказав	оказать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	8	advcl	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 27
+# text = Они нуждались в нашей поддержке .
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	нуждались	нуждаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	в	в	ADP	_	_	5	case	_	_
+4	нашей	наш	DET	_	Case=Loc|Gender=Fem|Number=Sing	5	det	_	_
+5	поддержке	поддержка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 28
+# text = Но мы её им не давали .
+1	Но	но	CCONJ	_	_	6	cc	_	_
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
+3	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	6	obj	_	_
+4	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	6	iobj	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	давали	давать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 29
+# text = Обвиняли , осуждали и защищали люди , которые не имели о них никакого понятия .
+1	Обвиняли	обвинять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	осуждали	осуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	защищали	защищать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+6	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	которые	который	PRON	_	Case=Nom	10	nsubj	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	имели	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+11	о	о	ADP	_	_	12	case	_	_
+12	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	10	obl	_	_
+13	никакого	никакой	DET	_	Case=Gen|Gender=Neut|Number=Sing	14	det	_	_
+14	понятия	понятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 30
+# text = Меня заставила заняться уголовным правосудием шокирующая неэффективность .
+1	Меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	2	obj	_	_
+2	заставила	заставлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	заняться	заниматься	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
+4	уголовным	уголовный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	правосудием	правосудие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+6	шокирующая	шокируть	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	2	nsubj	_	_
+7	неэффективность	неэффективность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = Несправедливость всего этого заставила меня стать защитником . Динамика власти , которую я стал понимать , заставила меня стать прокурором .
+1	Несправедливость	несправедливость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+2	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	3	det	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	nmod	_	_
+4	заставила	заставлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	4	obj	_	_
+6	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	4	xcomp	_	_
+7	защитником	защитник	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	6	obl	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	Динамика	динамика	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+10	власти	власть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	которую	который	PRON	_	Case=Acc	15	obj	_	_
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	14	nsubj	_	_
+14	стал	стать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+15	понимать	понимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	заставила	заставлять	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+18	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	17	obj	_	_
+19	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	17	xcomp	_	_
+20	прокурором	прокурор	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	19	obl	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\n
+
+# sent_id = 32
+# text = Мне не хочется уделять время этой проблеме .
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	3	iobj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	хочется	хотеться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	уделять	уделять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	этой	этот	DET	_	Case=Dat|Gender=Fem|Number=Sing	7	det	_	_
+7	проблеме	проблема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 33
+# text = Мы в курсе , что уголовное правосудие нуждается в реформе ; мы в курсе , что в американских тюрьмах находится 23 миллиона человек , что делает нас самым " заключённым " народом на планете .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	курсе	курс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	8	mark	_	_
+6	уголовное	уголовный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	правосудие	правосудие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+8	нуждается	нуждаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	3	acl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	реформе	реформа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+11	;	;	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	14	nsubj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	курсе	курс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	conj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	что	что	SCONJ	_	_	20	mark	_	_
+17	в	в	ADP	_	_	19	case	_	_
+18	американских	американский	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	19	amod	_	_
+19	тюрьмах	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	20	obl	_	_
+20	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	acl	_	_
+21	23	23	NUM	_	_	22	nummod	_	_
+22	миллиона	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nummod:gov	_	_
+23	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nsubj	_	_
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+25	что	что	PRON	_	Case=Nom	26	nsubj	_	_
+26	делает	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+27	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	26	obj	_	_
+28	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	SpacesAfter=\s\s
+29	"	"	PUNCT	_	_	30	punct	_	_
+30	заключённым	заключенный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+31	"	"	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+32	народом	народ	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	26	obl	_	_
+33	на	на	ADP	_	_	34	case	_	_
+34	планете	планета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	32	nmod	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+
+# sent_id = 34
+# text = Ещё 7 миллионов человек находятся на испытательных или условных сроках ; мы в курсе , что система уголовного правосудия несоразмерно воздействует на небелокожих , особенно неимущих .
+1	Ещё	еще	ADV	_	Degree=Pos	3	obl	_	_
+2	7	7	NUM	_	_	3	nummod	_	_
+3	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_
+4	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	находятся	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	на	на	ADP	_	_	10	case	_	_
+7	испытательных	испытательный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+8	или	или	CCONJ	_	_	9	cc	_	_
+9	условных	условный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	7	conj	_	_
+10	сроках	срок	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	5	obl	_	_
+11	;	;	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	курсе	курс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	что	что	SCONJ	_	_	21	mark	_	_
+17	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+18	уголовного	уголовный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	правосудия	правосудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	nmod	_	_
+20	несоразмерно	несоразмерно	ADV	_	Degree=Pos	21	advmod	_	_
+21	воздействует	воздействовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	ccomp	_	_
+22	на	на	ADP	_	_	23	case	_	_
+23	небелокожих	небелокожий	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+25	особенно	особенно	ADV	_	Degree=Pos	26	obl	_	_
+26	неимущих	неимущий	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	23	amod	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 35
+# text = И мы в курсе , что повсюду можно встретить недостатки системы , которые приводят людей в залы суда .
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	курсе	курс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	что	что	SCONJ	_	_	8	mark	_	_
+7	повсюду	повсюду	ADV	_	Degree=Pos	8	advmod	_	_
+8	можно	можно	ADV	_	Degree=Pos	4	ccomp	_	_
+9	встретить	встречать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	_	_
+10	недостатки	недостаток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	9	obj	_	_
+11	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	которые	который	PRON	_	Case=Nom	14	nsubj	_	_
+14	приводят	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+15	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+16	в	в	ADP	_	_	17	case	_	_
+17	залы	зал	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+18	суда	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 36
+# text = Но что мы не обсуждаем -- это насколько неподготовлены наши прокуроры к их приёму .
+1	Но	но	CCONJ	_	_	5	cc	_	_
+2	что	что	SCONJ	_	_	5	mark	_	_
+3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	обсуждаем	обсуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	это	это	PRON	_	_	10	nsubj:pass	_	_
+9	насколько	насколько	ADV	_	Degree=Pos	10	advmod	_	_
+10	неподготовлены	неподготовлять	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	5	parataxis	_	_
+11	наши	наш	DET	_	Case=Nom|Number=Plur	12	det	_	_
+12	прокуроры	прокурор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj:pass	_	_
+13	к	к	ADP	_	_	15	case	_	_
+14	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	15	nmod	_	_
+15	приёму	прием	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	12	nmod	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 37
+# text = Когда мы говорим о реформе уголовного правосудия , мы , как общество , в основном затрагиваем три вещи .
+1	Когда	когда	SCONJ	_	_	3	mark	_	_
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	говорим	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	16	advcl	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	реформе	реформа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	obl	_	_
+6	уголовного	уголовный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	правосудия	правосудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	16	nsubj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	как	как	SCONJ	_	_	12	mark	_	_
+12	общество	общество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	acl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	в	в	ADP	_	_	15	case	_	_
+15	основном	основной	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+16	затрагиваем	затрагивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+17	три	три	NUM	_	Animacy=Inan|Case=Acc	18	nummod:gov	_	_
+18	вещи	вещь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	obl	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 38
+# text = Мы жалуемся , мы твитим , мы протестуем против полиции , приговоров и тюрем .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	жалуемся	жаловаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+5	твитим	твитить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	8	nsubj	_	_
+8	протестуем	протестовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	против	против	ADP	_	_	10	case	_	_
+10	полиции	полиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	obl	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	приговоров	приговор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	conj	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	тюрем	тюрьма	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	10	conj	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 39
+# text = Мы редко , если вообще , говорим о прокуроре .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	редко	редко	ADV	_	Degree=Pos	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	если	если	SCONJ	_	_	7	mark	_	_
+5	вообще	вообще	ADV	_	Degree=Pos	7	parataxis	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	говорим	говорить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	прокуроре	прокурор	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	obl	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 40
+# text = Осенью 2009 года полицией Бостона был арестован молодой человек .
+1	Осенью	осень	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+2	2009	2009	NUM	_	_	3	nummod	_	_
+3	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+4	полицией	полиция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	7	obl	_	_
+5	Бостона	бостон	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	aux:pass	_	_
+7	арестован	арестовывать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	молодой	молодой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 41
+# text = Ему было 18 лет , он был афроамериканцем и учился в выпускном классе местной школы .
+1	Ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
+2	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	18	18	NUM	_	_	4	nummod	_	_
+4	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+7	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
+8	афроамериканцем	афроамериканцть	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	2	conj	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	учился	учиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+11	в	в	ADP	_	_	13	case	_	_
+12	выпускном	выпускной	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	13	amod	_	_
+13	классе	класс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	10	obl	_	_
+14	местной	местный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	школы	школа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 42
+# text = Он хотел поступить в колледж , но подработка с минимальной зарплатой не давала финансовой возможности для поступления в колледж .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	хотел	хотеть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	поступить	поступать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	в	в	ADP	_	_	5	case	_	_
+5	колледж	колледж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	но	но	CCONJ	_	_	13	cc	_	_
+8	подработка	подработка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	минимальной	минимальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	зарплатой	зарплата	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	nmod	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	давала	давать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	финансовой	финансовый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	возможности	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+16	для	для	ADP	_	_	17	case	_	_
+17	поступления	поступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	15	nmod	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	колледж	колледж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	nmod	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 43
+# text = Приняв целый ряд плохих решений , он украл из магазина 30 ноутбуков и продал их через Интернет .
+1	Приняв	принимать	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	8	advcl	_	_
+2	целый	целый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	ряд	ряд	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+4	плохих	плохой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	решений	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	nmod	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	8	nsubj	_	_
+8	украл	красть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	магазина	магазин	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+11	30	30	NUM	_	_	12	nummod	_	_
+12	ноутбуков	ноутбук	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	продал	продавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+15	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	14	obj	_	_
+16	через	через	ADP	_	_	17	case	_	_
+17	Интернет	интернет	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	14	obl	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 44
+# text = Его арестовали , и это привело к обвинению , состоящему из 30 серьёзных пунктов .
+1	Его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+2	арестовали	арестовывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+6	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+7	к	к	ADP	_	_	8	case	_	_
+8	обвинению	обвинение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	6	obl	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	состоящему	состоять	VERB	_	Aspect=Imp|Case=Dat|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	acl	_	_
+11	из	из	ADP	_	_	14	case	_	_
+12	30	30	NUM	_	_	14	nummod	_	_
+13	серьёзных	серьезный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	пунктов	пункт	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 45
+# text = Самым страшным для Кристофера был возможный тюремный срок .
+1	Самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	2	amod	_	_
+2	страшным	страшный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+3	для	для	ADP	_	_	4	case	_	_
+4	Кристофера	Кристофер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
+6	возможный	возможный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+7	тюремный	тюремный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	срок	срок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 46
+# text = Но он не совсем понимал , какие последствия повлечёт за собой судимость в будущем .
+1	Но	но	CCONJ	_	_	5	cc	_	_
+2	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	совсем	совсем	ADV	_	Degree=Pos	5	advmod	_	_
+5	понимал	понимать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	какие	какой	DET	_	Case=Acc|Number=Plur	8	det	_	_
+8	последствия	последствия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+9	повлечёт	повлечь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	5	ccomp	_	_
+10	за	за	ADP	_	_	11	case	_	_
+11	собой	себя	PRON	_	Case=Ins	9	obl	_	_
+12	судимость	судимость	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	будущем	будущее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	nmod	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 47
+# text = В тот день я был обвинителем , когда дело Кристофера оказалось у меня на столе .
+1	В	в	ADP	_	_	3	case	_	_
+2	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing	3	det	_	_
+3	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	nmod	_	_
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	6	nsubj	_	_
+5	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+6	обвинителем	обвинитель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	0	root	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	когда	когда	SCONJ	_	_	11	mark	_	_
+9	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	nsubj	_	_
+10	Кристофера	Кристофер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	advcl	_	_
+12	у	у	ADP	_	_	13	case	_	_
+13	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	11	obl	_	_
+14	на	на	ADP	_	_	15	case	_	_
+15	столе	стол	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	11	obl	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 48
+# text = Не хочу громко говорить , но в тот момент жизнь Кристофера находилась в моих руках .
+1	Не	не	PART	_	_	2	advmod	_	_
+2	хочу	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	громко	громко	ADV	_	Degree=Pos	4	advmod	_	_
+4	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	но	но	CCONJ	_	_	12	cc	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	тот	тот	DET	_	Case=Acc|Gender=Masc|Number=Sing	9	det	_	_
+9	момент	момент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obl	_	_
+10	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+11	Кристофера	Кристофер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	находилась	находиться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	моих	мой	DET	_	Case=Loc|Number=Plur	15	det	_	_
+15	руках	рука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	12	obl	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 49
+# text = Мне было 29 лет , совсем " зелёный " прокурор , и я сам не слишком осознавал , как мои решения смогут оказать влияние на жизнь Кристофера .
+1	Мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	4	nmod	_	_
+2	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	29	29	NUM	_	_	4	nummod	_	_
+4	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nsubj	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	совсем	совсем	ADV	_	Degree=Pos	8	obl	_	SpacesAfter=\s\s
+7	"	"	PUNCT	_	_	8	punct	_	_
+8	зелёный	зеленый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+9	"	"	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	прокурор	прокурор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	и	и	CCONJ	_	_	17	cc	_	_
+13	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	17	nsubj	_	_
+14	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	obl	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	слишком	слишком	ADV	_	Degree=Pos	17	advmod	_	_
+17	осознавал	осознавать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	как	как	SCONJ	_	_	22	mark	_	_
+20	мои	мой	DET	_	Case=Nom|Number=Plur	21	det	_	_
+21	решения	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	22	nsubj	_	_
+22	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	17	ccomp	_	_
+23	оказать	оказывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	xcomp	_	_
+24	влияние	влияние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	23	obj	_	_
+25	на	на	ADP	_	_	26	case	_	_
+26	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	nmod	_	_
+27	Кристофера	Кристофер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+
+# sent_id = 50
+# text = Дело Кристофера было серьёзным , и с ним нужно было разбираться подобающе , но я не думал , что поставить клеймо преступника на всю жизнь было правильным решением .
+1	Дело	дело	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+2	Кристофера	Кристофер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	серьёзным	серьезный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	и	и	CCONJ	_	_	9	cc	_	_
+7	с	с	ADP	_	_	8	case	_	_
+8	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	9	obl	_	_
+9	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	conj	_	_
+10	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
+11	разбираться	разбираться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	9	csubj	_	_
+12	подобающе	добаюсто	ADV	_	Degree=Pos	11	advmod	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	но	но	CCONJ	_	_	17	cc	_	_
+15	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	17	nsubj	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	думал	думать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	что	чтобы	SCONJ	_	_	28	mark	_	_
+20	поставить	ставить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	28	csubj	_	_
+21	клеймо	клеймо	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	20	obj	_	_
+22	преступника	преступник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	_
+23	на	на	ADP	_	_	25	case	_	_
+24	всю	весь	DET	_	Case=Acc|Gender=Fem|Number=Sing	25	det	_	_
+25	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obl	_	_
+26	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	28	cop	_	_
+27	правильным	правильный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	решением	решение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	17	ccomp	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\n
+
+# sent_id = 51
+# text = В большинстве случаев прокуроры заступают на работу , недооценивая последствия приговоров , вне зависимости от намерений .
+1	В	в	ADP	_	_	2	case	_	_
+2	большинстве	большинство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	5	obl	_	_
+3	случаев	случай	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+4	прокуроры	прокурор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	nsubj	_	_
+5	заступают	заступать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	недооценивая	недооценивать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	5	advcl	_	_
+10	последствия	последствие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	9	obj	_	_
+11	приговоров	приговор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	вне	вне	ADP	_	_	14	case	_	_
+14	зависимости	зависимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	obl	_	_
+15	от	от	ADP	_	_	16	case	_	_
+16	намерений	намерение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	14	nmod	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 52
+# text = Несмотря на полномочия широкого усмотрения , мы учимся любой ценой избегать рисков , тем самым сводя на нет это широкое усмотрение .
+1	Несмотря	несмотря	ADV	_	Polarity=Neg	3	case	_	_
+2	на	на	ADP	_	_	1	fixed	_	_
+3	полномочия	полномочие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	obl	_	_
+4	широкого	широкий	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	усмотрения	усмотрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	nmod	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	8	nsubj	_	_
+8	учимся	учиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	любой	любой	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	ценой	цена	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+11	избегать	избегать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+12	рисков	риск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	obl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	16	obl	_	_
+15	самым	самый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+16	сводя	сводить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+17	на	на	ADP	_	_	18	mark	_	_
+18	нет	не	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	xcomp	_	_
+19	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	21	nsubj	_	_
+20	широкое	широкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	усмотрение	усмотрение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	conj	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 53
+# text = История научила нас , что так или иначе система уголовного правосудия приводит к ответственности и улучшает безопасность людей , несмотря на доказательства обратного .
+1	История	история	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+2	научила	научать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	2	obj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	12	mark	_	_
+6	так	так	ADV	_	Degree=Pos	12	advmod	_	_
+7	или	или	CCONJ	_	_	8	cc	_	_
+8	иначе	иначе	ADV	_	Degree=Pos	6	conj	_	_
+9	система	система	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	12	nsubj	_	_
+10	уголовного	уголовный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	правосудия	правосудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	приводит	приводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl	_	_
+13	к	к	ADP	_	_	14	case	_	_
+14	ответственности	ответственность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	12	obl	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	улучшает	улучшать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+17	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	несмотря	несмотря	ADV	_	Polarity=Neg	22	case	_	_
+21	на	на	ADP	_	_	20	fixed	_	_
+22	доказательства	доказательство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	16	obl	_	_
+23	обратного	обратный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	22	nmod	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+
+# sent_id = 54
+# text = О нас судят изнутри и вне системы по приговорам и победам в судебных делах , поэтому у прокуроров на самом деле нет инициативы проявлять изобретательность в судебных постановлениях или брать на себя риск с людьми , который мы бы не стали брать .
+1	О	о	ADP	_	_	2	case	_	_
+2	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	3	obl	_	_
+3	судят	судить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	изнутри	изнутри	ADV	_	Degree=Pos	3	advmod	_	_
+5	и	и	CCONJ	_	_	7	cc	_	_
+6	вне	вне	ADP	_	_	7	case	_	_
+7	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	conj	_	_
+8	по	по	ADP	_	_	9	case	_	_
+9	приговорам	приговор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	7	nmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	победам	победа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	9	conj	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	судебных	судебный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	14	amod	_	_
+14	делах	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	11	nmod	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	поэтому	поэтому	ADV	_	Degree=Pos	22	advmod	_	_
+17	у	в	ADP	_	_	18	case	_	_
+18	прокуроров	прокурор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	22	obl	_	_
+19	на	на	ADP	_	_	21	case	_	_
+20	самом	самый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	деле	дело	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	22	obl	_	_
+22	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+23	инициативы	инициатива	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	22	nsubj	_	_
+24	проявлять	проявлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	23	obl	_	_
+25	изобретательность	изобретательность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	24	obj	_	_
+26	в	в	ADP	_	_	28	case	_	_
+27	судебных	судебный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	28	amod	_	_
+28	постановлениях	постановление	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	25	nmod	_	_
+29	или	или	CCONJ	_	_	30	cc	_	_
+30	брать	брать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	conj	_	_
+31	на	на	ADP	_	_	32	case	_	_
+32	себя	себя	PRON	_	Case=Acc	30	obl	_	_
+33	риск	риск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	30	obj	_	_
+34	с	с	ADP	_	_	35	case	_	_
+35	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	33	nmod	_	_
+36	,	,	PUNCT	_	_	35	punct	_	SpacesAfter=\s\s
+37	который	который	PRON	_	Case=Nom	42	obj	_	_
+38	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	41	nsubj	_	_
+39	бы	бы	PART	_	Mood=Cnd	41	aux	_	_
+40	не	не	PART	_	_	41	advmod	_	_
+41	стали	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	33	conj	_	_
+42	брать	брать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	41	xcomp	_	_
+43	.	.	PUNCT	_	_	42	punct	_	SpacesAfter=\s\s
+
+# sent_id = 55
+# text = Мы придерживаемся устарелого метода , неэффективного в достижении самой цели , которую мы все хотим достичь , -- безопасность общества . Многие прокуроры на моём месте осудили бы Кристофера .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	придерживаемся	придерживаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	устарелого	устарелый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	метода	метод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	неэффективного	неэффективной	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	достижении	достижение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+9	самой	сам	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	цели	цель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	которую	который	PRON	_	Case=Acc	16	obj	_	_
+13	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	15	nsubj	_	_
+14	все	весь	DET	_	Case=Nom|Number=Plur	13	det	_	_
+15	хотим	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+16	достичь	достигать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	xcomp	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	16	punct	_	_
+20	безопасность	безопасность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+21	общества	общество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\n
+23	Многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	24	amod	_	_
+24	прокуроры	прокурор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	28	nsubj	_	_
+25	на	на	ADP	_	_	27	case	_	_
+26	моём	мой	DET	_	Case=Loc|Gender=Neut|Number=Sing	27	det	_	_
+27	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	24	nmod	_	_
+28	осудили	осуждать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	20	acl:relcl	_	_
+29	бы	бы	PART	_	Mood=Cnd	28	aux	_	_
+30	Кристофера	Кристофер	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	28	obj	_	_
+31	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+
+# sent_id = 56
+# text = Они недооценивают , на что способны .
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	недооценивают	недооценивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	на	на	ADP	_	_	5	case	_	_
+5	что	что	PRON	_	Case=Acc	6	obl	_	_
+6	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	obl	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 57
+# text = Обвинение Кристофера привело бы к судимости : ему труднее было бы найти работу , что запустило бы в движение цикл , характеризующий на сегодня неисправную систему уголовного правосудия .
+1	Обвинение	обвинение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	Кристофера	Кристофер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
+3	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	бы	бы	PART	_	Mood=Cnd	3	aux	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	судимости	судимость	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+7	:	:	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	9	iobj	_	_
+9	труднее	трудный	ADJ	_	Degree=Cmp	3	parataxis	_	_
+10	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	cop	_	_
+11	бы	бы	PART	_	Mood=Cnd	9	aux	_	_
+12	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	csubj	_	_
+13	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	что	что	PRON	_	Case=Nom	16	nsubj	_	_
+16	запустило	запусщать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+17	бы	бы	PART	_	Mood=Cnd	16	aux	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	движение	движение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	16	obl	_	_
+20	цикл	цикл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	характеризующий	характеризовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	20	acl	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	сегодня	сегодня	ADV	_	Degree=Pos	22	obl	_	_
+25	неисправную	неисправный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	26	amod	_	_
+26	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	22	obj	_	_
+27	уголовного	уголовный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	правосудия	правосудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 58
+# text = С судимостью и без работы Кристофер не смог бы найти работу , получить образование и постоянное жильё .
+1	С	с	ADP	_	_	2	case	_	_
+2	судимостью	судимость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+3	и	и	CCONJ	_	_	5	cc	_	_
+4	без	без	ADP	_	_	5	case	_	_
+5	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	conj	_	_
+6	Кристофер	кристофер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	смог	мочь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	бы	бы	PART	_	Mood=Cnd	8	aux	_	_
+10	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+11	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	получить	получать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	_
+14	образование	образование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	и	и	CCONJ	_	_	17	cc	_	_
+16	постоянное	постоянный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	жильё	жилье	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	14	conj	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 59
+# text = Без этих защитных факторов в своей жизни Кристофер , скорее всего , совершил бы другое , более серьёзное преступление .
+1	Без	без	ADP	_	_	4	case	_	_
+2	этих	этот	DET	_	Case=Gen|Number=Plur	4	det	_	_
+3	защитных	защитный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	своей	свой	DET	_	Case=Loc|Gender=Fem|Number=Sing	7	det	_	_
+7	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+8	Кристофер	кристофер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	скорее	скорее	ADV	_	Degree=Pos	13	parataxis	_	_
+11	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	совершил	совершать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+14	бы	бы	PART	_	Mood=Cnd	13	aux	_	_
+15	другое	другой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	более	более	ADV	_	Degree=Cmp	18	obl	_	_
+18	серьёзное	серьезный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	преступление	преступление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 60
+# text = Чем больше Кристофер сталкивался бы с системой уголовного правосудия , тем вероятнее было бы его возвращение туда снова и снова , что наносило бы огромный социальный урон его детям , семье и сверстникам .
+1	Чем	чем	SCONJ	_	_	4	mark	_	_
+2	больше	много	NUM	_	_	4	advmod	_	_
+3	Кристофер	кристофер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	сталкивался	сталкиваться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	бы	бы	PART	_	Mood=Cnd	4	aux	_	_
+6	с	с	ADP	_	_	7	case	_	_
+7	системой	система	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	4	obl	_	_
+8	уголовного	уголовный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	9	amod	_	_
+9	правосудия	правосудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	nmod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	тем	тем	SCONJ	_	_	12	mark	_	_
+12	вероятнее	вероятный	ADJ	_	Degree=Cmp	4	advcl	_	_
+13	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
+14	бы	бы	PART	_	Mood=Cnd	12	aux	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+16	возвращение	возвращение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+17	туда	туда	ADV	_	Degree=Pos	23	advmod	_	_
+18	снова	снова	ADV	_	Degree=Pos	23	advmod	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	снова	снова	ADV	_	Degree=Pos	18	conj	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	что	чтобы	PRON	_	Case=Nom	23	nsubj	_	_
+23	наносило	наносить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	csubj	_	_
+24	бы	бы	PART	_	Mood=Cnd	23	aux	_	_
+25	огромный	огромный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+26	социальный	социальный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	урон	урон	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	23	obj	_	_
+28	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	29	nmod	_	_
+29	детям	ребенок	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	27	iobj	_	_
+30	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	семье	семья	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	29	conj	_	_
+32	и	и	CCONJ	_	_	33	cc	_	_
+33	сверстникам	сверстник	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	29	conj	_	_
+34	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+
+# sent_id = 61
+# text = Это , дамы и господа , ужасный результат работы системы общественной безопасности и для всех нас .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	дамы	дама	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	1	conj	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	господа	господин	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	ужасный	ужасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	результат	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+9	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	системы	система	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	общественной	общественный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+13	и	и	CCONJ	_	_	16	cc	_	_
+14	для	для	ADP	_	_	16	case	_	_
+15	всех	весь	DET	_	Case=Gen|Number=Plur	16	det	_	_
+16	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	9	conj	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\n
+
+# sent_id = 62
+# text = Когда я закончил юридический факультет , я поступал так же , как и все .
+1	Когда	когда	SCONJ	_	_	3	mark	_	_
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+3	закончил	заканчивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+4	юридический	юридический	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	факультет	факультет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	8	nsubj	_	_
+8	поступал	поступать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	так	так	ADV	_	Degree=Pos	8	advmod	_	_
+10	же	же	PART	_	_	9	discourse	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	как	как	SCONJ	_	_	14	mark	_	_
+13	и	и	PART	_	_	14	discourse	_	_
+14	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	advcl	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 63
+# text = Я начал в роли прокурора , рассчитывал вершить правосудие , но на лекциях я не изучал , что такое правосудие , -- этому не учится никто из нас .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	начал	начинать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	роли	роль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	obl	_	_
+5	прокурора	прокурор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	рассчитывал	рассчитывать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	вершить	вершить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	правосудие	правосудие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	но	но	CCONJ	_	_	16	cc	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	лекциях	лекция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	16	obl	_	_
+14	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	16	nsubj	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	изучал	изучать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	что	что	SCONJ	_	_	20	mark	_	_
+19	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	20	det	_	_
+20	правосудие	правосудие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	ccomp	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	-	-	PUNCT	_	_	20	punct	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	20	punct	_	_
+24	этому	это	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	26	iobj	_	_
+25	не	не	PART	_	_	26	advmod	_	_
+26	учится	учиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	20	parataxis	_	_
+27	никто	никто	PRON	_	Case=Nom	26	nsubj	_	_
+28	из	из	ADP	_	_	29	case	_	_
+29	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	26	obl	_	_
+30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+
+# sent_id = 64
+# text = Никто из нас .
+1	Никто	никто	PRON	_	Case=Nom	3	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	0	root	_	_
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 65
+# text = И тем не менее , прокуроры -- самые влиятельные игроки в системе уголовного правосудия .
+1	И	и	CCONJ	_	_	11	cc	_	_
+2	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	11	discourse	_	_
+3	не	не	PART	_	Polarity=Neg	2	fixed	_	_
+4	менее	менее	ADV	_	Degree=Cmp	2	fixed	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	прокуроры	прокурор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	6	punct	_	_
+9	самые	самый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	10	amod	_	_
+10	влиятельные	влиятельный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	11	amod	_	_
+11	игроки	игрок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	0	root	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+14	уголовного	уголовный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	15	amod	_	_
+15	правосудия	правосудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	13	nmod	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 66
+# text = Наше влияние практически безгранично .
+1	Наше	наш	DET	_	Case=Nom|Gender=Neut|Number=Sing	2	det	_	_
+2	влияние	влияние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	практически	практически	ADV	_	Degree=Pos	4	obl	_	_
+4	безгранично	безграничный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 67
+# text = Чаще всего ни судья , ни полиция , ни законодательный орган , ни мэр , ни губернатор , ни президент не указывают нам , как вести наши дела .
+1	Чаще	часто	ADV	_	Degree=Cmp	22	advmod	_	_
+2	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	obl	_	_
+3	ни	ни	PART	_	_	4	cc	_	_
+4	судья	судья	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	ни	ни	CCONJ	_	_	7	cc	_	_
+7	полиция	полиция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	conj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	ни	ни	CCONJ	_	_	11	cc	_	_
+10	законодательный	законодательный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	орган	орган	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	ни	ни	CCONJ	_	_	14	cc	_	_
+14	мэр	мэр	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	ни	ни	CCONJ	_	_	17	cc	_	_
+17	губернатор	губернатор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	ни	ни	CCONJ	_	_	20	cc	_	_
+20	президент	президент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	указывают	указывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+23	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	22	iobj	_	_
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+25	как	как	SCONJ	_	_	26	mark	_	_
+26	вести	вести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	advcl	_	_
+27	наши	наш	DET	_	Case=Acc|Number=Plur	28	det	_	_
+28	дела	дело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	26	obj	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 68
+# text = Приговор Кристоферу и запись о судимости были исключительно моими решениями .
+1	Приговор	приговор	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	0	root	_	_
+2	Кристоферу	кристофер	PROPN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	1	iobj	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	запись	запись	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	conj	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	судимости	судимость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	nmod	_	_
+7	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+8	исключительно	исключительно	ADV	_	Degree=Pos	9	obl	_	_
+9	моими	мой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	решениями	решение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	4	nmod	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 69
+# text = У меня был выбор : привлечь за 30 преступлений , за одно мелкое преступление или не судить вовсе .
+1	У	у	ADP	_	_	2	case	_	_
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	3	obl	_	_
+3	был	быть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	выбор	выбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	:	:	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	привлечь	привлекать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	parataxis	_	_
+7	за	за	ADP	_	_	9	case	_	_
+8	30	30	NUM	_	_	9	nummod	_	_
+9	преступлений	преступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	6	obl	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	за	за	ADP	_	_	14	case	_	_
+12	одно	один	NUM	_	Case=Acc|Gender=Neut	14	nummod:gov	_	_
+13	мелкое	мелкий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	преступление	преступление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obl	_	_
+15	или	или	CCONJ	_	_	17	cc	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	судить	судить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	conj	_	_
+18	вовсе	вовсе	ADV	_	Degree=Pos	17	advmod	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 70
+# text = У меня был выбор : надавить на Кристофера , чтобы он согласился с обвинением , или довести дело до суда , и , по сути дела , ходатайствовать , чтобы Кристофер сел в тюрьму .
+1	У	у	ADP	_	_	2	case	_	_
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	3	obl	_	_
+3	был	быть	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	выбор	выбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	:	:	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	надавить	надавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	parataxis	_	_
+7	на	на	ADP	_	_	8	case	_	_
+8	Кристофера	Кристофер	PROPN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	6	obl	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	чтобы	что	SCONJ	_	Mood=Cnd	12	mark	_	_
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	согласился	соглашаться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	ccomp	_	_
+13	с	с	ADP	_	_	14	case	_	_
+14	обвинением	обвинение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	12	obl	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	или	или	CCONJ	_	_	17	cc	_	_
+17	довести	доводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	conj	_	_
+18	дело	дело	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+19	до	до	ADP	_	_	20	case	_	_
+20	суда	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	obl	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	и	и	CCONJ	_	_	28	cc	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	по	по	ADP	_	_	25	case	_	_
+25	сути	суть	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	28	parataxis	_	_
+26	дела	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nmod	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	ходатайствовать	ходатайствовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	conj	_	_
+29	,	,	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	чтобы	что	SCONJ	_	Mood=Cnd	32	mark	_	_
+31	Кристофер	кристофер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	32	nsubj	_	_
+32	сел	садиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	28	advcl	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	тюрьму	тюрьма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obl	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+
+# sent_id = 71
+# text = Эти решения принимаются прокурорами свободно , и мы не подозреваем , нас не готовили к серьёзности последствий этих приговоров .
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	решения	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	3	nsubj:pass	_	_
+3	принимаются	принимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	прокурорами	прокурор	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	3	obl	_	_
+5	свободно	свободно	ADV	_	Degree=Pos	4	advmod	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	и	и	CCONJ	_	_	10	cc	_	_
+8	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	10	nsubj	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	подозреваем	подозревать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	14	obl	_	_
+13	не	не	PART	_	_	14	advmod	_	_
+14	готовили	готовить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	conj	_	_
+15	к	к	ADP	_	_	16	case	_	_
+16	серьёзности	серьезность	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	obl	_	_
+17	последствий	последствие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_
+18	этих	этот	DET	_	Case=Gen|Number=Plur	19	det	_	_
+19	приговоров	приговор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\n
+
+# sent_id = 72
+# text = В один из вечеров ушедшего лета я был на небольшой встрече специалистов , где не было ни одного белого , со всего города .
+1	В	в	ADP	_	_	2	case	_	_
+2	один	один	NUM	_	Animacy=Inan|Case=Acc|Gender=Masc	11	nummod:gov	_	_
+3	из	из	ADP	_	_	4	case	_	_
+4	вечеров	вечер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	nmod	_	_
+5	ушедшего	уходить	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	amod	_	_
+6	лета	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	11	nsubj	_	_
+8	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	небольшой	небольшой	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	встрече	встреча	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
+12	специалистов	специалист	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	где	где	ADV	_	Degree=Pos	16	advmod	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+17	ни	ни	PART	_	_	18	advmod	_	_
+18	одного	один	NUM	_	Case=Gen|Gender=Masc	19	nummod	_	_
+19	белого	белый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	16	nsubj	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	со	с	ADP	_	_	23	case	_	_
+22	всего	весь	DET	_	Case=Gen|Gender=Masc|Number=Sing	23	det	_	_
+23	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	parataxis	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+
+# sent_id = 73
+# text = Пока я стоял , уминая бесплатные сэндвичи-канапе , как и подобает госслужащим , я заметил , что с другого конца зала мне машет и улыбается молодой человек , шагая в мою сторону .
+1	Пока	пока	SCONJ	_	_	3	mark	_	_
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+3	стоял	стоять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	15	advcl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	уминая	уминать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	3	advcl	_	_
+6	бесплатные	бесплатный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	7	amod	_	_
+7	сэндвичи-канапе	сэндвичи-канапа	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	5	iobj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	как	как	SCONJ	_	_	11	mark	_	_
+10	и	и	PART	_	_	11	discourse	_	_
+11	подобает	подобать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	advcl	_	_
+12	госслужащим	госслужащий	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	11	iobj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\n
+14	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	15	nsubj	_	_
+15	заметил	замечать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	что	что	SCONJ	_	_	23	mark	_	_
+18	с	с	ADP	_	_	20	case	_	_
+19	другого	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	конца	конец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	_
+21	зала	зал	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+22	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	23	iobj	_	_
+23	машет	махать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	15	ccomp	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	улыбается	улыбаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	23	conj	_	_
+26	молодой	молодой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	шагая	шагать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	25	advcl	_	_
+30	в	в	ADP	_	_	32	case	_	_
+31	мою	мой	DET	_	Case=Acc|Gender=Fem|Number=Sing	32	det	_	_
+32	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	29	obl	_	_
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+
+# sent_id = 74
+# text = Я узнал его , но не мог вспомнить откуда .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	узнал	узнавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	2	obj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	но	но	CCONJ	_	_	7	cc	_	_
+6	не	не	PART	_	_	7	advmod	_	_
+7	мог	мочь	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	вспомнить	вспоминать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+9	откуда	откуда	ADV	_	Degree=Pos	8	advmod	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 75
+# text = Не успел я опомниться , этот молодой человек начал меня обнимать и благодарить : " Вы помогли мне и изменили мою жизнь " . Это был Кристофер .
+1	Не	не	PART	_	_	2	advmod	_	_
+2	успел	успевать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+4	опомниться	опомниться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	xcomp	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
+7	молодой	молодой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	начал	начинать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	9	obj	_	_
+11	обнимать	обнимать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	благодарить	благодарить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	conj	_	_
+14	:	:	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s\s
+15	"	"	PUNCT	_	_	16	punct	_	_
+16	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	17	nsubj	_	_
+17	помогли	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	13	ccomp	_	_
+18	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	17	iobj	_	_
+19	и	и	CCONJ	_	_	20	cc	_	_
+20	изменили	изменять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	17	conj	_	_
+21	мою	мой	DET	_	Case=Acc|Gender=Fem|Number=Sing	22	det	_	_
+22	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	20	obj	_	_
+23	"	"	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+25	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	27	nsubj	_	_
+26	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	27	cop	_	_
+27	Кристофер	кристофер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	17	conj	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\n
+
+# sent_id = 76
+# text = Я не привлёк Кристофера к суду .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	привлёк	привлечь	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	Кристофера	Кристофер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	к	к	ADP	_	_	6	case	_	_
+6	суду	суд	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 77
+# text = Он не предстал перед судьёй , у него не было судимости .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	предстал	предстать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	перед	перед	ADP	_	_	5	case	_	_
+5	судьёй	судья	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	3	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	у	у	ADP	_	_	8	case	_	_
+8	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	obl	_	_
+9	не	не	PART	_	_	10	advmod	_	_
+10	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	судимости	судимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nsubj	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 78
+# text = Вместо этого я работал с Кристофером : сначала , чтобы он осознал свои проступки , потом , сделал так , чтобы он не совершал преступлений снова .
+1	Вместо	вместо	ADP	_	_	2	case	_	_
+2	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
+4	работал	работать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	с	с	ADP	_	_	6	case	_	_
+6	Кристофером	Кристофер	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+7	:	:	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	сначала	сначала	ADV	_	Degree=Pos	18	advmod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	чтобы	что	SCONJ	_	Mood=Cnd	12	mark	_	_
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	осознал	осознавать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
+13	свои	свой	DET	_	Case=Acc|Number=Plur	14	det	_	_
+14	проступки	проступок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	12	obj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	потом	потом	ADV	_	Degree=Pos	8	conj	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	сделал	делать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+19	так	так	ADV	_	Degree=Pos	18	advmod	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	чтобы	чтобы	SCONJ	_	Mood=Cnd	24	mark	_	_
+22	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	совершал	совершать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	19	advcl	_	_
+25	преступлений	преступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	24	obl	_	_
+26	снова	снова	ADV	_	Degree=Pos	25	advmod	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 79
+# text = Мы вернули 75 % проданных им компьютеров , вернули их магазину Best Buy , и придумали финансовый план для погашения стоимости невозвращённых . Кристофер отделался общественными работами .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	вернули	вернуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	75	75	NUM	_	_	4	nummod	_	_
+4	%	%	SYM	_	_	2	obl	_	SpacesAfter=\s\s
+5	проданных	продать	VERB	_	Aspect=Perf|Case=Gen|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+6	им	они	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	5	obl	_	_
+7	компьютеров	компьютер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	вернули	вернуть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+10	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	11	nmod	_	_
+11	магазину	магазин	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+12	Best	Best	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	Buy	Buy	PROPN	_	Foreign=Yes	12	flat:foreign	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	придумали	придумывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+17	финансовый	финансовый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	план	план	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	16	obj	_	_
+19	для	для	ADP	_	_	20	case	_	_
+20	погашения	погашение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+21	стоимости	стоимость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	невозвращённых	невозвращённый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	21	nmod	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	Кристофер	кристофер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	25	nsubj	_	_
+25	отделался	отделываться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	2	conj	_	_
+26	общественными	общественный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	27	amod	_	_
+27	работами	работа	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	25	obl	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+
+# sent_id = 80
+# text = Он написал эссе , в котором размышлял , как это дело повлияло бы на его будущее и будущее общества .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	написал	писать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	эссе	эссе	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	в	в	ADP	_	_	6	case	_	_
+6	котором	который	PRON	_	Case=Loc	7	obl	_	_
+7	размышлял	размышлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	как	как	SCONJ	_	_	12	mark	_	_
+10	это	этот	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+11	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	nsubj	_	_
+12	повлияло	влиять	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	ccomp	_	_
+13	бы	бы	PART	_	Mood=Cnd	12	aux	_	_
+14	на	на	ADP	_	_	16	case	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	16	nmod	_	_
+16	будущее	будущее	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	obl	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	будущее	будущее	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	conj	_	_
+19	общества	общество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 81
+# text = Он поступил в колледж , получил финансовую помощь и за четыре года закончил колледж .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
+2	поступил	поступать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	колледж	колледж	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+7	финансовую	финансовый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	8	amod	_	_
+8	помощь	помощь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+9	и	и	CCONJ	_	_	13	cc	_	_
+10	за	за	ADP	_	_	12	case	_	_
+11	четыре	четыре	NUM	_	Animacy=Inan|Case=Acc	12	nummod:gov	_	_
+12	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	obl	_	_
+13	закончил	заканчивать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+14	колледж	колледж	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	13	nsubj	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 82
+# text = После наших объятий я посмотрел на его бейдж : Кристофер работает менеджером одного из крупных банков в Бостоне .
+1	После	после	ADP	_	_	3	case	_	_
+2	наших	наш	DET	_	Case=Gen|Number=Plur	3	det	_	_
+3	объятий	объятие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	obl	_	_
+4	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	5	nsubj	_	_
+5	посмотрел	смотреть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	на	на	ADP	_	_	8	case	_	_
+7	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
+8	бейдж	бейдж	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	obl	_	_
+9	:	:	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	Кристофер	кристофер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+11	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+12	менеджером	менеджер	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+13	одного	один	NUM	_	Case=Gen|Gender=Masc	12	nummod	_	_
+14	из	из	ADP	_	_	16	case	_	_
+15	крупных	крупный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	банков	банк	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	Бостоне	бостон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	16	nmod	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 83
+# text = Кристофер исправился и зарабатывает больше меня .
+1	Кристофер	кристофер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj:pass	_	_
+2	исправился	исправиться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	зарабатывает	зарабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+5	больше	много	ADV	_	Degree=Cmp	6	nummod:gov	_	_
+6	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	4	obl	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 84
+# text = Ему удалось добиться всего этого за шесть лет после нашей первой встречи в суде Роксбура .
+1	Ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	3	iobj	_	_
+2	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	2	csubj	_	_
+4	всего	весь	DET	_	Case=Gen|Gender=Neut|Number=Sing	5	det	_	_
+5	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+6	за	за	ADP	_	_	8	case	_	_
+7	шесть	шесть	NUM	_	Case=Acc	8	nummod:gov	_	_
+8	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+9	после	после	ADP	_	_	12	case	_	_
+10	нашей	наш	DET	_	Case=Gen|Gender=Fem|Number=Sing	12	det	_	_
+11	первой	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	12	amod	_	_
+12	встречи	встреча	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	суде	суд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+15	Роксбура	Роксбур	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 85
+# text = Я не ставлю себе в заслугу успех Кристофера , но определённо я сыграл свою роль в его возвращении на правильный путь .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	ставлю	ставить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	себе	себя	PRON	_	Case=Dat	3	iobj	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	заслугу	заслуга	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obl	_	_
+7	успех	успех	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+8	Кристофера	Кристофер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	но	но	CCONJ	_	_	13	cc	_	_
+11	определённо	определенно	ADV	_	Degree=Pos	13	advmod	_	_
+12	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	13	nsubj	_	_
+13	сыграл	сыграть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+14	свою	свой	DET	_	Case=Acc|Gender=Fem|Number=Sing	15	det	_	_
+15	роль	роль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obj	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	18	nmod	_	_
+18	возвращении	возвращение	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	15	nmod	_	_
+19	на	на	ADP	_	_	21	case	_	_
+20	правильный	правильный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	путь	путь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	18	nmod	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\n
+
+# sent_id = 86
+# text = Где-то там существует много Кристоферов , и некоторые из них сидят в тюрьмах .
+1	Где-то	где-то	ADV	_	Degree=Pos	3	advmod	_	_
+2	там	там	ADV	_	Degree=Pos	3	advmod	_	_
+3	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	много	много	ADV	_	Degree=Pos	3	nsubj	_	_
+5	Кристоферов	Кристоферов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	и	и	CCONJ	_	_	11	cc	_	_
+8	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	11	det	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	8	nmod	_	_
+11	сидят	сидеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	тюрьмах	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 87
+# text = Нам нужны тысячи прокуроров , чтобы это признать и защитить их . Работающий Кристофер намного лучше заключённого для безопасности общества .
+1	Нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	2	iobj	_	_
+2	нужны	нужный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	тысячи	тысяча	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	2	nsubj	_	_
+4	прокуроров	прокурор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	чтобы	что	SCONJ	_	Mood=Cnd	8	mark	_	_
+7	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obj	_	_
+8	признать	признавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	_
+9	и	и	CCONJ	_	_	10	cc	_	_
+10	защитить	защищать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	conj	_	_
+11	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	10	obj	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	Работающий	работать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	14	amod	_	_
+14	Кристофер	кристофер	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+15	намного	намного	ADV	_	Degree=Pos	16	advmod	_	_
+16	лучше	хорошо	ADV	_	Degree=Cmp	17	advmod	_	_
+17	заключённого	заключить	VERB	_	Aspect=Perf|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	14	acl	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	obl	_	_
+20	общества	общество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	19	nmod	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 88
+# text = Это намного выгоднее для всех нас . Оглядываясь назад , решение о ненаказании Кристофера я считаю совершенно логичным . Когда я впервые столкнулся с ним в суде Роксбура , я не увидел в нём преступника , он был таким же , как я .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	намного	намного	ADV	_	Degree=Pos	3	obl	_	_
+3	выгоднее	выгодный	ADJ	_	Degree=Cmp	0	root	_	_
+4	для	для	ADP	_	_	6	case	_	_
+5	всех	весь	DET	_	Case=Gen|Number=Plur	6	det	_	_
+6	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	3	obl	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	Оглядываясь	оглядывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Pass	16	advcl	_	_
+9	назад	назад	ADV	_	Degree=Pos	8	advmod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	obj	_	_
+12	о	о	ADP	_	_	13	case	_	_
+13	ненаказании	ненаказания	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	nmod	_	_
+14	Кристофера	Кристофер	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
+15	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	16	nsubj	_	_
+16	считаю	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+17	совершенно	совершенно	ADV	_	Degree=Pos	18	obl	_	_
+18	логичным	логичный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	32	obl	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	Когда	когда	SCONJ	_	_	23	mark	_	_
+21	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	23	nsubj	_	_
+22	впервые	впервые	ADV	_	Degree=Pos	23	advmod	_	_
+23	столкнулся	сталкиваться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	32	advcl	_	_
+24	с	с	ADP	_	_	25	case	_	_
+25	ним	он	PRON	_	Case=Ins|Gender=Masc|Number=Sing|Person=3	23	obl	_	_
+26	в	в	ADP	_	_	27	case	_	_
+27	суде	суд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	23	obl	_	_
+28	Роксбура	Роксбур	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
+29	,	,	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	32	nsubj	_	_
+31	не	не	PART	_	_	32	advmod	_	_
+32	увидел	видеть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	conj	_	_
+33	в	в	ADP	_	_	34	case	_	_
+34	нём	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	32	obl	_	_
+35	преступника	преступник	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	32	obj	_	_
+36	,	,	PUNCT	_	_	35	punct	_	SpacesAfter=\s\s
+37	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	39	nsubj	_	_
+38	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	39	cop	_	_
+39	таким	такой	DET	_	Case=Ins|Gender=Masc|Number=Sing	32	det	_	_
+40	же	же	PART	_	_	39	discourse	_	_
+41	,	,	PUNCT	_	_	40	punct	_	SpacesAfter=\s\s
+42	как	как	SCONJ	_	_	43	mark	_	_
+43	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	39	obl	_	_
+44	.	.	PUNCT	_	_	43	punct	_	SpacesAfter=\s\s
+
+# sent_id = 89
+# text = Для меня это был молодой человек , нуждавшийся в помощи .
+1	Для	для	ADP	_	_	2	case	_	_
+2	меня	я	PRON	_	Case=Gen|Number=Sing|Person=1	6	nmod	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	nsubj	_	_
+4	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	молодой	молодой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	нуждавшийся	нуждаться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	6	acl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	помощи	помощь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	8	obl	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 90
+# text = Меня в подростковом возрасте поймали на продаже наркотиков большими партиями .
+1	Меня	я	PRON	_	Case=Acc|Number=Sing|Person=1	5	obj	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	подростковом	подростковый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	возрасте	возраст	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+5	поймали	поймать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	продаже	продажа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+8	наркотиков	наркотик	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+9	большими	большой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	10	amod	_	_
+10	партиями	партия	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	7	nmod	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 91
+# text = Я не понаслышке знал о силе шанса в противовес гневу уголовного правосудия .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	понаслышке	понаслышке	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	_
+4	знал	знать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	о	о	ADP	_	_	6	case	_	_
+6	силе	сила	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+7	шанса	шанс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	противовес	противовес	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	гневу	гнев	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	conj	_	_
+11	уголовного	уголовный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	правосудия	правосудие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	nmod	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 92
+# text = На всём своём пути при поддержке и попечительстве прокурора округа , моего начальника и судей я узнавал о способности прокурора менять жизнь вместо того , чтобы её разрушить .
+1	На	на	ADP	_	_	4	case	_	_
+2	всём	весь	DET	_	Case=Loc|Gender=Neut|Number=Sing	4	det	_	_
+3	своём	свой	DET	_	Case=Loc|Gender=Neut|Number=Sing	4	det	_	_
+4	пути	путь	NOUN	_	Animacy=Inan|Case=Loc|Number=Plur	17	obl	_	_
+5	при	при	ADP	_	_	6	case	_	_
+6	поддержке	поддержка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	попечительстве	попечительствй	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	conj	_	_
+9	прокурора	прокурор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	округа	округ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	моего	мой	DET	_	Case=Gen|Gender=Masc|Number=Sing	13	det	_	_
+13	начальника	начальник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	судей	судья	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	conj	_	_
+16	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	17	nsubj	_	_
+17	узнавал	узнавать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+18	о	о	ADP	_	_	19	case	_	_
+19	способности	способность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+20	прокурора	прокурор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	_
+21	менять	менять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	19	obl	_	_
+22	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	21	obj	_	_
+23	вместо	вместо	ADP	_	_	24	case	_	_
+24	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	obl	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	чтобы	что	SCONJ	_	Mood=Cnd	28	mark	_	_
+27	её	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	28	obj	_	_
+28	разрушить	разрушать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	advcl	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\n
+
+# sent_id = 93
+# text = И вот так мы работаем в Бостоне .
+1	И	и	CCONJ	_	_	5	cc	_	_
+2	вот	вот	PART	_	_	3	discourse	_	_
+3	так	так	ADV	_	Degree=Pos	5	advmod	_	_
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+5	работаем	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	Бостоне	бостон	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 94
+# text = Мы помогли женщине , которая воровала продукты , чтобы накормить своих детей , найти работу .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	помогли	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	женщине	женщина	NOUN	_	Animacy=Anim|Case=Dat|Gender=Fem|Number=Sing	2	iobj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	которая	который	PRON	_	Case=Nom	6	nsubj	_	_
+6	воровала	воровать	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+7	продукты	продукт	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	чтобы	чтобы	SCONJ	_	Mood=Cnd	10	mark	_	_
+10	накормить	накормить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	advcl	_	_
+11	своих	свой	DET	_	Case=Acc|Number=Plur	12	det	_	_
+12	детей	ребенок	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	conj	_	_
+15	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 95
+# text = Вместо того , чтобы отправить подростка , с которым жестоко обращались , в тюрьму из-за драки с другим подростком , мы обеспечили ему психиатрическое амбулаторное лечение .
+1	Вместо	вместо	ADP	_	_	2	case	_	_
+2	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	22	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	чтобы	чтобы	SCONJ	_	Mood=Cnd	5	mark	_	_
+5	отправить	отправлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	advcl	_	_
+6	подростка	подросток	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	5	obj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	с	с	ADP	_	_	9	case	_	_
+9	которым	который	PRON	_	Case=Ins	11	obl	_	_
+10	жестоко	жестоко	ADV	_	Degree=Pos	11	advmod	_	_
+11	обращались	обращаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	в	в	ADP	_	_	14	case	_	_
+14	тюрьму	тюрьма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obl	_	_
+15	из-за	из-за	ADP	_	_	16	case	_	_
+16	драки	драка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	5	obl	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	другим	другой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	подростком	подросток	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	nmod	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	22	nsubj	_	_
+22	обеспечили	обеспечивать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+23	ему	он	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=3	22	iobj	_	_
+24	психиатрическое	психиатрический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+25	амбулаторное	амбулаторный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	лечение	лечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 96
+# text = Арестованная девочка , сбежавшая из дома и занимавшаяся проституцией , чтобы выжить , нуждалась в безопасном месте для жизни и роста .
+1	Арестованная	Арестовать	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	2	amod	_	_
+2	девочка	девочка	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	сбежавшая	сбежать	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	2	acl	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	дома	дом	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	занимавшаяся	заниматься	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	4	conj	_	_
+9	проституцией	проституция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	чтобы	чтобы	SCONJ	_	Mood=Cnd	12	mark	_	_
+12	выжить	выживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	advcl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	нуждалась	нуждаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	безопасном	безопасный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	месте	место	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	жизни	жизнь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	роста	рост	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	19	conj	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 97
+# text = С этим мы смогли помочь .
+1	С	с	ADP	_	_	2	case	_	_
+2	этим	это	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+3	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	4	nsubj	_	_
+4	смогли	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 98
+# text = Я даже помог молодому парню , который настолько боялся встречи с ребятами из банды после школы , что однажды утром вместо обеда он положил в рюкзак заряженный пистолет .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+2	даже	даже	PART	_	_	3	discourse	_	_
+3	помог	помогать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	молодому	молодой	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	парню	парень	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Sing	3	iobj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	который	который	PRON	_	Case=Nom	9	nsubj	_	_
+8	настолько	настолько	ADV	_	Degree=Pos	9	advmod	_	_
+9	боялся	бояться	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	5	acl:relcl	_	_
+10	встречи	встреча	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	24	nsubj	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	ребятами	ребята	NOUN	_	Animacy=Anim|Case=Ins|Gender=Neut|Number=Plur	10	nmod	_	_
+13	из	из	ADP	_	_	14	case	_	_
+14	банды	банда	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+15	после	после	ADP	_	_	16	case	_	_
+16	школы	школа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	что	что	SCONJ	_	_	24	mark	_	_
+19	однажды	однажды	ADV	_	Degree=Pos	24	advmod	_	_
+20	утром	утро	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	19	obl	_	_
+21	вместо	вместо	ADP	_	_	22	case	_	_
+22	обеда	обед	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	obl	_	_
+23	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	24	nsubj	_	_
+24	положил	класть	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	9	ccomp	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	рюкзак	рюкзак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
+27	заряженный	заряжать	VERB	_	Animacy=Inan|Aspect=Perf|Case=Acc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	28	amod	_	_
+28	пистолет	пистолет	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obj	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 99
+# text = Мы могли бы потратить время , которое обычно отводится на подготовку дел целыми месяцами для грядущего суда , на поиск настоящих решений по мере их поступления .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	могли	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	бы	бы	PART	_	Mood=Cnd	2	aux	_	_
+4	потратить	тратить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+5	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	4	obj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	которое	который	PRON	_	Case=Nom	9	nsubj:pass	_	_
+8	обычно	обычно	ADV	_	Degree=Pos	9	advmod	_	_
+9	отводится	отводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	5	acl:relcl	_	_
+10	на	на	ADP	_	_	11	case	_	_
+11	подготовку	подготовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+12	дел	дело	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	11	nmod	_	_
+13	целыми	целый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	14	amod	_	_
+14	месяцами	месяц	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	conj	_	_
+15	для	для	ADP	_	_	17	case	_	_
+16	грядущего	грядущий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	суда	суд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	на	на	ADP	_	_	20	case	_	_
+20	поиск	поиск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	conj	_	_
+21	настоящих	настоящий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	решений	решение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	20	nmod	_	_
+23	по	по	ADP	_	_	26	case	_	_
+24	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	23	fixed	_	_
+25	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	26	nmod	_	_
+26	поступления	поступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	20	nmod	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\n
+
+# sent_id = 100
+# text = Как лучше потратить время Как вы хотите , чтобы прокуроры тратили своё время Мы тратим 80 миллиардов долларов на тюрьмы , которые , как мы знаем , не справляются , когда можно эти деньги потратить на образование , на психиатрическое лечение , на лечение наркомании и на развитие наших районов Почему это важно для вас Во-первых , мы тратим много денег .
+1	Как	как	ADV	_	Degree=Pos	2	obl	_	_
+2	лучше	хороший	ADJ	_	Degree=Cmp	0	root	_	_
+3	потратить	тратить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	3	obj	_	_
+5	Как	как	ADV	_	Degree=Pos	7	advmod	_	_
+6	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	7	nsubj	_	_
+7	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	чтобы	что	SCONJ	_	Mood=Cnd	11	mark	_	_
+10	прокуроры	прокурор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	тратили	тратить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	7	ccomp	_	_
+12	своё	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	13	det	_	_
+13	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	11	obj	_	_
+14	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	15	nsubj	_	_
+15	тратим	тратить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	13	parataxis	_	_
+16	80	80	NUM	_	_	17	nummod	_	_
+17	миллиардов	миллиард	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	obl	_	_
+18	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	17	nmod	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	тюрьмы	тюрьма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	18	nmod	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	которые	который	PRON	_	Case=Nom	29	nsubj	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	как	как	SCONJ	_	_	26	mark	_	_
+25	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	26	nsubj	_	_
+26	знаем	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	29	parataxis	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	не	не	PART	_	_	29	advmod	_	_
+29	справляются	справляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	acl:relcl	_	_
+30	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	когда	когда	ADV	_	Degree=Pos	32	advmod	_	_
+32	можно	можно	ADV	_	Degree=Pos	29	acl:relcl	_	_
+33	эти	этот	DET	_	Case=Acc|Number=Plur	34	det	_	_
+34	деньги	деньги	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	35	obj	_	_
+35	потратить	тратить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	32	csubj	_	_
+36	на	на	ADP	_	_	37	case	_	_
+37	образование	образование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	35	obl	_	_
+38	,	,	PUNCT	_	_	37	punct	_	SpacesAfter=\s\s
+39	на	на	ADP	_	_	41	case	_	_
+40	психиатрическое	психиатрический	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	41	amod	_	_
+41	лечение	лечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	conj	_	_
+42	,	,	PUNCT	_	_	41	punct	_	SpacesAfter=\s\s
+43	на	на	ADP	_	_	44	case	_	_
+44	лечение	лечение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	conj	_	_
+45	наркомании	наркомания	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	44	nmod	_	_
+46	и	и	CCONJ	_	_	48	cc	_	_
+47	на	на	ADP	_	_	48	case	_	_
+48	развитие	развитие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	37	conj	_	_
+49	наших	наш	DET	_	Case=Gen|Number=Plur	50	det	_	_
+50	районов	район	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	48	nmod	_	SpacesAfter=\n
+51	Почему	почему	ADV	_	Degree=Pos	53	advmod	_	_
+52	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	53	nsubj	_	_
+53	важно	важный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	parataxis	_	_
+54	для	для	ADP	_	_	55	case	_	_
+55	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	59	obl	_	_
+56	Во-первых	во-первых	ADV	_	Degree=Pos	59	parataxis	_	_
+57	,	,	PUNCT	_	_	56	punct	_	SpacesAfter=\s\s
+58	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	59	nsubj	_	_
+59	тратим	тратить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	50	parataxis	_	_
+60	много	много	ADV	_	Degree=Pos	61	nummod:gov	_	_
+61	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	59	obl	_	_
+62	.	.	PUNCT	_	_	61	punct	_	SpacesAfter=\s\s
+
+# sent_id = 101
+# text = Наши деньги .
+1	Наши	наш	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	деньги	деньги	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 102
+# text = В некоторых штатах 109 000 долларов -- это годовое содержание подростка в тюрьме , с вероятностью 60 % , что он вернётся в эту же самую систему .
+1	В	в	ADP	_	_	3	case	_	_
+2	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	3	det	_	_
+3	штатах	штат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	6	nmod	_	_
+4	109	109	NUM	_	_	6	nummod	_	_
+5	000	000	NUM	_	_	6	nummod	_	_
+6	долларов	доллар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nsubj	_	_
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	6	punct	_	_
+9	это	это	PRON	_	_	11	cop	_	_
+10	годовое	годовой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	содержание	содержание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+12	подростка	подросток	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	тюрьме	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	с	с	ADP	_	_	17	case	_	_
+17	вероятностью	вероятность	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
+18	60	60	NUM	_	_	19	nummod	_	_
+19	%	%	SYM	_	_	17	nmod	_	SpacesAfter=\s\s
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	что	что	SCONJ	_	_	23	mark	_	_
+22	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
+23	вернётся	вернуться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	acl	_	_
+24	в	в	ADP	_	_	28	case	_	_
+25	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	28	det	_	_
+26	же	же	PART	_	_	25	discourse	_	_
+27	самую	самый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	28	amod	_	_
+28	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	23	obl	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 103
+# text = Это ужасная окупаемость затрат .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	ужасная	ужасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	окупаемость	окупаемодать	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+4	затрат	затрата	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	nmod	_	_
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 104
+# text = Во-вторых , это правое дело .
+1	Во-вторых	во-вторых	ADV	_	Degree=Pos	5	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	правое	правый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 105
+# text = Если прокуроры являются частью проблемы , то наша обязанность -- найти решения ; мы сможем это сделать , пользуясь отраслями знаний , где за нас уже собрали данные и провели исследования .
+1	Если	если	SCONJ	_	_	3	mark	_	_
+2	прокуроры	прокурор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	advcl	_	_
+4	частью	часть	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+5	проблемы	проблема	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	то	то	SCONJ	_	_	9	mark	_	_
+8	наша	наш	DET	_	Case=Nom|Gender=Fem|Number=Sing	9	det	_	_
+9	обязанность	обязанность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	9	punct	_	_
+12	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	obl	_	_
+13	решения	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	12	obj	_	_
+14	;	;	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	16	nsubj	_	_
+16	сможем	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+17	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+18	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	xcomp	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	пользуясь	пользоваться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	18	advcl	_	_
+21	отраслями	отрасль	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Plur	20	obl	_	_
+22	знаний	знание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	21	nmod	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	где	где	ADV	_	Degree=Pos	28	advmod	_	_
+25	за	за	ADP	_	_	26	case	_	_
+26	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	28	obl	_	_
+27	уже	уже	ADV	_	Degree=Pos	28	advmod	_	_
+28	собрали	собирать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	22	acl:relcl	_	_
+29	данные	данные	NOUN	_	Animacy=Inan|Case=Acc|Number=Plur	28	obj	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	провели	проводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	28	conj	_	_
+32	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	31	obj	_	_
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\s\n
+
+# sent_id = 106
+# text = И в-третьих , ваш голос и поддержка могут помочь этого добиться .
+1	И	и	CCONJ	_	_	8	cc	_	_
+2	в-третьих	в-третьих	ADV	_	Degree=Pos	8	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	ваш	ваш	DET	_	Case=Nom|Gender=Masc|Number=Sing	5	det	_	_
+5	голос	голос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	поддержка	поддержка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+8	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	помочь	помогать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+10	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	obl	_	_
+11	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 107
+# text = В следующие местные выборы районного прокурора в вашей местности задайте кандидатам эти вопросы .
+1	В	в	ADP	_	_	4	case	_	_
+2	следующие	следующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
+3	местные	местный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	4	amod	_	_
+4	выборы	выборы	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obl	_	_
+5	районного	районный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	прокурора	прокурор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	в	в	ADP	_	_	9	case	_	_
+8	вашей	ваш	DET	_	Case=Loc|Gender=Fem|Number=Sing	9	det	_	_
+9	местности	местность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+10	задайте	задать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+11	кандидатам	кандидат	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	iobj	_	_
+12	эти	этот	DET	_	Case=Acc|Number=Plur	13	det	_	_
+13	вопросы	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	10	obj	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 108
+# text = Первый : что вы предпринимаете для безопасности нашего района Второй : какие данные вы собираете и какую подготовку прокуроров вы ведёте для обеспечения гарантии , что это работает И третий : если это работает не для всех , что вы делаете , чтобы это исправить Если они не смогут ответить на эти вопросы , то им не стоит заниматься этим делом .
+1	Первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	0	root	_	_
+2	:	:	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	что	что	PRON	_	Case=Acc	5	obj	_	_
+4	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	5	nsubj	_	_
+5	предпринимаете	предпринимать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+8	нашего	наш	DET	_	Case=Gen|Gender=Masc|Number=Sing	9	det	_	_
+9	района	район	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+10	Второй	второй	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	conj	_	_
+11	:	:	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	какие	какой	DET	_	Case=Nom|Number=Plur	13	det	_	_
+13	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	15	nsubj	_	_
+14	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	13	appos	_	_
+15	собираете	собирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+16	и	и	PART	_	_	17	discourse	_	_
+17	какую	какой	DET	_	Case=Acc|Gender=Fem|Number=Sing	18	det	_	_
+18	подготовку	подготовка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+19	прокуроров	прокурор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+20	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	15	conj	_	_
+21	ведёте	вести	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	20	appos	_	_
+22	для	для	ADP	_	_	23	case	_	_
+23	обеспечения	обеспечение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+24	гарантии	гарантия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	что	что	SCONJ	_	_	28	mark	_	_
+27	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	_
+28	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl	_	_
+29	И	и	PART	_	_	30	discourse	_	_
+30	третий	третий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	28	obj	_	_
+31	:	:	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+32	если	если	SCONJ	_	_	34	mark	_	_
+33	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	34	nsubj	_	_
+34	работает	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	30	parataxis	_	_
+35	не	не	PART	_	_	37	advmod	_	_
+36	для	для	ADP	_	_	37	case	_	_
+37	всех	все	PRON	_	Animacy=Anim|Case=Gen|Number=Plur	34	obl	_	_
+38	,	,	PUNCT	_	_	37	punct	_	SpacesAfter=\s\s
+39	что	что	SCONJ	_	_	41	mark	_	_
+40	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	41	nsubj	_	_
+41	делаете	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	34	ccomp	_	_
+42	,	,	PUNCT	_	_	41	punct	_	SpacesAfter=\s\s
+43	чтобы	что	SCONJ	_	Mood=Cnd	45	mark	_	_
+44	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	45	expl	_	_
+45	исправить	исправлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	41	advcl	_	_
+46	Если	если	SCONJ	_	_	49	mark	_	_
+47	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	49	nsubj	_	_
+48	не	не	PART	_	_	49	advmod	_	_
+49	смогут	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	58	advcl	_	_
+50	ответить	отвечать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	49	xcomp	_	_
+51	на	на	ADP	_	_	53	case	_	_
+52	эти	этот	DET	_	Case=Acc|Number=Plur	53	det	_	_
+53	вопросы	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	50	obl	_	_
+54	,	,	PUNCT	_	_	53	punct	_	SpacesAfter=\s\s
+55	то	то	SCONJ	_	_	58	mark	_	_
+56	им	они	PRON	_	Case=Dat|Number=Plur|Person=3	58	iobj	_	_
+57	не	не	PART	_	_	58	advmod	_	_
+58	стоит	стоить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	45	ccomp	_	_
+59	заниматься	заниматься	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	58	csubj	_	_
+60	этим	этот	DET	_	Case=Ins|Gender=Neut|Number=Sing	61	det	_	_
+61	делом	дело	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	59	obl	_	_
+62	.	.	PUNCT	_	_	61	punct	_	SpacesAfter=\s\n
+
+# sent_id = 109
+# text = Каждый из вас , кто поднял руку в начале этого выступления , -- живой пример силы шанса , интервенции , поддержки и любви .
+1	Каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	nsubj	_	_
+2	из	из	ADP	_	_	3	case	_	_
+3	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	1	nmod	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	кто	кто	PRON	_	Case=Nom	6	nsubj	_	_
+6	поднял	поднимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	acl:relcl	_	_
+7	руку	рука	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	начале	начало	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	obl	_	_
+10	этого	этот	DET	_	Case=Gen|Gender=Neut|Number=Sing	11	det	_	_
+11	выступления	выступление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	11	punct	_	_
+15	живой	живой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	пример	пример	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+17	силы	сила	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	шанса	шанс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	интервенции	интервенция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	conj	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	поддержки	поддержка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	conj	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	любви	любовь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	conj	_	_
+25	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+
+# sent_id = 110
+# text = Наверняка у всех вас было своё наказание за совершённые злодеяния , но далеко не всем стоило отсидеть день в тюрьме , чтобы стать людьми , которыми вы на сегодня являетесь -- одними из самых умных на планете .
+1	Наверняка	наверняка	ADV	_	Degree=Pos	5	advmod	_	_
+2	у	у	ADP	_	_	3	case	_	_
+3	всех	все	PRON	_	Animacy=Anim|Case=Gen|Number=Plur	5	obl	_	_
+4	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	7	nmod	_	_
+5	было	быть	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+6	своё	свой	DET	_	Case=Acc|Gender=Neut|Number=Sing	7	det	_	_
+7	наказание	наказание	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+8	за	за	ADP	_	_	10	case	_	_
+9	совершённые	совершать	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	злодеяния	злодеяние	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	nmod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	но	но	CCONJ	_	_	16	cc	_	_
+13	далеко	далеко	ADV	_	Degree=Pos	14	advmod	_	_
+14	не	не	PART	_	_	15	advmod	_	_
+15	всем	все	PRON	_	Animacy=Anim|Case=Dat|Number=Plur	16	iobj	_	_
+16	стоило	стоить	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	conj	_	_
+17	отсидеть	отсидеть	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	csubj	_	_
+18	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obl	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	тюрьме	тюрьма	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	17	obl	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	чтобы	чтобы	SCONJ	_	Mood=Cnd	23	mark	_	_
+23	стать	становиться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	17	advcl	_	_
+24	людьми	человек	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	23	obl	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	которыми	который	PRON	_	Case=Ins	30	obl	_	_
+27	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	30	nsubj	_	_
+28	на	на	ADP	_	_	29	case	_	_
+29	сегодня	сегодня	ADV	_	Degree=Pos	30	advmod	_	_
+30	являетесь	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Mid	24	acl:relcl	_	_
+31	-	-	PUNCT	_	_	30	punct	_	SpaceAfter=No
+32	-	-	PUNCT	_	_	30	punct	_	_
+33	одними	один	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	30	parataxis	_	_
+34	из	из	ADP	_	_	36	case	_	_
+35	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	36	amod	_	_
+36	умных	умный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	nmod	_	_
+37	на	на	ADP	_	_	38	case	_	_
+38	планете	планета	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	36	nmod	_	_
+39	.	.	PUNCT	_	_	38	punct	_	SpacesAfter=\s\n
+
+# sent_id = 111
+# text = Каждый день , тысячу раз на дню у прокуроров Америки в руках огромная сила , которая способна привести к катастрофе , но также может и дать шанс , интервенцию , поддержку и да -- даже любовь .
+1	Каждый	каждый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	obl	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	тысячу	тысяча	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+5	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	conj	_	_
+6	на	на	ADP	_	_	7	case	_	_
+7	дню	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	nmod	_	_
+8	у	в	ADP	_	_	9	case	_	_
+9	прокуроров	прокурор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	Америки	америка	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	руках	рука	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	9	nmod	_	_
+13	огромная	огромный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	сила	сила	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	24	nsubj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	которая	который	PRON	_	Case=Nom	17	nsubj	_	_
+17	способна	способный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	14	acl:relcl	_	_
+18	привести	приводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+19	к	к	ADP	_	_	20	case	_	_
+20	катастрофе	катастрофа	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	18	obl	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	но	но	CCONJ	_	_	24	cc	_	_
+23	также	также	ADV	_	Degree=Pos	24	advmod	_	_
+24	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+25	и	и	PART	_	_	26	discourse	_	_
+26	дать	давать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	xcomp	_	_
+27	шанс	шанс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	интервенцию	интервенция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	conj	_	_
+30	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	поддержку	поддержка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	27	conj	_	_
+32	и	и	CCONJ	_	_	37	cc	_	_
+33	да	да	PART	_	_	37	parataxis	_	_
+34	-	-	PUNCT	_	_	33	punct	_	SpaceAfter=No
+35	-	-	PUNCT	_	_	33	punct	_	_
+36	даже	даже	PART	_	_	37	discourse	_	_
+37	любовь	любовь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	27	conj	_	_
+38	.	.	PUNCT	_	_	37	punct	_	SpacesAfter=\s\s
+
+# sent_id = 112
+# text = Эти качества -- признаки сильного общества , а сильное общество -- это безопасное общество .
+1	Эти	этот	DET	_	Case=Nom|Number=Plur	2	det	_	_
+2	качества	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	5	nsubj	_	_
+3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	2	punct	_	_
+5	признаки	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+6	сильного	сильный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	общества	общество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	а	а	CCONJ	_	_	11	cc	_	_
+10	сильное	сильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	общество	общество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	conj	_	_
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	_
+14	это	это	PRON	_	_	16	cop	_	_
+15	безопасное	безопасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	16	amod	_	_
+16	общество	общество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 113
+# text = Если наши общины разрозненны , не позволяйте выбранным вами адвокатам исправлять их устаревшими , малоэффективными , дорогими методами .
+1	Если	если	SCONJ	_	_	4	mark	_	_
+2	наши	наш	DET	_	Case=Nom|Number=Plur	3	det	_	_
+3	общины	община	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	разрозненны	разрозненть	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	advcl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	не	не	PART	_	_	7	advmod	_	_
+7	позволяйте	позволять	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+8	выбранным	выбирать	VERB	_	Aspect=Perf|Case=Ins|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	_
+9	вами	вы	PRON	_	Case=Ins|Number=Plur|Person=2	8	obl	_	_
+10	адвокатам	адвокат	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	7	iobj	_	_
+11	исправлять	исправлять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	xcomp	_	_
+12	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	11	obj	_	_
+13	устаревшими	устаревший	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	малоэффективными	малоэффективный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	conj	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	дорогими	дорогой	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	13	conj	_	_
+18	методами	метод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	11	obl	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\n
+
+# sent_id = 114
+# text = Требуйте большего : голосуйте за прокурора , который поможет людям избежать тюрьмы , а не сажает в неё .
+1	Требуйте	требовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	большего	большее	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	1	obl	_	_
+3	:	:	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	голосуйте	голосовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	parataxis	_	_
+5	за	за	ADP	_	_	6	case	_	_
+6	прокурора	прокурор	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	который	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	поможет	помогать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+10	людям	человек	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	9	iobj	_	_
+11	избежать	избегать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+12	тюрьмы	тюрьма	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	11	obj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	а	а	CCONJ	_	_	16	cc	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	сажает	сажать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	conj	_	_
+17	в	в	ADP	_	_	18	case	_	_
+18	неё	она	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Person=3	16	obl	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\n
+
+# sent_id = 115
+# text = Требуйте лучшего .
+1	Требуйте	требовать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+2	лучшего	лучший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	1	obl	_	_
+3	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 116
+# text = Вы заслуживаете этого , ваши дети заслуживают этого , люди , втянутые в эту систему , заслуживают этого , но самое главное , люди , которых мы поклялись защищать , требуют этого .
+1	Вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	2	nsubj	_	_
+2	заслуживаете	заслуживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	ваши	ваш	DET	_	Case=Nom|Number=Plur	6	det	_	_
+6	дети	ребенок	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	7	nsubj	_	_
+7	заслуживают	заслуживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+8	этого	этот	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	conj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	втянутые	втятывать	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	10	acl	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	15	det	_	_
+15	систему	система	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	заслуживают	заслуживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+18	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	17	obl	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	но	но	CCONJ	_	_	31	cc	_	_
+21	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	главное	главный	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	24	parataxis	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	31	nsubj	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	которых	который	PRON	_	Case=Acc	29	obj	_	_
+27	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	28	nsubj	_	_
+28	поклялись	поклясться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	24	acl:relcl	_	_
+29	защищать	защищать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	28	xcomp	_	_
+30	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	требуют	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+32	этого	это	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	31	obl	_	_
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\s\n
+
+# sent_id = 117
+# text = Мы должны , мы должны добиться большего . Спасибо . Спасибо . Огромное спасибо .
+1	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+2	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	5	nsubj	_	_
+5	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	2	ccomp	_	_
+6	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	5	xcomp	_	_
+7	большего	большее	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	6	obl	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\n
+9	Спасибо	спасибо	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	parataxis	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
+11	Спасибо	спасибо	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	parataxis	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
+13	Огромное	огромный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	спасибо	спасибо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	11	conj	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\n
+

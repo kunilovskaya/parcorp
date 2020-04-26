@@ -1,0 +1,1090 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Although there are about 2000 species of fireflies in the world , synchronous fireflies -- ones that can coordinate their flash patterns -- exist in just a handful of places on Earth .
+1	Although	although	SCONJ	IN	_	3	mark	_	_
+2	there	there	PRON	EX	_	3	expl	_	_
+3	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	advcl	_	_
+4	about	about	ADV	RB	_	5	advmod	_	_
+5	2000	2000	NUM	CD	NumType=Card	6	nummod	_	_
+6	species	species	NOUN	NNS	Number=Plur	3	nsubj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	fireflies	firefly	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	in	in	ADP	IN	_	11	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+11	world	world	NOUN	NN	Number=Sing	6	nmod	_	_
+12	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+13	synchronous	synchronous	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	fireflies	firefly	NOUN	NNS	Number=Plur	24	nsubj	_	_
+15	--	--	PUNCT	,	_	14	punct	_	_
+16	ones	one	NOUN	NNS	Number=Plur	14	appos	_	_
+17	that	that	PRON	WDT	PronType=Rel	19	nsubj	_	_
+18	can	can	AUX	MD	VerbForm=Fin	19	aux	_	_
+19	coordinate	coordinate	VERB	VB	VerbForm=Inf	16	acl:relcl	_	_
+20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	nmod:poss	_	_
+21	flash	flash	NOUN	NN	Number=Sing	22	compound	_	_
+22	patterns	pattern	NOUN	NNS	Number=Plur	19	obj	_	_
+23	--	--	PUNCT	,	_	14	punct	_	_
+24	exist	exist	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+25	in	in	ADP	IN	_	28	case	_	_
+26	just	just	ADV	RB	_	28	advmod	_	_
+27	a	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	handful	handful	NOUN	NN	Number=Sing	24	obl	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	places	place	NOUN	NNS	Number=Plur	28	nmod	_	_
+31	on	on	ADP	IN	_	32	case	_	_
+32	Earth	Earth	PROPN	NNP	Number=Sing	30	nmod	_	_
+33	.	.	PUNCT	.	_	24	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = And to see their most dramatic light display in the western hemisphere , you " ll need to head to the US , to the Great Smoky Mountains National Park . "
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	to	to	PART	TO	_	3	mark	_	_
+3	see	see	VERB	VB	VerbForm=Inf	17	advcl	_	_
+4	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+5	most	most	ADV	RBS	_	6	advmod	_	_
+6	dramatic	dramatic	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	light	light	NOUN	NN	Number=Sing	8	compound	_	_
+8	display	display	NOUN	NN	Number=Sing	3	obj	_	_
+9	in	in	ADP	IN	_	12	case	_	_
+10	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+11	western	western	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	hemisphere	hemisphere	NOUN	NN	Number=Sing	3	obl	_	_
+13	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	nsubj	_	_
+15	"	"	PUNCT	``	_	17	punct	_	_
+16	ll	will	AUX	MD	VerbForm=Fin	17	aux	_	_
+17	need	need	VERB	VB	VerbForm=Inf	0	root	_	_
+18	to	to	PART	TO	_	19	mark	_	_
+19	head	head	VERB	VB	VerbForm=Inf	17	xcomp	_	_
+20	to	to	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	US	US	PROPN	NNP	Number=Sing	19	obl	_	_
+23	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s
+24	to	to	ADP	IN	_	30	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+26	Great	Great	PROPN	NNP	Number=Sing	28	compound	_	_
+27	Smoky	Smoky	PROPN	NNP	Number=Sing	28	compound	_	_
+28	Mountains	Mountains	PROPN	NNPS	Number=Plur	30	compound	_	_
+29	National	National	PROPN	NNP	Number=Sing	30	compound	_	_
+30	Park	Park	PROPN	NNP	Number=Sing	19	obl	_	_
+31	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n\s
+32	"	"	PUNCT	''	_	17	punct	_	_
+
+# sent_id = 3
+# text = We have 19 species of fireflies in the Smokies , " said Becky Nichols , a park entomologist who has studied the phenomenon for the past 20 years . "
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+3	19	19	NUM	CD	NumType=Card	4	nummod	_	_
+4	species	species	NOUN	NNS	Number=Plur	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	fireflies	firefly	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	in	in	ADP	IN	_	9	case	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	Smokies	Smoky	NOUN	NNS	Number=Plur	4	nmod	_	_
+10	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+11	"	"	PUNCT	''	_	12	punct	_	SpacesAfter=\s\s
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	Becky	Becky	PROPN	NNP	Number=Sing	12	nsubj	_	_
+14	Nichols	Nichols	PROPN	NNP	Number=Sing	13	flat	_	_
+15	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	park	park	NOUN	NN	Number=Sing	18	compound	_	_
+18	entomologist	entomologist	NOUN	NN	Number=Sing	13	appos	_	_
+19	who	who	PRON	WP	PronType=Rel	21	nsubj	_	_
+20	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	_
+21	studied	studie	VERB	VBN	Tense=Past|VerbForm=Part	18	acl:relcl	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	phenomenon	phenomenon	NOUN	NN	Number=Sing	21	obj	_	_
+24	for	for	ADP	IN	_	28	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+26	past	past	ADJ	JJ	Degree=Pos	28	amod	_	_
+27	20	20	NUM	CD	NumType=Card	28	nummod	_	_
+28	years	year	NOUN	NNS	Number=Plur	21	obl	_	_
+29	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\s\s
+30	"	"	PUNCT	''	_	12	punct	_	_
+
+# sent_id = 4
+# text = They all have their own individual flashing pattern , but Photinus carolinus is our only synchronous species . "
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	all	all	DET	DT	_	1	det	_	_
+3	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	_	_
+5	own	own	ADJ	JJ	Degree=Pos	8	amod	_	_
+6	individual	individual	ADJ	JJ	Degree=Pos	8	amod	_	_
+7	flashing	flashing	NOUN	NN	Number=Sing	8	compound	_	_
+8	pattern	pattern	NOUN	NN	Number=Sing	3	obj	_	_
+9	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s
+10	but	but	CCONJ	CC	_	17	cc	_	_
+11	Photinus	Photinus	PROPN	NNP	Number=Sing	17	nsubj	_	_
+12	carolinus	carolinus	PROPN	NNP	Number=Sing	11	flat	_	_
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+14	our	we	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+15	only	only	ADJ	JJ	Degree=Pos	17	amod	_	_
+16	synchronous	synchronous	ADJ	JJ	Degree=Pos	17	amod	_	_
+17	species	species	NOUN	NNS	Number=Plur	3	conj	_	_
+18	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s
+19	"	"	PUNCT	''	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Four species of synchronous fireflies can also be found in the jungles of Southeast Asia ( particularly in Malaysia , Thailand and the Philippines ) , but " they don " t fly and flash the way they do here , " Nichols explained . "
+1	Four	four	NUM	CD	NumType=Card	2	nummod	_	_
+2	species	species	NOUN	NNS	Number=Plur	9	nsubj	_	_
+3	of	of	ADP	IN	_	5	case	_	_
+4	synchronous	synchronous	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	fireflies	firefly	NOUN	NNS	Number=Plur	2	nmod	_	_
+6	can	can	AUX	MD	VerbForm=Fin	9	aux	_	_
+7	also	also	ADV	RB	_	9	advmod	_	_
+8	be	be	AUX	VB	VerbForm=Inf	9	aux:pass	_	_
+9	found	find	VERB	VBN	Tense=Past|VerbForm=Part	44	ccomp	_	_
+10	in	in	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	jungles	jungles	NOUN	NNS	Number=Plur	9	obl	_	_
+13	of	of	ADP	IN	_	15	case	_	_
+14	Southeast	southeast	PROPN	NNP	Number=Sing	15	compound	_	_
+15	Asia	Asia	PROPN	NNP	Number=Sing	12	nmod	_	SpacesAfter=\s\s
+16	(	(	PUNCT	-LRB-	_	19	punct	_	_
+17	particularly	particularly	ADV	RB	_	19	advmod	_	_
+18	in	in	ADP	IN	_	19	case	_	_
+19	Malaysia	Malaysia	PROPN	NNP	Number=Sing	9	parataxis	_	_
+20	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s
+21	Thailand	Thailand	PROPN	NNP	Number=Sing	19	conj	_	_
+22	and	and	CCONJ	CC	_	24	cc	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	Philippines	Philippines	PROPN	NNPS	Number=Plur	19	conj	_	_
+25	)	)	PUNCT	-RRB-	_	9	punct	_	SpacesAfter=\s\s
+26	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+27	but	but	CCONJ	CC	_	30	cc	_	SpacesAfter=\s\s
+28	"	"	PUNCT	``	_	30	punct	_	_
+29	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	30	nsubj	_	_
+30	don	don	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	conj	_	_
+31	"	"	PUNCT	``	_	30	punct	_	_
+32	t	t	NOUN	NN	Number=Sing	30	obj	_	_
+33	fly	fly	VERB	VB	VerbForm=Inf	30	xcomp	_	_
+34	and	and	CCONJ	CC	_	35	cc	_	_
+35	flash	flash	VERB	VB	VerbForm=Inf	33	conj	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	way	way	NOUN	NN	Number=Sing	35	obj	_	_
+38	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	39	nsubj	_	_
+39	do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	37	acl:relcl	_	_
+40	here	here	ADV	RB	PronType=Dem	39	advmod	_	_
+41	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+42	"	"	PUNCT	''	_	9	punct	_	SpacesAfter=\s\s
+43	Nichols	Nichols	PROPN	NNP	Number=Sing	44	nsubj	_	_
+44	explained	explain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+45	.	.	PUNCT	.	_	44	punct	_	SpacesAfter=\s\n\s
+46	"	"	PUNCT	''	_	44	punct	_	_
+
+# sent_id = 6
+# text = They [ fireflies in Southeast Asia ] perch on trees and flash .
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	root	_	SpacesAfter=\s\s
+2	[	[	PUNCT	-LRB-	_	3	punct	_	_
+3	fireflies	firefly	NOUN	NNS	Number=Plur	1	appos	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	Southeast	Southeast	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Asia	Asia	PROPN	NNP	Number=Sing	3	nmod	_	_
+7	]	]	PUNCT	-RRB-	_	3	punct	_	SpacesAfter=\s\s
+8	perch	perch	NOUN	NN	Number=Sing	3	conj	_	_
+9	on	on	ADP	IN	_	10	case	_	_
+10	trees	tree	NOUN	NNS	Number=Plur	8	nmod	_	_
+11	and	and	CCONJ	CC	_	12	cc	_	_
+12	flash	flash	NOUN	NN	Number=Sing	10	conj	_	_
+13	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = And they " re completely synchronous , " meaning they flash both on and off together , as opposed to those in the Smokies that flash in a wave effect .
+1	And	and	CCONJ	CC	_	6	cc	_	_
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
+3	"	"	PUNCT	``	_	6	punct	_	_
+4	re	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	cop	_	_
+5	completely	completely	ADV	RB	_	6	advmod	_	_
+6	synchronous	synchronous	ADJ	JJ	Degree=Pos	0	root	_	_
+7	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\s\s
+8	"	"	PUNCT	''	_	6	punct	_	SpacesAfter=\s\s
+9	meaning	mean	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	obj	_	_
+11	flash	flash	ADJ	JJ	Degree=Pos	10	amod	_	_
+12	both	both	CCONJ	CC	_	13	cc:preconj	_	_
+13	on	on	ADJ	JJ	Degree=Pos	11	obl	_	_
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	off	off	ADV	RB	_	13	conj	_	_
+16	together	together	ADV	RB	_	13	advmod	_	_
+17	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+18	as	as	SCONJ	IN	_	19	mark	_	_
+19	opposed	oppose	VERB	VBN	Tense=Past|VerbForm=Part	11	advcl	_	_
+20	to	to	ADP	IN	_	21	case	_	_
+21	those	those	PRON	DT	Number=Plur|PronType=Dem	19	obl	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	Smokies	Smoky	NOUN	NNS	Number=Plur	21	nmod	_	_
+25	that	that	PRON	WDT	PronType=Rel	26	nsubj	_	_
+26	flash	flash	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	24	acl:relcl	_	_
+27	in	in	ADP	IN	_	30	case	_	_
+28	a	a	DET	DT	Definite=Ind|PronType=Art	30	det	_	_
+29	wave	wave	NOUN	NN	Number=Sing	30	compound	_	_
+30	effect	effect	NOUN	NN	Number=Sing	26	obl	_	_
+31	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = Congaree National Park in South Carolina has a different species of synchronous fireflies , Nichols added , " but their synchrony is not as dramatic as it is here . "
+1	Congaree	Congaree	PROPN	NNP	Number=Sing	3	compound	_	_
+2	National	National	PROPN	NNP	Number=Sing	3	compound	_	_
+3	Park	Park	PROPN	NNP	Number=Sing	7	nsubj	_	_
+4	in	in	ADP	IN	_	6	case	_	_
+5	South	South	PROPN	NNP	Number=Sing	6	compound	_	_
+6	Carolina	Carolina	PROPN	NNP	Number=Sing	3	nmod	_	_
+7	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	different	different	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	species	species	NOUN	NNS	Number=Plur	7	obj	_	_
+11	of	of	ADP	IN	_	13	case	_	_
+12	synchronous	synchronous	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	fireflies	firefly	NOUN	NNS	Number=Plur	10	nmod	_	_
+14	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+15	Nichols	Nichol	NOUN	NNS	Number=Plur	16	nsubj	_	_
+16	added	add	VERB	VBN	Tense=Past|VerbForm=Part	7	parataxis	_	_
+17	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s\s
+18	"	"	PUNCT	''	_	7	punct	_	_
+19	but	but	CCONJ	CC	_	25	cc	_	_
+20	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	_	_
+21	synchrony	synchrony	NOUN	NN	Number=Sing	25	nsubj	_	_
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	_
+23	not	not	PART	RB	_	25	advmod	_	_
+24	as	as	ADV	RB	_	25	advmod	_	_
+25	dramatic	dramatic	ADJ	JJ	Degree=Pos	7	conj	_	_
+26	as	as	SCONJ	IN	_	29	mark	_	_
+27	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	nsubj	_	_
+28	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	cop	_	_
+29	here	here	ADV	RB	PronType=Dem	25	advcl	_	_
+30	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\s
+31	"	"	PUNCT	''	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 9
+# text = The most impressive place to catch the light show is in the Elkmont section of the Great Smoky Mountains National Park , which straddles the Tennessee-North Carolina border .
+1	The	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+2	most	most	ADV	RBS	_	3	advmod	_	_
+3	impressive	impressive	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	place	place	NOUN	NN	Number=Sing	13	nsubj	_	_
+5	to	to	PART	TO	_	6	mark	_	_
+6	catch	catch	VERB	VB	VerbForm=Inf	4	acl	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+8	light	light	NOUN	NN	Number=Sing	9	compound	_	_
+9	show	show	NOUN	NN	Number=Sing	6	obj	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	Elkmo	Elkmo	PROPN	NNP	Number=Sing	0	root	_	SpaceAfter=No
+14	nt	not	PART	RB	_	15	advmod	_	_
+15	section	section	NOUN	NN	Number=Sing	13	appos	_	_
+16	of	of	ADP	IN	_	22	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+18	Great	Great	PROPN	NNP	Number=Sing	20	compound	_	_
+19	Smoky	Smoky	PROPN	NNP	Number=Sing	20	compound	_	_
+20	Mountains	Mountains	PROPN	NNPS	Number=Plur	22	compound	_	_
+21	National	National	PROPN	NNP	Number=Sing	22	compound	_	_
+22	Park	Park	PROPN	NNP	Number=Sing	15	nmod	_	_
+23	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s
+24	which	which	PRON	WDT	PronType=Rel	25	nsubj	_	_
+25	straddles	straddle	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	_
+26	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+27	Tennessee	Tennessee	PROPN	NNP	Number=Sing	31	compound	_	SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	27	punct	_	SpaceAfter=No
+29	North	North	PROPN	NNP	Number=Sing	30	compound	_	_
+30	Carolina	Carolina	PROPN	NNP	Number=Sing	31	compound	_	_
+31	border	border	NOUN	NN	Number=Sing	25	obj	_	_
+32	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\s\n
+
+# sent_id = 10
+# text = This is home to the western hemisphere " s largest populations of fireflies , also known as lightning bugs .
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+3	home	home	ADV	RB	_	7	advmod	_	_
+4	to	to	ADP	IN	_	7	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	western	western	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	hemisphere	hemisphere	NOUN	NN	Number=Sing	11	nsubj	_	_
+8	"	"	PUNCT	''	_	7	punct	_	_
+9	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	largest	largest	ADJ	JJS	Degree=Sup	11	amod	_	_
+11	populations	population	NOUN	NNS	Number=Plur	0	root	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	fireflies	firefly	NOUN	NNS	Number=Plur	11	nmod	_	_
+14	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s
+15	also	also	ADV	RB	_	16	advmod	_	_
+16	known	know	VERB	VBN	Tense=Past|VerbForm=Part	11	parataxis	_	_
+17	as	as	SCONJ	IN	_	18	mark	_	_
+18	lightning	lightn	VERB	VBG	VerbForm=Ger	16	advcl	_	_
+19	bugs	bug	NOUN	NNS	Number=Plur	18	obj	_	_
+20	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = The phenomenon only happens during the insects " mating season , which in the US lasts for a two-week period in late spring .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	phenomenon	phenomenon	NOUN	NN	Number=Sing	4	nsubj	_	_
+3	only	only	ADV	RB	_	4	advmod	_	_
+4	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	during	during	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	insects	insect	NOUN	NNS	Number=Plur	4	obl	_	_
+8	"	"	PUNCT	``	_	7	punct	_	SpacesAfter=\s\s
+9	mating	mate	VERB	VBG	VerbForm=Ger	7	acl	_	_
+10	season	season	NOUN	NN	Number=Sing	9	obj	_	_
+11	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+12	which	which	PRON	WDT	PronType=Rel	16	obj	_	_
+13	in	in	ADP	IN	_	15	case	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	US	US	PROPN	NNP	Number=Sing	16	nsubj	_	_
+16	lasts	last	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	_
+17	for	for	ADP	IN	_	22	case	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	22	det	_	_
+19	two	two	NUM	CD	NumType=Card	21	nummod	_	SpaceAfter=No
+20	-	-	PUNCT	HYPH	_	21	punct	_	SpaceAfter=No
+21	week	week	NOUN	NN	Number=Sing	22	compound	_	_
+22	period	period	NOUN	NN	Number=Sing	16	obl	_	_
+23	in	in	ADP	IN	_	25	case	_	_
+24	late	late	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	spring	spring	NOUN	NN	Number=Sing	16	obl	_	_
+26	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = The adult females lay their eggs on or just under the ground , and when the larvae hatch they burrow into the soil , feeding on the organic matter .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	adult	adult	NOUN	NN	Number=Sing	3	compound	_	_
+3	females	female	NOUN	NNS	Number=Plur	4	nsubj	_	_
+4	lay	lay	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	nmod:poss	_	_
+6	eggs	egg	NOUN	NNS	Number=Plur	4	obj	_	_
+7	on	on	ADP	IN	_	12	case	_	_
+8	or	or	CCONJ	CC	_	12	cc	_	_
+9	just	just	ADV	RB	_	12	advmod	_	_
+10	under	under	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	ground	ground	NOUN	NN	Number=Sing	4	obl	_	_
+13	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s
+14	and	and	CCONJ	CC	_	15	cc	_	_
+15	when	when	ADV	WRB	PronType=Int	4	conj	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	larvae	larva	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	hatch	hatch	NOUN	NN	Number=Sing	15	nsubj	_	_
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	nsubj	_	_
+20	burrow	burrow	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	acl:relcl	_	_
+21	into	into	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	soil	soil	NOUN	NN	Number=Sing	20	obl	_	_
+24	,	,	PUNCT	,	_	25	punct	_	SpacesAfter=\s\s
+25	feeding	feed	VERB	VBG	VerbForm=Ger	18	acl	_	_
+26	on	on	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	organic	organic	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	matter	matter	NOUN	NN	Number=Sing	25	obl	_	_
+30	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = This larvae stage lasts for about one to two years .
+1	This	this	DET	DT	Number=Sing|PronType=Dem	3	det	_	_
+2	larvae	larvae	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	stage	stage	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	lasts	last	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	for	for	ADP	IN	_	10	case	_	_
+6	about	about	ADV	RB	_	7	advmod	_	_
+7	one	one	NUM	CD	NumType=Card	10	nummod	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	two	two	NUM	CD	NumType=Card	10	nummod	_	_
+10	years	year	NOUN	NNS	Number=Plur	4	obl	_	_
+11	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = Once larvae transform into adult fireflies , they live for only about 21 days -- making mating a huge priority .
+1	Once	once	SCONJ	IN	_	3	mark	_	_
+2	larvae	larva	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	transform	transform	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	advcl	_	_
+4	into	into	ADP	IN	_	6	case	_	_
+5	adult	adult	NOUN	NN	Number=Sing	6	compound	_	_
+6	fireflies	firefly	NOUN	NNS	Number=Plur	3	obl	_	_
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	nsubj	_	_
+9	live	live	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	for	for	ADP	IN	_	14	case	_	_
+11	only	only	ADV	RB	_	12	advmod	_	_
+12	about	about	ADV	RB	_	13	advmod	_	_
+13	21	21	NUM	CD	NumType=Card	14	nummod	_	_
+14	days	day	NOUN	NNS	Number=Plur	9	obl	_	_
+15	--	--	PUNCT	,	_	9	punct	_	_
+16	making	make	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+17	mating	mate	VERB	VBG	VerbForm=Ger	16	xcomp	_	_
+18	a	a	DET	DT	Definite=Ind|PronType=Art	20	det	_	_
+19	huge	huge	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	priority	priority	NOUN	NN	Number=Sing	17	obj	_	_
+21	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 15
+# text = Each year in mid- to late April , Nichols analyses local temperature data to predict the peak of the mating season -- when the flashing displays are most impressive -- so the park can schedule its annual eight-day viewing event .
+1	Each	each	DET	DT	_	2	det	_	_
+2	year	year	NOUN	NN	Number=Sing	11	obl:tmod	_	_
+3	in	in	ADP	IN	_	4	case	_	_
+4	mid	mid	X	AFX	_	2	nmod	_	SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	punct	_	_
+6	to	to	ADP	IN	_	8	case	_	_
+7	late	late	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	April	April	PROPN	NNP	Number=Sing	2	nmod	_	_
+9	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s
+10	Nichols	Nichols	PROPN	NNP	Number=Sing	11	nsubj	_	_
+11	analyses	analysis	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+12	local	local	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	temperature	temperature	NOUN	NN	Number=Sing	14	compound	_	_
+14	data	data	NOUN	NN	Number=Sing	11	obj	_	_
+15	to	to	PART	TO	_	16	mark	_	_
+16	predict	predict	VERB	VB	VerbForm=Inf	11	advcl	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	peak	peak	NOUN	NN	Number=Sing	16	obj	_	_
+19	of	of	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	mating	mate	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	season	season	NOUN	NN	Number=Sing	18	nmod	_	_
+23	--	--	PUNCT	,	_	11	punct	_	_
+24	when	when	ADV	WRB	PronType=Int	30	mark	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	27	det	_	_
+26	flashing	flashing	NOUN	NN	Number=Sing	27	compound	_	_
+27	displays	display	NOUN	NNS	Number=Plur	30	nsubj	_	_
+28	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	30	cop	_	_
+29	most	most	ADV	RBS	_	30	advmod	_	_
+30	impressive	impressive	ADJ	JJ	Degree=Pos	11	advcl	_	_
+31	--	--	PUNCT	,	_	11	punct	_	_
+32	so	so	ADV	RB	_	36	advmod	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	park	park	NOUN	NN	Number=Sing	36	nsubj	_	_
+35	can	can	AUX	MD	VerbForm=Fin	36	aux	_	_
+36	schedule	schedule	VERB	VB	VerbForm=Inf	11	parataxis	_	_
+37	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	41	nmod:poss	_	_
+38	annual	annual	ADJ	JJ	Degree=Pos	41	amod	_	_
+39	eight	eight	NUM	CD	NumType=Card	41	nummod	_	SpaceAfter=No
+40	-	-	PUNCT	HYPH	_	41	punct	_	SpaceAfter=No
+41	day	day	NOUN	NN	Number=Sing	36	obj	_	_
+42	viewing	view	VERB	VBG	VerbForm=Ger	41	acl	_	_
+43	event	event	NOUN	NN	Number=Sing	42	obj	_	_
+44	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 16
+# text = The peak depends on various environmental factors .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	peak	peak	NOUN	NN	Number=Sing	3	nsubj	_	_
+3	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	on	on	ADP	IN	_	7	case	_	_
+5	various	various	ADJ	JJ	Degree=Pos	7	amod	_	_
+6	environmental	environmental	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	factors	factor	NOUN	NNS	Number=Plur	3	obl	_	_
+8	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = If the previous summer was hot and dry , for example , the mating season is shorter than usual .
+1	If	if	SCONJ	IN	_	6	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	previous	previous	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	summer	summer	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	_
+6	hot	hot	ADJ	JJ	Degree=Pos	17	advcl	_	_
+7	and	and	CCONJ	CC	_	8	cc	_	_
+8	dry	dry	ADJ	JJ	Degree=Pos	6	conj	_	_
+9	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s
+10	for	for	ADP	IN	_	11	case	_	_
+11	example	example	NOUN	NN	Number=Sing	17	obl	_	_
+12	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s
+13	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+14	mating	mating	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	season	season	NOUN	NN	Number=Sing	17	nsubj	_	_
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	_
+17	shorter	shorter	ADJ	JJR	Degree=Cmp	0	root	_	_
+18	than	than	ADP	IN	_	19	case	_	_
+19	usual	usual	ADJ	JJ	Degree=Pos	17	obl	_	_
+20	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n
+
+# sent_id = 18
+# text = And a cold winter followed by a wet spring can push the season slightly later in the month .
+1	And	and	CCONJ	CC	_	11	cc	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	4	det	_	_
+3	cold	cold	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	winter	winter	NOUN	NN	Number=Sing	11	nsubj	_	_
+5	followed	follow	VERB	VBN	Tense=Past|VerbForm=Part	4	acl	_	_
+6	by	by	ADP	IN	_	9	case	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	wet	wet	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	spring	spring	NOUN	NN	Number=Sing	5	obl	_	_
+10	can	can	AUX	MD	VerbForm=Fin	11	aux	_	_
+11	push	push	VERB	VB	VerbForm=Inf	0	root	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	season	season	NOUN	NN	Number=Sing	11	obj	_	_
+14	slightly	slightly	ADV	RB	_	15	advmod	_	_
+15	later	later	ADV	RBR	Degree=Cmp	13	advmod	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+18	month	month	NOUN	NN	Number=Sing	15	obl	_	_
+19	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 19
+# text = When the effect was first scientifically documented here in 1993 , the height of the phenomenon happened in late May .
+1	When	when	ADV	WRB	PronType=Int	7	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	effect	effect	NOUN	NN	Number=Sing	7	nsubj:pass	_	_
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+5	first	first	ADV	RB	_	7	advmod	_	_
+6	scientifically	scientifically	ADV	RB	_	7	advmod	_	_
+7	documented	document	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	_	_
+8	here	here	ADV	RB	PronType=Dem	7	advmod	_	_
+9	in	in	ADP	IN	_	10	case	_	_
+10	1993	1993	NUM	CD	NumType=Card	7	obl	_	_
+11	,	,	PUNCT	,	_	17	punct	_	SpacesAfter=\s\s
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	height	height	NOUN	NN	Number=Sing	17	nsubj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	phenomenon	phenomenon	NOUN	NN	Number=Sing	13	nmod	_	_
+17	happened	happen	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+18	in	in	ADP	IN	_	20	case	_	_
+19	late	late	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	May	May	PROPN	NNP	Number=Sing	17	obl	_	_
+21	.	.	PUNCT	.	_	17	punct	_	SpacesAfter=\s\n
+
+# sent_id = 20
+# text = Over time , the peak has shifted to early June .
+1	Over	over	ADP	IN	_	2	case	_	_
+2	time	time	NOUN	NN	Number=Sing	7	obl	_	_
+3	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	peak	peak	NOUN	NN	Number=Sing	7	nsubj	_	_
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	aux	_	_
+7	shifted	shift	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+8	to	to	ADP	IN	_	10	case	_	_
+9	early	early	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	June	June	PROPN	NNP	Number=Sing	7	obl	_	_
+11	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 21
+# text = Environmental factors also affect the brilliance of each display .
+1	Environmental	environmental	ADJ	JJ	Degree=Pos	2	amod	_	_
+2	factors	factor	NOUN	NNS	Number=Plur	4	nsubj	_	_
+3	also	also	ADV	RB	_	4	advmod	_	_
+4	affect	affect	VERB	VB	VerbForm=Inf	0	root	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	brilliance	brilliance	NOUN	NN	Number=Sing	4	obj	_	_
+7	of	of	ADP	IN	_	9	case	_	_
+8	each	each	DET	DT	_	9	det	_	_
+9	display	display	NOUN	NN	Number=Sing	6	nmod	_	_
+10	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 22
+# text = What " s required , Nichols explained , is a rich duff layer of decomposed leaves and other organic matter so the firefly larvae have plenty to eat , plus a somewhat open area without a lot of shrubbery so the fireflies can see each other easily .
+1	What	what	PRON	WP	PronType=Int	4	nsubj:pass	_	_
+2	"	"	PUNCT	``	_	1	punct	_	_
+3	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	_	_
+4	required	require	VERB	VBN	Tense=Past|VerbForm=Part	7	ccomp	_	_
+5	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+6	Nichols	Nichols	PROPN	NNP	Number=Sing	7	nsubj	_	_
+7	explained	explaine	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+8	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	rich	rich	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	duff	duff	NOUN	NN	Number=Sing	13	compound	_	_
+13	layer	layer	NOUN	NN	Number=Sing	7	conj	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	decomposed	decompose	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	leaves	leave	NOUN	NNS	Number=Plur	13	nmod	_	_
+17	and	and	CCONJ	CC	_	20	cc	_	_
+18	other	other	ADJ	JJ	Degree=Pos	20	amod	_	_
+19	organic	organic	ADJ	JJ	Degree=Pos	20	amod	_	_
+20	matter	matter	NOUN	NN	Number=Sing	7	conj	_	_
+21	so	so	SCONJ	IN	_	25	mark	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	firefly	firefly	NOUN	NN	Number=Sing	25	nsubj	_	_
+24	larvae	larva	AUX	VBP	Mood=Ind|Tense=Pres|Typo=Yes|VerbForm=Fin	25	aux	_	_
+25	have	have	VERB	VB	VerbForm=Inf	7	advcl	_	_
+26	plenty	plenty	NOUN	NN	Number=Sing	25	obj	_	_
+27	to	to	PART	TO	_	28	mark	_	_
+28	eat	eat	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+29	,	,	PUNCT	,	_	34	punct	_	SpacesAfter=\s\s
+30	plus	plus	CCONJ	CC	_	34	cc	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+32	somewhat	somewhat	ADV	RB	_	33	advmod	_	_
+33	open	open	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	area	area	NOUN	NN	Number=Sing	28	conj	_	_
+35	without	without	ADP	IN	_	37	case	_	_
+36	a	a	DET	DT	Definite=Ind|PronType=Art	37	det	_	_
+37	lot	lot	NOUN	NN	Number=Sing	28	obl	_	_
+38	of	of	ADP	IN	_	39	case	_	_
+39	shrubbery	shrubbery	NOUN	NN	Number=Sing	37	nmod	_	_
+40	so	so	SCONJ	IN	_	44	mark	_	_
+41	the	the	DET	DT	Definite=Def|PronType=Art	42	det	_	_
+42	fireflies	firefly	NOUN	NNS	Number=Plur	44	nsubj	_	_
+43	can	can	AUX	MD	VerbForm=Fin	44	aux	_	_
+44	see	see	VERB	VB	VerbForm=Inf	25	advcl	_	_
+45	each	each	DET	DT	_	46	det	_	_
+46	other	other	ADJ	JJ	Degree=Pos	44	obj	_	_
+47	easily	easily	ADV	RB	_	44	advmod	_	_
+48	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 23
+# text = And there must be no light pollution . "
+1	And	and	CCONJ	CC	_	4	cc	_	_
+2	there	there	PRON	EX	_	4	expl	_	_
+3	must	must	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	be	be	VERB	VB	VerbForm=Inf	0	root	_	_
+5	no	no	DET	DT	_	7	det	_	_
+6	light	light	NOUN	NN	Number=Sing	7	compound	_	_
+7	pollution	pollution	NOUN	NN	Number=Sing	4	nsubj	_	_
+8	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n\s
+9	"	"	PUNCT	''	_	4	punct	_	_
+
+# sent_id = 24
+# text = They need complete darkness for the reproductive phase , " Nichols said .
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	need	need	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	12	ccomp	_	_
+3	complete	complete	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	darkness	darkness	NOUN	NN	Number=Sing	2	obj	_	_
+5	for	for	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	reproductive	reproductive	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	phase	phase	NOUN	NN	Number=Sing	4	nmod	_	_
+9	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+10	"	"	PUNCT	''	_	12	punct	_	SpacesAfter=\s\s
+11	Nichols	Nichols	PROPN	NNP	Number=Sing	12	nsubj	_	_
+12	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+13	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 25
+# text = While the fireflies will still usually flash in the rain ( unless it " s a complete downpour ) , misty , drizzly evenings following rainfall can be dicey , and if the temperature dips below 10C , there " s no show .
+1	While	while	SCONJ	IN	_	7	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	fireflies	firefly	NOUN	NNS	Number=Plur	7	nsubj	_	_
+4	will	will	AUX	MD	VerbForm=Fin	7	aux	_	_
+5	still	still	ADV	RB	_	7	advmod	_	_
+6	usually	usually	ADV	RB	_	7	advmod	_	_
+7	flash	flash	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	29	advcl	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	rain	rain	NOUN	NN	Number=Sing	7	obl	_	SpacesAfter=\s\s
+11	(	(	PUNCT	-LRB-	_	18	punct	_	_
+12	unless	unless	SCONJ	IN	_	18	mark	_	_
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	_	_
+14	"	"	PUNCT	``	_	13	punct	_	_
+15	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	a	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+17	complete	complete	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	downpour	downpour	NOUN	NN	Number=Sing	7	advcl	_	_
+19	)	)	PUNCT	-RRB-	_	18	punct	_	SpacesAfter=\s\s
+20	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+21	misty	misty	INTJ	UH	_	29	discourse	_	_
+22	,	,	PUNCT	,	_	29	punct	_	SpacesAfter=\s\s
+23	drizzly	drizzly	ADV	RB	_	29	advmod	_	_
+24	evenings	evening	NOUN	NNS	Number=Plur	29	nsubj	_	_
+25	following	follow	VERB	VBG	VerbForm=Ger	26	case	_	_
+26	rainfall	rainfall	NOUN	NN	Number=Sing	24	nmod	_	_
+27	can	can	AUX	MD	VerbForm=Fin	29	aux	_	_
+28	be	be	AUX	VB	VerbForm=Inf	29	cop	_	_
+29	dicey	dicey	ADJ	JJ	Degree=Pos	0	root	_	_
+30	,	,	PUNCT	,	_	44	punct	_	SpacesAfter=\s\s
+31	and	and	CCONJ	CC	_	44	cc	_	_
+32	if	if	SCONJ	IN	_	35	mark	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	34	det	_	_
+34	temperature	temperature	NOUN	NN	Number=Sing	35	nsubj	_	_
+35	dips	dip	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	advcl	_	_
+36	below	below	ADV	RB	_	35	advmod	_	_
+37	10	10	NUM	CD	NumType=Card	38	nummod	_	SpaceAfter=No
+38	C	C	PROPN	NNP	Number=Sing	35	obj	_	_
+39	,	,	PUNCT	,	_	44	punct	_	SpacesAfter=\s\s
+40	there	there	PRON	EX	_	44	nsubj	_	_
+41	"	"	PUNCT	``	_	40	punct	_	_
+42	s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	44	cop	_	_
+43	no	no	DET	DT	_	44	det	_	_
+44	show	show	NOUN	NN	Number=Sing	29	conj	_	_
+45	.	.	PUNCT	.	_	29	punct	_	SpacesAfter=\s\n
+
+# sent_id = 26
+# text = The national park limits nighttime access to Elkmont during the event , with a total of 6000 to 8000 people attending each year ( campsite reservations open six months in advance , and parking permits are distributed via a lottery ) .
+1	The	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+2	national	national	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	park	park	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	limits	limit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	nighttime	nighttime	DET	DT	_	6	det	_	_
+6	access	access	NOUN	NN	Number=Sing	4	obj	_	_
+7	to	to	ADP	IN	_	8	case	_	_
+8	Elkmo	Elkmo	PROPN	NNP	Number=Sing	6	nmod	_	SpaceAfter=No
+9	nt	not	PART	RB	_	6	advmod	_	_
+10	during	during	ADP	IN	_	12	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+12	event	event	NOUN	NN	Number=Sing	6	nmod	_	_
+13	,	,	PUNCT	,	_	6	punct	_	SpacesAfter=\s\s
+14	with	with	ADP	IN	_	16	case	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	16	det	_	_
+16	total	total	NOUN	NN	Number=Sing	6	nmod	_	_
+17	of	of	ADP	IN	_	21	case	_	_
+18	6000	6000	NUM	CD	NumType=Card	21	nummod	_	_
+19	to	to	ADP	IN	_	20	case	_	_
+20	8000	8000	NUM	CD	NumType=Card	18	nmod	_	_
+21	people	people	NOUN	NNS	Number=Plur	16	nmod	_	_
+22	attending	attend	VERB	VBG	VerbForm=Ger	6	acl	_	_
+23	each	each	DET	DT	_	24	det	_	_
+24	year	year	NOUN	NN	Number=Sing	22	obl:tmod	_	SpacesAfter=\s\s
+25	(	(	PUNCT	-LRB-	_	27	punct	_	_
+26	campsite	campsite	NOUN	NN	Number=Sing	27	compound	_	_
+27	reservations	reservation	NOUN	NNS	Number=Plur	6	appos	_	_
+28	open	open	ADJ	JJ	Degree=Pos	30	amod	_	_
+29	six	six	NUM	CD	NumType=Card	30	nummod	_	_
+30	months	month	NOUN	NNS	Number=Plur	27	conj	_	_
+31	in	in	ADP	IN	_	32	case	_	_
+32	advance	advance	NOUN	NN	Number=Sing	27	nmod	_	_
+33	,	,	PUNCT	,	_	38	punct	_	SpacesAfter=\s\s
+34	and	and	CCONJ	CC	_	38	cc	_	_
+35	parking	parking	NOUN	NN	Number=Sing	36	compound	_	_
+36	permits	permit	NOUN	NNS	Number=Plur	38	nsubj:pass	_	_
+37	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	38	aux:pass	_	_
+38	distributed	distribute	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	27	conj	_	_
+39	via	via	ADP	IN	_	41	case	_	_
+40	a	a	DET	DT	Definite=Ind|PronType=Art	41	det	_	_
+41	lottery	lottery	NOUN	NN	Number=Sing	38	obl	_	_
+42	)	)	PUNCT	-RRB-	_	27	punct	_	SpacesAfter=\s\s
+43	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 27
+# text = Many bring folding camp chairs or blankets to the viewing area , but coolers and food are not permitted .
+1	Many	many	ADJ	JJ	Degree=Pos	2	nsubj	_	_
+2	bring	bring	VERB	VB	VerbForm=Inf	0	root	_	_
+3	folding	fold	VERB	VBG	VerbForm=Ger	5	amod	_	_
+4	camp	camp	NOUN	NN	Number=Sing	5	compound	_	_
+5	chairs	chair	NOUN	NNS	Number=Plur	2	obj	_	_
+6	or	or	CCONJ	CC	_	7	cc	_	_
+7	blankets	blanket	NOUN	NNS	Number=Plur	5	conj	_	_
+8	to	to	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	viewing	viewing	VERB	VBG	VerbForm=Ger	11	amod	_	_
+11	area	area	NOUN	NN	Number=Sing	2	obl	_	_
+12	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s
+13	but	but	CCONJ	CC	_	19	cc	_	_
+14	coolers	cooler	NOUN	NNS	Number=Plur	19	nsubj:pass	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	food	food	NOUN	NN	Number=Sing	14	conj	_	_
+17	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	19	aux:pass	_	_
+18	not	not	PART	RB	_	19	advmod	_	_
+19	permitted	permit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+20	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 28
+# text = Park rangers answer questions and distribute red cellophane for covering torches to minimize disturbance to the fireflies .
+1	Park	park	PROPN	NNP	Number=Sing	2	compound	_	_
+2	rangers	ranger	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	answer	answer	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	questions	question	NOUN	NNS	Number=Plur	3	obj	_	_
+5	and	and	CCONJ	CC	_	6	cc	_	_
+6	distribute	distribute	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+7	red	red	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	cellophane	cellophane	NOUN	NN	Number=Sing	6	obj	_	_
+9	for	for	SCONJ	IN	_	10	mark	_	_
+10	covering	cover	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+11	torches	torch	NOUN	NNS	Number=Plur	10	obj	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	minimize	minimize	VERB	VB	VerbForm=Inf	10	xcomp	_	_
+14	disturbance	disturbance	NOUN	NN	Number=Sing	13	obj	_	_
+15	to	to	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	fireflies	firefly	NOUN	NNS	Number=Plur	13	obl	_	_
+18	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 29
+# text = The insects wait until it & apos ; s totally dark to do their thing , usually starting between 9 : 30 and 10 pm , although on nights with a bright moon they may hold off a little longer .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	insects	insect	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	wait	wait	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	until	until	ADP	IN	_	5	case	_	_
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	_	_
+6	&	&	CCONJ	CC	_	7	cc	_	_
+7	apos	apo	NOUN	NNS	Number=Plur	3	conj	_	_
+8	;	;	PUNCT	,	_	3	punct	_	_
+9	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	_
+10	totally	totally	ADV	RB	_	11	advmod	_	_
+11	dark	dark	ADJ	JJ	Degree=Pos	3	parataxis	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	do	do	VERB	VB	VerbForm=Inf	11	csubj	_	_
+14	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	thing	thing	NOUN	NN	Number=Sing	13	obj	_	_
+16	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+17	usually	usually	ADV	RB	_	18	advmod	_	_
+18	starting	starte	VERB	VBG	VerbForm=Ger	13	advcl	_	_
+19	between	between	ADP	IN	_	20	case	_	_
+20	9	9	NUM	CD	NumType=Card	18	obl	_	_
+21	:	:	PUNCT	:	_	22	punct	_	_
+22	30	30	NUM	CD	NumType=Card	20	nummod	_	_
+23	and	and	CCONJ	CC	_	25	cc	_	_
+24	10	10	NUM	CD	NumType=Card	25	nummod	_	_
+25	pm	pm	NOUN	NN	Number=Sing	20	conj	_	_
+26	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\s\s
+27	although	although	SCONJ	IN	_	36	mark	_	_
+28	on	on	ADP	IN	_	29	case	_	_
+29	nights	night	NOUN	NNS	Number=Plur	36	obl	_	_
+30	with	with	ADP	IN	_	33	case	_	_
+31	a	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+32	bright	bright	ADJ	JJ	Degree=Pos	33	amod	_	_
+33	moon	moon	NOUN	NN	Number=Sing	29	nmod	_	_
+34	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	36	nsubj	_	_
+35	may	may	AUX	MD	VerbForm=Fin	36	aux	_	_
+36	hold	hold	VERB	VB	VerbForm=Inf	18	advcl	_	_
+37	off	off	ADP	RP	_	36	compound:prt	_	_
+38	a	a	DET	DT	Definite=Ind|PronType=Art	39	det	_	_
+39	little	little	ADJ	JJ	Degree=Pos	40	obl:npmod	_	_
+40	longer	longer	ADV	RBR	Degree=Cmp	36	advmod	_	_
+41	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 30
+# text = The males start lighting up in short random bursts from six to eight times for about eight seconds before the night goes pitch black .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	males	male	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	start	start	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	lighting	light	VERB	VBG	VerbForm=Ger	3	xcomp	_	_
+5	up	up	ADP	RP	_	4	compound:prt	_	_
+6	in	in	ADP	IN	_	9	case	_	_
+7	short	short	ADJ	JJ	Degree=Pos	8	amod	_	_
+8	random	random	NOUN	NN	Number=Sing	9	compound	_	_
+9	bursts	burst	NOUN	NNS	Number=Plur	4	obl	_	_
+10	from	from	ADP	IN	_	14	case	_	_
+11	six	six	NUM	CD	NumType=Card	14	nummod	_	_
+12	to	to	ADP	IN	_	13	case	_	_
+13	eight	eight	NUM	CD	NumType=Card	11	nmod	_	_
+14	times	time	NOUN	NNS	Number=Plur	4	obl	_	_
+15	for	for	ADP	IN	_	18	case	_	_
+16	about	about	ADV	RB	_	17	advmod	_	_
+17	eight	eight	NUM	CD	NumType=Card	18	nummod	_	_
+18	seconds	seconds	NOUN	NNS	Number=Plur	14	nmod	_	_
+19	before	before	ADP	IN	_	21	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	night	night	NOUN	NN	Number=Sing	14	nmod	_	_
+22	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	_
+23	pitch	pitch	NOUN	NN	Number=Sing	22	obj	_	_
+24	black	black	ADJ	JJ	Degree=Pos	23	amod	_	_
+25	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 31
+# text = Then the cycle begins again .
+1	Then	then	ADV	RB	PronType=Dem	4	advmod	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	cycle	cycle	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	begins	begin	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+5	again	again	ADV	RB	_	4	advmod	_	_
+6	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 32
+# text = As the night deepens , the effect becomes more and more dramatic , with the fireflies blinking in a wave effect that resemble strings of Christmas lights .
+1	As	as	SCONJ	IN	_	4	mark	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	night	night	NOUN	NN	Number=Sing	4	nsubj	_	_
+4	deepens	deepen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	advcl	_	_
+5	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	effect	effect	NOUN	NN	Number=Sing	8	nsubj	_	_
+8	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	more	more	ADJ	JJR	Degree=Cmp	8	xcomp	_	_
+10	and	and	CCONJ	CC	_	12	cc	_	_
+11	more	more	ADV	RBR	_	12	advmod	_	_
+12	dramatic	dramatic	ADJ	JJ	Degree=Pos	9	conj	_	_
+13	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+14	with	with	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	fireflies	firefly	NOUN	NNS	Number=Plur	9	obl	_	_
+17	blinking	blink	VERB	VBG	VerbForm=Ger	16	acl	_	_
+18	in	in	ADP	IN	_	21	case	_	_
+19	a	a	DET	DT	Definite=Ind|PronType=Art	21	det	_	_
+20	wave	wave	NOUN	NN	Number=Sing	21	compound	_	_
+21	effect	effect	NOUN	NN	Number=Sing	17	obl	_	_
+22	that	that	SCONJ	IN	_	24	mark	_	_
+23	resemble	resemble	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	strings	string	NOUN	NNS	Number=Plur	21	acl	_	_
+25	of	of	ADP	IN	_	27	case	_	_
+26	Christmas	Christmas	PROPN	NNP	Number=Sing	27	compound	_	_
+27	lights	light	NOUN	NNS	Number=Plur	24	nmod	_	_
+28	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 33
+# text = The show is usually over by midnight . " Males flash as they fly around , " Nichols explained , " while the females generally stay on the ground and respond with a fainter double flash that has no set intervals .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	show	show	NOUN	NN	Number=Sing	7	nsubj	_	_
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	_
+4	usually	usually	ADV	RB	_	7	advmod	_	_
+5	over	over	ADP	IN	_	7	case	_	_
+6	by	by	ADP	IN	_	7	case	_	_
+7	midnight	midnight	NOUN	NN	Number=Sing	0	root	_	_
+8	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n\s
+9	"	"	PUNCT	''	_	7	punct	_	_
+10	Males	male	NOUN	NNS	Number=Plur	11	nsubj	_	_
+11	flash	flash	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+12	as	as	SCONJ	IN	_	14	mark	_	_
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	nsubj	_	_
+14	fly	fly	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	11	advcl	_	_
+15	around	around	ADV	RB	_	14	advmod	_	_
+16	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s
+17	"	"	PUNCT	''	_	7	punct	_	SpacesAfter=\s\s
+18	Nichols	Nichols	NOUN	NNS	Number=Plur	19	nsubj	_	_
+19	explained	explain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	7	parataxis	_	_
+20	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s\s
+21	"	"	PUNCT	``	_	19	punct	_	_
+22	while	while	SCONJ	IN	_	26	mark	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	females	female	NOUN	NNS	Number=Plur	26	nsubj	_	_
+25	generally	generally	ADV	RB	_	26	advmod	_	_
+26	stay	stay	VERB	VB	VerbForm=Inf	19	advcl	_	_
+27	on	on	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	ground	ground	NOUN	NN	Number=Sing	26	obl	_	_
+30	and	and	CCONJ	CC	_	31	cc	_	_
+31	respond	respond	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	conj	_	_
+32	with	with	ADP	IN	_	36	case	_	_
+33	a	a	DET	DT	Definite=Ind|PronType=Art	36	det	_	_
+34	fainter	fainter	NOUN	NN	Number=Sing	36	compound	_	_
+35	double	double	ADJ	JJ	Degree=Pos	36	amod	_	_
+36	flash	flash	NOUN	NN	Number=Sing	31	obl	_	_
+37	that	that	PRON	WDT	PronType=Rel	38	nsubj	_	_
+38	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	_
+39	no	no	DET	DT	_	41	det	_	_
+40	set	set	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	intervals	interval	NOUN	NNS	Number=Plur	38	obj	_	_
+42	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 34
+# text = The males see them in the grass and then fly down , and at that point , mating is somewhat competitive .
+1	The	the	DET	DT	Definite=Def|PronType=Art	2	det	_	_
+2	males	male	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	see	see	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	obj	_	_
+5	in	in	ADP	IN	_	7	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	grass	grass	NOUN	NN	Number=Sing	3	obl	_	_
+8	and	and	CCONJ	CC	_	10	cc	_	_
+9	then	then	ADV	RB	PronType=Dem	10	advmod	_	_
+10	fly	fly	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	3	conj	_	_
+11	down	down	ADP	RP	_	10	compound:prt	_	_
+12	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+13	and	and	CCONJ	CC	_	21	cc	_	_
+14	at	at	ADP	IN	_	16	case	_	_
+15	that	that	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	point	point	NOUN	NN	Number=Sing	21	obl	_	_
+17	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+18	mating	mating	NOUN	NN	Number=Sing	21	nsubj	_	_
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	_	_
+20	somewhat	somewhat	ADV	RB	_	21	advmod	_	_
+21	competitive	competitive	ADJ	JJ	Degree=Pos	3	conj	_	_
+22	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 35
+# text = We think the female really needs a large amount of light to elicit her response , and that " s why the males flash in synchrony -- to create more of a light stimulus for the females . "
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
+2	think	think	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	female	female	NOUN	NN	Number=Sing	6	nsubj	_	_
+5	really	really	ADV	RB	_	6	advmod	_	_
+6	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	_
+7	a	a	DET	DT	Definite=Ind|PronType=Art	9	det	_	_
+8	large	large	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	amount	amount	NOUN	NN	Number=Sing	6	obj	_	_
+10	of	of	ADP	IN	_	11	case	_	_
+11	light	light	NOUN	NN	Number=Sing	9	nmod	_	_
+12	to	to	PART	TO	_	13	mark	_	_
+13	elicit	elicit	VERB	VB	VerbForm=Inf	6	xcomp	_	_
+14	her	she	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+15	response	response	NOUN	NN	Number=Sing	13	obj	_	_
+16	,	,	PUNCT	,	_	24	punct	_	SpacesAfter=\s\s
+17	and	and	CCONJ	CC	_	24	cc	_	_
+18	that	that	SCONJ	IN	_	24	mark	_	_
+19	"	"	PUNCT	``	_	24	punct	_	_
+20	s	s	PART	POS	_	19	case	_	_
+21	why	why	ADV	WRB	PronType=Int	24	advmod	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	males	male	NOUN	NNS	Number=Plur	24	nsubj	_	_
+24	flash	flash	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	2	conj	_	_
+25	in	in	ADP	IN	_	26	case	_	_
+26	synchrony	synchrony	NOUN	NN	Number=Sing	24	obl	_	_
+27	--	--	PUNCT	,	_	2	punct	_	_
+28	to	to	PART	TO	_	29	mark	_	_
+29	create	create	VERB	VB	VerbForm=Inf	2	advcl	_	_
+30	more	more	ADJ	JJR	Degree=Cmp	29	obj	_	_
+31	of	of	ADP	IN	_	34	case	_	_
+32	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+33	light	light	NOUN	NN	Number=Sing	34	compound	_	_
+34	stimulus	stimulus	NOUN	NN	Number=Sing	30	obl	_	_
+35	for	for	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	females	female	NOUN	NNS	Number=Plur	34	nmod	_	_
+38	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s
+39	"	"	PUNCT	''	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 36
+# text = While you can see synchronous fireflies elsewhere in the region , the Smokies offer the most dramatic display . " Pockets of Photinus carolinus exist throughout the southern Appalachians , as far north as the Allegheny National Forest in Pennsylvania , " Nichols noted .
+1	While	while	SCONJ	IN	_	4	mark	_	_
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj	_	_
+3	can	can	AUX	MD	VerbForm=Fin	4	aux	_	_
+4	see	see	VERB	VB	VerbForm=Inf	14	advcl	_	_
+5	synchronous	synchronous	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	fireflies	firefly	NOUN	NNS	Number=Plur	4	obj	_	_
+7	elsewhere	elsewhere	ADV	RB	_	4	advmod	_	_
+8	in	in	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	region	region	NOUN	NN	Number=Sing	4	obl	_	_
+11	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	Smokies	Smokies	NOUN	NNS	Number=Plur	14	nsubj	_	_
+14	offer	offer	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	44	ccomp	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+16	most	most	ADV	RBS	_	17	advmod	_	_
+17	dramatic	dramatic	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	display	display	NOUN	NN	Number=Sing	14	obj	_	_
+19	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\s\n\s
+20	"	"	PUNCT	''	_	14	punct	_	_
+21	Pockets	pocket	NOUN	NNS	Number=Plur	14	obj	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	Photinus	Photinus	NOUN	NN	Number=Sing	21	nmod	_	_
+24	carolinus	carolinus	CCONJ	CC	_	25	cc	_	_
+25	exist	exist	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	14	conj	_	_
+26	throughout	throughout	ADP	IN	_	29	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+28	southern	southern	ADJ	JJ	Degree=Pos	29	amod	_	_
+29	Appalachians	Appalachians	PROPN	NNPS	Number=Plur	25	obl	_	_
+30	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+31	as	as	ADV	RB	_	33	advmod	_	_
+32	far	far	ADV	RB	Degree=Pos	33	advmod	_	_
+33	north	north	ADV	RB	_	38	advmod	_	_
+34	as	as	ADP	IN	_	38	case	_	_
+35	the	the	DET	DT	Definite=Def|PronType=Art	38	det	_	_
+36	Allegheny	Allegheny	PROPN	NNP	Number=Sing	38	compound	_	_
+37	National	National	PROPN	NNP	Number=Sing	38	compound	_	_
+38	Forest	Forest	PROPN	NNP	Number=Sing	14	obl	_	_
+39	in	in	ADP	IN	_	40	case	_	_
+40	Pennsylvania	Pennsylvania	PROPN	NNP	Number=Sing	38	nmod	_	_
+41	,	,	PUNCT	,	_	44	punct	_	SpacesAfter=\s\s
+42	"	"	PUNCT	''	_	44	punct	_	SpacesAfter=\s\s
+43	Nichols	Nichols	PROPN	NNP	Number=Sing	44	nsubj	_	_
+44	noted	note	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+45	.	.	PUNCT	.	_	44	punct	_	SpacesAfter=\s\n
+
+# sent_id = 37
+# text = But because of habitat destruction and light pollution , she explained , they " re not as numerous or as noticeable in other places .
+1	But	but	CCONJ	CC	_	5	cc	_	_
+2	because	because	ADP	IN	_	5	case	_	_
+3	of	of	ADP	IN	_	2	fixed	_	_
+4	habitat	habitat	NOUN	NN	Number=Sing	5	compound	_	_
+5	destruction	destruction	NOUN	NN	Number=Sing	11	obl	_	_
+6	and	and	CCONJ	CC	_	8	cc	_	_
+7	light	light	NOUN	NN	Number=Sing	8	compound	_	_
+8	pollution	pollution	NOUN	NN	Number=Sing	5	conj	_	_
+9	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	nsubj	_	_
+11	explained	explain	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+12	,	,	PUNCT	,	_	11	punct	_	SpacesAfter=\s\s
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	nsubj	_	_
+14	"	"	PUNCT	``	_	13	punct	_	_
+15	re	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	cop	_	_
+16	not	not	PART	RB	_	18	advmod	_	_
+17	as	as	ADV	RB	_	18	advmod	_	_
+18	numerous	numerous	ADJ	JJ	Degree=Pos	11	ccomp	_	_
+19	or	or	CCONJ	CC	_	21	cc	_	_
+20	as	as	ADV	RB	_	21	advmod	_	_
+21	noticeable	noticeable	ADJ	JJ	Degree=Pos	11	conj	_	_
+22	in	in	ADP	IN	_	24	case	_	_
+23	other	other	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	places	place	NOUN	NNS	Number=Plur	21	obl	_	_
+25	.	.	PUNCT	.	_	11	punct	_	SpacesAfter=\s\n
+

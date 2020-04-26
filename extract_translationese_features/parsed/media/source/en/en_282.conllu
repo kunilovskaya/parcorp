@@ -1,0 +1,1027 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = I have always questioned God " s existence , but in the northern Ethiopian town of Lalibela , I was presented with fairly substantial evidence .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux	_	_
+3	always	always	ADV	RB	_	4	advmod	_	_
+4	questioned	question	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+5	God	God	PROPN	NNP	Number=Sing	8	nmod:poss	_	_
+6	"	"	PUNCT	''	_	5	punct	_	_
+7	s	's	PART	POS	_	5	case	_	_
+8	existence	existence	NOUN	NN	Number=Sing	4	obj	_	_
+9	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+10	but	but	CCONJ	CC	_	21	cc	_	_
+11	in	in	ADP	IN	_	15	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+13	northern	northern	ADJ	JJ	Degree=Pos	15	amod	_	_
+14	Ethiopian	Ethiopian	ADJ	JJ	Degree=Pos	15	amod	_	_
+15	town	town	NOUN	NN	Number=Sing	21	obl	_	_
+16	of	of	ADP	IN	_	17	case	_	_
+17	Lalibela	Lalibela	PROPN	NNP	Number=Sing	15	nmod	_	_
+18	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	nsubj:pass	_	_
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	21	aux:pass	_	_
+21	presented	present	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	_	_
+22	with	with	ADP	IN	_	25	case	_	_
+23	fairly	fairly	ADV	RB	_	24	advmod	_	_
+24	substantial	substantial	ADJ	JJ	Degree=Pos	25	amod	_	_
+25	evidence	evidence	NOUN	NN	Number=Sing	21	obl	_	_
+26	.	.	PUNCT	.	_	4	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Officially Christian since 330AD , Ethiopia claims to be the oldest Christian country in the world .
+1	Officially	officially	ADV	RB	_	2	advmod	_	_
+2	Christian	christian	PROPN	NNP	Number=Sing	8	nsubj	_	_
+3	since	since	ADP	IN	_	5	case	_	_
+4	330	330	NUM	CD	NumType=Card	5	nummod	_	SpaceAfter=No
+5	AD	ad	NOUN	NN	Number=Sing	8	obl	_	_
+6	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+7	Ethiopia	Ethiopia	PROPN	NNP	Number=Sing	8	nsubj	_	_
+8	claims	claim	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+9	to	to	PART	TO	_	14	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+12	oldest	oldest	ADJ	JJS	Degree=Sup	14	amod	_	_
+13	Christian	christian	PROPN	NNP	Number=Sing	14	compound	_	_
+14	country	country	NOUN	NN	Number=Sing	8	xcomp	_	_
+15	in	in	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	world	world	NOUN	NN	Number=Sing	14	nmod	_	_
+18	.	.	PUNCT	.	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 3
+# text = And despite being ravaged by poverty , faith has remained strong over the centuries ; Lalibela " s medieval rock-hewn churches are clear proof of that .
+1	And	and	CCONJ	CC	_	10	cc	_	_
+2	despite	despite	SCONJ	IN	_	4	mark	_	_
+3	being	be	AUX	VBG	VerbForm=Ger	4	aux:pass	_	_
+4	ravaged	ravage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	advcl	_	_
+5	by	by	ADP	IN	_	6	case	_	_
+6	poverty	poverty	NOUN	NN	Number=Sing	4	obl	_	_
+7	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+8	faith	faith	NOUN	NN	Number=Sing	10	nsubj	_	_
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	_
+10	remained	remain	VERB	VBN	Tense=Past|VerbForm=Part	23	amod	_	_
+11	strong	strong	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+12	over	over	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	centuries	century	NOUN	NNS	Number=Plur	11	obl	_	_
+15	;	;	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+16	Lalibela	Lalibela	PROPN	NNP	Number=Sing	23	nmod:poss	_	_
+17	"	"	PUNCT	''	_	16	punct	_	_
+18	s	's	PART	POS	_	16	case	_	_
+19	medieval	medieval	ADJ	JJ	Degree=Pos	23	amod	_	_
+20	rock	rock	NOUN	NN	Number=Sing	22	compound	_	SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	22	punct	_	SpaceAfter=No
+22	hewn	hewn	NOUN	NN	Number=Sing	23	compound	_	_
+23	churches	churche	NOUN	NNS	Number=Plur	26	nsubj	_	_
+24	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	cop	_	_
+25	clear	clear	ADJ	JJ	Degree=Pos	26	amod	_	_
+26	proof	proof	NOUN	NN	Number=Sing	0	root	_	_
+27	of	of	ADP	IN	_	28	case	_	_
+28	that	that	PRON	DT	Number=Sing|PronType=Dem	26	nmod	_	_
+29	.	.	PUNCT	.	_	26	punct	_	SpacesAfter=\s\n
+
+# sent_id = 4
+# text = Each of the 11 monolithic structures is dramatically stamped into the mountainous landscape , plunging 40 to 50m into the Earth and pierced with cross-shaped chiselled openings to let sunlight into the hollowed-out interior .
+1	Each	each	DET	DT	_	9	nsubj:pass	_	_
+2	of	of	ADP	IN	_	6	case	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+4	11	11	NUM	CD	NumType=Card	6	nummod	_	_
+5	monolithic	monolithic	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	structures	structure	NOUN	NNS	Number=Plur	1	nmod	_	_
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux:pass	_	_
+8	dramatically	dramatically	ADV	RB	_	9	advmod	_	_
+9	stamped	stamp	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+10	into	into	ADP	IN	_	13	case	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+12	mountainous	mountainous	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	landscape	landscape	NOUN	NN	Number=Sing	9	obl	_	_
+14	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+15	plunging	plunge	VERB	VBG	VerbForm=Ger	13	acl	_	_
+16	40	40	NUM	CD	NumType=Card	19	nummod	_	_
+17	to	to	ADP	IN	_	19	case	_	_
+18	50	50	NUM	CD	NumType=Card	19	nummod	_	SpaceAfter=No
+19	m	m	PROPN	NNP	Number=Sing	15	obj	_	_
+20	into	into	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	Earth	earth	PROPN	NNP	Number=Sing	15	obl	_	_
+23	and	and	CCONJ	CC	_	24	cc	_	_
+24	pierced	pierce	VERB	VBN	Tense=Past|VerbForm=Part	13	conj	_	_
+25	with	with	ADP	IN	_	28	case	_	_
+26	cross-shaped	cross-shap	VERB	VBN	Tense=Past|VerbForm=Part	28	amod	_	_
+27	chiselled	chisell	VERB	VBN	Tense=Past|VerbForm=Part	28	amod	_	_
+28	openings	opening	NOUN	NNS	Number=Plur	24	obl	_	_
+29	to	to	PART	TO	_	30	mark	_	_
+30	let	let	VERB	VB	VerbForm=Inf	24	advcl	_	_
+31	sunlight	sunlight	NOUN	NN	Number=Sing	30	obj	_	_
+32	into	into	ADP	IN	_	37	case	_	_
+33	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+34	hollowed	hollow	VERB	VBN	Tense=Past|VerbForm=Part	37	amod	_	SpaceAfter=No
+35	-	-	PUNCT	HYPH	_	34	punct	_	SpaceAfter=No
+36	out	out	ADP	RP	_	34	compound:prt	_	_
+37	interior	interior	NOUN	NN	Number=Sing	30	obl	_	_
+38	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = There are several theories surrounding the creation of these extraordinary places of worship .
+1	There	there	PRON	EX	_	2	expl	_	_
+2	are	be	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	several	several	ADJ	JJ	Degree=Pos	4	amod	_	_
+4	theories	theory	NOUN	NNS	Number=Plur	2	nsubj	_	_
+5	surrounding	surround	VERB	VBG	VerbForm=Ger	4	acl	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+7	creation	creation	NOUN	NN	Number=Sing	5	obj	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	these	these	DET	DT	Number=Plur|PronType=Dem	11	det	_	_
+10	extraordinary	extraordinary	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	places	place	NOUN	NNS	Number=Plur	7	nmod	_	_
+12	of	of	ADP	IN	_	13	case	_	_
+13	worship	worship	NOUN	NN	Number=Sing	11	nmod	_	_
+14	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 6
+# text = Some believe they were carved by the Knights Templar , Christian crusaders who , during the 13th Century when the churches were created , were at the height of their power .
+1	Some	some	DET	DT	_	2	det	_	_
+2	believe	believe	NOUN	NN	Number=Sing	28	nsubj	_	_
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj:pass	_	_
+4	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux:pass	_	_
+5	carved	carve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	_	_
+6	by	by	ADP	IN	_	12	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	12	det	_	_
+8	Knights	knights	PROPN	NNPS	Number=Plur	12	compound	_	_
+9	Templar	Templar	PROPN	NNP	Number=Sing	12	compound	_	_
+10	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+11	Christian	christian	PROPN	NNP	Number=Sing	12	compound	_	_
+12	crusaders	crusader	NOUN	NNS	Number=Plur	5	obl	_	_
+13	who	who	PRON	WP	PronType=Rel	18	nsubj	_	_
+14	,	,	PUNCT	,	_	18	punct	_	SpacesAfter=\s\s
+15	during	during	ADP	IN	_	18	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	18	det	_	_
+17	13th	13th	ADJ	JJ	Degree=Pos|NumType=Ord	18	amod	_	_
+18	Century	century	NOUN	NN	Number=Sing	12	acl:relcl	_	_
+19	when	when	ADV	WRB	PronType=Int	23	mark	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	churches	churche	NOUN	NNS	Number=Plur	23	nsubj:pass	_	_
+22	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	23	aux:pass	_	_
+23	created	create	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	advcl	_	_
+24	,	,	PUNCT	,	_	28	punct	_	SpacesAfter=\s\s
+25	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	cop	_	_
+26	at	at	ADP	IN	_	28	case	_	_
+27	the	the	DET	DT	Definite=Def|PronType=Art	28	det	_	_
+28	height	height	NOUN	NN	Number=Sing	0	root	_	_
+29	of	of	ADP	IN	_	31	case	_	_
+30	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	31	nmod:poss	_	_
+31	power	power	NOUN	NN	Number=Sing	28	nmod	_	_
+32	.	.	PUNCT	.	_	28	punct	_	SpacesAfter=\s\n
+
+# sent_id = 7
+# text = But there " s no concrete evidence of their involvement .
+1	But	but	CCONJ	CC	_	2	cc	_	_
+2	there	there	ADV	RB	PronType=Dem	0	root	_	_
+3	"	"	PUNCT	''	_	2	punct	_	_
+4	s	's	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	_
+5	no	no	DET	DT	_	7	det	_	_
+6	concrete	concrete	NOUN	NN	Number=Sing	7	compound	_	_
+7	evidence	evidence	NOUN	NN	Number=Sing	2	nsubj	_	_
+8	of	of	ADP	IN	_	10	case	_	_
+9	their	they	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	_	_
+10	involvement	involvement	NOUN	NN	Number=Sing	7	nmod	_	_
+11	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 8
+# text = The most heavily circulated hypothesis -- and the one propagated by the small museum near the entrance to the churches -- is that they were hewn under the orders of King Lalibela , emperor of Ethiopia during the late 12th and early 13th Centuries , who is said to have visited Jerusalem in 1187BC just before the Holy City fell to Muslim forces .
+1	The	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+2	most	most	ADV	RBS	_	3	advmod	_	_
+3	heavily	heavily	ADV	RB	_	4	advmod	_	_
+4	circulated	circulate	VERB	VBN	Tense=Past|VerbForm=Part	5	amod	_	_
+5	hypothesis	hypothesis	NOUN	NN	Number=Sing	22	nsubj	_	_
+6	--	--	PUNCT	,	_	5	punct	_	_
+7	and	and	CCONJ	CC	_	9	cc	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	one	one	NOUN	NN	Number=Sing	5	conj	_	_
+10	propagated	propagate	VERB	VBN	Tense=Past|VerbForm=Part	9	acl	_	_
+11	by	by	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	small	small	ADJ	JJ	Degree=Pos	14	amod	_	_
+14	museum	museum	NOUN	NN	Number=Sing	10	obl	_	_
+15	near	near	ADP	IN	_	17	case	_	_
+16	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+17	entrance	entrance	NOUN	NN	Number=Sing	14	nmod	_	_
+18	to	to	ADP	IN	_	20	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	20	det	_	_
+20	churches	churche	NOUN	NNS	Number=Plur	17	nmod	_	_
+21	--	--	PUNCT	,	_	5	punct	_	_
+22	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
+23	that	that	SCONJ	IN	_	26	mark	_	_
+24	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	nsubj:pass	_	_
+25	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	26	aux:pass	_	_
+26	hewn	hew	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	ccomp	_	_
+27	under	under	ADP	IN	_	29	case	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	orders	order	NOUN	NNS	Number=Plur	26	obl	_	_
+30	of	of	ADP	IN	_	32	case	_	_
+31	King	King	PROPN	NNP	Number=Sing	32	compound	_	_
+32	Lalibela	Lalibela	PROPN	NNP	Number=Sing	29	nmod	_	_
+33	,	,	PUNCT	,	_	32	punct	_	SpacesAfter=\s\s
+34	emperor	emperor	NOUN	NN	Number=Sing	32	appos	_	_
+35	of	of	ADP	IN	_	36	case	_	_
+36	Ethiopia	Ethiopia	PROPN	NNP	Number=Sing	34	nmod	_	_
+37	during	during	ADP	IN	_	40	case	_	_
+38	the	the	DET	DT	Definite=Def|PronType=Art	40	det	_	_
+39	late	late	ADJ	JJ	Degree=Pos	40	amod	_	_
+40	12th	12th	NOUN	NN	Number=Sing	44	compound	_	_
+41	and	and	CCONJ	CC	_	43	cc	_	_
+42	early	early	ADJ	JJ	Degree=Pos	43	amod	_	_
+43	13th	13th	NOUN	NN	Number=Sing	40	conj	_	_
+44	Centuries	centuries	NOUN	NNS	Number=Plur	26	obl	_	_
+45	,	,	PUNCT	,	_	44	punct	_	SpacesAfter=\s\s
+46	who	who	PRON	WP	PronType=Rel	48	nsubj:pass	_	_
+47	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	48	aux:pass	_	_
+48	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	44	acl:relcl	_	_
+49	to	to	PART	TO	_	51	mark	_	_
+50	have	have	AUX	VB	VerbForm=Inf	51	aux	_	_
+51	visited	visit	VERB	VBN	Tense=Past|VerbForm=Part	48	xcomp	_	_
+52	Jerusalem	Jerusalem	PROPN	NNP	Number=Sing	51	obj	_	_
+53	in	in	ADP	IN	_	55	case	_	_
+54	1187	1187	NUM	CD	NumType=Card	55	nummod	_	SpaceAfter=No
+55	BC	Bc	NOUN	NN	Number=Sing	51	obl	_	_
+56	just	just	ADV	RB	_	61	advmod	_	_
+57	before	before	SCONJ	IN	_	61	mark	_	_
+58	the	the	DET	DT	Definite=Def|PronType=Art	60	det	_	_
+59	Holy	Holy	PROPN	NNP	Number=Sing	60	compound	_	_
+60	City	city	PROPN	NNP	Number=Sing	61	nsubj	_	_
+61	fell	fall	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	51	advcl	_	_
+62	to	to	ADP	IN	_	64	case	_	_
+63	Muslim	muslim	ADJ	JJ	Degree=Pos	64	amod	_	_
+64	forces	force	NOUN	NNS	Number=Plur	61	obl	_	_
+65	.	.	PUNCT	.	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = King
+1	King	King	PROPN	NNP	Number=Sing	0	root	_	_
+
+# sent_id = 10
+# text = Lalibela built these churches around Ethiopia " s own stretch of the Jordan River , his intent being to welcome Christians to a " New Jerusalem " .
+1	Lalibela	Lalibela	PROPN	NNP	Number=Sing	21	compound	_	_
+2	built	build	VERB	VBN	Tense=Past|VerbForm=Part	21	advcl	_	_
+3	these	these	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	churches	church	NOUN	NNS	Number=Plur	2	obj	_	_
+5	around	around	ADP	IN	_	10	case	_	_
+6	Ethiopia	Ethiopia	PROPN	NNP	Number=Sing	10	nmod:poss	_	_
+7	"	"	PUNCT	''	_	6	punct	_	_
+8	s	's	PART	POS	_	6	case	_	_
+9	own	own	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	stretch	stretch	NOUN	NN	Number=Sing	2	obl	_	_
+11	of	of	ADP	IN	_	14	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+13	Jordan	Jordan	PROPN	NNP	Number=Sing	14	compound	_	_
+14	River	River	PROPN	NNP	Number=Sing	10	nmod	_	_
+15	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+16	his	he	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+17	intent	intent	NOUN	NN	Number=Sing	21	nsubj	_	_
+18	being	be	AUX	VBG	VerbForm=Ger	21	cop	_	_
+19	to	to	ADP	IN	_	21	case	_	_
+20	welcome	welcome	ADJ	JJ	Degree=Pos	21	amod	_	_
+21	Christians	Christians	PROPN	NNPS	Number=Plur	0	root	_	_
+22	to	to	ADP	IN	_	26	case	_	_
+23	a	a	DET	DT	Definite=Ind|PronType=Art	26	det	_	SpacesAfter=\s\s
+24	"	"	PUNCT	``	_	26	punct	_	_
+25	New	New	PROPN	NNP	Number=Sing	26	compound	_	_
+26	Jerusalem	Jerusalem	PROPN	NNP	Number=Sing	21	nmod	_	_
+27	"	"	PUNCT	''	_	26	punct	_	SpacesAfter=\s\s
+28	.	.	PUNCT	.	_	21	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = Yet the museum doesn " t seem to put its heart into pushing this theory ; its display of construction tools includes only a fragile adze , an axe-shaped tool that King Lalibela " s workers supposedly used to sculpt the churches from the ground .
+1	Yet	yet	CCONJ	CC	_	7	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+3	museum	museum	NOUN	NN	Number=Sing	4	compound	_	_
+4	doesn	doesn	NOUN	NN	Number=Sing	6	compound	_	_
+5	"	"	PUNCT	''	_	4	punct	_	_
+6	t	t	NOUN	NN	Number=Sing	7	nsubj	_	_
+7	seem	seem	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+8	to	to	PART	TO	_	9	mark	_	_
+9	put	put	VERB	VB	VerbForm=Inf	7	xcomp	_	_
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	SpaceAfter=No
+11	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	_
+12	heart	heart	NOUN	NN	Number=Sing	9	ccomp	_	_
+13	into	into	SCONJ	IN	_	14	mark	_	_
+14	pushing	push	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+15	this	this	DET	DT	Number=Sing|PronType=Dem	16	det	_	_
+16	theory	theory	NOUN	NN	Number=Sing	14	obj	_	_
+17	;	;	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+18	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	_	_
+19	display	display	NOUN	NN	Number=Sing	23	nsubj	_	_
+20	of	of	ADP	IN	_	22	case	_	_
+21	construction	construction	NOUN	NN	Number=Sing	22	compound	_	_
+22	tools	tool	NOUN	NNS	Number=Plur	19	nmod	_	_
+23	includes	include	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	_
+24	only	only	ADV	RB	_	27	advmod	_	_
+25	a	a	DET	DT	Definite=Ind|PronType=Art	27	det	_	_
+26	fragile	fragile	ADJ	JJ	Degree=Pos	27	amod	_	_
+27	adze	adze	NOUN	NN	Number=Sing	23	obj	_	_
+28	,	,	PUNCT	,	_	27	punct	_	SpacesAfter=\s\s
+29	an	a	DET	DT	Definite=Ind|PronType=Art	33	det	_	_
+30	axe	axe	NOUN	NN	Number=Sing	32	compound	_	SpaceAfter=No
+31	-	-	PUNCT	HYPH	_	32	punct	_	SpaceAfter=No
+32	shaped	shaped	VERB	VBN	Tense=Past|VerbForm=Part	33	amod	_	_
+33	tool	tool	NOUN	NN	Number=Sing	27	appos	_	_
+34	that	that	SCONJ	IN	_	41	mark	_	_
+35	King	King	PROPN	NNP	Number=Sing	36	compound	_	_
+36	Lalibela	Lalibela	PROPN	NNP	Number=Sing	39	nmod:poss	_	_
+37	"	"	PUNCT	''	_	36	punct	_	_
+38	s	's	PART	POS	_	36	case	_	_
+39	workers	worker	NOUN	NNS	Number=Plur	41	nsubj	_	_
+40	supposedly	supposedly	ADV	RB	_	41	advmod	_	_
+41	used	use	VERB	VBN	Tense=Past|VerbForm=Part	33	acl	_	_
+42	to	to	PART	TO	_	43	mark	_	_
+43	sculpt	sculpt	VERB	VB	VerbForm=Inf	41	xcomp	_	_
+44	the	the	DET	DT	Definite=Def|PronType=Art	45	det	_	_
+45	churches	church	NOUN	NNS	Number=Plur	43	obj	_	_
+46	from	from	ADP	IN	_	48	case	_	_
+47	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+48	ground	ground	NOUN	NN	Number=Sing	43	obl	_	_
+49	.	.	PUNCT	.	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 12
+# text = Even allowing for 900 years of wear , it looked better suited to hooking weeds out of soil than carving rock .
+1	Even	even	ADV	RB	_	2	advmod	_	_
+2	allowing	allow	VERB	VBG	VerbForm=Ger	10	advcl	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	900	900	NUM	CD	NumType=Card	5	nummod	_	_
+5	years	year	NOUN	NNS	Number=Plur	2	obl	_	_
+6	of	of	ADP	IN	_	7	case	_	_
+7	wear	wear	NOUN	NN	Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	nsubj	_	_
+10	looked	look	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	better	better	ADV	RBR	Degree=Cmp	10	advmod	_	_
+12	suited	suite	ADJ	JJ	Degree=Pos	10	xcomp	_	_
+13	to	to	SCONJ	IN	_	14	mark	_	_
+14	hooking	hook	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+15	weeds	weed	NOUN	NNS	Number=Plur	14	obj	_	_
+16	out	out	ADP	IN	_	18	case	_	_
+17	of	of	ADP	IN	_	18	case	_	_
+18	soil	soil	NOUN	NN	Number=Sing	14	obl	_	_
+19	than	than	SCONJ	IN	_	20	mark	_	_
+20	carving	carve	VERB	VBG	VerbForm=Ger	14	advcl	_	_
+21	rock	rock	NOUN	NN	Number=Sing	20	obj	_	_
+22	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Instead , the thousands of worshippers who attend daily services inside the churches accept a much more divine explanation : that King Lalibela was assisted by an army of angels , who completed the 11 churches in one night .
+1	Instead	instead	ADV	RB	_	14	advmod	_	_
+2	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	thousands	thousand	NOUN	NNS	Number=Plur	14	nsubj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	worshippers	worshipper	NOUN	NNS	Number=Plur	4	nmod	_	_
+7	who	who	PRON	WP	PronType=Rel	8	nsubj	_	_
+8	attend	attend	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	_
+9	daily	daily	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	services	service	NOUN	NNS	Number=Plur	8	obj	_	_
+11	inside	inside	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	churches	churche	NOUN	NNS	Number=Plur	10	nmod	_	_
+14	accept	accept	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+15	a	a	DET	DT	Definite=Ind|PronType=Art	19	det	_	_
+16	much	much	ADV	RB	_	17	advmod	_	_
+17	more	more	ADJ	JJR	Degree=Cmp	18	amod	_	_
+18	divine	divine	NOUN	NN	Number=Sing	19	compound	_	_
+19	explanation	explanation	NOUN	NN	Number=Sing	14	obj	_	_
+20	:	:	PUNCT	:	_	19	punct	_	SpacesAfter=\s\s
+21	that	that	SCONJ	IN	_	25	mark	_	_
+22	King	King	PROPN	NNP	Number=Sing	23	compound	_	_
+23	Lalibela	Lalibela	PROPN	NNP	Number=Sing	25	nsubj:pass	_	_
+24	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	aux:pass	_	_
+25	assisted	assist	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	acl	_	_
+26	by	by	ADP	IN	_	28	case	_	_
+27	an	a	DET	DT	Definite=Ind|PronType=Art	28	det	_	_
+28	army	army	NOUN	NN	Number=Sing	25	obl	_	_
+29	of	of	ADP	IN	_	30	case	_	_
+30	angels	angel	NOUN	NNS	Number=Plur	28	nmod	_	_
+31	,	,	PUNCT	,	_	30	punct	_	SpacesAfter=\s\s
+32	who	who	PRON	WP	PronType=Rel	33	nsubj	_	_
+33	completed	complete	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	30	acl:relcl	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	36	det	_	_
+35	11	11	NUM	CD	NumType=Card	36	nummod	_	_
+36	churches	church	NOUN	NNS	Number=Plur	33	obj	_	_
+37	in	in	ADP	IN	_	39	case	_	_
+38	one	one	NUM	CD	NumType=Card	39	nummod	_	_
+39	night	night	NOUN	NN	Number=Sing	33	obl	_	_
+40	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = From a distance , the only sign of these underground temples is the stream of people flowing in and out of crevices .
+1	From	from	ADP	IN	_	3	case	_	_
+2	a	a	DET	DT	Definite=Ind|PronType=Art	3	det	_	_
+3	distance	distance	NOUN	NN	Number=Sing	14	obl	_	_
+4	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+5	the	the	DET	DT	Definite=Def|PronType=Art	7	det	_	_
+6	only	only	ADJ	JJ	Degree=Pos	7	amod	_	_
+7	sign	sign	NOUN	NN	Number=Sing	14	nsubj	_	_
+8	of	of	ADP	IN	_	11	case	_	_
+9	these	these	DET	DT	Number=Plur|PronType=Dem	11	det	_	_
+10	underground	underground	ADJ	JJ	Degree=Pos	11	amod	_	_
+11	temples	temple	NOUN	NNS	Number=Plur	7	nmod	_	_
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	stream	stream	NOUN	NN	Number=Sing	0	root	_	_
+15	of	of	ADP	IN	_	16	case	_	_
+16	people	people	NOUN	NNS	Number=Plur	14	nmod	_	_
+17	flowing	flow	VERB	VBG	VerbForm=Ger	16	acl	_	_
+18	in	in	ADP	IN	_	22	case	_	_
+19	and	and	CCONJ	CC	_	22	cc	_	_
+20	out	out	ADP	IN	_	22	case	_	_
+21	of	of	ADP	IN	_	22	case	_	_
+22	crevices	crevice	NOUN	NNS	Number=Plur	17	obl	_	_
+23	.	.	PUNCT	.	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 15
+# text = Visits have to be timed for the moments when congregations ebb , using the intermissions in daily services to negotiate the canyons , sometimes just wide enough for a single person , leading down into the Earth .
+1	Visits	visit	NOUN	NNS	Number=Plur	2	nsubj	_	_
+2	have	have	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+3	to	to	PART	TO	_	5	mark	_	_
+4	be	be	AUX	VB	VerbForm=Inf	5	aux:pass	_	_
+5	timed	tim	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	xcomp	_	_
+6	for	for	ADP	IN	_	8	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+8	moments	moment	NOUN	NNS	Number=Plur	5	obl	_	_
+9	when	when	ADV	WRB	PronType=Int	8	acl:relcl	_	_
+10	congregations	congregation	NOUN	NNS	Number=Plur	9	nsubj	_	_
+11	ebb	ebb	NUM	CD	NumType=Card	10	nummod	_	_
+12	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+13	using	use	VERB	VBG	VerbForm=Ger	10	acl	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	15	det	_	_
+15	intermissions	intermission	NOUN	NNS	Number=Plur	13	obj	_	_
+16	in	in	ADP	IN	_	18	case	_	_
+17	daily	daily	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	services	service	NOUN	NNS	Number=Plur	13	obl	_	_
+19	to	to	PART	TO	_	20	mark	_	_
+20	negotiate	negotiate	VERB	VB	VerbForm=Inf	18	acl	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	canyons	canyon	NOUN	NNS	Number=Plur	20	obj	_	_
+23	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+24	sometimes	sometimes	ADV	RB	_	26	advmod	_	_
+25	just	just	ADV	RB	_	26	advmod	_	_
+26	wide	wide	ADV	RB	_	27	advmod	_	_
+27	enough	enough	ADV	RB	_	10	advmod	_	_
+28	for	for	ADP	IN	_	31	case	_	_
+29	a	a	DET	DT	Definite=Ind|PronType=Art	31	det	_	_
+30	single	single	ADJ	JJ	Degree=Pos	31	amod	_	_
+31	person	person	NOUN	NN	Number=Sing	10	nmod	_	_
+32	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+33	leading	lead	VERB	VBG	VerbForm=Ger	10	acl	_	_
+34	down	down	ADV	RB	_	33	advmod	_	_
+35	into	into	ADP	IN	_	37	case	_	_
+36	the	the	DET	DT	Definite=Def|PronType=Art	37	det	_	_
+37	Earth	Earth	PROPN	NNP	Number=Sing	33	obl	_	_
+38	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 16
+# text = With my hand against the wall , I slowly descended into the shadows of the churches .
+1	With	with	ADP	IN	_	3	case	_	_
+2	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+3	hand	hand	NOUN	NN	Number=Sing	10	obl	_	_
+4	against	against	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	wall	wall	NOUN	NN	Number=Sing	3	nmod	_	_
+7	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
+9	slowly	slowly	ADV	RB	_	10	advmod	_	_
+10	descended	descend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	into	into	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	shadows	shadow	NOUN	NNS	Number=Plur	10	obl	_	_
+14	of	of	ADP	IN	_	16	case	_	_
+15	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+16	churches	churche	NOUN	NNS	Number=Plur	13	nmod	_	_
+17	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = Even between prayer sessions the churches are never empty ; elderly worshippers find it easier to stay nearby than negotiate the precarious paths .
+1	Even	even	ADV	RB	_	4	advmod	_	_
+2	between	between	ADP	IN	_	4	case	_	_
+3	prayer	prayer	NOUN	NN	Number=Sing	4	compound	_	_
+4	sessions	session	NOUN	NNS	Number=Plur	9	obl	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	churches	churche	NOUN	NNS	Number=Plur	9	nsubj	_	_
+7	are	be	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	9	cop	_	_
+8	never	never	ADV	RB	_	9	advmod	_	_
+9	empty	empty	ADJ	JJ	Degree=Pos	12	amod	_	_
+10	;	;	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+11	elderly	elderly	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	worshippers	worshipper	NOUN	NNS	Number=Plur	13	nsubj	_	_
+13	find	find	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	_
+15	easier	easier	ADJ	JJR	Degree=Cmp	13	xcomp	_	_
+16	to	to	PART	TO	_	17	mark	_	_
+17	stay	stay	VERB	VB	VerbForm=Inf	15	ccomp	_	_
+18	nearby	nearby	ADV	RB	_	17	advmod	_	_
+19	than	than	ADP	IN	_	20	case	_	_
+20	negotiate	negotiate	NOUN	NN	Number=Sing	17	obl	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+22	precarious	precarious	ADJ	JJ	Degree=Pos	23	amod	_	_
+23	paths	path	NOUN	NNS	Number=Plur	13	obj	_	_
+24	.	.	PUNCT	.	_	13	punct	_	SpacesAfter=\s\n
+
+# sent_id = 18
+# text = They watched , leaning inscrutably on prayer sticks , as I unlaced my hiking boots and added them to the small scatter of flip-flops and slippers that lay outside .
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	watched	watch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+4	leaning	lean	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+5	inscrutably	inscrutably	ADV	RB	_	4	advmod	_	_
+6	on	on	ADP	IN	_	8	case	_	_
+7	prayer	prayer	NOUN	NN	Number=Sing	8	compound	_	_
+8	sticks	stick	NOUN	NNS	Number=Plur	4	obl	_	_
+9	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+10	as	as	SCONJ	IN	_	12	mark	_	_
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	_
+12	unlaced	unlace	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	2	advcl	_	_
+13	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	nmod:poss	_	_
+14	hiking	hike	VERB	VBG	VerbForm=Ger	15	amod	_	_
+15	boots	boot	NOUN	NNS	Number=Plur	12	obj	_	_
+16	and	and	CCONJ	CC	_	17	cc	_	_
+17	added	add	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	12	conj	_	_
+18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	obj	_	_
+19	to	to	ADP	IN	_	22	case	_	_
+20	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+21	small	small	ADJ	JJ	Degree=Pos	22	amod	_	_
+22	scatter	scatter	NOUN	NN	Number=Sing	17	obl	_	_
+23	of	of	ADP	IN	_	26	case	_	_
+24	flip	flip	NOUN	NN	Number=Sing	26	compound	_	SpaceAfter=No
+25	-	-	PUNCT	HYPH	_	26	punct	_	SpaceAfter=No
+26	flops	flops	NOUN	NNS	Number=Plur	22	nmod	_	_
+27	and	and	CCONJ	CC	_	28	cc	_	_
+28	slippers	slipper	NOUN	NNS	Number=Plur	26	conj	_	_
+29	that	that	PRON	WDT	PronType=Rel	30	nsubj	_	_
+30	lay	lay	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	28	acl:relcl	_	_
+31	outside	outside	ADV	RB	_	30	advmod	_	_
+32	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 19
+# text = As I entered Biete Golgotha Mikael , said to be the final resting place of King Lalibela himself , the threadbare red carpet did little to mask the feeling of cool stone on the bottom of my feet .
+1	As	as	SCONJ	IN	_	3	mark	_	_
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	entered	enter	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	advcl	_	_
+4	Biete	Biete	PROPN	NNP	Number=Sing	5	compound	_	_
+5	Golgotha	Golgotha	PROPN	NNP	Number=Sing	3	obj	_	_
+6	Mikael	Mikael	PROPN	NNP	Number=Sing	5	flat	_	_
+7	,	,	PUNCT	,	_	8	punct	_	SpacesAfter=\s\s
+8	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+9	to	to	PART	TO	_	14	mark	_	_
+10	be	be	AUX	VB	VerbForm=Inf	14	cop	_	_
+11	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+12	final	final	ADJ	JJ	Degree=Pos	14	amod	_	_
+13	resting	rest	VERB	VBG	VerbForm=Ger	14	amod	_	_
+14	place	place	NOUN	NN	Number=Sing	8	xcomp	_	_
+15	of	of	ADP	IN	_	18	case	_	_
+16	King	King	PROPN	NNP	Number=Sing	17	compound	_	_
+17	Lalibela	Lalibela	PROPN	NNP	Number=Sing	18	compound	_	_
+18	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	14	nmod	_	_
+19	,	,	PUNCT	,	_	14	punct	_	SpacesAfter=\s\s
+20	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+21	threadbare	threadbare	NOUN	NN	Number=Sing	22	nsubj	_	_
+22	red	r	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	14	parataxis	_	_
+23	carpet	carpet	NOUN	NN	Number=Sing	22	obj	_	_
+24	did	do	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	25	aux	_	_
+25	little	little	ADJ	JJ	Degree=Pos	14	parataxis	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	mask	mask	VERB	VB	VerbForm=Inf	25	advcl	_	_
+28	the	the	DET	DT	Definite=Def|PronType=Art	29	det	_	_
+29	feeling	feeling	NOUN	NN	Number=Sing	27	obj	_	_
+30	of	of	ADP	IN	_	32	case	_	_
+31	cool	cool	ADJ	JJ	Degree=Pos	32	amod	_	_
+32	stone	stone	NOUN	NN	Number=Sing	29	nmod	_	_
+33	on	on	ADP	IN	_	35	case	_	_
+34	the	the	DET	DT	Definite=Def|PronType=Art	35	det	_	_
+35	bottom	bottom	NOUN	NN	Number=Sing	27	obl	_	_
+36	of	of	ADP	IN	_	38	case	_	_
+37	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	38	nmod:poss	_	_
+38	feet	foot	NOUN	NNS	Number=Plur	35	nmod	_	_
+39	.	.	PUNCT	.	_	25	punct	_	SpacesAfter=\s\n
+
+# sent_id = 20
+# text = My eyes adjusted to the darkness and a medieval figure took shape -- it was St Peter , etched into the wall of New Jerusalem for eternity .
+1	My	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	_
+2	eyes	eye	NOUN	NNS	Number=Plur	3	nsubj	_	_
+3	adjusted	adjust	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	darkness	darkness	NOUN	NN	Number=Sing	3	obl	_	_
+7	and	and	CCONJ	CC	_	11	cc	_	_
+8	a	a	DET	DT	Definite=Ind|PronType=Art	10	det	_	_
+9	medieval	medieval	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	figure	figure	NOUN	NN	Number=Sing	11	nsubj	_	_
+11	took	take	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	6	conj	_	_
+12	shape	shape	NOUN	NN	Number=Sing	11	obj	_	_
+13	--	--	PUNCT	,	_	3	punct	_	_
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	cop	_	_
+16	St	St	PROPN	NNP	Number=Sing	3	parataxis	_	_
+17	Peter	Peter	PROPN	NNP	Number=Sing	16	flat	_	_
+18	,	,	PUNCT	,	_	19	punct	_	SpacesAfter=\s\s
+19	etched	etch	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	_
+20	into	into	ADP	IN	_	22	case	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	wall	wall	NOUN	NN	Number=Sing	19	obl	_	_
+23	of	of	ADP	IN	_	25	case	_	_
+24	New	New	PROPN	NNP	Number=Sing	25	compound	_	_
+25	Jerusalem	Jerusalem	PROPN	NNP	Number=Sing	22	nmod	_	_
+26	for	for	ADP	IN	_	27	case	_	_
+27	eternity	eternity	NOUN	NN	Number=Sing	19	obl	_	_
+28	.	.	PUNCT	.	_	3	punct	_	SpacesAfter=\s\n
+
+# sent_id = 21
+# text = Slender paths and tunnels led me from church to church , but one was set apart ; of the 11 houses of worship in the complex , Biete Giyorgis , a good long stone " s throw from the main warren of churches , was the most memorable .
+1	Slender	Slender	NOUN	NN	Number=Sing	2	compound	_	_
+2	paths	path	NOUN	NNS	Number=Plur	5	nsubj	_	_
+3	and	and	CCONJ	CC	_	4	cc	_	_
+4	tunnels	tunnel	NOUN	NNS	Number=Plur	2	conj	_	_
+5	led	lead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	obj	_	_
+7	from	from	ADP	IN	_	8	case	_	_
+8	church	church	NOUN	NN	Number=Sing	5	obl	_	_
+9	to	to	ADP	IN	_	10	case	_	_
+10	church	church	NOUN	NN	Number=Sing	5	obl	_	_
+11	,	,	PUNCT	,	_	15	punct	_	SpacesAfter=\s\s
+12	but	but	CCONJ	CC	_	15	cc	_	_
+13	one	one	NUM	CD	NumType=Card	15	nsubj:pass	_	_
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	aux:pass	_	_
+15	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+16	apart	apart	ADV	RB	_	15	advmod	_	_
+17	;	;	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+18	of	of	ADP	IN	_	21	case	_	_
+19	the	the	DET	DT	Definite=Def|PronType=Art	21	det	_	_
+20	11	11	NUM	CD	NumType=Card	21	nummod	_	_
+21	houses	house	NOUN	NNS	Number=Plur	5	obl	_	_
+22	of	of	ADP	IN	_	23	case	_	_
+23	worship	worship	NOUN	NN	Number=Sing	21	nmod	_	_
+24	in	in	ADP	IN	_	26	case	_	_
+25	the	the	DET	DT	Definite=Def|PronType=Art	26	det	_	_
+26	complex	complex	NOUN	NN	Number=Sing	21	nmod	_	_
+27	,	,	PUNCT	,	_	28	punct	_	SpacesAfter=\s\s
+28	Biete	Biete	PROPN	NNP	Number=Sing	26	conj	_	_
+29	Giyorgis	Giyorgis	PROPN	NNP	Number=Sing	28	flat	_	_
+30	,	,	PUNCT	,	_	21	punct	_	SpacesAfter=\s\s
+31	a	a	DET	DT	Definite=Ind|PronType=Art	34	det	_	_
+32	good	good	ADJ	JJ	Degree=Pos	34	amod	_	_
+33	long	long	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	stone	stone	NOUN	NN	Number=Sing	41	nsubj	_	_
+35	"	"	PUNCT	''	_	34	punct	_	_
+36	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	41	cop	_	_
+37	throw	throw	ADV	RB	_	41	advmod	_	_
+38	from	from	ADP	IN	_	41	case	_	_
+39	the	the	DET	DT	Definite=Def|PronType=Art	41	det	_	_
+40	main	main	ADJ	JJ	Degree=Pos	41	amod	_	_
+41	warren	warren	NOUN	NN	Number=Sing	5	parataxis	_	_
+42	of	of	ADP	IN	_	43	case	_	_
+43	churches	church	NOUN	NNS	Number=Plur	41	nmod	_	_
+44	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+45	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	48	cop	_	_
+46	the	the	DET	DT	Definite=Def|PronType=Art	48	det	_	_
+47	most	most	ADV	RBS	_	48	advmod	_	_
+48	memorable	memorable	ADJ	JJ	Degree=Pos	5	parataxis	_	_
+49	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 22
+# text = Its cruciform shape , immaculately buried in gently sloping rock , is topped with an etched Coptic cross that can only be seen from above .
+1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	cruciform	cruciform	NOUN	NN	Number=Sing	3	compound	_	_
+3	shape	shape	NOUN	NN	Number=Sing	6	nsubj	_	_
+4	,	,	PUNCT	,	_	3	punct	_	SpacesAfter=\s\s
+5	immaculately	immaculately	ADV	RB	_	6	advmod	_	_
+6	buried	bury	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+7	in	in	SCONJ	IN	_	9	mark	_	_
+8	gently	gently	ADV	RB	_	9	advmod	_	_
+9	sloping	sloping	VERB	VBG	VerbForm=Ger	6	advcl	_	_
+10	rock	rock	NOUN	NN	Number=Sing	9	obj	_	_
+11	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux:pass	_	_
+13	topped	top	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	conj	_	_
+14	with	with	ADP	IN	_	18	case	_	_
+15	an	a	DET	DT	Definite=Ind|PronType=Art	18	det	_	_
+16	etched	etch	VERB	VBN	Tense=Past|VerbForm=Part	18	amod	_	_
+17	Coptic	Coptic	ADJ	JJ	Degree=Pos	18	amod	_	_
+18	cross	cross	NOUN	NN	Number=Sing	13	obl	_	_
+19	that	that	PRON	WDT	PronType=Rel	23	nsubj:pass	_	_
+20	can	can	AUX	MD	VerbForm=Fin	23	aux	_	_
+21	only	only	ADV	RB	_	23	advmod	_	_
+22	be	be	AUX	VB	VerbForm=Inf	23	aux:pass	_	_
+23	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	acl:relcl	_	_
+24	from	from	ADP	IN	_	25	case	_	_
+25	above	above	ADV	RB	_	23	obl	_	_
+26	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = Its sheer walls have been tanned bronze over the ages , and plunge 40m into the surrounding chasm .
+1	Its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	nmod:poss	_	_
+2	sheer	sheer	ADJ	JJ	Degree=Pos	3	amod	_	_
+3	walls	wall	NOUN	NNS	Number=Plur	6	nsubj:pass	_	_
+4	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	aux:pass	_	_
+6	tanned	tan	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+7	bronze	bronze	NOUN	NN	Number=Sing	6	obj	_	_
+8	over	over	ADP	IN	_	10	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+10	ages	age	NOUN	NNS	Number=Plur	7	nmod	_	_
+11	,	,	PUNCT	,	_	13	punct	_	SpacesAfter=\s\s
+12	and	and	CCONJ	CC	_	13	cc	_	_
+13	plunge	plunge	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	conj	_	_
+14	40	40	NUM	CD	NumType=Card	15	nummod	_	SpaceAfter=No
+15	m	m	NUM	CD	NumType=Card	13	obj	_	_
+16	into	into	ADP	IN	_	19	case	_	_
+17	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+18	surrounding	surround	VERB	VBG	VerbForm=Ger	19	amod	_	_
+19	chasm	chasm	NOUN	NN	Number=Sing	15	nmod	_	_
+20	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 24
+# text = Despite standing open to the elements , the structure is immaculately preserved , wearing its nine centuries with grace .
+1	Despite	despite	ADP	IN	_	2	mark	_	_
+2	standing	stand	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+3	open	open	ADJ	JJ	Degree=Pos	2	xcomp	_	_
+4	to	to	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	elements	element	NOUN	NNS	Number=Plur	3	obl	_	_
+7	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	structure	structure	NOUN	NN	Number=Sing	12	nsubj:pass	_	_
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	aux:pass	_	_
+11	immaculately	immaculately	ADV	RB	_	12	advmod	_	_
+12	preserved	preserved	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	_	_
+13	,	,	PUNCT	,	_	12	punct	_	SpacesAfter=\s\s
+14	wearing	wear	VERB	VBG	VerbForm=Ger	12	advcl	_	_
+15	its	its	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	nmod:poss	_	_
+16	nine	nine	NUM	CD	NumType=Card	17	nummod	_	_
+17	centuries	century	NOUN	NNS	Number=Plur	14	obj	_	_
+18	with	with	ADP	IN	_	19	case	_	_
+19	grace	grace	PROPN	NNP	Number=Sing	14	obl	_	_
+20	.	.	PUNCT	.	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 25
+# text = Not all the churches have fared as well .
+1	Not	not	PART	RB	_	6	advmod	_	_
+2	all	all	DET	PDT	_	4	det:predet	_	_
+3	the	the	DET	DT	Definite=Def|PronType=Art	4	det	_	_
+4	churches	churche	NOUN	NNS	Number=Plur	6	nsubj	_	_
+5	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	6	aux	_	_
+6	fared	far	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	_
+7	as	as	ADV	RB	_	6	advmod	_	_
+8	well	well	ADV	RB	Degree=Pos	7	fixed	_	_
+9	.	.	PUNCT	.	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 26
+# text = Biete Medhane Alem , accepted as the largest monolithic church in the world , is sheltered from the elements by a rather clunky slab of Unesco-issued sheet metal to prevent further erosion .
+1	Biete	Biete	PROPN	NNP	Number=Sing	5	nsubj	_	_
+2	Medhane	Medhane	PROPN	NNP	Number=Sing	1	flat	_	_
+3	Alem	Alem	PROPN	NNP	Number=Sing	1	flat	_	_
+4	,	,	PUNCT	,	_	5	punct	_	SpacesAfter=\s\s
+5	accepted	accept	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+6	as	as	ADP	IN	_	10	case	_	_
+7	the	the	DET	DT	Definite=Def|PronType=Art	10	det	_	_
+8	largest	largest	ADJ	JJS	Degree=Sup	10	amod	_	_
+9	monolithic	monolithic	ADJ	JJ	Degree=Pos	10	amod	_	_
+10	church	church	NOUN	NN	Number=Sing	5	obl	_	_
+11	in	in	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	world	world	NOUN	NN	Number=Sing	10	nmod	_	_
+14	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	aux:pass	_	_
+16	sheltered	shelter	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
+17	from	from	ADP	IN	_	19	case	_	_
+18	the	the	DET	DT	Definite=Def|PronType=Art	19	det	_	_
+19	elements	element	NOUN	NNS	Number=Plur	16	obl	_	_
+20	by	by	ADP	IN	_	24	case	_	_
+21	a	a	DET	DT	Definite=Ind|PronType=Art	24	det	_	_
+22	rather	rather	ADV	RB	_	23	advmod	_	_
+23	clunky	clunky	ADJ	JJ	Degree=Pos	24	amod	_	_
+24	slab	slab	NOUN	NN	Number=Sing	19	nmod	_	_
+25	of	of	ADP	IN	_	30	case	_	_
+26	Unesco	Unesco	PROPN	NNP	Number=Sing	28	obl:npmod	_	SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	28	punct	_	SpaceAfter=No
+28	issued	issue	VERB	VBN	Tense=Past|VerbForm=Part	30	amod	_	_
+29	sheet	sheet	NOUN	NN	Number=Sing	30	compound	_	_
+30	metal	metal	NOUN	NN	Number=Sing	24	nmod	_	_
+31	to	to	PART	TO	_	32	mark	_	_
+32	prevent	prevent	VERB	VB	VerbForm=Inf	24	acl	_	_
+33	further	further	ADJ	JJ	Degree=Pos	34	amod	_	_
+34	erosion	erosion	NOUN	NN	Number=Sing	32	obj	_	_
+35	.	.	PUNCT	.	_	5	punct	_	SpacesAfter=\s\n
+
+# sent_id = 27
+# text = And the walls of the Biete Abba Libanos feature a few alarming cracks .
+1	And	and	CCONJ	CC	_	3	cc	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	walls	wall	NOUN	NNS	Number=Plur	9	nsubj	_	_
+4	of	of	ADP	IN	_	8	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+6	Biete	Biete	PROPN	NNP	Number=Sing	8	compound	_	_
+7	Abba	Abba	PROPN	NNP	Number=Sing	6	flat	_	_
+8	Libanos	Libanos	PROPN	NNPS	Number=Plur	3	nmod	_	_
+9	feature	feature	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	root	_	_
+10	a	a	DET	DT	Definite=Ind|PronType=Art	13	det	_	_
+11	few	few	ADJ	JJ	Degree=Pos	13	amod	_	_
+12	alarming	alarming	ADJ	JJ	Degree=Pos	13	amod	_	_
+13	cracks	crack	NOUN	NNS	Number=Plur	9	obj	_	_
+14	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 28
+# text = Upon noticing these hints of decay , I had my doubts about the churches " divine origins : surely if the churches of Lalibela had been built by angels , they would all still be in perfect condition .
+1	Upon	upon	SCONJ	IN	_	2	mark	_	_
+2	noticing	notice	VERB	VBG	VerbForm=Ger	9	advcl	_	_
+3	these	these	DET	DT	Number=Plur|PronType=Dem	4	det	_	_
+4	hints	hint	NOUN	NNS	Number=Plur	2	obj	_	_
+5	of	of	ADP	IN	_	6	case	_	_
+6	decay	decay	NOUN	NN	Number=Sing	4	nmod	_	_
+7	,	,	PUNCT	,	_	9	punct	_	SpacesAfter=\s\s
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
+9	had	have	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+10	my	my	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	nmod:poss	_	_
+11	doubts	doubt	NOUN	NNS	Number=Plur	9	obj	_	_
+12	about	about	ADP	IN	_	17	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	17	det	_	_
+14	churches	churche	NOUN	NNS	Number=Plur	17	compound	_	_
+15	"	"	PUNCT	``	_	17	punct	_	SpacesAfter=\s\s
+16	divine	divine	NOUN	NN	Number=Sing	17	compound	_	_
+17	origins	origin	NOUN	NNS	Number=Plur	11	nmod	_	_
+18	:	:	PUNCT	:	_	9	punct	_	SpacesAfter=\s\s
+19	surely	surely	ADV	RB	_	27	advmod	_	_
+20	if	if	SCONJ	IN	_	27	mark	_	_
+21	the	the	DET	DT	Definite=Def|PronType=Art	22	det	_	_
+22	churches	churche	NOUN	NNS	Number=Plur	27	nsubj:pass	_	_
+23	of	of	ADP	IN	_	24	case	_	_
+24	Lalibela	Lalibela	PROPN	NNP	Number=Sing	22	nmod	_	_
+25	had	have	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	27	aux	_	_
+26	been	be	AUX	VBN	Tense=Past|VerbForm=Part	27	aux:pass	_	_
+27	built	build	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	_	_
+28	by	by	ADP	IN	_	29	case	_	_
+29	angels	angel	NOUN	NNS	Number=Plur	27	obl	_	_
+30	,	,	PUNCT	,	_	27	punct	_	SpacesAfter=\s\s
+31	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	38	nsubj	_	_
+32	would	would	AUX	MD	VerbForm=Fin	38	aux	_	_
+33	all	all	ADV	RB	_	38	advmod	_	_
+34	still	still	ADV	RB	_	38	advmod	_	_
+35	be	be	AUX	VB	VerbForm=Inf	38	cop	_	_
+36	in	in	ADP	IN	_	38	case	_	_
+37	perfect	perfect	ADJ	JJ	Degree=Pos	38	amod	_	_
+38	condition	condition	NOUN	NN	Number=Sing	9	ccomp	_	_
+39	.	.	PUNCT	.	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 29
+# text = But as I emerged from the carved channel that led to Biete Giyorgis , I realised it didn " t matter how the churches came to be .
+1	But	but	CCONJ	CC	_	16	cc	_	_
+2	as	as	SCONJ	IN	_	4	mark	_	_
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	emerged	emerge	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	advcl	_	_
+5	from	from	ADP	IN	_	8	case	_	_
+6	the	the	DET	DT	Definite=Def|PronType=Art	8	det	_	_
+7	carved	carve	VERB	VBN	Tense=Past|VerbForm=Part	8	amod	_	_
+8	channel	channel	NOUN	NN	Number=Sing	4	obl	_	_
+9	that	that	PRON	WDT	PronType=Rel	10	nsubj	_	_
+10	led	lead	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	8	acl:relcl	_	_
+11	to	to	ADP	IN	_	12	case	_	_
+12	Biete	Biete	PROPN	NNP	Number=Sing	10	obl	_	_
+13	Giyorgis	Giyorgis	PROPN	NNP	Number=Sing	12	flat	_	_
+14	,	,	PUNCT	,	_	16	punct	_	SpacesAfter=\s\s
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	nsubj	_	_
+16	realised	realise	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	obj	_	_
+18	didn	didn	ADJ	JJ	Degree=Pos	21	amod	_	_
+19	"	"	PUNCT	``	_	21	punct	_	_
+20	t	t	NOUN	NN	Number=Sing	21	compound	_	_
+21	matter	matter	NOUN	NN	Number=Sing	16	obj	_	_
+22	how	how	ADV	WRB	PronType=Int	25	advmod	_	_
+23	the	the	DET	DT	Definite=Def|PronType=Art	24	det	_	_
+24	churches	churche	NOUN	NNS	Number=Plur	25	nsubj	_	_
+25	came	come	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	parataxis	_	_
+26	to	to	PART	TO	_	27	mark	_	_
+27	be	be	VERB	VB	VerbForm=Inf	25	xcomp	_	_
+28	.	.	PUNCT	.	_	16	punct	_	SpacesAfter=\s\n
+
+# sent_id = 30
+# text = Far below , a new wave of visitors were passing through the church & apos ; s towering stone entryways , lintels that have been worn smooth by the footfall of centuries .
+1	Far	far	ADV	RB	Degree=Pos	2	advmod	_	_
+2	below	below	ADV	RB	_	10	advmod	_	_
+3	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+4	a	a	DET	DT	Definite=Ind|PronType=Art	6	det	_	_
+5	new	new	ADJ	JJ	Degree=Pos	6	amod	_	_
+6	wave	wave	NOUN	NN	Number=Sing	10	nsubj	_	_
+7	of	of	ADP	IN	_	8	case	_	_
+8	visitors	visitor	NOUN	NNS	Number=Plur	6	nmod	_	_
+9	were	be	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	10	aux	_	_
+10	passing	pass	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	_	_
+11	through	through	ADP	IN	_	13	case	_	_
+12	the	the	DET	DT	Definite=Def|PronType=Art	13	det	_	_
+13	church	church	NOUN	NN	Number=Sing	10	obl	_	_
+14	&	&	CCONJ	CC	_	15	cc	_	_
+15	apos	apo	NOUN	NNS	Number=Plur	13	conj	_	_
+16	;	;	PUNCT	,	_	10	punct	_	_
+17	s	's	PART	POS	_	10	case	_	_
+18	towering	tower	VERB	VBG	VerbForm=Ger	20	amod	_	_
+19	stone	stone	NOUN	NN	Number=Sing	20	compound	_	_
+20	entryways	entryway	NOUN	NNS	Number=Plur	10	obj	_	_
+21	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\s\s
+22	lintels	lintel	NOUN	NNS	Number=Plur	20	appos	_	_
+23	that	that	PRON	WDT	PronType=Rel	26	nsubj:pass	_	_
+24	have	have	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	26	aux	_	_
+25	been	be	AUX	VBN	Tense=Past|VerbForm=Part	26	aux:pass	_	_
+26	worn	wear	VERB	VBN	Tense=Past|VerbForm=Part	22	acl:relcl	_	_
+27	smooth	smooth	NOUN	NN	Number=Sing	26	obj	_	_
+28	by	by	ADP	IN	_	30	case	_	_
+29	the	the	DET	DT	Definite=Def|PronType=Art	30	det	_	_
+30	footfall	footfall	NOUN	NN	Number=Sing	26	obl	_	_
+31	of	of	ADP	IN	_	32	case	_	_
+32	centuries	century	NOUN	NNS	Number=Plur	30	nmod	_	_
+33	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = They descended into the Earth , disappearing into the darkness cast by the monoliths and emerging again , having passed through the structures , to climb back up towards the sunlight .
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	descended	descend	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	into	into	ADP	IN	_	5	case	_	_
+4	the	the	DET	DT	Definite=Def|PronType=Art	5	det	_	_
+5	Earth	earth	NOUN	NN	Number=Sing	2	obl	_	_
+6	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+7	disappearing	disappear	VERB	VBG	VerbForm=Ger	2	advcl	_	_
+8	into	into	ADP	IN	_	11	case	_	_
+9	the	the	DET	DT	Definite=Def|PronType=Art	11	det	_	_
+10	darkness	darkness	NOUN	NN	Number=Sing	11	compound	_	_
+11	cast	cast	NOUN	NN	Number=Sing	7	obl	_	_
+12	by	by	ADP	IN	_	14	case	_	_
+13	the	the	DET	DT	Definite=Def|PronType=Art	14	det	_	_
+14	monoliths	monolith	NOUN	NNS	Number=Plur	7	obl	_	_
+15	and	and	CCONJ	CC	_	16	cc	_	_
+16	emerging	emerge	VERB	VBG	VerbForm=Ger	7	conj	_	_
+17	again	again	ADV	RB	_	16	advmod	_	_
+18	,	,	PUNCT	,	_	2	punct	_	SpacesAfter=\s\s
+19	having	have	AUX	VBG	VerbForm=Ger	20	aux:pass	_	_
+20	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	conj	_	_
+21	through	through	ADP	IN	_	23	case	_	_
+22	the	the	DET	DT	Definite=Def|PronType=Art	23	det	_	_
+23	structures	structure	NOUN	NNS	Number=Plur	20	obl	_	_
+24	,	,	PUNCT	,	_	20	punct	_	SpacesAfter=\s\s
+25	to	to	PART	TO	_	26	mark	_	_
+26	climb	climb	VERB	VB	VerbForm=Inf	20	advcl	_	_
+27	back	back	ADV	RB	_	28	advmod	_	_
+28	up	up	ADV	RB	_	26	advmod	_	_
+29	towards	towards	ADP	IN	_	31	case	_	_
+30	the	the	DET	DT	Definite=Def|PronType=Art	31	det	_	_
+31	sunlight	sunlight	NOUN	NN	Number=Sing	26	obl	_	_
+32	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 32
+# text = At the edge of the crevices , young men helped elderly worshippers navigate the sloping trails .
+1	At	at	ADP	IN	_	3	case	_	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	_	_
+3	edge	edge	NOUN	NN	Number=Sing	10	obl	_	_
+4	of	of	ADP	IN	_	6	case	_	_
+5	the	the	DET	DT	Definite=Def|PronType=Art	6	det	_	_
+6	crevices	crevice	NOUN	NNS	Number=Plur	3	nmod	_	_
+7	,	,	PUNCT	,	_	10	punct	_	SpacesAfter=\s\s
+8	young	young	ADJ	JJ	Degree=Pos	9	amod	_	_
+9	men	man	NOUN	NNS	Number=Plur	10	nsubj	_	_
+10	helped	help	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+11	elderly	elderly	ADJ	JJ	Degree=Pos	12	amod	_	_
+12	worshippers	worshipper	NOUN	NNS	Number=Plur	13	nsubj	_	_
+13	navigate	navigate	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	10	ccomp	_	_
+14	the	the	DET	DT	Definite=Def|PronType=Art	16	det	_	_
+15	sloping	sloping	ADJ	JJ	Degree=Pos	16	amod	_	_
+16	trails	trail	NOUN	NNS	Number=Plur	13	obj	_	_
+17	.	.	PUNCT	.	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 33
+# text = I lingered for several minutes to watch the seemingly never-ending stream of pilgrims return above ground .
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	lingered	linger	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	for	for	ADP	IN	_	5	case	_	_
+4	several	several	ADJ	JJ	Degree=Pos	5	amod	_	_
+5	minutes	minute	NOUN	NNS	Number=Plur	2	obl	_	_
+6	to	to	PART	TO	_	7	mark	_	_
+7	watch	watch	VERB	VB	VerbForm=Inf	2	advcl	_	_
+8	the	the	DET	DT	Definite=Def|PronType=Art	9	det	_	_
+9	seemingly	seemingly	ADV	RB	_	12	advmod	_	_
+10	never	never	ADV	RB	_	12	advmod	_	SpaceAfter=No
+11	-	-	PUNCT	,	_	12	punct	_	SpaceAfter=No
+12	ending	end	VERB	VBG	VerbForm=Ger	7	advcl	_	_
+13	stream	stream	NOUN	NN	Number=Sing	12	obj	_	_
+14	of	of	ADP	IN	_	15	case	_	_
+15	pilgrims	pilgrim	NOUN	NNS	Number=Plur	13	nmod	_	_
+16	return	return	VERB	VBN	Tense=Past|VerbForm=Part	15	acl	_	_
+17	above	above	ADP	IN	_	18	case	_	_
+18	ground	ground	NOUN	NN	Number=Sing	16	obl	_	_
+19	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+
+# sent_id = 34
+# text = They believed , and that was enough .
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	believed	believe	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	0	root	_	_
+3	,	,	PUNCT	,	_	7	punct	_	SpacesAfter=\s\s
+4	and	and	CCONJ	CC	_	7	cc	_	_
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	7	nsubj	_	_
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	_
+7	enough	enough	ADJ	JJ	Degree=Pos	2	conj	_	_
+8	.	.	PUNCT	.	_	2	punct	_	SpacesAfter=\s\n
+

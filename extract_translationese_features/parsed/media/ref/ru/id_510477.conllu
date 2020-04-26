@@ -1,0 +1,1972 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Жить в хороших условиях -- естественное стремление человека , и поэтому тема экологии сегодня очень популярна .
+1	Жить	жить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	хороших	хороший	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	4	amod	_	_
+4	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	1	obl	_	_
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	4	punct	_	_
+7	естественное	естественный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	стремление	стремление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+9	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	и	и	CCONJ	_	_	17	cc	_	_
+12	поэтому	поэтому	ADV	_	Degree=Pos	17	advmod	_	_
+13	тема	тема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+14	экологии	экология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	сегодня	сегодня	ADV	_	Degree=Pos	17	advmod	_	_
+16	очень	очень	ADV	_	Degree=Pos	17	obl	_	_
+17	популярна	популярный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	1	conj	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 2
+# text = Редкое рекламное объявление о продаже квартиры обходится без упоминания о прекрасных экологических условиях .
+1	Редкое	редкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+2	рекламное	рекламный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	объявление	объявление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	продаже	продажа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	3	nmod	_	_
+6	квартиры	квартира	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	обходится	обходиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	без	без	ADP	_	_	9	case	_	_
+9	упоминания	упоминание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	7	obl	_	_
+10	о	о	ADP	_	_	13	case	_	_
+11	прекрасных	прекрасный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+12	экологических	экологический	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	13	amod	_	_
+13	условиях	условие	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	9	nmod	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 3
+# text = При этом очень у многих людей , как нам кажется , достаточно смутное представление о самом этом предмете -- экологии . Разберемся Что это такое Само слово греческое , состоит из двух корней : " ойкос " -- дом и " логос " -- наука .
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+3	очень	очень	ADV	_	Degree=Pos	6	obl	_	_
+4	у	у	ADP	_	_	6	case	_	_
+5	многих	многие	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	14	nsubj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	как	как	SCONJ	_	_	10	mark	_	_
+9	нам	мы	PRON	_	Case=Dat|Number=Plur|Person=1	10	iobj	_	_
+10	кажется	казаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	parataxis	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	достаточно	достаточно	ADV	_	Degree=Pos	13	obl	_	_
+13	смутное	смутный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	представление	представление	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+15	о	о	ADP	_	_	18	case	_	_
+16	самом	сам	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+17	этом	это	DET	_	Case=Loc|Gender=Masc|Number=Sing	18	det	_	_
+18	предмете	предмет	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
+19	-	-	PUNCT	_	_	18	punct	_	SpaceAfter=No
+20	-	-	PUNCT	_	_	18	punct	_	_
+21	экологии	экология	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	18	parataxis	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	Разберемся	разбираться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	21	parataxis	_	SpacesAfter=\n
+24	Что	что	PRON	_	Case=Nom	28	nmod	_	_
+25	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	28	nsubj	_	_
+26	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	28	det	_	SpacesAfter=\n
+27	Само	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	слово	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+29	греческое	греческий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	28	appos	_	_
+30	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	состоит	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	29	conj	_	_
+32	из	из	ADP	_	_	34	case	_	_
+33	двух	два	NUM	_	Case=Gen	34	nummod	_	_
+34	корней	корень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	obl	_	_
+35	:	:	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s\s
+36	"	"	PUNCT	_	_	37	punct	_	_
+37	ойкос	ойкос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	34	parataxis	_	_
+38	"	"	PUNCT	_	_	37	punct	_	SpacesAfter=\s\s
+39	-	-	PUNCT	_	_	37	punct	_	SpaceAfter=No
+40	-	-	PUNCT	_	_	37	punct	_	_
+41	дом	дом	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	37	parataxis	_	_
+42	и	и	CCONJ	_	_	44	cc	_	SpacesAfter=\s\s
+43	"	"	PUNCT	_	_	44	punct	_	_
+44	логос	логос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	41	conj	_	_
+45	"	"	PUNCT	_	_	44	punct	_	SpacesAfter=\s\s
+46	-	-	PUNCT	_	_	44	punct	_	SpaceAfter=No
+47	-	-	PUNCT	_	_	44	punct	_	_
+48	наука	наука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	37	conj	_	_
+49	.	.	PUNCT	_	_	48	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Получается " наука о доме " . Красиво , но совершенно не объясняет сути .
+1	Получается	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	SpacesAfter=\s\s
+2	"	"	PUNCT	_	_	3	punct	_	_
+3	наука	наука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	о	о	ADP	_	_	5	case	_	_
+5	доме	дом	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	nmod	_	_
+6	"	"	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+8	Красиво	красиво	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	parataxis	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	но	но	CCONJ	_	_	13	cc	_	_
+11	совершенно	совершенно	ADV	_	Degree=Pos	12	advmod	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	объясняет	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+14	сути	суть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	obl	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 5
+# text = Обратимся к специалистам-практикам .
+1	Обратимся	обращаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	к	к	ADP	_	_	3	case	_	_
+3	специалистам	специалист	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	1	obl	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	практикам	практика	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	3	appos	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = По их мнению , экология -- это наука о комплексе всех природных и техногенных факторов , влияющих на человека .
+1	По	по	ADP	_	_	3	case	_	_
+2	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	nmod	_	_
+3	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	parataxis	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	экология	экология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	это	это	PRON	_	_	9	cop	_	_
+9	наука	наука	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+10	о	о	ADP	_	_	11	case	_	_
+11	комплексе	комплекс	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	nmod	_	_
+12	всех	весь	DET	_	Case=Gen|Number=Plur	16	det	_	_
+13	природных	природный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	техногенных	техногенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	conj	_	_
+16	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	влияющих	влиять	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	16	acl	_	_
+19	на	на	ADP	_	_	20	case	_	_
+20	человека	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	18	obl	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Обратим внимание именно на слово " комплекс " -- хорошим должно быть все . Прекрасной чистоты воздух вряд ли обрадует , если повышен уровень радиации , великолепная вода в кране не спасет от рева бульдозера за окном . Факторов , из которых складывается экология , множество .
+1	Обратим	обращать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+2	внимание	внимание	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obj	_	_
+3	именно	именно	PART	_	_	5	discourse	_	_
+4	на	на	ADP	_	_	5	case	_	_
+5	слово	слово	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	1	obl	_	SpacesAfter=\s\s
+6	"	"	PUNCT	_	_	7	punct	_	_
+7	комплекс	комплекс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	appos	_	_
+8	"	"	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	7	punct	_	_
+11	хорошим	хороший	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	12	obl	_	_
+12	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	5	parataxis	_	_
+13	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	11	cop	_	_
+14	все	все	PRON	_	Animacy=Anim|Case=Nom|Number=Plur	12	nsubj	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	Прекрасной	прекрасный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	чистоты	чистота	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	obl	_	_
+18	воздух	воздух	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+19	вряд	вряд	ADV	_	Degree=Pos	21	advmod	_	_
+20	ли	ли	PART	_	_	19	fixed	_	_
+21	обрадует	обрадовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	acl	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	если	если	SCONJ	_	_	24	mark	_	_
+24	повышен	повышать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	33	advcl	_	_
+25	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	24	nsubj:pass	_	_
+26	радиации	радиация	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	великолепная	великолепный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	29	amod	_	_
+29	вода	вода	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	33	nsubj	_	_
+30	в	в	ADP	_	_	31	case	_	_
+31	кране	кран	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	33	obl	_	_
+32	не	не	PART	_	_	33	advmod	_	_
+33	спасет	спасать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	21	parataxis	_	_
+34	от	от	ADP	_	_	35	case	_	_
+35	рева	рев	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	33	obl	_	_
+36	бульдозера	бульдозер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	35	nmod	_	_
+37	за	за	ADP	_	_	38	case	_	_
+38	окном	окно	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	35	nmod	_	_
+39	.	.	PUNCT	_	_	38	punct	_	SpacesAfter=\s\n
+40	Факторов	фактор	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	47	nsubj	_	_
+41	,	,	PUNCT	_	_	40	punct	_	SpacesAfter=\s\s
+42	из	из	ADP	_	_	43	case	_	_
+43	которых	который	PRON	_	Case=Gen	44	obl	_	_
+44	складывается	складываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	40	acl:relcl	_	_
+45	экология	экология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	44	nsubj	_	_
+46	,	,	PUNCT	_	_	45	punct	_	SpacesAfter=\s\s
+47	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	33	conj	_	_
+48	.	.	PUNCT	_	_	47	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = Самый известный -- это , разумеется , атмосферный воздух .
+1	Самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	известный	известный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	nsubj	_	_
+3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	2	punct	_	_
+5	это	это	PRON	_	_	10	cop	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	разумеется	разумеется	ADV	_	Degree=Pos	10	parataxis	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	атмосферный	атмосферный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	воздух	воздух	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = А еще учитываются состояние растительного покрова и почвы , грунта ( почва -- это тонкий слой , являющийся базой для растительности , а грунты -- глубже ) , акустический режим , радиационный фон , электромагнитное излучение , качество воды в реках и в водопроводе .
+1	А	а	CCONJ	_	_	3	cc	_	_
+2	еще	еще	ADV	_	Degree=Pos	3	advmod	_	_
+3	учитываются	учитывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+4	состояние	состояние	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj:pass	_	_
+5	растительного	растительный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	покрова	покров	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	почвы	почва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	conj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	грунта	грунт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	SpacesAfter=\s\s
+11	(	(	PUNCT	_	_	12	punct	_	_
+12	почва	почва	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	appos	_	_
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	это	это	PRON	_	_	17	cop	_	_
+16	тонкий	тонкий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	слой	слой	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	являющийся	являться	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	17	acl	_	_
+20	базой	база	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	19	obl	_	_
+21	для	для	ADP	_	_	22	case	_	_
+22	растительности	растительность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	а	а	CCONJ	_	_	25	cc	_	_
+25	грунты	грунвать	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	conj	_	_
+26	-	-	PUNCT	_	_	25	punct	_	SpaceAfter=No
+27	-	-	PUNCT	_	_	25	punct	_	_
+28	глубже	глубоко	ADV	_	Degree=Cmp	25	orphan	_	_
+29	)	)	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	,	,	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+31	акустический	акустический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	режим	режим	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj:pass	_	_
+33	,	,	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+34	радиационный	радиационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	35	amod	_	_
+35	фон	фон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	32	conj	_	_
+36	,	,	PUNCT	_	_	35	punct	_	SpacesAfter=\s\s
+37	электромагнитное	электромагнитный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	38	amod	_	_
+38	излучение	излучение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	conj	_	_
+39	,	,	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+40	качество	качество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	32	conj	_	_
+41	воды	вода	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	40	nmod	_	_
+42	в	в	ADP	_	_	43	case	_	_
+43	реках	река	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	40	nmod	_	_
+44	и	и	CCONJ	_	_	46	cc	_	_
+45	в	в	ADP	_	_	46	case	_	_
+46	водопроводе	водопровод	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	43	conj	_	_
+47	.	.	PUNCT	_	_	46	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = . . При этом некоторые из показателей состоят из множества более детальных : при исследовании воздуха , например , замеряют уровень содержания в нем диоксида азота , оксида углерода , фенола , бензопирена , свинца . . . Характеризуя экологическую ситуацию , специалисты оперируют понятием ПДК -- предельно допустимая концентрация .
+1	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+2	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+3	При	при	ADP	_	_	4	case	_	_
+4	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+5	некоторые	некоторый	DET	_	Case=Nom|Number=Plur	8	det	_	_
+6	из	из	ADP	_	_	7	case	_	_
+7	показателей	показатель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	состоят	состоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	из	из	ADP	_	_	10	case	_	_
+10	множества	множество	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+11	более	более	ADV	_	Degree=Cmp	12	obl	_	_
+12	детальных	детальный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	8	obl	_	_
+13	:	:	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	при	при	ADP	_	_	15	case	_	_
+15	исследовании	исследование	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+16	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	например	например	ADV	_	Degree=Pos	20	parataxis	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	замеряют	замерять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	parataxis	_	_
+21	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+22	содержания	содержание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	21	nmod	_	_
+23	в	в	ADP	_	_	24	case	_	_
+24	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	22	nmod	_	_
+25	диоксида	диоксид	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+26	азота	азот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	оксида	оксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	conj	_	_
+29	углерода	углерод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	_
+30	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	фенола	фенол	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	29	conj	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	бензопирена	бензопирен	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	29	conj	_	_
+34	,	,	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+35	свинца	свинец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	29	conj	_	_
+36	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\s\s
+37	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\s\s
+38	.	.	PUNCT	_	_	35	punct	_	SpacesAfter=\s\n
+39	Характеризуя	характеризовать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	44	advcl	_	_
+40	экологическую	экологический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	41	amod	_	_
+41	ситуацию	ситуация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	39	obj	_	_
+42	,	,	PUNCT	_	_	41	punct	_	SpacesAfter=\s\s
+43	специалисты	специалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	44	nsubj	_	_
+44	оперируют	оперировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+45	понятием	понятие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	44	obl	_	_
+46	ПДК	пдк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	45	nmod	_	_
+47	-	-	PUNCT	_	_	46	punct	_	SpaceAfter=No
+48	-	-	PUNCT	_	_	46	punct	_	_
+49	предельно	предельно	ADV	_	Degree=Pos	50	obl	_	_
+50	допустимая	допустимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	51	amod	_	_
+51	концентрация	концентрация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	44	obl	_	_
+52	.	.	PUNCT	_	_	51	punct	_	SpacesAfter=\s\s
+
+# sent_id = 11
+# text = Не ставя под сомнение корректность используемых цифр ( разрабатывались ПДК еще в советское время уважаемыми санитарно-гигиеническими институтами ) , зададим простой вопрос : а что будет , если ПДК превышено Вот , к примеру , уровень диоксида азота в Москве превышен в среднем в 2--25 раза , по окисям углерода -- стабильно выше единицы .
+1	Не	не	PART	_	_	2	advmod	_	_
+2	ставя	ставить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	21	advcl	_	_
+3	под	под	ADP	_	_	4	case	_	_
+4	сомнение	сомнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obl	_	_
+5	корректность	корректность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obj	_	_
+6	используемых	использовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	7	amod	_	_
+7	цифр	цифра	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	nmod	_	SpacesAfter=\s\s
+8	(	(	PUNCT	_	_	9	punct	_	_
+9	разрабатывались	разрабатывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	7	parataxis	_	_
+10	ПДК	пдк	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	9	obj	_	_
+11	еще	еще	ADV	_	Degree=Pos	14	obl	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	советское	советский	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obl	_	_
+15	уважаемыми	уважаемый	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Pass	10	acl	_	_
+16	санитарно	санитарный	ADV	_	Degree=Pos	17	obl	_	SpaceAfter=No
+17	-гигиеническими	-гигиенический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	18	amod	_	_
+18	институтами	институт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	15	obl	_	_
+19	)	)	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+21	зададим	задать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+22	простой	простой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	23	amod	_	_
+23	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	21	obj	_	_
+24	:	:	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+25	а	а	CCONJ	_	_	42	cc	_	_
+26	что	что	PRON	_	Case=Nom	42	nsubj	_	_
+27	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	42	aux:pass	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	если	если	SCONJ	_	_	42	mark	_	_
+30	ПДК	пдк	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	42	obj	_	_
+31	превышено	превышено	ADV	_	Degree=Pos	32	advmod	_	_
+32	Вот	вот	PART	_	_	42	discourse	_	_
+33	,	,	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+34	к	к	ADP	_	_	35	case	_	_
+35	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	32	parataxis	_	_
+36	,	,	PUNCT	_	_	35	punct	_	SpacesAfter=\s\s
+37	уровень	уровень	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	42	nsubj:pass	_	_
+38	диоксида	диоксид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
+39	азота	азот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	38	nmod	_	_
+40	в	в	ADP	_	_	41	case	_	_
+41	Москве	москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	38	nmod	_	_
+42	превышен	превышать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	21	conj	_	_
+43	в	в	ADP	_	_	44	case	_	_
+44	среднем	среднее	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	50	nmod	_	_
+45	в	в	ADP	_	_	50	case	_	_
+46	2	2	NUM	_	_	50	nummod	_	SpaceAfter=No
+47	-	-	PUNCT	_	_	46	punct	_	SpaceAfter=No
+48	-	-	PUNCT	_	_	46	punct	_	SpaceAfter=No
+49	25	25	NUM	_	_	46	nummod	_	_
+50	раза	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	obl	_	_
+51	,	,	PUNCT	_	_	50	punct	_	SpacesAfter=\s\s
+52	по	по	ADP	_	_	53	case	_	_
+53	окисям	окись	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Plur	42	obl	_	_
+54	углерода	углерод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_
+55	-	-	PUNCT	_	_	54	punct	_	SpaceAfter=No
+56	-	-	PUNCT	_	_	54	punct	_	_
+57	стабильно	стабильно	ADV	_	Degree=Pos	58	obl	_	_
+58	выше	высокий	ADJ	_	Degree=Cmp	42	conj	_	_
+59	единицы	единица	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	58	nsubj	_	_
+60	.	.	PUNCT	_	_	59	punct	_	SpacesAfter=\s\s
+
+# sent_id = 12
+# text = Ничего хорошего в этом , конечно , нет ; но , с другой стороны , получается , что превышение ПДК , причем постоянное , вовсе не ведет к патологическим изменениям и , тем более , смерти .
+1	Ничего	ничто	PRON	_	Case=Gen	8	nsubj	_	_
+2	хорошего	хороший	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	1	amod	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	конечно	конечно	ADV	_	Degree=Pos	8	parataxis	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	;	;	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	но	но	CCONJ	_	_	16	cc	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	с	с	ADP	_	_	14	case	_	_
+13	другой	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	parataxis	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	получается	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	8	conj	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	что	что	SCONJ	_	_	19	mark	_	_
+19	превышение	превышение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	ccomp	_	_
+20	ПДК	пдк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	причем	причем	CCONJ	_	_	27	cc	_	_
+23	постоянное	постоянный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	27	nsubj	_	_
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+25	вовсе	вовсе	ADV	_	Degree=Pos	26	advmod	_	_
+26	не	не	PART	_	_	27	advmod	_	_
+27	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	20	conj	_	_
+28	к	к	ADP	_	_	30	case	_	_
+29	патологическим	патологический	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	30	amod	_	_
+30	изменениям	изменение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	27	obl	_	_
+31	и	и	CCONJ	_	_	34	cc	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	34	obl	_	_
+34	более	более	ADV	_	Degree=Cmp	30	conj	_	_
+35	,	,	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+36	смерти	смерть	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	conj	_	_
+37	.	.	PUNCT	_	_	36	punct	_	SpacesAfter=\s\n
+
+# sent_id = 13
+# text = Где в Москве жить хорошо Даже неспециалисты знают , что жилье в западной половине Москвы дороже , чем в восточной .
+1	Где	где	ADV	_	Degree=Pos	4	advmod	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	Москве	москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+4	жить	жить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+5	хорошо	хорошо	ADV	_	Degree=Pos	7	advmod	_	SpacesAfter=\n
+6	Даже	даже	PART	_	_	5	fixed	_	_
+7	неспециалисты	неспециалист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+8	знают	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	что	что	SCONJ	_	_	16	mark	_	_
+11	жилье	жилье	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	западной	западный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	половине	половина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	nmod	_	_
+15	Москвы	москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+16	дороже	дорогой	ADV	_	Degree=Cmp	8	ccomp	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	чем	чем	SCONJ	_	_	20	mark	_	_
+19	в	в	ADP	_	_	20	case	_	_
+20	восточной	восточный	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	advcl	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 14
+# text = Объясняется это в первую очередь экологическими соображениями . Эксперты-экологи в целом с этим тезисом согласны : в наших краях преобладают западные ветры -- следовательно , весь городской смог сносится к востоку .
+1	Объясняется	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj:pass	_	_
+3	в	в	ADP	_	_	7	discourse	_	_
+4	первую	первый	ADJ	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	fixed	_	_
+5	очередь	очередь	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	fixed	_	_
+6	экологическими	экологический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	соображениями	соображение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	1	obl	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	Эксперты	эксперт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	SpaceAfter=No
+10	-экологи	-эколог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	nmod	_	_
+13	с	с	ADP	_	_	15	case	_	_
+14	этим	этот	DET	_	Case=Ins|Gender=Masc|Number=Sing	15	det	_	_
+15	тезисом	тезис	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	16	obl	_	_
+16	согласны	согласный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	1	conj	_	_
+17	:	:	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	в	в	ADP	_	_	20	case	_	_
+19	наших	наш	DET	_	Case=Loc|Number=Plur	20	det	_	_
+20	краях	край	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	21	obl	_	_
+21	преобладают	преобладать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	parataxis	_	_
+22	западные	западный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	23	amod	_	_
+23	ветры	ветер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	21	nsubj	_	_
+24	-	-	PUNCT	_	_	23	punct	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	23	punct	_	_
+26	следовательно	следовательно	ADV	_	Degree=Pos	31	parataxis	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	весь	весь	DET	_	Case=Nom|Gender=Masc|Number=Sing	30	det	_	_
+29	городской	городской	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	смог	мочь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj:pass	_	_
+31	сносится	сносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	21	parataxis	_	_
+32	к	к	ADP	_	_	33	case	_	_
+33	востоку	восток	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	31	obl	_	_
+34	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = С запада же втекает в город Москва-река -- в Серебряном Бору она еще чистая , а к Нагатино загрязнена уже так , что не замерзает при --250С .
+1	С	с	ADP	_	_	2	case	_	_
+2	запада	запад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+3	же	же	PART	_	_	2	discourse	_	_
+4	втекает	втекать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	город	город	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+7	Москва	москва	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	река	река	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	_
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	9	punct	_	_
+12	в	в	ADP	_	_	14	case	_	_
+13	Серебряном	серебряный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	Бору	Бор	PROPN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	obl	_	_
+15	она	она	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3	17	nsubj	_	_
+16	еще	еще	ADV	_	Degree=Pos	17	obl	_	_
+17	чистая	чистый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	parataxis	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	а	а	CCONJ	_	_	22	cc	_	_
+20	к	к	ADP	_	_	21	case	_	_
+21	Нагатино	Нагатино	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	obl	_	_
+22	загрязнена	загрязнять	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	17	conj	_	_
+23	уже	уже	ADV	_	Degree=Pos	24	advmod	_	_
+24	так	так	ADV	_	Degree=Pos	22	advmod	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	что	чтобы	SCONJ	_	_	28	mark	_	_
+27	не	не	PART	_	_	28	advmod	_	_
+28	замерзает	замерзать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	advcl	_	_
+29	при	при	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	nsubj	_	_
+30	-	-	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	-	-	PUNCT	_	_	29	punct	_	SpaceAfter=No
+32	250С	250с	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	parataxis	_	_
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = К тому же исторически восток и особенно юго-восток Москвы приоритетно развивались как промышленные районы , источники экологического загрязнения создавались там десятилетиями .
+1	К	к	ADP	_	_	2	case	_	_
+2	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+3	же	же	PART	_	_	2	discourse	_	_
+4	исторически	исторически	ADV	_	Degree=Pos	5	advmod	_	_
+5	восток	восток	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	2	nmod	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	особенно	особенно	ADV	_	Degree=Pos	8	obl	_	_
+8	юго-восток	юго-восток	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+9	Москвы	москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	приоритетно	приоритетно	ADV	_	Degree=Pos	11	advmod	_	_
+11	развивались	развиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	как	как	SCONJ	_	_	14	mark	_	_
+13	промышленные	промышленный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	14	amod	_	_
+14	районы	район	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	11	obl	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	источники	источник	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	14	conj	_	_
+17	экологического	экологический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	18	amod	_	_
+18	загрязнения	загрязнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	16	nmod	_	_
+19	создавались	создаваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	11	conj	_	_
+20	там	там	ADV	_	Degree=Pos	19	advmod	_	_
+21	десятилетиями	десятилетие	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	19	obl	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = Но это -- картина в общем , как та самая " средняя температура по палате " . Детали же могут быть самыми разными .
+1	Но	но	CCONJ	_	_	5	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	2	punct	_	_
+5	картина	картина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	общем	общий	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	21	parataxis	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	как	как	SCONJ	_	_	14	mark	_	_
+10	та	тот	DET	_	Case=Nom|Gender=Fem|Number=Sing	14	det	_	_
+11	самая	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	SpacesAfter=\s\s
+12	"	"	PUNCT	_	_	13	punct	_	_
+13	средняя	средний	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	температура	температура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	advcl	_	_
+15	по	по	ADP	_	_	16	case	_	_
+16	палате	палата	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	14	nmod	_	_
+17	"	"	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+19	Детали	деталь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	21	nsubj	_	_
+20	же	же	PART	_	_	19	discourse	_	_
+21	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+22	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	24	cop	_	_
+23	самыми	самый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	24	amod	_	_
+24	разными	разный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	21	obl	_	_
+25	.	.	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = Есть на юго-востоке прекрасный Кузьминский лесопарк , в непосредственной близости от которого обстановка очень хорошая .
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	на	на	ADP	_	_	4	case	_	_
+3	юго	южный	ADJ	_	Degree=Pos	4	amod	_	SpaceAfter=No
+4	-востоке	-восток	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+5	прекрасный	прекрасный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+6	Кузьминский	Кузьминский	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	лесопарк	лесопаркать	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	1	obj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	в	в	ADP	_	_	11	case	_	_
+10	непосредственной	непосредственный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	11	amod	_	_
+11	близости	близость	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	16	obl	_	_
+12	от	от	ADP	_	_	13	case	_	_
+13	которого	который	PRON	_	Case=Gen	11	nmod	_	_
+14	обстановка	обстановка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	nsubj	_	_
+15	очень	очень	ADV	_	Degree=Pos	16	obl	_	_
+16	хорошая	хороший	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	7	acl:relcl	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 19
+# text = А на северо-западе -- промзоны в районе Магистральных улиц , с действующим до сих пор цементным заводом . Экология , как мы помним , -- это не только воздух , но и , к примеру , радиационный фон , и здесь очень настораживает Курчатовский институт ( район метро " Щукинская " ) .
+1	А	а	CCONJ	_	_	3	cc	_	_
+2	на	на	ADP	_	_	3	case	_	_
+3	северо-западе	северо-запад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	0	root	_	_
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	3	punct	_	_
+6	промзоны	промзоный	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	районе	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	nmod	_	_
+9	Магистральных	магистральный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	amod	_	_
+10	улиц	улица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	с	с	ADP	_	_	18	case	_	_
+13	действующим	действовать	VERB	_	Aspect=Imp|Case=Ins|Gender=Neut|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	18	acl	_	_
+14	до	до	ADP	_	_	13	advmod	_	_
+15	сих	сей	DET	_	Case=Gen|Number=Plur	14	fixed	_	_
+16	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	14	fixed	_	_
+17	цементным	цементный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	заводом	завод	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	6	nmod	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	Экология	экология	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	appos	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	как	как	SCONJ	_	_	24	mark	_	_
+23	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	24	nsubj	_	_
+24	помним	помнить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	parataxis	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+27	-	-	PUNCT	_	_	24	punct	_	_
+28	это	это	PRON	_	_	31	cop	_	_
+29	не	не	PART	_	_	30	advmod	_	_
+30	только	только	PART	_	_	31	advmod	_	_
+31	воздух	воздух	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	parataxis	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	но	но	CCONJ	_	_	40	cc	_	_
+34	и	и	PART	_	_	40	discourse	_	_
+35	,	,	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+36	к	к	ADP	_	_	37	case	_	_
+37	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	40	parataxis	_	_
+38	,	,	PUNCT	_	_	37	punct	_	SpacesAfter=\s\s
+39	радиационный	радиационный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	40	amod	_	_
+40	фон	фон	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	conj	_	_
+41	,	,	PUNCT	_	_	40	punct	_	SpacesAfter=\s\s
+42	и	и	CCONJ	_	_	45	cc	_	_
+43	здесь	здесь	ADV	_	Degree=Pos	45	advmod	_	_
+44	очень	очень	ADV	_	Degree=Pos	45	advmod	_	_
+45	настораживает	настораживать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	conj	_	_
+46	Курчатовский	курчатовский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	47	amod	_	_
+47	институт	институт	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	45	nsubj	_	SpacesAfter=\s\s
+48	(	(	PUNCT	_	_	49	punct	_	_
+49	район	район	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	47	parataxis	_	_
+50	метро	метро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	49	nmod	_	SpacesAfter=\s\s
+51	"	"	PUNCT	_	_	52	punct	_	_
+52	Щукинская	Щукинская	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	50	appos	_	_
+53	"	"	PUNCT	_	_	52	punct	_	SpacesAfter=\s\s
+54	)	)	PUNCT	_	_	52	punct	_	SpacesAfter=\s\s
+55	.	.	PUNCT	_	_	52	punct	_	SpacesAfter=\s\n
+
+# sent_id = 20
+# text = А вот другой постулат риэлторов -- о том , что самое дорогое жилье в городе находится в Центре , -- с точки зрения экологии совершенно необъясним .
+1	А	а	CCONJ	_	_	9	cc	_	_
+2	вот	вот	PART	_	_	3	discourse	_	_
+3	другой	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	постулат	постулат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+5	риэлторов	риэлтор	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	что	что	SCONJ	_	_	17	mark	_	_
+12	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	дорогое	дорогой	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	14	amod	_	_
+14	жилье	жилье	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	городе	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	14	nmod	_	_
+17	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	9	acl	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	Центре	центр	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	17	obl	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	-	-	PUNCT	_	_	19	punct	_	SpaceAfter=No
+22	-	-	PUNCT	_	_	19	punct	_	_
+23	с	с	ADP	_	_	24	case	_	_
+24	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	28	obl	_	_
+25	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	24	compound	_	_
+26	экологии	экология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	_
+27	совершенно	совершенно	ADV	_	Degree=Pos	28	obl	_	_
+28	необъясним	необъясний	PRON	_	Case=Ins|Gender=Neut|Number=Sing|Person=3	19	parataxis	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 21
+# text = Понятно , что соображения элитности и престижности основываются на целом ряде других факторов , из которых экология -- не самое главное , но стремиться постоянно жить в ЦАО сегодня может только человек , совершенно не заботящийся о своем здоровье .
+1	Понятно	понятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	что	что	SCONJ	_	_	8	mark	_	_
+4	соображения	соображение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	8	nsubj:pass	_	_
+5	элитности	элитность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	престижности	престижность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	conj	_	_
+8	основываются	основываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	1	ccomp	_	_
+9	на	на	ADP	_	_	11	case	_	_
+10	целом	целый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	ряде	ряд	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+12	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	13	amod	_	_
+13	факторов	фактор	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	из	из	ADP	_	_	16	case	_	_
+16	которых	который	PRON	_	Case=Gen	22	nmod	_	_
+17	экология	экология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	17	punct	_	_
+20	не	не	PART	_	_	21	advmod	_	_
+21	самое	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	22	amod	_	_
+22	главное	главный	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	13	acl:relcl	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	но	но	CCONJ	_	_	31	cc	_	_
+25	стремиться	стремиться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	31	xcomp	_	_
+26	постоянно	постоянно	ADV	_	Degree=Pos	27	advmod	_	_
+27	жить	жить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	xcomp	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	ЦАО	Цао	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+30	сегодня	сегодня	ADV	_	Degree=Pos	31	advmod	_	_
+31	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+32	только	только	PART	_	_	33	advmod	_	_
+33	человек	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+34	,	,	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+35	совершенно	совершенно	ADV	_	Degree=Pos	36	advmod	_	_
+36	не	не	PART	_	_	37	advmod	_	_
+37	заботящийся	заботящийся	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	33	acl	_	_
+38	о	о	ADP	_	_	40	case	_	_
+39	своем	свой	DET	_	Case=Loc|Gender=Neut|Number=Sing	40	det	_	_
+40	здоровье	здоровье	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	37	obl	_	_
+41	.	.	PUNCT	_	_	40	punct	_	SpacesAfter=\s\s
+
+# sent_id = 22
+# text = На Тверской , Садовом кольце , других основных магистралях ПДК по оксидам азота превышается в 5--7 раз , по оксидам углерода -- тоже в разы .
+1	На	на	ADP	_	_	5	case	_	_
+2	Тверской	тверской	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	Садовом	садовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	2	conj	_	_
+5	кольце	кольцо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+8	основных	основной	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	9	amod	_	_
+9	магистралях	магистраль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	conj	_	_
+10	ПДК	пдк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	оксидам	оксидавать	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	10	nmod	_	_
+13	азота	азот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+14	превышается	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+15	в	в	ADP	_	_	20	case	_	_
+16	5	5	NUM	_	_	20	nummod	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	7	7	NUM	_	_	16	nummod	_	_
+20	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	obl	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	по	по	ADP	_	_	23	case	_	_
+23	оксидам	оксидавать	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	20	conj	_	_
+24	углерода	углерод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	-	-	PUNCT	_	_	24	punct	_	_
+27	тоже	тоже	PART	_	_	29	discourse	_	_
+28	в	в	ADP	_	_	29	case	_	_
+29	разы	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	14	obl	_	_
+30	.	.	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = В воздухе и почве отыщутся , вероятно , все элементы таблицы Менделеева . Совершенно убийственная ситуация по шуму : нормальным признан уровень в 55 дБ , на этих трассах -- далеко за 70 . Кстати , принято считать , что железная дорога под окном -- это очень плохо , потому что шумно .
+1	В	в	ADP	_	_	2	case	_	_
+2	воздухе	воздух	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	obl	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	почве	почва	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	conj	_	_
+5	отыщутся	отыскаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	вероятно	вероятно	ADV	_	Degree=Pos	16	parataxis	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	все	весь	DET	_	Case=Nom|Number=Plur	10	det	_	_
+10	элементы	элемент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	16	nsubj	_	_
+11	таблицы	таблица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	Менделеева	менделеев	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	Совершенно	совершенно	ADV	_	Degree=Pos	15	obl	_	_
+15	убийственная	убийственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+16	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+17	по	по	ADP	_	_	18	case	_	_
+18	шуму	шум	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	16	nmod	_	_
+19	:	:	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	нормальным	нормальный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	21	obl	_	_
+21	признан	признавать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	16	parataxis	_	_
+22	уровень	уровень	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj:pass	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	55	55	NUM	_	_	25	nummod	_	_
+25	дБ	дб	NOUN	_	_	22	nmod	_	_
+26	,	,	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+27	на	на	ADP	_	_	29	case	_	_
+28	этих	этот	DET	_	Case=Loc|Number=Plur	29	det	_	_
+29	трассах	трасса	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	22	nmod	_	_
+30	-	-	PUNCT	_	_	29	punct	_	SpaceAfter=No
+31	-	-	PUNCT	_	_	29	punct	_	_
+32	далеко	далеко	ADV	_	Degree=Pos	34	advmod	_	_
+33	за	за	ADP	_	_	34	case	_	_
+34	70	70	NUM	_	_	21	nummod	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+36	Кстати	кстати	ADV	_	Degree=Pos	38	parataxis	_	_
+37	,	,	PUNCT	_	_	36	punct	_	SpacesAfter=\s\s
+38	принято	принятый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	21	conj	_	_
+39	считать	считать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	38	csubj	_	_
+40	,	,	PUNCT	_	_	39	punct	_	SpacesAfter=\s\s
+41	что	что	SCONJ	_	_	50	mark	_	_
+42	железная	железный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	43	amod	_	_
+43	дорога	дорога	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	50	nsubj	_	_
+44	под	под	ADP	_	_	45	case	_	_
+45	окном	окно	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	43	nmod	_	_
+46	-	-	PUNCT	_	_	45	punct	_	SpaceAfter=No
+47	-	-	PUNCT	_	_	45	punct	_	_
+48	это	это	PRON	_	_	50	cop	_	_
+49	очень	очень	ADV	_	Degree=Pos	50	obl	_	_
+50	плохо	плохой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	39	ccomp	_	_
+51	,	,	PUNCT	_	_	50	punct	_	SpacesAfter=\s\s
+52	потому	потому	ADV	_	Degree=Pos	54	mark	_	_
+53	что	что	SCONJ	_	_	52	fixed	_	_
+54	шумно	шумный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	50	conj	_	_
+55	.	.	PUNCT	_	_	54	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = Но замеры , проведенные специалистами НИиПИ экологии города , показали , что даже в ночные часы 90 % акустического загрязнения создают автомобили .
+1	Но	но	CCONJ	_	_	10	cc	_	_
+2	замеры	замер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	10	nsubj	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	проведенные	проводить	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Pass	6	acl	_	_
+5	специалистами	специалист	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+6	НИиПИ	Ниипи	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	appos	_	_
+7	экологии	экология	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	6	conj	_	_
+8	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	показали	показывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	что	что	SCONJ	_	_	21	mark	_	_
+13	даже	даже	PART	_	_	16	discourse	_	_
+14	в	в	ADP	_	_	16	case	_	_
+15	ночные	ночной	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	16	amod	_	_
+16	часы	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obl	_	_
+17	90	90	NUM	_	_	18	nummod	_	_
+18	%	%	SYM	_	_	21	nsubj	_	SpacesAfter=\s\s
+19	акустического	акустический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+20	загрязнения	загрязнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	18	nmod	_	_
+21	создают	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	_
+22	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	21	obj	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 25
+# text = Ночью их немного , но как здорово промчаться по Садовому кольцу со скоростью 120 км / ч !
+1	Ночью	ночь	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	3	obl	_	_
+2	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	3	obl	_	_
+3	немного	немного	ADV	_	Degree=Pos	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	но	но	CCONJ	_	_	8	cc	_	_
+6	как	как	SCONJ	_	_	5	mark	_	_
+7	здорово	здорово	ADV	_	Degree=Pos	8	advmod	_	_
+8	промчаться	промчаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	conj	_	_
+9	по	по	ADP	_	_	11	case	_	_
+10	Садовому	садовый	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	кольцу	кольцо	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	8	obl	_	_
+12	со	с	ADP	_	_	13	case	_	_
+13	скоростью	скорость	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	nmod	_	_
+14	120	120	NUM	_	_	15	nummod	_	_
+15	км	километр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nmod	_	_
+16	/	/	PUNCT	_	_	15	punct	_	_
+17	ч	час	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	nmod	_	_
+18	!	!	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 26
+# text = Перед таким искушением не могут устоять не только рокеры , но и вполне обычные водители .
+1	Перед	перед	ADP	_	_	3	case	_	_
+2	таким	такой	DET	_	Case=Ins|Gender=Neut|Number=Sing	3	det	_	_
+3	искушением	искушение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	5	obl	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	устоять	устаивать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	не	не	PART	_	_	8	advmod	_	_
+8	только	только	PART	_	_	9	advmod	_	_
+9	рокеры	рокера	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	но	но	CCONJ	_	_	15	cc	_	_
+12	и	и	PART	_	_	11	discourse	_	_
+13	вполне	вполне	ADV	_	Degree=Pos	14	obl	_	_
+14	обычные	обычный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	15	amod	_	_
+15	водители	водитель	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	9	conj	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 27
+# text = В целом на Садовом кольце и некоторых других крупных магистралях Москвы можно найти места , где экологическая ситуация хуже , чем в окрестностях знаменитого нефтеперегонного завода в Капотне , который уже стал пугалом , эдаким отрицательным эталоном .
+1	В	в	ADP	_	_	2	case	_	_
+2	целом	целое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+3	на	на	ADP	_	_	5	case	_	_
+4	Садовом	садовый	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	5	amod	_	_
+5	кольце	кольцо	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	12	obl	_	_
+6	и	и	CCONJ	_	_	10	cc	_	_
+7	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	10	det	_	_
+8	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+9	крупных	крупный	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	10	amod	_	_
+10	магистралях	магистраль	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	5	conj	_	_
+11	Москвы	москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+12	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+13	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	csubj	_	_
+14	места	место	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	13	obj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	где	где	ADV	_	Degree=Pos	19	advmod	_	_
+17	экологическая	экологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	18	amod	_	_
+18	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	19	nsubj	_	_
+19	хуже	плохо	ADJ	_	Degree=Cmp	14	acl:relcl	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	чем	чем	SCONJ	_	_	23	mark	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	окрестностях	окрестность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	19	obl	_	_
+24	знаменитого	знаменитый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+25	нефтеперегонного	нефтепереготь	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	завода	завод	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+27	в	в	ADP	_	_	28	case	_	_
+28	Капотне	Капотн	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	26	nmod	_	_
+29	,	,	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	который	который	PRON	_	Case=Nom	32	nsubj	_	_
+31	уже	уже	ADV	_	Degree=Pos	32	advmod	_	_
+32	стал	становиться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	26	acl:relcl	_	_
+33	пугалом	пугало	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	32	obl	_	_
+34	,	,	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+35	эдаким	этакий	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+36	отрицательным	отрицательный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	37	amod	_	_
+37	эталоном	эталон	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	33	conj	_	_
+38	.	.	PUNCT	_	_	37	punct	_	SpacesAfter=\s\n
+
+# sent_id = 28
+# text = Что касается действительно благополучных районов , то , как считает Алексей Курбатов , генеральный директор НИиПИ экологии города , самый лучший в Москве , на порядок опережающий все остальные , -- это Куркино .
+1	Что	что	PRON	_	Case=Nom	2	nsubj	_	_
+2	касается	касаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	34	advcl	_	_
+3	действительно	действительно	ADV	_	Degree=Pos	4	obl	_	_
+4	благополучных	благополучный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	районов	район	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	2	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	то	то	SCONJ	_	_	34	mark	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	как	как	SCONJ	_	_	10	mark	_	_
+10	считает	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	34	parataxis	_	_
+11	Алексей	алексей	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+12	Курбатов	Курбатов	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	flat:name	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	генеральный	генеральный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	директор	директор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	appos	_	_
+16	НИиПИ	Ниипи	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+17	экологии	экология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	лучший	лучший	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	34	amod	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	Москве	москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	34	parataxis	_	_
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+25	на	на	ADP	_	_	26	case	_	_
+26	порядок	порядок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	27	obl	_	_
+27	опережающий	опережать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	34	acl	_	_
+28	все	весь	PRON	_	Animacy=Anim|Case=Nom|Number=Plur	34	nsubj	_	_
+29	остальные	остальной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
+30	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	-	-	PUNCT	_	_	29	punct	_	SpaceAfter=No
+32	-	-	PUNCT	_	_	29	punct	_	_
+33	это	это	PRON	_	_	34	cop	_	_
+34	Куркино	Куркино	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+
+# sent_id = 29
+# text = Он не только находится на западе , но и расположен за МКАД , вдобавок в нем используются щадящие природу технологии застройки .
+1	Он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+2	не	не	PART	_	_	3	advmod	_	_
+3	только	только	PART	_	_	4	advmod	_	_
+4	находится	находиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	на	на	ADP	_	_	6	case	_	_
+6	западе	запад	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	но	но	CCONJ	_	_	10	cc	_	_
+9	и	и	PART	_	_	8	discourse	_	_
+10	расположен	расположенный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	4	conj	_	_
+11	за	за	ADP	_	_	12	case	_	_
+12	МКАД	мкад	PROPN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	obl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	вдобавок	вдобавок	ADV	_	Degree=Pos	17	advmod	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	нем	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	17	obl	_	_
+17	используются	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	4	conj	_	_
+18	щадящие	щадить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	17	csubj:pass	_	_
+19	природу	природа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	18	obj	_	_
+20	технологии	технология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	застройки	застройка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 30
+# text = В этом уникальность Куркино , и именно поэтому он лучше других конкурентов , например , Новопеределкино .
+1	В	в	ADP	_	_	2	case	_	_
+2	этом	этот	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	_
+3	уникальность	уникальность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	2	nsubj	_	_
+4	Куркино	Куркино	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	appos	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	и	и	CCONJ	_	_	10	cc	_	_
+7	именно	именно	PART	_	_	8	discourse	_	_
+8	поэтому	поэтому	ADV	_	Degree=Pos	10	advmod	_	_
+9	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
+10	лучше	хороший	ADJ	_	Degree=Cmp	4	conj	_	_
+11	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	конкурентов	конкурент	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	obl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	например	например	ADV	_	Degree=Pos	16	parataxis	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	Новопеределкино	Новопеределкино	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	12	parataxis	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = Там все тоже неплохо , но есть особенности .
+1	Там	там	ADV	_	Degree=Pos	4	advmod	_	_
+2	все	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	тоже	тоже	PART	_	_	4	discourse	_	_
+4	неплохо	неплохой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	но	но	CCONJ	_	_	7	cc	_	_
+7	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+8	особенности	особенность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	nsubj	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 32
+# text = Скажем , тут Генпланом предусмотрено развитие промзоны .
+1	Скажем	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	тут	тут	ADV	_	Degree=Pos	5	advmod	_	_
+4	Генпланом	Генплан	PROPN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Sing	5	obl	_	_
+5	предусмотрено	предусматривать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+6	развитие	развитие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj:pass	_	_
+7	промзоны	промзон	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 33
+# text = Неплохо себя зарекомендовал и юго-запад столицы .
+1	Неплохо	неплохо	ADV	_	Degree=Pos	3	advmod	_	_
+2	себя	себя	PRON	_	Case=Acc	3	obj	_	_
+3	зарекомендовал	зарекомендовать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	и	и	PART	_	_	5	discourse	_	_
+5	юго-запад	юго-запад	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	столицы	столица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	nmod	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 34
+# text = Ленинский проспект и проспект Вернадского изначально проектировались как районы проживания номенклатурных работников и научной элиты , в результате чего здесь была реализована идея города-сада с сохранением обширных участков зелени как вдоль магистралей , так и внутри кварталов . Сегодня экологию московского запада определяют крупные лесные массивы , сохранившиеся как в черте города , так и за пределами кольцевой дороги : лесопарковая зона Воробьевых гор , Ботанический сад МГУ , Нескучный сад , Воронцовский парк , Тропаревский и Битцевский лесопарки .
+1	Ленинский	ленинский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	2	amod	_	_
+2	проспект	проспект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	проспект	проспект	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+5	Вернадского	вернадский	PROPN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	изначально	изначально	ADV	_	Degree=Pos	7	advmod	_	_
+7	проектировались	проектироваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
+8	как	как	SCONJ	_	_	9	mark	_	_
+9	районы	район	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	7	advcl	_	_
+10	проживания	проживание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	nmod	_	_
+11	номенклатурных	номенклатурный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	работников	работник	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	научной	научный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	элиты	элита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	conj	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	в	в	ADP	_	_	18	case	_	_
+18	результате	результат	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	22	obl	_	_
+19	чего	что	PRON	_	Case=Gen	22	obl	_	_
+20	здесь	здесь	ADV	_	Degree=Pos	22	advmod	_	_
+21	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	22	aux:pass	_	_
+22	реализована	реализовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	7	parataxis	_	_
+23	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+24	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+25	-	-	PUNCT	_	_	24	punct	_	SpaceAfter=No
+26	сада	сад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	22	nsubj	_	_
+27	с	с	ADP	_	_	28	case	_	_
+28	сохранением	сохранение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	26	nmod	_	_
+29	обширных	обширный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	30	amod	_	_
+30	участков	участок	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	28	nmod	_	_
+31	зелени	зелень	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	30	nmod	_	_
+32	как	как	SCONJ	_	_	34	mark	_	_
+33	вдоль	вдоль	ADP	_	_	34	case	_	_
+34	магистралей	магистраль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_
+35	,	,	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+36	так	так	ADV	_	Degree=Pos	38	advmod	_	_
+37	и	и	PART	_	_	36	fixed	_	_
+38	внутри	внутри	ADV	_	Degree=Pos	39	advmod	_	_
+39	кварталов	квартал	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	34	conj	_	_
+40	.	.	PUNCT	_	_	39	punct	_	SpacesAfter=\s\s
+41	Сегодня	сегодня	ADV	_	Degree=Pos	45	advmod	_	_
+42	экологию	экология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	45	obj	_	_
+43	московского	московский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	44	amod	_	_
+44	запада	запад	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	42	nmod	_	_
+45	определяют	определять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	39	acl:relcl	_	_
+46	крупные	крупный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	48	amod	_	_
+47	лесные	лесной	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	48	amod	_	_
+48	массивы	массив	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	45	nsubj	_	_
+49	,	,	PUNCT	_	_	48	punct	_	SpacesAfter=\s\s
+50	сохранившиеся	сохраняться	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Mid	48	acl	_	_
+51	как	как	SCONJ	_	_	53	mark	_	_
+52	в	в	ADP	_	_	53	case	_	_
+53	черте	черта	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	50	advcl	_	_
+54	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	53	nmod	_	_
+55	,	,	PUNCT	_	_	54	punct	_	SpacesAfter=\s\s
+56	так	так	ADV	_	Degree=Pos	50	advmod	_	_
+57	и	и	PART	_	_	59	discourse	_	_
+58	за	за	ADP	_	_	59	case	_	_
+59	пределами	предел	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	56	obl	_	_
+60	кольцевой	кольцевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	61	amod	_	_
+61	дороги	дорога	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	59	nmod	_	_
+62	:	:	PUNCT	_	_	61	punct	_	SpacesAfter=\s\s
+63	лесопарковая	лесопарковый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	64	amod	_	_
+64	зона	зона	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	61	parataxis	_	_
+65	Воробьевых	воробьев	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	66	amod	_	_
+66	гор	гора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	64	nmod	_	_
+67	,	,	PUNCT	_	_	66	punct	_	SpacesAfter=\s\s
+68	Ботанический	ботанический	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	69	amod	_	_
+69	сад	сад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	64	conj	_	_
+70	МГУ	мгу	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	69	nmod	_	_
+71	,	,	PUNCT	_	_	70	punct	_	SpacesAfter=\s\s
+72	Нескучный	Нескучный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	73	amod	_	_
+73	сад	сад	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	64	conj	_	_
+74	,	,	PUNCT	_	_	73	punct	_	SpacesAfter=\s\s
+75	Воронцовский	воронцовский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	76	amod	_	_
+76	парк	парк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	64	conj	_	_
+77	,	,	PUNCT	_	_	76	punct	_	SpacesAfter=\s\s
+78	Тропаревский	Тропаревский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	64	conj	_	_
+79	и	и	CCONJ	_	_	81	cc	_	_
+80	Битцевский	Битцевский	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	81	amod	_	_
+81	лесопарки	лесопарк	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	64	conj	_	_
+82	.	.	PUNCT	_	_	81	punct	_	SpacesAfter=\s\s
+
+# sent_id = 35
+# text = Последние являются историческими и природными памятниками .
+1	Последние	последний	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	являются	являться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	историческими	исторический	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	6	amod	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	природными	природный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	3	conj	_	_
+6	памятниками	памятник	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	2	obl	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 36
+# text = В Тропаревском лесопарке насчитывается более ста пятидесяти видов флоры и более семидесяти видов фауны , в том числе кроты и белки , которых не встретишь в других районах .
+1	В	в	ADP	_	_	3	case	_	_
+2	Тропаревском	Тропаревский	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	лесопарке	лесопарк	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	4	obl	_	_
+4	насчитывается	насчитываться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	более	более	ADV	_	Degree=Cmp	4	nsubj	_	_
+6	ста	сто	NUM	_	Case=Gen	8	nummod	_	_
+7	пятидесяти	пятьдесят	NUM	_	Case=Gen	8	nummod	_	_
+8	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	obl	_	_
+9	флоры	флора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	nmod	_	_
+10	и	и	CCONJ	_	_	13	cc	_	_
+11	более	более	ADV	_	Degree=Cmp	13	nummod:gov	_	_
+12	семидесяти	семьдесят	NUM	_	Case=Gen	13	nummod	_	_
+13	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+14	фауны	фауна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	в	в	ADP	_	_	18	case	_	_
+17	том	тот	DET	_	Case=Loc|Gender=Neut|Number=Sing	18	det	_	_
+18	числе	число	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	19	nmod	_	_
+19	кроты	крот	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	8	conj	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	белки	белок	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	conj	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	которых	который	PRON	_	Case=Gen	25	obl	_	_
+24	не	не	PART	_	_	25	advmod	_	_
+25	встретишь	встречать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=2|Tense=Fut|VerbForm=Fin|Voice=Act	21	acl:relcl	_	_
+26	в	в	ADP	_	_	28	case	_	_
+27	других	другой	ADJ	_	Case=Loc|Degree=Pos|Number=Plur	28	amod	_	_
+28	районах	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	25	obl	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\n
+
+# sent_id = 37
+# text = Москва и другие города Как выглядит Москва и экологическая ситуация в ней на фоне других городов мира Очень пристойно , если проводить сравнение корректно , не забывая , что это город с многомиллионным населением и столица крупной мировой державы . Т . е . где-нибудь в Хельсинки или Дубаи ситуация получше , но там другие масштабы .
+1	Москва	москва	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	и	и	CCONJ	_	_	4	cc	_	_
+3	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	города	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	1	conj	_	SpacesAfter=\n
+5	Как	как	ADV	_	Degree=Pos	6	advmod	_	_
+6	выглядит	выглядеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	Москва	москва	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	и	и	CCONJ	_	_	10	cc	_	_
+9	экологическая	экологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	7	conj	_	_
+11	в	в	ADP	_	_	12	case	_	_
+12	ней	она	PRON	_	Case=Loc|Gender=Fem|Number=Sing|Person=3	10	nmod	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	фоне	фон	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+15	других	другой	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	городов	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	14	nmod	_	_
+17	мира	мир	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	_
+18	Очень	очень	ADV	_	Degree=Pos	19	advmod	_	_
+19	пристойно	пристойный	ADV	_	Degree=Pos	6	advmod	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	если	если	SCONJ	_	_	22	mark	_	_
+22	проводить	проводить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	advcl	_	_
+23	сравнение	сравнение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	22	obj	_	_
+24	корректно	корректно	ADV	_	Degree=Pos	23	advmod	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	не	не	PART	_	_	27	advmod	_	_
+27	забывая	забывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	24	advcl	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	что	что	SCONJ	_	_	31	mark	_	_
+30	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	31	nsubj	_	_
+31	город	город	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	ccomp	_	_
+32	с	с	ADP	_	_	34	case	_	_
+33	многомиллионным	многомиллионный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	34	amod	_	_
+34	населением	население	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	31	nmod	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	столица	столица	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	34	conj	_	_
+37	крупной	крупный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+38	мировой	мировой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	державы	держава	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+40	.	.	PUNCT	_	_	39	punct	_	SpacesAfter=\s\s
+41	Т	так	PROPN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	39	appos	_	_
+42	.	.	PUNCT	_	_	41	punct	_	_
+43	е	быть	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	41	amod	_	_
+44	.	.	PUNCT	_	_	43	punct	_	SpacesAfter=\s\s
+45	где-нибудь	где-нибудь	ADV	_	Degree=Pos	47	obl	_	_
+46	в	в	ADP	_	_	47	case	_	_
+47	Хельсинки	хельсинки	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	51	obl	_	_
+48	или	или	CCONJ	_	_	49	cc	_	_
+49	Дубаи	Дубаи	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	47	conj	_	_
+50	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	51	nsubj	_	_
+51	получше	хороший	ADV	_	Degree=Cmp	41	parataxis	_	_
+52	,	,	PUNCT	_	_	51	punct	_	SpacesAfter=\s\s
+53	но	но	CCONJ	_	_	54	cc	_	_
+54	там	там	ADV	_	Degree=Pos	51	conj	_	_
+55	другие	другой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	56	amod	_	_
+56	масштабы	масштаб	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	51	conj	_	_
+57	.	.	PUNCT	_	_	56	punct	_	SpacesAfter=\s\n
+
+# sent_id = 38
+# text = А вот , к примеру , в Токио в середине 70-х гг . прошлого века экологическая ситуация была совершенно ужасающая .
+1	А	а	CCONJ	_	_	20	cc	_	_
+2	вот	вот	PART	_	_	20	discourse	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	к	к	ADP	_	_	5	case	_	_
+5	примеру	пример	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	20	parataxis	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	в	в	ADP	_	_	8	case	_	_
+8	Токио	токио	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	середине	середина	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	obl	_	_
+11	70-х	70-й	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	12	amod	_	_
+12	гг	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	10	nmod	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	века	век	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
+16	экологическая	экологический	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	17	amod	_	_
+17	ситуация	ситуация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	20	nsubj	_	_
+18	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	20	cop	_	_
+19	совершенно	совершенно	ADV	_	Degree=Pos	20	advmod	_	_
+20	ужасающая	ужасающий	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	0	root	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 39
+# text = Полицейские выходили на работу в противогазах , на улицах стояли специальные автоматы -- заплатил монетку и тебе выдается глоток свежего воздуха .
+1	Полицейские	полицейский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	2	nsubj	_	_
+2	выходили	выходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	на	на	ADP	_	_	4	case	_	_
+4	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	obl	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	противогазах	противогаз	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	2	obl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	на	на	ADP	_	_	9	case	_	_
+9	улицах	улица	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+10	стояли	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+11	специальные	специальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	12	amod	_	_
+12	автоматы	автомат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	заплатил	платить	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
+16	монетку	монетка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	15	obj	_	_
+17	и	и	CCONJ	_	_	19	cc	_	_
+18	тебе	ты	PRON	_	Case=Dat|Number=Sing|Person=2	19	iobj	_	_
+19	выдается	выдавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	2	conj	_	_
+20	глоток	глоток	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	19	nsubj:pass	_	_
+21	свежего	свежий	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	воздуха	воздух	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	20	nmod	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 40
+# text = Японцы эту проблему решили , но потребовались годы и огромные капиталовложения . Рассматривая положение в Москве , нужно не забывать , что климатические условия у нас самые неблагоприятные .
+1	Японцы	японец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+2	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	3	det	_	_
+3	проблему	проблема	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	4	obj	_	_
+4	решили	решать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	но	но	CCONJ	_	_	7	cc	_	_
+7	потребовались	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+8	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	огромные	огромный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	капиталовложения	капиталовложение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	8	conj	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
+13	Рассматривая	рассматривать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	18	advcl	_	_
+14	положение	положение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	Москве	москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	conj	_	_
+19	не	не	PART	_	_	20	advmod	_	_
+20	забывать	забывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	csubj	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	что	что	SCONJ	_	_	28	mark	_	_
+23	климатические	климатический	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	24	amod	_	_
+24	условия	условие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	28	nsubj	_	_
+25	у	у	ADP	_	_	26	case	_	_
+26	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	24	nmod	_	_
+27	самые	самый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	28	amod	_	_
+28	неблагоприятные	неблагоприятный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	ccomp	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 41
+# text = Долгая и снежная зима -- это не только неприятно , но и неэкологично .
+1	Долгая	долгий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+2	и	и	CCONJ	_	_	3	cc	_	_
+3	снежная	снежный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	1	conj	_	_
+4	зима	зима	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	4	punct	_	_
+7	это	это	PRON	_	_	10	cop	_	_
+8	не	не	PART	_	_	9	advmod	_	_
+9	только	только	PART	_	_	10	advmod	_	_
+10	неприятно	неприятный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	но	но	CCONJ	_	_	14	cc	_	_
+13	и	и	PART	_	_	12	discourse	_	_
+14	неэкологично	неэкологичный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	10	conj	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 42
+# text = Во-первых , деревья , за сохранение которых идет постоянная борьба , у нас зеленые лишь 4--5 месяцев в году .
+1	Во-первых	во-первых	ADV	_	Degree=Pos	13	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	деревья	дерево	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	13	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	за	за	ADP	_	_	6	case	_	_
+6	сохранение	сохранение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+7	которых	который	PRON	_	Case=Gen	6	nmod	_	_
+8	идет	идти	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+9	постоянная	постоянный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	борьба	борьба	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	у	у	ADP	_	_	13	case	_	_
+13	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	0	root	_	_
+14	зеленые	зеленый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	20	amod	_	_
+15	лишь	лишь	PART	_	_	16	discourse	_	_
+16	4	4	NUM	_	_	20	nummod	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	5	5	NUM	_	_	16	nummod	_	_
+20	месяцев	месяц	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	nsubj	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	nmod	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 43
+# text = Все остальное время они " для мебели " , кислород не выделяют -- хотя , конечно , в лесу или парке в любое время года приятнее , чем на шумной улице .
+1	Все	весь	DET	_	Case=Acc|Gender=Neut|Number=Sing	3	det	_	_
+2	остальное	остальной	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	3	amod	_	_
+3	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+4	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	12	nsubj	_	SpacesAfter=\s\s
+5	"	"	PUNCT	_	_	6	punct	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	мебели	мебель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	12	obl	_	_
+8	"	"	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+10	кислород	кислород	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	не	не	PART	_	_	12	advmod	_	_
+12	выделяют	выделять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	хотя	хотя	SCONJ	_	_	27	mark	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	конечно	конечно	ADV	_	Degree=Pos	27	parataxis	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	в	в	ADP	_	_	20	case	_	_
+20	лесу	лес	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	27	obl	_	_
+21	или	или	CCONJ	_	_	22	cc	_	_
+22	парке	парк	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	conj	_	_
+23	в	в	ADP	_	_	25	case	_	_
+24	любое	любой	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	25	amod	_	_
+25	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	27	obl	_	_
+26	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	приятнее	приятный	ADV	_	Degree=Cmp	12	advcl	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	чем	чем	SCONJ	_	_	32	mark	_	_
+30	на	на	ADP	_	_	32	case	_	_
+31	шумной	шумный	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	32	amod	_	_
+32	улице	улица	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	27	obl	_	_
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+
+# sent_id = 44
+# text = Во-вторых , у нас морозы , каких нет нигде в мире .
+1	Во-вторых	во-вторых	ADV	_	Degree=Pos	8	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	у	у	ADP	_	_	4	case	_	_
+4	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	8	obl	_	_
+5	морозы	мороз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	каких	какой	PRON	_	_	11	nmod	_	_
+8	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	нигде	нигде	ADV	_	Degree=Pos	11	obl	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 45
+# text = В США и Европе температура --200С -- это национальное бедствие , вся жизнь застывает .
+1	В	в	ADP	_	_	2	case	_	_
+2	США	сша	PROPN	_	Animacy=Inan|Case=Loc|Number=Plur	13	nmod	_	_
+3	и	и	CCONJ	_	_	4	cc	_	_
+4	Европе	европа	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	2	conj	_	_
+5	температура	температура	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	13	nsubj	_	_
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+8	200С	200с	PROPN	_	_	5	nmod	_	_
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	_
+11	это	это	PRON	_	_	13	cop	_	_
+12	национальное	национальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	13	amod	_	_
+13	бедствие	бедствие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	вся	весь	DET	_	Case=Nom|Gender=Fem|Number=Sing	16	det	_	_
+16	жизнь	жизнь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	_
+17	застывает	застывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 46
+# text = В России же каждую зиму --250С бывает минимум по неделе -- и ничего .
+1	В	в	ADP	_	_	2	case	_	_
+2	России	россия	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
+3	же	же	PART	_	_	2	discourse	_	_
+4	каждую	каждый	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	5	amod	_	_
+5	зиму	зима	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	2	nsubj	_	_
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+8	250С	250с	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+9	бывает	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+10	минимум	минимум	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	nmod	_	_
+11	по	по	ADP	_	_	12	case	_	_
+12	неделе	неделя	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	ничего	ничто	PRON	_	Case=Gen	5	conj	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 47
+# text = А морозы требуют мощных источников теплоснабжения -- все они что-то выбрасывают в атмосферу .
+1	А	а	CCONJ	_	_	3	cc	_	_
+2	морозы	мороз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	требуют	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	мощных	мощный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	источников	источник	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	obl	_	_
+6	теплоснабжения	теплоснабжение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	5	nmod	_	_
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	6	punct	_	_
+9	все	весь	DET	_	Case=Nom|Number=Plur	10	det	_	_
+10	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	12	nsubj	_	_
+11	что-то	что-то	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obj	_	_
+12	выбрасывают	выбрасывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+13	в	в	ADP	_	_	14	case	_	_
+14	атмосферу	атмосфера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obl	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 48
+# text = И , в-третьих , зимой у нас много снега .
+1	И	и	CCONJ	_	_	5	cc	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	в-третьих	в-третьих	ADV	_	Degree=Pos	5	parataxis	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	зимой	зима	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	0	root	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	5	acl:relcl	_	_
+8	много	много	ADV	_	Degree=Pos	7	nsubj	_	_
+9	снега	снег	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 49
+# text = А значит , требуются специальные машины для расчистки улиц .
+1	А	а	CCONJ	_	_	4	cc	_	_
+2	значит	значит	ADV	_	Degree=Pos	4	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	требуются	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	специальные	специальный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	6	amod	_	_
+6	машины	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	расчистки	расчистка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+9	улиц	улица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	8	nmod	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 50
+# text = Снег увеличивает пробки , машины в них стоят дольше -- получается больше выбросов .
+1	Снег	снег	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	увеличивает	увеличивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	пробки	пробка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	машины	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	8	nsubj	_	_
+6	в	у	ADP	_	_	7	case	_	_
+7	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	8	obl	_	_
+8	стоят	стоять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+9	дольше	долго	ADV	_	Degree=Cmp	8	advmod	_	_
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	9	punct	_	_
+12	получается	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	2	conj	_	_
+13	больше	много	NUM	_	_	12	nsubj	_	_
+14	выбросов	выброс	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	13	obl	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 51
+# text = Для борьбы со снегом и льдом используют соль и прочие химикаты , что ведет к загрязнению почвы .
+1	Для	для	ADP	_	_	2	case	_	_
+2	борьбы	борьба	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	7	obl	_	_
+3	со	с	ADP	_	_	4	case	_	_
+4	снегом	снег	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	2	nmod	_	_
+5	и	и	CCONJ	_	_	6	cc	_	_
+6	льдом	лед	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	conj	_	_
+7	используют	использовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	соль	соль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+9	и	и	CCONJ	_	_	11	cc	_	_
+10	прочие	прочий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	химикаты	химикат	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	8	conj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	что	что	PRON	_	Case=Nom	14	nsubj	_	_
+14	ведет	вести	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+15	к	к	ADP	_	_	16	case	_	_
+16	загрязнению	загрязненить	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	14	obl	_	_
+17	почвы	почва	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	16	nmod	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\n
+
+# sent_id = 52
+# text = Что делать Ответов на этот традиционный для России вопрос предлагается множество .
+1	Что	что	PRON	_	Case=Acc	2	obj	_	_
+2	делать	делать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	SpacesAfter=\n
+3	Ответов	ответ	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	на	на	ADP	_	_	9	case	_	_
+5	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	9	det	_	_
+6	традиционный	традиционный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+7	для	для	ADP	_	_	8	case	_	_
+8	России	россия	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	obl	_	_
+9	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	_
+10	предлагается	предлагать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+11	множество	множество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj:pass	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 53
+# text = К сожалению , самые действенные из них нереализуемы -- из-за своего чрезмерного радикализма .
+1	К	к	ADP	_	_	2	case	_	_
+2	сожалению	сожаление	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	8	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	самые	самый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	5	amod	_	_
+5	действенные	действенный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	nsubj	_	_
+6	из	из	ADP	_	_	7	case	_	_
+7	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	8	obl	_	_
+8	нереализуемы	нереализуемый	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	_
+11	из-за	из-за	ADP	_	_	14	case	_	_
+12	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	14	det	_	_
+13	чрезмерного	чрезмерный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	радикализма	радикализм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 54
+# text = Например , сделать Центр города полностью закрытым для автомобилей -- вряд ли это возможно , учитывая огромное население Москвы и ее функции столицы и делового центра страны .
+1	Например	например	ADV	_	Degree=Pos	15	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	15	csubj	_	_
+4	Центр	центр	PROPN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	obj	_	_
+5	города	город	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	полностью	полностью	ADV	_	Degree=Pos	7	advmod	_	_
+7	закрытым	закрытый	VERB	_	Aspect=Perf|Case=Ins|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	4	acl	_	_
+8	для	для	ADP	_	_	9	case	_	_
+9	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	obl	_	_
+10	-	-	PUNCT	_	_	9	punct	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	9	punct	_	_
+12	вряд	вряд	ADV	_	Degree=Pos	15	advmod	_	_
+13	ли	ли	PART	_	_	12	fixed	_	_
+14	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	15	nsubj	_	_
+15	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	учитывая	учитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	15	advcl	_	_
+18	огромное	огромный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	19	amod	_	_
+19	население	население	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	obj	_	_
+20	Москвы	москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	и	и	CCONJ	_	_	23	cc	_	_
+22	ее	она	PRON	_	Case=Gen|Gender=Fem|Number=Sing|Person=3	23	nmod	_	_
+23	функции	функция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	20	conj	_	_
+24	столицы	столица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	23	nmod	_	_
+25	и	и	CCONJ	_	_	27	cc	_	_
+26	делового	деловой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	27	amod	_	_
+27	центра	центр	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	conj	_	_
+28	страны	страна	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 55
+# text = В некоторых городах в центральную часть запрещен въезд половине автомобилей : по четным дня ездят автомобили с четными номерами , по нечетным -- с нечетными .
+1	В	в	ADP	_	_	3	case	_	_
+2	некоторых	некоторый	DET	_	Case=Loc|Number=Plur	3	det	_	_
+3	городах	город	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	7	obl	_	_
+4	в	в	ADP	_	_	6	case	_	_
+5	центральную	центральный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	часть	часть	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obl	_	_
+7	запрещен	запрещать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+8	въезд	въезд	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+9	половине	половина	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
+10	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	:	:	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	по	по	ADP	_	_	14	case	_	_
+13	четным	четный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	14	amod	_	_
+14	дня	день	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+15	ездят	ездить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	conj	_	_
+16	автомобили	автомобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	_
+17	с	с	ADP	_	_	19	case	_	_
+18	четными	четный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	amod	_	_
+19	номерами	номер	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	16	nmod	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	по	по	ADP	_	_	22	case	_	_
+22	нечетным	нечетный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	26	parataxis	_	_
+23	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	22	punct	_	_
+25	с	с	ADP	_	_	26	case	_	_
+26	нечетными	нечетный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	19	conj	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 56
+# text = Но при такой системе обязательно нужны какие-то спецпропуски ( для милиции , пожарных и т . д . ) , и можно представить себе , каким пышным цветом расцветет черный рынок подобных документов .
+1	Но	но	CCONJ	_	_	6	cc	_	_
+2	при	при	ADP	_	_	4	case	_	_
+3	такой	такой	DET	_	Case=Loc|Gender=Fem|Number=Sing	4	det	_	_
+4	системе	система	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	6	obl	_	_
+5	обязательно	обязательно	ADV	_	Degree=Pos	6	obl	_	_
+6	нужны	нужный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+7	какие-то	какой-то	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	8	amod	_	_
+8	спецпропуски	спецпропуск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	6	nsubj	_	SpacesAfter=\s\s
+9	(	(	PUNCT	_	_	10	punct	_	_
+10	для	для	ADP	_	_	11	case	_	_
+11	милиции	милиция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	parataxis	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	пожарных	пожарный	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	conj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	т	тот	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	conj	_	_
+16	.	.	PUNCT	_	_	15	punct	_	_
+17	д	дело	ADV	_	Degree=Pos	15	advmod	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	)	)	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+20	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+21	и	и	CCONJ	_	_	22	cc	_	_
+22	можно	можно	ADV	_	Degree=Pos	6	conj	_	_
+23	представить	представлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	22	csubj	_	_
+24	себе	себя	PRON	_	Case=Dat	23	obl	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	каким	какой	DET	_	Case=Ins|Gender=Masc|Number=Sing	28	det	_	_
+27	пышным	пышный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	28	amod	_	_
+28	цветом	цвет	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	29	obl	_	_
+29	расцветет	расцветать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	24	acl:relcl	_	_
+30	черный	черный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	31	amod	_	_
+31	рынок	рынок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	29	nsubj	_	_
+32	подобных	подобный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	33	amod	_	_
+33	документов	документ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	31	nmod	_	_
+34	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+
+# sent_id = 57
+# text = К тому же контроль " правильности " номеров приведет к огромным заторам на пунктах , где номера проверяются . Можно не наказывать за плохие действия , а поощрять за хорошие .
+1	К	к	ADP	_	_	2	case	_	_
+2	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	9	obl	_	_
+3	же	же	PART	_	_	2	discourse	_	_
+4	контроль	контроль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	SpacesAfter=\s\s
+5	"	"	PUNCT	_	_	6	punct	_	_
+6	правильности	правильность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+7	"	"	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	номеров	номер	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	приведет	приводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+10	к	к	ADP	_	_	12	case	_	_
+11	огромным	огромный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	12	amod	_	_
+12	заторам	затор	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	9	obl	_	_
+13	на	на	ADP	_	_	14	case	_	_
+14	пунктах	пункт	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	12	nmod	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	где	где	ADV	_	Degree=Pos	18	advmod	_	_
+17	номера	номер	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+18	проверяются	проверяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	14	acl:relcl	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\n
+20	Можно	можно	ADV	_	Degree=Pos	18	advmod	_	_
+21	не	не	PART	_	_	22	advmod	_	_
+22	наказывать	наказывать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	20	csubj	_	_
+23	за	за	ADP	_	_	25	case	_	_
+24	плохие	плохой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	25	amod	_	_
+25	действия	действие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	22	obl	_	_
+26	,	,	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+27	а	а	CCONJ	_	_	28	cc	_	_
+28	поощрять	поощрять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	22	conj	_	_
+29	за	за	ADP	_	_	30	case	_	_
+30	хорошие	хороший	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	28	obl	_	_
+31	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+
+# sent_id = 58
+# text = В уже упоминавшемся Токио была реализована программа -- тот , кто купил электромобиль , получал большие льготы .
+1	В	в	ADP	_	_	4	case	_	_
+2	уже	уже	ADV	_	Degree=Pos	3	advmod	_	_
+3	упоминавшемся	упоминаться	VERB	_	Aspect=Perf|Case=Loc|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Mid	4	acl	_	_
+4	Токио	токио	PROPN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+5	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	aux:pass	_	_
+6	реализована	реализовать	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+7	программа	программа	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	7	punct	_	_
+10	тот	тот	DET	_	Case=Nom|Gender=Masc|Number=Sing	16	det	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	кто	кто	PRON	_	Case=Nom	13	nsubj	_	_
+13	купил	покупать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	acl:relcl	_	_
+14	электромобиль	электромобиль	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	получал	получать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	7	parataxis	_	_
+17	большие	большой	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	18	amod	_	_
+18	льготы	льгота	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	16	obj	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 59
+# text = Настоящая бензиновая машина круче -- ездит быстрее , в эксплуатации дешевле , но мудрое японское государство скорректировало это налоговой политикой , и покупка электромобиля стала выгоднее .
+1	Настоящая	настоящий	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+2	бензиновая	бензиновый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	машина	машина	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	4	nsubj	_	_
+4	круче	крутой	ADJ	_	Degree=Cmp	0	root	_	_
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	4	punct	_	_
+7	ездит	ездить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+8	быстрее	быстро	ADV	_	Degree=Cmp	7	advmod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	в	в	ADP	_	_	11	case	_	_
+11	эксплуатации	эксплуатация	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+12	дешевле	дешевый	ADJ	_	Degree=Cmp	7	conj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	но	но	CCONJ	_	_	18	cc	_	_
+15	мудрое	мудрый	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+16	японское	японский	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	17	amod	_	_
+17	государство	государство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+18	скорректировало	корректировать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
+19	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	obj	_	_
+20	налоговой	налоговый	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	политикой	политика	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	18	obl	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	и	и	CCONJ	_	_	26	cc	_	_
+24	покупка	покупка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	26	nsubj	_	_
+25	электромобиля	электромобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	стала	становиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	4	conj	_	_
+27	выгоднее	выгодный	ADJ	_	Degree=Cmp	26	obl	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+
+# sent_id = 60
+# text = Но подобные меры требуют денег , а откуда их взять Поэтому московские власти пока придерживаются тактики постепенных улучшений , в основном возводя и реконструируя дороги .
+1	Но	но	CCONJ	_	_	4	cc	_	_
+2	подобные	подобный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	3	amod	_	_
+3	меры	мера	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	4	nsubj	_	_
+4	требуют	требовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	денег	деньги	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	4	obl	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	а	а	CCONJ	_	_	10	cc	_	_
+8	откуда	откуда	ADV	_	Degree=Pos	10	advmod	_	_
+9	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	10	obj	_	_
+10	взять	брать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	conj	_	SpacesAfter=\n
+11	Поэтому	поэтому	ADV	_	Degree=Pos	10	advmod	_	_
+12	московские	московский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	13	amod	_	_
+13	власти	власть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	15	nsubj	_	_
+14	пока	пока	ADV	_	Degree=Pos	15	advmod	_	_
+15	придерживаются	придерживаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	10	parataxis	_	_
+16	тактики	тактика	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	15	nsubj	_	_
+17	постепенных	постепенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	18	amod	_	_
+18	улучшений	улучшение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nmod	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	в	в	ADP	_	_	21	case	_	_
+21	основном	основное	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	22	obl	_	_
+22	возводя	возводить	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	16	advcl	_	_
+23	и	и	CCONJ	_	_	24	cc	_	_
+24	реконструируя	реконструировать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	22	conj	_	_
+25	дороги	дорога	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	24	obj	_	_
+26	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+
+# sent_id = 61
+# text = Завершенное в прошлом году Третье транспортное кольцо уже дало положительный эффект : без него многие магистрали встали бы намертво . Сейчас начинается строительство Четвертого транспортного кольца , постоянно проводится модернизация существующих магистралей -- все это должно разгрузить транспортную ситуацию .
+1	Завершенное	Завершенный	VERB	_	Aspect=Perf|Case=Nom|Gender=Neut|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	прошлом	прошлый	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	1	obl	_	_
+5	Третье	третий	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+6	транспортное	транспортный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	7	amod	_	_
+7	кольцо	кольцо	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+8	уже	уже	ADV	_	Degree=Pos	9	advmod	_	_
+9	дало	давать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	положительный	положительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	эффект	эффект	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	:	:	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	без	без	ADP	_	_	14	case	_	_
+14	него	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	obl	_	_
+15	многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	магистрали	магистраль	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	_
+17	встали	вставать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+18	бы	бы	PART	_	Mood=Cnd	17	aux	_	_
+19	намертво	намертво	ADV	_	Degree=Pos	21	advmod	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	Сейчас	сейчас	ADV	_	Degree=Pos	17	advmod	_	_
+22	начинается	начинаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	17	conj	_	_
+23	строительство	строительство	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	22	nsubj	_	_
+24	Четвертого	четвертый	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+25	транспортного	транспортный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+26	кольца	кольцо	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	23	nmod	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	постоянно	постоянно	ADV	_	Degree=Pos	29	advmod	_	_
+29	проводится	проводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	17	conj	_	_
+30	модернизация	модернизация	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	29	nsubj:pass	_	_
+31	существующих	существовать	VERB	_	Aspect=Imp|Case=Gen|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	32	amod	_	_
+32	магистралей	магистраль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	30	nmod	_	_
+33	-	-	PUNCT	_	_	32	punct	_	SpaceAfter=No
+34	-	-	PUNCT	_	_	32	punct	_	_
+35	все	весь	DET	_	Case=Nom|Gender=Neut|Number=Sing	36	det	_	_
+36	это	это	PRON	_	_	37	cop	_	_
+37	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	17	conj	_	_
+38	разгрузить	разгрузить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	37	xcomp	_	_
+39	транспортную	транспортный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	40	amod	_	_
+40	ситуацию	ситуация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	38	obj	_	_
+41	.	.	PUNCT	_	_	40	punct	_	SpacesAfter=\s\s
+
+# sent_id = 62
+# text = С другой стороны , количество автомобилей в Москве уже превышает 3 млн и продолжает расти .
+1	С	с	ADP	_	_	3	case	_	_
+2	другой	другой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	3	amod	_	_
+3	стороны	сторона	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	parataxis	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	количество	количество	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	_
+6	автомобилей	автомобиль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	в	в	ADP	_	_	8	case	_	_
+8	Москве	москва	PROPN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	nmod	_	_
+9	уже	уже	ADV	_	Degree=Pos	10	advmod	_	_
+10	превышает	превышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	3	3	NUM	_	_	12	nummod	_	_
+12	млн	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	продолжает	продолжать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	conj	_	_
+15	расти	расти	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	xcomp	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 63
+# text = Доколе Есть американские данные , говорящие , что в экономически благополучном обществе на 1000 населения приходится 650--670 авто -- это действительно потолок , когда машину покупает каждый , кто хочет .
+1	Доколе	доколе	ADV	_	Degree=Pos	2	advmod	_	_
+2	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	американские	американский	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	4	amod	_	_
+4	данные	данные	NOUN	_	Animacy=Inan|Case=Nom|Number=Plur	2	nsubj	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	говорящие	говорить	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	4	acl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	что	что	SCONJ	_	_	16	mark	_	_
+9	в	в	ADP	_	_	12	case	_	_
+10	экономически	экономически	ADV	_	Degree=Pos	11	obl	_	_
+11	благополучном	благополучный	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	12	amod	_	_
+12	обществе	общество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	16	obl	_	_
+13	на	на	ADP	_	_	15	case	_	_
+14	1000	1000	NUM	_	_	15	nummod	_	_
+15	населения	население	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+16	приходится	приходиться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	6	ccomp	_	_
+17	650	650	NUM	_	_	21	nummod	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+20	670	670	NUM	_	_	17	nummod	_	_
+21	авто	авто	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	16	nsubj	_	_
+22	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+23	-	-	PUNCT	_	_	21	punct	_	_
+24	это	это	PRON	_	_	26	nsubj	_	_
+25	действительно	действительно	ADV	_	Degree=Pos	26	obl	_	_
+26	потолок	потолок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	conj	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	когда	когда	SCONJ	_	_	30	mark	_	_
+29	машину	машина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	30	obj	_	_
+30	покупает	покупать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	26	acl	_	_
+31	каждый	каждый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	nsubj	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	кто	кто	PRON	_	Case=Nom	34	nsubj	_	_
+34	хочет	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	31	acl:relcl	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+
+# sent_id = 64
+# text = Население Москвы ( вместе с теми жителями ближайших пригородов , кто ежедневно ездит сюда на работу ) -- миллионов 12 .
+1	Население	население	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+2	Москвы	москва	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	SpacesAfter=\s\s
+3	(	(	PUNCT	_	_	4	punct	_	_
+4	вместе	вместе	ADV	_	Degree=Pos	2	parataxis	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	теми	тот	DET	_	Case=Ins|Number=Plur	7	det	_	_
+7	жителями	житель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	4	obl	_	_
+8	ближайших	ближайший	ADJ	_	Case=Gen|Degree=Sup|Number=Plur	9	amod	_	_
+9	пригородов	пригород	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	кто	кто	PRON	_	Case=Nom	13	nsubj	_	_
+12	ежедневно	ежедневно	ADV	_	Degree=Pos	13	advmod	_	_
+13	ездит	ездить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+14	сюда	сюда	ADV	_	Degree=Pos	16	advmod	_	_
+15	на	на	ADP	_	_	16	case	_	_
+16	работу	работа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+17	)	)	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	16	punct	_	_
+20	миллионов	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	parataxis	_	_
+21	12	12	NUM	_	_	20	nummod	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 65
+# text = Так что автомобильный потолок для нас -- примерно 8 млн единиц .
+1	Так	так	ADV	_	Degree=Pos	11	mark	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	_
+3	автомобильный	автомобильный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	потолок	потолок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	4	nmod	_	_
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	6	punct	_	_
+9	примерно	примерно	ADV	_	Degree=Pos	10	advmod	_	_
+10	8	8	NUM	_	_	11	nummod	_	_
+11	млн	миллион	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	0	root	_	_
+12	единиц	единица	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	11	nmod	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\n\s
+
+# sent_id = 66
+# text = . . . Что касается возможностей для обычного человека как-то повлиять на экологическую ситуацию , то их немного .
+1	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+2	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+3	.	.	PUNCT	_	_	4	punct	_	_
+4	Что	что	PRON	_	Case=Nom	5	nsubj	_	_
+5	касается	касаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	18	advcl	_	_
+6	возможностей	возможность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+7	для	для	ADP	_	_	9	case	_	_
+8	обычного	обычный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	человека	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	_
+10	как-то	как-то	ADV	_	Degree=Pos	11	advmod	_	_
+11	повлиять	влиять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	obl	_	_
+12	на	на	ADP	_	_	14	case	_	_
+13	экологическую	экологический	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	14	amod	_	_
+14	ситуацию	ситуация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	то	то	SCONJ	_	_	18	mark	_	_
+17	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	18	nsubj	_	_
+18	немного	немного	ADV	_	Degree=Pos	0	root	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 67
+# text = Чаще всего единственное , что можно сделать , -- продать квартиру в неблагополучном районе и купить там , где лучше . Лучшего способа обезопасить себя от негативного воздействия городских загрязнителей пока не придумано .
+1	Чаще	часто	ADV	_	Degree=Cmp	3	obl	_	_
+2	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	1	obl	_	_
+3	единственное	единственный	ADJ	_	Case=Nom|Degree=Pos|Gender=Neut|Number=Sing	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	PRON	_	Case=Acc	7	obj	_	_
+6	можно	можно	ADV	_	Degree=Pos	3	acl:relcl	_	_
+7	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	csubj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	7	punct	_	_
+11	продать	продавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	parataxis	_	_
+12	квартиру	квартира	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obj	_	_
+13	в	в	ADP	_	_	15	case	_	_
+14	неблагополучном	неблагополучный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	районе	район	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	12	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	купить	покупать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	conj	_	_
+18	там	там	ADV	_	Degree=Pos	17	advmod	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	где	где	ADV	_	Degree=Pos	21	advmod	_	_
+21	лучше	хороший	ADJ	_	Degree=Cmp	18	acl:relcl	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	Лучшего	лучший	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	24	amod	_	_
+24	способа	способ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	34	nsubj:pass	_	_
+25	обезопасить	обезопасить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	obl	_	_
+26	себя	себя	PRON	_	Case=Acc	25	obj	_	_
+27	от	от	ADP	_	_	29	case	_	_
+28	негативного	негативный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	29	amod	_	_
+29	воздействия	воздействие	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+30	городских	городской	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	31	amod	_	_
+31	загрязнителей	загрязнитель	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	29	nmod	_	_
+32	пока	пока	ADV	_	Degree=Pos	34	advmod	_	_
+33	не	не	PART	_	_	34	advmod	_	_
+34	придумано	придумать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	21	conj	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\n
+

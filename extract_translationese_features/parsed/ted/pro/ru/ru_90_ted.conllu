@@ -1,0 +1,2317 @@
+# newdoc
+# newpar
+# sent_id = 1
+# text = Сегодня речь пойдёт о генном драйве , но для начала я расскажу вам короткую историю . 20 лет назад биолога по имени Энтони Джеймс захватила идея создания комаров , которые не переносят малярию .
+1	Сегодня	сегодня	ADV	_	Degree=Pos	3	advmod	_	_
+2	речь	речь	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+3	пойдёт	пойти	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	о	о	ADP	_	_	6	case	_	_
+5	генном	генный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	драйве	драйв	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	obl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	но	но	CCONJ	_	_	12	cc	_	_
+9	для	для	ADP	_	_	10	case	_	_
+10	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+11	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	12	nsubj	_	_
+12	расскажу	рассказывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	3	conj	_	_
+13	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	12	iobj	_	_
+14	короткую	короткий	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	историю	история	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	12	obj	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	20	20	NUM	_	_	18	nummod	_	_
+18	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	15	nmod	_	_
+19	назад	назад	ADV	_	Degree=Pos	15	advmod	_	_
+20	биолога	биолог	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	15	appos	_	_
+21	по	по	ADP	_	_	22	case	_	_
+22	имени	имя	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	20	nmod	_	_
+23	Энтони	энтони	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	20	appos	_	_
+24	Джеймс	джеймс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	23	flat:name	_	_
+25	захватила	захватывать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+26	идея	идея	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	_
+27	создания	создание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	26	nmod	_	_
+28	комаров	комар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	27	nmod	_	_
+29	,	,	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	которые	который	PRON	_	Case=Nom	32	nsubj	_	_
+31	не	не	PART	_	_	32	advmod	_	_
+32	переносят	переносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	27	acl:relcl	_	_
+33	малярию	малярия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	32	obj	_	_
+34	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\s\n
+
+# sent_id = 2
+# text = Идея была отличная , но , увы , практически провальная .
+1	Идея	идея	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
+3	отличная	отличный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	но	но	CCONJ	_	_	10	cc	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	увы	увы	ADV	_	Degree=Pos	10	parataxis	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	практически	практически	ADV	_	Degree=Pos	10	obl	_	_
+10	провальная	провальный	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	3	conj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 3
+# text = Во-первых , оказалось очень сложно вывести устойчивого к малярии комара .
+1	Во-первых	во-первых	ADV	_	Degree=Pos	3	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	оказалось	оказываться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	очень	очень	ADV	_	Degree=Pos	5	obl	_	_
+5	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	conj	_	_
+6	вывести	выводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	csubj	_	_
+7	устойчивого	устойчивый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	6	obj	_	_
+8	к	к	ADP	_	_	9	case	_	_
+9	малярии	малярия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	obl	_	_
+10	комара	комар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 4
+# text = Джеймс всё же сумел это сделать несколько лет назад , добавив некоторые гены , которые не позволяют малярийному паразиту выжить в организме комара .
+1	Джеймс	джеймс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+2	всё	все	PART	_	_	4	advmod	_	_
+3	же	же	PART	_	_	2	fixed	_	_
+4	сумел	уметь	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	6	obj	_	_
+6	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+7	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	8	nummod:gov	_	_
+8	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	obl	_	_
+9	назад	назад	ADV	_	Degree=Pos	8	advmod	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	добавив	добавлять	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	6	advcl	_	_
+12	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	13	det	_	_
+13	гены	ген	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	которые	который	PRON	_	Case=Nom	17	nsubj	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	позволяют	позволять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+18	малярийному	малярийный	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	паразиту	паразит	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	17	iobj	_	_
+20	выжить	выживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	17	xcomp	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	организме	организм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	20	obl	_	_
+23	комара	комар	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	20	obl	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\n
+
+# sent_id = 5
+# text = Но это привело к новой проблеме .
+1	Но	но	CCONJ	_	_	3	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	привело	приводить	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	к	к	ADP	_	_	6	case	_	_
+5	новой	новый	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	проблеме	проблема	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	3	obl	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+
+# sent_id = 6
+# text = Как , сумев вывести устойчивого к малярии комара , добиться того , чтобы он заменил всех комаров-переносчиков малярии Есть пара вариантов .
+1	Как	как	SCONJ	_	_	21	mark	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	сумев	суметь	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Act	21	advcl	_	_
+4	вывести	выводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	устойчивого	устойчивый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	obj	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	малярии	малярия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	5	obl	_	_
+8	комара	комар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	добиться	добиваться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	3	xcomp	_	_
+11	того	то	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	10	obl	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	чтобы	чтобы	SCONJ	_	Mood=Cnd	15	mark	_	_
+14	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
+15	заменил	заменять	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	acl	_	_
+16	всех	весь	DET	_	Case=Acc|Number=Plur	17	det	_	_
+17	комаров	комар	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	15	obj	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	17	punct	_	SpaceAfter=No
+19	переносчиков	переносчиков	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	17	appos	_	_
+20	малярии	малярия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+21	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+22	пара	пара	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
+23	вариантов	вариант	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	22	nmod	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+
+# sent_id = 7
+# text = Суть плана А была в том , чтобы развести какое-то количество новых генномодифицированных комаров , выпустить их на волю и надеяться , что их гены распространятся .
+1	Суть	суть	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+2	плана	план	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	nsubj	_	_
+3	А	а	PROPN	_	_	2	nmod	_	_
+4	была	быть	AUX	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	чтобы	что	SCONJ	_	Mood=Cnd	9	mark	_	_
+9	развести	разводить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	advcl	_	_
+10	какое-то	какой-то	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	количество	количество	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obj	_	_
+12	новых	новый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+13	генномодифицированных	генномодифицированный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	14	amod	_	_
+14	комаров	комар	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	выпустить	выпускать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	xcomp	_	_
+17	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	16	obj	_	_
+18	на	на	ADP	_	_	19	case	_	_
+19	волю	воля	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obl	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	надеяться	надеяться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	16	conj	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	что	что	SCONJ	_	_	26	mark	_	_
+24	их	они	PRON	_	Case=Gen|Number=Plur|Person=3	25	nmod	_	_
+25	гены	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	26	nsubj	_	_
+26	распространятся	распространяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	21	ccomp	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 8
+# text = Проблема в том , что пришлось бы выпустить в 10 раз больше комаров , чем уже есть в природе , чтобы это удалось .
+1	Проблема	проблема	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+2	в	в	ADP	_	_	3	case	_	_
+3	том	то	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	6	mark	_	_
+6	пришлось	приходиться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	acl	_	_
+7	бы	бы	PART	_	Mood=Cnd	6	aux	_	_
+8	выпустить	выпускать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	6	csubj	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	10	10	NUM	_	_	11	nummod	_	_
+11	раз	раз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+12	больше	много	NUM	_	_	8	advmod	_	_
+13	комаров	комар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	чем	чем	SCONJ	_	_	19	mark	_	_
+16	уже	уже	ADV	_	Degree=Pos	19	obl	_	_
+17	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	cop	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	природе	природа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	advcl	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	чтобы	что	SCONJ	_	Mood=Cnd	23	mark	_	_
+22	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	23	nsubj	_	_
+23	удалось	удаваться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	12	advcl	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+
+# sent_id = 9
+# text = И если в деревне живёт 10 000 комаров , нужно выпустить ещё 100 000 .
+1	И	и	CCONJ	_	_	10	cc	_	_
+2	если	если	SCONJ	_	_	5	mark	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	деревне	деревня	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	5	obl	_	_
+5	живёт	жить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	advcl	_	_
+6	10	10	NUM	_	_	8	nummod	_	_
+7	000	000	NUM	_	_	6	nummod	_	_
+8	комаров	комар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nsubj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+11	выпустить	выпускать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	10	csubj	_	_
+12	ещё	еще	ADV	_	Degree=Pos	13	advmod	_	_
+13	100	100	NUM	_	_	11	nummod	_	_
+14	000	000	NUM	_	_	13	nummod	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 10
+# text = Можно себе представить , что жителям деревни такая стратегия пришлась не по вкусу .
+1	Можно	можно	ADV	_	Degree=Pos	0	root	_	_
+2	себе	себя	PRON	_	Case=Dat	3	obl	_	_
+3	представить	представлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	1	csubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	10	mark	_	_
+6	жителям	житель	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	10	iobj	_	_
+7	деревни	деревня	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
+8	такая	такой	DET	_	Case=Nom|Gender=Fem|Number=Sing	9	det	_	_
+9	стратегия	стратегия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	пришлась	приходиться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	3	ccomp	_	_
+11	не	не	PART	_	_	13	advmod	_	_
+12	по	по	ADP	_	_	13	case	_	_
+13	вкусу	вкус	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	10	obl	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\n
+
+# sent_id = 11
+# text = И вот в январе прошлого года Энтони Джеймс получил email от биолога по имени Итан Бир .
+1	И	и	CCONJ	_	_	9	cc	_	_
+2	вот	вот	PART	_	_	9	discourse	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	январе	январь	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	9	obl	_	_
+5	прошлого	прошлый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	года	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	Энтони	энтони	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+8	Джеймс	джеймс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	7	flat:name	_	_
+9	получил	получать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+10	email	email	NOUN	_	_	9	obl	_	_
+11	от	от	ADP	_	_	12	case	_	_
+12	биолога	биолог	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+13	по	по	ADP	_	_	14	case	_	_
+14	имени	имя	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	12	nmod	_	_
+15	Итан	Итан	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	appos	_	_
+16	Бир	Бир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	15	flat:name	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 12
+# text = Бир сообщил , что он и его аспирант Валентино Ганц обнаружили механизм , который гарантирует не только наследование отдельного генетического признака , но и его невероятно быстрое распространение .
+1	Бир	Бир	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+2	сообщил	сообщать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	что	что	SCONJ	_	_	11	mark	_	_
+5	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	11	nsubj	_	_
+6	и	и	CCONJ	_	_	8	cc	_	_
+7	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
+8	аспирант	аспирант	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
+9	Валентино	Валентино	PROPN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	nmod	_	_
+10	Ганц	Ганц	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	5	appos	_	_
+11	обнаружили	обнаруживать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
+12	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	11	obj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	который	который	PRON	_	Case=Nom	15	nsubj	_	_
+15	гарантирует	гарантировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	acl:relcl	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	только	только	PART	_	_	18	advmod	_	_
+18	наследование	наследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	15	obj	_	_
+19	отдельного	отдельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+20	генетического	генетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	признака	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	но	но	CCONJ	_	_	28	cc	_	_
+24	и	и	PART	_	_	23	discourse	_	_
+25	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	28	nmod	_	_
+26	невероятно	невероятно	ADV	_	Degree=Pos	27	obl	_	_
+27	быстрое	быстрый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	28	amod	_	_
+28	распространение	распространение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	18	conj	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 13
+# text = Если они были правы , это решило бы задачу , над которой он и Джеймс работали в течение 20 лет .
+1	Если	если	SCONJ	_	_	4	mark	_	_
+2	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+3	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
+4	правы	прав	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	7	advcl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+7	решило	решать	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+8	бы	бы	PART	_	Mood=Cnd	7	aux	_	_
+9	задачу	задача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	над	над	ADP	_	_	12	case	_	_
+12	которой	который	PRON	_	Case=Ins	16	obl	_	_
+13	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	Джеймс	джеймс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	13	conj	_	_
+16	работали	работать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	acl:relcl	_	_
+17	в	в	ADP	_	_	20	case	_	_
+18	течение	течение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	17	fixed	_	_
+19	20	20	NUM	_	_	20	nummod	_	_
+20	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	16	obl	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\n
+
+# sent_id = 14
+# text = Для проверки они ввели в геном двух комаров противомалярийный ген , а также новый механизм -- генный драйв , который я объясню чуть позже .
+1	Для	для	ADP	_	_	2	case	_	_
+2	проверки	проверка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	ввели	вводить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	в	в	ADP	_	_	6	case	_	_
+6	геном	ген	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obl	_	_
+7	двух	два	NUM	_	Case=Gen	8	nummod	_	_
+8	комаров	комар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+9	противомалярийный	противомалярийный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	ген	ген	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	а	а	CCONJ	_	_	15	cc	_	_
+13	также	также	ADV	_	Degree=Pos	15	obl	_	_
+14	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	15	punct	_	_
+18	генный	генный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	драйв	драйв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	appos	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	который	который	PRON	_	Case=Acc	23	obj	_	_
+22	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	23	nsubj	_	_
+23	объясню	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
+24	чуть	чуть	ADV	_	Degree=Pos	25	advmod	_	_
+25	позже	поздно	ADV	_	Degree=Cmp	23	advmod	_	_
+26	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+
+# sent_id = 15
+# text = И вдобавок они сделали так , чтобы у любого комара , унаследовавшего противомалярийный ген , были не белые глаза , как обычно , а красные глаза .
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	вдобавок	вдобавок	ADV	_	Degree=Pos	4	advmod	_	_
+3	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	4	nsubj	_	_
+4	сделали	делать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	так	так	ADV	_	Degree=Pos	4	advmod	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	чтобы	что	SCONJ	_	Mood=Cnd	10	mark	_	_
+8	у	в	ADP	_	_	10	case	_	_
+9	любого	любой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	комара	комар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	advcl	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	унаследовавшего	унаследовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	10	acl	_	_
+13	противомалярийный	противомалярийный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	ген	ген	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	были	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	10	cop	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	белые	белый	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	19	amod	_	_
+19	глаза	глаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	10	nsubj	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	как	как	SCONJ	_	_	22	mark	_	_
+22	обычно	обычно	ADV	_	Degree=Pos	10	advmod	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	а	а	CCONJ	_	_	26	cc	_	_
+25	красные	красный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	26	amod	_	_
+26	глаза	глаз	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	conj	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 16
+# text = Это было сделано просто для удобства , чтобы с первого взгляда можно было их отличать .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	aux:pass	_	_
+3	сделано	делать	VERB	_	Aspect=Perf|Gender=Neut|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+4	просто	просто	PART	_	_	6	advmod	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	удобства	удобство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	чтобы	чтобы	SCONJ	_	Mood=Cnd	12	mark	_	_
+9	с	с	ADP	_	_	11	case	_	_
+10	первого	первый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	взгляда	взгляд	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	12	obl	_	_
+12	можно	можно	ADV	_	Degree=Pos	3	advcl	_	_
+13	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
+14	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	15	obj	_	_
+15	отличать	отличать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	csubj	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\n
+
+# sent_id = 17
+# text = Этих двух противомалярийных комаров с красными глазами поместили в бокс с 30-ю обычными белоглазыми особями и оставили размножаться .
+1	Этих	этот	DET	_	Case=Gen|Number=Plur	2	det	_	_
+2	двух	два	NUM	_	Case=Gen	4	nummod	_	_
+3	противомалярийных	противомалярийный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	комаров	комар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	8	nsubj	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	красными	красный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	глазами	глаз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	4	nmod	_	_
+8	поместили	помещать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	бокс	бокс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	30-ю	30-я	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	8	obl	_	_
+13	обычными	обычный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+14	белоглазыми	белоглазый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	amod	_	_
+15	особями	особь	NOUN	_	Animacy=Anim|Case=Ins|Gender=Fem|Number=Plur	12	nmod	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	оставили	оставлять	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	8	conj	_	_
+18	размножаться	размножаться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	17	xcomp	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 18
+# text = Два поколения спустя у них появилось 3 800 внуков .
+1	Два	два	NUM	_	Case=Nom|Gender=Masc	2	nummod:gov	_	_
+2	поколения	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	6	obl	_	_
+3	спустя	спустя	ADP	_	_	2	case	_	_
+4	у	у	ADP	_	_	5	case	_	_
+5	них	они	PRON	_	Case=Gen|Number=Plur|Person=3	6	obl	_	_
+6	появилось	появляться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	3	3	NUM	_	_	9	nummod	_	_
+8	800	800	NUM	_	_	9	nummod	_	_
+9	внуков	внук	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	6	nsubj	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 19
+# text = Но удивительно не это .
+1	Но	но	CCONJ	_	_	2	cc	_	_
+2	удивительно	удивительно	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 20
+# text = Удивительно вот что : начав только с двумя комарами с красными глазами и 30 комарами с белыми , ожидаешь в основном белоглазое потомство .
+1	Удивительно	удивительный	ADV	_	Degree=Pos	3	obl	_	_
+2	вот	вот	PART	_	_	3	discourse	_	_
+3	что	что	PRON	_	Case=Acc	0	root	_	_
+4	:	:	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	начав	начинать	VERB	_	Aspect=Imp|Tense=Past|VerbForm=Conv|Voice=Act	3	parataxis	_	_
+6	только	только	PART	_	_	9	advmod	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	двумя	два	NUM	_	Case=Ins	9	nummod	_	_
+9	комарами	комар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	5	obl	_	_
+10	с	с	ADP	_	_	12	case	_	_
+11	красными	красный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	глазами	глаз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	nmod	_	_
+13	и	и	CCONJ	_	_	15	cc	_	_
+14	30	30	NUM	_	_	15	nummod	_	_
+15	комарами	комар	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	conj	_	_
+16	с	с	ADP	_	_	17	case	_	_
+17	белыми	белый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	15	obl	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	ожидаешь	ожидать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+20	в	в	ADP	_	_	21	case	_	_
+21	основном	основной	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	19	obl	_	_
+22	белоглазое	белоглазый	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	23	amod	_	_
+23	потомство	потомство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+
+# sent_id = 21
+# text = Но когда Джеймс открыл бокс , все 3 800 комаров оказались красноглазыми .
+1	Но	но	CCONJ	_	_	11	cc	_	_
+2	когда	когда	SCONJ	_	_	4	mark	_	_
+3	Джеймс	джеймс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	открыл	открывать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
+5	бокс	бокс	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	все	весь	DET	_	Case=Nom|Number=Plur	8	det	_	_
+8	3	3	NUM	_	_	10	nummod	_	_
+9	800	800	NUM	_	_	8	nummod	_	_
+10	комаров	комар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nsubj	_	_
+11	оказались	оказываться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	красноглазыми	красноглазый	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	11	obl	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\n
+
+# sent_id = 22
+# text = Когда я спросила об этом Итана Бира , от волнения он начал практически кричать в трубку .
+1	Когда	когда	SCONJ	_	_	3	mark	_	_
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+3	спросила	спрашивать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	об	о	ADP	_	_	5	case	_	_
+5	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	6	nmod	_	_
+6	Итана	Итан	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+7	Бира	Бир	PROPN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	6	flat:name	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	от	от	ADP	_	_	10	case	_	_
+10	волнения	волнение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	obl	_	_
+11	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	12	nsubj	_	_
+12	начал	начинать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	acl:relcl	_	_
+13	практически	практически	ADV	_	Degree=Pos	14	advmod	_	_
+14	кричать	кричать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+15	в	в	ADP	_	_	16	case	_	_
+16	трубку	трубка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obl	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 23
+# text = Потому что комары только с красными глазами нарушают основу основ биологии -- менделевскую генетику .
+1	Потому	потому	ADV	_	Degree=Pos	8	mark	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	_
+3	комары	комар	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj	_	_
+4	только	только	PART	_	_	7	advmod	_	_
+5	с	с	ADP	_	_	7	case	_	_
+6	красными	красный	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	7	amod	_	_
+7	глазами	глаз	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	8	obl	_	_
+8	нарушают	нарушать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+9	основу	основа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	8	obj	_	_
+10	основ	основа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	9	nmod	_	_
+11	биологии	биология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	_
+14	менделевскую	менделевский	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	15	amod	_	_
+15	генетику	генетика	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	conj	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 24
+# text = Объясню вкратце : согласно менделевской генетике , при спаривании самца и самки детёныш наследует половину ДНК от каждого из родителей .
+1	Объясню	объяснять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+2	вкратце	вкратце	ADV	_	Degree=Pos	1	advmod	_	_
+3	:	:	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	согласно	согласно	ADP	_	_	6	case	_	_
+5	менделевской	менделевский	ADJ	_	Case=Loc|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+6	генетике	генетика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	14	obl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	при	при	ADP	_	_	9	case	_	_
+9	спаривании	спаривание	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	14	obl	_	_
+10	самца	самец	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
+11	и	и	CCONJ	_	_	12	cc	_	_
+12	самки	самка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	conj	_	_
+13	детёныш	детеныш	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+14	наследует	наследовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	parataxis	_	_
+15	половину	половина	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	14	obj	_	_
+16	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	15	nmod	_	_
+17	от	от	ADP	_	_	18	case	_	_
+18	каждого	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	_
+19	из	из	ADP	_	_	20	case	_	_
+20	родителей	родитель	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	18	nmod	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 25
+# text = Если обычный комар имеет генотип aa , а новый комар -- aB , где B -- противомалярийный ген , то у потомства должны быть четыре сочетания : aa , aB , aa , Ba .
+1	Если	если	SCONJ	_	_	4	mark	_	_
+2	обычный	обычный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	комар	комар	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+4	имеет	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	генотип	генотип	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	4	obj	_	_
+6	aa	aa	X	_	Foreign=Yes	5	flat:foreign	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	а	а	CCONJ	_	_	10	cc	_	_
+9	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	комар	комар	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	conj	_	_
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	-	-	PUNCT	_	_	10	punct	_	_
+13	aB	ab	PROPN	_	Foreign=Yes	10	flat:foreign	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	где	где	ADV	_	Degree=Pos	25	parataxis	_	_
+16	B	b	PROPN	_	Foreign=Yes	20	nsubj	_	_
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	16	punct	_	_
+19	противомалярийный	противомалярийный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	20	amod	_	_
+20	ген	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	то	то	SCONJ	_	_	25	mark	_	_
+23	у	в	ADP	_	_	24	case	_	_
+24	потомства	потомство	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	obl	_	_
+25	должны	должен	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	13	acl:relcl	_	_
+26	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	25	cop	_	_
+27	четыре	четыре	NUM	_	Case=Nom	28	nummod:gov	_	_
+28	сочетания	сочетание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	25	nsubj	_	_
+29	:	:	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+30	aa	aa	X	_	Foreign=Yes	28	flat:foreign	_	_
+31	,	,	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+32	aB	ab	PROPN	_	Foreign=Yes	30	flat:foreign	_	_
+33	,	,	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+34	aa	aa	X	_	Foreign=Yes	32	flat:foreign	_	_
+35	,	,	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+36	Ba	Ba	PROPN	_	Foreign=Yes	34	flat:foreign	_	_
+37	.	.	PUNCT	_	_	36	punct	_	SpacesAfter=\s\s
+
+# sent_id = 26
+# text = Но из-за нового генного драйва у всех оказался генотип aB .
+1	Но	но	CCONJ	_	_	8	cc	_	_
+2	из-за	из-за	ADP	_	_	5	case	_	_
+3	нового	новый	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+4	генного	генный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	драйва	драйв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	obl	_	_
+6	у	у	ADP	_	_	7	case	_	_
+7	всех	все	PRON	_	Animacy=Anim|Case=Gen|Number=Plur	8	obl	_	_
+8	оказался	оказываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	генотип	генотип	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+10	aB	ab	PROPN	_	Foreign=Yes	9	flat:foreign	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 27
+# text = С точки зрения биологии , такое вообще невозможно .
+1	С	с	ADP	_	_	2	case	_	_
+2	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	8	parataxis	_	_
+3	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	2	compound	_	_
+4	биологии	биология	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	такое	такой	DET	_	Case=Nom|Gender=Neut|Number=Sing	8	det	_	_
+7	вообще	вообще	ADV	_	Degree=Pos	8	obl	_	_
+8	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 28
+# text = Так в чём же дело Во-первых , это объясняется появлением инструмента редактирования генов CRISPR в 2012 году . Многие из вас , вероятно , слышали о CRISPR , поэтому скажу вкратце , что CRISPR -- инструмент , позволяющий учёным редактировать гены очень точно , легко и быстро .
+1	Так	так	ADV	_	Degree=Pos	9	advmod	_	_
+2	в	в	ADP	_	_	5	case	_	_
+3	чём	что	DET	_	Case=Loc|Gender=Neut|Number=Sing	5	det	_	_
+4	же	же	PART	_	_	3	discourse	_	_
+5	дело	дело	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	obl	_	_
+6	Во-первых	во-первых	ADV	_	Degree=Pos	9	parataxis	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj:pass	_	_
+9	объясняется	объяснять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+10	появлением	появление	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	9	obl	_	_
+11	инструмента	инструмент	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	редактирования	редактирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	11	nmod	_	_
+13	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	12	nmod	_	_
+14	CRISPR	Crispr	PROPN	_	Foreign=Yes	13	flat:foreign	_	_
+15	в	в	ADP	_	_	17	case	_	_
+16	2012	2012	NUM	_	_	17	nummod	_	_
+17	году	год	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	13	nmod	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	Многие	многие	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	25	nsubj	_	_
+20	из	из	ADP	_	_	21	case	_	_
+21	вас	вы	PRON	_	Case=Gen|Number=Plur|Person=2	19	nmod	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	вероятно	вероятно	ADV	_	Degree=Pos	25	parataxis	_	_
+24	,	,	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+25	слышали	слышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+26	о	о	ADP	_	_	27	case	_	_
+27	CRISPR	Crispr	PROPN	_	Foreign=Yes	25	flat:foreign	_	_
+28	,	,	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+29	поэтому	поэтому	ADV	_	Degree=Pos	30	advmod	_	_
+30	скажу	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	25	conj	_	_
+31	вкратце	вкратце	ADV	_	Degree=Pos	30	advmod	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	что	что	SCONJ	_	_	37	mark	_	_
+34	CRISPR	Crispr	PROPN	_	Foreign=Yes	37	nsubj	_	_
+35	-	-	PUNCT	_	_	34	punct	_	SpaceAfter=No
+36	-	-	PUNCT	_	_	34	punct	_	_
+37	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	30	ccomp	_	_
+38	,	,	PUNCT	_	_	37	punct	_	SpacesAfter=\s\s
+39	позволяющий	позволять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	37	acl	_	_
+40	учёным	ученый	NOUN	_	Animacy=Anim|Case=Dat|Gender=Masc|Number=Plur	39	iobj	_	_
+41	редактировать	редактировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	39	xcomp	_	_
+42	гены	ген	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	41	obj	_	_
+43	очень	очень	ADV	_	Degree=Pos	44	obl	_	_
+44	точно	точно	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	30	obl	_	_
+45	,	,	PUNCT	_	_	44	punct	_	SpacesAfter=\s\s
+46	легко	легко	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	44	conj	_	_
+47	и	и	CCONJ	_	_	48	cc	_	_
+48	быстро	быстро	ADV	_	Degree=Pos	44	conj	_	_
+49	.	.	PUNCT	_	_	48	punct	_	SpacesAfter=\s\s
+
+# sent_id = 29
+# text = Это достигается использованием механизма , уже существовавшего у бактерий .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj:pass	_	_
+2	достигается	достигать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
+3	использованием	использование	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	2	obl	_	_
+4	механизма	механизм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	уже	уже	ADV	_	Degree=Pos	7	advmod	_	_
+7	существовавшего	существовать	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Act	4	acl	_	_
+8	у	в	ADP	_	_	9	case	_	_
+9	бактерий	бактерия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	7	obl	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 30
+# text = В основе -- белок , действующий как ножницы и разрезающий ДНК , а также молекула РНК , направляющая ножницы в любую нужную вам точку генома .
+1	В	в	ADP	_	_	2	case	_	_
+2	основе	основа	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	0	root	_	_
+3	-	-	PUNCT	_	_	2	punct	_	SpaceAfter=No
+4	-	-	PUNCT	_	_	2	punct	_	_
+5	белок	белок	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	действующий	действовать	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	5	acl	_	_
+8	как	как	SCONJ	_	_	9	mark	_	_
+9	ножницы	ножницы	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Plur	7	advcl	_	_
+10	и	и	PART	_	_	11	discourse	_	_
+11	разрезающий	разрезающий	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	9	acl	_	_
+12	ДНК	днк	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	11	obl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	а	а	CCONJ	_	_	16	cc	_	_
+15	также	также	ADV	_	Degree=Pos	16	obl	_	_
+16	молекула	молекула	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	conj	_	_
+17	РНК	рнк	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	16	appos	_	_
+18	,	,	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+19	направляющая	направлять	VERB	_	Aspect=Imp|Case=Nom|Gender=Fem|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	17	acl	_	_
+20	ножницы	ножницы	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	19	obj	_	_
+21	в	в	ADP	_	_	25	case	_	_
+22	любую	любой	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+23	нужную	нужный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	25	amod	_	_
+24	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	23	iobj	_	_
+25	точку	точка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obl	_	_
+26	генома	геном	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 31
+# text = Получается своего рода текстовый редактор для генов .
+1	Получается	получаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	своего	свой	DET	_	Case=Gen|Gender=Masc|Number=Sing	3	det	_	_
+3	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+4	текстовый	текстовый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	редактор	редактор	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 32
+# text = Можно изъять целый ген , добавить ген или отредактировать всего одну букву внутри гена .
+1	Можно	можно	ADV	_	Degree=Pos	0	root	_	_
+2	изъять	изъять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	csubj	_	_
+3	целый	целый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	ген	ген	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	2	obj	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	добавить	добавлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	conj	_	_
+7	ген	ген	PROPN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	или	или	CCONJ	_	_	9	cc	_	_
+9	отредактировать	отредактировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	conj	_	_
+10	всего	всего	PART	_	_	11	advmod	_	_
+11	одну	один	NUM	_	Case=Acc|Gender=Fem	12	nummod:gov	_	_
+12	букву	буква	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obj	_	_
+13	внутри	внутри	ADV	_	Degree=Pos	14	advmod	_	_
+14	гена	ген	VERB	_	Aspect=Perf|Gender=Fem|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	conj	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 33
+# text = И сделать это можно почти с любым видом .
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	csubj	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+4	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+5	почти	почти	ADV	_	Degree=Pos	8	obl	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	любым	любой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	видом	вид	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	4	obl	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 34
+# text = Помните , я говорила , что с генным драйвом возникли две трудности Во-первых , было сложно создать комара , устойчивого к малярии .
+1	Помните	помнить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	4	nsubj	_	_
+4	говорила	говорить	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	1	conj	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	что	что	SCONJ	_	_	10	mark	_	_
+7	с	с	ADP	_	_	9	case	_	_
+8	генным	гять	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	9	amod	_	_
+9	драйвом	драйво	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	10	obl	_	_
+10	возникли	возникать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+11	две	два	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	12	nummod:gov	_	_
+12	трудности	трудность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	nsubj	_	_
+13	Во-первых	во-первых	ADV	_	Degree=Pos	16	parataxis	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	16	cop	_	_
+16	сложно	сложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	10	conj	_	_
+17	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	16	csubj	_	_
+18	комара	комар	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	устойчивого	устойчивый	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+21	к	к	ADP	_	_	22	case	_	_
+22	малярии	малярия	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	20	obl	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 35
+# text = Это уже в прошлом благодаря CRISPR . Другая трудность касалась логистики .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	expl	_	_
+2	уже	уже	ADV	_	Degree=Pos	4	obl	_	_
+3	в	в	ADP	_	_	4	case	_	_
+4	прошлом	прошлое	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	10	obl	_	_
+5	благодаря	благодаря	ADP	_	_	6	case	_	_
+6	CRISPR	Crispr	PROPN	_	Foreign=Yes	4	flat:foreign	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	Другая	другой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	9	amod	_	_
+9	трудность	трудность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	10	nsubj	_	_
+10	касалась	касаться	VERB	_	Aspect=Imp|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+11	логистики	логистика	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	10	obl	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 36
+# text = Как же распространить нужный признак Вот здесь требуется ловкость .
+1	Как	как	ADV	_	Degree=Pos	3	advmod	_	_
+2	же	же	PART	_	_	1	discourse	_	_
+3	распространить	распространять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	xcomp	_	_
+4	нужный	нужный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	признак	признак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+6	Вот	вот	PART	_	_	7	discourse	_	_
+7	здесь	здесь	ADV	_	Degree=Pos	8	advmod	_	_
+8	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	ловкость	ловкость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	8	nsubj	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
+
+# sent_id = 37
+# text = Пару лет назад биолог из Гарварда по имени Кевин Эсвельт заинтересовался , что будет , если сделать так , чтобы CRISPR вносил не только новый ген , но и весь механизм , осуществляющий вырезание и вставку .
+1	Пару	пара	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	11	obl	_	_
+2	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	1	nmod	_	_
+3	назад	назад	ADV	_	Degree=Pos	1	advmod	_	_
+4	биолог	биолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+5	из	из	ADP	_	_	6	case	_	_
+6	Гарварда	гарвард	PROPN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	по	по	ADP	_	_	8	case	_	_
+8	имени	имя	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	4	nmod	_	_
+9	Кевин	кевин	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+10	Эсвельт	Эсвельт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	9	flat:name	_	_
+11	заинтересовался	заинтересовываться	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	что	что	PRON	_	Case=Nom	14	nsubj	_	_
+14	будет	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	parataxis	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	если	если	SCONJ	_	_	17	mark	_	_
+17	сделать	делать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	14	advcl	_	_
+18	так	так	ADV	_	Degree=Pos	17	advmod	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	чтобы	чтобы	SCONJ	_	Mood=Cnd	22	mark	_	_
+21	CRISPR	Crispr	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	nsubj	_	_
+22	вносил	вносить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	18	advcl	_	_
+23	не	не	PART	_	_	24	advmod	_	_
+24	только	только	PART	_	_	25	advmod	_	_
+25	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	amod	_	_
+26	ген	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	22	obj	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	но	но	CCONJ	_	_	31	cc	_	_
+29	и	и	PART	_	_	28	discourse	_	_
+30	весь	весь	DET	_	Case=Nom|Gender=Masc|Number=Sing	31	det	_	_
+31	механизм	механизм	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	conj	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	осуществляющий	осуществлять	VERB	_	Aspect=Imp|Case=Nom|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	31	acl	_	_
+34	вырезание	вырезаний	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	33	obj	_	_
+35	и	и	CCONJ	_	_	36	cc	_	_
+36	вставку	вставка	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	34	conj	_	_
+37	.	.	PUNCT	_	_	36	punct	_	SpacesAfter=\s\s
+
+# sent_id = 38
+# text = Иными словами , чтобы CRISPR копировал и вставлял сам себя .
+1	Иными	иной	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	2	amod	_	_
+2	словами	слово	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Plur	0	root	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	чтобы	что	SCONJ	_	Mood=Cnd	6	mark	_	_
+5	CRISPR	Crispr	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	копировал	копировать	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	acl	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	вставлял	вставлять	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	6	conj	_	_
+9	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	obl	_	_
+10	себя	себя	PRON	_	Case=Acc	8	obj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 39
+# text = Тогда получится вечный двигатель для редактирования генов .
+1	Тогда	тогда	ADV	_	Degree=Pos	2	advmod	_	_
+2	получится	получаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+3	вечный	вечный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	двигатель	двигатель	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	2	nsubj	_	_
+5	для	для	ADP	_	_	6	case	_	_
+6	редактирования	редактирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	nmod	_	_
+7	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	6	nmod	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 40
+# text = Именно так всё и случилось . Генный драйв CRISPR , созданный Эсвельтом , не только гарантирует передачу признака потомству , но и , оказавшись в гаметоцитах , автоматически копирует и вставляет новый ген в обе хромосомы каждой отдельной особи .
+1	Именно	именно	PART	_	_	2	discourse	_	_
+2	так	так	ADV	_	Degree=Pos	5	advmod	_	_
+3	всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+4	и	и	PART	_	_	5	discourse	_	_
+5	случилось	случаться	VERB	_	Aspect=Perf|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	Генный	Генный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	драйв	драйв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	16	nsubj	_	_
+9	CRISPR	Crispr	PROPN	_	Foreign=Yes	8	flat:foreign	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	созданный	создавать	VERB	_	Aspect=Perf|Case=Nom|Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	8	acl	_	_
+12	Эсвельтом	Эсвельт	PROPN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	11	obl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	не	не	PART	_	_	15	advmod	_	_
+15	только	только	PART	_	_	16	advmod	_	_
+16	гарантирует	гарантировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+17	передачу	передача	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	признака	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	потомству	потомство	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	18	iobj	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	но	но	CCONJ	_	_	29	cc	_	_
+22	и	и	PART	_	_	21	discourse	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	оказавшись	оказываться	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Conv|Voice=Mid	29	advcl	_	_
+25	в	в	ADP	_	_	26	case	_	_
+26	гаметоцитах	гаметоцит	NOUN	_	Animacy=Anim|Case=Loc|Gender=Masc|Number=Plur	24	obl	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	автоматически	автоматически	ADV	_	Degree=Pos	29	advmod	_	_
+29	копирует	копировать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	conj	_	_
+30	и	и	CCONJ	_	_	31	cc	_	_
+31	вставляет	вставлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+32	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	33	amod	_	_
+33	ген	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	31	nsubj	_	_
+34	в	в	ADP	_	_	36	case	_	_
+35	обе	оба	NUM	_	Animacy=Inan|Case=Acc|Gender=Fem	36	nummod:gov	_	_
+36	хромосомы	хромосома	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	_
+37	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+38	отдельной	отдельный	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	39	amod	_	_
+39	особи	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	36	nmod	_	_
+40	.	.	PUNCT	_	_	39	punct	_	SpacesAfter=\s\s
+
+# sent_id = 41
+# text = Это как функция " найти и заменить " , в научном смысле -- переход гетерозиготного признака в гомозиготный .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	как	как	SCONJ	_	_	3	mark	_	_
+3	функция	функция	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	0	root	_	SpacesAfter=\s\s
+4	"	"	PUNCT	_	_	5	punct	_	_
+5	найти	находить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	obl	_	_
+6	и	и	CCONJ	_	_	7	cc	_	_
+7	заменить	заменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	conj	_	_
+8	"	"	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+10	в	в	ADP	_	_	12	case	_	_
+11	научном	научный	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	смысле	смысл	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	conj	_	_
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	переход	переход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	parataxis	_	_
+16	гетерозиготного	гетерозиготный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	признака	признак	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	гомозиготный	гомозиготный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	15	obl	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\n
+
+# sent_id = 42
+# text = Что же это значит Для начала -- что у нас теперь есть очень мощный и при этом немного пугающий инструмент .
+1	Что	что	PRON	_	Case=Nom	4	obj	_	_
+2	же	же	PART	_	_	1	discourse	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	Для	для	ADP	_	_	6	case	_	_
+6	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	4	obl	_	_
+7	-	-	PUNCT	_	_	6	punct	_	SpaceAfter=No
+8	-	-	PUNCT	_	_	6	punct	_	_
+9	что	что	SCONJ	_	_	13	mark	_	_
+10	у	у	ADP	_	_	11	case	_	_
+11	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	13	obl	_	_
+12	теперь	теперь	ADV	_	Degree=Pos	13	advmod	_	_
+13	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	parataxis	_	_
+14	очень	очень	ADV	_	Degree=Pos	15	obl	_	_
+15	мощный	мощный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	13	nsubj	_	_
+16	и	и	CCONJ	_	_	20	cc	_	_
+17	при	при	ADP	_	_	18	case	_	_
+18	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	20	obl	_	_
+19	немного	немного	ADV	_	Degree=Pos	20	advmod	_	_
+20	пугающий	пугать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	15	conj	_	_
+21	инструмент	инструмент	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obj	_	_
+22	.	.	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+
+# sent_id = 43
+# text = До сих пор то , что генный драйв не был применим на практике , в некотором роде успокаивало .
+1	До	до	ADP	_	_	18	advmod	_	_
+2	сих	сей	DET	_	Case=Gen|Number=Plur	1	fixed	_	_
+3	пор	пора	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	1	fixed	_	_
+4	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	18	nsubj	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	что	что	SCONJ	_	_	11	mark	_	_
+7	генный	генный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	драйв	драйв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	11	nsubj	_	_
+9	не	не	PART	_	_	11	advmod	_	_
+10	был	быть	AUX	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	11	aux:pass	_	_
+11	применим	применимый	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	acl	_	_
+12	на	на	ADP	_	_	13	case	_	_
+13	практике	практика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	11	obl	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	в	в	ADP	_	_	17	case	_	_
+16	некотором	некоторый	DET	_	Case=Loc|Gender=Masc|Number=Sing	17	det	_	_
+17	роде	род	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	18	obl	_	_
+18	успокаивало	успокаивать	VERB	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 44
+# text = Как правило , изменяя гены в организме , мы делаем его менее эволюционно пригодным .
+1	Как	как	SCONJ	_	_	2	mark	_	_
+2	правило	правило	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	10	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	изменяя	изменять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+5	гены	ген	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+6	в	в	ADP	_	_	7	case	_	_
+7	организме	организм	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	5	nmod	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	10	nsubj	_	_
+10	делаем	делать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+11	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	10	obj	_	_
+12	менее	менее	ADV	_	Degree=Cmp	13	advmod	_	_
+13	эволюционно	эволюционно	ADV	_	Degree=Pos	14	obl	_	_
+14	пригодным	пригодный	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	obl	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 45
+# text = И биологи могут создавать сколько угодно дрозофил-мутантов , ни о чём не беспокоясь .
+1	И	и	CCONJ	_	_	3	cc	_	_
+2	биологи	биолог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	3	nsubj	_	_
+3	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	создавать	создавать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	сколько	сколько	ADV	_	Degree=Pos	7	mark	_	_
+6	угодно	угодно	ADV	_	Degree=Pos	5	fixed	_	_
+7	дрозофил-мутантов	дрозофил-мутантовый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	ни	ни	CCONJ	_	_	11	advmod	_	_
+10	о	о	ADP	_	_	11	case	_	_
+11	чём	что	PRON	_	Case=Loc	13	obl	_	_
+12	не	не	PART	_	_	13	advmod	_	_
+13	беспокоясь	беспокоиться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	3	advcl	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 46
+# text = С теми , кто случайно улетит , разберётся естественный отбор .
+1	С	с	ADP	_	_	2	case	_	_
+2	теми	тот	DET	_	Case=Ins|Number=Plur	8	det	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	кто	кто	PRON	_	Case=Nom	6	nsubj	_	_
+5	случайно	случайно	ADV	_	Degree=Pos	6	advmod	_	_
+6	улетит	улететь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	2	acl:relcl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	разберётся	разобраться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+9	естественный	естественный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	отбор	отбор	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 47
+# text = Нас в генном драйве одновременно впечатляет и пугает именно то , что теперь всё будет обстоять иначе .
+1	Нас	мы	PRON	_	Case=Acc|Number=Plur|Person=1	6	obj	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	генном	гать	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	драйве	драйв	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	6	obl	_	_
+5	одновременно	одновременно	ADV	_	Degree=Pos	6	advmod	_	_
+6	впечатляет	впечатлять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	и	и	CCONJ	_	_	8	cc	_	_
+8	пугает	пугать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
+9	именно	именно	PART	_	_	10	discourse	_	_
+10	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	8	nsubj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	что	что	SCONJ	_	_	16	mark	_	_
+13	теперь	теперь	ADV	_	Degree=Pos	16	advmod	_	_
+14	всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	16	nsubj	_	_
+15	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	aux	_	_
+16	обстоять	обстоять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	acl	_	_
+17	иначе	иначе	ADV	_	Degree=Pos	16	advmod	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 48
+# text = Если новый признак не станет серьёзной помехой с точки зрения эволюции -- например , комар не сможет летать , генный драйв на базе CRISPR будет беспрерывно распространять его , пока он не передастся каждой особи в популяции .
+1	Если	если	SCONJ	_	_	5	mark	_	_
+2	новый	новый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	признак	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	5	nsubj	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	18	advcl	_	_
+6	серьёзной	серьезный	ADJ	_	Case=Ins|Degree=Pos|Gender=Fem|Number=Sing	7	amod	_	_
+7	помехой	помеха	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	obl	_	_
+8	с	с	ADP	_	_	9	case	_	_
+9	точки	точка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	5	obl	_	_
+10	зрения	зрение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	9	compound	_	_
+11	эволюции	эволюция	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	_
+14	например	например	ADV	_	Degree=Pos	18	parataxis	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	комар	комар	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	_
+17	не	не	PART	_	_	18	advmod	_	_
+18	сможет	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+19	летать	летать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	генный	генный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	22	amod	_	_
+22	драйв	драйв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+23	на	на	ADP	_	_	24	case	_	_
+24	базе	база	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	22	nmod	_	_
+25	CRISPR	Crispr	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
+26	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	28	aux	_	_
+27	беспрерывно	беспрерывно	ADV	_	Degree=Pos	28	advmod	_	_
+28	распространять	распространять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+29	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	28	obj	_	_
+30	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	пока	пока	SCONJ	_	_	34	mark	_	_
+32	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
+33	не	не	PART	_	_	34	advmod	_	_
+34	передастся	передаваться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	28	advcl	_	_
+35	каждой	каждый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	36	amod	_	_
+36	особи	особь	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	34	obl	_	_
+37	в	в	ADP	_	_	38	case	_	_
+38	популяции	популяция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	34	obl	_	_
+39	.	.	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+
+# sent_id = 49
+# text = Совсем непросто создать так хорошо работающий генный драйв , но Джеймс и Эсвельт считают , что возможно .
+1	Совсем	совсем	ADV	_	Degree=Pos	2	obl	_	_
+2	непросто	непростой	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	_
+4	так	так	ADV	_	Degree=Pos	5	advmod	_	_
+5	хорошо	хорошо	ADV	_	Degree=Pos	6	advmod	_	_
+6	работающий	работать	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Act	8	acl	_	_
+7	генный	генный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	драйв	драйв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	3	obj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	но	но	CCONJ	_	_	14	cc	_	_
+11	Джеймс	джеймс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	Эсвельт	Эсвельт	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	11	conj	_	_
+14	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	что	что	SCONJ	_	_	17	mark	_	_
+17	возможно	возможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	ccomp	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\n
+
+# sent_id = 50
+# text = К счастью , это откроет перед нами некоторые удивительные возможности .
+1	К	к	ADP	_	_	2	case	_	_
+2	счастью	счастье	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	5	parataxis	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+5	откроет	открывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	перед	перед	ADP	_	_	7	case	_	_
+7	нами	мы	PRON	_	Case=Ins|Number=Plur|Person=1	5	obl	_	_
+8	некоторые	некоторый	DET	_	Case=Acc|Number=Plur	10	det	_	_
+9	удивительные	удивительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	10	amod	_	_
+10	возможности	возможность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 51
+# text = Если противомалярийный генный драйв будет лишь у 1 % комаров рода Anopheles -- тех самых , что переносят малярию , он , по мнению учёных , распространится во всей популяции за год .
+1	Если	если	SCONJ	_	_	9	mark	_	_
+2	противомалярийный	противомалярийный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+3	генный	генный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	4	amod	_	_
+4	драйв	драйв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	_
+5	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
+6	лишь	лишь	PART	_	_	9	discourse	_	_
+7	у	в	ADP	_	_	9	case	_	_
+8	1	1	NUM	_	_	9	nummod	_	_
+9	%	%	SYM	_	_	0	root	_	SpacesAfter=\s\s
+10	комаров	комар	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	9	nmod	_	_
+11	рода	род	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	Anopheles	Anopheles	PROPN	_	Foreign=Yes	11	flat:foreign	_	_
+13	-	-	PUNCT	_	_	12	punct	_	SpaceAfter=No
+14	-	-	PUNCT	_	_	12	punct	_	_
+15	тех	тот	DET	_	Case=Gen|Number=Plur	11	det	_	_
+16	самых	самый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	15	amod	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	что	что	SCONJ	_	_	19	mark	_	_
+19	переносят	переносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	_	_
+20	малярию	малярия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	19	obj	_	_
+21	,	,	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+22	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	28	nsubj	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	по	по	ADP	_	_	25	case	_	_
+25	мнению	мнение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	28	parataxis	_	_
+26	учёных	ученый	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	25	nmod	_	_
+27	,	,	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+28	распространится	распространяться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	19	conj	_	_
+29	во	в	ADP	_	_	31	case	_	_
+30	всей	весь	DET	_	Case=Loc|Gender=Fem|Number=Sing	31	det	_	_
+31	популяции	популяция	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	28	obl	_	_
+32	за	за	ADP	_	_	33	case	_	_
+33	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	31	nmod	_	_
+34	.	.	PUNCT	_	_	33	punct	_	SpacesAfter=\s\s
+
+# sent_id = 52
+# text = То есть за год можно , в сущности , искоренить малярию .
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	mark	_	_
+2	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	fixed	_	_
+3	за	за	ADP	_	_	4	case	_	_
+4	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	в	в	ADP	_	_	8	case	_	_
+8	сущности	сущность	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	10	obl	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	искоренить	искоренять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	csubj	_	_
+11	малярию	малярия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 53
+# text = На практике это станет возможным лишь через несколько лет , но всё же : 1 000 детей в день умирает от малярии .
+1	На	на	ADP	_	_	2	case	_	_
+2	практике	практика	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	4	obl	_	_
+3	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+4	станет	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+5	возможным	возможный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	4	obl	_	_
+6	лишь	лишь	PART	_	_	9	discourse	_	_
+7	через	через	ADP	_	_	9	case	_	_
+8	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	9	nummod:gov	_	_
+9	лет	год	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	obl	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	но	но	CCONJ	_	_	12	cc	_	_
+12	всё	все	PART	_	_	4	conj	_	_
+13	же	же	PART	_	_	12	fixed	_	_
+14	:	:	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	1	1	NUM	_	_	17	nummod	_	_
+16	000	000	NUM	_	_	17	nummod	_	_
+17	детей	ребенок	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	20	nsubj	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	obl	_	_
+20	умирает	умирать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	parataxis	_	_
+21	от	от	ADP	_	_	22	case	_	_
+22	малярии	малярия	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	20	obl	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 54
+# text = За год эту цифру можно снизить почти до нуля .
+1	За	за	ADP	_	_	2	case	_	_
+2	год	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	5	obl	_	_
+3	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	4	det	_	_
+4	цифру	цифра	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	6	obj	_	_
+5	можно	можно	ADV	_	Degree=Pos	0	root	_	_
+6	снизить	снижать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	csubj	_	_
+7	почти	почти	ADV	_	Degree=Pos	9	obl	_	_
+8	до	до	ADP	_	_	9	case	_	_
+9	нуля	нуль	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 55
+# text = То же касается лихорадки денге , чикунгуньи , жёлтой лихорадки .
+1	То	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	же	же	PART	_	_	1	discourse	_	_
+3	касается	касаться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	лихорадки	лихорадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	3	obl	_	_
+5	денге	денгй	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	4	iobj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	чикунгуньи	чикунгуний	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Plur	4	conj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	жёлтой	желтый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	10	amod	_	_
+10	лихорадки	лихорадка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	conj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\n
+
+# sent_id = 56
+# text = И это ещё не всё . Допустим , вы хотите избавиться от инвазивного вида -- выставить азиатского карпа из Великих озёр . Нужно лишь выпустить такой генный драйв , чтобы в потомстве у рыб появлялись одни самцы .
+1	И	и	CCONJ	_	_	5	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	ещё	еще	ADV	_	Degree=Pos	4	advmod	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	Допустим	допускать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	10	parataxis	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	10	nsubj	_	_
+10	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+11	избавиться	избавляться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	10	xcomp	_	_
+12	от	от	ADP	_	_	14	case	_	_
+13	инвазивного	инвазивный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+15	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	14	punct	_	_
+17	выставить	выставлять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	xcomp	_	_
+18	азиатского	азиатский	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	карпа	карп	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+20	из	из	ADP	_	_	22	case	_	_
+21	Великих	великий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	озёр	озеро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	Нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	17	parataxis	_	_
+25	лишь	лишь	PART	_	_	26	discourse	_	_
+26	выпустить	выпускать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	24	csubj	_	_
+27	такой	такой	DET	_	Case=Acc|Gender=Masc|Number=Sing	29	det	_	_
+28	генный	генный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	29	amod	_	_
+29	драйв	драйв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	26	obj	_	_
+30	,	,	PUNCT	_	_	29	punct	_	SpacesAfter=\s\s
+31	чтобы	что	SCONJ	_	Mood=Cnd	36	mark	_	_
+32	в	в	ADP	_	_	33	case	_	_
+33	потомстве	потомство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	36	obl	_	_
+34	у	в	ADP	_	_	35	case	_	_
+35	рыб	рыба	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	36	obl	_	_
+36	появлялись	появляться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Mid	26	advcl	_	_
+37	одни	один	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	38	amod	_	_
+38	самцы	самец	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	36	nsubj	_	_
+39	.	.	PUNCT	_	_	38	punct	_	SpacesAfter=\s\s
+
+# sent_id = 57
+# text = Несколько поколений спустя не останется самок , и карпа не будет .
+1	Несколько	несколько	NUM	_	Case=Nom	2	nummod:gov	_	_
+2	поколений	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nsubj	_	_
+3	спустя	спустя	ADP	_	_	2	case	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	останется	оставаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+6	самок	самка	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	5	obj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	и	и	CCONJ	_	_	11	cc	_	_
+9	карпа	карп	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	будет	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 58
+# text = Теоретически мы сможем восстановить сотни аборигенных видов , которые сейчас на грани вымирания .
+1	Теоретически	теоретически	ADV	_	Degree=Pos	3	advmod	_	_
+2	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	3	nsubj	_	_
+3	сможем	мочь	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	восстановить	восстанавливать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	сотни	сотня	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	4	obj	_	_
+6	аборигенных	аборигенный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	7	amod	_	_
+7	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	которые	который	PRON	_	Case=Nom	12	nsubj	_	_
+10	сейчас	сейчас	ADV	_	Degree=Pos	12	advmod	_	_
+11	на	на	ADP	_	_	12	case	_	_
+12	грани	грань	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	acl:relcl	_	_
+13	вымирания	вымирание	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	nmod	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\n
+
+# sent_id = 59
+# text = Теперь от хороших новостей перейдём к плохим . Генный драйв настолько эффективен , что даже случайный выпуск может изменить целый вид , зачастую очень быстро .
+1	Теперь	теперь	ADV	_	Degree=Pos	5	advmod	_	_
+2	от	от	ADP	_	_	4	case	_	_
+3	хороших	хороший	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	4	amod	_	_
+4	новостей	новость	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	5	obl	_	_
+5	перейдём	перейти	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+6	к	к	ADP	_	_	7	case	_	_
+7	плохим	плохой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	5	obl	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	Генный	Генный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	драйв	драйв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+11	настолько	настолько	ADV	_	Degree=Pos	12	obl	_	_
+12	эффективен	эффективный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	5	conj	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	что	что	SCONJ	_	_	18	mark	_	_
+15	даже	даже	PART	_	_	16	discourse	_	_
+16	случайный	случайный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	выпуск	выпуск	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+18	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
+19	изменить	изменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	18	xcomp	_	_
+20	целый	целый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	21	amod	_	_
+21	вид	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	19	obj	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	зачастую	зачастую	ADV	_	Degree=Pos	25	advmod	_	_
+24	очень	очень	ADV	_	Degree=Pos	25	advmod	_	_
+25	быстро	быстро	ADV	_	Degree=Pos	21	conj	_	_
+26	.	.	PUNCT	_	_	25	punct	_	SpacesAfter=\s\s
+
+# sent_id = 60
+# text = Энтони Джеймс принял меры безопасности : разводил комаров в лаборатории с биоизоляцией и выбрал вид , неаборигенный для США , чтобы случайно улетевшие особи просто вымерли и им было бы не с кем спариваться .
+1	Энтони	энтони	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+2	Джеймс	джеймс	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	flat:name	_	_
+3	принял	принимать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	меры	мера	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	3	obj	_	_
+5	безопасности	безопасность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	:	:	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	разводил	разводить	VERB	_	Aspect=Imp|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+8	комаров	комар	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	7	obj	_	_
+9	в	в	ADP	_	_	10	case	_	_
+10	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	7	obl	_	_
+11	с	с	ADP	_	_	12	case	_	_
+12	биоизоляцией	биоизоляция	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	10	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	выбрал	выбирать	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
+15	вид	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	14	nsubj	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	неаборигенный	неаборигать	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+18	для	для	ADP	_	_	19	case	_	_
+19	США	сша	PROPN	_	Animacy=Inan|Case=Gen|Number=Plur	17	obl	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	чтобы	что	SCONJ	_	Mood=Cnd	26	mark	_	_
+22	случайно	случайно	ADV	_	Degree=Pos	23	advmod	_	_
+23	улетевшие	улететь	VERB	_	Aspect=Perf|Case=Nom|Number=Plur|Tense=Past|VerbForm=Part|Voice=Act	24	acl	_	_
+24	особи	особь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Sing	26	nsubj	_	_
+25	просто	просто	PART	_	_	26	advmod	_	_
+26	вымерли	вымереть	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Tense=Past|VerbForm=Fin|Voice=Act	14	advcl	_	_
+27	и	и	CCONJ	_	_	34	cc	_	_
+28	им	он	PRON	_	Case=Dat|Number=Plur|Person=3	34	iobj	_	_
+29	было	быть	AUX	_	Aspect=Imp|Gender=Neut|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	34	cop	_	_
+30	бы	бы	PART	_	Mood=Cnd	34	aux	_	_
+31	не	не	PART	_	_	33	advmod	_	_
+32	с	с	ADP	_	_	33	case	_	_
+33	кем	кто	PRON	_	Case=Ins	34	obl	_	_
+34	спариваться	спариваться	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Mid	26	conj	_	_
+35	.	.	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+
+# sent_id = 61
+# text = Но если десяток азиатских карпов с генным драйвом самцов в потомстве случайно уплывёт из Великих озёр обратно в Азию , есть шанс , что они сведут на нет аборигенную популяцию азиатского карпа .
+1	Но	но	CCONJ	_	_	21	cc	_	_
+2	если	если	SCONJ	_	_	13	mark	_	_
+3	десяток	десяток	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	13	obj	_	_
+4	азиатских	азиатский	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	5	amod	_	_
+5	карпов	карп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	3	nmod	_	_
+6	с	с	ADP	_	_	8	case	_	_
+7	генным	генный	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	драйвом	драйвый	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	nmod	_	_
+9	самцов	самец	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	потомстве	потомство	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	13	obl	_	_
+12	случайно	случайно	ADV	_	Degree=Pos	13	advmod	_	_
+13	уплывёт	уплыть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	advcl	_	_
+14	из	из	ADP	_	_	16	case	_	_
+15	Великих	великий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	16	amod	_	_
+16	озёр	озеро	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	13	obl	_	_
+17	обратно	обратно	ADV	_	Degree=Pos	13	advmod	_	_
+18	в	в	ADP	_	_	19	case	_	_
+19	Азию	азия	PROPN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	13	obl	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+22	шанс	шанс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	21	nsubj	_	_
+23	,	,	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+24	что	что	SCONJ	_	_	26	mark	_	_
+25	они	они	PRON	_	Case=Nom|Number=Plur|Person=3	26	nsubj	_	_
+26	сведут	сводить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	22	acl	_	_
+27	на	на	ADP	_	_	28	case	_	_
+28	нет	нет	PART	_	_	30	obl	_	_
+29	аборигенную	аборигенная	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	30	amod	_	_
+30	популяцию	популяция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	26	obj	_	_
+31	азиатского	азиатский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	32	amod	_	_
+32	карпа	карп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	_
+33	.	.	PUNCT	_	_	32	punct	_	SpacesAfter=\s\s
+
+# sent_id = 62
+# text = И это вполне вероятный исход , учитывая , как тесен наш мир .
+1	И	и	CCONJ	_	_	5	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	вполне	вполне	ADV	_	Degree=Pos	4	obl	_	_
+4	вероятный	вероятный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	5	amod	_	_
+5	исход	исход	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	учитывая	учитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	5	advcl	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	как	как	SCONJ	_	_	10	mark	_	_
+10	тесен	тесный	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	7	ccomp	_	_
+11	наш	наш	DET	_	Case=Nom|Gender=Masc|Number=Sing	12	det	_	_
+12	мир	мир	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 63
+# text = Поэтому , кстати , и возникла проблема инвазивных видов .
+1	Поэтому	поэтому	ADV	_	Degree=Pos	6	advmod	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	кстати	кстати	ADV	_	Degree=Pos	6	parataxis	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	и	и	PART	_	_	6	discourse	_	_
+6	возникла	возникать	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	проблема	проблема	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	6	nsubj	_	_
+8	инвазивных	инвазивный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	9	amod	_	_
+9	видов	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 64
+# text = И это только рыба .
+1	И	и	CCONJ	_	_	4	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	4	nsubj	_	_
+3	только	только	PART	_	_	4	advmod	_	_
+4	рыба	рыба	NOUN	_	Animacy=Anim|Case=Nom|Gender=Fem|Number=Sing	0	root	_	_
+5	.	.	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+
+# sent_id = 65
+# text = А вот комаров и плодовых мушек вообще невозможно сдержать .
+1	А	а	CCONJ	_	_	8	cc	_	_
+2	вот	вот	PART	_	_	3	discourse	_	_
+3	комаров	комар	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	9	obl	_	_
+4	и	и	CCONJ	_	_	6	cc	_	_
+5	плодовых	плодовый	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	6	amod	_	_
+6	мушек	мушка	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Plur	3	conj	_	_
+7	вообще	вообще	ADV	_	Degree=Pos	8	obl	_	_
+8	невозможно	невозможный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+9	сдержать	сдерживать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+
+# sent_id = 66
+# text = Они пересекают границы и океаны постоянно .
+1	Они	они	PRON	_	Case=Nom|Number=Plur|Person=3	2	nsubj	_	_
+2	пересекают	пересекать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	границы	граница	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	2	obj	_	_
+4	и	и	CCONJ	_	_	5	cc	_	_
+5	океаны	океан	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	3	conj	_	_
+6	постоянно	постоянно	ADV	_	Degree=Pos	2	advmod	_	_
+7	.	.	PUNCT	_	_	6	punct	_	SpacesAfter=\s\n
+
+# sent_id = 67
+# text = Ещё одна плохая новость -- генный драйв может не остаться в рамках так называемого целевого вида .
+1	Ещё	еще	ADV	_	Degree=Pos	2	advmod	_	_
+2	одна	один	NUM	_	Case=Nom|Gender=Fem	4	nummod:gov	_	_
+3	плохая	плохой	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	4	amod	_	_
+4	новость	новость	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	9	nsubj	_	_
+5	-	-	PUNCT	_	_	4	punct	_	SpaceAfter=No
+6	-	-	PUNCT	_	_	4	punct	_	_
+7	генный	гать	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	драйв	драйв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	appos	_	_
+9	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	остаться	оставаться	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Mid	9	xcomp	_	_
+12	в	в	ADP	_	_	13	case	_	_
+13	рамках	рамка	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	11	obl	_	_
+14	так	так	ADV	_	Degree=Pos	15	advmod	_	_
+15	называемого	называть	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	17	acl	_	_
+16	целевого	целевой	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	obl	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 68
+# text = В этом виноват перенос генов -- так красиво называют ситуацию , в которой близкие виды иногда скрещиваются .
+1	В	в	ADP	_	_	2	case	_	_
+2	этом	этот	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	виноват	виноватый	ADJ	_	Degree=Pos|Gender=Masc|Number=Sing|Variant=Short	0	root	_	_
+4	перенос	перенос	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+5	генов	ген	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	4	nmod	_	_
+6	-	-	PUNCT	_	_	5	punct	_	SpaceAfter=No
+7	-	-	PUNCT	_	_	5	punct	_	_
+8	так	так	ADV	_	Degree=Pos	9	advmod	_	_
+9	красиво	красиво	ADV	_	Degree=Pos	10	advmod	_	_
+10	называют	называть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+11	ситуацию	ситуация	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	10	obj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	в	в	ADP	_	_	14	case	_	_
+14	которой	который	PRON	_	Case=Loc	18	obl	_	_
+15	близкие	близкий	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	16	amod	_	_
+16	виды	вид	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	18	nsubj	_	_
+17	иногда	иногда	ADV	_	Degree=Pos	18	advmod	_	_
+18	скрещиваются	скрещиваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	11	acl:relcl	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 69
+# text = При этом возникнет вероятность передачи генного драйва -- например , от азиатского карпа к другому виду карпа .
+1	При	при	ADP	_	_	2	case	_	_
+2	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	3	obl	_	_
+3	возникнет	возникать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вероятность	вероятность	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	передачи	передача	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	4	nmod	_	_
+6	генного	генный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	драйва	драйв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	5	nmod	_	_
+8	-	-	PUNCT	_	_	7	punct	_	SpaceAfter=No
+9	-	-	PUNCT	_	_	7	punct	_	_
+10	например	например	ADV	_	Degree=Pos	14	parataxis	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	от	от	ADP	_	_	14	case	_	_
+13	азиатского	азиатский	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	14	amod	_	_
+14	карпа	карп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	3	obl	_	_
+15	к	к	ADP	_	_	17	case	_	_
+16	другому	другой	ADJ	_	Case=Dat|Degree=Pos|Gender=Masc|Number=Sing	17	amod	_	_
+17	виду	вид	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	14	nmod	_	_
+18	карпа	карп	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+
+# sent_id = 70
+# text = Ничего страшного , если драйв вносит такой признак , как цвет глаз .
+1	Ничего	ничто	PRON	_	Case=Gen	8	nsubj	_	_
+2	страшного	страшный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	1	amod	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	если	если	SCONJ	_	_	6	mark	_	_
+5	драйв	драйв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	6	nsubj	_	_
+6	вносит	вносить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+7	такой	такой	DET	_	Case=Nom|Gender=Masc|Number=Sing	8	det	_	_
+8	признак	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	как	как	SCONJ	_	_	11	mark	_	_
+11	цвет	цвет	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	obl	_	_
+12	глаз	глаз	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Plur	11	nmod	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 71
+# text = Есть немалый шанс , что мы станем свидетелями всплеска численности странных дрозофил совсем скоро .
+1	Есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	немалый	немалый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	шанс	шанс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	7	mark	_	_
+6	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	7	nsubj	_	_
+7	станем	становиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Mid	3	ccomp	_	_
+8	свидетелями	свидетель	NOUN	_	Animacy=Anim|Case=Ins|Gender=Masc|Number=Plur	7	obl	_	_
+9	всплеска	всплеск	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
+10	численности	численность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
+11	странных	странный	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	10	obl	_	_
+12	дрозофил	дрозофила	NOUN	_	Animacy=Anim|Case=Acc|Gender=Fem|Number=Plur	7	obj	_	_
+13	совсем	совсем	ADV	_	Degree=Pos	14	advmod	_	_
+14	скоро	скоро	ADV	_	Degree=Pos	7	advmod	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+
+# sent_id = 72
+# text = Но возможно непоправимое , если драйв нацелен на полное истребление вида .
+1	Но	но	CCONJ	_	_	2	cc	_	_
+2	возможно	возможно	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	непоправимое	непоправимый	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	если	если	SCONJ	_	_	7	mark	_	_
+6	драйв	драйв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	7	nsubj:pass	_	_
+7	нацелен	нацеливать	VERB	_	Aspect=Perf|Gender=Masc|Number=Sing|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	2	advcl	_	_
+8	на	на	ADP	_	_	10	case	_	_
+9	полное	полный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	10	amod	_	_
+10	истребление	истребление	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	obl	_	_
+11	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\n
+
+# sent_id = 73
+# text = Тревожит и то , что технология , необходимая для генетического конструирования организма и добавления генного драйва , доступна практически любой лаборатории в мире .
+1	Тревожит	тревожить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	и	и	PART	_	_	3	discourse	_	_
+3	то	то	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	1	nsubj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	18	mark	_	_
+6	технология	технология	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	18	nsubj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	необходимая	необходимый	ADJ	_	Case=Nom|Degree=Pos|Gender=Fem|Number=Sing	6	amod	_	_
+9	для	для	ADP	_	_	11	case	_	_
+10	генетического	генетический	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	конструирования	конструирование	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	8	obl	_	_
+12	организма	организм	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	добавления	добавление	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	12	conj	_	_
+15	генного	генный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	драйва	драйв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	доступна	доступный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	3	acl	_	_
+19	практически	практически	ADV	_	Degree=Pos	20	obl	_	_
+20	любой	любой	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	21	amod	_	_
+21	лаборатории	лаборатория	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	18	obl	_	_
+22	в	в	ADP	_	_	23	case	_	_
+23	мире	мир	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	21	nmod	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+
+# sent_id = 74
+# text = Справится даже студент .
+1	Справится	справляться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+2	даже	даже	PART	_	_	3	discourse	_	_
+3	студент	студент	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	nsubj	_	_
+4	.	.	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+
+# sent_id = 75
+# text = Даже одарённый старшеклассник , у которого есть оборудование .
+1	Даже	даже	PART	_	_	2	discourse	_	_
+2	одарённый	одарить	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	старшеклассник	старшеклассник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	у	у	ADP	_	_	6	case	_	_
+6	которого	который	PRON	_	Case=Gen	7	obl	_	_
+7	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	acl:relcl	_	_
+8	оборудование	оборудование	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	7	nsubj	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\n
+
+# sent_id = 76
+# text = Должно быть , мои слова вас ужасают .
+1	Должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	7	parataxis	_	_
+2	быть	быть	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	1	xcomp	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	мои	мой	DET	_	Case=Nom|Number=Plur	5	det	_	_
+5	слова	слово	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Plur	7	nsubj	_	_
+6	вас	вы	PRON	_	Case=Acc|Number=Plur|Person=2	7	obj	_	_
+7	ужасают	ужасать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\n
+
+# sent_id = 77
+# text = Тем не менее любопытно , что почти все мои собеседники-учёные считают , что в генном драйве нет ничего страшного или опасного .
+1	Тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	4	discourse	_	_
+2	не	не	PART	_	Polarity=Neg	1	fixed	_	_
+3	менее	менее	ADV	_	Degree=Cmp	1	fixed	_	_
+4	любопытно	любопытный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	что	что	SCONJ	_	_	13	mark	_	_
+7	почти	почти	ADV	_	Degree=Pos	8	obl	_	_
+8	все	весь	DET	_	Case=Nom|Number=Plur	10	det	_	_
+9	мои	мой	DET	_	Case=Nom|Number=Plur	10	det	_	_
+10	собеседники	собеседник	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	SpaceAfter=No
+11	-	-	PUNCT	_	_	10	punct	_	SpaceAfter=No
+12	учёные	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	10	appos	_	_
+13	считают	считать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	что	что	SCONJ	_	_	19	mark	_	_
+16	в	в	ADP	_	_	18	case	_	_
+17	генном	гать	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	драйве	драйв	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	19	obl	_	_
+19	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	ccomp	_	_
+20	ничего	ничто	PRON	_	Case=Gen	19	nsubj	_	_
+21	страшного	страшный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	20	amod	_	_
+22	или	или	CCONJ	_	_	23	cc	_	_
+23	опасного	опасный	ADJ	_	Case=Gen|Degree=Pos|Gender=Neut|Number=Sing	21	conj	_	_
+24	.	.	PUNCT	_	_	23	punct	_	SpacesAfter=\s\s
+
+# sent_id = 78
+# text = Отчасти из-за уверенности , что учёные будут очень осторожно и ответственно применять его .
+1	Отчасти	отчасти	ADV	_	Degree=Pos	3	obl	_	_
+2	из-за	из-за	ADP	_	_	3	case	_	_
+3	уверенности	уверенность	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	0	root	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	12	mark	_	_
+6	учёные	ученый	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	12	nsubj	_	_
+7	будут	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	aux	_	_
+8	очень	очень	ADV	_	Degree=Pos	9	advmod	_	_
+9	осторожно	осторожно	ADV	_	Degree=Pos	12	advmod	_	_
+10	и	и	CCONJ	_	_	11	cc	_	_
+11	ответственно	ответственно	ADV	_	Degree=Pos	9	conj	_	_
+12	применять	применять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	3	acl	_	_
+13	его	он	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Person=3	12	obj	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\n
+
+# sent_id = 79
+# text = Пока что так и есть .
+1	Пока	пока	ADV	_	Degree=Pos	5	mark	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	_
+3	так	так	ADV	_	Degree=Pos	5	advmod	_	_
+4	и	и	PART	_	_	5	discourse	_	_
+5	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 80
+# text = К тому же у генного драйва есть и свои ограничения .
+1	К	к	ADP	_	_	2	case	_	_
+2	тому	то	PRON	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	7	obl	_	_
+3	же	же	PART	_	_	2	discourse	_	_
+4	у	в	ADP	_	_	6	case	_	_
+5	генного	генный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	драйва	драйв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
+7	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+8	и	и	PART	_	_	9	discourse	_	_
+9	свои	свой	DET	_	Case=Acc|Number=Plur	10	det	_	_
+10	ограничения	ограничение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	7	nsubj	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 81
+# text = Во-первых , он подходит только видам , размножающимся половым путём .
+1	Во-первых	во-первых	ADV	_	Degree=Pos	4	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	он	он	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
+4	подходит	подходить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	только	только	PART	_	_	6	advmod	_	_
+6	видам	вид	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	4	iobj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	размножающимся	размножаться	VERB	_	Aspect=Imp|Case=Dat|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Mid	6	acl	_	_
+9	половым	половой	ADJ	_	Case=Ins|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	путём	путь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Sing	8	obl	_	_
+11	.	.	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+
+# sent_id = 82
+# text = Так что , на наше счастье , с его помощью нельзя создать вирусы и бактерии .
+1	Так	так	ADV	_	Degree=Pos	11	mark	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	_
+3	,	,	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+4	на	на	ADP	_	_	6	case	_	_
+5	наше	наш	DET	_	Case=Acc|Gender=Neut|Number=Sing	6	det	_	_
+6	счастье	счастье	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	12	obl	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	с	с	ADP	_	_	10	case	_	_
+9	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
+10	помощью	помощь	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	11	obl	_	_
+11	нельзя	нельзя	ADV	_	Degree=Pos	0	root	_	_
+12	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	11	csubj	_	_
+13	вирусы	вирус	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	12	obj	_	_
+14	и	и	CCONJ	_	_	15	cc	_	_
+15	бактерии	бактерия	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Plur	13	conj	_	_
+16	.	.	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+
+# sent_id = 83
+# text = Также признак распространяется только с каждым следующим поколением .
+1	Также	также	ADV	_	Degree=Pos	3	advmod	_	_
+2	признак	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	_
+3	распространяется	распространять	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	только	только	PART	_	_	8	advmod	_	_
+5	с	с	ADP	_	_	8	case	_	_
+6	каждым	каждый	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+7	следующим	следующий	ADJ	_	Case=Ins|Degree=Pos|Gender=Neut|Number=Sing	8	amod	_	_
+8	поколением	поколение	NOUN	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	3	obl	_	_
+9	.	.	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+
+# sent_id = 84
+# text = Так что изменить или истребить популяцию получится , только если у вида короткий репродуктивный цикл , как у насекомых или мелких позвоночных -- мышей и рыб .
+1	Так	так	ADV	_	Degree=Pos	7	mark	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	_
+3	изменить	изменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	csubj	_	_
+4	или	или	CCONJ	_	_	5	cc	_	_
+5	истребить	истребить	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	conj	_	_
+6	популяцию	популяция	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+7	получится	получаться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	0	root	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	только	только	PART	_	_	12	advmod	_	_
+10	если	если	SCONJ	_	_	12	mark	_	_
+11	у	в	ADP	_	_	12	case	_	_
+12	вида	вид	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	7	advcl	_	_
+13	короткий	короткий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+14	репродуктивный	репродуктивный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	15	amod	_	_
+15	цикл	цикл	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+16	,	,	PUNCT	_	_	15	punct	_	SpacesAfter=\s\s
+17	как	как	SCONJ	_	_	19	mark	_	_
+18	у	в	ADP	_	_	19	case	_	_
+19	насекомых	насекомое	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	15	acl	_	_
+20	или	или	CCONJ	_	_	22	cc	_	_
+21	мелких	мелкий	ADJ	_	Case=Gen|Degree=Pos|Number=Plur	22	amod	_	_
+22	позвоночных	позвоночное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	19	conj	_	_
+23	-	-	PUNCT	_	_	22	punct	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	22	punct	_	_
+25	мышей	мышь	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	19	nmod	_	_
+26	и	и	CCONJ	_	_	27	cc	_	_
+27	рыб	рыба	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	25	conj	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+
+# sent_id = 85
+# text = Но уйдут века , прежде чем среди слонов или людей признак распространится достаточно широко .
+1	Но	но	CCONJ	_	_	2	cc	_	_
+2	уйдут	уходить	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	века	век	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	2	obj	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	прежде	прежде	ADV	_	Degree=Pos	12	mark	_	_
+6	чем	чем	SCONJ	_	_	5	fixed	_	_
+7	среди	среди	ADP	_	_	8	case	_	_
+8	слонов	слон	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	12	obl	_	_
+9	или	или	CCONJ	_	_	10	cc	_	_
+10	людей	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	8	conj	_	_
+11	признак	признак	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+12	распространится	распространяться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	2	advcl	_	_
+13	достаточно	достаточно	ADV	_	Degree=Pos	14	advmod	_	_
+14	широко	широко	ADV	_	Degree=Pos	12	advmod	_	_
+15	.	.	PUNCT	_	_	14	punct	_	SpacesAfter=\s\n
+
+# sent_id = 86
+# text = И даже применяя CRISPR , не так-то легко создать по-настоящему губительный признак .
+1	И	и	CCONJ	_	_	8	cc	_	_
+2	даже	даже	PART	_	_	3	discourse	_	_
+3	применяя	применять	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+4	CRISPR	Crispr	PROPN	_	Foreign=Yes	3	flat:foreign	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	не	не	PART	_	_	7	advmod	_	_
+7	так-то	так-то	ADV	_	Degree=Pos	8	obl	_	_
+8	легко	легкий	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+9	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	8	csubj	_	_
+10	по-настоящему	по-настоящему	ADV	_	Degree=Pos	11	obl	_	_
+11	губительный	губительный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	12	amod	_	_
+12	признак	признак	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+13	.	.	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+
+# sent_id = 87
+# text = Скажем , вы хотите создать дрозофилу , которая питалась бы свежими фруктами , а не гниющими , чтобы саботировать сельское хозяйство Америки .
+1	Скажем	сказать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=1|Tense=Fut|VerbForm=Fin|Voice=Act	4	parataxis	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	4	nsubj	_	_
+4	хотите	хотеть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	xcomp	_	_
+6	дрозофилу	дрозофила	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	5	obj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	которая	который	PRON	_	Case=Nom	9	nsubj	_	_
+9	питалась	питаться	VERB	_	Aspect=Perf|Gender=Fem|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Mid	6	acl:relcl	_	_
+10	бы	бы	PART	_	Mood=Cnd	9	aux	_	_
+11	свежими	свежий	ADJ	_	Case=Ins|Degree=Pos|Number=Plur	12	amod	_	_
+12	фруктами	фрукт	NOUN	_	Animacy=Inan|Case=Ins|Gender=Masc|Number=Plur	9	obl	_	_
+13	,	,	PUNCT	_	_	12	punct	_	SpacesAfter=\s\s
+14	а	а	CCONJ	_	_	16	cc	_	_
+15	не	не	PART	_	_	16	advmod	_	_
+16	гниющими	гниющий	VERB	_	Aspect=Imp|Case=Ins|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	12	conj	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	чтобы	что	SCONJ	_	Mood=Cnd	19	mark	_	_
+19	саботировать	саботировать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	9	advcl	_	_
+20	сельское	сельский	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	21	amod	_	_
+21	хозяйство	хозяйство	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	19	obj	_	_
+22	Америки	америка	PROPN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	21	nmod	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 88
+# text = Для начала придётся выяснить , какие гены в ответе за то , что предпочитает есть мушка , -- а этот процесс сам по себе долгий и сложный .
+1	Для	для	ADP	_	_	2	case	_	_
+2	начала	начало	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	3	obl	_	_
+3	придётся	прийтись	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+4	выяснить	выяснять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	какие	какой	DET	_	Case=Nom|Number=Plur	7	det	_	_
+7	гены	ген	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	obj	_	_
+8	в	в	ADP	_	_	9	case	_	_
+9	ответе	ответ	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	7	nmod	_	_
+10	за	за	ADP	_	_	11	case	_	_
+11	то	то	PRON	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	7	nmod	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	что	что	PRON	_	Case=Nom	14	nsubj	_	_
+14	предпочитает	предпочитать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	acl	_	_
+15	есть	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
+16	мушка	мушка	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	14	obl	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+19	-	-	PUNCT	_	_	16	punct	_	_
+20	а	а	CCONJ	_	_	26	cc	_	_
+21	этот	этот	DET	_	Case=Nom|Gender=Masc|Number=Sing	22	det	_	_
+22	процесс	процесс	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	26	nsubj	_	_
+23	сам	сам	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	obl	_	_
+24	по	по	ADP	_	_	25	case	_	_
+25	себе	себя	PRON	_	Case=Dat	23	nmod	_	_
+26	долгий	долгий	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	16	conj	_	_
+27	и	и	CCONJ	_	_	28	cc	_	_
+28	сложный	сложный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	26	conj	_	_
+29	.	.	PUNCT	_	_	28	punct	_	SpacesAfter=\s\s
+
+# sent_id = 89
+# text = Потом нужно будет изменить эти гены , чтобы повлиять на её поведение в нужную вам сторону -- а это ещё более долгое и сложное предприятие .
+1	Потом	потом	ADV	_	Degree=Pos	2	advmod	_	_
+2	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	будет	быть	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+4	изменить	изменять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	2	csubj	_	_
+5	эти	этот	DET	_	Case=Acc|Number=Plur	6	det	_	_
+6	гены	ген	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	4	obj	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	чтобы	чтобы	SCONJ	_	Mood=Cnd	9	mark	_	_
+9	повлиять	влиять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	4	advcl	_	_
+10	на	на	ADP	_	_	12	case	_	_
+11	её	она	DET	_	Case=Acc|Gender=Neut|Number=Sing	12	det	_	_
+12	поведение	поведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	9	obl	_	_
+13	в	в	ADP	_	_	16	case	_	_
+14	нужную	нужный	ADJ	_	Case=Acc|Degree=Pos|Gender=Fem|Number=Sing	16	amod	_	_
+15	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	14	iobj	_	_
+16	сторону	сторона	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	9	obl	_	_
+17	-	-	PUNCT	_	_	16	punct	_	SpaceAfter=No
+18	-	-	PUNCT	_	_	16	punct	_	_
+19	а	а	CCONJ	_	_	26	cc	_	_
+20	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	26	nsubj	_	_
+21	ещё	еще	ADV	_	Degree=Pos	22	advmod	_	_
+22	более	более	ADV	_	Degree=Cmp	23	obl	_	_
+23	долгое	долгий	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	26	amod	_	_
+24	и	и	CCONJ	_	_	25	cc	_	_
+25	сложное	сложный	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	23	conj	_	_
+26	предприятие	предприятие	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	conj	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 90
+# text = И это может не сработать , ведь гены , контролирующие поведение , сложны .
+1	И	и	CCONJ	_	_	3	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+3	может	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	не	не	PART	_	_	5	advmod	_	_
+5	сработать	срабатывать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	3	xcomp	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	ведь	ведь	SCONJ	_	_	13	mark	_	_
+8	гены	ген	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	_
+9	,	,	PUNCT	_	_	8	punct	_	SpacesAfter=\s\s
+10	контролирующие	контролировать	VERB	_	Aspect=Imp|Case=Nom|Number=Plur|Tense=Pres|VerbForm=Part|Voice=Act	8	acl	_	_
+11	поведение	поведение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	10	obj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	сложны	сложный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	advcl	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 91
+# text = Так что если вы террорист перед дилеммой : приступить к утомительным научным исследованиям , которые займут годы кропотливой работы и могут не дать результата , или устраивать взрывы -- вы , скорее всего , выберете второе .
+1	Так	так	ADV	_	Degree=Pos	0	root	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	_
+3	если	если	SCONJ	_	_	5	mark	_	_
+4	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	5	nsubj	_	_
+5	террорист	террорист	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Sing	1	advcl	_	_
+6	перед	перед	ADP	_	_	7	case	_	_
+7	дилеммой	дилемма	NOUN	_	Animacy=Inan|Case=Ins|Gender=Fem|Number=Sing	5	nmod	_	_
+8	:	:	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	приступить	приступать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	parataxis	_	_
+10	к	к	ADP	_	_	13	case	_	_
+11	утомительным	утомительный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	amod	_	_
+12	научным	научный	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	amod	_	_
+13	исследованиям	исследование	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Plur	9	obl	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	которые	который	PRON	_	Case=Nom	16	nsubj	_	_
+16	займут	занимать	VERB	_	Aspect=Perf|Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	13	acl:relcl	_	_
+17	годы	год	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	16	obj	_	_
+18	кропотливой	кропотливый	ADJ	_	Case=Gen|Degree=Pos|Gender=Fem|Number=Sing	19	amod	_	_
+19	работы	работа	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	_
+20	и	и	CCONJ	_	_	21	cc	_	_
+21	могут	мочь	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	conj	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	дать	давать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	21	xcomp	_	_
+24	результата	результат	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	или	или	CCONJ	_	_	27	cc	_	_
+27	устраивать	устраивать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	16	conj	_	_
+28	взрывы	взрыв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	27	obj	_	_
+29	-	-	PUNCT	_	_	28	punct	_	SpaceAfter=No
+30	-	-	PUNCT	_	_	28	punct	_	_
+31	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	36	nsubj	_	_
+32	,	,	PUNCT	_	_	31	punct	_	SpacesAfter=\s\s
+33	скорее	скорее	ADV	_	Degree=Pos	36	parataxis	_	_
+34	всего	все	PRON	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Sing	33	obl	_	_
+35	,	,	PUNCT	_	_	34	punct	_	SpacesAfter=\s\s
+36	выберете	выбрать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	9	parataxis	_	_
+37	второе	второй	ADJ	_	Case=Acc|Degree=Pos|Gender=Neut|Number=Sing	36	obj	_	_
+38	.	.	PUNCT	_	_	37	punct	_	SpacesAfter=\s\n
+
+# sent_id = 92
+# text = Это вдвойне верно -- ведь по крайней мере в теории должно быть несложно создать так называемый реверсивный драйв , который перезапишет те изменения , что внёс первый генный драйв .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	3	nsubj	_	_
+2	вдвойне	вдвойне	ADV	_	Degree=Pos	3	obl	_	_
+3	верно	верно	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+4	-	-	PUNCT	_	_	3	punct	_	SpaceAfter=No
+5	-	-	PUNCT	_	_	3	punct	_	_
+6	ведь	ведь	PART	_	_	11	discourse	_	_
+7	по	по	ADP	_	_	11	advmod	_	_
+8	крайней	крайний	ADJ	_	Case=Dat|Degree=Pos|Gender=Fem|Number=Sing	7	fixed	_	_
+9	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	7	fixed	_	_
+10	в	в	ADP	_	_	11	case	_	_
+11	теории	теория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	12	obl	_	_
+12	должно	должен	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	14	nsubj	_	_
+13	быть	быть	AUX	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	cop	_	_
+14	несложно	несложный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	3	parataxis	_	_
+15	создать	создавать	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	12	xcomp	_	_
+16	так	так	ADV	_	Degree=Pos	17	advmod	_	_
+17	называемый	называть	VERB	_	Animacy=Inan|Aspect=Imp|Case=Acc|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	19	acl	_	_
+18	реверсивный	реверсивный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	драйв	драйв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	15	obj	_	_
+20	,	,	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+21	который	который	PRON	_	Case=Nom	22	nsubj	_	_
+22	перезапишет	перезаписывать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	19	acl:relcl	_	_
+23	те	тот	DET	_	Case=Acc|Number=Plur	24	det	_	_
+24	изменения	изменение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	22	obj	_	_
+25	,	,	PUNCT	_	_	24	punct	_	SpacesAfter=\s\s
+26	что	чтобы	SCONJ	_	_	27	mark	_	_
+27	внёс	внести	VERB	_	Aspect=Perf|Gender=Masc|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	24	acl	_	_
+28	первый	первый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+29	генный	генный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	30	amod	_	_
+30	драйв	драйв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	27	nsubj	_	_
+31	.	.	PUNCT	_	_	30	punct	_	SpacesAfter=\s\s
+
+# sent_id = 93
+# text = Если вам не понравится результат изменений , вы выпустите второй драйв , который их отменит -- по крайне мере в теории .
+1	Если	если	SCONJ	_	_	4	mark	_	_
+2	вам	вы	PRON	_	Case=Dat|Number=Plur|Person=2	4	iobj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	понравится	понравиться	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Mid	9	advcl	_	_
+5	результат	результат	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	4	nsubj	_	_
+6	изменений	изменение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	5	nmod	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	9	nsubj	_	_
+9	выпустите	выпускать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+10	второй	второй	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	драйв	драйв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	9	obj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	который	который	PRON	_	Case=Nom	15	nsubj	_	_
+14	их	они	PRON	_	Case=Acc|Number=Plur|Person=3	15	obj	_	_
+15	отменит	отменять	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	11	acl:relcl	_	_
+16	-	-	PUNCT	_	_	15	punct	_	SpaceAfter=No
+17	-	-	PUNCT	_	_	15	punct	_	_
+18	по	по	ADP	_	_	19	case	_	_
+19	крайне	крайне	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	obl	_	_
+20	мере	мера	NOUN	_	Animacy=Inan|Case=Dat|Gender=Fem|Number=Sing	15	iobj	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	теории	теория	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Sing	20	nmod	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\n
+
+# sent_id = 94
+# text = Так что же это значит для нас Теперь мы способны изменять целые виды по своему усмотрению .
+1	Так	так	ADV	_	Degree=Pos	5	advmod	_	_
+2	что	что	PRON	_	Case=Nom	5	nsubj	_	_
+3	же	же	PART	_	_	2	discourse	_	_
+4	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+5	значит	значить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+6	для	для	ADP	_	_	7	case	_	_
+7	нас	мы	PRON	_	Case=Gen|Number=Plur|Person=1	10	obl	_	_
+8	Теперь	теперь	ADV	_	Degree=Pos	10	advmod	_	_
+9	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	10	nsubj	_	_
+10	способны	способный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	5	parataxis	_	_
+11	изменять	изменять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	xcomp	_	_
+12	целые	целый	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Number=Plur	13	amod	_	_
+13	виды	вид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	11	obj	_	_
+14	по	по	ADP	_	_	16	case	_	_
+15	своему	свой	DET	_	Case=Dat|Gender=Neut|Number=Sing	16	det	_	_
+16	усмотрению	усмотрение	NOUN	_	Animacy=Inan|Case=Dat|Gender=Neut|Number=Sing	11	obl	_	_
+17	.	.	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+
+# sent_id = 95
+# text = Но стит ли Мы теперь боги В этом я не уверена .
+1	Но	но	CCONJ	_	_	2	cc	_	_
+2	стит	стать	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	0	root	_	_
+3	ли	ли	PART	_	_	2	discourse	_	_
+4	Мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	2	nsubj	_	_
+5	теперь	теперь	ADV	_	Degree=Pos	2	advmod	_	_
+6	боги	бог	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	11	nsubj	_	_
+7	В	в	ADP	_	_	8	case	_	_
+8	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	11	obl	_	_
+9	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	11	nsubj	_	_
+10	не	не	PART	_	_	11	advmod	_	_
+11	уверена	уверенный	ADJ	_	Degree=Pos|Gender=Fem|Number=Sing|Variant=Short	2	conj	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 96
+# text = Но я знаю вот что : во-первых , немало умных людей и сейчас обсуждают , как регулировать генный драйв .
+1	Но	но	CCONJ	_	_	3	cc	_	_
+2	я	я	PRON	_	Case=Nom|Number=Sing|Person=1	3	nsubj	_	_
+3	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	вот	вот	PART	_	_	3	discourse	_	_
+5	что	что	PRON	_	Case=Nom	3	obl	_	_
+6	:	:	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	во-первых	во-первых	ADV	_	Degree=Pos	9	parataxis	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	немало	немало	ADV	_	Degree=Pos	14	advmod	_	_
+10	умных	умный	ADJ	_	Animacy=Anim|Case=Acc|Degree=Pos|Number=Plur	11	amod	_	_
+11	людей	человек	NOUN	_	Animacy=Anim|Case=Acc|Gender=Masc|Number=Plur	14	obj	_	_
+12	и	и	CCONJ	_	_	13	cc	_	_
+13	сейчас	сейчас	ADV	_	Degree=Pos	11	conj	_	_
+14	обсуждают	обсуждать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	parataxis	_	_
+15	,	,	PUNCT	_	_	14	punct	_	SpacesAfter=\s\s
+16	как	как	SCONJ	_	_	17	mark	_	_
+17	регулировать	регулировать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	14	advcl	_	_
+18	генный	генный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	19	amod	_	_
+19	драйв	драйв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	17	obj	_	_
+20	.	.	PUNCT	_	_	19	punct	_	SpacesAfter=\s\s
+
+# sent_id = 97
+# text = В то же время другие умные люди заняты тем , что создают механизм защиты -- генный драйв , который саморегулируется или затухает за несколько поколений .
+1	В	в	ADP	_	_	4	case	_	_
+2	то	тот	DET	_	Case=Acc|Gender=Neut|Number=Sing	4	det	_	_
+3	же	же	PART	_	_	2	discourse	_	_
+4	время	время	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	8	obl	_	_
+5	другие	другой	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+6	умные	умный	ADJ	_	Case=Nom|Degree=Pos|Number=Plur	7	amod	_	_
+7	люди	человек	NOUN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	8	nsubj:pass	_	_
+8	заняты	занимать	VERB	_	Aspect=Perf|Number=Plur|Tense=Past|Variant=Short|VerbForm=Part|Voice=Pass	0	root	_	_
+9	тем	то	PRON	_	Animacy=Inan|Case=Ins|Gender=Neut|Number=Sing	8	obl	_	_
+10	,	,	PUNCT	_	_	9	punct	_	SpacesAfter=\s\s
+11	что	что	SCONJ	_	_	12	mark	_	_
+12	создают	создавать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl	_	_
+13	механизм	механизм	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	12	obj	_	_
+14	защиты	защита	NOUN	_	Animacy=Inan|Case=Gen|Gender=Fem|Number=Sing	13	nmod	_	_
+15	-	-	PUNCT	_	_	14	punct	_	SpaceAfter=No
+16	-	-	PUNCT	_	_	14	punct	_	_
+17	генный	генный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	18	amod	_	_
+18	драйв	драйв	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	12	nsubj	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	который	который	PRON	_	Case=Nom	21	nsubj:pass	_	_
+21	саморегулируется	саморегулируться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	18	acl:relcl	_	_
+22	или	или	CCONJ	_	_	23	cc	_	_
+23	затухает	затухать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	conj	_	_
+24	за	за	ADP	_	_	26	case	_	_
+25	несколько	несколько	NUM	_	Animacy=Inan|Case=Acc	26	nummod:gov	_	_
+26	поколений	поколение	NOUN	_	Animacy=Inan|Case=Gen|Gender=Neut|Number=Plur	23	obl	_	_
+27	.	.	PUNCT	_	_	26	punct	_	SpacesAfter=\s\s
+
+# sent_id = 98
+# text = Это здорово .
+1	Это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	2	nsubj	_	_
+2	здорово	здоровый	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	0	root	_	_
+3	.	.	PUNCT	_	_	2	punct	_	SpacesAfter=\s\s
+
+# sent_id = 99
+# text = Но эту технологию всё равно требуется обсуждать .
+1	Но	но	CCONJ	_	_	6	cc	_	_
+2	эту	этот	DET	_	Case=Acc|Gender=Fem|Number=Sing	3	det	_	_
+3	технологию	технология	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	7	obj	_	_
+4	всё	все	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	6	advmod	_	_
+5	равно	равный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	fixed	_	_
+6	требуется	требоваться	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Mid	0	root	_	_
+7	обсуждать	обсуждать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	6	csubj	_	_
+8	.	.	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+
+# sent_id = 100
+# text = И , учитывая природу генного драйва , обсуждать в мировом масштабе .
+1	И	и	CCONJ	_	_	8	cc	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	учитывая	учитывать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	8	advcl	_	_
+4	природу	природа	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	3	obj	_	_
+5	генного	генный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	6	amod	_	_
+6	драйва	драйв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+7	,	,	PUNCT	_	_	6	punct	_	SpacesAfter=\s\s
+8	обсуждать	обсуждать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+9	в	в	ADP	_	_	11	case	_	_
+10	мировом	мировой	ADJ	_	Case=Loc|Degree=Pos|Gender=Masc|Number=Sing	11	amod	_	_
+11	масштабе	масштаб	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	8	obl	_	_
+12	.	.	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+
+# sent_id = 101
+# text = Что , если Кения захочет применить драйв , а Танзания нет Кто разрешит применение генного драйва , передающегося по воздуху Я не знаю ответа на этот вопрос .
+1	Что	что	PRON	_	Case=Acc	0	root	_	_
+2	,	,	PUNCT	_	_	1	punct	_	SpacesAfter=\s\s
+3	если	если	SCONJ	_	_	5	mark	_	_
+4	Кения	Кение	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	5	nsubj	_	_
+5	захочет	захотеть	VERB	_	Aspect=Perf|Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin|Voice=Act	1	acl	_	_
+6	применить	применять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	5	xcomp	_	_
+7	драйв	драйв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	6	obj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	а	а	CCONJ	_	_	11	cc	_	_
+10	Танзания	танзания	PROPN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	11	nsubj	_	_
+11	нет	нет	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+12	Кто	кто	PRON	_	Case=Nom	13	nsubj	_	_
+13	разрешит	разрешить	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	conj	_	_
+14	применение	применение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	13	obj	_	_
+15	генного	генный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	16	amod	_	_
+16	драйва	драйв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+17	,	,	PUNCT	_	_	16	punct	_	SpacesAfter=\s\s
+18	передающегося	передаться	VERB	_	Aspect=Imp|Case=Gen|Gender=Masc|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Mid	16	acl	_	_
+19	по	по	ADP	_	_	20	case	_	_
+20	воздуху	воздух	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Sing	23	obl	_	SpacesAfter=\n
+21	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	23	nsubj	_	_
+22	не	не	PART	_	_	23	advmod	_	_
+23	знаю	знать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	18	parataxis	_	_
+24	ответа	ответ	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	23	obl	_	_
+25	на	на	ADP	_	_	27	case	_	_
+26	этот	этот	DET	_	Case=Acc|Gender=Masc|Number=Sing	27	det	_	_
+27	вопрос	вопрос	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	24	nmod	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+
+# sent_id = 102
+# text = Но в наших силах , продолжая исследования , правдиво говорить о рисках и преимуществах и нести ответственность за свои решения .
+1	Но	но	CCONJ	_	_	10	cc	_	_
+2	в	в	ADP	_	_	4	case	_	_
+3	наших	наш	DET	_	Case=Loc|Number=Plur	4	det	_	_
+4	силах	сила	NOUN	_	Animacy=Inan|Case=Loc|Gender=Fem|Number=Plur	10	obl	_	_
+5	,	,	PUNCT	_	_	4	punct	_	SpacesAfter=\s\s
+6	продолжая	продолжать	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Act	10	advcl	_	_
+7	исследования	исследование	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	6	obj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	правдиво	правдиво	ADV	_	Degree=Pos	10	advmod	_	_
+10	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	0	root	_	_
+11	о	о	ADP	_	_	12	case	_	_
+12	рисках	риск	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Plur	10	obl	_	_
+13	и	и	CCONJ	_	_	14	cc	_	_
+14	преимуществах	преимущество	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Plur	12	conj	_	_
+15	и	и	CCONJ	_	_	16	cc	_	_
+16	нести	нести	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	12	conj	_	_
+17	ответственность	ответственность	NOUN	_	Animacy=Inan|Case=Acc|Gender=Fem|Number=Sing	16	obj	_	_
+18	за	за	ADP	_	_	20	case	_	_
+19	свои	свой	DET	_	Case=Acc|Number=Plur	20	det	_	_
+20	решения	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Plur	17	nmod	_	_
+21	.	.	PUNCT	_	_	20	punct	_	SpacesAfter=\s\s
+
+# sent_id = 103
+# text = Я имею в виду не только решение применить генный драйв , но и решение его не применять .
+1	Я	я	PRON	_	Case=Nom|Number=Sing|Person=1	2	nsubj	_	_
+2	имею	иметь	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	в	в	ADP	_	_	2	advmod	_	_
+4	виду	вид	NOUN	_	Animacy=Inan|Case=Loc|Gender=Masc|Number=Sing	3	fixed	_	_
+5	не	не	PART	_	_	6	advmod	_	_
+6	только	только	PART	_	_	7	advmod	_	_
+7	решение	решение	NOUN	_	Animacy=Inan|Case=Acc|Gender=Neut|Number=Sing	2	obj	_	_
+8	применить	применять	VERB	_	Aspect=Perf|VerbForm=Inf|Voice=Act	7	obl	_	_
+9	генный	генный	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	10	amod	_	_
+10	драйв	драйв	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obj	_	_
+11	,	,	PUNCT	_	_	10	punct	_	SpacesAfter=\s\s
+12	но	но	CCONJ	_	_	17	cc	_	_
+13	и	и	PART	_	_	12	discourse	_	_
+14	решение	решение	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	17	nsubj	_	_
+15	его	он	PRON	_	Case=Gen|Gender=Masc|Number=Sing|Person=3	17	obl	_	_
+16	не	не	PART	_	_	17	advmod	_	_
+17	применять	применять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	7	conj	_	_
+18	.	.	PUNCT	_	_	17	punct	_	SpacesAfter=\s\s
+
+# sent_id = 104
+# text = Люди склонны полагать , что самый безопасный вариант -- сохранять статус-кво .
+1	Люди	человек	PROPN	_	Animacy=Anim|Case=Nom|Gender=Masc|Number=Plur	2	nsubj	_	_
+2	склонны	склонный	ADJ	_	Degree=Pos|Number=Plur|Variant=Short	0	root	_	_
+3	полагать	полагать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	xcomp	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	что	что	SCONJ	_	_	8	mark	_	_
+6	самый	самый	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	безопасный	безопасный	ADJ	_	Case=Nom|Degree=Pos|Gender=Masc|Number=Sing	8	amod	_	_
+8	вариант	вариант	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Sing	3	ccomp	_	_
+9	-	-	PUNCT	_	_	8	punct	_	SpaceAfter=No
+10	-	-	PUNCT	_	_	8	punct	_	_
+11	сохранять	сохранять	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	8	parataxis	_	_
+12	статус-	статус-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	кво	кво	ADV	_	Degree=Pos	11	advmod	_	_
+14	.	.	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+
+# sent_id = 105
+# text = Но это не всегда так .
+1	Но	но	CCONJ	_	_	5	cc	_	_
+2	это	это	PRON	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	_
+3	не	не	PART	_	_	4	advmod	_	_
+4	всегда	всегда	ADV	_	Degree=Pos	5	advmod	_	_
+5	так	так	ADV	_	Degree=Pos	0	root	_	_
+6	.	.	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+
+# sent_id = 106
+# text = У генного драйва есть риски , и о них нужно говорить , но малярия существует и убивает 1 000 человек в день .
+1	У	в	ADP	_	_	3	case	_	_
+2	генного	генный	ADJ	_	Case=Gen|Degree=Pos|Gender=Masc|Number=Sing	3	amod	_	_
+3	драйва	драйв	NOUN	_	Animacy=Inan|Case=Gen|Gender=Masc|Number=Sing	4	obl	_	_
+4	есть	быть	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+5	риски	риск	NOUN	_	Animacy=Inan|Case=Nom|Gender=Masc|Number=Plur	4	nsubj	_	_
+6	,	,	PUNCT	_	_	5	punct	_	SpacesAfter=\s\s
+7	и	и	CCONJ	_	_	10	cc	_	_
+8	о	о	ADP	_	_	9	case	_	_
+9	них	они	PRON	_	Case=Loc|Number=Plur|Person=3	11	obl	_	_
+10	нужно	нужный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	4	conj	_	_
+11	говорить	говорить	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	10	csubj	_	_
+12	,	,	PUNCT	_	_	11	punct	_	SpacesAfter=\s\s
+13	но	но	CCONJ	_	_	15	cc	_	_
+14	малярия	малярия	NOUN	_	Animacy=Inan|Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	_
+15	существует	существовать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+16	и	и	CCONJ	_	_	17	cc	_	_
+17	убивает	убивать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
+18	1	2	NUM	_	_	20	nummod	_	_
+19	000	000	NUM	_	_	20	nummod	_	_
+20	человек	человек	NOUN	_	Animacy=Anim|Case=Gen|Gender=Masc|Number=Plur	17	nsubj	_	_
+21	в	в	ADP	_	_	22	case	_	_
+22	день	день	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	20	nmod	_	_
+23	.	.	PUNCT	_	_	22	punct	_	SpacesAfter=\s\s
+
+# sent_id = 107
+# text = Борясь с ней , мы распыляем пестициды , которые серьёзно вредят другим видам , включая земноводных и птиц .
+1	Борясь	бороться	VERB	_	Aspect=Imp|Tense=Pres|VerbForm=Conv|Voice=Mid	6	advcl	_	_
+2	с	с	ADP	_	_	3	case	_	_
+3	ней	она	PRON	_	Case=Ins|Gender=Fem|Number=Sing|Person=3	1	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	мы	мы	PRON	_	Case=Nom|Number=Plur|Person=1	6	nsubj	_	_
+6	распыляем	распылять	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+7	пестициды	пестицид	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Plur	6	obj	_	_
+8	,	,	PUNCT	_	_	7	punct	_	SpacesAfter=\s\s
+9	которые	который	PRON	_	Case=Nom	11	nsubj	_	_
+10	серьёзно	серьезно	ADV	_	Degree=Pos	11	advmod	_	_
+11	вредят	вредить	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl:relcl	_	_
+12	другим	другой	ADJ	_	Case=Dat|Degree=Pos|Number=Plur	13	amod	_	_
+13	видам	вид	NOUN	_	Animacy=Inan|Case=Dat|Gender=Masc|Number=Plur	11	iobj	_	_
+14	,	,	PUNCT	_	_	13	punct	_	SpacesAfter=\s\s
+15	включая	включая	ADV	_	Degree=Pos	13	advmod	_	_
+16	земноводных	земноводное	NOUN	_	Animacy=Anim|Case=Gen|Gender=Neut|Number=Plur	15	obl	_	_
+17	и	и	CCONJ	_	_	18	cc	_	_
+18	птиц	птица	NOUN	_	Animacy=Anim|Case=Gen|Gender=Fem|Number=Plur	16	conj	_	_
+19	.	.	PUNCT	_	_	18	punct	_	SpacesAfter=\s\n
+
+# sent_id = 108
+# text = Так что когда вы в следующий раз услышите о генном драйве -- а вы о нём услышите , поверьте мне , -- вспомните об этом .
+1	Так	так	ADV	_	Degree=Pos	8	mark	_	_
+2	что	что	SCONJ	_	_	1	fixed	_	_
+3	когда	когда	ADV	_	Degree=Pos	8	advmod	_	_
+4	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	8	nsubj	_	_
+5	в	в	ADP	_	_	7	case	_	_
+6	следующий	следующий	ADJ	_	Animacy=Inan|Case=Acc|Degree=Pos|Gender=Masc|Number=Sing	7	amod	_	_
+7	раз	раз	NOUN	_	Animacy=Inan|Case=Acc|Gender=Masc|Number=Sing	8	obl	_	_
+8	услышите	услышать	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	20	advcl	_	_
+9	о	о	ADP	_	_	11	case	_	_
+10	генном	гать	ADJ	_	Case=Loc|Degree=Pos|Gender=Neut|Number=Sing	11	amod	_	_
+11	драйве	драйв	NOUN	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	8	obl	_	_
+12	-	-	PUNCT	_	_	11	punct	_	SpaceAfter=No
+13	-	-	PUNCT	_	_	11	punct	_	_
+14	а	а	CCONJ	_	_	18	cc	_	_
+15	вы	вы	PRON	_	Case=Nom|Number=Plur|Person=2	18	nsubj	_	_
+16	о	о	ADP	_	_	17	case	_	_
+17	нём	он	PRON	_	Case=Loc|Gender=Masc|Number=Sing|Person=3	18	obl	_	_
+18	услышите	услышать	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
+19	,	,	PUNCT	_	_	18	punct	_	SpacesAfter=\s\s
+20	поверьте	поверить	VERB	_	Aspect=Perf|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
+21	мне	я	PRON	_	Case=Dat|Number=Sing|Person=1	20	iobj	_	_
+22	,	,	PUNCT	_	_	21	punct	_	SpacesAfter=\s\s
+23	-	-	PUNCT	_	_	21	punct	_	SpaceAfter=No
+24	-	-	PUNCT	_	_	21	punct	_	_
+25	вспомните	вспоминать	VERB	_	Aspect=Imp|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	20	parataxis	_	_
+26	об	о	ADP	_	_	27	case	_	_
+27	этом	это	PRON	_	Animacy=Inan|Case=Loc|Gender=Neut|Number=Sing	25	obl	_	_
+28	.	.	PUNCT	_	_	27	punct	_	SpacesAfter=\s\s
+
+# sent_id = 109
+# text = Действовать бывает страшно , но бездействие порой гораздо хуже .
+1	Действовать	действовать	VERB	_	Aspect=Imp|VerbForm=Inf|Voice=Act	2	csubj	_	_
+2	бывает	бывать	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	страшно	страшный	ADJ	_	Degree=Pos|Gender=Neut|Number=Sing|Variant=Short	2	obl	_	_
+4	,	,	PUNCT	_	_	3	punct	_	SpacesAfter=\s\s
+5	но	но	CCONJ	_	_	9	cc	_	_
+6	бездействие	бездействие	NOUN	_	Animacy=Inan|Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	_
+7	порой	порой	ADV	_	Degree=Pos	9	obl	_	_
+8	гораздо	гораздо	ADV	_	Degree=Pos	9	obl	_	_
+9	хуже	плохой	ADJ	_	Degree=Cmp	2	conj	_	_
+10	.	.	PUNCT	_	_	9	punct	_	SpacesAfter=\s\n
+
