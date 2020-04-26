@@ -5,17 +5,28 @@ expected structure of folders: we store names of the last three folders as level
 (1) the last folder is language (en, ru)
 (2) the last but one is status (professional/student, reference, source (in the current project it duplicates the lang folder for the sake of structure)
 (3) the last but two is source of data (authors, corpora, genres/registers)
+For example:
+# data hierachy: /your/path/anylength/parsed/register/status/lang/*.conllu, where parsed is the name of the input folder
 
-USAGE: python3 mega_collector.py
+USAGE (from extract_translationese_features folder!): python3 mega_collector.py --input parsed/ --output mockdata.tsv --langs en ru
 '''
 
+import os, sys
 import csv
 from extractors import *
 
-rootdir = "./extract_translationese_features/"
-input_dir = rootdir + 'parsed_data/good-bad/'
-print('======', input_dir)
-outname = rootdir + 'good-bad.tsv'
+import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--input', help="Path to the tree of folders with *.conllu named after your text categories", required=True)
+# processed makes sense as a dirname
+parser.add_argument('--output', default='mock_data.tsv', help="Path to, and name of, the resulting spreadsheet")
+parser.add_argument('--langs', nargs='+', default=['en','ru'], help='Pass language indices like so: --langs en ru')
+
+args = parser.parse_args()
+
+input_dir = args.input  # parsed/
+outname = args.output  # mock_data.tsv
 
 # here, for each file we collect counts averaged over number of words or number of sentences
 ## muted features: passives interrog andor wdlength mark nn
@@ -28,7 +39,7 @@ keys = 'afile alang aregister astatus ' \
 master_dict = {k: [] for k in keys}
 
 basic_stats = {}
-languages = ['en', 'ru']  # 'de',
+languages = args.langs  # 'de',
 
 adv_support = {}
 mpred_support = {}
@@ -76,10 +87,10 @@ for subdir, dirs, files in os.walk(input_dir):
     for i, file in enumerate(files):
         filepath = subdir + os.sep + file
         last_folder = subdir + os.sep
-        lang_folder = len(os.path.abspath(last_folder).split('/')) - 1  # 'ru' # 'en', 'de'
+        lang_folder = len(os.path.abspath(last_folder).split('/')) - 1  # 'ru', 'en'
         language = os.path.abspath(last_folder).split('/')[lang_folder]
         
-        # data hierachy: /your/path/anylength/parsed/croco/pro/de/*.conllu
+        # data hierachy: /your/path/anylength/register/status/lang/*.conllu
         
         # this collects counts for every sentence in a document
         # prepare for writing metadata:
@@ -88,7 +99,7 @@ for subdir, dirs, files in os.walk(input_dir):
         
         if i % 50 == 0:
             print('I have processed %s files from %s' % (i, meta_str.upper()), file=sys.stderr)
-            print('So far I have ignored %d all-punct-num sentences and %d less-than-4-words sents' % (
+            print('I have ignored %d all-punct-num sentences and %d less-than-4-words sents\n' % (
             tot_bads, tot_shorts))
         # don't forget the filename
         doc = os.path.splitext(os.path.basename(last_folder + filepath))[0]  # without extention
