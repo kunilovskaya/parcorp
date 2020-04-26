@@ -20,30 +20,36 @@ The script expects:
 
 USAGE:
 -- go to parsing folder
--- run: python3 multiling2conllu2lempos.py --texts ../cleandata/mock_data/ --outto ../mock_parse/ --langs en ru
+-- run: python3 multiling2conllu2lempos.py --rootdir clean/ --depth 3 --langs en ru --lempos
 '''
+
+
 import os, sys
 from ufal.udpipe import Model, Pipeline
 import time
 import argparse
-from cleaners_parsers import do_conllu_only, do_job
+from cleaners_parsers import do_conllu_only, do_conllu_lempos
 from smart_open import open
+
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--rootdir', help="Path to a folder (or a tree of folders) of prepared txt files", required=True)
-parser.add_argument('--conllu_out', help="Path to the root folder to hold the resulting parsed data", required=True)
-parser.add_argument('--lempos_out', help="Path to the root folder to hold the resulting UD-tagged texts", required=True)
+parser.add_argument('--lempos', action="store_true", help="Use this flag if you want UD-tagged output saved to lempos/ folder")
 parser.add_argument('--langs', nargs='+', default=['en','ru'], help='Pass language indices like so: --langs en ru')
+parser.add_argument('--depth', default=3, type=int, help='Depth of the folder structure under rootdir. Example: for clean/ted/ref/ru/ depth=3')
 args = parser.parse_args()
 
 start = time.time()
 
-parse_out = args.conllu_out
-os.makedirs(parse_out, exist_ok=True)
 languages = args.langs
 
-# do you really want lempos too?
-conllu_only = True
+parse_out = 'conllu/'
+os.makedirs(parse_out, exist_ok=True)
+if args.lempos:
+    lemp_out = 'lempos/'
+    os.makedirs(lemp_out, exist_ok=True)
+else:
+    lemp_out = None
 
 for language in languages:
     if language == 'ru':
@@ -59,72 +65,53 @@ for language in languages:
         print('Did yoy forget to indicate the language with the script argument --lang, ex. --lang en ?')
 
 print('UD models loaded')
-print('If you get no output and no errors, check the path to the cleandata')
+print('If you get no output and no errors, check the path to the input')
+
 
 counter = 0
-for subdir, dirs, files in os.walk(args.texts):
+for subdir, dirs, files in os.walk(args.rootdir):
     for id, f in enumerate(files):
-        last_folder = subdir + os.sep
+        last_folder = subdir
         lang_folder = len(os.path.abspath(last_folder).split('/')) - 1
         lang = os.path.abspath(last_folder).split('/')[lang_folder]
-    
-        if conllu_only:
-            out = parse_out + '/'.join(last_folder.split('/')[-4:-1]) + '/'
-            os.makedirs(out, exist_ok=True)
-            counter += 1
-            filepath = subdir + os.sep + f
-            with open(filepath, 'r', errors='ignore') as input_text:
-                ud_outf = out + f.replace('.txt', '.conllu')
-    
-                try:
-                    text = input_text.read().strip()
-                except UnicodeDecodeError:
-                    print('Failed to read:', f)
-                    continue
-                if lang == 'en':
-                    do_conllu_only(en_pipeline, text, lang, ud_outf)
-                elif lang == 'ru':
-                    do_conllu_only(ru_pipeline, text, lang, ud_outf)
-    
-                ### Monitor processing:
-                if counter % 50 == 0:
-                    print('%s files processed' % counter, file=sys.stderr)
+        
+        udout = parse_out + '/'.join(last_folder.split('/')[-args.depth:]) + '/'
+        os.makedirs(udout, exist_ok=True)
+        ud_outf = udout + f.replace('.txt', '.conllu')
+        
+        if args.lempos:
+            lempos = lemp_out + '/'.join(last_folder.split('/')[-args.depth:]) + '/'
+            os.makedirs(lempos, exist_ok=True)
+            lempos_outf = lempos + f.replace('.txt', '.lempos')
         else:
-            out = rootout + '/'.join(last_folder.split('/')[-4:-1])
-            os.makedirs(out, exist_ok=True)
-            
-            txt_out = out + '/sent_tok/'
-            os.makedirs(txt_out, exist_ok=True)
-            
-            conllu_out = out + '/conllu/'
-            os.makedirs(conllu_out, exist_ok=True)
-            
-            lempos_out = out + '/lempos/'
-            os.makedirs(lempos_out, exist_ok=True)
-
-            counter += 1
-            filepath = subdir + os.sep + f
-            with open(filepath, 'r', errors='ignore') as input_text:
-                txt_outf = txt_out + f
-                ud_outf = conllu_out + f.replace('.txt', '.conllu')
-                temp_outf = out + f.replace('.txt', '.temp')
-                lempos_outf = lempos_out + f.replace('.txt', '.lempos')
-    
-                try:
-                    text = input_text.read().strip()
-                except UnicodeDecodeError:
-                    print(f)
-                    continue
-                # select txt_sents=False if you don't want one-sentence-per-line format!
+            lempos=None
+            lempos_outf=None
+        
+        counter += 1
+        filepath = subdir + os.sep + f
+        with open(filepath, 'r', errors='ignore') as input_text:
+            try:
+                text = input_text.read().strip()
+            except UnicodeDecodeError:
+                print('Unicode error in input file: %s; skipping it' % f)
+                continue
+                
+            if args.lempos:
                 if lang == 'en':
-                    do_job(en_pipeline, text, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True, lang=lang)
+                    do_conllu_lempos(en_pipeline, text, ud_outf, lempos_outf, lang=lang)
                 elif lang == 'ru':
-                    do_job(ru_pipeline, text, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True, lang=lang)
+                    do_conllu_lempos(ru_pipeline, text, ud_outf, lempos_outf, lang=lang)
                     
-                ### Monitor processing:
-                if counter % 50 == 0:
-                    print('%s files processed' % counter, file=sys.stderr)
+            else:
+                if lang == 'en':
+                    do_conllu_only(en_pipeline, text, ud_outf, lang=lang)
+                elif lang == 'ru':
+                    do_conllu_only(ru_pipeline, text, ud_outf, lang=lang)
+                    
+            ### Monitor progress:
+            if counter % 10 == 0:
+                print('%s files processed' % counter, file=sys.stderr)
 
 end = time.time()
 processing_time = int(end - start)
-print('Processing %s (%s files) took %.2f minites' % (args.texts, counter, processing_time / 60), file=sys.stderr)
+print('Processing %s (%s files) took %.2f minites' % (args.rootdir, counter, processing_time / 60), file=sys.stderr)

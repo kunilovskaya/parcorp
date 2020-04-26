@@ -1,14 +1,9 @@
 # coding: utf-8
 
-## this module contains proprocessing functions: cleaning the texts, unifying characters and annotating with UDpipe
-## set the lang to get the right UD model!!
+# this module contains proprocessing functions: cleaning the texts, unifying characters and annotating with UDpipe
+# set the lang to get the right UD model!!
 
-import sys
-import os
 import re
-from ufal.udpipe import Model, Pipeline
-import time
-import gzip
 
 
 def tokeniseall(s, lang=None):
@@ -19,7 +14,7 @@ def tokeniseall(s, lang=None):
     punct = r'([\[\]\(\),\.-/":<>”?“!»«‒‖–‗—‘―’‚‛„†‡‰‱′″‴‵‶‷‸‹›¡¿+|’;%‘*=&°@ ~>§©$])'
     res = re.sub(punct, r' \1 ', res0)
     
-    # take care of contracted forms
+    # tokenise contracted forms for English
     if lang == 'en':
         contract = ["'m", "'d", "'ll", "'re", "'s", "'ve"]
         search_for = re.compile("|".join(contract))
@@ -139,7 +134,7 @@ def unify_sym(text):  # принимает строку в юникоде
     
     return cleaned_text
 
-##### MOST FILTERING HAPPENS HERE #############
+##### MOST FILTERING CAN BE SET UP HERE #############
 # filter out selected token categories: punctuation, fuction words or stop words, etc
 def check_word(token, pos, nofunc=None, nopunct=None, noshort=True, stopwords=None, lose_NUM=False):
     if lose_NUM:
@@ -161,12 +156,13 @@ def check_word(token, pos, nofunc=None, nopunct=None, noshort=True, stopwords=No
     
     return token
 
-def postprocess_ud(ud_annotated, outfile, sentencebreaks=True, entities=None, lang=None):
+
+def postprocess_ud(ud_annotated, outfile, entities=None, lang=None):
   
     if entities is None:
         entities = {'PROPN'}
         
-    tempfile0 = open(outfile, 'w')
+    lempos0 = open(outfile, 'w')
 
     nr_lines = 0
     named = False
@@ -177,14 +173,12 @@ def postprocess_ud(ud_annotated, outfile, sentencebreaks=True, entities=None, la
     content = [l for l in ud_annotated.split('\n') if not l.startswith('#')]
     for line in content:
         if not line.strip():
-            # if sentencebreaks:
-            #     tempfile0.write('\n')
             named = False
             if memory:
                 past_lemma = '::'.join(memory)
                 memory = []
-                tempfile0.write(past_lemma + '_PROPN ')  # Lemmas and POS tags
-                # print('NER Print1 (after sentencebreak):\t'+ past_lemma + '_PROPN ', file=sys.stderr)
+                lempos0.write(past_lemma + '_PROPN ')
+
             continue
         res = line.strip().split('\t')
         if len(res) != 10:
@@ -193,18 +187,20 @@ def postprocess_ud(ud_annotated, outfile, sentencebreaks=True, entities=None, la
         nr_lines += 1
         token = clean_token(token, misc, lang=lang)
         cleaned_lemma = clean_lemma(lemma, pos)
-        lemma = check_word(cleaned_lemma, pos, nofunc=None, lose_NUM=True) # if you want filtering pass keyworded params here: add lists or select True/False
+        
+        # if you want filtering pass keyworded params here: add lists or select True/False
+        lemma = check_word(cleaned_lemma, pos, nofunc=None, lose_NUM=True)
         
         if not lemma and not token:
             continue
         if pos in entities:
             if '|' not in feats:
                 # tagging unigram PROPN
-                tempfile0.write('%s_%s ' % (lemma, pos))
+                lempos0.write('%s_%s ' % (lemma, pos))
                 continue
             morph = {el.split('=')[0]: el.split('=')[1] for el in feats.split('|')}
             if 'Case' not in morph or 'Number' not in morph:
-                tempfile0.write('%s_%s ' % (lemma, pos))
+                lempos0.write('%s_%s ' % (lemma, pos))
                 continue
             if not named:
                 named = True
@@ -216,39 +212,40 @@ def postprocess_ud(ud_annotated, outfile, sentencebreaks=True, entities=None, la
                     named = False
                     past_lemma = '::'.join(memory)
                     memory = []
-                    tempfile0.write(past_lemma + '_PROPN ')
-                    tempfile0.write('\n')
+                    lempos0.write(past_lemma + '_PROPN ')
+                    lempos0.write('\n')
             else:
                 named = False
                 past_lemma = '::'.join(memory)
                 memory = []
-                tempfile0.write(past_lemma + '_PROPN ')
-                tempfile0.write('%s_%s ' % (lemma, pos))
+                lempos0.write(past_lemma + '_PROPN ')
+                lempos0.write('%s_%s ' % (lemma, pos))
         else:
             if not named:
-                tempfile0.write('%s_%s ' % (lemma, pos))
+                lempos0.write('%s_%s ' % (lemma, pos))
             else:
                 named = False
                 past_lemma = '::'.join(memory)
                 memory = []
-                tempfile0.write(past_lemma + '_PROPN ')
+                lempos0.write(past_lemma + '_PROPN ')
                 
-                tempfile0.write('%s_%s ' % (lemma, pos))
+                lempos0.write('%s_%s ' % (lemma, pos))
                 
         if 'SpacesAfter=\\n' in misc or 'SpacesAfter=\s\\n' in misc:
-            tempfile0.write('\n')
+            lempos0.write('\n')
     
-    tempfile0.close()
+    lempos0.close()
+    
 
 # the three functions below represent options for what one might want to have as the output of parsing: *.conllu, *.lempos, *.sent_tok
-def do_conllu_only(pipeline, text, lang, ud_outf):
-    ## lose xml
+def do_conllu_only(pipeline, text, ud_outf, lang=None):
+    # lose xml
     text = cleanhtml(text)
-    ## take care of inverted commas, bad symbols, currencies, emptylines, indents
+    # take care of inverted commas, bad symbols, currencies, emptylines, indents
     res = unify_sym(text.strip())
-    ## adding the tokenization routine to the good input
+    # adding the tokenization routine to the good input
     res = tokeniseall(res, lang=lang) # this does not tokenise sentences!!
-    ## get the default conllu annotation
+    # get the default conllu annotation
     ud_tagged = pipeline.process(res)
     
     with open(ud_outf, 'w') as udout:
@@ -259,83 +256,10 @@ def do_conllu_lempos(pipeline, text, ud_outf, lempos_outf, lang=None):
     
     res = tokeniseall(text, lang=lang)
     
-    ## get the default conllu annotation
+    # get the default conllu annotation
     ud_tagged = pipeline.process(res)
     # write it to file
     with open(ud_outf, 'w') as udout:
         udout.write(ud_tagged)
         
-    ## the default settings for postprocessing in the internal check_word function:
-    # nofunc=None, nopunct=None, noshort=True, stopwords=None
     postprocess_ud(ud_tagged, lempos_outf, entities=None, lang=lang)
-
-def do_job(pipeline, text, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True, lang=None):
-    
-    ## lose xml
-    text = cleanhtml(text)
-    ## take care of inverted commas, bad symbols, currencies, emptylines, indents
-    res = unify_sym(text.strip())
-    ## adding the tokenization routine to the good sentence
-    
-    res = tokeniseall(res, lang=lang)
-    if txt_sents == False: # select false if you don't want one-sentence-per-line format!
-        with open(txt_outf, 'w') as out:
-            out.write(res)
-    
-    ## get the default conllu annotation
-    ud_tagged = pipeline.process(text)
-    
-    ## the default settings for postprocessing in the internal check_word function:
-    # nofunc=None, nopunct=None, noshort=True, stopwords=None
-    with open(ud_outf, 'w') as udout:
-        udout.write(ud_tagged)
-    
-    postprocess_ud(ud_tagged, temp_outf, sentencebreaks=txt_sents, entities=None, lang=lang)
-    
-    ## Do you want to skip short short and long sentences
-    text = open(temp_outf, 'r')
-    
-    with open(lempos_outf, 'w') as lempos_ed:
-        ### trying to delete empty lines
-        for line in text:
-            res = line.strip().split()
-            if 4 <= len(res) < 70:  ## see suggestions for data preprocessing http://www.statmt.org/wmt07/baseline.html referenced by FastText.py
-                line = line.strip()
-                lempos_ed.write(line)
-                lempos_ed.write('\n')
-    os.remove(temp_outf)
-    
-    # if you want to have a sentence- and word- tokenized txt
-    if txt_sents == True:
-        conllu = open(ud_outf, 'r').readlines()
-        with open(txt_outf, 'w') as out:
-            sentences = []
-            current_sentence = []
-            for line in conllu:
-                if line.strip() == '':
-                    if current_sentence:
-                        sentences.append(current_sentence)
-                        ## voila! get your fully tokenized output!
-                        ## this is where all words in the sentence are finally collected
-                        tokenized = ' '.join([w[2] for w in current_sentence])
-                        
-                        # print(tokenized, file=sys.stderr)
-                        out.write(tokenized + '\n')
-                        
-                    current_sentence = []
-            
-                    # if the number of sents can by divided by 1K without a remainder.
-                    if len(sentences) % 1000 == 0:
-                        print('I have already read %s sentences' % len(sentences), file=sys.stderr)
-                    continue
-                if line.strip().startswith('#'):
-                    continue
-                res = line.strip().split('\t')
-                (identifier, token, lemma, upos, xpos, feats, head, rel, misc1, misc2) = res
-                if '.' in identifier:  # ignore empty nodes possible in the enhanced representations
-                    continue
-                    
-                current_sentence.append((int(identifier), int(head), token, rel))
- 
-
-    lempos_ed.close()
