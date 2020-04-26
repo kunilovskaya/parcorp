@@ -129,7 +129,7 @@ def unify_sym(text):  # принимает строку в юникоде
             ('\u20BD\u0024\u00A3\u20A4\u20AC\u20AA\u2133\u20BE\u00A2\u058F\u0BF9\u20BC\u20A1\u20A0\u20B4\u20A7\u20B0\u20BF\u20A3\u060B\u0E3F\u20A9\u20B4\u20B2\u0192\u20AB\u00A5\u20AD\u20A1\u20BA\u20A6\u20B1\uFDFC\u17DB\u20B9\u20A8\u20B5\u09F3\u20B8\u20AE\u0192')
     
     alphabet = list \
-            ('\t\n\r абвгдеёзжийклмнопрстуфхцчшщьыъэюяАБВГДЕЁЗЖИЙКЛМНОПРСТУФХЦЧШЩЬЫЪЭЮЯ,.[]{}()=+-−*&^%$#@!~;:0123456789§/\|"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ')
+            ('\t\n\r абвгдеёзжийклмнопрстуфхцчшщьыъэюяАБВГДЕЁЗЖИЙКЛМНОПРСТУФХЦЧШЩЬЫЪЭЮЯ,.[]{}()=+-−*&^%$#@!?~;:0123456789§/\|"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ ')
     
     alphabet.append("'")
     
@@ -178,8 +178,8 @@ def postprocess_ud(ud_annotated, outfile, sentencebreaks=True, entities=None, la
     content = [l for l in ud_annotated.split('\n') if not l.startswith('#')]
     for line in content:
         if not line.strip():
-            if sentencebreaks:
-                tempfile0.write('\n')
+            # if sentencebreaks:
+            #     tempfile0.write('\n')
             named = False
             if memory:
                 past_lemma = '::'.join(memory)
@@ -252,12 +252,23 @@ def do_conllu_only(pipeline, text, lang, ud_outf):
     ## get the default conllu annotation
     ud_tagged = pipeline.process(res)
     
-    ## the default settings for postprocessing in the internal check_word function:
-    # nofunc=None, nopunct=None, noshort=True, stopwords=None
-    ## tagging NER, replacing NUM, considering sentence-paragraphs breaks in the raw text
-    ## skip short sentences
     with open(ud_outf, 'w') as udout:
         udout.write(ud_tagged)
+
+
+def do_conllu_lempos(pipeline, text, ud_outf, lempos_outf, lang=None):
+    
+    res = tokeniseall(text, lang=lang)
+    
+    ## get the default conllu annotation
+    ud_tagged = pipeline.process(res)
+    # write it to file
+    with open(ud_outf, 'w') as udout:
+        udout.write(ud_tagged)
+        
+    ## the default settings for postprocessing in the internal check_word function:
+    # nofunc=None, nopunct=None, noshort=True, stopwords=None
+    postprocess_ud(ud_tagged, lempos_outf, entities=None, lang=lang)
 
 def do_job(pipeline, text, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=True, lang=None):
     
@@ -282,13 +293,14 @@ def do_job(pipeline, text, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=
     
     postprocess_ud(ud_tagged, temp_outf, sentencebreaks=txt_sents, entities=None, lang=lang)
     
-    ## you want to skip short short and long sentences
+    ## Do you want to skip short short and long sentences
     text = open(temp_outf, 'r')
+    
     with open(lempos_outf, 'w') as lempos_ed:
         ### trying to delete empty lines
         for line in text:
             res = line.strip().split()
-            if 4 <= len(res) < 40:  ## see suggestions for data preprocessing http://www.statmt.org/wmt07/baseline.html referenced by FastText.py
+            if 4 <= len(res) < 70:  ## see suggestions for data preprocessing http://www.statmt.org/wmt07/baseline.html referenced by FastText.py
                 line = line.strip()
                 lempos_ed.write(line)
                 lempos_ed.write('\n')
@@ -307,6 +319,7 @@ def do_job(pipeline, text, txt_outf, ud_outf, temp_outf, lempos_outf, txt_sents=
                         ## voila! get your fully tokenized output!
                         ## this is where all words in the sentence are finally collected
                         tokenized = ' '.join([w[2] for w in current_sentence])
+                        
                         # print(tokenized, file=sys.stderr)
                         out.write(tokenized + '\n')
                         

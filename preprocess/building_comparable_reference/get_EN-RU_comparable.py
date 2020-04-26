@@ -1,7 +1,9 @@
 '''
 This script aims to reduce a random subset of ru_araneum corpus (4.9K texts) to a genre-comparable reference corpus for Yandex paralle web corpus (429 text pairs)
-(1) represent STs from a parallel corpus with fvectors
+(1) represent STs from a parallel corpus with the vectors of values for 10 functional dimensions
 (2) detect clusters in it or assume that it is homogeneous
+USAGE:
+python3 get_EN-RU_comparable.py
 '''
 
 import numpy as np
@@ -22,15 +24,14 @@ def get_meanFTDs(df):
 # Apply round off setting to whole notebook
 np.set_printoptions(precision=3)
 
-df1 = pd.read_csv('models/en_yandex_predicted_main.res', index_col='ID', sep='\t').sort_index()
-df2 = pd.read_csv('models/ru_araneum_predicted_main.res', index_col='ID', sep='\t').sort_index()
+df1 = pd.read_csv('en_yandex_predicted_main.res', index_col='ID', sep='\t').sort_index()
+df2 = pd.read_csv('ru_araneum_predicted_main.res', index_col='ID', sep='\t').sort_index()
 df1.name = 'en'
 df2.name = 'ru'
 print(df1.head(3))
 
 # print(get_meanFTDs(df1))
 # print(get_meanFTDs(df2))
-
 # measure internal corpus similarity (= homogeneity): get a square matrix of pairwise sims for each corpus
 simmat1, mean1 = calc_sim('euclidean', df1, df1)
 # print(simmat1.shape)
@@ -87,7 +88,7 @@ print(df1_less.shape)
 simmat_less, mean_less = calc_sim('euclidean', df1_less, df1_less)
 print('New homogeneity score EN: %.4f (vs %.4f before)' % (mean_less, mean1))
 
-with open('misc/en_discard_yandex_pairs.fns', 'w') as out1:
+with open('en_discard_yandex_pairs.fns', 'w') as out1:
     for i in to_discard:
         i = i.strip()
         out1.write(i + '\n')
@@ -115,7 +116,7 @@ all_fns = top1+top2+top3+top4
 # uncomment to get the list of the most_similar texts filenames
 # print(all_fns)
 # or save to a file:
-with open('misc/reduce_araneum_to_comparable_texts.fns', 'w') as out2:
+with open('reduce_araneum_to_comparable_texts.fns', 'w') as out2:
     for i in all_fns:
         i = i.strip()
         out2.write(i + '\n')

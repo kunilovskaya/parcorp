@@ -17,6 +17,8 @@ USAGE:
 -- go to parsing folder
 -- python3 raw2txt2conllu2lempos.py --raw cleandata/mock_data/ --outto parsed/ --lang en
 '''
+# used to parse the sources from the refined translationese for quality collection
+# python3 raw2txt2conllu2lempos.py --raw /home/u2/resources/corpora/hq_refined/translationese/raw/quality_source/ --outto /home/u2/resources/corpora/hq_refined/translationese/processed/sources/ --lang en
 
 import argparse
 import zipfile, io, sys
@@ -26,7 +28,7 @@ from smart_open import open
 parser = argparse.ArgumentParser()
 parser.add_argument('--raw', help="Path to a folder (or a tree of folders) of raw txt files", required=True)
 # processed makes sense as a dirname
-parser.add_argument('--outto', help="Path to the root folder to hold input/txt, conllu and lempos subs", required=True)
+parser.add_argument('--outto', help="Path to the root folder to hold txt, conllu and lempos subdirectories", required=True)
 parser.add_argument('--lang', type=str, required=True, help='Choose language: en, ru')
 
 args = parser.parse_args()
@@ -57,6 +59,8 @@ counter = 0
 rootout = args.outto
 os.makedirs(rootout, exist_ok=True)
 
+# this assumes that each subcorpus in a monolingual corpus is processed separately and
+# it uses the name of the rootfolder as a subfolder to be created in the outto to hold the tree output folders
 subcorp = args.raw.split('/')[-2]
 out = rootout + subcorp + '/'
 os.makedirs(out, exist_ok=True)

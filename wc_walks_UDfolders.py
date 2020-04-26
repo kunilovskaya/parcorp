@@ -3,7 +3,7 @@
 import os, sys
 from collections import defaultdict
 
-rootdir = "extract_translationese_features/parsed_data/"
+rootdir = "extract_translationese_features/parsed_data/regbalanced/"
 
 
 def wordcount(trees):
