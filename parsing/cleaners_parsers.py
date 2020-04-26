@@ -5,7 +5,6 @@
 
 import sys
 import os
-import wget
 import re
 from ufal.udpipe import Model, Pipeline
 import time
@@ -241,7 +240,7 @@ def postprocess_ud(ud_annotated, outfile, sentencebreaks=True, entities=None, la
     
     tempfile0.close()
 
-
+# the three functions below represent options for what one might want to have as the output of parsing: *.conllu, *.lempos, *.sent_tok
 def do_conllu_only(pipeline, text, lang, ud_outf):
     ## lose xml
     text = cleanhtml(text)

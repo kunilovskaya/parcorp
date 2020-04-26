@@ -1,59 +1,62 @@
 '''
-updated March 25, 2020
-based on https://github.com/akutuzov/webvectors/blob/master/preprocessing/rus_preprocessing_udpipe.py
+updated April 26, 2020
+This parsing setup assumes that you have a structure of folders representing your text categories for a language pair.
+The folderes have preprocessed (clean) files, i.e. for example sententence lengths normalisation and symbol unification has been performed if necessary
+The last folder name in the folder structure is the language index.
 
-pre-process multiling tree of folders with raw texts (not necessarily one-sent per line)
-into one-sent-per-line punct-tokenized txt, conllu corpus and a lempos corpus
+As the result of parsing you need the same folder structure containing
+-- UD-parsed texts (*.conllu)
+-- lemmatised and tagged files (*.lempos)
+No filtering is done, i.e. you get the output WITH punctuation, function words, numerals as they appear in the input
 
 The script expects:
-(1) a path to the root of the tree (last folder has lang index as the name) to be preprocessed
-(2) a path where to store the output; you don't have to create it, just say where to create it
-(3) the UD models for en, ru in the working folder (from which this script is run)
-(4) the preprocess_imports.py module with the functions to be imported
-(5) use conllu_only = True: switch to reduce the output to conllu only
+(1) a path to the root of the tree (last folder has the lang index as its name) to be preprocessed
+(2) the last folders in the structure should indicate the language (en, ru); these indices need to be passed to the --langs option
+(3) a path where to store the output; you don't have to create it, just say where to create it
+(4) the UD models for your languages in the working folder (from which this script is run)
+(5) UDpipe installed: pip install ufal.udpipe
+(6) the cleaners_parsers.py module with the functions to be imported
+(7) use conllu_only=True: it is a switch to reduce the output to *.conllu only
 
 USAGE:
 -- go to parsing folder
--- run: python3 raw_multi-ling-tree2txt2conllu2lempos.py --texts ../cleandata/mock_data/ --outto ../mock_parse/
+-- run: python3 multiling2conllu2lempos.py --texts ../cleandata/mock_data/ --outto ../mock_parse/ --langs en ru
 '''
 import os, sys
 from ufal.udpipe import Model, Pipeline
 import time
 import argparse
-from preprocess_functions import do_conllu_only, do_job
+from cleaners_parsers import do_conllu_only, do_job
 from smart_open import open
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--texts', help="Path to a folder (or a tree of folders) of prepared txt files", required=True)
-# processed makes sense as a dirname
-parser.add_argument('--outto', help="Path to the root folder to hold the resulting tree ending with sent_tok/, conllu/ and lempos/ subs", required=True)
-
-
+parser.add_argument('--rootdir', help="Path to a folder (or a tree of folders) of prepared txt files", required=True)
+parser.add_argument('--conllu_out', help="Path to the root folder to hold the resulting parsed data", required=True)
+parser.add_argument('--lempos_out', help="Path to the root folder to hold the resulting UD-tagged texts", required=True)
+parser.add_argument('--langs', nargs='+', default=['en','ru'], help='Pass language indices like so: --langs en ru')
 args = parser.parse_args()
 
 start = time.time()
 
-rootout = args.outto
-os.makedirs(rootout, exist_ok=True)
+parse_out = args.conllu_out
+os.makedirs(parse_out, exist_ok=True)
+languages = args.langs
 
-# do you really want all three formats of your corpus? I don't think so
+# do you really want lempos too?
 conllu_only = True
 
-# specify models for your languages (and stoplists, if required)
-# to use these lists, activate keyworded parameters in check_word function in preprocess_function module
-# STOPWORDS_FILE1 = '/path/to/ru_stopwords.txt'
-# stopwords = set([w.strip().lower() for w in smart_open(STOPWORDS_FILE1,'r').readlines()])
-# STOPWORDS_FILE2 = '/path/to/en_stopwords.txt'
-# stopwords = set([w.strip().lower() for w in smart_open(STOPWORDS_FILE2,'r').readlines()])
-# functional = set('ADP AUX CCONJ DET PART PRON SCONJ PUNCT'.split())
-
-ru_udpipe_filename = 'udpipe_syntagrus.model'
-ru_model = Model.load(ru_udpipe_filename)
-ru_pipeline = Pipeline(ru_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
-
-en_udpipe_filename = 'english-ewt-ud-2.3-181115.udpipe'
-en_model = Model.load(en_udpipe_filename)
-en_pipeline = Pipeline(en_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
+for language in languages:
+    if language == 'ru':
+        ru_udpipe_filename = 'udpipe_syntagrus.model'
+        ru_model = Model.load(ru_udpipe_filename)
+        ru_pipeline = Pipeline(ru_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
+    elif language == 'en':
+        en_udpipe_filename = 'english-ewt-ud-2.3-181115.udpipe'
+        en_model = Model.load(en_udpipe_filename)
+        en_pipeline = Pipeline(en_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
+    else:
+        pipeline = None
+        print('Did yoy forget to indicate the language with the script argument --lang, ex. --lang en ?')
 
 print('UD models loaded')
 print('If you get no output and no errors, check the path to the cleandata')
@@ -66,7 +69,7 @@ for subdir, dirs, files in os.walk(args.texts):
         lang = os.path.abspath(last_folder).split('/')[lang_folder]
     
         if conllu_only:
-            out = rootout + '/'.join(last_folder.split('/')[-4:-1]) + '/'
+            out = parse_out + '/'.join(last_folder.split('/')[-4:-1]) + '/'
             os.makedirs(out, exist_ok=True)
             counter += 1
             filepath = subdir + os.sep + f
@@ -76,7 +79,7 @@ for subdir, dirs, files in os.walk(args.texts):
                 try:
                     text = input_text.read().strip()
                 except UnicodeDecodeError:
-                    print(f)
+                    print('Failed to read:', f)
                     continue
                 if lang == 'en':
                     do_conllu_only(en_pipeline, text, lang, ud_outf)
