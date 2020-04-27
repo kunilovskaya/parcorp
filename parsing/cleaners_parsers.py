@@ -240,11 +240,10 @@ def postprocess_ud(ud_annotated, outfile, entities=None, lang=None):
 # the three functions below represent options for what one might want to have as the output of parsing: *.conllu, *.lempos, *.sent_tok
 def do_conllu_only(pipeline, text, ud_outf, lang=None):
     # lose xml
-    text = cleanhtml(text)
+    # text = cleanhtml(text)
     # take care of inverted commas, bad symbols, currencies, emptylines, indents
     res = unify_sym(text.strip())
-    # adding the tokenization routine to the good input
-    res = tokeniseall(res, lang=lang) # this does not tokenise sentences!!
+
     # get the default conllu annotation
     ud_tagged = pipeline.process(res)
     
@@ -253,9 +252,20 @@ def do_conllu_only(pipeline, text, ud_outf, lang=None):
 
 
 def do_conllu_lempos(pipeline, text, ud_outf, lempos_outf, lang=None):
+    # temporary fixes just for this job: adjusting to the treebanks v2.3 training-set formatting!
+    text = re.sub("&apos;", "'", text)
+    text = re.sub("\*", "", text)
+
+    text = re.sub("т\.е\.", "т. е.", text)
+    text = re.sub("т\.д\.", "т. д.", text)
+    text = re.sub("т\.п\.", "т. п.", text)
+
+    foots = re.compile('\[\d\.\d\]:\s+#\s+note\d\.\d\.')
+    text = re.sub(foots, '.', text)
     
-    res = tokeniseall(text, lang=lang)
+    inis = re.sub(r'([А-Я]\.)([А-Я]\.)?\s?([А-Я])', r'\1 \2 \3', text)
     
+    res = unify_sym(inis.strip())
     # get the default conllu annotation
     ud_tagged = pipeline.process(res)
     # write it to file

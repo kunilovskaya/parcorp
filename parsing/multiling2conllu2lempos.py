@@ -43,10 +43,10 @@ start = time.time()
 
 languages = args.langs
 
-parse_out = 'conllu/'
+parse_out = '/home/u2/temp0_conllu/'
 os.makedirs(parse_out, exist_ok=True)
 if args.lempos:
-    lemp_out = 'lempos/'
+    lemp_out = '/home/u2/temp0_lempos/'
     os.makedirs(lemp_out, exist_ok=True)
 else:
     lemp_out = None
