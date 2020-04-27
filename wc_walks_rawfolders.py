@@ -1,13 +1,15 @@
-# coding: utf-8
+# count words in texts in each subdir below rootdir
 
-## count words in texts in each subdir below root
-
-import os, sys
+import os
 from collections import defaultdict
 import numpy as np
-import csv
+import argparse
 
-rootdir = "rawdata/"
+parser = argparse.ArgumentParser()
+parser.add_argument('--root', help="Path to a folder (or a tree of folders) of prepared txt files", required=True)
+args = parser.parse_args()
+
+rootdir = args.root
 
 tot_wc = defaultdict(list)
 fns = defaultdict(list)
