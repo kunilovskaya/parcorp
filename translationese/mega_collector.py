@@ -8,11 +8,13 @@ expected structure of folders: we store names of the last three folders as level
 For example:
 data hierachy: /your/path/anylength/parsed/register/status/lang/*.conllu, where parsed is the name of the input folder
 
-USAGE (from extract_translationese_features folder!): python3 mega_collector.py --input parsed/ --output mockdata.tsv --langs en ru
+USAGE (from extract_translationese_features folder!):
+python3 mega_collector.py --input parsed/ --output mock.tsv --langs en ru --levels doc genre type lang
 '''
 
 import csv
 from extractors import *
+from collections import defaultdict
 
 import argparse
 
@@ -20,6 +22,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--input', help="Path to the tree of folders with *.conllu named after your text categories", required=True)
 parser.add_argument('--output', default='mock_data.tsv', help="Path to, and name of, the resulting spreadsheet")
 parser.add_argument('--langs', nargs='+', default=['en','ru'], help='Pass language indices like so: --langs en ru')
+parser.add_argument('--levels', nargs='+', default=['doc', 'register','type', 'lang'], help='Depth of the folder structure under rootdir. Example: for clean/ted/ref/ru/ --levels doc register type lang')
 
 args = parser.parse_args()
 
@@ -28,15 +31,20 @@ outname = args.output  # mock_data.tsv
 
 # here, for each file we collect counts averaged over number of words or number of sentences
 # muted features: bypassives shorpassives andor wdlength mark nn
-keys = 'afile alang aregister astatus ' \
-       'sentlength ppron possdet indef cconj whconj relativ pied correl copula ' \
+meta = args.levels
+features = 'sentlength ppron possdet indef cconj whconj relativ pied correl copula ' \
        'attrib pasttense lexdens lexTTR mquantif mpred finites infs pverbals deverbals ' \
        'passives interrog sconj addit advers caus tempseq epist but comp ' \
        'sup neg numcls simple demdets nnargs mhd mdd acl aux ' \
        'aux:pass ccomp nsubj:pass parataxis xcomp'.split()
+print(type(meta), meta)
+print(type(features))
+
+keys = meta+features
+
 master_dict = {k: [] for k in keys}
 
-basic_stats = {}
+basic_stats = defaultdict(int)
 languages = args.langs
 
 adv_support = {}
@@ -85,36 +93,32 @@ for subdir, dirs, files in os.walk(input_dir):
     for i, file in enumerate(files):
         filepath = subdir + os.sep + file
         last_folder = subdir + os.sep
-        lang_folder = len(os.path.abspath(last_folder).split('/')) - 1  # 'ru', 'en'
-        language = os.path.abspath(last_folder).split('/')[lang_folder]
         
-        # data hierachy: /your/path/anylength/register/status/lang/*.conllu
+        path_to_last_folder = subdir
+        # levels has values for meta[1:] keys in the master and current dicts
+        levels = path_to_last_folder.split('/')[-(len(args.levels)-1):]
+        corp_id = "_".join(levels)
         
-        # this collects counts for every sentence in a document
-        # prepare for writing metadata:
-        lang, register, status = get_meta(last_folder)
-        meta_str = '_'.join(get_meta(last_folder))  # lang, register, status
+        language = levels[-1]
         
         if i % 50 == 0:
-            print('I have processed %s files from %s' % (i, meta_str.upper()), file=sys.stderr)
-            print('I have ignored %d all-punct-num sentences and %d less-than-4-words sents\n' % (
-            tot_bads, tot_shorts))
+            print('I have processed %s files from %s' % (i, corp_id.upper()), file=sys.stderr)
+            print('I have ignored %d all-punct-num sentences and %d less-than-4-words sents\n' % (tot_bads, tot_shorts))
             
         # don't forget the filename without extention
-        doc = os.path.splitext(os.path.basename(last_folder + filepath))[0]
-        
+        doc = file.rstrip('.conllu')
         data = open(filepath).readlines()
         
-        corp_id = lang + '_' + status + '_' + register
         sents, bads, shorts = get_trees(data)
         tot_bads += bads
         tot_shorts += shorts
-        if corp_id in basic_stats.keys():
-            basic_stats[corp_id] += len(sents)
-        else:
-            basic_stats[corp_id] = len(sents)
+
+        basic_stats[corp_id] += len(sents)
         
         current = {}
+        
+        # writing current filename to the output
+        current[args.levels[0]] = doc
         
         # call functions that operate at doc-level and write to dic for current file
         # get text parameters for normalization
@@ -277,10 +281,8 @@ for subdir, dirs, files in os.walk(input_dir):
             current[k] = val
         
         # get filename, text type (learner, pro, ref) and register to the features
-        current['afile'] = doc
-        current['alang'] = lang
-        current['aregister'] = register
-        current['astatus'] = status
+        for var,val in zip(args.levels[1:], levels):
+            current[var] = val
         
         # re-writing the dictionary to get the frequencies from all 10 subcorpora in one database to be written as a tsv spreadsheet
         for key in master_dict.keys():
