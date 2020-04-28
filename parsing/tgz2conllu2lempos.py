@@ -14,6 +14,7 @@ The script expects:
 USAGE:
 -- go to parsing folder
 -- python3 tgz2conllu2lempos.py --raw ~/temp/ --outto ~/enparsed/ --tgz_store ~/my_tgz/ --lang en
+Used:
 
 '''
 
