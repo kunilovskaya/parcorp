@@ -16,6 +16,35 @@ from collections import defaultdict
 from cleaners import sent_filter
 import numpy as np
 
+
+def bnc_detokeniser(text):
+    # BNC equivalent of double quotes
+    text = re.sub("‘ ", '"', text)
+    text = re.sub(" ’", '"', text)
+    
+    text = re.sub(r"\s(n't)", r'\1', text)
+    
+    text = re.sub(r'\s+([?.!:;,%)\]])', r'\1', text)
+    text = re.sub(r'([\[($£])+\s', r'\1', text)
+    
+    text = re.sub(r"\s…", r'...', text)
+    
+    contract = [" 'm", " 'd", " 'll", " 're", " 's", " 've"]
+    search_for = re.compile("|".join(contract))
+    text = search_for.sub(lambda x: x.group(0).strip(), text)
+    
+    text = re.sub("&apos;", "'", text)
+    detok = re.sub(r"\s'\s", r"' ", text)
+    
+    quotes = detok.count('"')
+    if quotes % 2 != 0:
+        detok_plus = re.sub('"', '', detok)
+    else:
+        detok_plus = detok
+    
+    return detok_plus
+
+
 def genres2files(doc, outf):
     sentences = doc.getElementsByTagName("s")
     wc = 0
@@ -34,6 +63,10 @@ def genres2files(doc, outf):
         # filtering short and long sentences outside 5-75 range (for tokenized text)
         sent = sent_filter(sent, min=5, max=75, lang='en')
         if sent:
+            
+            # it seems that tokenised BNC results in more parsing errors with UDpipe!
+            sent = bnc_detokeniser(sent)
+            
             words = sent.split()
             wc += len(words)
             outf.write(sent + '\n')
