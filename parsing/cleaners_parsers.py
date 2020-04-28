@@ -3,24 +3,9 @@
 # this module contains proprocessing functions: cleaning the texts, unifying characters and annotating with UDpipe
 # set the lang to get the right UD model!!
 
+import os
 import re
 
-
-def tokeniseall(s, lang=None):
-    # sibstitute 58,000 with 58000 for it to be treated as ONE number, not TWO with a comma
-    res0 = re.sub(r'(\d+),\s?(\d+)', r'\1\2', s)
-    
-    # properly separate punctuation
-    punct = r'([\[\]\(\),\.-/":<>”?“!»«‒‖–‗—‘―’‚‛„†‡‰‱′″‴‵‶‷‸‹›¡¿+|’;%‘*=&°@ ~>§©$])'
-    res = re.sub(punct, r' \1 ', res0)
-    
-    # tokenise contracted forms for English
-    if lang == 'en':
-        contract = ["'m", "'d", "'ll", "'re", "'s", "'ve"]
-        search_for = re.compile("|".join(contract))
-        res = search_for.sub(lambda x: ' ' + x.group(0), res)
-
-    return res
 
 def cleanhtml(raw_html):
     # get rid of fragmets of xml code
@@ -233,14 +218,15 @@ def postprocess_ud(ud_annotated, outfile, entities=None, lang=None):
                 
         if 'SpacesAfter=\\n' in misc or 'SpacesAfter=\s\\n' in misc:
             lempos0.write('\n')
-    
+            
     lempos0.close()
     
 
 # the three functions below represent options for what one might want to have as the output of parsing: *.conllu, *.lempos, *.sent_tok
-def do_conllu_only(pipeline, text, ud_outf, lang=None):
+def do_conllu_only(pipeline, text, ud_outf):
     # lose xml
     # text = cleanhtml(text)
+    
     # take care of inverted commas, bad symbols, currencies, emptylines, indents
     res = unify_sym(text.strip())
 
@@ -251,25 +237,16 @@ def do_conllu_only(pipeline, text, ud_outf, lang=None):
         udout.write(ud_tagged)
 
 
-def do_conllu_lempos(pipeline, text, ud_outf, lempos_outf, lang=None):
-    # temporary fixes just for this job: adjusting to the treebanks v2.3 training-set formatting!
-    text = re.sub("&apos;", "'", text)
-    text = re.sub("\*", "", text)
-
-    text = re.sub("т\.е\.", "т. е.", text)
-    text = re.sub("т\.д\.", "т. д.", text)
-    text = re.sub("т\.п\.", "т. п.", text)
-
-    foots = re.compile('\[\d\.\d\]:\s+#\s+note\d\.\d\.')
-    text = re.sub(foots, '.', text)
+def do_conllu2lempos(pipeline, text, ud_outf):
     
-    inis = re.sub(r'([А-Я]\.)([А-Я]\.)?\s?([А-Я])', r'\1 \2 \3', text)
+    res = unify_sym(text.strip())
     
-    res = unify_sym(inis.strip())
     # get the default conllu annotation
     ud_tagged = pipeline.process(res)
+    
     # write it to file
     with open(ud_outf, 'w') as udout:
         udout.write(ud_tagged)
         
-    postprocess_ud(ud_tagged, lempos_outf, entities=None, lang=lang)
+    return ud_tagged
+    

@@ -1,7 +1,6 @@
 '''
 April 26, 2020
 Given a folder of clean text data, get a folder with parsed texts in *.conllu format
-No cleaning, tokenisation or filtering performed!
 
 USAGE:
 -- install pip install ufal.udpipe
