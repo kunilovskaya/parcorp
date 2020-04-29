@@ -8,7 +8,7 @@ from collections import defaultdict
 OUT = 'aligned_docs/'
 os.makedirs(OUT, exist_ok=True)
 
-parcorp = 'media_prof2018.tmx'
+parcorp = '../formats/media-prof.tmx'
 
 en_dict = defaultdict(list)
 ru_dict = defaultdict(list)
