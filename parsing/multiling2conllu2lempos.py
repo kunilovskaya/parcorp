@@ -12,11 +12,12 @@ No filtering is done, i.e. you get the output WITH punctuation, function words, 
 The script expects:
 (1) a path to the root of the tree (last folder has the lang index as its name) to be preprocessed
 (2) the last folders in the structure should indicate the language (en, ru); these indices need to be passed to the --langs option
-(3) a path where to store the output; you don't have to create it, just say where to create it
-(4) the UD models for your languages in the working folder (from which this script is run)
+(3) adjust the names of the UD models in lines 56-60 for your languages; put the modela into the working dir (from which this script is run)
 (5) UDpipe installed: pip install ufal.udpipe
 (6) the cleaners_parsers.py module with the functions to be imported
-(7) use conllu_only=True: it is a switch to reduce the output to *.conllu only
+(7) use --lempos switch if you also want the lemmatised and tagged (*.lempos) format of your corpus
+
+The output folders are created in the working directory.
 
 USAGE:
 -- go to parsing folder
@@ -28,7 +29,7 @@ import os, sys
 from ufal.udpipe import Model, Pipeline
 import time
 import argparse
-from cleaners_parsers import do_conllu_only, do_conllu_lempos
+from cleaners_parsers import do_conllu_only, do_conllu2lempos, postprocess_ud
 from smart_open import open
 
 
@@ -43,10 +44,10 @@ start = time.time()
 
 languages = args.langs
 
-parse_out = '/home/u2/temp0_conllu/'
+parse_out = 'conllu/'
 os.makedirs(parse_out, exist_ok=True)
 if args.lempos:
-    lemp_out = '/home/u2/temp0_lempos/'
+    lemp_out = 'lempos/'
     os.makedirs(lemp_out, exist_ok=True)
 else:
     lemp_out = None
@@ -98,15 +99,16 @@ for subdir, dirs, files in os.walk(args.rootdir):
                 
             if args.lempos:
                 if lang == 'en':
-                    do_conllu_lempos(en_pipeline, text, ud_outf, lempos_outf, lang=lang)
+                    parsed = do_conllu2lempos(en_pipeline, text, ud_outf)
+                    postprocess_ud(parsed, lempos_outf, entities=None, lang=lang)
                 elif lang == 'ru':
-                    do_conllu_lempos(ru_pipeline, text, ud_outf, lempos_outf, lang=lang)
-                    
+                    parsed = do_conllu2lempos(ru_pipeline, text, ud_outf)
+                    postprocess_ud(parsed, lempos_outf, entities=None, lang=lang)
             else:
                 if lang == 'en':
-                    do_conllu_only(en_pipeline, text, ud_outf, lang=lang)
+                    do_conllu_only(en_pipeline, text, ud_outf)
                 elif lang == 'ru':
-                    do_conllu_only(ru_pipeline, text, ud_outf, lang=lang)
+                    do_conllu_only(ru_pipeline, text, ud_outf)
                     
             ### Monitor progress:
             if counter % 10 == 0:
