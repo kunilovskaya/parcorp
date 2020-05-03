@@ -103,7 +103,7 @@ for subdir, dirs, files in os.walk(args.rootdir):
                     postprocess_ud(parsed, lempos_outf, sentencebreaks=True, entities=None, lang=lang)
                 elif lang == 'ru':
                     parsed = do_conllu2lempos(ru_pipeline, text, ud_outf)
-                    postprocess_ud(parsed, lempos_outf, sentencebreaks=False, entities=None, lang=lang)
+                    postprocess_ud(parsed, lempos_outf, sentencebreaks=True, entities=None, lang=lang)
             else:
                 if lang == 'en':
                     do_conllu_only(en_pipeline, text, ud_outf)
