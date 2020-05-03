@@ -91,7 +91,7 @@ for tarball in fh:
                     
                 parsed = do_conllu2lempos(pipeline, text, ud_outf)
                 
-                postprocess_ud(parsed, lempos_outf, entities=None, lang=lang)
+                postprocess_ud(parsed, lempos_outf, sentencebreaks=True, entities=None, lang=lang)
                 
     # tarballing the new folders
     with tarfile.open(store + regfolder + '_conllu.tgz', 'w:gz') as contgz, tarfile.open(store + regfolder + '_lempos.tgz', 'w:gz') as lemtgz:

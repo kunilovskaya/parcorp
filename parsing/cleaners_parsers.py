@@ -142,7 +142,7 @@ def check_word(token, pos, nofunc=None, nopunct=None, noshort=True, stopwords=No
     return token
 
 
-def postprocess_ud(ud_annotated, outfile, entities=None, lang=None):
+def postprocess_ud(ud_annotated, outfile, sentencebreaks=True, entities=None, lang=None):
   
     if entities is None:
         entities = {'PROPN'}
@@ -158,6 +158,8 @@ def postprocess_ud(ud_annotated, outfile, entities=None, lang=None):
     content = [l for l in ud_annotated.split('\n') if not l.startswith('#')]
     for line in content:
         if not line.strip():
+            if sentencebreaks:
+                lempos0.write('\n')
             named = False
             if memory:
                 past_lemma = '::'.join(memory)
@@ -216,9 +218,9 @@ def postprocess_ud(ud_annotated, outfile, entities=None, lang=None):
                 
                 lempos0.write('%s_%s ' % (lemma, pos))
                 
-        if 'SpacesAfter=\\n' in misc or 'SpacesAfter=\s\\n' in misc:
-            lempos0.write('\n')
-            
+        if not sentencebreaks:
+            if 'SpacesAfter=\\n' in misc or 'SpacesAfter=\s\\n' in misc:
+                lempos0.write('\n')
     lempos0.close()
     
 

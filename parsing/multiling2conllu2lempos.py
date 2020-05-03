@@ -63,7 +63,7 @@ for language in languages:
         en_pipeline = Pipeline(en_model, 'tokenize', Pipeline.DEFAULT, Pipeline.DEFAULT, 'conllu')
     else:
         pipeline = None
-        print('Did yoy forget to indicate the language with the script argument --lang, ex. --lang en ?')
+        print('Did you forget to indicate the language with the script argument --lang, ex. --lang en ?')
 
 print('UD models loaded')
 print('If you get no output and no errors, check the path to the input')
@@ -100,10 +100,10 @@ for subdir, dirs, files in os.walk(args.rootdir):
             if args.lempos:
                 if lang == 'en':
                     parsed = do_conllu2lempos(en_pipeline, text, ud_outf)
-                    postprocess_ud(parsed, lempos_outf, entities=None, lang=lang)
+                    postprocess_ud(parsed, lempos_outf, sentencebreaks=True, entities=None, lang=lang)
                 elif lang == 'ru':
                     parsed = do_conllu2lempos(ru_pipeline, text, ud_outf)
-                    postprocess_ud(parsed, lempos_outf, entities=None, lang=lang)
+                    postprocess_ud(parsed, lempos_outf, sentencebreaks=False, entities=None, lang=lang)
             else:
                 if lang == 'en':
                     do_conllu_only(en_pipeline, text, ud_outf)
@@ -113,6 +113,8 @@ for subdir, dirs, files in os.walk(args.rootdir):
             ### Monitor progress:
             if counter % 10 == 0:
                 print('%s files processed' % counter, file=sys.stderr)
+
+
 
 end = time.time()
 processing_time = int(end - start)

@@ -6,7 +6,7 @@ USAGE:
 -- install pip install ufal.udpipe
 -- choose and download a model for your language (description, inc. performance: http://ufal.mff.cuni.cz/udpipe/models#universal_dependencies_25_models)
 -- go to parsing folder
--- run: python3 simple_UDparser.py --input en_media/ --output en_media_conllu --model english-ewt-ud-2.3-181115.udpipe
+-- run: python3 simple_UDparser.py --input en_media/ --output en_media_conllu/ --model english-ewt-ud-2.3-181115.udpipe
 '''
 
 
